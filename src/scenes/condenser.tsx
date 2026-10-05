@@ -11,7 +11,7 @@ export default makeScene2D(function* (view) {
     color: C.hot,
     title: '3 · Condenser – heat released',
     intro: 'Step 3: the hot, high-pressure gas flows into the condenser.',
-    focus: {local: [600, 0], scale: 1.2, screen: [480, -60]},
+    focus: {local: [600, 0], scale: 1.1, screen: [480, -40]},
     panel: 'left',
     meters: {
       x: 560,

@@ -55,9 +55,9 @@ export default makeScene2D(function* (view) {
         lineWidth={5}
       />
       <Txt
-        x={-720}
+        x={720}
         y={-285}
-        anchor={[-1, 0]}
+        anchor={[1, 0]}
         text={'CLOSED KITCHEN'}
         fontFamily={FONT}
         fontWeight={800}
@@ -94,12 +94,12 @@ export default makeScene2D(function* (view) {
         {[-60, 40, 140].map(y => (
           <HeatArrow from={[520, y]} to={[290, y]} phase={phase} color={C.coldMid} />
         ))}
-        <Txt x={420} y={-130} text={'Qin'} fontFamily={FONT} fontWeight={800} fontSize={40} fill={C.cold} />
-        <Txt x={420} y={-90} text={'heat taken from kitchen air'} fontFamily={FONT} fontWeight={600} fontSize={22} fill={C.cold} />
+        <Txt x={410} y={-160} text={'Qin'} fontFamily={FONT} fontWeight={800} fontSize={40} fill={C.cold} />
+        <Txt x={410} y={-120} text={'heat taken from kitchen air'} fontFamily={FONT} fontWeight={600} fontSize={22} fill={C.cold} />
       </Node>
       {/* heat dumped back into kitchen */}
       <Node ref={outArrows} opacity={0}>
-        {[-80, 0, 80, 160].map(y => (
+        {[-30, 50, 130, 210].map(y => (
           <HeatArrow from={[-190, y]} to={[-480, y]} phase={phase} />
         ))}
         <Txt x={-340} y={-150} text={'Qout = Qin + Win'} fontFamily={FONT} fontWeight={800} fontSize={40} fill={C.warm} />
