@@ -1,0 +1,308 @@
+<title>Build a Full Adder</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+/* Layout: one reading column; the video and the live kit get the full column width. */
+:root {
+  --bg: #EDF1F2; --surface: #FFFFFF; --sunk: #E2E8EA; --fg: #13212B; --muted: #566A76; --line: #CCD6DA;
+  --accent: #0B7480; --amber: #B86A00; --pink: #C2306F; --ok: #2E8B47;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0E1820; --surface: #172631; --sunk: #0A1218; --fg: #EAF1F5; --muted: #8DA3B2; --line: #2A3E4C;
+  --accent: #5CCAD8; --amber: #FFB23F; --pink: #FF6FAE; --ok: #67DB7C; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0E1820; --surface: #172631; --sunk: #0A1218; --fg: #EAF1F5; --muted: #8DA3B2; --line: #2A3E4C;
+  --accent: #5CCAD8; --amber: #FFB23F; --pink: #FF6FAE; --ok: #67DB7C; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 16px/1.6 var(--body); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 28px 64px; display: grid; gap: 40px; }
+header { display: grid; gap: 8px; }
+.eyebrow { font: 600 15px var(--display); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 700 clamp(44px, 7vw, 76px)/0.95 var(--display); letter-spacing: .01em; margin: 0; text-wrap: balance; }
+h2 { font: 700 34px/1.05 var(--display); letter-spacing: .02em; margin: 0 0 6px; text-wrap: balance; }
+.lede { color: var(--muted); font-size: 18px; max-width: 64ch; margin: 0; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.facts span { font: 500 14px var(--mono); padding: 4px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); }
+
+/* player */
+.player { background: #0E1820; border-radius: 14px; overflow: hidden; position: relative; }
+.player canvas { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; max-width: 100%; cursor: pointer; }
+.bigplay { position: absolute; inset: 0; margin: auto; width: max-content; height: max-content; padding: 14px 26px;
+  font: 700 24px var(--display); letter-spacing: .08em; text-transform: uppercase; color: #0E1820; background: #FFB23F;
+  border: 0; border-radius: 999px; cursor: pointer; box-shadow: 0 8px 30px #0008; }
+.bigplay:focus-visible, .ctrl button:focus-visible, .chap:focus-visible, .seg button:focus-visible, .sw:focus-visible { outline: 3px solid #5CCAD8; outline-offset: 2px; }
+.ctrl { display: flex; align-items: center; gap: 12px; padding: 10px 14px; background: #13222D; color: #EAF1F5; flex-wrap: wrap; }
+.ctrl button { background: #1F3646; color: #EAF1F5; border: 0; border-radius: 8px; padding: 6px 12px; font: 600 14px var(--body); cursor: pointer; min-width: 44px; }
+.ctrl button[aria-pressed="true"] { background: #5CCAD8; color: #0E1820; }
+.ctrl input[type=range] { flex: 1 1 200px; min-width: 0; accent-color: #FFB23F; }
+.time { font: 500 14px var(--mono); font-variant-numeric: tabular-nums; color: #8DA3B2; }
+.note { font-size: 14px; color: var(--muted); margin: 8px 0 0; }
+
+.chapters { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 6px; margin-top: 14px; }
+.chap { display: flex; gap: 10px; align-items: baseline; text-align: left; background: transparent; color: var(--fg); border: 1px solid transparent;
+  border-radius: 8px; padding: 6px 10px; cursor: pointer; font: 15px var(--body); min-width: 0; }
+.chap:hover { border-color: var(--line); }
+.chap.on { border-color: var(--accent); background: var(--surface); }
+.chap b { font: 600 13px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* lab */
+.lab { display: grid; gap: 14px; }
+.labstage { background: #0E1820; border-radius: 14px; overflow: hidden; }
+.labstage canvas { display: block; width: 100%; height: auto; aspect-ratio: 2 / 1; max-width: 100%; }
+.labbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.sw { display: inline-flex; align-items: center; gap: 8px; font: 700 20px var(--display); letter-spacing: .05em; padding: 8px 16px; border-radius: 10px;
+  border: 2px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.sw i { font: 600 18px var(--mono); font-style: normal; color: var(--muted); }
+.sw[aria-pressed="true"] { border-color: var(--amber); }
+.sw[aria-pressed="true"] i { color: var(--amber); }
+.readout { font: 500 17px var(--mono); padding: 10px 14px; background: var(--surface); border-radius: 10px; border: 1px solid var(--line); flex: 1 1 320px; min-width: 0; }
+.readout .s { color: var(--amber); font-weight: 600; } .readout .c { color: var(--pink); font-weight: 600; }
+.seg { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.seg span { font-size: 14px; color: var(--muted); margin-right: 6px; }
+.seg button { font: 600 14px var(--body); padding: 6px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+
+/* tables & reference */
+.cols { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+@media (max-width: 860px) { .cols { grid-template-columns: minmax(0, 1fr); } }
+.tbl { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--line); vertical-align: middle; }
+th { font: 600 13px var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td.n { font: 500 14px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; vertical-align: -1px; margin-right: 6px; border: 1px solid #0003; }
+tr.done td:not(:first-child) { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--line); }
+input[type=checkbox] { width: 18px; height: 18px; accent-color: var(--ok); }
+.tt td, .tt th { text-align: center; font-family: var(--mono); padding: 6px 8px; }
+.tt tr.live td { background: color-mix(in srgb, var(--accent) 16%, transparent); }
+.tt .one { color: var(--fg); font-weight: 600; } .tt .zero { color: var(--muted); opacity: .6; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+.card h3 { font: 700 22px var(--display); letter-spacing: .03em; margin: 0 0 6px; }
+.card p, .card li { margin: 0; color: var(--muted); }
+.card ul { padding-left: 18px; margin: 0; display: grid; gap: 4px; }
+.mono { font-family: var(--mono); }
+.stack { display: grid; gap: 14px; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Digital logic · hands-on</div>
+    <h1>Build a Full Adder</h1>
+    <p class="lede">A narrated walkthrough that starts from adding numbers by hand and ends with three chips glowing on your trainer kit. Watch the video, then flip the switches on the virtual kit below and check off each wire as you build.</p>
+    <div class="facts"><span id="dur">12 min</span><span>3 chips: 7486 · 7408 · 7432</span><span>20 wires</span><span>no background needed</span></div>
+  </header>
+
+  <section aria-label="Explainer video">
+    <div class="player">
+      <canvas id="vid" width="1920" height="1080" aria-label="Animated explainer"></canvas>
+      <button class="bigplay" id="bigplay">▶ Play with narration</button>
+      <div class="ctrl">
+        <button id="pp" aria-label="Play">▶</button>
+        <span class="time" id="time">0:00 / 0:00</span>
+        <input type="range" id="seek" min="0" max="100" step="0.1" value="0" aria-label="Seek">
+        <button id="cc" aria-pressed="true" title="Captions">CC</button>
+        <button id="mute" aria-pressed="false" title="Mute">Mute</button>
+        <button id="fs" title="Fullscreen">⛶</button>
+      </div>
+    </div>
+    <p class="note">Space plays and pauses, arrow keys skip 5 seconds. The same video with sound is in the repository as an MP4.</p>
+    <div class="chapters" id="chapters"></div>
+  </section>
+
+  <section class="lab" aria-label="Virtual trainer kit">
+    <div>
+      <h2>Try it on the virtual kit</h2>
+      <p class="lede">This is the finished build from the video. Click switches S1–S3 on the board, or use the buttons. Bright wires carry 5 V (a 1). Pick a step to see only the wires added in that step.</p>
+    </div>
+    <div class="labstage"><canvas id="lab" width="1800" height="900" aria-label="Trainer kit with full adder wiring"></canvas></div>
+    <div class="labbar">
+      <button class="sw" id="swA" aria-pressed="false">A <i>0</i></button>
+      <button class="sw" id="swB" aria-pressed="false">B <i>0</i></button>
+      <button class="sw" id="swC" aria-pressed="false">Cin <i>0</i></button>
+      <div class="readout" id="readout" aria-live="polite"></div>
+    </div>
+    <div class="seg" id="steps"><span>Show wiring:</span></div>
+  </section>
+
+  <section class="cols">
+    <div>
+      <h2>Wiring checklist</h2>
+      <p class="note" style="margin:0 0 10px">Tick each wire as you place it. Ticks stay in this browser.</p>
+      <div class="tbl"><table id="wires"><thead><tr><th></th><th>#</th><th>Step</th><th>From</th><th>To</th></tr></thead><tbody></tbody></table></div>
+    </div>
+    <div class="stack">
+      <div>
+        <h2>Truth table</h2>
+        <div class="tbl"><table class="tt" id="tt"><thead><tr><th>A</th><th>B</th><th>Cin</th><th>ones</th><th>Carry</th><th>Sum</th></tr></thead><tbody></tbody></table></div>
+      </div>
+      <div class="card">
+        <h3>The two rules</h3>
+        <ul>
+          <li><b style="color:var(--amber)">Sum</b> is on when an <b>odd</b> number of inputs are on.<br><span class="mono">S = A ⊕ B ⊕ Cin</span></li>
+          <li><b style="color:var(--pink)">Carry</b> is on when <b>two or more</b> inputs are on.<br><span class="mono">Cout = A·B + Cin·(A ⊕ B)</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Pinout (all three chips)</h3>
+        <ul class="mono" style="font-size:14px">
+          <li>gate 1: in 1, 2 → out 3</li>
+          <li>gate 2: in 4, 5 → out 6</li>
+          <li>pin 14 = VCC (+5 V) · pin 7 = GND</li>
+          <li>notch left → pin 1 bottom-left, count counter-clockwise</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Parts</h3>
+        <ul>
+          <li>74LS86 or 74HC86 (quad XOR)</li>
+          <li>74LS08 or 74HC08 (quad AND)</li>
+          <li>74LS32 or 74HC32 (quad OR)</li>
+          <li>20 jumper wires, trainer kit with +5 V, switches, LEDs</li>
+          <li>HC chips: tie unused inputs 9, 10, 12, 13 to GND</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+
+<audio id="aud" src="narration.mp3" preload="auto"></audio>
+<script src="timeline.js"></script>
+<script src="fulladder.js"></script>
+<script>
+(function () {
+  const TL = window.TIMELINE, total = TL.total;
+  const cv = document.getElementById('vid'), ctx = cv.getContext('2d');
+  const aud = document.getElementById('aud');
+  const pp = document.getElementById('pp'), seek = document.getElementById('seek'), timeEl = document.getElementById('time');
+  const big = document.getElementById('bigplay'), ccBtn = document.getElementById('cc'), muteBtn = document.getElementById('mute');
+  seek.max = total;
+  const fmt = s => Math.floor(s / 60) + ':' + String(Math.floor(s % 60)).padStart(2, '0');
+  document.getElementById('dur').textContent = Math.round(total / 60) + ' min';
+  let t = 0, started = false, playing = false, last = 0, audioOK = true, captions = true, dirty = true, curScene = -1;
+  aud.addEventListener('error', () => { audioOK = false; });
+
+  // chapters
+  const chEl = document.getElementById('chapters');
+  const chBtns = TL.scenes.map((s, i) => {
+    const b = document.createElement('button'); b.className = 'chap';
+    b.innerHTML = `<b>${fmt(s.start)}</b><span>${String(i + 1).padStart(2, '0')} · ${s.title}</span>`;
+    b.onclick = () => { setT(s.start + 0.05); };
+    chEl.appendChild(b); return b;
+  });
+
+  function sizeCanvas() {
+    const r = cv.getBoundingClientRect(), dpr = Math.min(2, window.devicePixelRatio || 1);
+    const w = Math.max(320, Math.round(r.width * dpr));
+    if (cv.width !== w) { cv.width = w; cv.height = Math.round(w * 9 / 16); dirty = true; }
+  }
+  function setT(v) {
+    t = Math.max(0, Math.min(total, v)); started = true;
+    if (audioOK) { try { aud.currentTime = t; } catch (e) {} }
+    dirty = true;
+  }
+  function play() {
+    if (t >= total - 0.05) setT(0);
+    playing = true; started = true; big.hidden = true; pp.textContent = '❚❚'; pp.setAttribute('aria-label', 'Pause');
+    if (audioOK) { try { aud.currentTime = t; } catch (e) {} aud.play().catch(() => { audioOK = false; }); }
+  }
+  function pause() { playing = false; pp.textContent = '▶'; pp.setAttribute('aria-label', 'Play'); aud.pause(); }
+  const toggle = () => (playing ? pause() : play());
+  pp.onclick = toggle; big.onclick = play; cv.onclick = toggle;
+  seek.oninput = () => setT(+seek.value);
+  ccBtn.onclick = () => { captions = !captions; ccBtn.setAttribute('aria-pressed', captions); dirty = true; };
+  muteBtn.onclick = () => { aud.muted = !aud.muted; muteBtn.setAttribute('aria-pressed', aud.muted); };
+  document.getElementById('fs').onclick = () => { const el = cv.parentElement; (el.requestFullscreen ? el.requestFullscreen() : Promise.reject()).catch(() => {}); };
+  document.addEventListener('keydown', e => {
+    if (e.target.closest('input,button,textarea')) { if (e.target !== seek) return; }
+    if (e.code === 'Space') { e.preventDefault(); toggle(); }
+    if (e.code === 'ArrowRight') setT(t + 5);
+    if (e.code === 'ArrowLeft') setT(t - 5);
+  });
+
+  function frame(now) {
+    const dt = last ? Math.min(0.1, (now - last) / 1000) : 0; last = now;
+    if (playing) {
+      if (audioOK && !aud.paused && aud.readyState >= 2) t = aud.currentTime; else t += dt;
+      if (t >= total) { t = total; pause(); }
+      dirty = true;
+    }
+    sizeCanvas();
+    if (dirty || playing) {
+      const poster = !started && t === 0;
+      const info = FA.drawFrame(ctx, poster ? 4.5 : t, { scale: cv.width / 1920, captions: captions && !poster });
+      seek.value = t; timeEl.textContent = fmt(t) + ' / ' + fmt(total);
+      if (info.index !== curScene) { chBtns.forEach((b, i) => b.classList.toggle('on', i === info.index)); curScene = info.index; }
+      // keep animating paused frames so glowing wires still flow
+      dirty = true;
+    }
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  // ---------------- lab ----------------
+  const lab = document.getElementById('lab'), lctx = lab.getContext('2d');
+  const state = { A: 0, B: 0, C: 0 }, lever = { A: 0, B: 0, C: 0 };
+  let step = 8, focus = null;
+  const btn = { A: document.getElementById('swA'), B: document.getElementById('swB'), C: document.getElementById('swC') };
+  function flip(n) { state[n] ^= 1; sync(); }
+  Object.keys(btn).forEach(n => (btn[n].onclick = () => flip(n)));
+  function sync() {
+    const s = FA.evalFA(state.A, state.B, state.C), n = state.A + state.B + state.C;
+    Object.keys(btn).forEach(k => { btn[k].setAttribute('aria-pressed', !!state[k]); btn[k].querySelector('i').textContent = state[k]; });
+    const wired = step >= 8;
+    document.getElementById('readout').innerHTML = wired
+      ? `${n} input${n === 1 ? '' : 's'} on → ${n % 2 ? 'odd' : 'even'}, ${n >= 2 ? 'two or more' : 'fewer than two'} → <span class="c">Carry ${s.CO}</span> <span class="s">Sum ${s.S}</span> &nbsp;(lights read ${s.CO}${s.S} = ${n})`
+      : `Showing the board after step ${focus}. Choose "All" to see the finished circuit working.`;
+    document.querySelectorAll('#tt tbody tr').forEach((tr, i) => tr.classList.toggle('live', wired && i === state.A * 4 + state.B * 2 + state.C));
+  }
+  lab.addEventListener('click', e => {
+    const r = lab.getBoundingClientRect(), x = (e.clientX - r.left) / r.width * 1800, y = (e.clientY - r.top) / r.height * 900;
+    for (const h of FA.LAB_HITS) if (x >= h.x && x <= h.x + h.w && y >= h.y && y <= h.y + h.h) flip(h.net);
+  });
+  lab.style.cursor = 'pointer';
+  const stepsEl = document.getElementById('steps');
+  const stepBtns = [];
+  [...FA.STEPS.map(s => [s.n, s.n + ' · ' + s.short]), [8, 'All']].forEach(([n, lab_]) => {
+    const b = document.createElement('button'); b.textContent = lab_; b.setAttribute('aria-pressed', n === 8);
+    b.onclick = () => { step = n; focus = n === 8 ? null : n; stepBtns.forEach(x => x.setAttribute('aria-pressed', x === b)); sync(); };
+    stepsEl.appendChild(b); stepBtns.push(b);
+  });
+  let lt0 = 0;
+  function labFrame(now) {
+    const r = lab.getBoundingClientRect(), dpr = Math.min(2, window.devicePixelRatio || 1);
+    const w = Math.max(320, Math.round(r.width * dpr));
+    if (lab.width !== w) { lab.width = w; lab.height = Math.round(w / 2); }
+    for (const k in lever) lever[k] += (state[k] - lever[k]) * 0.25;
+    const st = FA.evalFA(state.A, state.B, state.C);
+    FA.drawLab(lctx, st, { scale: lab.width / 1800, t: now / 1000, lever, step, focus, power: step >= 8 ? 1 : 0 });
+    requestAnimationFrame(labFrame);
+  }
+  requestAnimationFrame(labFrame);
+
+  // ---------------- truth table ----------------
+  const ttb = document.querySelector('#tt tbody');
+  for (let i = 0; i < 8; i++) {
+    const a = i >> 2 & 1, b = i >> 1 & 1, c = i & 1, s = FA.evalFA(a, b, c);
+    const td = v => `<td class="${v ? 'one' : 'zero'}">${v}</td>`;
+    ttb.insertAdjacentHTML('beforeend', `<tr>${td(a)}${td(b)}${td(c)}<td>${a + b + c}</td>${td(s.CO)}${td(s.S)}</tr>`);
+  }
+  // ---------------- wiring checklist ----------------
+  const KEY = 'fa-wires-v1';
+  let done = {};
+  try { done = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { done = {}; }
+  const wb = document.querySelector('#wires tbody');
+  FA.WIRES.forEach((w, i) => {
+    const tr = document.createElement('tr');
+    const col = w.col === '#26272B' ? '#26272B' : w.col;
+    tr.innerHTML = `<td><input type="checkbox" id="w${i}" aria-label="Wire ${i + 1} placed"></td><td class="n">${i + 1}</td><td class="n">${Math.floor(w.step)}</td><td><span class="dot" style="background:${col}"></span>${w.from}</td><td>${w.to}</td>`;
+    const cb = tr.querySelector('input'); cb.checked = !!done[i]; tr.classList.toggle('done', cb.checked);
+    cb.onchange = () => { done[i] = cb.checked; tr.classList.toggle('done', cb.checked); try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {} };
+    wb.appendChild(tr);
+  });
+  sync();
+})();
+</script>

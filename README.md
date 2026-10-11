@@ -22,3 +22,26 @@ Press **RENDER** in the editor (image sequence → `output/`), then:
 ffmpeg -framerate 30 -i output/how-a-refrigerator-works/%06d.jpeg \
   -c:v libx264 -crf 22 -pix_fmt yuv420p video/how-a-refrigerator-works.mp4
 ```
+
+---
+
+# Build a Full Adder – narrated explainer + virtual trainer kit
+
+A ~12.5-minute narrated lesson that starts from adding numbers by hand and ends with a working full adder (7486 XOR, 7408 AND, 7432 OR) on a breadboard trainer kit. The big idea: **a full adder counts how many of its three inputs are on.** Sum = odd count, Carry = two or more.
+
+**Video:** [`video/full-adder-explained.mp4`](video/full-adder-explained.mp4) (1920×1080, 30 fps, voice narration, burned-in captions)
+
+**Interactive page:** [`full-adder/index.html`](full-adder/index.html) has the same video in a player with chapters, a clickable virtual kit (flip A/B/Cin and watch the wires glow), a 20-wire checklist, the truth table and the pinout.
+
+Chapters: adding one column · binary · count the ones · gates as tiny judges · building Sum · building Carry · full circuit through all 8 inputs · the trainer kit · how a breadboard connects · the three chips & pinout · 7 build steps · power-on test · troubleshooting · recap & 4-bit ripple adder.
+
+## Re-generating
+Plain canvas + JS, no build step. The narration text lives in `full-adder/script.json`.
+```bash
+# 1. narration (Piper TTS) -> timeline.js + narration.mp3
+pip install piper-tts   # plus a voice, e.g. en_US-lessac-high.onnx
+python full-adder/tools/build_narration.py $(which piper) en_US-lessac-high.onnx /tmp/cues
+# 2. frames -> MP4 (headless Chromium via Playwright, ffmpeg)
+node full-adder/tools/render.cjs video/full-adder-explained.mp4 3 30
+# stills for checking: node full-adder/tools/snap.cjs /tmp/snaps 120 300
+```

@@ -1,0 +1,103 @@
+[
+  {"id": "intro", "title": "Welcome", "cues": [
+    {"id": "i1", "text": "Every time a computer adds two numbers, it uses a little circuit called a full adder. By the end of this video, you will build one with your own hands, on a breadboard, and you will know why every single wire is there.", "min": 9},
+    {"id": "i2", "text": "You don't need any background. We start with adding numbers the way you did in school."}
+  ]},
+  {"id": "column", "title": "Adding one column", "cues": [
+    {"id": "c1", "text": "Let's add forty-seven plus thirty-eight, by hand. We work one column at a time, starting from the right."},
+    {"id": "c2", "text": "Seven plus eight is fifteen. Fifteen doesn't fit in one column. So we write down the five, and carry the one to the next column.", "min": 7},
+    {"id": "c3", "text": "Next column. Four plus three, plus the one we carried, makes eight. The answer is eighty-five."},
+    {"id": "c4", "text": "Now notice what each column really does. It takes in three things: a digit from the top number, a digit from the bottom number, and a carry coming in from the right. And it gives out two things: a digit to write down, and a carry to pass on to the left.", "min": 15},
+    {"id": "c5", "text": "Hold on to that picture. Three things in, two things out. That is exactly what a full adder is."}
+  ]},
+  {"id": "binary", "title": "Only zeros and ones", "cues": [
+    {"id": "b1", "text": "Computers don't have ten digits. They only have two: zero and one. Off and on. A switch that is down, or a switch that is up."},
+    {"id": "b2", "text": "So adding one column in binary is very simple. Zero plus zero is zero. Zero plus one is one."},
+    {"id": "b3", "text": "But one plus one is two, and there is no digit two. Two in binary is written one, zero. So we write down a zero, and carry a one. It's just like fifteen in decimal: write the five, carry the one.", "min": 11},
+    {"id": "b4", "text": "And if a carry is also coming in, one plus one plus one is three. Three in binary is one, one. Write down a one, and carry a one."}
+  ]},
+  {"id": "count", "title": "The big idea: count the ones", "cues": [
+    {"id": "k1", "text": "Here is our full adder as a closed box. Three inputs on the left: A, B, and Carry in. Two output lights on the right: Carry out, and Sum."},
+    {"id": "k2", "text": "And here is the secret that makes it easy. A full adder simply counts how many of its three inputs are switched on. Zero, one, two, or three. Then it shows that count in binary, on its two lights.", "min": 11},
+    {"id": "k3", "text": "Count zero: both lights off. Count one: only the Sum light. Count two: only the Carry light, because two is one, zero. Count three: both lights, because three is one, one.", "min": 14},
+    {"id": "k4", "text": "Here are all eight ways to set three switches. Next to each, the count, and the two lights. Look at the pattern."},
+    {"id": "k5", "text": "The Sum light is on whenever the count is odd: one, or three. The Carry light is on whenever two or more inputs are on.", "min": 9},
+    {"id": "k6", "text": "That is the whole full adder. Sum means: an odd number of ones. Carry means: two or more ones. Everything else is just building those two ideas out of parts."}
+  ]},
+  {"id": "gates", "title": "Logic gates: tiny judges", "cues": [
+    {"id": "g1", "text": "Our parts are called logic gates. Each gate looks at two inputs, and decides whether to turn its output on. Think of each one as a tiny judge with exactly one rule."},
+    {"id": "g2", "text": "The AND gate's rule: on, only if both inputs are on. Like a lamp wired through two switches in a row. You need both of them closed.", "min": 10},
+    {"id": "g3", "text": "The OR gate's rule: on, if either input is on, or both. Like two switches side by side. Either one can light the lamp.", "min": 10},
+    {"id": "g4", "text": "The XOR gate, short for exclusive or, has the most interesting rule: on, only if the two inputs are different. One on, one off. If both are on, it says no. Another way to say it: XOR is on when the number of ones is odd.", "min": 13},
+    {"id": "g5", "text": "That last sentence is the key. XOR is an odd detector. And our Sum light is exactly an odd detector."}
+  ]},
+  {"id": "sum", "title": "Building the Sum", "cues": [
+    {"id": "s1", "text": "So let's build the Sum. First, we XOR A with B. Its output answers one question: counting only A and B, is the number of ones odd?", "min": 9},
+    {"id": "s2", "text": "Then we XOR that answer with Carry in. If Carry in is off, the answer stays the same. If Carry in is on, it flips: odd becomes even, even becomes odd.", "min": 9},
+    {"id": "s3", "text": "So the final output is on exactly when the total count is odd. That is the Sum. Two XOR gates in a chain. Watch a few examples.", "min": 13}
+  ]},
+  {"id": "carry", "title": "Building the Carry", "cues": [
+    {"id": "r1", "text": "Now the Carry out. It must turn on when two or more inputs are on. There are only two ways that can happen."},
+    {"id": "r2", "text": "Way one: A and B are both on. That's simply an AND gate on A and B."},
+    {"id": "r3", "text": "Way two: exactly one of A or B is on, and Carry in is on too. But 'exactly one of A or B' is what our first XOR gate already tells us. So we reuse it: a second AND gate, on the XOR output and Carry in.", "min": 13},
+    {"id": "r4", "text": "If either way is true, we carry. Either, means an OR gate. So Carry out is the OR of our two AND gates."},
+    {"id": "r5", "text": "Reusing that XOR output is a neat trick. It saves parts, and it's the standard design you will see in every textbook."}
+  ]},
+  {"id": "circuit", "title": "The complete circuit", "cues": [
+    {"id": "f1", "text": "Here's the complete full adder. Two XOR gates, two AND gates, and one OR gate. Five gates. Let's try every possible input, and watch the signals flow. Bright wires carry a one."},
+    {"id": "f2", "text": "All off. Count zero. Nothing lights.", "min": 4},
+    {"id": "f3", "text": "Only Carry in. Count one, odd. Sum lights.", "min": 4},
+    {"id": "f4", "text": "Only B. Count one. Sum.", "min": 4},
+    {"id": "f5", "text": "B and Carry in. Count two. Carry lights, Sum is off.", "min": 4},
+    {"id": "f6", "text": "Only A. Count one. Sum.", "min": 4},
+    {"id": "f7", "text": "A and Carry in. Count two. Carry.", "min": 4},
+    {"id": "f8", "text": "A and B. Count two. Carry. This one goes through the first AND gate.", "min": 4},
+    {"id": "f9", "text": "All three. Count three. Both lights. One, one.", "min": 5}
+  ]},
+  {"id": "kit", "title": "Meet your trainer kit", "cues": [
+    {"id": "t1", "text": "Now, the real thing. Your trainer kit has everything built in. Let's find the parts we'll use."},
+    {"id": "t2", "text": "The power section has a plus five volt socket, often labelled V C C, and a ground socket, labelled G N D. Five volts means one. Ground, zero volts, means zero.", "min": 10},
+    {"id": "t3", "text": "The logic switches. Each switch outputs five volts when it's up, and zero volts when it's down. Three of them will be A, B, and Carry in."},
+    {"id": "t4", "text": "The LEDs. Each one lights up when its input gets five volts. Two of them will show Carry out and Sum."},
+    {"id": "t5", "text": "And in the middle, the breadboard, where the chips will go."}
+  ]},
+  {"id": "breadboard", "title": "How a breadboard connects", "cues": [
+    {"id": "d1", "text": "A breadboard looks like a field of holes. But underneath, the holes are joined in a simple pattern."},
+    {"id": "d2", "text": "In the middle area, each short strip of five holes is joined by a metal clip. Anything plugged into the same strip of five is connected together.", "min": 9},
+    {"id": "d3", "text": "The groove down the center splits every strip into two separate halves. Chips sit across this groove, so each leg of the chip gets its own strip.", "min": 9},
+    {"id": "d4", "text": "Along the edges are the long power rails. Every hole along a rail is connected. We'll put five volts on a red rail and ground on a blue rail, so every chip can reach power easily. On some boards the rails are split in the middle. If yours are, bridge the gap with a short wire.", "min": 15}
+  ]},
+  {"id": "chips", "title": "The three chips", "cues": [
+    {"id": "p1", "text": "We need three chips. The seventy four eighty six holds four XOR gates. The seventy four oh eight holds four AND gates. The seventy four thirty two holds four OR gates. You may see them labelled 74 L S, or 74 H C. Either works.", "min": 13},
+    {"id": "p2", "text": "Find the notch, or the dot, at one end of the chip. With the notch on the left, pin one is at the bottom left. Pins count along the bottom to pin seven, then turn the corner, and come back along the top, right to left, up to pin fourteen.", "min": 15},
+    {"id": "p3", "text": "Pin fourteen is power, V C C. Pin seven is ground. Every chip needs both, or it does nothing at all."},
+    {"id": "p4", "text": "And here is a lucky break. All three chips share the same pin layout. Gate one: inputs on pins one and two, output on pin three. Gate two: inputs on pins four and five, output on pin six. We only need gates one and two on each chip.", "min": 14}
+  ]},
+  {"id": "build", "title": "Build it, step by step", "cues": [
+    {"id": "w1", "text": "Step one. With the kit switched off, push the three chips across the center groove, all notches facing left. From left to right: the XOR chip, the AND chip, then the OR chip. Leave some space between them.", "min": 12},
+    {"id": "w2", "text": "Step two: power. Connect the kit's plus five volt socket to the red rail, and ground to the blue rail. Then, for every chip, a red wire from pin fourteen to the red rail, and a black wire from pin seven to the blue rail.", "min": 14},
+    {"id": "w3", "text": "Step three: inputs A and B. Wire switch one, that's A, to XOR pin one. Wire switch two, that's B, to XOR pin two.", "min": 8},
+    {"id": "w4", "text": "A and B also feed the first AND gate. So add two jumpers: from the XOR pin one strip to AND pin one, and from the XOR pin two strip to AND pin two. Remember: any hole in the same strip is the same connection.", "min": 13},
+    {"id": "w5", "text": "Step four: the Sum chain. A short jumper from XOR pin three to XOR pin four. Then wire switch three, Carry in, to XOR pin five. XOR pin six is now the Sum.", "min": 11},
+    {"id": "w6", "text": "Step five: the second AND gate. Wire XOR pin three to AND pin four. And wire Carry in, from the XOR pin five strip, to AND pin five.", "min": 10},
+    {"id": "w7", "text": "Step six: the OR gate. Wire AND pin three to OR pin one, and AND pin six to OR pin two. OR pin three is now the Carry out.", "min": 10},
+    {"id": "w8", "text": "Step seven: the lights. Choose two LEDs next to each other. Wire OR pin three to the left one: that's Carry out. Wire XOR pin six to the right one: that's Sum. Now the two lights read like a binary number.", "min": 13},
+    {"id": "w9", "text": "That's every wire. Twenty in total: eight for power, and twelve for signals. Before switching on, check each one against the list.", "min": 8}
+  ]},
+  {"id": "test", "title": "Power on and test", "cues": [
+    {"id": "x1", "text": "Switch the kit on, and test all eight combinations. Before each flip, predict the lights with the count rule. Odd count: Sum. Two or more: Carry.", "min": 10},
+    {"id": "x2", "text": "Watch the glowing wires. They carry five volts, a one. Follow any bright path, and you can see each gate making its decision.", "min": 30}
+  ]},
+  {"id": "debug", "title": "If it doesn't work", "cues": [
+    {"id": "e1", "text": "If something is wrong, don't worry. Check these in order."},
+    {"id": "e2", "text": "Nothing lights at all? Check that every chip has its power wires on pin fourteen and pin seven, that the rails are bridged, and that the kit is on."},
+    {"id": "e3", "text": "A chip gets hot? It's probably in backwards. Switch off right away, and check the notch."},
+    {"id": "e4", "text": "Sum is right but Carry is wrong, or the other way round? Test one gate at a time. Move an LED wire onto a gate's output, pin three or pin six, and check it against that gate's rule.", "min": 11},
+    {"id": "e5", "text": "An output stuck on? An input that isn't connected to anything acts like a one on L S chips. Look for a wire in the wrong strip. And if you use H C chips, tie the unused inputs, pins nine, ten, twelve and thirteen, to ground.", "min": 13}
+  ]},
+  {"id": "recap", "title": "Recap", "cues": [
+    {"id": "z1", "text": "Let's recap. A full adder adds one column of binary: A, B, and a carry coming in."},
+    {"id": "z2", "text": "It counts the ones. Sum is on when the count is odd: two XOR gates. Carry is on when the count is two or more: A AND B, or Carry in AND the XOR, joined by an OR.", "min": 11},
+    {"id": "z3", "text": "Chain four of them, each Carry out feeding the next Carry in, and you can add two four bit numbers. That's how real computers add. And you just built the first column yourself.", "min": 12}
+  ]}
+]

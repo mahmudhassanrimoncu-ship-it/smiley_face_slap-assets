@@ -13,3 +13,4 @@ dist
 *.njsproj
 *.sln
 *.sw?
+video/.render-*
