@@ -208,6 +208,12 @@ class GLB:
                   buffers=[dict(byteLength=len(self.bin))])
         if asset_extras:
             gl["asset"]["extras"] = asset_extras
+        if str(path).endswith((".gltf", ".json")):           # single-file glTF with the buffer inlined
+            import base64
+            gl["buffers"][0]["uri"] = "data:application/octet-stream;base64," + base64.b64encode(bytes(self.bin)).decode()
+            with open(path, "w") as f:
+                json.dump(gl, f, separators=(",", ":"))
+            return
         js = json.dumps(gl, separators=(",", ":")).encode()
         js += b" " * ((4 - len(js) % 4) % 4)
         bn = bytes(self.bin) + b"\0" * ((4 - len(self.bin) % 4) % 4)
