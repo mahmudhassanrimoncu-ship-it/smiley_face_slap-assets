@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ashford Vale 3D</title>
+<style>
+  :root { --ink: #e9f2ff; --bg: #173b6c; --panel: rgba(12, 32, 62, 0.86); }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink);
+    font: 14px/1.4 Georgia, 'Times New Roman', serif; overflow: hidden; }
+  canvas { display: block; }
+  #hud { position: absolute; top: 12px; left: 12px; max-width: min(340px, calc(100vw - 24px));
+    background: var(--panel); border: 1px solid rgba(233,242,255,.35); border-radius: 8px; padding: 12px 14px; }
+  #hud h1 { margin: 0 0 2px; font-size: 20px; letter-spacing: 2px; }
+  #hud p { margin: 0 0 8px; opacity: .85; font-size: 13px; font-style: italic; }
+  #places { display: flex; flex-wrap: wrap; gap: 6px; max-height: 32vh; overflow-y: auto; }
+  #places button { background: transparent; color: var(--ink); border: 1px solid rgba(233,242,255,.45);
+    border-radius: 14px; padding: 4px 10px; font: 12px 'Courier New', monospace; cursor: pointer; }
+  #places button:hover, #places button.on { background: var(--ink); color: var(--bg); }
+  #info { position: absolute; left: 12px; bottom: 12px; max-width: min(420px, calc(100vw - 24px));
+    background: var(--panel); border: 1px solid rgba(233,242,255,.35); border-radius: 8px; padding: 10px 14px;
+    display: none; }
+  #info b { display: block; font-size: 16px; margin-bottom: 2px; }
+  #loading { position: absolute; inset: 0; display: grid; place-items: center; font-size: 18px; letter-spacing: 3px; }
+  #toggle { display: block; margin-top: 8px; font: 12px 'Courier New', monospace; opacity: .85; }
+  #fold { float: right; background: none; border: 1px solid rgba(233,242,255,.45); color: var(--ink);
+    border-radius: 6px; font: 12px 'Courier New', monospace; padding: 2px 8px; cursor: pointer; }
+  #hud.folded #places, #hud.folded p, #hud.folded #toggle { display: none; }
+</style>
+</head>
+<body>
+<div id="loading">LOADING THE VALE…</div>
+<div id="hud">
+  <button id="fold" aria-expanded="true">hide</button>
+  <h1>ASHFORD VALE</h1>
+  <p>Drag to orbit · scroll or pinch to zoom · right-drag to pan. Pick a place:</p>
+  <div id="places"></div>
+  <label id="toggle"><input type="checkbox" id="spin"> slow fly-around</label>
+</div>
+<div id="info"></div>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+const params = new URLSearchParams(location.search);
+const MODEL = params.get('model') || '../model/ashford_vale_preview.glb';
+
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.05;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xb9cfe2);
+scene.fog = new THREE.Fog(0xb9cfe2, 2200, 6500);
+scene.add(new THREE.HemisphereLight(0xdfeeff, 0x4a5a32, 1.25));
+const sun = new THREE.DirectionalLight(0xfff1d6, 2.2);
+sun.position.set(-900, 1400, -600);
+scene.add(sun);
+
+const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 1, 9000);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.maxPolarAngle = Math.PI * 0.49;
+controls.minDistance = 20;
+controls.maxDistance = 3500;
+
+const views = {
+  overview: { target: [1024, 110, 1050], cam: [1024 + 900, 1250, 1050 + 1500] },
+  castle: { target: [1024, 125, 590], cam: [1024 + 230, 260, 590 + 330] },
+  town: { target: [1024, 72, 1080], cam: [1024 + 260, 230, 1080 + 380] },
+  west: { target: [450, 80, 1060], cam: [450 + 260, 210, 1060 + 330] },
+};
+let anim = null;
+function fly(target, cam, ms = 1400) {
+  anim = { t0: performance.now(), ms, fromT: controls.target.clone(), fromC: camera.position.clone(),
+           toT: new THREE.Vector3(...target), toC: new THREE.Vector3(...cam) };
+}
+function setView(v) {
+  controls.target.set(...v.target); camera.position.set(...v.cam); controls.update();
+}
+setView(views[params.get('view')] || views.overview);
+
+const info = document.getElementById('info');
+new GLTFLoader().load(MODEL, (gltf) => {
+  scene.add(gltf.scene);
+  gltf.scene.traverse((o) => {
+    if (o.isMesh && o.material && o.material.transparent) o.renderOrder = 2;
+  });
+  const places = document.getElementById('places');
+  const marks = [];
+  gltf.scene.traverse((o) => { if (o.userData && o.userData.label) marks.push(o); });
+  marks.sort((a, b) => a.userData.number - b.userData.number);
+  const add = (label, fn) => {
+    const b = document.createElement('button');
+    b.textContent = label;
+    b.onclick = () => { places.querySelectorAll('button').forEach(x => x.classList.remove('on')); b.classList.add('on'); fn(); };
+    places.appendChild(b);
+  };
+  add('Whole vale', () => { info.style.display = 'none'; fly(views.overview.target, views.overview.cam, 1800); });
+  for (const m of marks) {
+    const p = new THREE.Vector3(); m.getWorldPosition(p);
+    const name = m.userData.label;
+    const num = m.userData.number;
+    add(`${num} ${name}`, () => {
+      const dir = new THREE.Vector3(0.55, 0.62, 0.95).normalize();
+      fly([p.x, p.y, p.z], [p.x + dir.x * 170, p.y + dir.y * 170, p.z + dir.z * 170]);
+      info.innerHTML = `<b>${num}. ${name}</b>${(m.userData && m.userData.description) || ''}`;
+      info.style.display = 'block';
+    });
+  }
+  document.getElementById('loading').style.display = 'none';
+  window.__ready = true;
+}, undefined, (err) => { document.getElementById('loading').textContent = 'Could not load the model: ' + err; });
+
+addEventListener('resize', () => {
+  camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+});
+const spin = document.getElementById('spin');
+const hud = document.getElementById('hud'), fold = document.getElementById('fold');
+fold.onclick = () => { const f = hud.classList.toggle('folded'); fold.textContent = f ? 'places' : 'hide';
+  fold.setAttribute('aria-expanded', String(!f)); };
+if (innerWidth < 640) fold.onclick();
+if (params.has('clean')) hud.style.display = 'none';
+renderer.setAnimationLoop((now) => {
+  if (anim) {
+    const k = Math.min(1, (now - anim.t0) / anim.ms), e = k * k * (3 - 2 * k);
+    controls.target.lerpVectors(anim.fromT, anim.toT, e);
+    camera.position.lerpVectors(anim.fromC, anim.toC, e);
+    if (k >= 1) anim = null;
+  }
+  if (spin.checked && !anim) {
+    const off = camera.position.clone().sub(controls.target).applyAxisAngle(new THREE.Vector3(0, 1, 0), 0.0015);
+    camera.position.copy(controls.target).add(off);
+  }
+  controls.update();
+  renderer.render(scene, camera);
+});
+</script>
+</body>
+</html>

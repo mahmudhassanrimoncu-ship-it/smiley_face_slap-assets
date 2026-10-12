@@ -1,0 +1,33 @@
+n,name,x,y,desc
+1,Great Tower (the Keep),1024.0,554.0,"28 m stone keep, last refuge of the castle; four storeys."
+2,Inner Ward & Great Hall,1048.0,578.0,"Lord's hall, chapel and kitchens behind a second wall."
+3,Great Gatehouse,1024.0,672.0,"Twin drum towers, portcullis and murder holes."
+4,Drawbridge & Barbican,1024.0,720.0,"Lifting bridge over the moat, guarded by a walled barbican."
+5,Castle Moat,920.0,570.0,Spring-fed moat ringing the castle plateau.
+6,Postern Gate,1024.0,516.0,Small north door to the ridge paths and watch posts.
+7,Market Square,1024,1080,"Heart of the town: market hall, cross, well and stalls."
+8,St. Michael's Church,1066,1025,"Parish church with a 36 m spire, the tallest thing in the vale."
+9,Guildhall,990,1034,Where the merchant guild meets and the town court sits.
+10,The Ford & Crown,990,1126,"The town's great inn - travellers, gossip and quests."
+11,Steward's Hall - YOUR HOUSE,1058,1126,Home of The Steward. Start your journey here.
+12,"Town gates (N, W, E & River Gate)",1024.0,905.0,Four gatehouses close at curfew.
+13,St. Hilda's Abbey,560,790,"Benedictine abbey: church, cloister, infirmary and pilgrims' house."
+14,Abbey fishponds,670,966,Three stew ponds that feed the monks on fast days.
+15,Westbrook green & chapel,470,1098,"Village green, pond, maypole and chapel."
+16,Eastmere & Eastmere Water,1860,1190,Fishing village on a reed-fringed mere.
+17,Southfold,1000,1700,Shepherds' hamlet with a great stone sheep pen.
+18,Raven Hill Watchtower,535,336,"Lookout with a signal beacon, in sight of the castle keep."
+19,Beacon Hill Watchtower,1490,306,"Lookout with a signal beacon, in sight of the castle keep."
+20,West Tor Watchtower,272,712,"Lookout with a signal beacon, in sight of the castle keep."
+21,Greycrown Beacon,1000,168,Highest point of the vale: the great warning fire.
+22,The Nine Maidens,800,304,Ancient ring of nine stones older than the castle. Locals leave offerings.
+23,The Old Ash Ford,700,1480,Shallow crossing where the first settlers forded the Ash - the vale's namesake.
+24,Ashford Watermill,1329.7280631101216,1271.0601763688317,Grinds the vale's grain; the miller takes one sack in sixteen.
+25,Tannery,1271.2845410694888,1300.9856891851764,Smelly work kept downstream and outside the walls.
+26,Post Windmill,712,1334,Turns to face the wind on a single great post.
+27,Tiltyard,1300,880,Jousting lists for the summer tourney.
+28,Quarry,1300,700,Where the castle's stone was cut. Still worked today.
+29,King's Chase Lodge,1915,400,Royal hunting lodge deep in the deer forest.
+30,Charcoal Burners' Camp,218,335,Smoke rises day and night from the Wildwood clearing.
+31,Ash Bridge,1003.6,1411.9,Three-arched stone bridge below the River Gate.
+32,East Bridge,1503.4,1031.4,Timber bridge carrying the King's Road east.

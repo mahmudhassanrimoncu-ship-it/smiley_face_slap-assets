@@ -1,0 +1,519 @@
+id,name,type,district,x,y,z,heading,w,d,h,roof,roof_h,floors,material,shape,resident,trade,group
+C-001,Well Tower,tower,C,954.0,550.0,124.7,0,13.0,13.0,16,crenel,0.0,1,stone,round,,,Well Tower
+C-002,North-West Tower,tower,C,989.0,518.0,124.7,0,13.0,13.0,16,crenel,0.0,1,stone,round,,,North-West Tower
+C-003,North-East Tower,tower,C,1059.0,518.0,124.7,0,13.0,13.0,16,crenel,0.0,1,stone,round,,,North-East Tower
+C-004,Bell Tower,tower,C,1094.0,550.0,124.7,0,13.0,13.0,16,crenel,0.0,1,stone,round,,,Bell Tower
+C-005,East Tower,tower,C,1104.0,625.0,124.7,0,13.0,13.0,16,crenel,0.0,1,stone,round,,,East Tower
+C-006,South-East Tower,tower,C,1069.0,670.0,124.7,0,13.0,13.0,16,crenel,0.0,1,stone,round,,,South-East Tower
+C-007,South-West Tower,tower,C,979.0,670.0,124.7,0,13.0,13.0,16,crenel,0.0,1,stone,round,,,South-West Tower
+C-008,West Tower,tower,C,944.0,625.0,124.7,0,13.0,13.0,16,crenel,0.0,1,stone,round,,,West Tower
+C-009,Lady Tower,tower,C,984.0,524.0,124.7,0,10,10,18,crenel,0.0,1,stone,round,,,Lady Tower
+C-010,Kestrel Tower,tower,C,1064.0,524.0,124.7,0,10,10,18,crenel,0.0,1,stone,round,,,Kestrel Tower
+C-011,Treasury Tower,tower,C,1064.0,592.0,124.7,0,10,10,18,crenel,0.0,1,stone,round,,,Treasury Tower
+C-012,Chapel Tower,tower,C,984.0,592.0,124.7,0,10,10,18,crenel,0.0,1,stone,round,,,Chapel Tower
+C-013,Great Tower (the Keep),keep,C,1024.0,554.0,124.7,180,22,22,28,crenel,0.0,4,stone,rect,,,Great Tower (the Keep)
+C-014,Keep turret,tower,C,1013.0,543.0,124.7,0,5.2,5.2,32,crenel,0.0,1,stone,round,,,Great Tower (the Keep)
+C-015,Keep turret,tower,C,1035.0,543.0,124.7,0,5.2,5.2,32,crenel,0.0,1,stone,round,,,Great Tower (the Keep)
+C-016,Keep turret,tower,C,1013.0,565.0,124.7,0,5.2,5.2,32,crenel,0.0,1,stone,round,,,Great Tower (the Keep)
+C-017,Keep turret,tower,C,1035.0,565.0,124.7,0,5.2,5.2,32,crenel,0.0,1,stone,round,,,Great Tower (the Keep)
+C-018,Great Hall,hall,C,1046.0,576.0,124.7,180,26,11,9,gable,6.05,1,stone,rect,,,Great Hall
+C-019,Castle Chapel,chapel,C,999.0,576.0,124.7,180,16,8,7,gable,4.4,1,stone,rect,,,Castle Chapel
+C-020,Castle Kitchens,kitchen,C,997.0,538.0,124.7,90,14,10,6,gable,5.5,1,stone,rect,,,Castle Kitchens
+C-021,Inner Gate,gatehouse,C,1024.0,592.0,124.7,180,10,8,12,crenel,0.0,1,stone,rect,,,Inner Gate
+C-022,Great Gatehouse,gatehouse,C,1024.0,670.0,124.7,180,18,14,15,crenel,0.0,1,stone,rect,,,Great Gatehouse
+C-023,Gate drum (west),tower,C,1014.0,674.0,124.7,0,11.0,11.0,17,crenel,0.0,1,stone,round,,,Great Gatehouse
+C-024,Gate drum (east),tower,C,1034.0,674.0,124.7,0,11.0,11.0,17,crenel,0.0,1,stone,round,,,Great Gatehouse
+C-025,Postern Gate,gatehouse,C,1024.0,518.0,124.7,0,7,6,10,crenel,0.0,1,stone,rect,,,Postern Gate
+C-026,Stables,stables,C,962.0,606.0,124.7,90,32,9,5,gable,4.95,1,timber,rect,,,Stables
+C-027,Barracks,barracks,C,1086.0,606.0,124.7,270,32,9,6,gable,4.95,2,stone,rect,,,Barracks
+C-028,Castle Smithy,smithy,C,986.0,648.0,124.7,0,12,9,4.5,gable,4.95,1,stone,rect,,,Castle Smithy
+C-029,Granary,granary,C,1064.0,648.0,124.7,0,14,9,6,gable,4.95,1,stone,rect,,,Granary
+C-030,Armoury,armoury,C,964.0,568.0,124.7,90,16,10,6,gable,5.5,1,stone,rect,,,Armoury
+C-031,Constable's House,house,C,1056.0,614.0,124.7,180,14,9,8,hip,4.05,2,stone,rect,,,Constable's House
+C-032,Bakehouse & Brewhouse,bakehouse,C,994.0,614.0,124.7,180,13,8,5,gable,4.4,1,stone,rect,,,Bakehouse & Brewhouse
+C-033,Falcon Mews,mews,C,972.0,634.0,124.7,90,9,6,4,gable,3.3,1,timber,rect,,,Falcon Mews
+C-034,Guardhouse,guardhouse,C,1048.0,658.0,124.7,0,10,7,5,gable,3.85,1,stone,rect,,,Guardhouse
+C-035,Dovecote,dovecote,C,1082.0,568.0,124.7,0,6,6,8,cone,5.4,1,stone,round,,,Dovecote
+C-036,Barbican turret (west),tower,C,1010.0,740.0,124.35,0,7.0,7.0,10,crenel,0.0,1,stone,round,,,Barbican turret (west)
+C-037,Barbican turret (east),tower,C,1038.0,740.0,124.55,0,7.0,7.0,10,crenel,0.0,1,stone,round,,,Barbican turret (east)
+T-001,Wall tower,tower,T,1255.82,1125.29,61.64,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-002,Wall tower,tower,T,1193.71,1203.74,60.81,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-003,Wall tower,tower,T,1086.12,1249.04,61.29,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-004,Wall tower,tower,T,961.88,1249.04,62.46,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-005,Wall tower,tower,T,854.29,1203.74,63.76,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-006,Wall tower,tower,T,792.18,1125.29,67.14,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-007,Wall tower,tower,T,792.18,1034.71,70.1,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-008,Wall tower,tower,T,854.29,956.26,71.81,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-009,Wall tower,tower,T,961.88,910.96,74.07,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-010,Wall tower,tower,T,1086.12,910.96,69.98,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-011,Wall tower,tower,T,1193.71,956.26,64.1,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-012,Wall tower,tower,T,1255.82,1034.71,62.22,0,9.0,9.0,11,cone,8.1,1,stone,round,,,Town wall
+T-013,North Gate,gatehouse,T,1024.0,905.0,73.42,0,13,10,12,crenel,0.0,1,stone,rect,,,North Gate
+T-014,River Gate,gatehouse,T,1024.0,1255.0,61.93,0,13,10,12,crenel,0.0,1,stone,rect,,,River Gate
+T-015,West Gate,gatehouse,T,784.0,1080.0,68.61,90,13,10,12,crenel,0.0,1,stone,rect,,,West Gate
+T-016,East Gate,gatehouse,T,1264.0,1080.0,61.85,90,13,10,12,crenel,0.0,1,stone,rect,,,East Gate
+T-017,Market Hall,market_hall,T,1000,1066,64.41,0,18,9,6,hip,4.05,1,timber,rect,,,Market Hall
+T-018,St. Michael's Church (nave),church,T,1066,1025,63.55,0,30,11,12,gable,6.05,1,stone,rect,,,St. Michael's Church
+T-019,St. Michael's Church (chancel),church,T,1088,1025,63.4,0,14,8,10,gable,4.4,1,stone,rect,,,St. Michael's Church
+T-020,St. Michael's Church (transept),church,T,1072,1025,63.51,0,9,24,12,gable,4.95,1,stone,rect,,,St. Michael's Church
+T-021,St. Michael's Church (bell tower),church,T,1046,1025,64.06,0,9,9,22,spire,14,4,stone,rect,,,St. Michael's Church
+T-022,Guildhall,guildhall,T,990,1034,64.97,180,24,12,11,hip,5.4,2,stone,rect,,,Guildhall
+T-023,The Ford & Crown,inn,T,990,1126,64.03,0,22,13,9,gable,7.15,2,timber,rect,,,The Ford & Crown
+T-024,Steward's Hall (your house),manor_house,T,1058,1126,63.01,0,16,11,10,hip,4.95,3,stone,rect,,,Steward's Hall (your house)
+T-025,Town Smithy,smithy,T,835,1091,67.36,0,12,9,5,gable,4.95,1,stone,rect,,,Town Smithy
+T-026,Tithe Barn,barn,T,1036,1222,62.26,270,28,12,7,gable,6.6,1,stone,rect,,,Tithe Barn
+T-027,House of Baldwin the potter,house,T,1013.85,920.72,71.54,90.0,8.1,9.69,9,hip,3.64,3,timber,rect,Baldwin,potter,House of Baldwin the potter
+T-028,House of Isabel the cobbler,shop,T,1014.05,947.36,68.46,90.0,8.0,9.29,6,gable,4.4,2,timber,rect,Isabel,cobbler,House of Isabel the cobbler
+T-029,House of Richard the spicer,shop,T,1013.93,956.98,67.61,90.0,9.1,9.55,6,hip,4.09,2,timber,rect,Richard,spicer,House of Richard the spicer
+T-030,House of Jordan the locksmith,shop,T,1014.02,966.86,66.96,90.0,8.08,9.35,6,gable,4.45,2,timber,rect,Jordan,locksmith,House of Jordan the locksmith
+T-031,House of Odo the butcher,house,T,1014.05,977.14,66.31,90.0,10.02,9.3,9,gable,5.11,3,timber,rect,Odo,butcher,House of Odo the butcher
+T-032,House of Alys the goldsmith,house,T,1013.73,987.39,65.89,90.0,7.94,9.94,9,gable,4.36,3,timber,rect,Alys,goldsmith,House of Alys the goldsmith
+T-033,House of Joan the glover,house,T,1013.82,1008.05,65.14,90.0,10.39,9.76,6,gable,5.37,2,timber,rect,Joan,glover,House of Joan the glover
+T-034,House of Cecily the weaver,house,T,1013.64,1018.25,64.91,90.0,8.49,10.11,6,gable,4.67,2,timber,rect,Cecily,weaver,House of Cecily the weaver
+T-035,House of Geoffrey the tinker,house,T,1013.62,1027.49,64.73,90.0,7.49,10.16,6,hip,3.37,2,timber,rect,Geoffrey,tinker,House of Geoffrey the tinker
+T-036,House of Odo the tinker,house,T,1012.81,1036.39,64.57,90.0,7.74,11.78,9,hip,3.48,3,timber,rect,Odo,tinker,House of Odo the tinker
+T-037,House of Isabel the butcher,shop,T,1034.26,922.97,70.54,270.0,7.64,9.92,6,hip,3.44,2,timber,rect,Isabel,butcher,House of Isabel the butcher
+T-038,House of Margery the fuller,house,T,1034.22,941.81,68.24,270.0,9.74,9.85,9,gable,5.36,3,timber,rect,Margery,fuller,House of Margery the fuller
+T-039,House of Wat the saddler,house,T,1034.84,962.76,66.54,270.0,9.32,11.09,9,gable,5.13,3,timber,rect,Wat,saddler,House of Wat the saddler
+T-040,House of Petronilla the potter,house,T,1034.14,972.95,65.99,270.0,8.79,9.68,6,hip,3.95,2,timber,rect,Petronilla,potter,House of Petronilla the potter
+T-041,House of Hob the barber-surgeon,house,T,1013.02,1121.81,63.82,90.0,7.41,11.36,6,gable,4.07,2,timber,rect,Hob,barber-surgeon,House of Hob the barber-surgeon
+T-042,House of Agnes the spicer,house,T,1013.28,1140.98,63.69,90.0,8.38,10.84,6,gable,4.61,2,timber,rect,Agnes,spicer,House of Agnes the spicer
+T-043,House of Matilda the tinker,shop,T,1013.74,1151.7,63.6,90.0,10.08,9.92,6,gable,5.45,2,timber,rect,Matilda,tinker,House of Matilda the tinker
+T-044,House of Richard the cooper,house,T,1013.86,1171.32,63.42,90.0,8.99,9.69,6,gable,4.95,2,stone,rect,Richard,cooper,House of Richard the cooper
+T-045,House of Emma the fuller,house,T,1012.76,1180.76,63.31,90.0,8.52,11.87,6,hip,3.84,2,stone,rect,Emma,fuller,House of Emma the fuller
+T-046,House of Emma the locksmith,house,T,1013.39,1189.32,63.21,90.0,7.16,10.62,6,gable,3.94,2,timber,rect,Emma,locksmith,House of Emma the locksmith
+T-047,House of Matilda the fletcher,shop,T,1013.24,1199.03,63.05,90.0,10.03,10.92,6,gable,5.52,2,timber,rect,Matilda,fletcher,House of Matilda the fletcher
+T-048,House of Ida the pewterer,house,T,1014.03,1210.44,62.87,90.0,9.93,9.35,9,gable,5.14,3,timber,rect,Ida,pewterer,House of Ida the pewterer
+T-049,House of Wat the bowyer,house,T,1012.79,1238.66,62.38,90.0,8.25,11.82,9,gable,4.54,3,timber,rect,Wat,bowyer,House of Wat the bowyer
+T-050,House of Wat the chandler,shop,T,1033.82,1122.12,63.51,270.0,9.72,9.03,6,hip,4.06,2,timber,rect,Wat,chandler,House of Wat the chandler
+T-051,House of Richard the potter,house,T,1034.29,1132.07,63.45,270.0,8.35,9.97,9,gable,4.59,3,timber,rect,Richard,potter,House of Richard the potter
+T-052,House of Agnes the fletcher,shop,T,1035.02,1141.11,63.38,270.0,7.45,11.44,6,gable,4.1,2,timber,rect,Agnes,fletcher,House of Agnes the fletcher
+T-053,House of Petronilla the potter,house,T,1033.94,1150.16,63.34,270.0,8.58,9.28,6,hip,3.86,2,timber,rect,Petronilla,potter,House of Petronilla the potter
+T-054,House of Emma the fletcher,house,T,1034.97,1169.24,63.17,270.0,7.28,11.34,9,gable,4.01,3,timber,rect,Emma,fletcher,House of Emma the fletcher
+T-055,House of Hawise the ropemaker,shop,T,1033.83,1187.47,62.99,270.0,8.87,9.06,6,gable,4.88,2,stone,rect,Hawise,ropemaker,House of Hawise the ropemaker
+T-056,House of Martin the apothecary,house,T,1035.24,1196.72,62.84,270.0,7.7,11.89,9,gable,4.24,3,timber,rect,Martin,apothecary,House of Martin the apothecary
+T-057,House of Thomas the dyer,house,T,801.95,1090.14,68.02,0.0,8.64,10.67,6,gable,4.75,2,timber,rect,Thomas,dyer,House of Thomas the dyer
+T-058,House of Joan the potter,shop,T,810.84,1089.3,67.92,0.0,7.24,9.0,6,gable,3.98,2,timber,rect,Joan,potter,House of Joan the potter
+T-059,House of Simon the barber-surgeon,house,T,850.82,1090.62,67.05,0.0,9.16,11.63,9,gable,5.04,3,timber,rect,Simon,barber-surgeon,House of Simon the barber-surgeon
+T-060,House of Martin the goldsmith,house,T,860.83,1090.61,66.85,0.0,9.23,11.61,9,gable,5.08,3,timber,rect,Martin,goldsmith,House of Martin the goldsmith
+T-061,House of Geoffrey the chandler,shop,T,881.49,1090.71,66.44,0.0,8.82,11.82,6,hip,3.97,2,stone,rect,Geoffrey,chandler,House of Geoffrey the chandler
+T-062,House of Isabel the bowyer,house,T,901.13,1089.48,66.13,0.0,8.73,9.35,6,gable,4.8,2,timber,rect,Isabel,bowyer,House of Isabel the bowyer
+T-063,House of Simon the fuller,house,T,910.7,1090.23,65.91,0.0,8.32,10.87,9,hip,3.74,3,stone,rect,Simon,fuller,House of Simon the fuller
+T-064,House of Geoffrey the wheelwright,house,T,940.55,1090.75,65.33,0.0,8.37,11.91,6,hip,3.77,2,timber,rect,Geoffrey,wheelwright,House of Geoffrey the wheelwright
+T-065,House of Sybil the cooper,house,T,950.19,1090.08,65.17,0.0,9.52,10.55,6,gable,5.24,2,timber,rect,Sybil,cooper,House of Sybil the cooper
+T-066,House of Nicholas the carpenter,shop,T,959.85,1090.58,64.99,0.0,8.54,11.56,6,gable,4.7,2,timber,rect,Nicholas,carpenter,House of Nicholas the carpenter
+T-067,House of Geoffrey the fuller,house,T,977.6,1089.41,64.71,0.0,7.2,9.21,6,gable,3.96,2,stone,rect,Geoffrey,fuller,House of Geoffrey the fuller
+T-068,House of Adam the tinker,house,T,804.63,1069.24,68.63,180.0,10.44,11.92,6,gable,5.74,2,timber,rect,Adam,tinker,House of Adam the tinker
+T-069,House of Hawise the mason,shop,T,815.22,1069.63,68.46,180.0,8.68,11.14,6,gable,4.77,2,timber,rect,Hawise,mason,House of Hawise the mason
+T-070,House of Elena the tinker,house,T,836.17,1069.36,68.05,180.0,9.16,11.67,6,hip,4.12,2,timber,rect,Elena,tinker,House of Elena the tinker
+T-071,House of Matilda the brewer,shop,T,846.38,1070.67,67.86,180.0,8.28,9.06,6,gable,4.55,2,stone,rect,Matilda,brewer,House of Matilda the brewer
+T-072,House of Ida the cutler,house,T,856.3,1070.59,67.64,180.0,9.05,9.21,9,hip,4.07,3,timber,rect,Ida,cutler,House of Ida the cutler
+T-073,House of Piers the saddler,house,T,866.73,1070.18,67.41,180.0,9.68,10.04,6,hip,4.36,2,timber,rect,Piers,saddler,House of Piers the saddler
+T-074,House of Godwin the tailor,shop,T,884.94,1069.95,67.03,180.0,8.58,10.49,6,gable,4.72,2,timber,rect,Godwin,tailor,House of Godwin the tailor
+T-075,House of Wat the weaver,house,T,895.0,1070.56,66.8,180.0,8.9,9.27,9,gable,4.89,3,timber,rect,Wat,weaver,House of Wat the weaver
+T-076,House of Alys the tinker,house,T,905.26,1070.08,66.57,180.0,8.88,10.24,9,gable,4.88,3,timber,rect,Alys,tinker,House of Alys the tinker
+T-077,House of Henry the carpenter,shop,T,914.79,1069.93,66.36,180.0,8.37,10.55,6,hip,3.77,2,stone,rect,Henry,carpenter,House of Henry the carpenter
+T-078,House of Thomas the tinker,house,T,943.73,1069.86,65.71,180.0,7.56,10.67,6,hip,3.4,2,timber,rect,Thomas,tinker,House of Thomas the tinker
+T-079,House of Martin the draper,house,T,962.54,1069.67,65.28,180.0,7.63,11.06,9,hip,3.43,3,timber,rect,Martin,draper,House of Martin the draper
+T-080,House of Margery the glover,house,T,971.18,1069.52,65.09,180.0,7.62,11.35,9,hip,3.43,3,stone,rect,Margery,glover,House of Margery the glover
+T-081,House of Maud the dyer,house,T,1080.23,1089.88,62.86,0.0,9.73,10.16,6,gable,5.35,2,timber,rect,Maud,dyer,House of Maud the dyer
+T-082,House of Baldwin the locksmith,shop,T,1090.65,1090.41,62.69,0.0,9.39,11.23,6,gable,5.17,2,timber,rect,Baldwin,locksmith,House of Baldwin the locksmith
+T-083,House of Joan the fletcher,house,T,1109.13,1089.4,62.45,0.0,9.65,9.21,9,gable,5.06,3,timber,rect,Joan,fletcher,House of Joan the fletcher
+T-084,House of Martin the carpenter,shop,T,1128.43,1089.48,62.22,0.0,7.66,9.35,6,gable,4.22,2,timber,rect,Martin,carpenter,House of Martin the carpenter
+T-085,House of Ida the brewer,shop,T,1137.7,1089.94,62.1,0.0,9.61,10.29,6,gable,5.29,2,timber,rect,Ida,brewer,House of Ida the brewer
+T-086,House of Joan the locksmith,house,T,1148.3,1090.22,61.99,0.0,9.07,10.83,6,hip,4.08,2,timber,rect,Joan,locksmith,House of Joan the locksmith
+T-087,House of Agnes the chandler,shop,T,1167.93,1090.7,61.84,0.0,9.23,11.8,9,gable,5.07,3,timber,rect,Agnes,chandler,House of Agnes the chandler
+T-088,House of Geoffrey the fuller,house,T,1177.56,1090.25,61.81,0.0,7.89,10.91,6,hip,3.55,2,timber,rect,Geoffrey,fuller,House of Geoffrey the fuller
+T-089,House of Stephen the carpenter,house,T,1195.03,1089.69,61.76,0.0,10.42,9.77,6,gable,5.38,2,timber,rect,Stephen,carpenter,House of Stephen the carpenter
+T-090,House of Robin the dyer,house,T,1214.21,1090.6,61.73,0.0,8.37,11.61,6,gable,4.6,2,stone,rect,Robin,dyer,House of Robin the dyer
+T-091,House of Maud the cooper,shop,T,1240.68,1090.36,61.74,0.0,10.2,11.11,9,gable,5.61,3,timber,rect,Maud,cooper,House of Maud the cooper
+T-092,House of Godwin the carpenter,house,T,1071.35,1069.85,63.13,180.0,9.98,10.7,6,gable,5.49,2,timber,rect,Godwin,carpenter,House of Godwin the carpenter
+T-093,House of Avice the thatcher,house,T,1082.84,1069.63,62.96,180.0,10.06,11.13,9,gable,5.53,3,timber,rect,Avice,thatcher,House of Avice the thatcher
+T-094,House of Christiana the carpenter,house,T,1092.66,1070.16,62.84,180.0,7.52,10.08,6,gable,4.13,2,timber,rect,Christiana,carpenter,House of Christiana the carpenter
+T-095,House of Robin the tinker,house,T,1101.87,1069.37,62.72,180.0,8.11,11.66,9,gable,4.46,3,stone,rect,Robin,tinker,House of Robin the tinker
+T-096,House of Emma the ropemaker,shop,T,1111.25,1069.61,62.6,180.0,8.59,11.17,6,gable,4.73,2,stone,rect,Emma,ropemaker,House of Emma the ropemaker
+T-097,House of Baldwin the chandler,house,T,1131.83,1069.88,62.39,180.0,7.63,10.64,6,gable,4.2,2,timber,rect,Baldwin,chandler,House of Baldwin the chandler
+T-098,House of Juliana the saddler,shop,T,1151.98,1069.8,62.22,180.0,8.73,10.79,6,gable,4.8,2,timber,rect,Juliana,saddler,House of Juliana the saddler
+T-099,House of Alys the dyer,house,T,1161.82,1070.3,62.15,180.0,9.29,9.8,6,gable,5.11,2,stone,rect,Alys,dyer,House of Alys the dyer
+T-100,House of Beatrice the bowyer,shop,T,1171.96,1070.05,62.09,180.0,8.34,10.3,6,gable,4.59,2,timber,rect,Beatrice,bowyer,House of Beatrice the bowyer
+T-101,House of Hawise the brewer,shop,T,1181.2,1070.67,62.05,180.0,7.7,9.06,6,gable,4.24,2,stone,rect,Hawise,brewer,House of Hawise the brewer
+T-102,House of Ivetta the butcher,shop,T,1190.05,1069.45,62.01,180.0,7.83,11.5,9,hip,3.53,3,timber,rect,Ivetta,butcher,House of Ivetta the butcher
+T-103,House of Laurence the barber-surgeon,shop,T,1206.99,1069.46,61.96,180.0,8.91,11.48,6,gable,4.9,2,timber,rect,Laurence,barber-surgeon,House of Laurence the barber-surgeon
+T-104,House of Richard the glover,house,T,1217.02,1070.4,61.94,180.0,8.4,9.59,9,gable,4.62,3,stone,rect,Richard,glover,House of Richard the glover
+T-105,House of Hawise the goldsmith,shop,T,1234.85,1070.03,61.91,180.0,9.84,10.33,6,hip,4.43,2,timber,rect,Hawise,goldsmith,House of Hawise the goldsmith
+T-106,House of Maud the tailor,house,T,1245.12,1069.65,61.91,180.0,8.34,11.1,6,gable,4.59,2,timber,rect,Maud,tailor,House of Maud the tailor
+T-107,House of Henry the saddler,shop,T,921.34,970.49,69.47,91.5,7.44,9.86,9,hip,3.35,3,timber,rect,Henry,saddler,House of Henry the saddler
+T-108,House of Beatrice the tinker,shop,T,920.38,979.73,69.01,91.5,8.39,11.28,6,gable,4.61,2,timber,rect,Beatrice,tinker,House of Beatrice the tinker
+T-109,House of Roger the dyer,shop,T,920.5,989.27,68.61,91.5,8.62,10.56,6,hip,3.88,2,timber,rect,Roger,dyer,House of Roger the dyer
+T-110,House of Geoffrey the mason,shop,T,919.91,1009.26,67.89,91.3,10.02,10.78,6,gable,5.51,2,timber,rect,Geoffrey,mason,House of Geoffrey the mason
+T-111,House of Nicholas the wheelwright,house,T,919.09,1019.16,67.63,91.1,7.15,11.99,9,hip,3.22,3,stone,rect,Nicholas,wheelwright,House of Nicholas the wheelwright
+T-112,House of Robin the cooper,shop,T,919.2,1027.97,67.35,91.0,9.2,11.44,6,hip,4.14,2,timber,rect,Robin,cooper,House of Robin the cooper
+T-113,House of Robin the fletcher,house,T,919.56,1037.84,67.08,90.8,8.6,10.42,6,gable,4.73,2,timber,rect,Robin,fletcher,House of Robin the fletcher
+T-114,House of Roger the tailor,house,T,919.76,1047.4,66.84,90.5,7.89,9.81,6,gable,4.34,2,timber,rect,Roger,tailor,House of Roger the tailor
+T-115,House of Elena the cobbler,house,T,919.88,1057.69,66.55,90.2,9.78,9.43,6,hip,4.25,2,stone,rect,Elena,cobbler,House of Elena the cobbler
+T-116,House of Osbert the saddler,house,T,920.37,1089.32,65.76,88.5,9.51,9.05,6,hip,4.07,2,timber,rect,Osbert,saddler,House of Osbert the saddler
+T-117,House of Alys the dyer,shop,T,920.88,1110.51,65.25,87.7,9.63,9.42,9,gable,5.18,3,timber,rect,Alys,dyer,House of Alys the dyer
+T-118,House of Agnes the goldsmith,shop,T,921.04,1129.63,64.82,87.3,9.15,10.76,6,hip,4.12,2,timber,rect,Agnes,goldsmith,House of Agnes the goldsmith
+T-119,House of Maud the fletcher,house,T,921.92,1139.19,64.62,87.1,8.36,9.95,6,gable,4.6,2,timber,rect,Maud,fletcher,House of Maud the fletcher
+T-120,House of Christiana the dyer,house,T,921.48,1148.58,64.43,86.9,7.34,11.79,6,gable,4.04,2,timber,rect,Christiana,dyer,House of Christiana the dyer
+T-121,House of Odo the tailor,shop,T,922.84,1169.1,63.98,86.8,8.87,11.33,6,hip,3.99,2,stone,rect,Odo,tailor,House of Odo the tailor
+T-122,House of Petronilla the potter,shop,T,923.91,1178.62,63.8,86.7,7.29,10.29,6,gable,4.01,2,stone,rect,Petronilla,potter,House of Petronilla the potter
+T-123,House of Simon the potter,shop,T,924.67,1187.05,63.63,86.7,8.39,9.74,6,gable,4.61,2,stone,rect,Simon,potter,House of Simon the potter
+T-124,House of Richard the apothecary,shop,T,924.88,1195.58,63.48,86.8,7.27,10.3,6,gable,4.0,2,timber,rect,Richard,apothecary,House of Richard the apothecary
+T-125,House of Cecily the fuller,house,T,937.86,960.92,69.47,271.3,9.47,9.49,6,hip,4.26,2,timber,rect,Cecily,fuller,House of Cecily the fuller
+T-126,House of Adam the pewterer,house,T,937.8,970.83,68.91,271.5,9.02,9.87,6,gable,4.96,2,stone,rect,Adam,pewterer,House of Adam the pewterer
+T-127,House of Hob the thatcher,shop,T,938.46,980.93,68.35,271.5,9.72,11.72,6,gable,5.35,2,timber,rect,Hob,thatcher,House of Hob the thatcher
+T-128,House of Robin the dyer,shop,T,937.23,990.16,68.09,271.5,7.48,9.74,6,gable,4.11,2,timber,rect,Robin,dyer,House of Robin the dyer
+T-129,House of Osbert the cooper,house,T,937.24,1009.74,67.32,271.3,10.43,10.69,6,gable,5.74,2,stone,rect,Osbert,cooper,House of Osbert the cooper
+T-130,House of Elena the thatcher,shop,T,936.4,1019.26,67.13,271.1,7.14,9.42,6,gable,3.93,2,timber,rect,Elena,thatcher,House of Elena the thatcher
+T-131,House of Christiana the tailor,house,T,937.31,1028.83,66.77,271.0,10.17,11.6,6,gable,5.59,2,stone,rect,Christiana,tailor,House of Christiana the tailor
+T-132,House of Stephen the cooper,house,T,935.98,1039.48,66.59,270.7,8.69,9.26,6,hip,3.91,2,stone,rect,Stephen,cooper,House of Stephen the cooper
+T-133,House of Walter the brewer,shop,T,936.3,1049.47,66.31,270.5,9.81,10.12,6,hip,4.42,2,timber,rect,Walter,brewer,House of Walter the brewer
+T-134,House of Odo the cutler,house,T,936.59,1058.84,66.11,270.2,7.45,10.79,6,gable,4.1,2,timber,rect,Odo,cutler,House of Odo the cutler
+T-135,House of Ida the tinker,shop,T,937.4,1107.35,65.09,267.8,7.41,10.64,6,gable,4.07,2,stone,rect,Ida,tinker,House of Ida the tinker
+T-136,House of Roger the thatcher,shop,T,937.61,1115.96,64.91,267.6,8.18,10.36,6,gable,4.5,2,timber,rect,Roger,thatcher,House of Roger the thatcher
+T-137,House of Cecily the thatcher,shop,T,938.0,1132.64,64.6,267.2,8.43,9.61,6,hip,3.79,2,timber,rect,Cecily,thatcher,House of Cecily the thatcher
+T-138,House of Hugh the mason,shop,T,938.47,1142.98,64.38,267.0,10.41,9.51,6,gable,5.23,2,timber,rect,Hugh,mason,House of Hugh the mason
+T-139,House of Baldwin the spicer,house,T,939.25,1153.59,64.21,266.9,8.08,9.94,6,gable,4.44,2,timber,rect,Baldwin,spicer,House of Baldwin the spicer
+T-140,House of Edith the thatcher,house,T,939.94,1172.51,63.84,266.7,9.82,9.22,6,hip,4.15,2,timber,rect,Edith,thatcher,House of Edith the thatcher
+T-141,House of Juliana the glover,house,T,941.57,1182.42,63.68,266.7,8.06,11.33,6,gable,4.43,2,timber,rect,Juliana,glover,House of Juliana the glover
+T-142,House of Roger the scribe,shop,T,942.7,1199.66,63.37,266.9,7.94,11.65,6,hip,3.57,2,stone,rect,Roger,scribe,House of Roger the scribe
+T-143,House of Jordan the saddler,shop,T,1112.18,960.98,64.96,89.1,9.72,9.27,6,gable,5.1,2,timber,rect,Jordan,saddler,House of Jordan the saddler
+T-144,House of Ralph the spicer,shop,T,1112.54,981.62,64.17,88.9,9.04,9.3,6,hip,4.07,2,timber,rect,Ralph,spicer,House of Ralph the spicer
+T-145,House of Rose the brewer,house,T,1113.47,1048.3,62.84,89.9,7.04,9.05,6,gable,3.87,2,stone,rect,Rose,brewer,House of Rose the brewer
+T-146,House of Thomas the pewterer,house,T,1111.73,1100.04,62.32,92.4,9.28,10.58,6,gable,5.1,2,timber,rect,Thomas,pewterer,House of Thomas the pewterer
+T-147,House of Robin the tailor,shop,T,1111.76,1110.66,62.23,92.7,9.55,9.59,6,gable,5.25,2,stone,rect,Robin,tailor,House of Robin the tailor
+T-148,House of Ralph the brewer,house,T,1110.47,1120.71,62.16,93.0,8.94,11.15,6,gable,4.92,2,timber,rect,Ralph,brewer,House of Ralph the brewer
+T-149,House of Ralph the tailor,house,T,1110.02,1129.46,62.11,93.2,7.06,11.11,6,gable,3.88,2,timber,rect,Ralph,tailor,House of Ralph the tailor
+T-150,House of Margery the apothecary,house,T,1109.9,1139.03,62.03,93.4,9.79,10.25,6,hip,4.4,2,stone,rect,Margery,apothecary,House of Margery the apothecary
+T-151,House of Martin the thatcher,shop,T,1107.96,1177.04,61.75,93.7,7.82,9.37,6,hip,3.52,2,stone,rect,Martin,thatcher,House of Martin the thatcher
+T-152,House of Sybil the baker,house,T,1107.02,1186.16,61.67,93.7,8.87,10.07,6,hip,3.99,2,timber,rect,Sybil,baker,House of Sybil the baker
+T-153,House of Odo the cutler,shop,T,1106.38,1195.87,61.58,93.6,7.82,10.08,6,gable,4.3,2,timber,rect,Odo,cutler,House of Odo the cutler
+T-154,House of Isabel the brewer,house,T,1129.55,969.04,64.33,269.0,9.76,11.98,6,gable,5.37,2,timber,rect,Isabel,brewer,House of Isabel the brewer
+T-155,House of Ida the dyer,shop,T,1129.68,979.87,64.0,268.9,8.93,11.84,6,hip,4.02,2,stone,rect,Ida,dyer,House of Ida the dyer
+T-156,House of Gilbert the tinker,shop,T,1129.5,990.31,63.72,269.0,9.89,11.1,6,gable,5.44,2,timber,rect,Gilbert,tinker,House of Gilbert the tinker
+T-157,House of Beatrice the fuller,shop,T,1129.21,1008.85,63.32,269.2,8.38,9.93,6,gable,4.61,2,stone,rect,Beatrice,fuller,House of Beatrice the fuller
+T-158,House of Margery the wheelwright,shop,T,1129.66,1019.24,63.11,269.3,9.4,10.54,6,hip,4.23,2,timber,rect,Margery,wheelwright,House of Margery the wheelwright
+T-159,House of Henry the goldsmith,shop,T,1129.77,1029.87,62.93,269.5,9.58,10.54,6,gable,5.27,2,timber,rect,Henry,goldsmith,House of Henry the goldsmith
+T-160,House of Hawise the apothecary,shop,T,1129.74,1048.43,62.68,269.9,7.0,10.3,6,gable,3.85,2,timber,rect,Hawise,apothecary,House of Hawise the apothecary
+T-161,House of Nicholas the apothecary,house,T,1129.11,1110.89,61.97,272.7,9.83,11.9,6,gable,5.4,2,timber,rect,Nicholas,apothecary,House of Nicholas the apothecary
+T-162,House of Roger the potter,shop,T,1128.18,1129.54,61.82,273.1,7.9,11.97,6,gable,4.34,2,timber,rect,Roger,potter,House of Roger the potter
+T-163,House of Emma the locksmith,house,T,1126.24,1139.08,61.78,273.3,8.62,9.17,6,hip,3.88,2,timber,rect,Emma,locksmith,House of Emma the locksmith
+T-164,House of Simon the fuller,house,T,1124.81,1176.69,61.44,273.7,10.28,11.0,6,gable,5.65,2,timber,rect,Simon,fuller,House of Simon the fuller
+T-165,House of Hob the carpenter,shop,T,1124.51,1188.21,61.33,273.7,10.0,11.9,9,hip,4.5,3,stone,rect,Hob,carpenter,House of Hob the carpenter
+T-166,House of Matilda the ropemaker,house,T,865.29,1010.21,69.41,358.3,10.08,10.32,6,gable,5.54,2,timber,rect,Matilda,ropemaker,House of Matilda the ropemaker
+T-167,House of Sybil the dyer,house,T,876.35,1010.53,69.1,358.2,9.63,11.65,6,gable,5.29,2,stone,rect,Sybil,dyer,House of Sybil the dyer
+T-168,House of Christiana the chandler,house,T,886.32,1009.65,68.9,358.2,7.47,10.51,6,gable,4.11,2,timber,rect,Christiana,chandler,House of Christiana the chandler
+T-169,House of Hugh the fletcher,house,T,895.4,1009.31,68.64,358.2,9.06,10.42,9,hip,4.08,3,timber,rect,Hugh,fletcher,House of Hugh the fletcher
+T-170,House of Richard the chandler,shop,T,953.09,1008.27,66.86,358.5,9.74,11.72,9,gable,5.36,3,timber,rect,Richard,chandler,House of Richard the chandler
+T-171,House of Cecily the pewterer,house,T,963.65,1007.63,66.56,358.6,9.37,10.97,6,hip,4.22,2,timber,rect,Cecily,pewterer,House of Cecily the pewterer
+T-172,House of Ivetta the chandler,shop,T,974.39,1007.06,66.25,358.8,10.39,10.31,6,hip,4.64,2,timber,rect,Ivetta,chandler,House of Ivetta the chandler
+T-173,House of Alys the ropemaker,shop,T,993.68,1007.07,65.71,359.1,7.44,11.02,6,hip,3.35,2,timber,rect,Alys,ropemaker,House of Alys the ropemaker
+T-174,House of Matilda the cutler,house,T,1139.53,1008.71,63.24,1.8,7.65,10.03,6,gable,4.21,2,timber,rect,Matilda,cutler,House of Matilda the cutler
+T-175,House of Joan the saddler,house,T,1149.3,1009.66,63.13,1.8,9.62,11.33,6,hip,4.33,2,stone,rect,Joan,saddler,House of Joan the saddler
+T-176,House of Agnes the spicer,shop,T,1160.07,1010.01,63.05,1.8,10.5,11.34,9,gable,5.77,3,timber,rect,Agnes,spicer,House of Agnes the spicer
+T-177,House of Odo the spicer,shop,T,1170.43,1010.02,62.99,1.8,8.99,10.7,6,gable,4.94,2,timber,rect,Odo,spicer,House of Odo the spicer
+T-178,House of Margery the glover,house,T,1179.67,1009.58,62.96,1.8,7.8,9.24,6,gable,4.29,2,timber,rect,Margery,glover,House of Margery the glover
+T-179,House of Geoffrey the mason,shop,T,884.49,991.85,69.51,178.2,10.38,11.99,6,hip,4.67,2,timber,rect,Geoffrey,mason,House of Geoffrey the mason
+T-180,House of Christiana the brewer,house,T,894.53,992.38,69.27,178.2,8.38,10.28,9,gable,4.61,3,timber,rect,Christiana,brewer,House of Christiana the brewer
+T-181,House of Hawise the goldsmith,house,T,904.72,992.69,68.95,178.2,10.48,9.02,6,gable,4.96,2,timber,rect,Hawise,goldsmith,House of Hawise the goldsmith
+T-182,House of Osbert the goldsmith,shop,T,958.26,991.15,67.36,178.6,9.62,9.04,6,gable,4.97,2,timber,rect,Osbert,goldsmith,House of Osbert the goldsmith
+T-183,House of Rose the dyer,shop,T,978.41,989.78,66.74,178.8,10.03,10.89,6,gable,5.52,2,timber,rect,Rose,dyer,House of Rose the dyer
+T-184,House of Stephen the fletcher,shop,T,988.97,989.74,66.44,179.0,9.6,10.59,6,hip,4.32,2,stone,rect,Stephen,fletcher,House of Stephen the fletcher
+T-185,House of Margery the butcher,house,T,998.4,989.11,66.2,179.2,7.74,11.55,6,gable,4.26,2,timber,rect,Margery,butcher,House of Margery the butcher
+T-186,House of Ralph the bowyer,shop,T,1036.86,989.27,65.17,180.5,10.13,10.98,9,hip,4.56,3,stone,rect,Ralph,bowyer,House of Ralph the bowyer
+T-187,House of Hugh the potter,house,T,1048.24,989.65,64.91,180.8,10.18,10.44,6,hip,4.58,2,timber,rect,Hugh,potter,House of Hugh the potter
+T-188,House of Margery the tailor,shop,T,1068.5,989.64,64.53,181.1,7.48,11.13,6,gable,4.11,2,timber,rect,Margery,tailor,House of Margery the tailor
+T-189,House of Elena the brewer,house,T,1077.75,990.23,64.36,181.2,8.73,10.33,6,hip,3.93,2,timber,rect,Elena,brewer,House of Elena the brewer
+T-190,House of Wat the carpenter,house,T,1088.56,989.89,64.18,181.4,10.47,11.5,6,gable,5.76,2,stone,rect,Wat,carpenter,House of Wat the carpenter
+T-191,House of Hugh the goldsmith,shop,T,1099.12,991.27,64.04,181.5,9.33,9.29,9,gable,5.11,3,timber,rect,Hugh,goldsmith,House of Hugh the goldsmith
+T-192,House of Robin the baker,house,T,1145.65,992.42,63.55,181.8,7.92,9.71,6,gable,4.36,2,timber,rect,Robin,baker,House of Robin the baker
+T-193,House of Maud the saddler,shop,T,1154.53,991.93,63.47,181.8,7.4,11.26,6,gable,4.07,2,timber,rect,Maud,saddler,House of Maud the saddler
+T-194,House of Matilda the cobbler,house,T,1163.9,992.27,63.39,181.8,9.37,11.18,6,gable,5.15,2,timber,rect,Matilda,cobbler,House of Matilda the cobbler
+T-195,House of Ralph the saddler,house,T,884.57,1168.72,64.22,0.9,8.55,9.98,6,gable,4.7,2,stone,rect,Ralph,saddler,House of Ralph the saddler
+T-196,House of Piers the cutler,house,T,903.46,1168.83,64.08,0.9,8.94,9.6,9,gable,4.92,3,timber,rect,Piers,cutler,House of Piers the cutler
+T-197,House of Cecily the scribe,house,T,951.64,1170.36,63.83,0.7,8.95,11.25,6,gable,4.92,2,timber,rect,Cecily,scribe,House of Cecily the scribe
+T-198,House of Nicholas the apothecary,house,T,971.11,1170.75,63.74,0.6,10.09,11.57,9,gable,5.55,3,timber,rect,Nicholas,apothecary,House of Nicholas the apothecary
+T-199,House of Elena the tinker,house,T,981.44,1169.62,63.72,0.5,8.88,9.1,6,gable,4.89,2,stone,rect,Elena,tinker,House of Elena the tinker
+T-200,House of Felice the goldsmith,house,T,991.4,1170.51,63.64,0.4,8.89,10.71,6,gable,4.89,2,timber,rect,Felice,goldsmith,House of Felice the goldsmith
+T-201,House of Piers the tailor,house,T,1001.33,1170.97,63.55,0.4,9.26,11.49,6,hip,4.17,2,stone,rect,Piers,tailor,House of Piers the tailor
+T-202,House of Alan the bowyer,shop,T,1049.41,1170.7,62.93,359.6,7.49,10.99,6,gable,4.12,2,timber,rect,Alan,bowyer,House of Alan the bowyer
+T-203,House of Odo the spicer,shop,T,1059.32,1170.25,62.75,359.5,9.54,10.24,6,gable,5.25,2,stone,rect,Odo,spicer,House of Odo the spicer
+T-204,House of Agnes the butcher,shop,T,1070.0,1169.92,62.54,359.4,10.26,9.78,6,gable,5.38,2,timber,rect,Agnes,butcher,House of Agnes the butcher
+T-205,House of Felice the thatcher,house,T,1080.11,1170.01,62.36,359.4,8.7,10.18,6,hip,3.92,2,timber,rect,Felice,thatcher,House of Felice the thatcher
+T-206,House of Walter the thatcher,house,T,1089.74,1170.52,62.16,359.3,8.21,11.42,6,gable,4.51,2,timber,rect,Walter,thatcher,House of Walter the thatcher
+T-207,House of Maud the draper,house,T,1136.64,1169.98,61.33,359.1,10.41,11.66,6,gable,5.73,2,timber,rect,Maud,draper,House of Maud the draper
+T-208,House of Gilbert the cutler,house,T,1155.84,1169.19,61.15,359.1,7.09,10.69,6,gable,3.9,2,timber,rect,Gilbert,cutler,House of Gilbert the cutler
+T-209,House of Amice the tinker,house,T,1164.83,1168.23,61.11,359.1,8.11,9.05,6,gable,4.46,2,timber,rect,Amice,tinker,House of Amice the tinker
+T-210,House of Cecily the apothecary,house,T,863.87,1151.73,64.94,180.8,7.5,10.15,6,gable,4.12,2,timber,rect,Cecily,apothecary,House of Cecily the apothecary
+T-211,House of Henry the tailor,house,T,882.02,1152.36,64.68,180.9,9.54,9.46,9,hip,4.26,3,timber,rect,Henry,tailor,House of Henry the tailor
+T-212,House of Stephen the chandler,house,T,892.42,1151.54,64.56,180.9,9.91,11.43,6,gable,5.45,2,stone,rect,Stephen,chandler,House of Stephen the chandler
+T-213,House of Odo the brewer,house,T,910.3,1152.05,64.41,180.9,7.85,10.97,6,gable,4.32,2,timber,rect,Odo,brewer,House of Odo the brewer
+T-214,House of Mabel the locksmith,shop,T,959.74,1152.94,64.07,180.7,10.16,10.58,9,gable,5.59,3,stone,rect,Mabel,locksmith,House of Mabel the locksmith
+T-215,House of Maud the locksmith,house,T,977.49,1153.41,63.94,180.6,9.54,10.04,9,gable,5.25,3,timber,rect,Maud,locksmith,House of Maud the locksmith
+T-216,House of Godwin the mason,shop,T,987.58,1152.95,63.87,180.5,8.47,11.14,6,hip,3.81,2,timber,rect,Godwin,mason,House of Godwin the mason
+T-217,House of Jordan the glover,house,T,996.29,1153.07,63.79,180.4,7.36,11.03,6,hip,3.31,2,timber,rect,Jordan,glover,House of Jordan the glover
+T-218,House of Walter the weaver,shop,T,1043.86,1154.13,63.17,179.7,7.35,9.03,6,gable,4.04,2,stone,rect,Walter,weaver,House of Walter the weaver
+T-219,House of Alys the dyer,house,T,1061.56,1153.3,62.85,179.5,8.28,10.43,6,hip,3.73,2,timber,rect,Alys,dyer,House of Alys the dyer
+T-220,House of Alys the dyer,shop,T,1079.08,1152.34,62.52,179.4,7.75,11.99,6,hip,3.49,2,timber,rect,Alys,dyer,House of Alys the dyer
+T-221,House of Richard the fletcher,house,T,1087.38,1152.33,62.36,179.3,7.33,11.83,9,gable,4.03,3,timber,rect,Richard,fletcher,House of Richard the fletcher
+T-222,House of Alan the baker,shop,T,1096.75,1152.69,62.16,179.3,10.05,10.88,6,gable,5.53,2,stone,rect,Alan,baker,House of Alan the baker
+T-223,House of Emma the cobbler,shop,T,1107.38,1152.55,61.97,179.2,9.21,10.87,9,gable,5.07,3,timber,rect,Emma,cobbler,House of Emma the cobbler
+T-224,House of Martin the baker,house,T,1127.0,1152.42,61.64,179.1,10.07,10.56,9,gable,5.54,3,timber,rect,Martin,baker,House of Martin the baker
+T-225,House of Henry the saddler,shop,T,1137.21,1151.61,61.51,179.1,8.01,11.86,6,gable,4.4,2,timber,rect,Henry,saddler,House of Henry the saddler
+T-226,House of Martin the spicer,shop,T,1146.33,1152.64,61.41,179.1,7.66,9.52,6,gable,4.21,2,stone,rect,Martin,spicer,House of Martin the spicer
+T-227,House of Margery the ropemaker,shop,T,1154.44,1151.93,61.33,179.1,7.14,10.67,6,gable,3.93,2,timber,rect,Margery,ropemaker,House of Margery the ropemaker
+T-228,House of Christiana the mason,house,T,1163.5,1152.16,61.25,179.1,9.39,9.92,6,hip,4.23,2,timber,rect,Christiana,mason,House of Christiana the mason
+T-229,House of Alan the cutler,house,T,1174.02,1151.4,61.2,179.1,10.08,11.11,9,gable,5.55,3,stone,rect,Alan,cutler,House of Alan the cutler
+T-230,House of Ralph the goldsmith,shop,T,1184.63,1152.11,61.19,179.2,9.4,9.37,9,gable,5.15,3,timber,rect,Ralph,goldsmith,House of Ralph the goldsmith
+T-231,House of Godwin the carpenter,house,T,1213.39,1106.15,61.6,104.4,7.39,10.69,6,hip,3.33,2,timber,rect,Godwin,carpenter,House of Godwin the carpenter
+T-232,House of Edith the saddler,house,T,1207.7,1123.05,61.44,116.1,8.15,9.94,9,gable,4.48,3,timber,rect,Edith,saddler,House of Edith the saddler
+T-233,House of Nicholas the bowyer,shop,T,1198.92,1139.68,61.28,121.9,8.87,9.04,6,gable,4.88,2,timber,rect,Nicholas,bowyer,House of Nicholas the bowyer
+T-234,House of Hugh the baker,house,T,1150.39,1184.67,61.08,149.1,9.81,10.15,9,gable,5.4,3,timber,rect,Hugh,baker,House of Hugh the baker
+T-235,House of Laurence the spicer,shop,T,1094.93,1208.83,61.63,164.7,9.72,10.15,9,gable,5.34,3,timber,rect,Laurence,spicer,House of Laurence the spicer
+T-236,House of Wat the cutler,house,T,1077.08,1212.93,61.9,167.5,9.91,10.71,9,gable,5.45,3,timber,rect,Wat,cutler,House of Wat the cutler
+T-237,House of Petronilla the fletcher,house,T,1058.21,1216.38,62.2,173.1,7.64,10.09,6,gable,4.2,2,timber,rect,Petronilla,fletcher,House of Petronilla the fletcher
+T-238,House of Alan the fletcher,house,T,998.82,1217.29,62.87,185.4,8.73,10.37,6,gable,4.8,2,timber,rect,Alan,fletcher,House of Alan the fletcher
+T-239,House of Felice the saddler,shop,T,981.95,1215.1,62.99,189.6,9.25,10.39,6,gable,5.09,2,timber,rect,Felice,saddler,House of Felice the saddler
+T-240,House of Ivetta the goldsmith,house,T,963.46,1210.76,63.1,192.5,9.23,11.72,6,gable,5.08,2,timber,rect,Ivetta,goldsmith,House of Ivetta the goldsmith
+T-241,House of Emma the cobbler,shop,T,953.45,1209.09,63.15,195.3,9.26,9.85,9,gable,5.09,3,stone,rect,Emma,cobbler,House of Emma the cobbler
+T-242,House of Maud the thatcher,house,T,910.35,1191.1,63.53,207.6,9.61,11.6,6,gable,5.29,2,stone,rect,Maud,thatcher,House of Maud the thatcher
+T-243,House of Ralph the glover,shop,T,894.49,1182.46,63.8,213.4,9.89,10.54,6,gable,5.44,2,stone,rect,Ralph,glover,House of Ralph the glover
+T-244,House of Gilbert the bowyer,shop,T,851.29,1140.45,65.51,236.3,9.17,11.84,6,gable,5.05,2,timber,rect,Gilbert,bowyer,House of Gilbert the bowyer
+T-245,House of Nicholas the brewer,house,T,841.78,1123.93,66.21,242.7,8.98,11.87,6,gable,4.94,2,stone,rect,Nicholas,brewer,House of Nicholas the brewer
+T-246,House of Margery the draper,house,T,834.98,1107.02,66.86,253.1,9.29,10.96,9,gable,5.11,3,timber,rect,Margery,draper,House of Margery the draper
+T-247,House of Matilda the ropemaker,shop,T,835.79,1047.19,68.83,287.7,10.32,9.01,6,gable,4.95,2,timber,rect,Matilda,ropemaker,House of Matilda the ropemaker
+T-248,House of Alys the glover,house,T,845.11,1028.11,69.28,297.3,9.79,10.49,6,gable,5.39,2,timber,rect,Alys,glover,House of Alys the glover
+T-249,House of Edith the mason,house,T,897.37,975.21,69.95,329.1,10.33,9.69,6,hip,4.36,2,timber,rect,Edith,mason,House of Edith the mason
+T-250,House of Sybil the apothecary,shop,T,906.22,970.29,69.92,330.1,8.18,10.25,6,gable,4.5,2,stone,rect,Sybil,apothecary,House of Sybil the apothecary
+T-251,House of Christiana the tailor,shop,T,950.43,952.22,69.76,344.1,7.97,10.75,6,gable,4.38,2,stone,rect,Christiana,tailor,House of Christiana the tailor
+T-252,House of Amice the bowyer,house,T,959.53,949.92,69.68,344.7,8.27,11.16,9,gable,4.55,3,stone,rect,Amice,bowyer,House of Amice the bowyer
+T-253,House of Odo the thatcher,house,T,975.99,946.56,69.47,350.4,8.89,11.65,6,gable,4.89,2,stone,rect,Odo,thatcher,House of Odo the thatcher
+T-254,House of Roger the scribe,house,T,984.76,944.14,69.55,350.4,7.41,9.82,6,hip,3.34,2,timber,rect,Roger,scribe,House of Roger the scribe
+T-255,House of Godwin the locksmith,shop,T,1000.77,942.43,69.22,355.9,7.62,10.14,6,gable,4.19,2,timber,rect,Godwin,locksmith,House of Godwin the locksmith
+T-256,House of Odo the bowyer,shop,T,1045.59,942.61,67.77,4.1,7.57,10.73,6,gable,4.16,2,stone,rect,Odo,bowyer,House of Odo the bowyer
+T-257,House of Felice the cooper,shop,T,1054.43,943.92,67.33,6.9,8.49,11.6,6,gable,4.67,2,timber,rect,Felice,cooper,House of Felice the cooper
+T-258,House of Ivetta the cobbler,house,T,1072.87,945.82,66.69,10.4,8.87,9.89,9,gable,4.88,3,timber,rect,Ivetta,cobbler,House of Ivetta the cobbler
+T-259,House of Laurence the barber-surgeon,shop,T,1092.0,950.73,65.82,15.3,9.04,10.85,6,hip,4.07,2,timber,rect,Laurence,barber-surgeon,House of Laurence the barber-surgeon
+T-260,House of Emma the pewterer,house,T,1143.92,972.32,64.03,30.9,10.24,11.64,9,hip,4.61,3,timber,rect,Emma,pewterer,House of Emma the pewterer
+T-261,House of Hawise the locksmith,shop,T,1194.65,1016.27,62.74,53.8,10.23,11.31,9,gable,5.63,3,stone,rect,Hawise,locksmith,House of Hawise the locksmith
+T-262,House of Cecily the fletcher,shop,T,1204.55,1031.55,62.47,62.7,9.03,10.69,6,gable,4.97,2,stone,rect,Cecily,fletcher,House of Cecily the fletcher
+T-263,House of Alys the ropemaker,house,T,1212.13,1050.7,62.18,72.3,10.35,11.3,9,hip,4.66,3,stone,rect,Alys,ropemaker,House of Alys the ropemaker
+T-264,House of Isabel the draper,shop,T,1231.45,1106.32,61.63,282.8,7.08,11.31,6,hip,3.19,2,timber,rect,Isabel,draper,House of Isabel the draper
+T-265,House of Simon the locksmith,house,T,1228.28,1114.22,61.57,287.7,7.58,9.25,6,gable,4.17,2,timber,rect,Simon,locksmith,House of Simon the locksmith
+T-266,House of Christiana the weaver,house,T,1225.49,1123.28,61.49,292.6,8.49,9.91,6,gable,4.67,2,timber,rect,Christiana,weaver,House of Christiana the weaver
+T-267,House of Hawise the weaver,shop,T,1221.36,1132.29,61.41,296.1,7.71,9.53,6,gable,4.24,2,timber,rect,Hawise,weaver,House of Hawise the weaver
+T-268,House of Piers the cooper,shop,T,1218.01,1140.33,61.35,298.9,7.09,11.02,6,gable,3.9,2,stone,rect,Piers,cooper,House of Piers the cooper
+T-269,House of Hugh the barber-surgeon,house,T,1212.85,1148.08,61.26,301.9,8.32,10.3,6,gable,4.58,2,timber,rect,Hugh,barber-surgeon,House of Hugh the barber-surgeon
+T-270,House of Wat the bowyer,shop,T,1206.5,1156.14,61.17,306.2,9.77,9.27,9,gable,5.1,3,stone,rect,Wat,bowyer,House of Wat the bowyer
+T-271,House of Gilbert the cobbler,house,T,1200.08,1165.32,61.08,310.5,9.28,11.0,6,gable,5.1,2,timber,rect,Gilbert,cobbler,House of Gilbert the cobbler
+T-272,House of Cecily the pewterer,house,T,1193.73,1172.36,61.01,314.5,7.28,11.4,6,gable,4.0,2,timber,rect,Cecily,pewterer,House of Cecily the pewterer
+T-273,House of Richard the ropemaker,shop,T,1186.28,1178.32,60.96,318.4,9.18,9.71,9,gable,5.05,3,timber,rect,Richard,ropemaker,House of Richard the ropemaker
+T-274,House of Maud the baker,shop,T,1177.87,1185.4,60.91,322.1,10.23,9.61,6,hip,4.32,2,timber,rect,Maud,baker,House of Maud the baker
+T-275,House of Odo the ropemaker,shop,T,1168.82,1192.69,60.89,325.7,10.44,10.4,6,hip,4.68,2,timber,rect,Odo,ropemaker,House of Odo the ropemaker
+T-276,House of Hawise the apothecary,shop,T,1159.76,1198.06,60.9,328.3,7.8,9.27,9,gable,4.29,3,stone,rect,Hawise,apothecary,House of Hawise the apothecary
+T-277,House of Ralph the tailor,house,T,1151.99,1203.62,60.89,329.1,9.25,10.81,6,hip,4.16,2,timber,rect,Ralph,tailor,House of Ralph the tailor
+T-278,House of Piers the cutler,shop,T,1142.55,1208.08,60.94,332.4,8.31,9.84,6,gable,4.57,2,timber,rect,Piers,cutler,House of Piers the cutler
+T-279,House of Laurence the fuller,house,T,1134.59,1212.65,60.97,335.6,7.78,11.21,6,gable,4.28,2,timber,rect,Laurence,fuller,House of Laurence the fuller
+T-280,House of Hob the cutler,house,T,1126.1,1216.31,61.04,338.7,7.45,11.13,6,gable,4.1,2,timber,rect,Hob,cutler,House of Hob the cutler
+T-281,House of Edith the fuller,shop,T,1117.43,1219.98,61.11,340.3,9.53,11.69,6,hip,4.29,2,timber,rect,Edith,fuller,House of Edith the fuller
+T-282,House of Joan the baker,house,T,1106.68,1223.57,61.23,341.7,10.1,11.6,6,hip,4.55,2,timber,rect,Joan,baker,House of Joan the baker
+T-283,House of Juliana the locksmith,house,T,1095.73,1226.2,61.4,344.7,9.08,10.56,6,hip,4.08,2,timber,rect,Juliana,locksmith,House of Juliana the locksmith
+T-284,House of Roger the fletcher,shop,T,1076.84,1229.96,61.67,349.6,9.46,9.37,6,hip,4.22,2,timber,rect,Roger,fletcher,House of Roger the fletcher
+T-285,House of Rose the cobbler,shop,T,1067.16,1232.94,61.77,350.4,8.62,11.96,6,gable,4.74,2,timber,rect,Rose,cobbler,House of Rose the cobbler
+T-286,House of Roger the cobbler,house,T,1057.28,1233.76,61.92,353.1,9.13,10.99,9,gable,5.02,3,timber,rect,Roger,cobbler,House of Roger the cobbler
+T-287,House of Hawise the potter,shop,T,1047.95,1234.39,62.07,355.9,7.3,10.32,6,gable,4.01,2,stone,rect,Hawise,potter,House of Hawise the potter
+T-288,House of Edith the mason,house,T,1000.97,1234.07,62.56,4.1,8.05,9.54,9,hip,3.62,3,stone,rect,Edith,mason,House of Edith the mason
+T-289,House of Robin the chandler,house,T,991.81,1233.53,62.62,6.9,8.25,10.26,6,gable,4.54,2,timber,rect,Robin,chandler,House of Robin the chandler
+T-290,House of Maud the wheelwright,shop,T,981.82,1232.67,62.66,9.6,9.62,11.11,6,gable,5.29,2,stone,rect,Maud,wheelwright,House of Maud the wheelwright
+T-291,House of Matilda the chandler,shop,T,972.58,1231.45,62.72,9.6,7.07,11.79,6,gable,3.89,2,timber,rect,Matilda,chandler,House of Matilda the chandler
+T-292,House of Alys the brewer,shop,T,963.75,1228.67,62.79,12.5,8.68,9.93,6,gable,4.78,2,timber,rect,Alys,brewer,House of Alys the brewer
+T-293,House of Wat the bowyer,house,T,945.84,1225.08,62.86,15.9,9.59,11.83,6,hip,4.32,2,timber,rect,Wat,bowyer,House of Wat the bowyer
+T-294,House of Ida the cooper,shop,T,936.41,1221.25,62.95,18.3,8.04,10.27,6,gable,4.42,2,timber,rect,Ida,cooper,House of Ida the cooper
+T-295,House of Geoffrey the butcher,shop,T,927.73,1217.56,63.03,21.3,7.92,9.22,6,gable,4.36,2,timber,rect,Geoffrey,butcher,House of Geoffrey the butcher
+T-296,House of Hob the brewer,shop,T,917.73,1214.47,63.07,23.8,9.72,10.98,6,gable,5.35,2,stone,rect,Hob,brewer,House of Hob the brewer
+T-297,House of Sybil the locksmith,shop,T,908.39,1209.26,63.21,26.7,8.26,9.27,6,hip,3.72,2,timber,rect,Sybil,locksmith,House of Sybil the locksmith
+T-298,House of Simon the wheelwright,house,T,899.22,1205.15,63.3,27.6,9.81,10.41,6,gable,5.4,2,timber,rect,Simon,wheelwright,House of Simon the wheelwright
+T-299,House of Beatrice the cutler,house,T,890.34,1199.88,63.46,30.9,8.81,10.22,6,gable,4.85,2,timber,rect,Beatrice,cutler,House of Beatrice the cutler
+T-300,House of Avice the carpenter,shop,T,882.07,1193.97,63.64,34.3,9.53,9.26,9,gable,5.09,3,timber,rect,Avice,carpenter,House of Avice the carpenter
+T-301,House of Piers the pewterer,house,T,873.02,1188.67,63.85,37.9,7.63,11.21,9,gable,4.2,3,timber,rect,Piers,pewterer,House of Piers the pewterer
+T-302,House of Roger the locksmith,house,T,865.87,1182.85,64.08,41.6,7.46,10.98,6,gable,4.1,2,timber,rect,Roger,locksmith,House of Roger the locksmith
+T-303,House of Baldwin the pewterer,shop,T,859.31,1177.07,64.31,42.8,8.1,11.07,9,gable,4.45,3,timber,rect,Baldwin,pewterer,House of Baldwin the pewterer
+T-304,House of Cecily the scribe,house,T,852.81,1170.74,64.58,45.5,8.01,11.2,9,gable,4.41,3,timber,rect,Cecily,scribe,House of Cecily the scribe
+T-305,House of Amice the pewterer,house,T,846.87,1162.66,64.89,49.5,9.59,9.16,6,gable,5.04,2,timber,rect,Amice,pewterer,House of Amice the pewterer
+T-306,House of Margery the ropemaker,house,T,839.81,1154.46,65.28,53.8,8.49,10.02,6,hip,3.82,2,stone,rect,Margery,ropemaker,House of Margery the ropemaker
+T-307,House of Felice the tailor,shop,T,833.42,1146.4,65.63,58.1,9.91,11.46,6,gable,5.45,2,timber,rect,Felice,tailor,House of Felice the tailor
+T-308,House of Amice the baker,house,T,828.79,1137.12,66.05,62.7,8.1,10.1,9,gable,4.45,3,stone,rect,Amice,baker,House of Amice the baker
+T-309,House of Elena the cooper,house,T,824.02,1128.83,66.39,66.3,8.35,11.38,6,gable,4.59,2,timber,rect,Elena,cooper,House of Elena the cooper
+T-310,House of Petronilla the thatcher,shop,T,820.51,1118.53,66.76,72.3,9.48,10.38,6,hip,4.26,2,stone,rect,Petronilla,thatcher,House of Petronilla the thatcher
+T-311,House of Edith the spicer,shop,T,817.84,1107.96,67.18,77.2,8.38,9.54,6,gable,4.61,2,timber,rect,Edith,spicer,House of Edith the spicer
+T-312,House of Amice the brewer,house,T,816.22,1055.16,68.93,102.8,8.16,11.32,6,gable,4.49,2,stone,rect,Amice,brewer,House of Amice the brewer
+T-313,House of Matilda the potter,house,T,819.12,1045.1,69.21,107.7,8.81,10.82,6,gable,4.84,2,timber,rect,Matilda,potter,House of Matilda the potter
+T-314,House of Sybil the weaver,house,T,823.21,1035.1,69.49,112.6,8.7,9.85,9,gable,4.79,3,timber,rect,Sybil,weaver,House of Sybil the weaver
+T-315,House of Edith the apothecary,shop,T,827.82,1025.05,69.74,117.3,9.22,9.84,9,hip,4.15,3,stone,rect,Edith,apothecary,House of Edith the apothecary
+T-316,House of Adam the bowyer,house,T,832.79,1016.07,69.97,121.9,7.52,9.92,9,gable,4.14,3,stone,rect,Adam,bowyer,House of Adam the bowyer
+T-317,House of Piers the tailor,house,T,837.08,1008.5,70.13,126.2,7.26,10.93,9,gable,4.0,3,stone,rect,Piers,tailor,House of Piers the tailor
+T-318,House of Stephen the butcher,house,T,842.46,1000.69,70.27,130.1,9.67,11.55,6,gable,5.32,2,timber,rect,Stephen,butcher,House of Stephen the butcher
+T-319,House of Beatrice the saddler,house,T,849.92,993.15,70.41,131.9,8.58,10.02,6,gable,4.72,2,stone,rect,Beatrice,saddler,House of Beatrice the saddler
+T-320,House of Isabel the brewer,shop,T,856.94,985.25,70.52,134.5,9.1,10.94,9,gable,5.0,3,stone,rect,Isabel,brewer,House of Isabel the brewer
+T-321,House of Joan the butcher,house,T,865.41,977.75,70.61,138.4,9.39,10.69,6,hip,4.23,2,timber,rect,Joan,butcher,House of Joan the butcher
+T-322,House of Cecily the locksmith,house,T,874.29,971.29,70.69,142.1,10.13,9.72,6,gable,5.34,2,timber,rect,Cecily,locksmith,House of Cecily the locksmith
+T-323,House of Matilda the dyer,house,T,882.13,964.41,70.76,145.7,8.45,11.86,6,hip,3.8,2,timber,rect,Matilda,dyer,House of Matilda the dyer
+T-324,House of Gilbert the mason,house,T,890.62,960.3,70.81,149.1,7.97,9.63,6,hip,3.59,2,timber,rect,Gilbert,mason,House of Gilbert the mason
+T-325,House of Felice the cobbler,house,T,899.24,954.22,70.88,152.4,9.81,11.51,6,gable,5.4,2,timber,rect,Felice,cobbler,House of Felice the cobbler
+T-326,House of Edith the fuller,house,T,908.22,950.05,70.94,153.3,8.07,10.67,6,gable,4.44,2,timber,rect,Edith,fuller,House of Edith the fuller
+T-327,House of Cecily the ropemaker,house,T,925.7,942.28,71.11,158.7,7.1,10.99,6,hip,3.19,2,timber,rect,Cecily,ropemaker,House of Cecily the ropemaker
+T-328,House of Matilda the bowyer,house,T,934.54,939.21,71.19,161.7,8.65,10.58,6,gable,4.76,2,timber,rect,Matilda,bowyer,House of Matilda the bowyer
+T-329,House of Wat the wheelwright,house,T,951.15,934.49,71.34,164.7,7.56,9.84,6,gable,4.16,2,timber,rect,Wat,wheelwright,House of Wat the wheelwright
+T-330,House of Margery the glover,house,T,959.88,931.99,71.41,167.5,8.35,10.3,9,gable,4.59,3,timber,rect,Margery,glover,House of Margery the glover
+T-331,House of Ralph the pewterer,shop,T,970.55,930.33,71.45,168.2,10.29,9.01,6,gable,4.96,2,stone,rect,Ralph,pewterer,House of Ralph the pewterer
+T-332,House of Ida the carpenter,house,T,981.84,927.09,71.43,170.4,9.66,11.58,6,gable,5.31,2,timber,rect,Ida,carpenter,House of Ida the carpenter
+T-333,House of Mabel the weaver,house,T,992.61,926.16,71.32,173.1,8.08,10.69,6,gable,4.44,2,timber,rect,Mabel,weaver,House of Mabel the weaver
+T-334,House of Simon the potter,shop,T,1001.31,925.06,71.17,175.9,7.57,11.23,9,gable,4.16,3,stone,rect,Simon,potter,House of Simon the potter
+T-335,House of Felice the scribe,house,T,1048.31,925.19,69.52,184.1,8.51,11.21,6,gable,4.68,2,timber,rect,Felice,scribe,House of Felice the scribe
+T-336,House of Thomas the ropemaker,house,T,1057.38,926.41,69.09,186.9,7.26,10.67,6,gable,3.99,2,stone,rect,Thomas,ropemaker,House of Thomas the ropemaker
+T-337,House of Odo the mason,house,T,1067.03,928.01,68.53,189.6,9.44,10.05,9,gable,5.19,3,timber,rect,Odo,mason,House of Odo the mason
+T-338,House of Gilbert the thatcher,house,T,1076.33,929.96,68.08,190.4,7.46,9.35,6,gable,4.11,2,timber,rect,Gilbert,thatcher,House of Gilbert the thatcher
+T-339,House of Nicholas the ropemaker,shop,T,1085.71,930.92,67.52,192.5,9.29,11.36,6,gable,5.11,2,timber,rect,Nicholas,ropemaker,House of Nicholas the ropemaker
+T-340,House of Hob the dyer,shop,T,1096.25,934.2,66.93,195.3,9.82,10.07,6,gable,5.4,2,stone,rect,Hob,dyer,House of Hob the dyer
+T-341,House of Felice the goldsmith,house,T,1107.08,936.82,66.37,198.3,10.14,11.13,6,gable,5.58,2,timber,rect,Felice,goldsmith,House of Felice the goldsmith
+T-342,House of Roger the brewer,shop,T,1116.25,940.59,65.99,199.7,7.35,9.82,6,gable,4.04,2,timber,rect,Roger,brewer,House of Roger the brewer
+T-343,House of Baldwin the pewterer,shop,T,1124.17,943.43,65.61,201.3,7.81,10.2,6,gable,4.3,2,timber,rect,Baldwin,pewterer,House of Baldwin the pewterer
+T-344,House of Rose the thatcher,house,T,1133.96,947.49,65.14,204.4,10.47,10.45,9,gable,5.75,3,stone,rect,Rose,thatcher,House of Rose the thatcher
+T-345,House of Adam the brewer,shop,T,1143.48,952.14,64.83,207.6,7.03,10.31,6,gable,3.86,2,timber,rect,Adam,brewer,House of Adam the brewer
+T-346,House of Henry the barber-surgeon,shop,T,1152.54,956.57,64.47,210.9,10.25,11.05,6,hip,4.61,2,stone,rect,Henry,barber-surgeon,House of Henry the barber-surgeon
+T-347,House of Simon the scribe,shop,T,1162.77,962.26,64.16,214.3,9.25,11.92,6,gable,5.09,2,timber,rect,Simon,scribe,House of Simon the scribe
+T-348,House of Felice the mason,shop,T,1170.02,968.56,63.94,215.6,8.2,9.71,6,hip,3.69,2,timber,rect,Felice,mason,House of Felice the mason
+T-349,House of Odo the potter,shop,T,1177.19,973.7,63.74,217.9,7.25,10.19,6,gable,3.99,2,timber,rect,Odo,potter,House of Odo the potter
+T-350,House of Ivetta the locksmith,house,T,1184.42,980.36,63.52,221.6,8.58,9.22,6,gable,4.72,2,timber,rect,Ivetta,locksmith,House of Ivetta the locksmith
+T-351,House of Alys the ropemaker,house,T,1192.9,986.37,63.31,225.5,9.33,11.99,6,gable,5.13,2,timber,rect,Alys,ropemaker,House of Alys the ropemaker
+T-352,House of Ida the saddler,shop,T,1200.04,994.2,63.11,229.5,8.78,11.58,9,hip,3.95,3,stone,rect,Ida,saddler,House of Ida the saddler
+T-353,House of Walter the saddler,shop,T,1205.36,1002.47,62.95,232.0,7.06,9.15,6,gable,3.88,2,stone,rect,Walter,saddler,House of Walter the saddler
+T-354,House of Godwin the glover,house,T,1212.15,1011.06,62.74,238.1,10.29,10.02,9,gable,5.51,3,timber,rect,Godwin,glover,House of Godwin the glover
+T-355,House of Roger the wheelwright,shop,T,1218.47,1020.57,62.55,241.1,10.44,10.96,6,gable,5.74,2,timber,rect,Roger,wheelwright,House of Roger the wheelwright
+T-356,House of Adam the weaver,house,T,1222.73,1031.13,62.4,247.4,8.41,9.09,6,hip,3.78,2,timber,rect,Adam,weaver,House of Adam the weaver
+T-357,House of Maud the apothecary,house,T,1227.59,1039.19,62.28,252.0,7.59,11.99,6,gable,4.17,2,stone,rect,Maud,apothecary,House of Maud the apothecary
+T-358,House of Gilbert the scribe,house,T,1230.04,1047.11,62.18,252.3,7.35,11.8,9,gable,4.04,3,timber,rect,Gilbert,scribe,House of Gilbert the scribe
+T-359,House of Sybil the brewer,house,T,1232.14,1056.87,62.05,257.2,9.94,11.26,6,hip,4.47,2,timber,rect,Sybil,brewer,House of Sybil the brewer
+A-001,St. Hilda's Abbey (nave),church,A,540,775,81.32,0,46,12,14,gable,6.6,1,stone,rect,,,St. Hilda's Abbey
+A-002,St. Hilda's Abbey (choir),church,A,578,775,81.41,0,20,10,12,gable,5.5,1,stone,rect,,,St. Hilda's Abbey
+A-003,St. Hilda's Abbey (transepts),church,A,560,775,80.78,0,11,30,14,gable,6.05,1,stone,rect,,,St. Hilda's Abbey
+A-004,St. Hilda's Abbey (crossing tower),church,A,560,775,81.36,0,11,11,26,spire,10,1,stone,rect,,,St. Hilda's Abbey
+A-005,Chapter House & Dormitory,cloister,A,571,808,78.75,90,36,10,8,gable,5.5,1,stone,rect,,,Chapter House & Dormitory
+A-006,Refectory,cloister,A,548,831,78.49,180,36,10,8,gable,5.5,1,stone,rect,,,Refectory
+A-007,Cellarium & Guest Range,cloister,A,525,808,80.66,270,36,10,8,gable,5.5,1,stone,rect,,,Cellarium & Guest Range
+A-008,Abbot's Lodging,house,A,615,815,79.01,270,16,9,8,hip,4.05,2,stone,rect,,,Abbot's Lodging
+A-009,Infirmary,infirmary,A,622,862,76.57,180,18,9,6,gable,4.95,1,stone,rect,,,Infirmary
+A-010,Pilgrims' Guest House,guest_house,A,520,872,79.01,0,18,8,6,gable,4.4,1,timber,rect,,,Pilgrims' Guest House
+A-011,Abbey Barn,barn,A,478,860,84.62,90,26,10,8,gable,5.5,1,stone,rect,,,Abbey Barn
+A-012,Brewhouse & Bakehouse,bakehouse,A,590,878,76.05,0,12,8,5,gable,4.4,1,stone,rect,,,Brewhouse & Bakehouse
+A-013,Abbey Gate,gatehouse,A,562,895,76.2,180,9,6,7,gable,3.3,1,stone,rect,,,Abbey Gate
+W-001,St. Wulfric's Chapel,chapel,W,405,1086,72.76,0,14,7,6,gable,3.85,1,stone,rect,,,St. Wulfric's Chapel
+W-002,The Wheatsheaf,inn,W,545,1082,70.19,0,15,8,6,gable,4.4,2,timber,rect,,,The Wheatsheaf
+W-003,Westbrook Smithy,smithy,W,335,1080,76.24,0,10,8,4,gable,4.4,1,stone,rect,,,Westbrook Smithy
+W-004,Cottage of Emma the ale-wife,longhouse,W,227.9,1071.99,78.74,353.8,14.67,7.22,3.2,gable,3.6,1,wattle,rect,Emma,ale-wife,Cottage of Emma the ale-wife
+W-005,Cottage of Alys the shepherd,longhouse,W,225.82,1052.88,82.78,173.8,14.67,7.22,3.2,gable,3.6,1,wattle,rect,Alys,shepherd,Cottage of Alys the shepherd
+W-006,Barn of Alys,barn,W,224.46,1040.35,86.06,173.8,9.9,6,3.5,gable,3.3,1,timber,rect,,,Barn of Alys
+W-007,Cottage of Amice the hayward,longhouse,W,247.68,1069.59,79.74,353.6,12.77,6.8,3.2,gable,3.6,1,timber,rect,Amice,hayward,Cottage of Amice the hayward
+W-008,Cottage of Margery the shepherd,longhouse,W,245.59,1050.91,83.86,173.6,12.77,6.8,3.2,gable,3.6,1,wattle,rect,Margery,shepherd,Cottage of Margery the shepherd
+W-009,Barn of Margery,barn,W,244.22,1038.59,87.07,173.6,9.06,6,3.5,gable,3.3,1,timber,rect,,,Barn of Margery
+W-010,Cottage of Adam the cottar,longhouse,W,267.46,1067.76,80.24,353.9,12.23,7.47,3.2,gable,3.6,1,timber,rect,Adam,cottar,Cottage of Adam the cottar
+W-011,Barn of Adam,barn,W,268.81,1080.42,77.88,353.9,9.84,6,3.5,gable,3.3,1,timber,rect,,,Barn of Adam
+W-012,Cottage of Juliana the ploughman,longhouse,W,290.96,1065.05,80.42,355.1,13.97,6.62,3.2,gable,3.6,1,wattle,rect,Juliana,ploughman,Cottage of Juliana the ploughman
+W-013,Cottage of Petronilla the thatcher,longhouse,W,289.36,1046.5,84.61,175.1,13.97,6.62,3.2,gable,3.6,1,wattle,rect,Petronilla,thatcher,Cottage of Petronilla the thatcher
+W-014,Cottage of Hugh the dairymaid,longhouse,W,313.4,1044.45,83.78,175.6,14.56,7.05,3.2,gable,3.6,1,timber,rect,Hugh,dairymaid,Cottage of Hugh the dairymaid
+W-015,Cottage of Roger the shepherd,longhouse,W,333.25,1043.26,82.83,175.4,12.93,6.29,3.2,gable,3.6,1,wattle,rect,Roger,shepherd,Cottage of Roger the shepherd
+W-016,Barn of Roger,barn,W,332.29,1031.16,85.62,175.4,8.39,6,3.5,gable,3.3,1,timber,rect,,,Barn of Roger
+W-017,Cottage of Maud the hayward,longhouse,W,359.15,1059.97,78.13,355.9,14.17,7.02,3.2,gable,3.6,1,wattle,rect,Maud,hayward,Cottage of Maud the hayward
+W-018,Barn of Maud,barn,W,360.05,1072.45,76.44,355.9,9.52,6,3.5,gable,3.3,1,timber,rect,,,Barn of Maud
+W-019,Cottage of Thomas the ploughman,longhouse,W,357.77,1041.0,81.28,175.9,14.17,7.02,3.2,gable,3.6,1,wattle,rect,Thomas,ploughman,Cottage of Thomas the ploughman
+W-020,Barn of Thomas,barn,W,356.87,1028.52,83.98,175.9,9.32,6,3.5,gable,3.3,1,timber,rect,,,Barn of Thomas
+W-021,Cottage of Sybil the ploughman,longhouse,W,382.83,1039.25,79.25,177.0,15.95,7.35,3.2,gable,3.6,1,wattle,rect,Sybil,ploughman,Cottage of Sybil the ploughman
+W-022,Cottage of Robin the woodcutter,longhouse,W,451.53,1039.43,74.24,183.5,14.34,6.87,3.2,gable,3.6,1,timber,rect,Robin,woodcutter,Cottage of Robin the woodcutter
+W-023,Cottage of Stephen the beekeeper,longhouse,W,476.48,1041.59,73.01,185.4,12.92,6.44,3.2,gable,3.6,1,wattle,rect,Stephen,beekeeper,Cottage of Stephen the beekeeper
+W-024,Cottage of Robin the swineherd,longhouse,W,496.06,1043.33,72.21,186.3,15.45,6.96,3.2,gable,3.6,1,timber,rect,Robin,swineherd,Cottage of Robin the swineherd
+W-025,Cottage of Alys the carter,longhouse,W,545.31,1049.34,71.11,186.2,14.81,6.21,3.2,gable,3.6,1,wattle,rect,Alys,carter,Cottage of Alys the carter
+W-026,Barn of Alys,barn,W,546.61,1037.3,71.46,186.2,9.49,6,3.5,gable,3.3,1,timber,rect,,,Barn of Alys
+W-027,Cottage of Hawise the hedger,longhouse,W,564.23,1069.76,70.34,5.6,12.82,6.6,3.2,gable,3.6,1,wattle,rect,Hawise,hedger,Cottage of Hawise the hedger
+W-028,Barn of Hawise,barn,W,563.03,1082.0,70.05,5.6,8.07,6,3.5,gable,3.3,1,timber,rect,,,Barn of Hawise
+W-029,Cottage of Wat the thatcher,longhouse,W,566.03,1051.24,70.88,185.6,12.82,6.6,3.2,gable,3.6,1,wattle,rect,Wat,thatcher,Cottage of Wat the thatcher
+W-030,Cottage of Nicholas the ploughman,longhouse,W,588.56,1072.54,70.15,5.8,14.39,7.31,3.2,gable,3.6,1,wattle,rect,Nicholas,ploughman,Cottage of Nicholas the ploughman
+W-031,Cottage of Laurence the hedger,longhouse,W,608.93,1074.58,70.01,5.9,12.22,7.24,3.2,gable,3.6,1,wattle,rect,Laurence,hedger,Cottage of Laurence the hedger
+W-032,Cottage of Walter the hedger,longhouse,W,610.9,1055.44,70.49,185.9,12.22,7.24,3.2,gable,3.6,1,timber,rect,Walter,hedger,Cottage of Walter the hedger
+W-033,Cottage of Hawise the reeve,longhouse,W,632.07,1076.45,69.97,5.9,15.98,6.21,3.2,gable,3.6,1,wattle,rect,Hawise,reeve,Cottage of Hawise the reeve
+W-034,Cottage of Roger the shepherd,longhouse,W,633.93,1058.33,70.37,185.9,15.98,6.21,3.2,gable,3.6,1,wattle,rect,Roger,shepherd,Cottage of Roger the shepherd
+E-001,The Heron,inn,E,1772,1062,68.34,180,14,8,6,gable,4.4,2,timber,rect,,,The Heron
+E-002,Chapel of St. Peter,chapel,E,1650,1060,66.71,180,12,7,6,gable,3.85,1,stone,rect,,,Chapel of St. Peter
+E-003,Fisher's hut,hut,E,1812,1112,61.99,180,7,5,2.8,gable,2.75,1,wattle,rect,,,Fisher's hut
+E-004,Fisher's hut,hut,E,1880,1110,61.72,180,7,5,2.8,gable,2.75,1,wattle,rect,,,Fisher's hut
+E-005,Cottage of Walter the ploughman,longhouse,E,1641.86,1017.25,67.42,191.4,12.43,6.84,3.2,gable,3.6,1,wattle,rect,Walter,ploughman,Cottage of Walter the ploughman
+E-006,Cottage of Laurence the ploughman,longhouse,E,1661.65,1020.8,67.48,188.1,12.9,6.68,3.2,gable,3.6,1,timber,rect,Laurence,ploughman,Cottage of Laurence the ploughman
+E-007,Cottage of Roger the ale-wife,longhouse,E,1683.23,1042.73,67.29,7.8,14.46,6.81,3.2,gable,3.6,1,wattle,rect,Roger,ale-wife,Cottage of Roger the ale-wife
+E-008,Barn of Roger,barn,E,1681.54,1055.02,67.14,7.8,9.15,6,3.5,gable,3.3,1,timber,rect,,,Barn of Roger
+E-009,Cottage of Felice the woodward,longhouse,E,1685.79,1024.09,67.75,187.8,14.46,6.81,3.2,gable,3.6,1,wattle,rect,Felice,woodward,Cottage of Felice the woodward
+E-010,Barn of Felice,barn,E,1687.48,1011.8,68.12,187.8,10.19,6,3.5,gable,3.3,1,timber,rect,,,Barn of Felice
+E-011,Cottage of Martin the reeve,longhouse,E,1708.74,1026.99,68.03,187.0,14.72,7.01,3.2,gable,3.6,1,wattle,rect,Martin,reeve,Cottage of Martin the reeve
+E-012,Barn of Martin,barn,E,1710.26,1014.58,68.54,187.0,9.08,6,3.5,gable,3.3,1,timber,rect,,,Barn of Martin
+E-013,Cottage of Godwin the ale-wife,longhouse,E,1732.0,1048.28,68.05,5.9,12.54,6.09,3.2,gable,3.6,1,wattle,rect,Godwin,ale-wife,Cottage of Godwin the ale-wife
+E-014,Barn of Godwin,barn,E,1730.77,1060.26,67.79,5.9,8.07,6,3.5,gable,3.3,1,timber,rect,,,Barn of Godwin
+E-015,Cottage of Beatrice the ale-wife,longhouse,E,1733.86,1030.28,68.53,185.9,12.54,6.09,3.2,gable,3.6,1,wattle,rect,Beatrice,ale-wife,Cottage of Beatrice the ale-wife
+E-016,Cottage of Simon the beekeeper,longhouse,E,1757.75,1032.32,69.07,184.1,15.45,6.32,3.2,gable,3.6,1,timber,rect,Simon,beekeeper,Cottage of Simon the beekeeper
+E-017,Barn of Simon,barn,E,1758.63,1020.19,69.62,184.1,10.0,6,3.5,gable,3.3,1,timber,rect,,,Barn of Simon
+E-018,Cottage of Margery the thatcher,longhouse,E,1779.18,1033.42,69.5,183.5,15.17,6.95,3.2,gable,3.6,1,wattle,rect,Margery,thatcher,Cottage of Margery the thatcher
+E-019,Cottage of Matilda the woodward,longhouse,E,1800.47,1053.74,69.09,4.0,13.29,6.86,3.2,gable,3.6,1,timber,rect,Matilda,woodward,Cottage of Matilda the woodward
+E-020,Cottage of Joan the shepherd,longhouse,E,1824.69,1036.91,70.54,185.1,15.23,6.52,3.2,gable,3.6,1,wattle,rect,Joan,shepherd,Cottage of Joan the shepherd
+E-021,Cottage of Thomas the woodcutter,longhouse,E,1847.33,1057.75,69.78,6.4,13.56,6.38,3.2,gable,3.6,1,timber,rect,Thomas,woodcutter,Cottage of Thomas the woodcutter
+E-022,Barn of Thomas,barn,E,1845.96,1069.86,69.1,6.4,10.55,6,3.5,gable,3.3,1,timber,rect,,,Barn of Thomas
+E-023,Cottage of Isabel the smith-hand,longhouse,E,1849.39,1039.48,71.02,186.4,13.56,6.38,3.2,gable,3.6,1,timber,rect,Isabel,smith-hand,Cottage of Isabel the smith-hand
+E-024,Barn of Isabel,barn,E,1850.76,1027.37,72.03,186.4,9.1,6,3.5,gable,3.3,1,timber,rect,,,Barn of Isabel
+E-025,Cottage of Felice the swineherd,longhouse,E,1872.91,1042.3,71.5,187.6,15.64,6.61,3.2,gable,3.6,1,wattle,rect,Felice,swineherd,Cottage of Felice the swineherd
+E-026,Cottage of Alys the carter,longhouse,E,1896.47,1045.59,71.9,188.2,14.89,6.57,3.2,gable,3.6,1,wattle,rect,Alys,carter,Cottage of Alys the carter
+E-027,Barn of Alys,barn,E,1898.22,1033.43,73.12,188.2,10.4,6,3.5,gable,3.3,1,timber,rect,,,Barn of Alys
+S-001,Southfold Sheep Pen,sheepfold,S,1080,1770,66.45,270,26,18,1.4,none,0.0,1,stone,rect,,,Southfold Sheep Pen
+S-002,Cottage of Matilda the ploughman,longhouse,S,984.55,1618.43,66.41,95.6,13.31,6.33,3.2,gable,3.6,1,timber,rect,Matilda,ploughman,Cottage of Matilda the ploughman
+S-003,Barn of Matilda,barn,S,972.44,1617.24,66.66,95.6,8.02,6,3.5,gable,3.3,1,timber,rect,,,Barn of Matilda
+S-004,Cottage of Emma the dairymaid,longhouse,S,1002.78,1620.23,66.12,275.6,13.31,6.33,3.2,gable,3.6,1,timber,rect,Emma,dairymaid,Cottage of Emma the dairymaid
+S-005,Barn of Emma,barn,S,1014.89,1621.42,66.01,275.6,9.03,6,3.5,gable,3.3,1,timber,rect,,,Barn of Emma
+S-006,Cottage of Juliana the woodward,longhouse,S,982.65,1639.8,67.31,92.1,12.74,7.11,3.2,gable,3.6,1,wattle,rect,Juliana,woodward,Cottage of Juliana the woodward
+S-007,Cottage of Henry the hayward,longhouse,S,983.12,1660.66,68.03,88.3,12.1,6.08,3.2,gable,3.6,1,timber,rect,Henry,hayward,Cottage of Henry the hayward
+S-008,Barn of Henry,barn,S,971.08,1661.02,68.26,88.3,8.81,6,3.5,gable,3.3,1,timber,rect,,,Barn of Henry
+S-009,Cottage of Robin the woodward,longhouse,S,984.1,1680.72,68.72,86.4,14.08,6.02,3.2,gable,3.6,1,timber,rect,Robin,woodward,Cottage of Robin the woodward
+S-010,Cottage of Avice the swineherd,longhouse,S,1002.09,1679.58,68.44,266.4,14.08,6.02,3.2,gable,3.6,1,wattle,rect,Avice,swineherd,Cottage of Avice the swineherd
+S-011,Cottage of Alys the shepherd,longhouse,S,984.95,1699.05,69.22,85.2,12.21,7.08,3.2,gable,3.6,1,wattle,rect,Alys,shepherd,Cottage of Alys the shepherd
+S-012,Cottage of Edith the woodcutter,longhouse,S,986.96,1720.91,69.5,84.6,14.65,7.01,3.2,gable,3.6,1,timber,rect,Edith,woodcutter,Cottage of Edith the woodcutter
+S-013,Barn of Edith,barn,S,974.51,1722.08,69.72,84.6,10.32,6,3.5,gable,3.3,1,timber,rect,,,Barn of Edith
+S-014,Cottage of Adam the reeve,longhouse,S,988.89,1743.77,69.64,84.8,12.96,7.4,3.2,gable,3.6,1,wattle,rect,Adam,reeve,Cottage of Adam the reeve
+S-015,Cottage of Piers the woodcutter,longhouse,S,1008.21,1742.02,69.35,264.8,12.96,7.4,3.2,gable,3.6,1,wattle,rect,Piers,woodcutter,Cottage of Piers the woodcutter
+S-016,Cottage of Avice the hedger,longhouse,S,993.76,1788.38,68.99,83.3,14.53,6.13,3.2,gable,3.6,1,wattle,rect,Avice,hedger,Cottage of Avice the hedger
+S-017,Barn of Avice,barn,S,981.78,1789.78,69.15,83.3,10.75,6,3.5,gable,3.3,1,timber,rect,,,Barn of Avice
+S-018,Cottage of Wat the hayward,longhouse,S,1011.76,1786.27,68.78,263.3,14.53,6.13,3.2,gable,3.6,1,wattle,rect,Wat,hayward,Cottage of Wat the hayward
+S-019,Barn of Wat,barn,S,1023.75,1784.87,68.6,263.3,9.63,6,3.5,gable,3.3,1,timber,rect,,,Barn of Wat
+S-020,Cottage of Simon the hedger,longhouse,S,996.39,1814.37,68.25,83.5,14.23,7.07,3.2,gable,3.6,1,wattle,rect,Simon,hedger,Cottage of Simon the hedger
+S-021,Cottage of Osbert the smith-hand,longhouse,S,1015.33,1812.21,68.03,263.5,14.23,7.07,3.2,gable,3.6,1,wattle,rect,Osbert,smith-hand,Cottage of Osbert the smith-hand
+S-022,Cottage of Robin the dairymaid,longhouse,S,998.68,1834.5,67.43,85.1,12.94,6.6,3.2,gable,3.6,1,timber,rect,Robin,dairymaid,Cottage of Robin the dairymaid
+S-023,Barn of Robin,barn,S,986.42,1835.55,67.55,85.1,10.37,6,3.5,gable,3.3,1,timber,rect,,,Barn of Robin
+S-024,Cottage of Stephen the hayward,longhouse,S,1017.21,1832.9,67.17,265.1,12.94,6.6,3.2,gable,3.6,1,timber,rect,Stephen,hayward,Cottage of Stephen the hayward
+S-025,Barn of Stephen,barn,S,1029.46,1831.84,67.01,265.1,8.94,6,3.5,gable,3.3,1,timber,rect,,,Barn of Stephen
+S-026,Cottage of Amice the thatcher,longhouse,S,1018.52,1853.95,66.15,267.3,13.22,6.32,3.2,gable,3.6,1,wattle,rect,Amice,thatcher,Cottage of Amice the thatcher
+S-027,Cottage of Laurence the smith-hand,longhouse,S,1019.46,1897.6,63.56,271.6,12.68,7.46,3.2,gable,3.6,1,wattle,rect,Laurence,smith-hand,Cottage of Laurence the smith-hand
+O-001,Raven Hill Watchtower,watchtower,O,535,336,168.36,180,8,8,15,crenel,0.0,3,stone,rect,,,Raven Hill Watchtower
+O-002,Beacon Hill Watchtower,watchtower,O,1490,306,203.95,180,8,8,15,crenel,0.0,3,stone,rect,,,Beacon Hill Watchtower
+O-003,West Tor Watchtower,watchtower,O,272,712,204.31,180,8,8,15,crenel,0.0,3,stone,rect,,,West Tor Watchtower
+O-004,Greycrown Beacon,tower,O,1000,168,234.3,0,8,8,9,crenel,0.0,1,stone,round,,,Greycrown Beacon
+O-005,Ashford Watermill,watermill,O,1329.73,1271.06,62.91,320.8,14,10,7,gable,5.5,2,stone,rect,,,Ashford Watermill
+O-006,Tannery,tannery,O,1271.28,1300.99,61.58,330.0,12,8,5,gable,4.4,1,timber,rect,,,Tannery
+O-007,Post Windmill,windmill,O,712,1334,67.47,200,6,6,9,gable,3.3,1,timber,rect,,,Post Windmill
+O-008,Lords' Stand,stand,O,1300,860,68.38,180,40,6,4,flat,0.0,1,timber,rect,,,Lords' Stand
+O-009,Common Stand,stand,O,1300,902,65.7,0,40,6,3,flat,0.0,1,timber,rect,,,Common Stand
+O-010,Quarrymen's Lodge,hut,O,1255,728,82.41,90,8,5,3,gable,2.75,1,timber,rect,,,Quarrymen's Lodge
+O-011,King's Chase Lodge,lodge,O,1915,400,176.57,180,18,9,7,hip,4.05,2,timber,rect,,,King's Chase Lodge
+O-012,Kennels,kennels,O,1890,422,166.93,90,10,5,3,gable,2.75,1,timber,rect,,,Kennels
+O-013,Charcoal Burner's Hut,hut,O,210,330,147.01,90,5,4,2.5,gable,2.2,1,wattle,rect,,,Charcoal Burner's Hut
+O-014,Hawise's Farm,farmhouse,O,640,1610,63.22,0,14,7,3.5,gable,3.85,1,timber,rect,,,Hawise's Farm
+O-015,Hawise's Barn,barn,O,640.0,1624.0,63.06,0,18,8,5,gable,4.4,1,timber,rect,,,Hawise's Barn
+O-016,Ivetta's Farm,farmhouse,O,1400,1450,60.67,90,14,7,3.5,gable,3.85,1,timber,rect,,,Ivetta's Farm
+O-017,Ivetta's Barn,barn,O,1386.0,1450.0,60.56,90,18,8,5,gable,4.4,1,timber,rect,,,Ivetta's Barn
+O-018,Ivetta's Farm,farmhouse,O,2000,1480,63.05,270,14,7,3.5,gable,3.85,1,timber,rect,,,Ivetta's Farm
+O-019,Ivetta's Barn,barn,O,2014.0,1480.0,63.13,270,18,8,5,gable,4.4,1,timber,rect,,,Ivetta's Barn
+O-020,Alys's Farm,farmhouse,O,90,1120,68.61,0,14,7,3.5,gable,3.85,1,timber,rect,,,Alys's Farm
+O-021,Alys's Barn,barn,O,90.0,1134.0,67.62,0,18,8,5,gable,4.4,1,timber,rect,,,Alys's Barn

@@ -25,12 +25,16 @@ ffmpeg -framerate 30 -i output/how-a-refrigerator-works/%06d.jpeg \
 
 ---
 
-# Medieval Village – blueprint site plan
+# Ashford Vale – a medieval world, ready to build in 3D
 
-![Ashford Vale blueprint](blueprints/medieval-village/medieval-village-blueprint.png)
+![Ashford Vale master site plan](medieval-world/blueprints/01_master_site_plan.png)
 
-A blueprint-style site plan of a fictional medieval barony, **Ashford Vale**: a moated hilltop castle ringed by hills and watchtowers, a walled market town (market square, church, guildhall), the villages of Westbrook, Eastmere and Southfold, open-field strip farmland, the River Ash with a watermill and bridge, an abbey with fishponds, a tiltyard, a quarry, a windmill, pasture, an orchard and forests. It includes a legend, a numbered key, a compass rose, a scale bar and a title block.
+A complete 2 km × 2 km medieval valley in real metres: a moated hilltop castle guarded by a horseshoe of hills and watchtowers, a walled market town of 359 buildings, three villages, an abbey, mills, open-field farmland, forests, a river with bridges and an old ford, and a story to go with it. Every house has a named resident and trade.
 
-- Vector: [`blueprints/medieval-village/medieval-village-blueprint.svg`](blueprints/medieval-village/medieval-village-blueprint.svg) (2400×1600)
-- Raster: [`blueprints/medieval-village/medieval-village-blueprint.png`](blueprints/medieval-village/medieval-village-blueprint.png)
-- Regenerate the SVG with `python3 blueprints/medieval-village/generate.py` (no dependencies)
+**[Start here → `medieval-world/README.md`](medieval-world/README.md)**: a beginner's guide to reading the map and building the world in Blender, Unreal, Unity or Godot.
+
+- `medieval-world/blueprints/`: master site plan plus castle and town detail sheets (SVG + PNG)
+- `medieval-world/model/`: the whole world as a ready-to-import 3D blockout (`.glb`)
+- `medieval-world/terrain/`: 16-bit heightmaps (1 px = 1 m) and 8 ground-cover masks
+- `medieval-world/data/`: every building, tree, road, wall, field and landmark (JSON, CSV, catalogue)
+- Rebuild after renaming places in `src/config.py`: `python3 medieval-world/build.py` (needs numpy and Pillow)
