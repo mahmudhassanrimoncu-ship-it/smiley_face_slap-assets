@@ -22,3 +22,16 @@ Press **RENDER** in the editor (image sequence → `output/`), then:
 ffmpeg -framerate 30 -i output/how-a-refrigerator-works/%06d.jpeg \
   -c:v libx264 -crf 22 -pix_fmt yuv420p video/how-a-refrigerator-works.mp4
 ```
+
+---
+
+# Planar Vectors Workshop – interactive class
+
+[`planar-vectors/index.html`](planar-vectors/index.html) is a self-contained interactive class on vectors in the plane. You drag points in live diagrams and answer checkpoint quizzes as you go.
+
+- **Foundations (1–8):** equal vectors, triangle/parallelogram/polygon laws, subtraction (head − tail), scaling and the parallel/collinear test, position vectors and the section formula, components, comparing coefficients, the dot product
+- **Toolkit:** a 4-step proof recipe and a geometry → vector dictionary
+- **Theorem workshop (T1–T9):** the medians sum to zero, centroid, midpoint theorem, parallelogram diagonals, Varignon, trapezium midline, rhombus diagonals, angle in a semicircle, regular hexagon. Each has a draggable figure and a proof you reveal step by step
+- **Practice:** 8 problems with worked solutions
+
+Open the file in any browser. It needs no build step.

@@ -1,0 +1,1128 @@
+<title>Planar Vectors Workshop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;600&family=Young+Serif&display=swap">
+<style>
+/* Layout: graph-paper workbook. Sticky contents rail on the left, one lesson page at a time on the right.
+   Each vector role keeps one ink colour everywhere: a = cobalt, b = raspberry, result = green, extra = amber. */
+:root{
+  --paper:#f5f7fa; --panel:#ffffff; --ink:#1a2130; --muted:#586379;
+  --rule:#e1e6ee; --rule2:#c3cbd9; --tint:#eef2f8;
+  --va:#2257c9; --vb:#c2366e; --vs:#16855a; --vx:#b8700a;
+  --accent:#2257c9;
+  --f-display:"Young Serif", "Iowan Old Style", Georgia, serif;
+  --f-body:"Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0e1520; --panel:#141d2b; --ink:#e5eaf3; --muted:#9aa6bb;
+    --rule:#1c2737; --rule2:#2e3c53; --tint:#18233420;
+    --va:#7ea7ff; --vb:#ff80ae; --vs:#5ad39a; --vx:#f0b450; --accent:#7ea7ff;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0e1520; --panel:#141d2b; --ink:#e5eaf3; --muted:#9aa6bb;
+  --rule:#1c2737; --rule2:#2e3c53; --tint:#18233420;
+  --va:#7ea7ff; --vb:#ff80ae; --vs:#5ad39a; --vx:#f0b450; --accent:#7ea7ff;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6;
+  background-image:linear-gradient(var(--rule) 1px,transparent 1px),linear-gradient(90deg,var(--rule) 1px,transparent 1px);
+  background-size:28px 28px;background-attachment:fixed}
+.shell{display:grid;grid-template-columns:270px minmax(0,1fr);gap:40px;max-width:1180px;margin:0 auto;padding-inline:20px;padding-block:28px 64px}
+aside{position:sticky;top:calc(env(safe-area-inset-top,0px) + 20px);align-self:start;max-height:calc(100vh - 40px);overflow:auto;
+  background:var(--panel);border:1px solid var(--rule2);border-radius:8px;padding:18px 14px}
+.brand{font-family:var(--f-display);font-size:1.25rem;line-height:1.2;margin:0 6px 4px}
+.brand-sub{font-size:.8rem;color:var(--muted);margin:0 6px 14px}
+.meter{margin:0 6px 16px;font-family:var(--f-mono);font-size:.72rem;color:var(--muted)}
+.meter .bar{height:6px;border-radius:3px;background:var(--rule);margin-top:6px;overflow:hidden}
+.meter .bar i{display:block;height:100%;background:var(--vs);width:0;transition:width .3s}
+.navgroup{margin-bottom:12px}
+.navgroup h4{font-family:var(--f-mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:10px 6px 4px;font-weight:600}
+.navgroup a{display:flex;gap:8px;align-items:baseline;padding:5px 6px;border-radius:5px;color:var(--ink);text-decoration:none;font-size:.9rem;line-height:1.3}
+.navgroup a:hover{background:var(--tint)}
+.navgroup a.on{background:color-mix(in srgb,var(--accent) 14%,transparent);font-weight:700}
+.navgroup a .n{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);min-width:1.9em}
+.navgroup a .ck{margin-left:auto;color:var(--vs);font-size:.85rem;visibility:hidden}
+.navgroup a.done .ck{visibility:visible}
+main{min-width:0}
+.page{max-width:760px;animation:fade .25s ease}
+@keyframes fade{from{opacity:.4;transform:translateY(4px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.page{animation:none}.meter .bar i{transition:none}}
+.eyebrow{font-family:var(--f-mono);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+h1,h2{font-family:var(--f-display);font-weight:400;line-height:1.15;text-wrap:balance;margin:0 0 14px}
+h1{font-size:2.5rem}
+h2{font-size:2rem}
+h3{font-size:1.15rem;margin:30px 0 8px;text-wrap:balance}
+p{margin:0 0 14px}
+.lede{font-size:1.15rem;color:var(--muted);margin-bottom:22px}
+a{color:var(--accent)}
+/* math notation */
+.ar{position:relative;display:inline-block;padding-top:.34em;line-height:1;font-style:normal;white-space:nowrap}
+.ar::before{content:"";position:absolute;left:.04em;right:.14em;top:.1em;border-top:1.4px solid currentColor}
+.ar::after{content:"";position:absolute;right:0;top:calc(.1em - .17em + .7px);border-style:solid;border-width:.17em 0 .17em .32em;border-color:transparent transparent transparent currentColor}
+.v{font-weight:700;font-style:normal}
+.ca{color:var(--va)}.cb{color:var(--vb)}.cs{color:var(--vs)}.cx{color:var(--vx)}
+.fr{display:inline-flex;flex-direction:column;vertical-align:middle;text-align:center;margin:0 .15em;font-size:.9em;line-height:1.25}
+.fr>span:first-child{padding:0 .25em .08em;border-bottom:1.3px solid currentColor}
+.fr>span:last-child{padding-top:.08em}
+.eq{background:var(--panel);border:1px solid var(--rule2);border-radius:6px;padding:12px 16px;margin:0 0 16px;font-size:1.08rem;text-align:center;overflow-x:auto}
+.eq.left{text-align:left}
+.eq .line{display:block;padding:3px 0}
+.mono{font-family:var(--f-mono);font-size:.9em}
+/* boxes */
+.key{border:1.5px dashed var(--rule2);border-radius:6px;padding:14px 18px;margin:20px 0;background:var(--panel)}
+.key>.tag,.thm>.tag{display:block;font-family:var(--f-mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;font-weight:600}
+.key p:last-child{margin-bottom:0}
+.thm{background:var(--panel);border:1px solid var(--rule2);border-top:3px double var(--rule2);border-radius:4px;padding:16px 20px;margin:0 0 20px}
+.thm p{font-style:italic;font-size:1.08rem;margin:0}
+.legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:.92rem;margin:0 0 18px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{display:inline-block;width:22px;height:3px;border-radius:2px;background:currentColor}
+.road{list-style:none;padding:0;margin:0 0 20px;display:grid;gap:8px}
+.road li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:12px;align-items:baseline;background:var(--panel);border:1px solid var(--rule);border-radius:6px;padding:10px 14px}
+.road b{font-family:var(--f-mono);font-size:.75rem;color:var(--muted);font-weight:600;letter-spacing:.06em}
+table{border-collapse:collapse;width:100%;font-size:.95rem;background:var(--panel)}
+.tablewrap{overflow-x:auto;margin:0 0 20px;border:1px solid var(--rule2);border-radius:6px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+/* labs */
+.lab{margin:18px 0 22px}
+.board{display:block;width:100%;height:auto;max-width:100%;background:var(--panel);border:1px solid var(--rule2);border-radius:8px 8px 0 0;user-select:none;-webkit-user-select:none}
+.board .gl{stroke:var(--rule);stroke-width:1}
+.board .axis{stroke:var(--rule2);stroke-width:2}
+.board text{font-family:var(--f-body);font-weight:700;font-size:19px;paint-order:stroke;stroke:var(--panel);stroke-width:5px;stroke-linejoin:round}
+.board .h{cursor:grab;touch-action:none;outline:none}
+.board .h.drag{cursor:grabbing}
+.board .h .hit{fill:transparent}
+.board .h .vis{fill:var(--panel);stroke:var(--c);stroke-width:3}
+.board .h:hover .vis,.board .h:focus-visible .vis,.board .h.drag .vis{fill:var(--c)}
+.board .h:focus-visible .hit{stroke:var(--c);stroke-width:2;stroke-dasharray:3 3}
+.board .h text{fill:var(--c)}
+.labfoot{background:var(--panel);border:1px solid var(--rule2);border-top:0;border-radius:0 0 8px 8px;padding:12px 16px;display:grid;gap:10px}
+.hint-drag{font-size:.8rem;color:var(--muted);font-family:var(--f-mono)}
+.controls{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center}
+.controls label{display:inline-flex;align-items:center;gap:8px;font-size:.92rem}
+.controls input[type=range]{width:160px;accent-color:var(--accent)}
+.controls input[type=checkbox]{accent-color:var(--accent);width:17px;height:17px}
+.controls output{font-family:var(--f-mono);font-size:.85rem;min-width:3.2em}
+.readout{font-family:var(--f-mono);font-size:.84rem;display:grid;gap:3px;min-width:0}
+.readout .r{display:flex;flex-wrap:wrap;gap:2px 12px;justify-content:space-between;border-bottom:1px dotted var(--rule);padding:2px 0}
+.readout .r span:first-child{color:var(--muted);font-family:var(--f-body);font-size:.95rem}
+.readout .ok{margin-top:4px;font-family:var(--f-body);font-size:.95rem;font-weight:700;color:var(--vs)}
+.readout .ok.n{color:var(--vx)}
+/* quizzes */
+.quiz{margin-top:34px;border-top:1px solid var(--rule2);padding-top:6px}
+.qbox{background:var(--panel);border:1px solid var(--rule2);border-radius:8px;padding:16px 18px;margin:12px 0}
+.qq{font-weight:700;margin-bottom:10px}
+.qn{font-family:var(--f-mono);font-size:.75rem;color:var(--muted);margin-right:6px}
+.qopts{display:grid;gap:8px}
+.qopt{font:inherit;text-align:left;color:var(--ink);background:var(--paper);border:1.5px solid var(--rule2);border-radius:6px;padding:9px 13px;cursor:pointer}
+.qopt:hover:not(:disabled){border-color:var(--accent)}
+.qopt:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.qopt.right{border-color:var(--vs);background:color-mix(in srgb,var(--vs) 13%,var(--panel))}
+.qopt.wrong{border-color:var(--vb);background:color-mix(in srgb,var(--vb) 10%,var(--panel));opacity:.75;cursor:default}
+.qfb{font-size:.95rem;margin-top:10px}
+.qfb:empty{display:none}
+.qfb.right strong{color:var(--vs)}.qfb.wrong strong{color:var(--vb)}
+/* proofs */
+ol.proof{counter-reset:st;list-style:none;padding:0;margin:0 0 6px;display:grid;gap:10px}
+ol.proof>li{counter-increment:st;display:grid;grid-template-columns:2.2em minmax(0,1fr);gap:10px;background:var(--panel);border:1px solid var(--rule2);border-radius:6px;padding:12px 14px}
+ol.proof>li::before{content:counter(st);font-family:var(--f-mono);font-weight:600;font-size:.85rem;color:var(--panel);background:var(--ink);border-radius:50%;width:1.9em;height:1.9em;display:grid;place-items:center}
+ol.proof .eq{margin:8px 0 0}
+.pbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 18px}
+.btn{font:inherit;font-size:.92rem;font-weight:700;border-radius:6px;padding:8px 14px;cursor:pointer;border:1.5px solid var(--ink);background:var(--ink);color:var(--paper)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--rule2)}
+.btn:disabled{opacity:.4;cursor:default}
+.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.pcount{font-family:var(--f-mono);font-size:.78rem;color:var(--muted)}
+details.hint{background:var(--panel);border:1px dashed var(--rule2);border-radius:6px;padding:10px 14px;margin:0 0 16px}
+details.hint summary{cursor:pointer;font-weight:700}
+details.hint[open] summary{margin-bottom:8px}
+details.sol{background:var(--panel);border:1px solid var(--rule2);border-radius:6px;padding:10px 14px;margin:8px 0 0}
+details.sol summary{cursor:pointer;font-weight:700;color:var(--accent)}
+.prob{margin:0 0 26px}
+.prob>p:first-child{font-weight:700}
+.mastery{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:26px 0 0;padding:14px 16px;border:1.5px dashed var(--rule2);border-radius:8px;background:var(--panel)}
+.mastery.on{border-style:solid;border-color:var(--vs)}
+.mastery p{margin:0;flex:1 1 240px}
+.pager{display:flex;justify-content:space-between;gap:12px;margin-top:40px;padding-top:18px;border-top:1px solid var(--rule2)}
+.pager a{display:flex;flex-direction:column;text-decoration:none;color:var(--ink);padding:10px 14px;border:1px solid var(--rule2);border-radius:6px;background:var(--panel);max-width:48%}
+.pager a small{font-family:var(--f-mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.pager a:hover{border-color:var(--accent)}
+.pager .next{margin-left:auto;text-align:right}
+@media (max-width:900px){
+  .shell{grid-template-columns:minmax(0,1fr);gap:18px;padding-inline:16px}
+  aside{position:static;max-height:none}
+  .navlist{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px}
+  .navgroup{display:contents}
+  .navgroup h4{display:none}
+  .navgroup a{flex:0 0 auto;border:1px solid var(--rule2);white-space:nowrap}
+  h1{font-size:2rem}h2{font-size:1.65rem}
+  body{font-size:16px}
+}
+</style>
+
+<div class="shell">
+  <aside>
+    <p class="brand">Planar Vectors Workshop</p>
+    <p class="brand-sub">From arrows to proofs, by dragging things.</p>
+    <div class="meter"><span id="meterTxt">0 of 0 complete</span><div class="bar"><i id="meterBar"></i></div></div>
+    <nav class="navlist" id="nav" aria-label="Lessons"></nav>
+  </aside>
+
+  <main id="main">
+
+<!-- ============ WELCOME ============ -->
+<section class="page" id="intro" data-nav="Start here" data-group="Welcome" data-num="">
+  <p class="eyebrow">Welcome</p>
+  <h1>Vectors turn geometry into algebra</h1>
+  <p class="lede">A vector theorem like “the three medians of a triangle add up to zero” looks like it needs a clever picture. It doesn’t. Once you can translate a figure into vector language, almost every proof becomes a few lines of ordinary algebra.</p>
+
+  <div class="lab" data-board="intro"></div>
+
+  <p>That arrow is a vector. Drag its head around. Every position of the head gives a different vector, and the readout shows the two numbers that describe it. By the end of this class those two ideas, <em>an arrow</em> and <em>a pair of numbers</em>, will let you prove theorems without drawing anything accurately.</p>
+
+  <h3>How this class works</h3>
+  <ul class="road">
+    <li><b>DRAG</b><span>Every diagram is live. Round handles can be dragged with a mouse or finger, or focused with Tab and moved with the arrow keys. The readout under each diagram updates as you move.</span></li>
+    <li><b>CHECK</b><span>Each lesson ends with a short checkpoint. A lesson is ticked off in the contents once you answer all its questions correctly.</span></li>
+    <li><b>PROVE</b><span>In the Theorem Workshop, try each proof yourself first. Then reveal the official proof one step at a time and compare.</span></li>
+  </ul>
+
+  <h3>The colour code</h3>
+  <p>Colours mean the same thing on every page, so you can read a diagram at a glance.</p>
+  <div class="legend">
+    <span class="ca"><i></i>first vector, <b class="v">a</b></span>
+    <span class="cb"><i></i>second vector, <b class="v">b</b></span>
+    <span class="cs"><i></i>the result you are after</span>
+    <span class="cx"><i></i>a helper or a copy</span>
+  </div>
+
+  <h3>The route</h3>
+  <ul class="road">
+    <li><b>1–4</b><span>What a vector is, how to add, subtract and scale them.</span></li>
+    <li><b>5–6</b><span>Position vectors and coordinates: the bridge from points to algebra, including the section formula.</span></li>
+    <li><b>7–8</b><span>The two power tools: comparing coefficients, and the dot product for right angles and lengths.</span></li>
+    <li><b>KIT</b><span>The proof recipe and a dictionary that turns geometry phrases into vector equations.</span></li>
+    <li><b>T1–T9</b><span>Nine classic theorems, each proved with the same recipe. Medians, centroid, midpoint theorem, parallelograms, Varignon, trapezium, rhombus, semicircle, hexagon.</span></li>
+    <li><b>PRACTICE</b><span>Eight problems with full worked solutions to test that you can do it alone.</span></li>
+  </ul>
+  <p>Notation: an arrow over two letters, like <span class="ar">AB</span>, means the vector from A to B. A bold letter, like <b class="v">a</b>, is a vector with a single name. A plain letter, like <i>k</i>, is an ordinary number (a <em>scalar</em>).</p>
+</section>
+
+<!-- ============ L1 ============ -->
+<section class="page" id="l1" data-nav="What a vector is" data-group="Foundations" data-num="1" data-quiz="l1">
+  <p class="eyebrow">Lesson 1 of 8</p>
+  <h2>A vector is a journey, not a place</h2>
+  <p class="lede">A vector records two things: how far, and in which direction. It does not care where the journey starts.</p>
+  <p>A <strong>scalar</strong> is just a size: 5 kg, 20 °C, 3 metres. A <strong>vector</strong> has a size <em>and</em> a direction: “3 metres north-east”. We draw it as an arrow. The length of the arrow is its <strong>magnitude</strong>, written <span class="mono">|</span><span class="ar">AB</span><span class="mono">|</span>, and the arrowhead shows its direction.</p>
+  <p>Here is the idea that most people miss at first. Move the start point C below. The amber arrow <span class="ar cx">CD</span> starts somewhere else, but it has the same length and the same direction as <span class="ar ca">AB</span>. So it is <em>the same vector</em>.</p>
+
+  <div class="lab" data-board="l1"></div>
+
+  <div class="key"><span class="tag">Key idea</span>
+    <p>Two vectors are <strong>equal</strong> when they have the same magnitude and the same direction. Position does not matter. That is why we can slide a vector anywhere we like, which is exactly what we will do to add vectors.</p>
+  </div>
+
+  <h3>A few names you will meet</h3>
+  <p><strong>Zero vector</strong> <b class="v">0</b>: the journey of length zero, like <span class="ar">AA</span>. It has no direction.<br>
+  <strong>Unit vector</strong>: any vector of length 1.<br>
+  <strong>Negative</strong> of a vector: same length, opposite direction. <span class="ar">BA</span> = −<span class="ar">AB</span>.</p>
+  <p>Look at a parallelogram ABCD. The side from A to B and the side from D to C are parallel, equally long and point the same way. So <span class="ar">AB</span> = <span class="ar">DC</span>, even though they are different line segments. This single fact proves a surprising number of theorems.</p>
+
+  <div class="quiz" data-quiz="l1"></div>
+</section>
+
+<!-- ============ L2 ============ -->
+<section class="page" id="l2" data-nav="Adding vectors" data-group="Foundations" data-num="2" data-quiz="l2">
+  <p class="eyebrow">Lesson 2 of 8</p>
+  <h2>Adding vectors: one journey after another</h2>
+  <p class="lede">If you walk along <b class="v ca">a</b> and then along <b class="v cb">b</b>, where do you end up? That end point, measured from where you started, is <b class="v cs">a + b</b>.</p>
+  <p><strong>Triangle law.</strong> Put the tail of <b class="v cb">b</b> at the head of <b class="v ca">a</b>. The arrow from the very start to the very end is the sum. In letters this is beautifully simple:</p>
+  <div class="eq"><span class="ar">AB</span> + <span class="ar">BC</span> = <span class="ar">AC</span></div>
+  <p>The inner letters match (B and B) and they “cancel”, leaving the outer letters. You will use this chain rule constantly.</p>
+  <p><strong>Parallelogram law.</strong> Draw <b class="v ca">a</b> and <b class="v cb">b</b> from the same point and complete the parallelogram. The diagonal from that point is <b class="v cs">a + b</b>. Drag the heads below and notice that going “<b class="v ca">a</b> then <b class="v cb">b</b>” and “<b class="v cb">b</b> then <b class="v ca">a</b>” land in the same place. So <b class="v">a + b = b + a</b>.</p>
+
+  <div class="lab" data-board="l2a"></div>
+
+  <h3>Closing the loop</h3>
+  <p>Chain several vectors head to tail. If the chain comes back to where it started, the total journey is zero. For a triangle:</p>
+  <div class="eq"><span class="ar">AB</span> + <span class="ar">BC</span> + <span class="ar">CA</span> = <span class="ar">AA</span> = <b class="v">0</b></div>
+  <p>Drag the five corners below into any shape you like, even a crossed one. The total never moves from zero. Then tick the box to leave out the last side: the other four add up to <span class="ar">AE</span>, a shortcut straight from start to finish.</p>
+
+  <div class="lab" data-board="l2b"></div>
+
+  <div class="key"><span class="tag">Key idea</span>
+    <p><strong>Any closed chain of vectors adds up to <b class="v">0</b>.</strong> Turn it around and it becomes a test: if you can show some vectors fit together head to tail into a closed polygon, their sum is zero. This is the picture behind the medians theorem (T1).</p>
+  </div>
+
+  <div class="quiz" data-quiz="l2"></div>
+</section>
+
+<!-- ============ L3 ============ -->
+<section class="page" id="l3" data-nav="Subtracting" data-group="Foundations" data-num="3" data-quiz="l3">
+  <p class="eyebrow">Lesson 3 of 8</p>
+  <h2>Subtraction: the arrow between two heads</h2>
+  <p class="lede">Subtracting a vector means adding its negative: <b class="v">b − a = b + (−a)</b>. The picture is much simpler than the definition.</p>
+  <p>Draw <b class="v ca">a</b> and <b class="v cb">b</b> from the same point O. Then <b class="v cx">b − a</b> is the arrow that goes <strong>from the head of <b class="v ca">a</b> to the head of <b class="v cb">b</b></strong>. Check it with the chain rule: <b class="v ca">a</b> followed by (<b class="v cx">b − a</b>) gets you to the head of <b class="v cb">b</b>, so <b class="v">a + (b − a) = b</b>.</p>
+
+  <div class="lab" data-board="l3"></div>
+
+  <p>Now give the heads names. If <span class="ar">OA</span> = <b class="v ca">a</b> and <span class="ar">OB</span> = <b class="v cb">b</b>, then the arrow from A to B is</p>
+  <div class="eq"><span class="ar">AB</span> = <span class="ar">AO</span> + <span class="ar">OB</span> = −<b class="v ca">a</b> + <b class="v cb">b</b> = <b class="v cb">b</b> − <b class="v ca">a</b></div>
+
+  <div class="key"><span class="tag">Key idea · memorise this</span>
+    <p><span class="ar">AB</span> = (where you end) − (where you start) = <b class="v">b − a</b>.<br>Getting the order backwards is the single most common mistake in vector proofs. Say it out loud: <em>head minus tail</em>.</p>
+  </div>
+
+  <div class="quiz" data-quiz="l3"></div>
+</section>
+
+<!-- ============ L4 ============ -->
+<section class="page" id="l4" data-nav="Scaling & parallel" data-group="Foundations" data-num="4" data-quiz="l4">
+  <p class="eyebrow">Lesson 4 of 8</p>
+  <h2>Scaling: stretch, shrink, flip</h2>
+  <p class="lede">Multiplying a vector by a number <i>λ</i> stretches it by a factor |<i>λ</i>|. A negative <i>λ</i> also turns it around.</p>
+  <p>Move the slider. When <i>λ</i> = 2 the green arrow is twice as long as <b class="v ca">a</b>. When <i>λ</i> = ½ it is half as long. When <i>λ</i> is negative it points the opposite way. Whatever you do, <b class="v cs">λa</b> stays on the same line as <b class="v ca">a</b>.</p>
+
+  <div class="lab" data-board="l4"></div>
+
+  <div class="eq">|<i>λ</i><b class="v">a</b>| = |<i>λ</i>| · |<b class="v">a</b>|</div>
+
+  <h3>The parallel test</h3>
+  <p>Since scaling never changes the line, we get the most useful test in the subject:</p>
+  <div class="key"><span class="tag">Key idea</span>
+    <p><b class="v">u</b> is parallel to <b class="v">v</b> exactly when <b class="v">u</b> = <i>λ</i><b class="v">v</b> for some number <i>λ</i>.<br>
+    Three points A, B, C lie on one straight line (are <strong>collinear</strong>) exactly when <span class="ar">AB</span> = <i>λ</i> <span class="ar">AC</span>. The two arrows are parallel and share the point A, so they must lie on the same line.</p>
+  </div>
+  <p>Scaling behaves like ordinary multiplication: <i>λ</i>(<b class="v">a + b</b>) = <i>λ</i><b class="v">a</b> + <i>λ</i><b class="v">b</b>, and (<i>λ</i> + <i>μ</i>)<b class="v">a</b> = <i>λ</i><b class="v">a</b> + <i>μ</i><b class="v">a</b>. So you can expand brackets and collect terms exactly as in school algebra. The one thing you can never do is <em>divide by a vector</em>.</p>
+
+  <div class="quiz" data-quiz="l4"></div>
+</section>
+
+<!-- ============ L5 ============ -->
+<section class="page" id="l5" data-nav="Position vectors" data-group="Foundations" data-num="5" data-quiz="l5">
+  <p class="eyebrow">Lesson 5 of 8</p>
+  <h2>Position vectors and the section formula</h2>
+  <p class="lede">Pick any point O and call it the origin. Now every point P gets a name that is a vector: <b class="v">p</b> = <span class="ar">OP</span>. This is the bridge from geometry to algebra.</p>
+  <p>The <strong>position vector</strong> of a point is the journey from the origin to that point. Write it with the matching lower-case letter: A has position vector <b class="v ca">a</b>, B has <b class="v cb">b</b>, and so on. Lesson 3 already gave us the rule <span class="ar">AB</span> = <b class="v">b − a</b>.</p>
+
+  <h3>Where is a point that splits AB in a ratio?</h3>
+  <p>Say P lies on AB with AP : PB = <i>m</i> : <i>n</i>. Then P is <span class="fr"><span><i>m</i></span><span><i>m</i>+<i>n</i></span></span> of the way from A to B:</p>
+  <div class="eq left">
+    <span class="line"><b class="v">p</b> = <b class="v">a</b> + <span class="fr"><span><i>m</i></span><span><i>m</i>+<i>n</i></span></span>(<b class="v">b</b> − <b class="v">a</b>)</span>
+    <span class="line">&nbsp;&nbsp;&nbsp;= <span class="fr"><span>(<i>m</i>+<i>n</i>)<b class="v">a</b> + <i>m</i><b class="v">b</b> − <i>m</i><b class="v">a</b></span><span><i>m</i>+<i>n</i></span></span>
+    = <span class="fr"><span><i>n</i><b class="v">a</b> + <i>m</i><b class="v">b</b></span><span><i>m</i> + <i>n</i></span></span></span>
+  </div>
+  <p>Notice the weights <strong>cross over</strong>: <i>m</i> (the part next to A) goes with <b class="v">b</b>. That makes sense. If P is much closer to B, then <i>m</i> is big, and <b class="v">b</b> should dominate.</p>
+
+  <div class="lab" data-board="l5"></div>
+
+  <p>Try moving O. The position vectors all change, but P does not move. The formula works from <em>any</em> origin, which is why proofs can say “take any origin O” and never mention it again.</p>
+
+  <div class="key"><span class="tag">Key idea · the section formula</span>
+    <p>P divides AB internally in the ratio <i>m</i> : <i>n</i> ⇒ <b class="v">p</b> = <span class="fr"><span><i>n</i><b class="v">a</b> + <i>m</i><b class="v">b</b></span><span><i>m</i> + <i>n</i></span></span>.<br>
+    Midpoint (ratio 1 : 1): <b class="v">m</b> = <span class="fr"><span><b class="v">a</b> + <b class="v">b</b></span><span>2</span></span>.<br>
+    External division in ratio <i>m</i> : <i>n</i>: <b class="v">p</b> = <span class="fr"><span><i>m</i><b class="v">b</b> − <i>n</i><b class="v">a</b></span><span><i>m</i> − <i>n</i></span></span>.</p>
+  </div>
+
+  <div class="quiz" data-quiz="l5"></div>
+</section>
+
+<!-- ============ L6 ============ -->
+<section class="page" id="l6" data-nav="Components" data-group="Foundations" data-num="6" data-quiz="l6">
+  <p class="eyebrow">Lesson 6 of 8</p>
+  <h2>Components: every vector is a pair of numbers</h2>
+  <p class="lede">Put the origin at the corner of a grid. Two tiny arrows, <b class="v">i</b> one step right and <b class="v">j</b> one step up, can build every vector in the plane.</p>
+  <p>To reach the head of <b class="v ca">a</b>, go <i>x</i> steps along <b class="v">i</b> and then <i>y</i> steps along <b class="v">j</b>. So <b class="v ca">a</b> = <i>x</i><b class="v">i</b> + <i>y</i><b class="v">j</b>, often written as the pair (<i>x</i>, <i>y</i>). The two legs and the arrow form a right-angled triangle, so Pythagoras gives the length.</p>
+
+  <div class="lab" data-board="l6"></div>
+
+  <div class="eq left">
+    <span class="line">|<b class="v">a</b>| = √(<i>x</i>² + <i>y</i>²)</span>
+    <span class="line">unit vector along <b class="v">a</b>: <b class="v">â</b> = <span class="fr"><span><b class="v">a</b></span><span>|<b class="v">a</b>|</span></span></span>
+    <span class="line">(<i>x</i>₁<b class="v">i</b> + <i>y</i>₁<b class="v">j</b>) + (<i>x</i>₂<b class="v">i</b> + <i>y</i>₂<b class="v">j</b>) = (<i>x</i>₁+<i>x</i>₂)<b class="v">i</b> + (<i>y</i>₁+<i>y</i>₂)<b class="v">j</b></span>
+  </div>
+
+  <div class="key"><span class="tag">Key idea</span>
+    <p>In components, adding and scaling is just adding and scaling the numbers. Use components for <strong>calculations</strong> (lengths, unit vectors, checking a specific case). Use letter vectors like <b class="v">a</b>, <b class="v">b</b> for <strong>proofs</strong>, because a proof must work for every triangle, not one with particular coordinates.</p>
+  </div>
+
+  <div class="quiz" data-quiz="l6"></div>
+</section>
+
+<!-- ============ L7 ============ -->
+<section class="page" id="l7" data-nav="Comparing coefficients" data-group="Foundations" data-num="7" data-quiz="l7">
+  <p class="eyebrow">Lesson 7 of 8</p>
+  <h2>The secret weapon: comparing coefficients</h2>
+  <p class="lede">Take any two vectors <b class="v ca">a</b> and <b class="v cb">b</b> that are not parallel. Every point in the plane can be reached as <i>x</i><b class="v ca">a</b> + <i>y</i><b class="v cb">b</b> in <strong>exactly one</strong> way.</p>
+  <p>The faint lines below form a slanted grid built from <b class="v ca">a</b> and <b class="v cb">b</b>. Drag P anywhere: the readout finds the unique pair (<i>x</i>, <i>y</i>). Then drag <b class="v cb">b</b> until it lines up with <b class="v ca">a</b>. The grid collapses and most points become unreachable. That is why “not parallel” matters.</p>
+
+  <div class="lab" data-board="l7"></div>
+
+  <h3>Why it is true</h3>
+  <p>Suppose <i>x</i><b class="v">a</b> + <i>y</i><b class="v">b</b> = <b class="v">0</b> with <i>x</i> ≠ 0. Then <b class="v">a</b> = −<span class="fr"><span><i>y</i></span><span><i>x</i></span></span><b class="v">b</b>, which says <b class="v">a</b> is parallel to <b class="v">b</b>. That contradicts our assumption, so <i>x</i> = 0, and then <i>y</i><b class="v">b</b> = <b class="v">0</b> forces <i>y</i> = 0.</p>
+
+  <div class="key"><span class="tag">Key idea · comparing coefficients</span>
+    <p>If <b class="v">a</b> and <b class="v">b</b> are non-zero and not parallel, then<br>
+    <i>x</i><b class="v">a</b> + <i>y</i><b class="v">b</b> = <i>x′</i><b class="v">a</b> + <i>y′</i><b class="v">b</b> &nbsp;⇒&nbsp; <i>x</i> = <i>x′</i> and <i>y</i> = <i>y′</i>.<br>
+    One vector equation becomes <strong>two number equations</strong>. Use it whenever two lines cross and you need to find where.</p>
+  </div>
+
+  <h3>A first taste: the diagonals of a parallelogram</h3>
+  <p>Take A as origin, <span class="ar">AB</span> = <b class="v ca">b</b>, <span class="ar">AD</span> = <b class="v cb">d</b>, so C is at <b class="v">b + d</b>. Let the diagonals meet at X.</p>
+  <p>X is on AC, so <b class="v">x</b> = <i>s</i>(<b class="v">b + d</b>) = <i>s</i><b class="v">b</b> + <i>s</i><b class="v">d</b> for some <i>s</i>.<br>
+  X is on BD, so <b class="v">x</b> = <b class="v">b</b> + <i>t</i>(<b class="v">d − b</b>) = (1 − <i>t</i>)<b class="v">b</b> + <i>t</i><b class="v">d</b> for some <i>t</i>.<br>
+  Compare coefficients: <i>s</i> = 1 − <i>t</i> and <i>s</i> = <i>t</i>. So <i>s</i> = <i>t</i> = ½, and X is the midpoint of both diagonals.</p>
+
+  <div class="quiz" data-quiz="l7"></div>
+</section>
+
+<!-- ============ L8 ============ -->
+<section class="page" id="l8" data-nav="Dot product" data-group="Foundations" data-num="8" data-quiz="l8">
+  <p class="eyebrow">Lesson 8 of 8</p>
+  <h2>The dot product: a detector for right angles</h2>
+  <p class="lede">Addition and scaling can prove things about parallel lines and ratios. To prove something is perpendicular, or that two lengths are equal, you need one more tool.</p>
+  <p>The <strong>dot product</strong> of two vectors is a number, not a vector:</p>
+  <div class="eq left">
+    <span class="line"><b class="v">a · b</b> = |<b class="v">a</b>| |<b class="v">b</b>| cos <i>θ</i> &nbsp;&nbsp;(<i>θ</i> is the angle between them)</span>
+    <span class="line"><b class="v">a · b</b> = <i>x</i>₁<i>x</i>₂ + <i>y</i>₁<i>y</i>₂ &nbsp;&nbsp;(in components)</span>
+  </div>
+  <p>Think of it as “how much <b class="v cb">b</b> goes along <b class="v ca">a</b>, times the length of <b class="v ca">a</b>”. The amber segment below is the shadow of <b class="v cb">b</b> on the line of <b class="v ca">a</b>. Drag <b class="v cb">b</b> round until it is at right angles to <b class="v ca">a</b>. The shadow shrinks to nothing and the dot product becomes 0.</p>
+
+  <div class="lab" data-board="l8"></div>
+
+  <div class="key"><span class="tag">Key idea</span>
+    <p><b class="v">a · b</b> = 0 ⇔ <b class="v">a</b> ⊥ <b class="v">b</b> &nbsp;(for non-zero vectors).<br>
+    <b class="v">a · a</b> = |<b class="v">a</b>|², so equal lengths can be written as equal dot products.<br>
+    <b class="v">a · b</b> = <b class="v">b · a</b>, and brackets expand normally: (<b class="v">a + b</b>) · (<b class="v">a − b</b>) = |<b class="v">a</b>|² − |<b class="v">b</b>|².</p>
+  </div>
+  <p>That last line is worth remembering. It proves both the rhombus theorem (T7) and the angle-in-a-semicircle theorem (T8) almost by itself.</p>
+
+  <div class="quiz" data-quiz="l8"></div>
+</section>
+
+<!-- ============ RECIPE ============ -->
+<section class="page" id="recipe" data-nav="The proof recipe" data-group="Toolkit" data-num="KIT" data-quiz="recipe">
+  <p class="eyebrow">Toolkit</p>
+  <h2>One recipe for every vector proof</h2>
+  <p class="lede">Every theorem in the workshop is proved the same way. Learn these four steps and you have a method, not a bag of tricks.</p>
+
+  <ol class="proof static">
+    <li><div><strong>Name the points.</strong> Choose an origin and give each important point a position vector. Pick the origin to save work: a vertex of the figure makes that vertex’s vector <b class="v">0</b>. An arbitrary point O keeps everything symmetric.</div></li>
+    <li><div><strong>Translate the facts.</strong> Turn every given fact into a vector equation using the dictionary below. Midpoints, ratios, parallel sides.</div></li>
+    <li><div><strong>Do the algebra.</strong> Write the vector you are asked about as “head minus tail”, substitute, and simplify. Expand, collect terms, compare coefficients if two expressions describe the same point.</div></li>
+    <li><div><strong>Translate back.</strong> Read the final equation as geometry: <span class="ar">PQ</span> = <i>λ</i> <span class="ar">RS</span> means parallel; equal position vectors mean the same point; a zero dot product means a right angle.</div></li>
+  </ol>
+
+  <h3>The dictionary</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Geometry says</th><th>Vectors say</th></tr></thead>
+    <tbody>
+      <tr><td>M is the midpoint of AB</td><td><b class="v">m</b> = <span class="fr"><span><b class="v">a</b> + <b class="v">b</b></span><span>2</span></span></td></tr>
+      <tr><td>P divides AB in ratio <i>m</i> : <i>n</i></td><td><b class="v">p</b> = <span class="fr"><span><i>n</i><b class="v">a</b> + <i>m</i><b class="v">b</b></span><span><i>m</i> + <i>n</i></span></span></td></tr>
+      <tr><td>G is the centroid of triangle ABC</td><td><b class="v">g</b> = <span class="fr"><span><b class="v">a</b> + <b class="v">b</b> + <b class="v">c</b></span><span>3</span></span></td></tr>
+      <tr><td>AB is parallel to CD</td><td><span class="ar">AB</span> = <i>λ</i> <span class="ar">CD</span></td></tr>
+      <tr><td>A, B, C are collinear</td><td><span class="ar">AB</span> = <i>λ</i> <span class="ar">AC</span></td></tr>
+      <tr><td>ABCD is a parallelogram</td><td><span class="ar">AB</span> = <span class="ar">DC</span>, i.e. <b class="v">a</b> + <b class="v">c</b> = <b class="v">b</b> + <b class="v">d</b></td></tr>
+      <tr><td>AB is perpendicular to CD</td><td><span class="ar">AB</span> · <span class="ar">CD</span> = 0</td></tr>
+      <tr><td>AB and CD have equal length</td><td><span class="ar">AB</span> · <span class="ar">AB</span> = <span class="ar">CD</span> · <span class="ar">CD</span></td></tr>
+      <tr><td>Two lines meet at P</td><td>Write <b class="v">p</b> two ways and compare coefficients</td></tr>
+      <tr><td>Some vectors form a closed polygon</td><td>Their sum is <b class="v">0</b></td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Mistakes that cost marks</h3>
+  <ul>
+    <li>Writing <span class="ar">AB</span> = <b class="v">a − b</b>. It is always head minus tail: <b class="v">b − a</b>.</li>
+    <li>Comparing coefficients of vectors that might be parallel. Say “since <b class="v">a</b> and <b class="v">b</b> are not parallel” before you do it.</li>
+    <li>Dividing by a vector, or cancelling a vector from both sides of a dot product. Neither is allowed.</li>
+    <li>Proving a theorem with specific coordinates. That checks one example; it does not prove the general case.</li>
+    <li>Forgetting the final sentence. End by stating what the algebra means geometrically.</li>
+  </ul>
+
+  <div class="quiz" data-quiz="recipe"></div>
+</section>
+
+<!-- ============ T1 ============ -->
+<section class="page" id="t1" data-nav="Medians sum to zero" data-group="Theorem workshop" data-num="T1" data-thm="t1">
+  <p class="eyebrow">Theorem 1</p>
+  <h2>The three medians add up to zero</h2>
+  <div class="thm"><span class="tag">Theorem</span>
+    <p>In any triangle ABC, let D, E, F be the midpoints of BC, CA, AB. Then <span class="ar">AD</span> + <span class="ar">BE</span> + <span class="ar">CF</span> = <b class="v">0</b>.</p></div>
+  <p>A <strong>median</strong> joins a vertex to the midpoint of the opposite side. Read as vectors, the three medians are three arrows. Drag the triangle into any shape. With “tip to tail” switched on, the three median vectors are copied end to end, starting at A. They always form a closed triangle, so by Lesson 2 their sum is zero.</p>
+
+  <div class="lab" data-board="t1"></div>
+
+  <details class="hint"><summary>Try it yourself first: need a nudge?</summary>
+    <p>Use the recipe. Name A, B, C by <b class="v">a</b>, <b class="v">b</b>, <b class="v">c</b>. Write <b class="v">d</b> with the midpoint formula. Then <span class="ar">AD</span> = <b class="v">d − a</b>. Do the same for the other two and add.</p></details>
+
+  <h3>Proof</h3>
+  <ol class="proof">
+    <li><div>Take any origin O and let A, B, C have position vectors <b class="v">a</b>, <b class="v">b</b>, <b class="v">c</b>.</div></li>
+    <li><div>D, E, F are midpoints, so
+      <div class="eq"><b class="v">d</b> = <span class="fr"><span><b class="v">b</b> + <b class="v">c</b></span><span>2</span></span>, &nbsp; <b class="v">e</b> = <span class="fr"><span><b class="v">c</b> + <b class="v">a</b></span><span>2</span></span>, &nbsp; <b class="v">f</b> = <span class="fr"><span><b class="v">a</b> + <b class="v">b</b></span><span>2</span></span></div></div></li>
+    <li><div>Each median is head minus tail:
+      <div class="eq"><span class="ar">AD</span> = <span class="fr"><span><b class="v">b</b> + <b class="v">c</b></span><span>2</span></span> − <b class="v">a</b>, &nbsp; <span class="ar">BE</span> = <span class="fr"><span><b class="v">c</b> + <b class="v">a</b></span><span>2</span></span> − <b class="v">b</b>, &nbsp; <span class="ar">CF</span> = <span class="fr"><span><b class="v">a</b> + <b class="v">b</b></span><span>2</span></span> − <b class="v">c</b></div></div></li>
+    <li><div>Add them. Each of <b class="v">a</b>, <b class="v">b</b>, <b class="v">c</b> appears twice with a half and once with −1:
+      <div class="eq"><span class="ar">AD</span> + <span class="ar">BE</span> + <span class="ar">CF</span> = <span class="fr"><span>2<b class="v">a</b> + 2<b class="v">b</b> + 2<b class="v">c</b></span><span>2</span></span> − (<b class="v">a</b> + <b class="v">b</b> + <b class="v">c</b>) = <b class="v">0</b></div>
+      Hence the algebraic sum of the three medians is zero. ∎</div></li>
+  </ol>
+  <div class="key"><span class="tag">Another route</span>
+    <p>By the parallelogram law, <span class="ar">AD</span> = ½(<span class="ar">AB</span> + <span class="ar">AC</span>). Write all three medians this way and the six side vectors cancel in pairs, since <span class="ar">AB</span> + <span class="ar">BA</span> = <b class="v">0</b>. Try writing it out.</p></div>
+</section>
+
+<!-- ============ T2 ============ -->
+<section class="page" id="t2" data-nav="The centroid" data-group="Theorem workshop" data-num="T2" data-thm="t2">
+  <p class="eyebrow">Theorem 2</p>
+  <h2>The medians meet at one point, two-thirds of the way down</h2>
+  <div class="thm"><span class="tag">Theorem</span>
+    <p>The three medians of a triangle pass through one point G, the <strong>centroid</strong>, with position vector <b class="v">g</b> = <span class="fr"><span><b class="v">a</b> + <b class="v">b</b> + <b class="v">c</b></span><span>3</span></span>. G divides each median in the ratio 2 : 1 from the vertex.</p></div>
+
+  <div class="lab" data-board="t2"></div>
+
+  <details class="hint"><summary>Try it yourself first: need a nudge?</summary>
+    <p>Do not try to find where two medians cross. Instead, take the point that divides AD in the ratio 2 : 1 and work out its position vector. Look at how symmetric the answer is.</p></details>
+
+  <h3>Proof</h3>
+  <ol class="proof">
+    <li><div>Take any origin. D is the midpoint of BC, so <b class="v">d</b> = <span class="fr"><span><b class="v">b</b> + <b class="v">c</b></span><span>2</span></span>.</div></li>
+    <li><div>Let G be the point dividing AD in the ratio 2 : 1. By the section formula with <i>m</i> = 2, <i>n</i> = 1:
+      <div class="eq"><b class="v">g</b> = <span class="fr"><span>1·<b class="v">a</b> + 2·<b class="v">d</b></span><span>3</span></span> = <span class="fr"><span><b class="v">a</b> + <b class="v">b</b> + <b class="v">c</b></span><span>3</span></span></div></div></li>
+    <li><div>This answer is <strong>symmetric</strong> in <b class="v">a</b>, <b class="v">b</b>, <b class="v">c</b>. Repeating the calculation for the point dividing BE in ratio 2 : 1 gives (<b class="v">b</b> + <b class="v">c</b> + <b class="v">a</b>)/3, and for CF gives (<b class="v">c</b> + <b class="v">a</b> + <b class="v">b</b>)/3. These are the same vector, so they are the same point.</div></li>
+    <li><div>So all three medians pass through G, and G divides each one in the ratio 2 : 1. ∎</div></li>
+  </ol>
+
+  <h3>Two corollaries you will be asked for</h3>
+  <ol class="proof static">
+    <li><div><span class="ar">GA</span> + <span class="ar">GB</span> + <span class="ar">GC</span> = (<b class="v">a</b> − <b class="v">g</b>) + (<b class="v">b</b> − <b class="v">g</b>) + (<b class="v">c</b> − <b class="v">g</b>) = (<b class="v">a</b> + <b class="v">b</b> + <b class="v">c</b>) − 3<b class="v">g</b> = <b class="v">0</b>.</div></li>
+    <li><div>For any point P: <span class="ar">PA</span> + <span class="ar">PB</span> + <span class="ar">PC</span> = (<b class="v">a</b> + <b class="v">b</b> + <b class="v">c</b>) − 3<b class="v">p</b> = 3<b class="v">g</b> − 3<b class="v">p</b> = 3<span class="ar">PG</span>.</div></li>
+  </ol>
+</section>
+
+<!-- ============ T3 ============ -->
+<section class="page" id="t3" data-nav="Midpoint theorem" data-group="Theorem workshop" data-num="T3" data-thm="t3">
+  <p class="eyebrow">Theorem 3</p>
+  <h2>The midpoint theorem</h2>
+  <div class="thm"><span class="tag">Theorem</span>
+    <p>The line joining the midpoints of two sides of a triangle is parallel to the third side and half as long.</p></div>
+
+  <div class="lab" data-board="t3"></div>
+
+  <details class="hint"><summary>Try it yourself first: need a nudge?</summary>
+    <p>Put the origin at A, the vertex the two sides share. Then A’s vector is <b class="v">0</b> and you only have two letters to deal with.</p></details>
+
+  <h3>Proof</h3>
+  <ol class="proof">
+    <li><div>Let E and F be the midpoints of AB and AC. Take A as origin, with <span class="ar">AB</span> = <b class="v">b</b> and <span class="ar">AC</span> = <b class="v">c</b>.</div></li>
+    <li><div>Midpoints: <b class="v">e</b> = <span class="fr"><span><b class="v">0</b> + <b class="v">b</b></span><span>2</span></span> = ½<b class="v">b</b> and <b class="v">f</b> = ½<b class="v">c</b>.</div></li>
+    <li><div>Head minus tail:
+      <div class="eq"><span class="ar">EF</span> = ½<b class="v">c</b> − ½<b class="v">b</b> = ½(<b class="v">c</b> − <b class="v">b</b>) = ½ <span class="ar">BC</span></div></div></li>
+    <li><div><span class="ar">EF</span> is a scalar multiple of <span class="ar">BC</span>, so EF ∥ BC, and |EF| = ½|BC|. ∎</div></li>
+  </ol>
+  <div class="key"><span class="tag">Lesson from this proof</span>
+    <p>Choosing a vertex as origin is often the fastest start. It deletes one vector from every expression.</p></div>
+</section>
+
+<!-- ============ T4 ============ -->
+<section class="page" id="t4" data-nav="Parallelogram diagonals" data-group="Theorem workshop" data-num="T4" data-thm="t4">
+  <p class="eyebrow">Theorem 4</p>
+  <h2>The diagonals of a parallelogram bisect each other</h2>
+  <div class="thm"><span class="tag">Theorem</span>
+    <p>In a parallelogram ABCD, the diagonals AC and BD cut each other in half.</p></div>
+  <p>Drag A, B and D. C is placed automatically so ABCD stays a parallelogram. The amber and green marks are the midpoints of the two diagonals. They never separate.</p>
+
+  <div class="lab" data-board="t4"></div>
+
+  <details class="hint"><summary>Try it yourself first: need a nudge?</summary>
+    <p>Translate “parallelogram” as <span class="ar">AB</span> = <span class="ar">DC</span> and rearrange. What does (<b class="v">a</b> + <b class="v">c</b>)/2 mean as a point?</p></details>
+
+  <h3>Proof</h3>
+  <ol class="proof">
+    <li><div>Take any origin. ABCD is a parallelogram, so <span class="ar">AB</span> = <span class="ar">DC</span>, which means <b class="v">b</b> − <b class="v">a</b> = <b class="v">c</b> − <b class="v">d</b>.</div></li>
+    <li><div>Rearrange: <b class="v">a</b> + <b class="v">c</b> = <b class="v">b</b> + <b class="v">d</b>.</div></li>
+    <li><div>Divide by 2:
+      <div class="eq"><span class="fr"><span><b class="v">a</b> + <b class="v">c</b></span><span>2</span></span> = <span class="fr"><span><b class="v">b</b> + <b class="v">d</b></span><span>2</span></span></div>
+      The left side is the midpoint of AC. The right side is the midpoint of BD.</div></li>
+    <li><div>Two points with the same position vector are the same point. So the diagonals share their midpoint: they bisect each other. ∎</div></li>
+  </ol>
+  <p>Lesson 7 proved this a second way, by comparing coefficients. Both proofs are correct. The one here is shorter; the coefficient method works even when you do not know the answer in advance.</p>
+</section>
+
+<!-- ============ T5 ============ -->
+<section class="page" id="t5" data-nav="Varignon’s theorem" data-group="Theorem workshop" data-num="T5" data-thm="t5">
+  <p class="eyebrow">Theorem 5</p>
+  <h2>Midpoints of any quadrilateral form a parallelogram</h2>
+  <div class="thm"><span class="tag">Theorem (Varignon)</span>
+    <p>Join the midpoints of the sides of any quadrilateral in order. The result is a parallelogram.</p></div>
+  <p>This one feels like magic. Make ABCD as lopsided as you like, even let it cross over itself. The shaded shape PQRS stays a parallelogram.</p>
+
+  <div class="lab" data-board="t5"></div>
+
+  <details class="hint"><summary>Try it yourself first: need a nudge?</summary>
+    <p>To show PQRS is a parallelogram it is enough to show <span class="ar">PQ</span> = <span class="ar">SR</span>. Write both with the midpoint formula.</p></details>
+
+  <h3>Proof</h3>
+  <ol class="proof">
+    <li><div>Take any origin. P, Q, R, S are the midpoints of AB, BC, CD, DA, so
+      <div class="eq"><b class="v">p</b> = <span class="fr"><span><b class="v">a</b>+<b class="v">b</b></span><span>2</span></span>, &nbsp;<b class="v">q</b> = <span class="fr"><span><b class="v">b</b>+<b class="v">c</b></span><span>2</span></span>, &nbsp;<b class="v">r</b> = <span class="fr"><span><b class="v">c</b>+<b class="v">d</b></span><span>2</span></span>, &nbsp;<b class="v">s</b> = <span class="fr"><span><b class="v">d</b>+<b class="v">a</b></span><span>2</span></span></div></div></li>
+    <li><div><span class="ar">PQ</span> = <b class="v">q</b> − <b class="v">p</b> = <span class="fr"><span><b class="v">c</b> − <b class="v">a</b></span><span>2</span></span> &nbsp;and&nbsp; <span class="ar">SR</span> = <b class="v">r</b> − <b class="v">s</b> = <span class="fr"><span><b class="v">c</b> − <b class="v">a</b></span><span>2</span></span>.</div></li>
+    <li><div>So <span class="ar">PQ</span> = <span class="ar">SR</span>: one pair of opposite sides is parallel and equal. Therefore PQRS is a parallelogram. ∎</div></li>
+  </ol>
+  <div class="key"><span class="tag">Bonus</span>
+    <p>Both sides equal ½<span class="ar">AC</span>. Each side of PQRS is parallel to a diagonal of ABCD and half its length. That is the midpoint theorem (T3) used twice.</p></div>
+</section>
+
+<!-- ============ T6 ============ -->
+<section class="page" id="t6" data-nav="Trapezium midline" data-group="Theorem workshop" data-num="T6" data-thm="t6">
+  <p class="eyebrow">Theorem 6</p>
+  <h2>The midline of a trapezium</h2>
+  <div class="thm"><span class="tag">Theorem</span>
+    <p>In a trapezium ABCD with AB ∥ DC, the segment joining the midpoints of the non-parallel sides AD and BC is parallel to AB and DC, and its length is half the sum of their lengths.</p></div>
+  <p>C can only slide along the line through D parallel to AB, so the shape is always a trapezium.</p>
+
+  <div class="lab" data-board="t6"></div>
+
+  <details class="hint"><summary>Try it yourself first: need a nudge?</summary>
+    <p>Translate the parallel sides as <span class="ar">DC</span> = <i>λ</i> <span class="ar">AB</span> with <i>λ</i> &gt; 0. Find <span class="ar">MN</span> and try to group the terms into <span class="ar">AB</span> and <span class="ar">DC</span>.</p></details>
+
+  <h3>Proof</h3>
+  <ol class="proof">
+    <li><div>AB ∥ DC and both run the same way, so <span class="ar">DC</span> = <i>λ</i> <span class="ar">AB</span> for some <i>λ</i> &gt; 0.</div></li>
+    <li><div>M and N are the midpoints of AD and BC: <b class="v">m</b> = <span class="fr"><span><b class="v">a</b>+<b class="v">d</b></span><span>2</span></span>, <b class="v">n</b> = <span class="fr"><span><b class="v">b</b>+<b class="v">c</b></span><span>2</span></span>.</div></li>
+    <li><div>Group the terms cleverly:
+      <div class="eq"><span class="ar">MN</span> = <span class="fr"><span>(<b class="v">b</b> − <b class="v">a</b>) + (<b class="v">c</b> − <b class="v">d</b>)</span><span>2</span></span> = ½(<span class="ar">AB</span> + <span class="ar">DC</span>)</div></div></li>
+    <li><div>Substitute <span class="ar">DC</span> = <i>λ</i> <span class="ar">AB</span>: <span class="ar">MN</span> = <span class="fr"><span>1 + <i>λ</i></span><span>2</span></span> <span class="ar">AB</span>. So MN ∥ AB ∥ DC, and |MN| = ½(|AB| + <i>λ</i>|AB|) = ½(|AB| + |DC|). ∎</div></li>
+  </ol>
+</section>
+
+<!-- ============ T7 ============ -->
+<section class="page" id="t7" data-nav="Rhombus diagonals" data-group="Theorem workshop" data-num="T7" data-thm="t7">
+  <p class="eyebrow">Theorem 7</p>
+  <h2>The diagonals of a rhombus are perpendicular</h2>
+  <div class="thm"><span class="tag">Theorem</span>
+    <p>In a rhombus ABCD (all four sides equal), the diagonals AC and BD cross at right angles.</p></div>
+  <p>D is kept at the same distance from A as B is, so the shape is always a rhombus. Watch the dot product of the diagonals.</p>
+
+  <div class="lab" data-board="t7"></div>
+
+  <details class="hint"><summary>Try it yourself first: need a nudge?</summary>
+    <p>Origin at A, <span class="ar">AB</span> = <b class="v">a</b>, <span class="ar">AD</span> = <b class="v">b</b>. Write both diagonals in terms of <b class="v">a</b> and <b class="v">b</b>, then use the last line of Lesson 8.</p></details>
+
+  <h3>Proof</h3>
+  <ol class="proof">
+    <li><div>Take A as origin, <span class="ar">AB</span> = <b class="v">a</b>, <span class="ar">AD</span> = <b class="v">b</b>. It is a rhombus, so |<b class="v">a</b>| = |<b class="v">b</b>|.</div></li>
+    <li><div>ABCD is a parallelogram, so <span class="ar">AC</span> = <b class="v">a</b> + <b class="v">b</b> and <span class="ar">BD</span> = <b class="v">b</b> − <b class="v">a</b>.</div></li>
+    <li><div>Expand the dot product. The middle terms cancel because <b class="v">a · b</b> = <b class="v">b · a</b>:
+      <div class="eq"><span class="ar">AC</span> · <span class="ar">BD</span> = (<b class="v">a</b> + <b class="v">b</b>) · (<b class="v">b</b> − <b class="v">a</b>) = |<b class="v">b</b>|² − |<b class="v">a</b>|² = 0</div></div></li>
+    <li><div>A zero dot product between non-zero vectors means they are perpendicular. So AC ⊥ BD. ∎</div></li>
+  </ol>
+</section>
+
+<!-- ============ T8 ============ -->
+<section class="page" id="t8" data-nav="Angle in a semicircle" data-group="Theorem workshop" data-num="T8" data-thm="t8">
+  <p class="eyebrow">Theorem 8</p>
+  <h2>The angle in a semicircle is a right angle</h2>
+  <div class="thm"><span class="tag">Theorem</span>
+    <p>If AB is a diameter of a circle and P is any other point on the circle, then ∠APB = 90°.</p></div>
+  <p>Drag A to turn and resize the diameter. Drag P around the circle.</p>
+
+  <div class="lab" data-board="t8"></div>
+
+  <details class="hint"><summary>Try it yourself first: need a nudge?</summary>
+    <p>Put the origin at the centre O. If <span class="ar">OA</span> = <b class="v">a</b>, what is <span class="ar">OB</span>? What do you know about |<b class="v">p</b>|?</p></details>
+
+  <h3>Proof</h3>
+  <ol class="proof">
+    <li><div>Take the centre O as origin. Let <span class="ar">OA</span> = <b class="v">a</b>. B is at the other end of the diameter, so <span class="ar">OB</span> = −<b class="v">a</b>. P is on the circle, so |<b class="v">p</b>| = |<b class="v">a</b>| = radius.</div></li>
+    <li><div><span class="ar">PA</span> = <b class="v">a</b> − <b class="v">p</b> and <span class="ar">PB</span> = −<b class="v">a</b> − <b class="v">p</b> = −(<b class="v">a</b> + <b class="v">p</b>).</div></li>
+    <li><div>Dot them:
+      <div class="eq"><span class="ar">PA</span> · <span class="ar">PB</span> = −(<b class="v">a</b> − <b class="v">p</b>) · (<b class="v">a</b> + <b class="v">p</b>) = −(|<b class="v">a</b>|² − |<b class="v">p</b>|²) = 0</div></div></li>
+    <li><div>So PA ⊥ PB, which means ∠APB = 90°. ∎</div></li>
+  </ol>
+  <div class="key"><span class="tag">Notice</span>
+    <p>T7 and T8 are the same algebra: (<b class="v">u + v</b>) · (<b class="v">u − v</b>) = |<b class="v">u</b>|² − |<b class="v">v</b>|², which is zero whenever two lengths are equal. When a problem has equal lengths and asks for a right angle, reach for this identity.</p></div>
+</section>
+
+<!-- ============ T9 ============ -->
+<section class="page" id="t9" data-nav="Regular hexagon" data-group="Theorem workshop" data-num="T9" data-thm="t9">
+  <p class="eyebrow">Theorem 9</p>
+  <h2>A sum around a regular hexagon</h2>
+  <div class="thm"><span class="tag">Theorem</span>
+    <p>For a regular hexagon ABCDEF: <span class="ar">AB</span> + <span class="ar">AC</span> + <span class="ar">AD</span> + <span class="ar">AE</span> + <span class="ar">AF</span> = 3<span class="ar">AD</span>.</p></div>
+  <p>Drag A to rotate and resize the hexagon. Five arrows leave A; their total is always three times the long diagonal.</p>
+
+  <div class="lab" data-board="t9"></div>
+
+  <details class="hint"><summary>Try it yourself first: need a nudge?</summary>
+    <p>Pair the arrows up. Which side of the hexagon equals <span class="ar">AB</span> as a vector, and starts where <span class="ar">AE</span> ends?</p></details>
+
+  <h3>Proof</h3>
+  <ol class="proof">
+    <li><div>In a regular hexagon opposite sides are parallel and equal, and run in opposite directions round the hexagon. So <span class="ar">AB</span> = <span class="ar">ED</span> and <span class="ar">AF</span> = <span class="ar">CD</span>.</div></li>
+    <li><div>Triangle law: <span class="ar">AE</span> + <span class="ar">AB</span> = <span class="ar">AE</span> + <span class="ar">ED</span> = <span class="ar">AD</span>.</div></li>
+    <li><div>Triangle law again: <span class="ar">AC</span> + <span class="ar">AF</span> = <span class="ar">AC</span> + <span class="ar">CD</span> = <span class="ar">AD</span>.</div></li>
+    <li><div>Add everything: (<span class="ar">AB</span> + <span class="ar">AE</span>) + (<span class="ar">AC</span> + <span class="ar">AF</span>) + <span class="ar">AD</span> = <span class="ar">AD</span> + <span class="ar">AD</span> + <span class="ar">AD</span> = 3<span class="ar">AD</span>. ∎</div></li>
+  </ol>
+  <div class="key"><span class="tag">Related fact</span>
+    <p>With the centre O as origin, opposite vertices give opposite vectors: <span class="ar">OA</span> + <span class="ar">OD</span> = <b class="v">0</b>, and so on. So <span class="ar">OA</span> + <span class="ar">OB</span> + … + <span class="ar">OF</span> = <b class="v">0</b>. The readout checks this too.</p></div>
+</section>
+
+<!-- ============ PRACTICE ============ -->
+<section class="page" id="practice" data-nav="Practice problems" data-group="Practice" data-num="P">
+  <p class="eyebrow">Practice</p>
+  <h2>Prove it on your own</h2>
+  <p class="lede">Cover the solution, write a full proof on paper using the recipe, then compare. If you get stuck, go back to the dictionary on the Toolkit page.</p>
+
+  <div class="prob"><p>1. The points with position vectors <b class="v">a</b> − 2<b class="v">b</b> + 3<b class="v">c</b>, 2<b class="v">a</b> + 3<b class="v">b</b> − 4<b class="v">c</b> and −7<b class="v">b</b> + 10<b class="v">c</b> are A, B, C. Prove they are collinear.</p>
+    <details class="sol"><summary>Show solution</summary>
+      <p><span class="ar">AB</span> = (2<b class="v">a</b> + 3<b class="v">b</b> − 4<b class="v">c</b>) − (<b class="v">a</b> − 2<b class="v">b</b> + 3<b class="v">c</b>) = <b class="v">a</b> + 5<b class="v">b</b> − 7<b class="v">c</b>.<br>
+      <span class="ar">AC</span> = (−7<b class="v">b</b> + 10<b class="v">c</b>) − (<b class="v">a</b> − 2<b class="v">b</b> + 3<b class="v">c</b>) = −<b class="v">a</b> − 5<b class="v">b</b> + 7<b class="v">c</b> = −<span class="ar">AB</span>.<br>
+      So <span class="ar">AC</span> = −1 · <span class="ar">AB</span>. The vectors are parallel and share the point A, so A, B, C are collinear (A lies between B and C, as its midpoint).</p></details></div>
+
+  <div class="prob"><p>2. A, B, C have position vectors <b class="v">a</b>, <b class="v">b</b>, <b class="v">c</b>. Find the position vector of D so that ABCD is a parallelogram.</p>
+    <details class="sol"><summary>Show solution</summary>
+      <p>Parallelogram means <span class="ar">AB</span> = <span class="ar">DC</span>: <b class="v">b</b> − <b class="v">a</b> = <b class="v">c</b> − <b class="v">d</b>, so <b class="v">d</b> = <b class="v">a</b> + <b class="v">c</b> − <b class="v">b</b>.</p></details></div>
+
+  <div class="prob"><p>3. D, E, F are the midpoints of BC, CA, AB in triangle ABC. Prove that for any point O, <span class="ar">OA</span> + <span class="ar">OB</span> + <span class="ar">OC</span> = <span class="ar">OD</span> + <span class="ar">OE</span> + <span class="ar">OF</span>.</p>
+    <details class="sol"><summary>Show solution</summary>
+      <p>Take O as origin. Then <b class="v">d</b> + <b class="v">e</b> + <b class="v">f</b> = ½[(<b class="v">b</b> + <b class="v">c</b>) + (<b class="v">c</b> + <b class="v">a</b>) + (<b class="v">a</b> + <b class="v">b</b>)] = <b class="v">a</b> + <b class="v">b</b> + <b class="v">c</b>. That is the required equation. (It also shows triangles ABC and DEF have the same centroid.)</p></details></div>
+
+  <div class="prob"><p>4. Prove that the line joining the midpoints of the diagonals of a trapezium is parallel to the parallel sides and equal to half their difference.</p>
+    <details class="sol"><summary>Show solution</summary>
+      <p>Let ABCD have AB ∥ DC with <span class="ar">DC</span> = <i>λ</i> <span class="ar">AB</span>, 0 &lt; <i>λ</i> &lt; 1 (DC the shorter side). Midpoints of AC and BD: <b class="v">m</b> = ½(<b class="v">a</b> + <b class="v">c</b>), <b class="v">n</b> = ½(<b class="v">b</b> + <b class="v">d</b>).<br>
+      <span class="ar">MN</span> = ½[(<b class="v">b</b> − <b class="v">a</b>) − (<b class="v">c</b> − <b class="v">d</b>)] = ½(<span class="ar">AB</span> − <span class="ar">DC</span>) = <span class="fr"><span>1 − <i>λ</i></span><span>2</span></span> <span class="ar">AB</span>.<br>
+      So MN ∥ AB ∥ DC, and |MN| = ½(|AB| − |DC|).</p></details></div>
+
+  <div class="prob"><p>5. In parallelogram ABCD, E is the midpoint of AB. Prove that DE cuts the diagonal AC at a point P with AP = ⅓ AC.</p>
+    <details class="sol"><summary>Show solution</summary>
+      <p>Origin A, <span class="ar">AB</span> = <b class="v">b</b>, <span class="ar">AD</span> = <b class="v">d</b> (not parallel). Then C is at <b class="v">b</b> + <b class="v">d</b> and E at ½<b class="v">b</b>.<br>
+      P on AC: <b class="v">p</b> = <i>t</i><b class="v">b</b> + <i>t</i><b class="v">d</b>.<br>
+      P on DE: <b class="v">p</b> = <b class="v">d</b> + <i>s</i>(½<b class="v">b</b> − <b class="v">d</b>) = ½<i>s</i><b class="v">b</b> + (1 − <i>s</i>)<b class="v">d</b>.<br>
+      Compare coefficients: <i>t</i> = ½<i>s</i> and <i>t</i> = 1 − <i>s</i>. So ½<i>s</i> = 1 − <i>s</i>, giving <i>s</i> = ⅔ and <i>t</i> = ⅓. Hence <span class="ar">AP</span> = ⅓ <span class="ar">AC</span>.</p></details></div>
+
+  <div class="prob"><p>6. Prove that the diagonals of a rectangle are equal in length.</p>
+    <details class="sol"><summary>Show solution</summary>
+      <p>Origin A, <span class="ar">AB</span> = <b class="v">a</b>, <span class="ar">AD</span> = <b class="v">b</b>, with <b class="v">a · b</b> = 0 (right angle at A). <span class="ar">AC</span> = <b class="v">a</b> + <b class="v">b</b>, <span class="ar">BD</span> = <b class="v">b</b> − <b class="v">a</b>.<br>
+      |<span class="ar">AC</span>|² = |<b class="v">a</b>|² + 2<b class="v">a · b</b> + |<b class="v">b</b>|² = |<b class="v">a</b>|² + |<b class="v">b</b>|².<br>
+      |<span class="ar">BD</span>|² = |<b class="v">b</b>|² − 2<b class="v">a · b</b> + |<b class="v">a</b>|² = |<b class="v">a</b>|² + |<b class="v">b</b>|².<br>
+      Equal squares of lengths, so |AC| = |BD|.</p></details></div>
+
+  <div class="prob"><p>7. G is the centroid of triangle ABC and P is any point. Prove <span class="ar">PA</span> + <span class="ar">PB</span> + <span class="ar">PC</span> = 3<span class="ar">PG</span>.</p>
+    <details class="sol"><summary>Show solution</summary>
+      <p>With any origin, <span class="ar">PA</span> + <span class="ar">PB</span> + <span class="ar">PC</span> = (<b class="v">a</b> + <b class="v">b</b> + <b class="v">c</b>) − 3<b class="v">p</b>. Since <b class="v">g</b> = (<b class="v">a</b> + <b class="v">b</b> + <b class="v">c</b>)/3, this equals 3<b class="v">g</b> − 3<b class="v">p</b> = 3<span class="ar">PG</span>.</p></details></div>
+
+  <div class="prob"><p>8. Prove that it is possible to build a triangle whose sides are equal and parallel to the three medians of a given triangle.</p>
+    <details class="sol"><summary>Show solution</summary>
+      <p>By T1, <span class="ar">AD</span> + <span class="ar">BE</span> + <span class="ar">CF</span> = <b class="v">0</b>. Draw <span class="ar">AD</span>, then copy <span class="ar">BE</span> starting at its head, then copy <span class="ar">CF</span> starting at the head of that. Because the sum is <b class="v">0</b>, the chain ends where it began, so the three arrows close up into a triangle.<br>
+      It is a genuine triangle, not a flat line, because no two medians are parallel (any two of them cross at the centroid G).<br>
+      This is the Lesson 2 fact read backwards: <em>a sum of zero</em> ⇔ <em>the vectors close up into a polygon</em>.</p></details></div>
+
+  <div class="key"><span class="tag">You are ready when</span>
+    <p>you can do problems 4 and 5 without opening the solutions. Problem 4 tests translation and grouping (T6’s idea). Problem 5 tests comparing coefficients (Lesson 7). Those two skills are behind nearly every planar vector theorem you will be set.</p></div>
+</section>
+
+  </main>
+</div>
+
+<script>
+(() => {
+"use strict";
+/* ---------- vector helpers ---------- */
+const add=(p,q)=>({x:p.x+q.x,y:p.y+q.y}), sub=(p,q)=>({x:p.x-q.x,y:p.y-q.y}),
+      mul=(p,k)=>({x:p.x*k,y:p.y*k}), dot=(p,q)=>p.x*q.x+p.y*q.y, len=p=>Math.hypot(p.x,p.y),
+      mid=(p,q)=>({x:(p.x+q.x)/2,y:(p.y+q.y)/2}), O0={x:0,y:0},
+      unit=p=>{const l=len(p);return l<1e-9?{x:1,y:0}:mul(p,1/l)},
+      rot=(p,t)=>({x:p.x*Math.cos(t)-p.y*Math.sin(t),y:p.x*Math.sin(t)+p.y*Math.cos(t)}),
+      clamp=(v,a,b)=>Math.max(a,Math.min(b,v)),
+      angDeg=(u,v)=>{const L=len(u)*len(v);if(L<1e-9)return 0;return Math.acos(clamp(dot(u,v)/L,-1,1))*180/Math.PI};
+const fmt=n=>{let v=Math.round(n*100)/100;if(Math.abs(v)<0.005)v=0;let s=Number.isInteger(v)?String(v):v.toFixed(2).replace(/0$/,"");return s.replace("-","−")};
+const vf=v=>`(${fmt(v.x)}, ${fmt(v.y)})`;
+const isZero=v=>Math.abs(v.x)<0.01&&Math.abs(v.y)<0.01;
+const ar=s=>`<span class="ar">${s}</span>`, bv=(s,c="")=>`<b class="v ${c}">${s}</b>`;
+const row=(a,b)=>`<div class="r"><span>${a}</span><span>${b}</span></div>`;
+const ok=(good,txt,bad)=>`<div class="ok ${good?"":"n"}">${good?"✓ "+txt:(bad||txt)}</div>`;
+
+/* ---------- interactive board ---------- */
+const NS="http://www.w3.org/2000/svg";
+function mk(tag,attrs,parent){const e=document.createElementNS(NS,tag);if(attrs)for(const k in attrs)e.setAttribute(k,attrs[k]);if(parent)parent.appendChild(e);return e}
+const col=c=>`var(--${c||"ink"})`;
+
+function makeBoard(host,cfg){
+  const W=cfg.w||12,H=cfg.h||8,S=50;
+  const xmin=cfg.xmin??-W/2, ymax=cfg.ymax??H/2, snap=cfg.snap??0;
+  const X=x=>(x-xmin)*S, Y=y=>(ymax-y)*S;
+  const svg=mk("svg",{viewBox:`0 0 ${W*S} ${H*S}`,class:"board",role:"group","aria-label":cfg.label||"Interactive diagram"});
+  const grid=mk("g",{},svg);
+  for(let x=Math.ceil(xmin);x<=xmin+W;x++)mk("line",{x1:X(x),x2:X(x),y1:0,y2:H*S,class:cfg.axes&&x===0?"axis":"gl"},grid);
+  for(let y=Math.ceil(ymax-H);y<=ymax;y++)mk("line",{x1:0,x2:W*S,y1:Y(y),y2:Y(y),class:cfg.axes&&y===0?"axis":"gl"},grid);
+  const layer=mk("g",{},svg), hl=mk("g",{},svg);
+  const P={}, st={};
+  for(const k in cfg.points)P[k]={x:cfg.points[k].x,y:cfg.points[k].y};
+
+  function label(x,y,str,c,vec,anchor){
+    const t=mk("text",{x,y,"text-anchor":anchor||"middle","dominant-baseline":"middle"},layer);
+    t.style.fill=col(c);t.textContent=str;
+    if(vec){const w=str.length*11.5, ty=y-15, x0=anchor==="start"?x:x-w/2, x1=x0+w;
+      const l=mk("line",{x1:x0,y1:ty,x2:x1-4,y2:ty},layer);l.style.stroke=col(c);l.style.strokeWidth=1.8;
+      const h=mk("polygon",{points:`${x1+2},${ty} ${x1-5},${ty-4} ${x1-5},${ty+4}`},layer);h.style.fill=col(c);}
+    return t;
+  }
+  const D={
+    seg(p,q,o={}){const e=mk("line",{x1:X(p.x),y1:Y(p.y),x2:X(q.x),y2:Y(q.y)},layer);e.style.stroke=col(o.c);e.style.strokeWidth=o.w||1.6;e.style.strokeLinecap="round";if(o.dash)e.style.strokeDasharray="6 6";if(o.op!=null)e.style.opacity=o.op;return e},
+    arrow(p,q,o={}){
+      const x1=X(p.x),y1=Y(p.y),x2=X(q.x),y2=Y(q.y),dx=x2-x1,dy=y2-y1,L=Math.hypot(dx,dy);if(L<3)return;
+      const ux=dx/L,uy=dy/L,w=o.w||3,h=Math.min(12+w*1.4,L*0.55),hw=h*0.45,nx=-uy,ny=ux;
+      const g=mk("g",{},layer);g.style.color=col(o.c);if(o.op!=null)g.style.opacity=o.op;
+      const ln=mk("line",{x1,y1,x2:x2-ux*h*0.7,y2:y2-uy*h*0.7},g);ln.style.stroke="currentColor";ln.style.strokeWidth=w;ln.style.strokeLinecap="round";if(o.dash)ln.style.strokeDasharray="8 7";
+      const hp=mk("polygon",{points:`${x2},${y2} ${x2-ux*h+nx*hw},${y2-uy*h+ny*hw} ${x2-ux*h-nx*hw},${y2-uy*h-ny*hw}`},g);hp.style.fill="currentColor";
+      if(o.label){const t=o.lpos??0.5,off=(o.loff??18)*(o.side||1),lx=x1+dx*t+uy*off,ly=y1+dy*t-ux*off;label(lx,ly,o.label,o.c,o.vec)}
+    },
+    dot(p,o={}){const e=mk("circle",{cx:X(p.x),cy:Y(p.y),r:o.r||5},layer);e.style.fill=col(o.c);if(o.label)label(X(p.x)+(o.dx??12),Y(p.y)+(o.dy??-14),o.label,o.c,false,"start")},
+    text(p,s,o={}){return label(X(p.x)+(o.dx||0),Y(p.y)+(o.dy||0),s,o.c,o.vec,o.anchor)},
+    poly(pts,o={}){const e=mk("polygon",{points:pts.map(p=>`${X(p.x)},${Y(p.y)}`).join(" ")},layer);e.style.fill=col(o.c);e.style.opacity=o.op??0.12;if(o.stroke){e.style.stroke=col(o.c);e.style.strokeWidth=1.5}return e},
+    circle(c,r,o={}){const e=mk("circle",{cx:X(c.x),cy:Y(c.y),r:r*S},layer);e.style.fill="none";e.style.stroke=col(o.c);e.style.strokeWidth=o.w||1.6;if(o.dash)e.style.strokeDasharray="6 6";if(o.op!=null)e.style.opacity=o.op},
+    arc(o,p1,p2,opt={}){const r=opt.r||0.7,t1=Math.atan2(p1.y-o.y,p1.x-o.x);let d=Math.atan2(p2.y-o.y,p2.x-o.x)-t1;while(d>Math.PI)d-=2*Math.PI;while(d<=-Math.PI)d+=2*Math.PI;
+      const s={x:o.x+r*Math.cos(t1),y:o.y+r*Math.sin(t1)},e={x:o.x+r*Math.cos(t1+d),y:o.y+r*Math.sin(t1+d)};
+      const pa=mk("path",{d:`M${X(s.x)},${Y(s.y)} A${r*S},${r*S} 0 0 ${d>0?0:1} ${X(e.x)},${Y(e.y)}`},layer);pa.style.fill="none";pa.style.stroke=col(opt.c);pa.style.strokeWidth=1.8;
+      if(opt.label){const m=t1+d/2,lr=r+0.45;label(X(o.x+lr*Math.cos(m)),Y(o.y+lr*Math.sin(m)),opt.label,opt.c)}},
+    right(o,p1,p2,opt={}){const s=opt.s||0.35,u=mul(unit(sub(p1,o)),s),v=mul(unit(sub(p2,o)),s);
+      const pa=mk("polyline",{points:[add(o,u),add(add(o,u),v),add(o,v)].map(p=>`${X(p.x)},${Y(p.y)}`).join(" ")},layer);pa.style.fill="none";pa.style.stroke=col(opt.c);pa.style.strokeWidth=1.8}
+  };
+
+  /* handles */
+  const handles={};let drag=null;
+  function toWorld(e){const pt=svg.createSVGPoint();pt.x=e.clientX;pt.y=e.clientY;const q=pt.matrixTransform(svg.getScreenCTM().inverse());return{x:q.x/S+xmin,y:ymax-q.y/S}}
+  function setPt(k,p){const m=0.3;p={x:clamp(p.x,xmin+m,xmin+W-m),y:clamp(p.y,ymax-H+m,ymax-m)};if(snap){p.x=Math.round(p.x/snap)*snap;p.y=Math.round(p.y/snap)*snap}P[k]=p;render()}
+  for(const k in cfg.points){
+    const def=cfg.points[k];if(def.fixed)continue;
+    const g=mk("g",{class:"h",tabindex:"0",role:"button","aria-label":`Point ${def.label??k}: drag, or use arrow keys to move`},hl);
+    g.style.setProperty("--c",col(def.c));
+    mk("circle",{r:20,class:"hit"},g);mk("circle",{r:7.5,class:"vis"},g);
+    const lb=def.label??k;if(lb){const t=mk("text",{x:def.ldx??11,y:def.ldy??-13},g);t.textContent=lb}
+    g.addEventListener("pointerdown",e=>{e.preventDefault();g.setPointerCapture(e.pointerId);drag=k;g.classList.add("drag");g.focus({preventScroll:true})});
+    g.addEventListener("pointermove",e=>{if(drag===k)setPt(k,toWorld(e))});
+    const end=()=>{drag=null;g.classList.remove("drag")};
+    g.addEventListener("pointerup",end);g.addEventListener("pointercancel",end);
+    g.addEventListener("keydown",e=>{const m={ArrowLeft:[-1,0],ArrowRight:[1,0],ArrowUp:[0,1],ArrowDown:[0,-1]}[e.key];if(!m)return;e.preventDefault();const s=snap||0.25;setPt(k,{x:P[k].x+m[0]*s,y:P[k].y+m[1]*s})});
+    handles[k]=g;
+  }
+
+  /* footer: hint, controls, readout */
+  const foot=document.createElement("div");foot.className="labfoot";
+  const hint=document.createElement("div");hint.className="hint-drag";hint.textContent=cfg.hint||"Drag the round handles. Keyboard: Tab to a handle, then use the arrow keys.";
+  foot.append(hint);
+  if(cfg.controls){const cw=document.createElement("div");cw.className="controls";
+    cfg.controls.forEach(c=>{const lab=document.createElement("label");const id=`${host.dataset.board}-${c.id}`;
+      if(c.type==="range"){st[c.id]=c.value;lab.innerHTML=`<span>${c.label}</span><input type="range" id="${id}" min="${c.min}" max="${c.max}" step="${c.step}" value="${c.value}"><output>${fmt(c.value)}</output>`;
+        const inp=lab.querySelector("input"),out=lab.querySelector("output");inp.addEventListener("input",()=>{st[c.id]=+inp.value;out.textContent=fmt(+inp.value);render()})}
+      else{st[c.id]=!!c.value;lab.innerHTML=`<input type="checkbox" id="${id}" ${c.value?"checked":""}><span>${c.label}</span>`;
+        const inp=lab.querySelector("input");inp.addEventListener("change",()=>{st[c.id]=inp.checked;render()})}
+      cw.append(lab)});foot.append(cw)}
+  const ro=document.createElement("div");ro.className="readout";ro.setAttribute("aria-live","polite");foot.append(ro);
+  host.append(svg,foot);
+
+  function render(){
+    if(cfg.constrain)cfg.constrain(P,st);
+    layer.replaceChildren();cfg.draw(D,P,st);
+    for(const k in handles)handles[k].setAttribute("transform",`translate(${X(P[k].x)},${Y(P[k].y)})`);
+    if(cfg.readout)ro.innerHTML=cfg.readout(P,st);
+  }
+  render();
+}
+
+/* ---------- board definitions ---------- */
+const BOARDS={
+  intro:{label:"A vector from the origin",axes:true,snap:0.5,
+    points:{T:{x:3,y:2,c:"va",label:"P"}},
+    draw(d,P){d.arrow(O0,P.T,{c:"va",label:"v"});d.dot(O0,{label:"O",dy:16})},
+    readout:P=>row(`${bv("v")} = ${ar("OP")}`,vf(P.T))+row("length |v|",fmt(len(P.T)))+row("direction (from the positive x-axis)",fmt(Math.atan2(P.T.y,P.T.x)*180/Math.PI)+"°")},
+
+  l1:{label:"Equal vectors at different positions",snap:0.5,
+    points:{A:{x:-4,y:-1,c:"va"},B:{x:-1,y:2,c:"va"},C:{x:1,y:-2.5,c:"vx"}},
+    draw(d,P){const v=sub(P.B,P.A),Dp=add(P.C,v);
+      d.seg(P.A,P.C,{c:"muted",dash:true,op:.6});d.seg(P.B,Dp,{c:"muted",dash:true,op:.6});
+      d.arrow(P.A,P.B,{c:"va",label:"AB",vec:true});d.arrow(P.C,Dp,{c:"vx",label:"CD",vec:true});d.dot(Dp,{c:"vx",label:"D",r:4})},
+    readout(P){const v=sub(P.B,P.A),deg=Math.atan2(v.y,v.x)*180/Math.PI;
+      return row(ar("AB")+" in steps (right, up)",vf(v))+row(ar("CD")+" in steps (right, up)",vf(v))+row("length of each",fmt(len(v)))+row("direction of each",fmt(deg)+"°")+
+      ok(len(v)>0,"Same length and same direction, so "+ar("AB")+" = "+ar("CD")+" although they start in different places.","Drag B away from A to make a non-zero vector.")}},
+
+  l2a:{label:"Triangle and parallelogram laws",snap:0.5,
+    points:{O:{x:-4,y:-2.5,c:"ink",label:"O"},A:{x:0.5,y:-1.5,c:"va",label:""},B:{x:-2.5,y:1.5,c:"vb",label:""}},
+    controls:[{id:"para",type:"check",label:"Show both routes (parallelogram)",value:true}],
+    draw(d,P,s){const a=sub(P.A,P.O),b=sub(P.B,P.O),S=add(P.O,add(a,b));
+      if(s.para){d.poly([P.O,P.A,S,P.B],{c:"vs",op:.07});d.arrow(P.B,S,{c:"va",dash:true,label:"a",op:.75});}
+      d.arrow(P.A,S,{c:"vb",dash:!s.para?false:true,label:"b",op:s.para?.75:1});
+      d.arrow(P.O,S,{c:"vs",w:3.5,label:"a + b",side:-1});
+      d.arrow(P.O,P.A,{c:"va",label:"a",side:-1});d.arrow(P.O,P.B,{c:"vb",label:"b"})},
+    readout(P){const a=sub(P.A,P.O),b=sub(P.B,P.O);return row(bv("a","ca"),vf(a))+row(bv("b","cb"),vf(b))+row(bv("a + b","cs"),vf(add(a,b)))+row(bv("b + a","cs"),vf(add(b,a)))+ok(true,"Components just add: ("+fmt(a.x)+" + "+fmt(b.x)+", "+fmt(a.y)+" + "+fmt(b.y)+"). Order does not matter.")}},
+
+  l2b:{label:"A closed chain of vectors",snap:0.5,
+    points:{A:{x:-4,y:-1.5,c:"va"},B:{x:-1,y:-3,c:"vb"},C:{x:3.5,y:-1.5,c:"vs"},D:{x:2.5,y:2.5,c:"vx"},E:{x:-2,y:2.5,c:"ink"}},
+    controls:[{id:"skip",type:"check",label:"Leave out the last side EA",value:false}],
+    draw(d,P,s){const K=["A","B","C","D","E"],C=["va","vb","vs","vx","ink"];
+      for(let i=0;i<5;i++){if(s.skip&&i===4)continue;const p=P[K[i]],q=P[K[(i+1)%5]];d.arrow(p,q,{c:C[i],label:K[i]+K[(i+1)%5],vec:true,op:s.skip?.55:1})}
+      if(s.skip)d.arrow(P.A,P.E,{c:"vs",w:4,label:"AE",vec:true,side:-1})},
+    readout(P,s){const K=["A","B","C","D","E"];let tot={x:0,y:0},h="";const n=s.skip?4:5;
+      for(let i=0;i<n;i++){const v=sub(P[K[(i+1)%5]],P[K[i]]);tot=add(tot,v);h+=row(ar(K[i]+K[(i+1)%5]),vf(v))}
+      h+=row("<strong>total</strong>","<strong>"+vf(tot)+"</strong>");
+      return h+(s.skip?ok(true,"The four sides add up to "+ar("AE")+" = "+vf(sub(P.E,P.A))+", the direct route from A to E."):ok(isZero(tot),"The chain closes, so the total is the zero vector."))}},
+
+  l3:{label:"Subtraction as the arrow between two heads",axes:true,snap:0.5,
+    points:{A:{x:3,y:-1,c:"va"},B:{x:-1.5,y:2.5,c:"vb"}},
+    controls:[{id:"copy",type:"check",label:"Also draw b − a starting at O",value:false}],
+    draw(d,P,s){const v=sub(P.B,P.A);
+      if(s.copy)d.arrow(O0,v,{c:"vx",dash:true,label:"b − a",op:.8});
+      d.arrow(O0,P.A,{c:"va",label:"a",side:-1});d.arrow(O0,P.B,{c:"vb",label:"b"});
+      d.arrow(P.A,P.B,{c:"vx",w:3.5,label:"b − a"});d.dot(O0,{label:"O",dy:16})},
+    readout(P){const v=sub(P.B,P.A);return row(bv("a","ca")+" = "+ar("OA"),vf(P.A))+row(bv("b","cb")+" = "+ar("OB"),vf(P.B))+row(ar("AB")+" = "+bv("b − a","cx"),vf(v))+row(ar("BA")+" = "+bv("a − b"),vf(mul(v,-1)))+ok(true,"Head minus tail: "+vf(P.B)+" − "+vf(P.A)+" = "+vf(v))}},
+
+  l4:{label:"Scalar multiplication",axes:true,snap:0.5,
+    points:{A:{x:2,y:1,c:"va",label:""}},
+    controls:[{id:"lam",type:"range",label:"λ",min:-3,max:3,step:0.25,value:2}],
+    draw(d,P,s){const L=mul(P.A,s.lam);
+      d.seg(mul(unit(P.A),-20),mul(unit(P.A),20),{c:"muted",dash:true,op:.35});
+      d.arrow(O0,L,{c:"vs",w:7,op:.45,label:"λa",side:-1,loff:22});d.arrow(O0,P.A,{c:"va",label:"a"});d.dot(O0,{label:"O",dy:16})},
+    readout(P,s){const L=mul(P.A,s.lam);return row("λ",fmt(s.lam))+row(bv("a","ca"),vf(P.A))+row(bv("λa","cs"),vf(L))+row("|a|",fmt(len(P.A)))+row("|λa| = |λ|·|a|",fmt(Math.abs(s.lam))+" × "+fmt(len(P.A))+" = "+fmt(len(L)))+
+      ok(true,s.lam>0?"Same direction as a.":s.lam<0?"Opposite direction to a.":"λ = 0 gives the zero vector.")}},
+
+  l5:{label:"Section formula",snap:0.5,
+    points:{O:{x:-5,y:-3,c:"ink",label:"O"},A:{x:-3.5,y:2.5,c:"va"},B:{x:4.5,y:-0.5,c:"vb"}},
+    controls:[{id:"m",type:"range",label:"m (A side)",min:1,max:6,step:1,value:2},{id:"n",type:"range",label:"n (B side)",min:1,max:6,step:1,value:1}],
+    draw(d,P,s){const Pp=mul(add(mul(P.A,s.n),mul(P.B,s.m)),1/(s.m+s.n));
+      d.arrow(P.O,P.A,{c:"va",op:.55,w:2,label:"a",side:-1});d.arrow(P.O,P.B,{c:"vb",op:.55,w:2,label:"b"});d.arrow(P.O,Pp,{c:"vs",w:3,label:"p",side:-1});
+      d.seg(P.A,P.B,{c:"ink",w:2.2});d.dot(Pp,{c:"vs",r:6,label:"P",dy:-16});
+      d.text(mid(P.A,Pp),String(s.m),{c:"vx",dy:-16});d.text(mid(Pp,P.B),String(s.n),{c:"vx",dy:-16})},
+    readout(P,s){const a=sub(P.A,P.O),b=sub(P.B,P.O),p=mul(add(mul(a,s.n),mul(b,s.m)),1/(s.m+s.n)),Pp=add(P.O,p);
+      const ap=len(sub(Pp,P.A)),pb=len(sub(P.B,Pp));
+      return row("ratio AP : PB",`${s.m} : ${s.n}`)+row(bv("p")+" = ("+s.n+bv("a")+" + "+s.m+bv("b")+") / "+(s.m+s.n),vf(p))+row("AP",fmt(ap))+row("PB",fmt(pb))+
+      ok(pb>1e-6,"AP ÷ PB = "+fmt(ap/pb)+" = "+s.m+" ÷ "+s.n+". Move O: p changes, but P stays put.")}},
+
+  l6:{label:"Components along i and j",axes:true,snap:0.5,
+    points:{T:{x:3,y:2,c:"va",label:""}},
+    controls:[{id:"u",type:"check",label:"Show the unit vector â",value:false}],
+    draw(d,P,s){const T=P.T,F={x:T.x,y:0};
+      d.arrow(O0,F,{c:"vb",label:fmt(T.x)+"i",side:T.y>=0?-1:1});d.arrow(F,T,{c:"vx",label:fmt(T.y)+"j",side:T.x>=0?-1:1});
+      d.arrow(O0,T,{c:"va",w:3.5,label:"a"});
+      d.arrow(O0,{x:1,y:0},{c:"ink",w:4});d.arrow(O0,{x:0,y:1},{c:"ink",w:4});
+      d.text({x:0.5,y:0},"i",{dy:16});d.text({x:0,y:0.5},"j",{dx:-14});
+      if(s.u&&len(T)>0){d.circle(O0,1,{c:"muted",dash:true,op:.5});d.arrow(O0,unit(T),{c:"vs",w:4,label:"â",side:-1})}},
+    readout(P){const T=P.T,L=len(T);return row(bv("a","ca"),`${fmt(T.x)}${bv("i")} + ${fmt(T.y)}${bv("j")}`)+row("|a| = √(x² + y²)",`√(${fmt(T.x*T.x)} + ${fmt(T.y*T.y)}) = ${fmt(L)}`)+
+      (L>0?row("unit vector â = a / |a|",vf(mul(T,1/L))):row("unit vector","undefined for the zero vector"))}},
+
+  l7:{label:"Writing a point as x·a + y·b",axes:true,snap:0.5,
+    points:{A:{x:2,y:0.5,c:"va",label:""},B:{x:0.5,y:1.5,c:"vb",label:""},Q:{x:3,y:3.5,c:"vs",label:"P"}},
+    draw(d,P){const a=P.A,b=P.B,det=a.x*b.y-a.y*b.x;
+      if(Math.abs(det)>0.05){for(let k=-12;k<=12;k++){d.seg(add(mul(a,k),mul(b,-40)),add(mul(a,k),mul(b,40)),{c:"vb",w:1,op:.18});d.seg(add(mul(b,k),mul(a,-40)),add(mul(b,k),mul(a,40)),{c:"va",w:1,op:.18})}
+        const x=(P.Q.x*b.y-P.Q.y*b.x)/det,y=(a.x*P.Q.y-a.y*P.Q.x)/det,XA=mul(a,x);
+        d.arrow(O0,XA,{c:"va",w:2,op:.7,dash:true});d.arrow(XA,P.Q,{c:"vb",w:2,op:.7,dash:true})}
+      d.arrow(O0,P.Q,{c:"vs",w:3,label:"p",side:-1});d.arrow(O0,a,{c:"va",w:4,label:"a",side:-1});d.arrow(O0,b,{c:"vb",w:4,label:"b"});d.dot(O0,{label:"O",dy:16})},
+    readout(P){const a=P.A,b=P.B,det=a.x*b.y-a.y*b.x;
+      if(Math.abs(det)<0.05)return row(bv("a","ca"),vf(a))+row(bv("b","cb"),vf(b))+ok(false,"","a and b are parallel (or one is zero). Most points cannot be reached, and the answer is not unique. Move them apart.");
+      const x=(P.Q.x*b.y-P.Q.y*b.x)/det,y=(a.x*P.Q.y-a.y*P.Q.x)/det;
+      return row(bv("a","ca"),vf(a))+row(bv("b","cb"),vf(b))+row(bv("p","cs"),vf(P.Q))+row("unique answer",`${bv("p")} = ${fmt(x)} ${bv("a")} + ${fmt(y)} ${bv("b")}`)+ok(true,"Exactly one pair (x, y) works, because a and b are not parallel.")}},
+
+  l8:{label:"Dot product and projection",axes:true,snap:0.5,
+    points:{A:{x:3.5,y:1,c:"va",label:""},B:{x:1,y:3,c:"vb",label:""}},
+    draw(d,P){const a=P.A,b=P.B,la=len(a);if(la<1e-6||len(b)<1e-6){d.arrow(O0,a,{c:"va"});d.arrow(O0,b,{c:"vb"});return}
+      const pr=mul(a,dot(a,b)/(la*la));
+      d.seg(mul(unit(a),-20),mul(unit(a),20),{c:"muted",dash:true,op:.3});
+      d.seg(b,pr,{c:"vx",dash:true,w:1.6});d.seg(O0,pr,{c:"vx",w:7,op:.55});
+      const th=angDeg(a,b);if(Math.abs(th-90)<0.5)d.right(O0,a,b,{c:"vs"});else d.arc(O0,a,b,{c:"ink",r:.8,label:"θ"});
+      d.arrow(O0,a,{c:"va",label:"a",side:-1});d.arrow(O0,b,{c:"vb",label:"b"});d.dot(O0,{label:"O",dy:16})},
+    readout(P){const a=P.A,b=P.B,dp=dot(a,b),th=angDeg(a,b);
+      return row(bv("a","ca"),vf(a))+row(bv("b","cb"),vf(b))+row("a·b = x₁x₂ + y₁y₂",`${fmt(a.x)}×${fmt(b.x)} + ${fmt(a.y)}×${fmt(b.y)} = ${fmt(dp)}`)+
+        row("|a||b| cos θ",`${fmt(len(a))} × ${fmt(len(b))} × cos ${fmt(th)}° = ${fmt(len(a)*len(b)*Math.cos(th*Math.PI/180))}`)+
+        (Math.abs(dp)<0.01?ok(true,"a·b = 0, so a ⊥ b."):ok(false,"",dp>0?"Positive: the angle is less than 90°.":"Negative: the angle is more than 90°."))}},
+
+  t1:{label:"Medians of a triangle",
+    points:{A:{x:-1,y:3,c:"ink"},B:{x:-4.5,y:-2.5,c:"ink"},C:{x:3.5,y:-2,c:"ink"}},
+    controls:[{id:"chain",type:"check",label:"Arrange the medians tip to tail",value:true}],
+    draw(d,P,s){const Dm=mid(P.B,P.C),E=mid(P.C,P.A),F=mid(P.A,P.B);
+      d.poly([P.A,P.B,P.C],{c:"ink",op:.05,stroke:true});
+      d.arrow(P.A,Dm,{c:"va",label:"AD",vec:true});d.arrow(P.B,E,{c:"vb",label:"BE",vec:true,side:-1});d.arrow(P.C,F,{c:"vs",label:"CF",vec:true,side:-1});
+      [["D",Dm,0,22],["E",E,12,-12],["F",F,-26,-12]].forEach(([n,p,dx,dy])=>d.dot(p,{r:4,label:n,dx,dy}));
+      if(s.chain){const be=sub(E,P.B),cf=sub(F,P.C),Q=add(Dm,be);d.arrow(Dm,Q,{c:"vb",dash:true,w:2.4,op:.85});d.arrow(Q,add(Q,cf),{c:"vs",dash:true,w:2.4,op:.85})}},
+    readout(P){const ad=sub(mid(P.B,P.C),P.A),be=sub(mid(P.C,P.A),P.B),cf=sub(mid(P.A,P.B),P.C),t=add(add(ad,be),cf);
+      return row(ar("AD"),vf(ad))+row(ar("BE"),vf(be))+row(ar("CF"),vf(cf))+row("<strong>sum</strong>","<strong>"+vf(t)+"</strong>")+ok(isZero(t),"The dashed copies close the loop back at A, so the sum is "+bv("0")+".")}},
+
+  t2:{label:"Centroid of a triangle",
+    points:{A:{x:-0.5,y:3,c:"ink"},B:{x:-4.5,y:-2.5,c:"ink"},C:{x:4,y:-2,c:"ink"}},
+    draw(d,P){const Dm=mid(P.B,P.C),E=mid(P.C,P.A),F=mid(P.A,P.B),G=mul(add(add(P.A,P.B),P.C),1/3);
+      d.poly([P.A,P.B,P.C],{c:"ink",op:.05,stroke:true});
+      d.seg(P.A,Dm,{c:"va",w:2.2});d.seg(P.B,E,{c:"vb",w:2.2});d.seg(P.C,F,{c:"vx",w:2.2});
+      [["D",Dm,0,22],["E",E,12,-12],["F",F,-26,-12]].forEach(([n,p,dx,dy])=>d.dot(p,{r:4,label:n,dx,dy}));
+      d.text(mid(P.A,G),"2",{c:"va",dx:-14});d.text(mid(G,Dm),"1",{c:"va",dx:-14});
+      d.dot(G,{c:"vs",r:7,label:"G",dx:12,dy:18})},
+    readout(P){const Dm=mid(P.B,P.C),E=mid(P.C,P.A),G=mul(add(add(P.A,P.B),P.C),1/3);
+      const r1=len(sub(G,P.A))/len(sub(Dm,G)),r2=len(sub(G,P.B))/len(sub(E,G)),s=add(add(sub(P.A,G),sub(P.B,G)),sub(P.C,G));
+      return row("G = (a + b + c) / 3",vf(G))+row("AG ÷ GD",fmt(r1))+row("BG ÷ GE",fmt(r2))+row(ar("GA")+" + "+ar("GB")+" + "+ar("GC"),vf(s))+ok(Math.abs(r1-2)<0.01,"Every median is cut in the ratio 2 : 1 at G.")}},
+
+  t3:{label:"Midpoint theorem",
+    points:{A:{x:-1,y:3,c:"ink"},B:{x:-4.5,y:-2.5,c:"ink"},C:{x:4,y:-2.5,c:"ink"}},
+    draw(d,P){const E=mid(P.A,P.B),F=mid(P.A,P.C);
+      d.poly([P.A,P.B,P.C],{c:"ink",op:.05,stroke:true});
+      d.arrow(P.B,P.C,{c:"vb",label:"BC",vec:true,side:-1});d.arrow(E,F,{c:"vs",w:3.5,label:"EF",vec:true});
+      d.dot(E,{r:4,label:"E",dx:-26});d.dot(F,{r:4,label:"F"})},
+    readout(P){const E=mid(P.A,P.B),F=mid(P.A,P.C),ef=sub(F,E),bc=sub(P.C,P.B);
+      return row(ar("EF"),vf(ef))+row(ar("BC"),vf(bc))+row("½ "+ar("BC"),vf(mul(bc,.5)))+ok(isZero(sub(ef,mul(bc,.5))),ar("EF")+" = ½ "+ar("BC")+": parallel, and half the length.")}},
+
+  t4:{label:"Diagonals of a parallelogram",
+    points:{A:{x:-4,y:-2.5,c:"ink"},B:{x:2.5,y:-2.5,c:"ink"},D:{x:-2,y:2.5,c:"ink"}},
+    draw(d,P){const C=add(P.B,sub(P.D,P.A)),m1=mid(P.A,C),m2=mid(P.B,P.D);
+      d.poly([P.A,P.B,C,P.D],{c:"ink",op:.05,stroke:true});
+      d.seg(P.A,C,{c:"va",w:2.4});d.seg(P.B,P.D,{c:"vb",w:2.4});
+      d.dot(C,{label:"C",r:4});d.dot(m1,{c:"vx",r:9});d.dot(m2,{c:"vs",r:4.5})},
+    readout(P){const C=add(P.B,sub(P.D,P.A)),m1=mid(P.A,C),m2=mid(P.B,P.D);
+      return row("C = B + D − A",vf(C))+row("midpoint of AC: (a + c)/2",vf(m1))+row("midpoint of BD: (b + d)/2",vf(m2))+ok(isZero(sub(m1,m2)),"Same point, so the diagonals bisect each other.")}},
+
+  t5:{label:"Varignon parallelogram",
+    points:{A:{x:-4.5,y:-2,c:"ink"},B:{x:1,y:-3.2,c:"ink"},C:{x:4.5,y:1,c:"ink"},D:{x:-2,y:3,c:"ink"}},
+    draw(d,P){const p=mid(P.A,P.B),q=mid(P.B,P.C),r=mid(P.C,P.D),s=mid(P.D,P.A);
+      d.poly([P.A,P.B,P.C,P.D],{c:"ink",op:.04,stroke:true});d.seg(P.A,P.C,{c:"muted",dash:true,op:.6});
+      d.poly([p,q,r,s],{c:"vs",op:.15});
+      d.arrow(p,q,{c:"va",label:"PQ",vec:true});d.arrow(s,r,{c:"va",label:"SR",vec:true,side:-1});
+      d.seg(q,r,{c:"vb",w:2.4});d.seg(s,p,{c:"vb",w:2.4});
+      [["P",p],["Q",q],["R",r],["S",s]].forEach(([n,pt])=>d.dot(pt,{r:4,label:n}))},
+    readout(P){const p=mid(P.A,P.B),q=mid(P.B,P.C),r=mid(P.C,P.D),s=mid(P.D,P.A),pq=sub(q,p),sr=sub(r,s);
+      return row(ar("PQ"),vf(pq))+row(ar("SR"),vf(sr))+row("½ "+ar("AC"),vf(mul(sub(P.C,P.A),.5)))+ok(isZero(sub(pq,sr)),ar("PQ")+" = "+ar("SR")+", so PQRS is a parallelogram.")}},
+
+  t6:{label:"Midline of a trapezium",
+    points:{A:{x:-4.5,y:-2.5,c:"ink"},B:{x:4,y:-2.5,c:"ink"},D:{x:-2.5,y:2.5,c:"ink"},C:{x:1,y:2.5,c:"vx"}},
+    constrain(P){const u=unit(sub(P.B,P.A));let t=dot(sub(P.C,P.D),u);t=Math.max(t,0.4);P.C=add(P.D,mul(u,t))},
+    draw(d,P){const M=mid(P.A,P.D),N=mid(P.B,P.C),u=unit(sub(P.B,P.A));
+      d.seg(add(P.D,mul(u,-20)),add(P.D,mul(u,20)),{c:"vx",dash:true,op:.3});
+      d.poly([P.A,P.B,P.C,P.D],{c:"ink",op:.05,stroke:true});
+      d.arrow(P.A,P.B,{c:"va",label:"AB",vec:true,side:-1});d.arrow(P.D,P.C,{c:"vb",label:"DC",vec:true});
+      d.arrow(M,N,{c:"vs",w:3.5,label:"MN",vec:true});d.dot(M,{r:4,label:"M",dx:-28});d.dot(N,{r:4,label:"N"})},
+    readout(P){const M=mid(P.A,P.D),N=mid(P.B,P.C),ab=sub(P.B,P.A),dc=sub(P.C,P.D),mn=sub(N,M),h=mul(add(ab,dc),.5);
+      return row(ar("MN"),vf(mn))+row("½("+ar("AB")+" + "+ar("DC")+")",vf(h))+row("|MN|",fmt(len(mn)))+row("½(|AB| + |DC|)",fmt((len(ab)+len(dc))/2))+ok(isZero(sub(mn,h)),"MN is parallel to both and is their average length.")}},
+
+  t7:{label:"Rhombus diagonals",
+    points:{A:{x:-3.5,y:-2,c:"ink"},B:{x:0.5,y:-3,c:"ink"},D:{x:-1.5,y:1.5,c:"vx"}},
+    constrain(P){const r=len(sub(P.B,P.A));let v=sub(P.D,P.A);if(len(v)<0.1)v=rot(sub(P.B,P.A),1);P.D=add(P.A,mul(unit(v),r))},
+    draw(d,P){const C=add(P.B,sub(P.D,P.A)),r=len(sub(P.B,P.A));
+      d.circle(P.A,r,{c:"vx",dash:true,op:.3});
+      d.poly([P.A,P.B,C,P.D],{c:"ink",op:.05,stroke:true});
+      const X=mid(P.A,C);d.arrow(P.A,C,{c:"va",w:2.8,label:"AC",vec:true,lpos:.3});d.arrow(P.B,P.D,{c:"vb",w:2.8,label:"BD",vec:true,lpos:.3});
+      d.right(X,C,P.D,{c:"vs",s:.3});d.dot(C,{label:"C",r:4})},
+    readout(P){const C=add(P.B,sub(P.D,P.A)),ac=sub(C,P.A),bd=sub(P.D,P.B);
+      return row("|AB| , |AD|",fmt(len(sub(P.B,P.A)))+" , "+fmt(len(sub(P.D,P.A))))+row(ar("AC"),vf(ac))+row(ar("BD"),vf(bd))+row(ar("AC")+" · "+ar("BD"),fmt(dot(ac,bd)))+row("angle between diagonals",fmt(angDeg(ac,bd))+"°")+ok(Math.abs(dot(ac,bd))<0.02,"Dot product 0, so the diagonals are perpendicular.")}},
+
+  t8:{label:"Angle in a semicircle",
+    points:{A:{x:3,y:1,c:"ink"},Q:{x:-1,y:3,c:"vx",label:"P"}},
+    constrain(P){if(len(P.A)<0.8)P.A=mul(unit(P.A),0.8);if(len(P.A)>3.6)P.A=mul(unit(P.A),3.6);let v=P.Q;if(len(v)<0.1)v=rot(P.A,1.5);P.Q=mul(unit(v),len(P.A))},
+    draw(d,P){const B=mul(P.A,-1),r=len(P.A);
+      d.circle(O0,r,{c:"ink",op:.5});d.seg(P.A,B,{c:"ink",w:1.6,op:.6});d.dot(O0,{label:"O",r:4,dy:18});d.dot(B,{label:"B",r:4});
+      d.arrow(P.Q,P.A,{c:"va",label:"PA",vec:true});d.arrow(P.Q,B,{c:"vb",label:"PB",vec:true,side:-1});
+      if(len(sub(P.Q,P.A))>0.2&&len(sub(P.Q,B))>0.2)d.right(P.Q,P.A,B,{c:"vs",s:.32})},
+    readout(P){const B=mul(P.A,-1),pa=sub(P.A,P.Q),pb=sub(B,P.Q);
+      if(len(pa)<0.05||len(pb)<0.05)return ok(false,"","P is sitting on an end of the diameter. Drag it away.");
+      return row(ar("PA"),vf(pa))+row(ar("PB"),vf(pb))+row(ar("PA")+" · "+ar("PB"),fmt(dot(pa,pb)))+row("∠APB",fmt(angDeg(pa,pb))+"°")+ok(Math.abs(dot(pa,pb))<0.02,"Always a right angle, wherever P is on the circle.")}},
+
+  t9:{label:"Regular hexagon",
+    points:{A:{x:3,y:0,c:"ink"}},
+    constrain(P){const r=clamp(len(P.A),1.2,3.6);P.A=mul(unit(P.A),r)},
+    draw(d,P){const V=[0,1,2,3,4,5].map(k=>rot(P.A,k*Math.PI/3)),N="ABCDEF";
+      d.poly(V,{c:"ink",op:.05,stroke:true});d.dot(O0,{r:3.5,label:"O",dy:18});
+      const cs=["va","vb","vs","vb","va"];
+      for(let k=1;k<=5;k++)d.arrow(V[0],V[k],{c:k===3?"vs":cs[k-1],w:k===3?4:2.4,op:k===3?1:.85});
+      for(let k=1;k<6;k++){const out=mul(unit(V[k]),0.45);d.text(add(V[k],out),N[k],{})}},
+    readout(P){const V=[0,1,2,3,4,5].map(k=>rot(P.A,k*Math.PI/3));let s={x:0,y:0},c={x:0,y:0};
+      for(let k=1;k<=5;k++)s=add(s,sub(V[k],V[0]));V.forEach(v=>c=add(c,v));const ad3=mul(sub(V[3],V[0]),3);
+      return row(ar("AB")+" + "+ar("AC")+" + "+ar("AD")+" + "+ar("AE")+" + "+ar("AF"),vf(s))+row("3 "+ar("AD"),vf(ad3))+row(ar("OA")+" + "+ar("OB")+" + … + "+ar("OF"),vf(c))+ok(isZero(sub(s,ad3)),"The five arrows from A add up to 3 "+ar("AD")+".")}}
+};
+
+/* ---------- quizzes (first option is correct; shuffled on display) ---------- */
+const QUIZ={
+  l1:[{q:"ABCD is a parallelogram, lettered in order round the shape. Which vector equals "+ar("AB")+"?",o:[ar("DC"),ar("CD"),ar("BC"),ar("CA")],why:"Opposite sides of a parallelogram are parallel and equal, and D→C runs the same way as A→B. "+ar("CD")+" has the right length but the wrong direction."},
+      {q:"Two vectors are equal when they have…",o:["the same length and the same direction","the same starting point","the same length","the same line"],why:"Position is irrelevant. A vector is only a length plus a direction."}],
+  l2:[{q:ar("PQ")+" + "+ar("QR")+" + "+ar("RS")+" = ?",o:[ar("PS"),ar("SP"),ar("PR"),bv("0")],why:"Chain rule: inner letters Q, Q and R, R cancel, leaving the outer letters P…S."},
+      {q:"In any triangle ABC, "+ar("AB")+" + "+ar("BC")+" + "+ar("CA")+" = ?",o:[bv("0"),"2"+ar("AC"),ar("AC"),"It depends on the triangle"],why:"The chain goes A→B→C→A, back to the start. A closed chain adds up to the zero vector."}],
+  l3:[{q:ar("OA")+" = "+bv("a")+" and "+ar("OB")+" = "+bv("b")+". Then "+ar("AB")+" = ?",o:[bv("b − a"),bv("a − b"),bv("a + b"),"½("+bv("a + b")+")"],why:"Head minus tail. The arrow ends at B and starts at A."},
+      {q:ar("AB")+" + "+ar("BA")+" = ?",o:[bv("0"),"2"+ar("AB"),ar("AB"),"2"+ar("BA")],why:"Go from A to B and straight back: you have not moved. Also "+ar("BA")+" = −"+ar("AB")+"."}],
+  l4:[{q:"Compared with "+bv("a")+", the vector −2"+bv("a")+" is…",o:["twice as long, pointing the opposite way","half as long, same direction","the same length, opposite direction","perpendicular to "+bv("a")],why:"|−2| = 2 doubles the length, and the minus sign reverses the direction."},
+      {q:"If "+ar("AB")+" = 3 "+ar("AC")+", what can you conclude?",o:["A, B and C lie on one straight line","AB is perpendicular to AC","B and C are the same point","Nothing"],why:"The two vectors are parallel and share the point A, so all three points are on the same line. Also |AB| = 3|AC|."}],
+  l5:[{q:"P divides AB internally with AP : PB = 2 : 1. Then "+bv("p")+" = ?",o:["("+bv("a")+" + 2"+bv("b")+") / 3","(2"+bv("a")+" + "+bv("b")+") / 3","("+bv("a")+" + "+bv("b")+") / 2","(2"+bv("a")+" + "+bv("b")+") / 2"],why:"Section formula with m = 2, n = 1: (n"+bv("a")+" + m"+bv("b")+")/(m + n). P is closer to B, so "+bv("b")+" gets the bigger weight."},
+      {q:"M is the midpoint of AB. Which is correct?",o:[bv("m")+" = ("+bv("a")+" + "+bv("b")+") / 2",bv("m")+" = ("+bv("b")+" − "+bv("a")+") / 2",bv("m")+" = "+bv("a")+" + "+bv("b"),bv("m")+" = ("+bv("a")+" − "+bv("b")+") / 2"],why:"The midpoint is the average of the two ends. Note that ("+bv("b − a")+")/2 is "+ar("AM")+", the step from A to M, not the position of M."}],
+  l6:[{q:"|3"+bv("i")+" − 4"+bv("j")+"| = ?",o:["5","7","1","−1"],why:"√(3² + (−4)²) = √25 = 5. A length is never negative."},
+      {q:"The unit vector in the direction of 6"+bv("i")+" + 8"+bv("j")+" is…",o:["(3"+bv("i")+" + 4"+bv("j")+") / 5","6"+bv("i")+" + 8"+bv("j"),"(6"+bv("i")+" + 8"+bv("j")+") / 14",bv("i")+" + "+bv("j")],why:"Its length is √(36 + 64) = 10. Divide by 10: (6"+bv("i")+" + 8"+bv("j")+")/10 = (3"+bv("i")+" + 4"+bv("j")+")/5."}],
+  l7:[{q:bv("a")+" and "+bv("b")+" are not parallel, and 3"+bv("a")+" + y"+bv("b")+" = x"+bv("a")+" − 2"+bv("b")+". Then…",o:["x = 3, y = −2","x = −2, y = 3","x = y = 0","there is no solution"],why:"Compare coefficients of "+bv("a")+": 3 = x. Compare coefficients of "+bv("b")+": y = −2."},
+      {q:"Why must "+bv("a")+" and "+bv("b")+" be non-parallel before comparing coefficients?",o:["If "+bv("b")+" = λ"+bv("a")+", then λ"+bv("a")+" − "+bv("b")+" = "+bv("0")+" with non-zero coefficients, so the coefficients are not unique","Parallel vectors cannot be added","Their dot product would be zero","It does not matter"],why:"Parallel vectors give more than one way to write the same vector, so matching coefficients would be invalid."}],
+  l8:[{q:bv("a")+" = 2"+bv("i")+" + 3"+bv("j")+" and "+bv("b")+" = 3"+bv("i")+" − 2"+bv("j")+". What is "+bv("a · b")+"?",o:["0, so they are perpendicular","12","13","−5"],why:"2×3 + 3×(−2) = 6 − 6 = 0."},
+      {q:bv("a · a")+" is equal to…",o:["|"+bv("a")+"|²","0","1","2|"+bv("a")+"|"],why:"The angle between a vector and itself is 0 and cos 0 = 1, so "+bv("a · a")+" = |"+bv("a")+"||"+bv("a")+"|."}],
+  recipe:[{q:"“ABCD is a parallelogram” in position vectors is…",o:[bv("a")+" + "+bv("c")+" = "+bv("b")+" + "+bv("d"),bv("a")+" + "+bv("b")+" = "+bv("c")+" + "+bv("d"),bv("a")+" + "+bv("d")+" = "+bv("b")+" + "+bv("c"),bv("a")+" = "+bv("c")],why:ar("AB")+" = "+ar("DC")+" gives "+bv("b − a")+" = "+bv("c − d")+", i.e. "+bv("a + c = b + d")+". Opposite corners pair up."},
+      {q:"To find where two lines meet, the standard move is…",o:["Write the meeting point two ways and compare coefficients of two non-parallel vectors","Measure the diagram carefully","Take the dot product of the two lines","Assume the answer and check it"],why:"Each line gives one expression with an unknown parameter. Equating them and comparing coefficients gives two equations for the two unknowns."}]
+};
+
+/* ---------- progress (per-viewer convenience only) ---------- */
+let prog={q:{},t:{}};
+try{const s=localStorage.getItem("pv-progress");if(s)prog=Object.assign({q:{},t:{}},JSON.parse(s))}catch(e){}
+const save=()=>{try{localStorage.setItem("pv-progress",JSON.stringify(prog))}catch(e){}};
+const pages=[...document.querySelectorAll("section.page")];
+function isDone(sec){if(sec.dataset.quiz){const n=QUIZ[sec.dataset.quiz].length;for(let i=0;i<n;i++)if(!prog.q[sec.dataset.quiz+":"+i])return false;return true}
+  if(sec.dataset.thm)return !!prog.t[sec.dataset.thm];return false}
+const tracked=pages.filter(s=>s.dataset.quiz||s.dataset.thm);
+
+/* ---------- nav ---------- */
+const nav=document.getElementById("nav");let curGroup=null,groupEl=null;const links={};
+pages.forEach(s=>{if(s.dataset.group!==curGroup){curGroup=s.dataset.group;groupEl=document.createElement("div");groupEl.className="navgroup";groupEl.innerHTML=`<h4>${curGroup}</h4>`;nav.append(groupEl)}
+  const a=document.createElement("a");a.href="#"+s.id;a.innerHTML=`<span class="n">${s.dataset.num||"·"}</span><span>${s.dataset.nav}</span><span class="ck" aria-hidden="true">✓</span>`;groupEl.append(a);links[s.id]=a});
+function refreshProgress(){let d=0;tracked.forEach(s=>{const done=isDone(s);links[s.id].classList.toggle("done",done);if(done)d++});
+  document.getElementById("meterTxt").textContent=`${d} of ${tracked.length} complete`;document.getElementById("meterBar").style.width=(100*d/tracked.length)+"%"}
+
+/* pager */
+pages.forEach((s,i)=>{const pg=document.createElement("div");pg.className="pager";
+  if(i>0){const p=pages[i-1];pg.insertAdjacentHTML("beforeend",`<a class="prev" href="#${p.id}"><small>Previous</small>${p.dataset.nav}</a>`)}
+  if(i<pages.length-1){const n=pages[i+1];pg.insertAdjacentHTML("beforeend",`<a class="next" href="#${n.id}"><small>Next</small>${n.dataset.nav}</a>`)}
+  s.append(pg)});
+
+function show(){const id=(location.hash||"").slice(1);const target=pages.find(p=>p.id===id)||pages[0];
+  pages.forEach(p=>p.hidden=p!==target);Object.values(links).forEach(a=>a.classList.remove("on"));links[target.id].classList.add("on");
+  links[target.id].scrollIntoView({block:"nearest",inline:"nearest"});window.scrollTo(0,0)}
+window.addEventListener("hashchange",show);
+
+/* ---------- boards ---------- */
+document.querySelectorAll("[data-board]").forEach(h=>{const c=BOARDS[h.dataset.board];if(c)makeBoard(h,c)});
+
+/* ---------- quizzes ---------- */
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+document.querySelectorAll("div.quiz").forEach(host=>{const id=host.dataset.quiz;host.innerHTML=`<h3>Checkpoint</h3><p>Answer both to tick this page off. Wrong answers just grey out; try again.</p>`;
+  QUIZ[id].forEach((q,qi)=>{const box=document.createElement("div");box.className="qbox";box.innerHTML=`<p class="qq"><span class="qn">Q${qi+1}</span>${q.q}</p>`;
+    const list=document.createElement("div");list.className="qopts";const fb=document.createElement("div");fb.className="qfb";fb.setAttribute("aria-live","polite");
+    const key=id+":"+qi;
+    shuffle(q.o.map((t,i)=>({t,ok:i===0}))).forEach(op=>{const b=document.createElement("button");b.type="button";b.className="qopt";b.innerHTML=op.t;
+      const win=()=>{b.classList.add("right");box.dataset.done="1";fb.className="qfb right";fb.innerHTML="<strong>Correct.</strong> "+q.why};
+      if(op.ok&&prog.q[key])win();
+      b.addEventListener("click",()=>{if(box.dataset.done)return;
+        if(op.ok){win();prog.q[key]=true;save();refreshProgress()}
+        else{b.classList.add("wrong");b.disabled=true;fb.className="qfb wrong";fb.innerHTML="<strong>Not quite.</strong> Look again at the diagram and the key idea above, then try another option."}});
+      list.append(b)});
+    box.append(list,fb);host.append(box)})});
+
+/* ---------- step-by-step proofs ---------- */
+document.querySelectorAll("ol.proof:not(.static)").forEach(ol=>{const items=[...ol.children];let n=0;
+  const bar=document.createElement("div");bar.className="pbar";
+  const next=Object.assign(document.createElement("button"),{type:"button",className:"btn",textContent:"Show next step"});
+  const all=Object.assign(document.createElement("button"),{type:"button",className:"btn ghost",textContent:"Show all"});
+  const hide=Object.assign(document.createElement("button"),{type:"button",className:"btn ghost",textContent:"Hide steps"});
+  const cnt=document.createElement("span");cnt.className="pcount";
+  const upd=()=>{items.forEach((li,i)=>li.hidden=i>=n);cnt.textContent=`${n} of ${items.length} steps shown`;next.disabled=n>=items.length;all.disabled=n>=items.length;hide.disabled=n===0};
+  next.onclick=()=>{n++;upd()};all.onclick=()=>{n=items.length;upd()};hide.onclick=()=>{n=0;upd()};
+  bar.append(next,all,hide,cnt);ol.after(bar);upd()});
+
+/* ---------- theorem mastery toggles ---------- */
+pages.filter(s=>s.dataset.thm).forEach(s=>{const id=s.dataset.thm;const box=document.createElement("div");box.className="mastery";
+  const b=Object.assign(document.createElement("button"),{type:"button",className:"btn"});const p=document.createElement("p");
+  const upd=()=>{const on=!!prog.t[id];box.classList.toggle("on",on);b.textContent=on?"Marked as mastered":"I can write this proof myself";b.classList.toggle("ghost",on);
+    p.textContent=on?"Ticked off in the contents. Click again to unmark.":"Close the proof, write it on paper from memory, then mark it here."};
+  b.onclick=()=>{prog.t[id]=!prog.t[id];save();upd();refreshProgress()};box.append(p,b);s.querySelector(".pager").before(box);upd()});
+
+refreshProgress();show();
+})();
+</script>
