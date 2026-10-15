@@ -1,38 +1,51 @@
-# Stonehallow: a crowded medieval city around the oldest stones in the world
-
-*The crowned city that grew around the oldest stones in the world.*
+# Stonehallow: a sprawling medieval port-city that grew without a plan
 
 ![Master site plan](blueprints/01_master_site_plan.png)
 
-Stonehallow is a great walled medieval city, **2 km × 2 km** in real metres, packed with
-**4,437 buildings** and **3,400 named residents**. At its heart, untouched for four thousand years, stands
-**the Hallowstones**: a prehistoric henge with a ditch, a bank and about 150 standing stones. The
-medieval city has grown right up to its edge but never over it. Around it rise a giant concentric
-castle on a crag, a 120 m cathedral spire, a cloth hall with an 84 m belfry, an inhabited bridge
-lined with shops, great markets, royal gardens with a hedge maze, a wild woodland park inside the
-walls, and forests on the hills beyond.
+Stonehallow is a big, irregular medieval city on a **4 km × 4 km** map (16.8 km² in real metres),
+built for exploring. Nobody planned it, so nothing is a circle or a grid:
+
+- **Zig-zag walls** follow the hills and the river, and the castle closes the circuit on its crag.
+- **Lanes grow organically**: they wander, branch, dead-end and join like the roots of a tree.
+- **The geography is varied**: a river that splits around an island in the middle of the city, a rugged
+  coastline with a headland, a bay, a salt marsh, a sea fort on an island, hills, a lake and forests.
+- **Variety over volume**: almost 100 named places across 17 districts. Each has its own
+  character, and most streets lead somewhere worth going.
+- **Nine small prehistoric places** survive inside the medieval city: a burial mound in the
+  market, a menhir at a crossroads, a dolmen on the cathedral lawn, a tiny stone circle in the
+  pleasure gardens, and more. Each one is drawn at large scale on its own sheet.
 
 | | |
 |---|---|
-| ![3D overview](previews/3d_overview.jpg) | ![The Hallowstones](previews/3d_henge.jpg) |
-| ![Crownhold castle](previews/3d_castle.jpg) | ![Grand Market and the Old Bridge](previews/3d_market.jpg) |
-
-*Screenshots of the included 3D blockout model, which is built from the same data as the blueprints.*
+| ![3D overview](previews/3d_overview.jpg) | ![Old Town and the castle](previews/3d_oldtown.jpg) |
+| ![The harbour](previews/3d_harbour.jpg) | ![Southbank and the Great Auditorium](previews/3d_southbank.jpg) |
 
 ---
 
-## What's in the city
+## What's in the city (by district)
 
-| | |
+| District | What you'll find |
 |---|---|
-| **Prehistoric (preserved)** | The Hallowstones henge: a 420 m earthwork ring, ditch 7.5 m deep, bank 5 m high, the 88-stone Great Circle, the North Circle with **the Cove**, and the South Circle with **the Obelisk** · **the Serpent Avenue** (44 paired stones running 600 m to the river) · **the Giant's Barrow** (120 m chambered long barrow) · **the Druids' Row** stone row · **the Three Kings' Table** dolmen · **the Field of Mounds** (7 burial mounds) · **the Needle**, a 9 m menhir standing in the market · **the Crowning Stone** inside the castle |
-| **Giant castle** | **Crownhold**: two rings of curtain walls (18 m and 24 m high) with 24 towers, a twin-drum great gatehouse, a barbican, a 46 m keep (the Crown Tower), the Great Hall of the Kings, royal apartments, a chapel, a treasury, a mint, an armoury, barracks and stables. It sits on a 118 m crag with cliffs to the north |
-| **Monuments & architecture** | Stonehallow Minster (200 m long, 120 m spire, cloister, chapter house, Bishop's Palace) · the Cloth Hall & Belfry · the Great Guildhall · 8 guild halls · 13 parish churches · the King's Column (32 m, gilded statue) · statues and fountains · Whitecross Abbey · two friaries · the Hospital of St. Brigid · the Collegium of the Seven Stars (two colleges and a library) |
-| **Markets** | **The Grand Market** (260 × 120 m, 150 stalls, two fountains, the Needle) · Haymarket · Fish Market on King's Quay · Corn Market · a Cattle Fair and a Horse Fair outside the gates. There are 202 stalls in all |
-| **River life** | River Wend, 56 m wide · **the Old Bridge** (150 m, 19 arches, 28 shops and houses, and a chapel standing on it) · Mill Bridge with three corn mills · King's Quay with warehouses, cranes and sea-going cogs · two water gates closed by chains |
-| **Gardens & nature** | The Queen's Gardens (summer palace, parterres, lime avenues, ponds and a 60 m **hedge maze**) · **King's Park** (wild woodland inside the walls, with a mere and the Giant's Barrow) · the Minster green with yews · the Physic Garden · the Royal Forest across the Crownback Hills · Thornwood and Elderwood · 7,200 trees |
-| **The crowd** | 189 streets and lanes in a spider's web of ring roads and radial lanes. Terraced houses up to 5 storeys line every street, and the backs of the blocks are packed with tenements, workshops, stables and storehouses reached by narrow alleys. Every building has an ID, and most have a named resident and one of 51 trades |
-| **Defences** | A 5 km city wall, 12 m high, with 46 towers, 7 gatehouses, 2 water gates and a dry ditch |
+| **Crownhold & Castlegate** | The giant castle on its crag: two curtain walls (20 m and 26 m), 26 towers, a 50 m keep, the Great Hall of the Kings, royal apartments, mint, armoury, barracks, stables, **the Crowning Stone**. Below it are Muster Square, the Arsenal and the Armourers' Hall |
+| **Old Town** | The oldest, densest maze of lanes, inside a half-demolished first wall. **The Grand Market** with **Moot Hill** (a Bronze Age mound) in its corner, the Guildhall, the Town Hall and Belfry, the **Spice Bazaar** (a 160 m covered street), Wool Hall, Shambles Market, **the Kingstone** menhir and **your house**, the Sleeping Giant inn, a nunnery, a jail and court, the Goldsmiths' and Clockmakers' halls |
+| **King's Isle** | An island in the river: **Stonehallow Minster** (120 m spire), cloister, chapter house, Bishop's Palace, and **the Three Kings' Table** dolmen. The **Grand Bridge** crosses both arms of the river, and its north span is lined with shops |
+| **Palace Quarter** | **Palace of the Seven Gardens**: hedge maze, parterres, orchard, water-garden canal, lime walk, a **royal menagerie** and **the Giant's Grave** long barrow. Also nobles' townhouses, the Flower Market, and vineyards on the hill beyond the wall |
+| **Merchant Quarter** | Grain Exchange, four courtyard **merchant palaces**, the Money-changers' Hall, the Mercers' and Vintners' halls, Blackfriars |
+| **Harbour** | **King's Quay** with warehouses, treadwheel cranes and cogs, the Fish Market, Custom House, the 300 m **Ropewalk**, the Sailors' Chapel, a breakwater with **Harbour Light**, sea towers, and the Mermaid and Drowned Rat taverns |
+| **Shipwrights' & Tanners' Reach** | **The shipyard** (four ships on the slipways, a sail loft, naval arsenal and mast pond). Tanneries, **dye works in three colours**, brick kilns, a bell foundry, glassworks and a brewery |
+| **Southbank** | The round **Lantern Playhouse**, the **Bear Garden**, the **Night Market** under lanterns, two bathhouses, **Lantern Gardens** with **the Nine Sisters** stone circle, the Weavers' Hall, a debtors' prison and the Crooked Cup |
+| **South Ward** | **The Great Auditorium**, a stone amphitheatre for 8,000 people, plus the Cattle Market, almshouses, the Masons' Hall and the Golden Goose |
+| **Scholars' Hill** | Three colleges, the University Library, the **Hall of Disputations**, an **anatomy theatre**, an **observatory tower**, the Physic Garden, the Book Market, **the Druids' Row** stone row, the Hospital of St. Brigid, and the West Bridge with its mills |
+| **Westgate (military)** | **The Star Citadel** (a five-pointed bastioned fort guarding the river), the Drill Field and archery butts, Greyfriars, the Alchemist's Tower, and the Horse Fair outside the gate |
+| **Outside the walls** | **Camp of the Iron Host** (2,000 soldiers in tents, horse lines and a palisade), the Siege Yard with trebuchets, cavalry paddocks, **St. Bartholomew's Fair Field** (tents, pavilions, stages, a jousting tiltyard, archery, a maypole), the Field of Rest cemetery, Whitecross Abbey with beehives, the Leper House, **the Old Ring** Iron Age hillfort, Saltreed Marsh, salt pans, windmills, three farming hamlets and wide strip fields |
+| **North & coast** | Northgate suburb with the Haymarket, the Pilgrims' Hospice and **Brigid's Well & Stone**. Mirror Mere and Mere Abbey, the Royal Forest and the King's hunting lodge, hill windmills and charcoal burners. **Eastfold** fishing village (stilt huts, drying racks, boats), **Raven Head** cliffs with Raven Light and **the Sea Stones**, the **Gull Rock Sea Fort**, and **Lantern Point** smugglers' village and lighthouse |
+
+**Markets & fairs:** the Grand Market, Spice Bazaar, Wool Hall, Shambles, Grain Exchange, Fish
+Market, Flower Market, Night Market, Cattle Market, Book Market, Haymarket, Horse Fair and
+St. Bartholomew's Fair.
+
+**The ancient places** (sheet 5): Moot Hill · the Kingstone · the Three Kings' Table · the Giant's
+Grave · the Nine Sisters · the Druids' Row · the Old Ring · Brigid's Well & Stone · the Sea Stones.
 
 ---
 
@@ -40,55 +53,20 @@ walls, and forests on the hills beyond.
 
 | Folder / file | What it is |
 |---|---|
-| `blueprints/01_master_site_plan` (.svg/.png) | The whole city with contours, every building, 37 numbered landmarks, legend, story and statistics |
-| `blueprints/02_crownhold_castle` | The castle at large scale, every building numbered and sized |
-| `blueprints/03_hallowstones` | The prehistoric precinct, every stone drawn at true size, earthworks shown with hachures |
-| `blueprints/04_market_minster_bridges` | The Grand Market, the Minster close, the Old Bridge and Mill Bridge |
-| `model/stonehallow_blockout.glb` | **The whole city as one 3D file**: terrain, walls, monuments, all 4,437 buildings, bridges, ships, stones, stalls and trees |
-| `model/stonehallow_preview.glb` | A lighter version for quick looks and slower computers |
-| `terrain/heightmap_2049.png` / `.r16` / `heightmap_2017_unreal.png` | 16-bit heightmaps, 1 pixel = 1 metre, 0–256 m |
-| `terrain/masks/*.png` | 8 ground masks: grass, meadow, farmland, forest floor, rock, mud, dirt road, cobblestone |
-| `data/world.json`, `buildings.csv`, `trees.csv`, `landmarks.csv`, `CATALOG.md` | Every building, stone, stall, street, wall, tree and landmark, with positions in metres |
-| `viewer/index.html` | A small browser 3D viewer |
-| `build.py`, `src/` | The generator: rename things in `src/config.py` and rebuild |
+| `blueprints/01_master_site_plan` (.svg/.png) | The whole map with all 95 numbered places, legend, story and statistics |
+| `blueprints/02_castle_and_old_town` | Crownhold and the Old Town at large scale, every building numbered |
+| `blueprints/03_harbour_and_shipyard` | Quays, ropewalk, shipyard, Tanners' Reach and Lantern Gardens |
+| `blueprints/04_isle_southbank_westgate` | King's Isle, Southbank, the Auditorium, Scholars' Hill and the Citadel |
+| `blueprints/05_ancient_places` | Gazetteer: each prehistoric place drawn 200 m square |
+| `model/stonehallow_blockout.glb` | **The whole map in 3D**: terrain, sea, river, walls, every building, props and trees |
+| `model/stonehallow_preview.glb` | A lighter version for quick looks |
+| `terrain/heightmap_4097.png` / `.r16`, `heightmap_4033_unreal.png` | 16-bit heightmaps, 1 pixel = 1 metre, 0–256 m, **sea level 20 m** |
+| `terrain/masks/*.png` | 8 ground masks (grass, meadow, farmland, forest floor, rock, mud/sand, dirt road, cobblestone) |
+| `data/world.json`, `buildings.csv`, `trees.csv`, `landmarks.csv`, `CATALOG.md` | Every place, building, stone, stall, tent, street, wall, tree and landmark |
+| `viewer/index.html`, `build.py`, `src/` | Browser viewer and the generator |
 
-**How buildings are organised in the 3D file:** monuments and named buildings (castle buildings,
-churches, halls, colleges, gatehouses, towers, bridge houses) are **separate objects**, each named
-with its ID. The ~4,200 ordinary houses, tenements and workshops are **merged into one object per
-128 m grid square** (for example "East Ward - houses in square L8"), so the file stays fast to open.
-Every one of them is still listed individually in `data/buildings.csv` with its exact position,
-size, height, facing, resident and trade. That's what you use to replace them with real house
-models (see "Placing your own models" below).
-
----
-
-## The 5-minute start
-
-**Blender:** `File → Import → glTF 2.0` → `model/stonehallow_blockout.glb`. Open the Outliner. Under
-`Buildings` you'll find each district; under `Props & monuments` you'll find the henge stones,
-the market stalls, the Needle, the King's Column and more. Select any object and press `Numpad .`
-to fly to it. Monument and named buildings carry their catalogue data under
-*Object Properties → Custom Properties*.
-
-**Unreal / Unity / Godot:** see the engine steps below. The numbers are the same as for every
-heightmap in this repo.
-
----
-
-## How to read the blueprints
-
-- **Grid:** columns **A–P**, rows **1–16**; each square is **128 m**. The key gives each landmark's square.
-- **Contours** every 5 m on the master plan (bold every 25 m) and every 1 m on the detail sheets.
-  Lines close together mean steep ground.
-- **Hachures** (short ticks) show the prehistoric earthworks. Bold ticks are the henge ditch,
-  light ticks the bank. Mounds are dotted ovals with ticks round the edge.
-- **Black marks** in the henge and along the avenue are the standing stones. The detail sheet
-  draws them at true size.
-- **Rectangles** are buildings at their real footprint, with **hatching** for monuments and
-  public buildings. On the detail sheets a **dot** marks each front door and the number is the
-  building's ID.
-- **Positions:** metres from the north-west corner; **x** east, **y** south. The **heading** is
-  the compass direction a front door faces (0 = north, 90 = east).
+Monuments and named buildings are separate objects in the 3D file. Ordinary houses are merged per
+grid square so it stays fast; every house is still listed individually in `data/buildings.csv`.
 
 ---
 
@@ -96,123 +74,71 @@ heightmap in this repo.
 
 | Setting | Value |
 |---|---|
-| World | 2048 m × 2048 m |
-| Heightmap | `terrain/heightmap_2049.png`, 16-bit, 2049 × 2049, 1 m per pixel |
-| Height range | 0 m (black) to 256 m (white); the ground runs from about 64 m to 218 m |
-| Sanity check | **The Crown Tower** (keep) is at map x 1024, y 392, floor 117.7 m. **Your house**, the Wardenhouse, is at x 787, y 819 |
+| World | 4096 m × 4096 m |
+| Heightmap | `terrain/heightmap_4097.png`, 16-bit, 4097 × 4097, 1 m per pixel |
+| Heights | 0 m (black) to 256 m (white). **Put a water plane at 20 m for the sea** |
+| Sanity check | The **Crown Tower** (keep) stands at map x 1650, y 1115 on the 118 m crag. **Your house** is at x 1657, y 1658 |
 
-**Blender:** import the `.glb`. For a full-detail terrain instead: add a Grid (1024 subdivisions,
-size 2048), add Subdivision Surface (Simple, 1) and Displace (`heightmap_2049.png`, Non-Color,
-Strength 256, Midlevel 0, Coordinates UV).
+- **Blender:** `File → Import → glTF 2.0` → `model/stonehallow_blockout.glb`. The sea is included as a plane.
+- **Unreal Engine 5:** drag in the `.glb`. For a Landscape, import `heightmap_4033_unreal.png` at
+  **Location (0, 0, 12800)**, **Scale (101.59, 101.59, 50)**, then add a water plane at Z = 2000 cm.
+  Map `(x, y, z)` m → Unreal `(x·100, y·100, z·100)` cm.
+- **Unity:** add the **glTFast** package to import the `.glb`. For a Terrain: size 4096 × 256 × 4096,
+  heightmap resolution 4097, *Import Raw* `heightmap_4097.r16` (16-bit, Windows). **Check north:** the
+  castle should be near the far end (Z ≈ 2900); if it's at the near end, re-import with **Flip
+  Vertically**. Map → Unity `(x, z, 4096 − y)`, rotation Y = heading.
+- **Godot 4:** drag in the `.glb`. Map → Godot `(x, z, y)`, rotation.y = −heading (radians).
 
-**Unreal Engine 5:** drag the `.glb` into the Content Browser. For a Landscape: import
-`heightmap_2017_unreal.png` with **Location (0, 0, 12800)** and **Scale (101.59, 101.59, 50)**.
-Unreal's X = east and Y = south, the same as the map, so a data point `(x, y, z)` in metres
-goes to `(x·100, y·100, z·100)` cm. Create one landscape layer per mask in `terrain/masks/`.
+**Placing your own models:** build each model with its front door facing north at rotation 0 and its
+pivot at the centre of its floor, then use the `x, y, z, heading, w, d, h` columns of `buildings.csv`
+(Blender `(x, −y, z)` with Z = −heading; Unreal `(x·100, y·100, z·100)` with Yaw = heading).
 
-**Unity:** add the **glTFast** package (`com.unity.cloud.gltfast`) to import the `.glb`. For a
-Terrain: width/length 2048, height 256, resolution 2049, then *Import Raw*
-`heightmap_2049.r16` (16-bit, Windows byte order). **Check north:** Crownhold must be at the
-far end (Z ≈ 1630) and the Grand Market nearer (Z ≈ 850). If they're swapped, re-import with
-**Flip Vertically**. Map → Unity: `position = (x, z, 2048 − y)`, `rotation Y = heading`.
-
-**Godot 4:** drag the `.glb` into a scene (`position = (x, z, y)`, `rotation.y = −heading` in
-radians). For a terrain, use the Terrain3D add-on with a height scale of 256.
-
-### Placing your own models
-Make each model with its **front door facing north** at rotation 0 and its pivot at the
-**centre of its floor**. Then, for each row of `data/buildings.csv`:
-
-| Engine | Position | Rotation |
-|---|---|---|
-| Blender | `(x, −y, z)` | Z = −heading |
-| Unreal | `(x·100, y·100, z·100)` cm | Yaw = heading |
-| Unity | `(x, z, 2048 − y)` | Y = heading |
-| Godot / glTF | `(x, z, y)` | Y = −heading (radians) |
-
-Use `w` × `d` for the footprint, `h` for the wall height, `roof`/`roof_h` for the roof and
-`floors` for the storeys. Buildings standing on a bridge have their `z` set to the bridge deck.
-Standing stones are listed in `world.json → props` with their own width, depth, height and lean.
-Walls are lists of straight segments, ready for a spline or modular-wall tool.
+**Reading the blueprints:** columns A–P and rows 1–16 make **256 m squares**. Contours are every
+10 m on the master sheet and every 1 m on the detail sheets; lines close together mean steep ground.
+Hachured rings and ovals are prehistoric earthworks, and black marks are standing stones. Hatched
+rectangles are monuments and public buildings. A dot shows which way a front door faces.
 
 ---
 
 ## The story of Stonehallow
 
-> *Four thousand years before any king, people raised the Hallowstones.*
+Nobody planned Stonehallow. It began as a ferry where the River Wend splits around King's Isle,
+among standing stones and burial mounds far older than memory. Fishermen came for the estuary,
+monks for the island, a warlord for the crag. Each built where it suited them, and the lanes
+grew between them like roots. The old places were never cleared away. Moot Hill still rises in
+the Grand Market, the Kingstone still stands where two roads meet, and the Three Kings' Table
+sits on the Minster lawn.
 
-**The Builders.** Long before iron or writing, the people of the valley dug a ditch 7 m deep with
-antler picks and heaped the chalk into a great bank, a ring 420 m across. Inside it they raised a
-circle of 98 stones, and inside that two smaller circles: one around **the Cove**, three giant
-slabs where the dead were spoken to, and one around **the Obelisk**, whose shadow marks
-midsummer noon. A double row of stones, **the Serpent Avenue**, winds down to the river.
-They buried their chieftains in **the Giant's Barrow** and **the Field of Mounds**. Then they
-vanished. The stones stayed.
+Five hundred years on, the city spills over three walls and both riverbanks to the sea. Cogs
+unload at King's Quay, soldiers drill at the Star Citadel, scholars argue on the hill, crowds pack
+the Great Auditorium and the fair field, and the King looks down on all of it from Crownhold.
 
-**The Stone Peace.** People never stopped coming to the stones. Traders met at the henge gates,
-and a fair became a market, the market a town, the town a city. When the first king took the
-crag above, he knelt in the Cove and swore **the Stone Peace**: no one may break, move or build
-upon the old stones, on pain of death. Every king since has sworn it again, crowned on
-**the Crowning Stone**, a slab carried up from the henge to **Crownhold**.
-
-**The City.** Because no one could build on the stones, the city grew around them. The streets
-make a spider's web whose centre is the henge. **The Needle**, a menhir too big to move, was
-simply left standing, and **the Grand Market** grew up around it. Merchants seal their bargains by
-touching it. **Stonehallow Minster** was built facing the henge "so that the new faith may keep
-an eye on the old". Its bishops have never quite managed to forbid the midsummer dancing on the
-Hallow Green.
-
-**Today.** The city is rich and loud and crowded. Cogs from across the sea unload at **King's
-Quay**, and the Belfry rings the hours over the **Cloth Hall**. Shopkeepers lean out of their
-windows over the river on **the Old Bridge**. Scholars argue in the **Collegium of the Seven
-Stars**, the Queen gets lost in her own maze, and in the middle of it all sheep graze between
-silent stones that are older than every name in the city.
-
-**You** are **the Warden of the Stones**, keeper of the Stone Peace. Your house, the
-**Wardenhouse**, stands at the henge's west entrance. Kings answer to the Peace, and so the Peace
-answers to you.
-
----
-
-## A first walk & quest hooks
-
-**The Warden's round (about 5 km):**
-1. Start at the **Wardenhouse (11)** and walk through the west entrance of **the Hallowstones (7)**,
-   past **the Cove (8)** and **the Obelisk (9)**.
-2. Leave by the north causeway to **Crown Square** and **the King's Column (20)**, then climb to
-   **Crownhold (1)**: through **King's Gate (5)**, past **the Crowning Stone (4)** and up **the Crown Tower (2)**.
-3. Walk east to **the Queen's Gardens (29)** and find the middle of **the Maze (28)**.
-4. Go back round the Stone Ring and follow **the Serpent Avenue (10)** down to **King's Quay (26)** and
-   **the Fish Market (22)**.
-5. Take the **Grand Market (16)** (touch **the Needle (17)**), then cross **the Old Bridge (24)** to the
-   **Corn Market (23)** and **the Field of Mounds (15)**.
-6. Come back over **Mill Bridge (25)** to **Stonehallow Minster (27)** and **the Three Kings' Table (14)**,
-   then through **King's Park (30)** to **the Giant's Barrow (12)**, and home.
+You are **the Warden of the Stones**. Your house faces the Kingstone. The ancient places are yours
+to keep, and every one of them has a secret.
 
 **Quest hooks:**
-- **The Moved Stone.** At dawn, one stone of the Great Circle stands a hand's breadth from its socket. Who
-  dared break the Stone Peace, and how?
-- **The Bishop's Petition.** The Minster wants the midsummer dancing banned. The guilds want it to stay.
-- **The Needle's Debt.** A merchant swears he never touched the Needle to seal his deal. Witnesses disagree.
-- **Under the Barrow.** Builders in King's Park broke into a passage. The Giant's Barrow has a back door.
-- **The Sinking Bridge.** One of the Old Bridge's 19 piers is cracking under 28 houses.
-- **The Lost Princess.** The Queen's youngest went into the maze at noon and hasn't come out.
-- **Plague Ship.** A cog at King's Quay flies a yellow flag. The Hospital of St. Brigid has room for twelve.
-- **The Avenue's End.** The Serpent Avenue's last stone stands in the river at low water. What is it pointing at?
+- **The Moot Hill Summons.** Someone has called an assembly on the mound at midnight. Nobody admits to it.
+- **The Menagerie Breakout.** The palace lions are loose in the Merchant Quarter.
+- **Ropewalk Fire.** 300 m of hemp and tar, and someone wants it burned before the fleet sails.
+- **The Iron Host.** The army camp is restless; their pay is three months late and the Mint is next door.
+- **The Ninth Sister.** One stone of the Nine Sisters has been replaced by a fake. Where is the real one?
+- **The Druids' Row.** The astronomers say the row points somewhere other than the sunrise.
+- **Gull Rock.** The sea fort has stopped answering signals from Harbour Light.
+- **Fair Day.** St. Bartholomew's Fair opens tomorrow: 400 tents, a tournament and a dozen pickpockets.
+- **The Old Ring.** The hermit inside the hillfort has stopped coming down for bread.
+- **The Alchemist's Tower.** Green smoke, a missing apprentice, and a strange purchase of salt from the pans.
 
 ---
 
 ## Make it yours
 
-Every name lives in `src/config.py`, including the city, the castle, every monument, the markets, the
-river and **you** (`YOU`, `YOUR_HOUSE`). Change them, then:
+Every name lives in `src/config.py`, including the city, the castle, the palace, the river, the
+sea, the forests and **you**. The layout (where every district and site sits) is in
+`src/layout.py`, written in plain metres. To rebuild:
 
 ```bash
 pip install numpy pillow
-python3 build.py      # about a minute: rewrites blueprints, terrain, data and 3D models
+python3 build.py        # about 3 minutes
 ```
 
-`SEED` reshuffles houses, residents and trees. The layout itself (where the castle, henge, markets
-and gardens sit) is in `src/layout.py`, written in plain metres.
-
-Blueprint PNGs are rendered from the SVGs; open an `.svg` in a browser for a crisp, zoomable version.
+`SEED` reshuffles how the lanes grow, and with them the houses, residents and trees.

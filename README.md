@@ -41,11 +41,10 @@ A complete 2 km × 2 km medieval valley in real metres: a moated hilltop castle 
 
 ---
 
-# Stonehallow – a crowded medieval city around preserved prehistoric stones
+# Stonehallow – a sprawling medieval port-city that grew without a plan
 
 ![Stonehallow master site plan](medieval-city/blueprints/01_master_site_plan.png)
 
-A 2 km × 2 km walled medieval city of 4,437 buildings and 3,400 named residents, built around **the Hallowstones**, a 4,000-year-old henge with a ditch, a bank and about 150 standing stones that the city has preserved in its centre. It also has a giant concentric castle on a crag, a 120 m cathedral spire, a cloth hall and belfry, guildhalls, 13 parish churches, the Grand Market and four smaller markets, an inhabited bridge, quays with ships, royal gardens with a hedge maze, woodland inside the walls, and forests on the hills. A stone avenue, a long barrow, a dolmen, burial mounds and a menhir in the market complete the prehistoric heritage.
+A 4 km × 4 km map with an irregular, unplanned medieval city. Its zig-zag walls follow the land, organically grown lanes wander between sites, and a river splits around an island before reaching a rugged coast. There are 95 named places across 17 districts: a giant castle on a crag, a cathedral on the river island, 13 markets and fairs, an army camp and a star fort, an amphitheatre, a playhouse, a bear garden, a university, a shipyard, a ropewalk, dye works, a royal menagerie, a hedge maze, lighthouses, a sea fort, a salt marsh, forests and farmland. Nine small prehistoric places survive inside the medieval city: a mound in the market, a menhir at a crossroads, a dolmen, stone circles, a long barrow, a stone row, a holy well and a hillfort.
 
-**[Start here → `medieval-city/README.md`](medieval-city/README.md)**: blueprints, a 3D blockout (`.glb`), heightmaps, ground masks and full data, with steps for Blender, Unreal, Unity and Godot. Rebuild with `python3 medieval-city/build.py`.
-
+**[Start here → `medieval-city/README.md`](medieval-city/README.md)**: 5 blueprint sheets, a 3D blockout (`.glb`), 16-bit heightmaps, ground masks and full data, with steps for Blender, Unreal, Unity and Godot. Rebuild with `python3 medieval-city/build.py`.

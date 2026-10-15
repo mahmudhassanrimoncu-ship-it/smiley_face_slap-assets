@@ -12,6 +12,7 @@ import struct
 
 import numpy as np
 
+from config import SEA_LEVEL, WORLD_SIZE
 from geom import ellipse_pts, sample
 from surface import LAYER_COLORS, LAYERS
 
@@ -426,6 +427,38 @@ def prop_mesh(p):
                               for i in range(12)], -p["w"] / 2, p["w"] / 2)
     elif t == "vat":
         m.cyl("Wood", 0, 0, 1.0, 0, 1.0, 8)
+        dye = {"red": "Cloth (red)", "blue": "Cloth (blue)", "yellow": "Hay", "brown": "Roof shingle"}.get(p.get("color"))
+        if dye:
+            m.cyl(dye, 0, 0, 0.85, 0.9, 0.95, 8)
+    elif t == "tent":
+        cl = {"red": "Cloth (red)", "blue": "Cloth (blue)"}.get(p.get("color"), "Cloth (cream)")
+        w, d = p["w"], p["d"]
+        ref = (0, 0.6, 0)
+        m.quad(cl, (-w / 2, 0, -d / 2), (w / 2, 0, -d / 2), (w / 2, 2.6, 0), (-w / 2, 2.6, 0), ref)
+        m.quad(cl, (-w / 2, 0, d / 2), (w / 2, 0, d / 2), (w / 2, 2.6, 0), (-w / 2, 2.6, 0), ref)
+        m.tri(cl, (-w / 2, 0, -d / 2), (-w / 2, 0, d / 2), (-w / 2, 2.6, 0), ref)
+        m.tri(cl, (w / 2, 0, -d / 2), (w / 2, 0, d / 2), (w / 2, 2.6, 0), ref)
+    elif t == "lantern":
+        m.box("Wood", -0.08, 0.08, 0, 3.2, -0.08, 0.08)
+        m.box("Fire", -0.25, 0.25, 3.2, 3.7, -0.25, 0.25)
+    elif t == "target":
+        m.box("Hay", -0.9, 0.9, 0, 1.8, -0.4, 0.4)
+        m.box("Cloth (red)", -0.35, 0.35, 0.7, 1.4, -0.45, -0.4)
+    elif t == "trebuchet":
+        for sx in (-1, 1):
+            m.box("Wood", sx * 1.6 - 0.25, sx * 1.6 + 0.25, 0, 7, -0.25, 0.25)
+        m.box("Wood", -2.5, 2.5, 0, 0.6, -3, 3)
+        m.obox("Wood", 0, 0, 14, 0.5, 0.0, 6.5, 7.0)
+        m.box("Stone wall", 4, 6, 3.5, 6.0, -1, 1)
+    elif t == "drying_rack":
+        for sx in (-2, 2):
+            m.box("Wood", sx - 0.1, sx + 0.1, 0, 2.2, -0.1, 0.1)
+        m.box("Wood", -2.2, 2.2, 2.0, 2.2, -0.08, 0.08)
+        m.box("Hay", -2, 2, 1.1, 1.9, -0.05, 0.05)
+    elif t == "timber_stack":
+        m.box("Wood", -3, 3, 0, 1.4, -1.2, 1.2)
+    elif t == "beehive":
+        m.cone("Hay", 0, 0, 0.5, 0, 1.0, 8)
     elif t == "crane":
         m.box("Wood", -0.2, 0.2, 0, 8, -0.2, 0.2)
         m.box("Wood", -0.15, 6, 7.4, 7.7, -0.15, 0.15)
@@ -531,7 +564,7 @@ def terrain_mesh(H, weights, step):
     if idx[-1] != res - 1:
         idx = np.append(idx, res - 1)
     n = len(idx)
-    scale = 2048.0 / (res - 1)
+    scale = WORLD_SIZE / (res - 1)
     X, Z = np.meshgrid(idx * scale, idx * scale)
     Y = H[np.ix_(idx, idx)]
     pos = np.stack([X, Y, Z], -1).reshape(-1, 3).astype(np.float32)
@@ -574,7 +607,7 @@ def water_meshes(W):
             half = w["width"] / 2 + (1.5 if w["kind"] == "river" else 0.6)
             for i in range(len(line) - 1):
                 (x0, z0), (x1, z1) = line[i], line[i + 1]
-                if not (0 <= x0 <= 2048 and 0 <= x1 <= 2048 and 0 <= z0 <= 2048 and 0 <= z1 <= 2048):
+                if not (0 <= x0 <= WORLD_SIZE and 0 <= x1 <= WORLD_SIZE and 0 <= z0 <= WORLD_SIZE and 0 <= z1 <= WORLD_SIZE):
                     continue
                 yaw = math.atan2(z1 - z0, x1 - x0)
                 j = min(i + 2, len(line) - 1)
@@ -605,6 +638,11 @@ def water_meshes(W):
                 a, b = pts[k], pts[(k + 1) % 40]
                 m.tri("Water", (w["cx"], y, w["cy"]), (a[0], y, a[1]), (b[0], y, b[1]), (w["cx"], y - 5, w["cy"]))
         out.append((w, m))
+    # the sea: one plane at sea level across the map (hidden wherever land rises above it)
+    sea = MB()
+    y = SEA_LEVEL
+    sea.quad("Water", (0, y, 0), (WORLD_SIZE, y, 0), (WORLD_SIZE, y, WORLD_SIZE), (0, y, WORLD_SIZE), (0, y - 5, 0))
+    out.append((dict(name="The sea"), sea))
     return out
 
 
@@ -648,10 +686,10 @@ def wall_mesh(w):
     return m
 
 
-DISTRICT_NAMES = {"C": "Crownhold Castle", "T": "City wall & gates", "H": "The Hallowstones", "M": "Market quarter",
-                  "K": "Minster close", "N": "North Ward", "E": "East Ward", "W": "West Ward", "S": "Southbank",
-                  "R": "River, bridges & quays", "G": "Gardens & King's Park", "U": "University",
-                  "X": "Outside the walls"}
+DISTRICT_NAMES = {"C": "Crownhold & Castlegate", "O": "Old Town", "I": "King's Isle", "P": "Palace Quarter",
+                  "M": "Merchant Quarter", "H": "Harbour", "Y": "Shipwrights' Reach", "T": "Tanners' Reach",
+                  "S": "Southbank", "U": "Scholars' Hill", "W": "Westgate", "D": "South Ward", "N": "Northgate",
+                  "E": "Eastfold", "L": "Lantern Point", "R": "Bridges & mills", "X": "Outside the walls"}
 GENERIC = {"house", "shop", "workshop", "tenement", "stable", "storehouse"}
 
 
@@ -689,7 +727,7 @@ def export_glb(W, H, path, terrain_step=4, tree_stride=1, with_props=True, merge
     g = GLB()
     roots = []
     roots.append(g.node("Terrain", g.mesh("Terrain", _compact(terrain_mesh(H, W.weights, terrain_step))),
-                        extras=dict(note="Blockout terrain. For full detail use heightmap_2049.png (1 m per pixel).")))
+                        extras=dict(note="Blockout terrain. For full detail use the 16-bit heightmap in terrain/ (1 m per pixel).")))
     water_children = []
     for w, m in water_meshes(W):
         water_children.append(g.node(w["name"], g.mesh(w["name"], m.primitives())))
@@ -708,7 +746,7 @@ def export_glb(W, H, path, terrain_step=4, tree_stride=1, with_props=True, merge
     blocks = {}
     for b in W.buildings:
         if b["type"] in GENERIC or merge_all:
-            key = (DISTRICT_NAMES[b["district"]], f"{chr(65 + int(b['x'] // 128))}{int(b['y'] // 128) + 1}")
+            key = (DISTRICT_NAMES.get(b["district"], b["district"]), f"{chr(65 + int(b['x'] // (WORLD_SIZE // 16)))}{int(b['y'] // (WORLD_SIZE // 16)) + 1}")
             blocks.setdefault(key, []).append(_placed(building_mesh(b).primitives(), b["x"], b["y"], b["z"], b["heading"]))
             continue
         mesh = g.mesh(b["name"], building_mesh(b).primitives())
@@ -719,7 +757,7 @@ def export_glb(W, H, path, terrain_step=4, tree_stride=1, with_props=True, merge
         groups.setdefault(DISTRICT_NAMES[b["district"]], []).append(node)
     for (dist, cell), lists in sorted(blocks.items()):
         node = g.node(f"{dist} - houses in square {cell}", g.mesh(f"Houses {cell}", _merge(lists)),
-                      extras=dict(count=len(lists), note="Ordinary houses merged per 128 m grid square; "
+                      extras=dict(count=len(lists), note="Ordinary houses merged per grid square; "
                                   "each one is listed individually in data/buildings.csv"))
         groups.setdefault(dist, []).append(node)
     roots.append(g.node("Buildings", children=[g.node(k, children=v) for k, v in groups.items()]))

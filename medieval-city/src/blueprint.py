@@ -178,6 +178,8 @@ DEFS = f'''<defs>
 <pattern id="p-fallow" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="0.7" fill="{INK}" opacity="0.5"/><circle cx="7" cy="7" r="0.7" fill="{INK}" opacity="0.5"/></pattern>
 <pattern id="p-grazing" width="22" height="16" patternUnits="userSpaceOnUse"><path d="M4 7l1.5 3 1.5-3M14 14l1.5-3 1.5 3" fill="none" stroke="{INK}" stroke-width="0.7" opacity="0.6"/></pattern>
 <pattern id="p-herbs" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 0L6 6M6 0L0 6" stroke="{INK}" stroke-width="0.5" opacity="0.6"/></pattern>
+<pattern id="p-vines" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 3h6" stroke="{INK}" stroke-width="0.6" stroke-dasharray="1 1.5" opacity="0.7"/></pattern>
+<pattern id="p-saltpan" width="5" height="5" patternUnits="userSpaceOnUse"><rect width="5" height="5" fill="{WATER}"/><path d="M0 0L5 5" stroke="{INK}" stroke-width="0.4" opacity="0.5"/></pattern>
 <pattern id="p-croft" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="3.5" cy="3.5" r="0.6" fill="{INK}" opacity="0.4"/></pattern>
 <pattern id="hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="4" height="4" fill="{BG}"/><line x1="0" y1="0" x2="0" y2="4" stroke="{INK}" stroke-width="0.8" opacity="0.85"/></pattern>
 <pattern id="waves" width="16" height="8" patternUnits="userSpaceOnUse"><rect width="16" height="8" fill="{WATER}"/><path d="M1 5q2-3 4 0t4 0" fill="none" stroke="{INK}" stroke-width="0.6" opacity="0.5"/></pattern>
@@ -220,6 +222,11 @@ def draw_map(svg, W, H, v, contour_step=5, index_step=25, detail=False, label_id
                     if v.visible(x, y, -20):
                         svg.text(v.X(x), v.Y(y) + 3, f"{int(level)}", size=9, opacity=0.8)
 
+    # the sea, drawn over the sea-floor relief, islands cut out
+    if hasattr(W, "sea_poly"):
+        rings = "M" + v.P(W.sea_poly) + "Z" + "".join("M" + v.P(isl) + "Z" for isl in getattr(W, "islands", []))
+        svg.a(f'<path d="{rings}" fill="url(#waves)" fill-rule="evenodd" stroke="{INK}" stroke-width="1.6"/>')
+
     # fields, crofts, pastures
     for f in W.fields:
         if f["crop"] == "outline":
@@ -236,39 +243,6 @@ def draw_map(svg, W, H, v, contour_step=5, index_step=25, detail=False, label_id
     for x0, y0, x1, y1 in getattr(W, "churchyards", []):
         svg.a(f'<polygon points="{v.P([(x0, y0), (x1, y0), (x1, y1), (x0, y1)])}" fill="none" stroke="{INK}" '
               f'stroke-width="0.8" stroke-dasharray="4 3"/>')
-
-    # prehistoric earthworks, drawn with hachures (ticks point downhill)
-    for e in getattr(W, "earthworks", []):
-        if e["kind"] == "ring":
-            for r in (e["r0"], e["r1"]):
-                svg.a(f'<circle cx="{v.X(e["cx"]):.1f}" cy="{v.Y(e["cy"]):.1f}" r="{r * v.s:.1f}" fill="none" '
-                      f'stroke="{INK}" stroke-width="1" opacity="0.8"/>')
-            ticks = []
-            n = int(2 * math.pi * e["r1"] / (3.5 if v.s > 2 else 6))
-            for i in range(n):
-                t = 2 * math.pi * i / n
-                deg = math.degrees(t) % 360
-                if any(abs((deg - g + 180) % 360 - 180) * math.pi / 180 * e["r1"] < e["gap_w"] / 2 + 2 for g in e.get("gaps", [])):
-                    continue
-                mid = (e["r0"] + e["r1"]) / 2
-                a, b2 = (e["r0"], mid) if e["h"] < 0 else (mid, e["r1"])
-                if e["h"] > 0:
-                    a, b2 = e["r0"] + 2, e["r1"] - 2
-                x0, y0 = e["cx"] + a * math.cos(t), e["cy"] + a * math.sin(t)
-                x1, y1 = e["cx"] + b2 * math.cos(t), e["cy"] + b2 * math.sin(t)
-                ticks.append(f"M{v.X(x0):.1f},{v.Y(y0):.1f}L{v.X(x1):.1f},{v.Y(y1):.1f}")
-            svg.a(f'<path d="{"".join(ticks)}" stroke="{INK}" stroke-width="{0.9 if e["h"] < 0 else 0.6}" '
-                  f'opacity="{0.85 if e["h"] < 0 else 0.55}"/>')
-        else:
-            c = [(e["x"] + e["rx"] * math.cos(t) * math.cos(math.radians(e.get("heading", 0)))
-                  - e["ry"] * math.sin(t) * math.sin(math.radians(e.get("heading", 0))),
-                  e["y"] + e["rx"] * math.cos(t) * math.sin(math.radians(e.get("heading", 0)))
-                  + e["ry"] * math.sin(t) * math.cos(math.radians(e.get("heading", 0))))
-                 for t in np.linspace(0, 2 * math.pi, 40, endpoint=False)]
-            svg.a(f'<polygon points="{v.P(c)}" fill="url(#p-fallow)" stroke="{INK}" stroke-width="1.3"/>')
-            tk = "".join(f"M{v.X(x):.1f},{v.Y(y):.1f}L{v.X(x + (x - e['x']) * 0.18):.1f},{v.Y(y + (y - e['y']) * 0.18):.1f}"
-                         for x, y in c[::2])
-            svg.a(f'<path d="{tk}" stroke="{INK}" stroke-width="0.8"/>')
 
     # trees
     tree_out = []
@@ -327,6 +301,39 @@ def draw_map(svg, W, H, v, contour_step=5, index_step=25, detail=False, label_id
               f'fill="{BG}" stroke="{INK}" stroke-width="1.2"/>')
         svg.a(f'<rect x="{v.X(x0):.1f}" y="{v.Y(y0):.1f}" width="{(x1 - x0) * v.s:.1f}" height="{(y1 - y0) * v.s:.1f}" '
               f'fill="url(#cobble)"/>')
+
+    # prehistoric earthworks, drawn with hachures (ticks point downhill)
+    for e in getattr(W, "earthworks", []):
+        if e["kind"] == "ring":
+            for r in (e["r0"], e["r1"]):
+                svg.a(f'<circle cx="{v.X(e["cx"]):.1f}" cy="{v.Y(e["cy"]):.1f}" r="{r * v.s:.1f}" fill="none" '
+                      f'stroke="{INK}" stroke-width="1" opacity="0.8"/>')
+            ticks = []
+            n = int(2 * math.pi * e["r1"] / (3.5 if v.s > 2 else 6))
+            for i in range(n):
+                t = 2 * math.pi * i / n
+                deg = math.degrees(t) % 360
+                if any(abs((deg - g + 180) % 360 - 180) * math.pi / 180 * e["r1"] < e["gap_w"] / 2 + 2 for g in e.get("gaps", [])):
+                    continue
+                mid = (e["r0"] + e["r1"]) / 2
+                a, b2 = (e["r0"], mid) if e["h"] < 0 else (mid, e["r1"])
+                if e["h"] > 0:
+                    a, b2 = e["r0"] + 2, e["r1"] - 2
+                x0, y0 = e["cx"] + a * math.cos(t), e["cy"] + a * math.sin(t)
+                x1, y1 = e["cx"] + b2 * math.cos(t), e["cy"] + b2 * math.sin(t)
+                ticks.append(f"M{v.X(x0):.1f},{v.Y(y0):.1f}L{v.X(x1):.1f},{v.Y(y1):.1f}")
+            svg.a(f'<path d="{"".join(ticks)}" stroke="{INK}" stroke-width="{0.9 if e["h"] < 0 else 0.6}" '
+                  f'opacity="{0.85 if e["h"] < 0 else 0.55}"/>')
+        else:
+            c = [(e["x"] + e["rx"] * math.cos(t) * math.cos(math.radians(e.get("heading", 0)))
+                  - e["ry"] * math.sin(t) * math.sin(math.radians(e.get("heading", 0))),
+                  e["y"] + e["rx"] * math.cos(t) * math.sin(math.radians(e.get("heading", 0)))
+                  + e["ry"] * math.sin(t) * math.cos(math.radians(e.get("heading", 0))))
+                 for t in np.linspace(0, 2 * math.pi, 40, endpoint=False)]
+            svg.a(f'<polygon points="{v.P(c)}" fill="url(#p-fallow)" stroke="{INK}" stroke-width="1.3"/>')
+            tk = "".join(f"M{v.X(x):.1f},{v.Y(y):.1f}L{v.X(x + (x - e['x']) * 0.18):.1f},{v.Y(y + (y - e['y']) * 0.18):.1f}"
+                         for x, y in c[::2])
+            svg.a(f'<path d="{tk}" stroke="{INK}" stroke-width="0.8"/>')
 
     # bridges
     for br in W.bridges:
@@ -408,6 +415,14 @@ def draw_map(svg, W, H, v, contour_step=5, index_step=25, detail=False, label_id
         elif t == "ship":
             c = rect_corners(p["x"], p["y"], p["length"], p["w"], p["heading"])
             svg.a(f'<polygon points="{v.P(c)}" fill="{BG}" stroke="{INK}" stroke-width="1.2"/>')
+        elif t == "tent":
+            c = rect_corners(p["x"], p["y"], p["w"], p["d"], p["heading"])
+            svg.a(f'<polygon points="{v.P(c)}" fill="{BG}" stroke="{INK}" stroke-width="0.7"/>')
+        elif t == "lantern" and v.s > 1.5:
+            svg.a(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="1.6" fill="{INK}"/>')
+        elif t in ("target", "trebuchet", "beacon"):
+            svg.a(f'<path d="M{X - 4:.1f},{Y - 4:.1f}L{X + 4:.1f},{Y + 4:.1f}M{X + 4:.1f},{Y - 4:.1f}L{X - 4:.1f},{Y + 4:.1f}" '
+                  f'stroke="{INK}" stroke-width="1.3"/>')
         elif t == "pen":
             c = rect_corners(p["x"], p["y"], p["w"], p["d"], p["heading"])
             svg.a(f'<polygon points="{v.P(c)}" fill="none" stroke="{INK}" stroke-width="0.8" stroke-dasharray="2 2"/>')
@@ -432,7 +447,10 @@ def draw_map(svg, W, H, v, contour_step=5, index_step=25, detail=False, label_id
     svg.a("</g>")
 
 
-def frame_and_grid(svg, v, step=128, labels=True):
+GRID = WORLD_SIZE // 16
+
+
+def frame_and_grid(svg, v, step=GRID, labels=True):
     svg.a(f'<rect x="{v.px}" y="{v.py}" width="{v.w:.1f}" height="{v.h:.1f}" fill="none" stroke="{INK}" stroke-width="3"/>')
     svg.a(f'<rect x="{v.px - 9}" y="{v.py - 9}" width="{v.w + 18:.1f}" height="{v.h + 18:.1f}" fill="none" '
           f'stroke="{INK}" stroke-width="1"/>')
@@ -444,18 +462,18 @@ def frame_and_grid(svg, v, step=128, labels=True):
               f'stroke-dasharray="1 7" opacity="0.55"/>')
         svg.a(f'<line x1="{X:.1f}" y1="{v.py - 9}" x2="{X:.1f}" y2="{v.py}" stroke="{INK}"/>')
         svg.a(f'<line x1="{X:.1f}" y1="{v.py + v.h:.1f}" x2="{X:.1f}" y2="{v.py + v.h + 9:.1f}" stroke="{INK}"/>')
-        if labels and gx + step <= v.x1 + 0.1 and step == 128:
-            col = chr(65 + int(gx // 128))
+        if labels and gx + step <= v.x1 + 0.1 and step == GRID:
+            col = chr(65 + int(gx // GRID))
             svg.text(X + step * v.s / 2, v.py - 16, col, size=13, weight="bold", halo=False)
             svg.text(X + step * v.s / 2, v.py + v.h + 28, col, size=13, weight="bold", halo=False)
-        svg.text(X, v.py + v.h + 44 if step == 128 else v.py + v.h + 26, f"{int(gx)} m", size=9, halo=False, opacity=0.7)
+        svg.text(X, v.py + v.h + 44 if step == GRID else v.py + v.h + 26, f"{int(gx)} m", size=9, halo=False, opacity=0.7)
     for gy in np.arange(first_y, v.y1 + 0.1, step):
         Y = v.Y(gy)
         svg.a(f'<line x1="{v.px}" y1="{Y:.1f}" x2="{v.px + v.w:.1f}" y2="{Y:.1f}" stroke="{INK}" stroke-width="0.6" '
               f'stroke-dasharray="1 7" opacity="0.55"/>')
         svg.a(f'<line x1="{v.px - 9}" y1="{Y:.1f}" x2="{v.px}" y2="{Y:.1f}" stroke="{INK}"/>')
-        if labels and gy + step <= v.y1 + 0.1 and step == 128:
-            svg.text(v.px - 24, Y + step * v.s / 2 + 5, str(int(gy // 128) + 1), size=13, weight="bold", halo=False)
+        if labels and gy + step <= v.y1 + 0.1 and step == GRID:
+            svg.text(v.px - 24, Y + step * v.s / 2 + 5, str(int(gy // GRID) + 1), size=13, weight="bold", halo=False)
         svg.text(v.px - 14, Y + 3, f"{int(gy)}", size=9, anchor="end", halo=False, opacity=0.7)
 
 
@@ -500,7 +518,7 @@ def legend(svg, x, y, width):
     svg.text(x, y, "LEGEND", size=16, anchor="start", weight="bold", spacing=4, halo=False)
     svg.a(f'<line x1="{x}" y1="{y + 8}" x2="{x + width}" y2="{y + 8}" stroke="{INK}"/>')
     items = [
-        ("contour", "Contour, every 5 m (bold every 25 m)"), ("wall", "Castle / town wall"),
+        ("contour", "Contour: 10 m here, 1 m on detail sheets"), ("wall", "Castle / town wall"),
         ("tower", "Tower (round)"), ("bld", "Building, dot = front door"), ("bldh", "Hall, church, inn, shop"),
         ("road", "Road / street (cobbled dotted)"), ("track", "Field track"), ("path", "Footpath"),
         ("water", "River, moat, pond"), ("bridge", "Bridge"), ("croft", "Croft (cottage garden)"),
@@ -567,20 +585,16 @@ def wrap(text, width):
 
 
 def lore_text(num):
-    n = NAMES
-    g = lambda k: num.get(n[k], "")
-    return (f"Four thousand years before any king, people raised {n['henge']} ({g('henge')}): a ditch and bank "
-            f"420 m across and a hundred and fifty great stones, with {n['avenue']} winding down to the "
-            f"{n['river']}. They buried their dead in {n['long_barrow']} and {n['barrows']}. The builders vanished, "
-            f"but the stones stayed, and people never stopped coming to them.\n"
-            f"A market grew at the henge gates, then a town, then a city. When the first king took the crag he "
-            f"swore the Stone Peace: no one may break, move or build upon the old stones, on pain of death. So the "
-            f"city grew around them instead. {n['castle']} rose on the crag, {n['cathedral']} on the west, the "
-            f"{n['market']} to the south, and {n['needle']}, too big to move, was left standing in the middle "
-            f"of the market. Kings are still crowned on a stone carried up from the henge.\n"
-            f"Now {n['river']} is crowded with cogs, the streets with carts and pilgrims, and the old stones stand "
-            f"silent in the heart of it all. You are {YOU}, keeper of the Stone Peace. Every house on these sheets "
-            f"has a family. Guard the stones, and the city will guard you.")
+    return (f"Nobody planned {REALM}. It began as a ferry where the {NAMES['river']} splits around {NAMES['island']}, "
+            f"among standing stones and burial mounds far older than memory. Fishermen came for the estuary, monks "
+            f"for the island, a warlord for the crag; each built where it suited them, and the lanes grew between "
+            f"like roots. The old places were never cleared away: the Moot Hill still rises in the Grand Market, the "
+            f"Kingstone still stands where two roads meet, and the Three Kings' Table sits on the Minster lawn.\n"
+            f"Five hundred years on, the city spills over three walls and two riverbanks to the sea. Cogs unload at "
+            f"King's Quay, soldiers drill at the Star Citadel, scholars argue on the hill, crowds pack the Great "
+            f"Auditorium and the fair field, and the King looks down on all of it from {NAMES['castle']}.\n"
+            f"You are {YOU}. Your house faces the Kingstone. The ancient places are yours to keep - and every one "
+            f"of them has a secret.")
 
 
 LM_OFFSETS = {}  # landmark number -> (dx, dy) in px, filled by build if needed
@@ -590,7 +604,7 @@ def main_sheet(W, H):
     svg = SVG(3560, 2580, f"{REALM} - master site plan")
     svg.a(f'<rect width="3560" height="2580" fill="{BG}"/><rect width="3560" height="2580" fill="url(#g100)"/>')
     v = View(0, 0, WORLD_SIZE, WORLD_SIZE, 70, 90, 2400 / WORLD_SIZE)
-    draw_map(svg, W, H, v)
+    draw_map(svg, W, H, v, contour_step=10, index_step=50)
     # labels
     for lb in W.labels:
         size = lb["size"]
@@ -611,8 +625,8 @@ def main_sheet(W, H):
         dx, dy = LM_OFFSETS.get(lm["n"], (20, -20))
         svg.a(f'<line x1="{X:.1f}" y1="{Y:.1f}" x2="{X + dx:.1f}" y2="{Y + dy:.1f}" stroke="{INK}" stroke-width="1" '
               f'stroke-dasharray="3 2"/><circle cx="{X:.1f}" cy="{Y:.1f}" r="2.2" fill="{INK}"/>')
-        svg.a(f'<circle cx="{X + dx:.1f}" cy="{Y + dy:.1f}" r="12" fill="{BG}" stroke="{INK}" stroke-width="1.5"/>')
-        svg.text(X + dx, Y + dy + 4.5, str(lm["n"]), size=12, weight="bold", halo=False)
+        svg.a(f'<circle cx="{X + dx:.1f}" cy="{Y + dy:.1f}" r="10" fill="{BG}" stroke="{INK}" stroke-width="1.3"/>')
+        svg.text(X + dx, Y + dy + 3.8, str(lm["n"]), size=10, weight="bold", halo=False)
     frame_and_grid(svg, v)
 
     # ---- side panel
@@ -620,16 +634,16 @@ def main_sheet(W, H):
     cx = (x0 + x1) / 2
     svg.a(f'<rect x="{x0}" y="40" width="{x1 - x0}" height="2500" fill="{BG}" stroke="{INK}" stroke-width="3"/>')
     svg.a(f'<rect x="{x0 + 12}" y="52" width="{x1 - x0 - 24}" height="200" fill="none" stroke="{INK}"/>')
-    svg.text(cx, 95, "MASTER SITE PLAN  ·  SHEET 1 OF 4", size=13, spacing=6, halo=False, opacity=0.85)
+    svg.text(cx, 95, "MASTER SITE PLAN  ·  SHEET 1 OF 5", size=13, spacing=6, halo=False, opacity=0.85)
     svg.text(cx, 150, REALM.upper(), size=50, weight="bold", spacing=6, font=SERIF, halo=False)
     svg.a(f'<line x1="{x0 + 80}" y1="172" x2="{x1 - 80}" y2="172" stroke="{INK}"/>')
     svg.text(cx, 200, REALM_TAGLINE, size=15, italic=True, font=SERIF, halo=False)
-    svg.text(cx, 228, f"Surveyed for {YOU} - a living world of 2 km x 2 km, ready to build in 3D", size=12,
+    svg.text(cx, 228, f"Surveyed for {YOU} - a living world of {WORLD_SIZE / 1000:.1f} km x {WORLD_SIZE / 1000:.1f} km, ready to build in 3D", size=12,
              italic=True, halo=False, opacity=0.9)
     compass(svg, x0 + 110, 360)
     how = ["HOW TO READ THIS MAP",
-           "• 1 grid square = 128 m (A-P across, 1-16 down)",
-           "• Thin lines join ground of equal height (5 m)",
+           f"• 1 grid square = {GRID} m (A-P across, 1-16 down)",
+           "• Thin lines join ground of equal height (10 m)",
            "  - lines close together = steep slope",
            "• Every 1 px of the heightmap = 1 metre",
            "• Heights: 0 m black ... 256 m white",
@@ -644,18 +658,22 @@ def main_sheet(W, H):
     svg.text(x0 + 24, ky, "KEY TO LANDMARKS", size=16, anchor="start", weight="bold", spacing=4, halo=False)
     svg.a(f'<line x1="{x0 + 24}" y1="{ky + 8}" x2="{x1 - 24}" y2="{ky + 8}" stroke="{INK}"/>')
     n = len(W.landmarks)
-    half = (n + 1) // 2
+    ncol = 3 if n > 44 else 2
+    per = (n + ncol - 1) // ncol
+    colw = (x1 - x0 - 48) / ncol
+    rowh = 19 if ncol == 3 else 25
     for i, lm in enumerate(W.landmarks):
-        col, row = divmod(i, half)
-        sx = x0 + 34 + col * 460
-        sy = ky + 34 + row * 25
-        gx = chr(65 + int(lm["x"] // 128)) + str(int(lm["y"] // 128) + 1)
-        svg.a(f'<circle cx="{sx}" cy="{sy - 4}" r="10" fill="none" stroke="{INK}"/>')
-        svg.text(sx, sy, str(lm["n"]), size=10, weight="bold", halo=False)
-        name = lm["name"] if len(lm["name"]) < 34 else lm["name"][:32] + "…"
-        svg.text(sx + 18, sy, name, size=12, anchor="start", halo=False)
-        svg.text(sx + 420, sy, gx, size=11, anchor="end", halo=False, opacity=0.75)
-    sy = ky + 34 + half * 25 + 20
+        col, row = divmod(i, per)
+        sx = x0 + 34 + col * colw
+        sy = ky + 32 + row * rowh
+        gx = chr(65 + int(lm["x"] // GRID)) + str(int(lm["y"] // GRID) + 1)
+        svg.a(f'<circle cx="{sx:.1f}" cy="{sy - 4}" r="9" fill="none" stroke="{INK}"/>')
+        svg.text(sx, sy, str(lm["n"]), size=9, weight="bold", halo=False)
+        lim = 30 if ncol == 3 else 34
+        name = lm["name"] if len(lm["name"]) <= lim else lm["name"][:lim - 1] + "…"
+        svg.text(sx + 15, sy, name, size=11, anchor="start", halo=False)
+        svg.text(sx + colw - 14, sy, gx, size=10, anchor="end", halo=False, opacity=0.75)
+    sy = ky + 32 + per * rowh + 20
     scale_bar(svg, x0 + 30, sy, v, 500, 5)
     sy += 80
     svg.text(x0 + 24, sy, f"THE STORY OF {REALM.upper()}", size=16, anchor="start", weight="bold", spacing=4, halo=False)
@@ -680,8 +698,8 @@ def main_sheet(W, H):
         svg.text(sx, yy, big, size=22, anchor="start", weight="bold", font=SERIF, halo=False)
         svg.text(sx + 130, yy - 2, small, size=13, anchor="start", halo=False)
     title_block(svg, x0 + 12, 2528 - 6 * 34, x1 - 12, 2528, [
-        ("REALM", REALM), ("SURVEYED FOR", YOU), ("EXTENT", "2 048 m x 2 048 m  ·  elevation 0-256 m"),
-        ("DATUM", "origin = NW corner · x east · y south"), ("DWG NO.", "SH-001  ·  REV A"), ("SHEET", "1 of 4")])
+        ("REALM", REALM), ("SURVEYED FOR", YOU), ("EXTENT", f"{WORLD_SIZE:,} m x {WORLD_SIZE:,} m  ·  sea level 20 m".replace(",", " ")),
+        ("DATUM", "origin = NW corner · x east · y south"), ("DWG NO.", "SH-001  ·  REV A"), ("SHEET", "1 of 5")])
     return svg.done()
 
 
@@ -698,7 +716,7 @@ def detail_sheet(W, H, sheet_no, title, region, buildings_filter, notes, extra=N
     frame_and_grid(svg, v, step=20 if x1r - x0r < 500 else 40, labels=False)
     px0, px1 = 2460, 3500
     svg.a(f'<rect x="{px0}" y="40" width="{px1 - px0}" height="{Hsvg - 80}" fill="{BG}" stroke="{INK}" stroke-width="3"/>')
-    svg.text((px0 + px1) / 2, 100, f"DETAIL SHEET {sheet_no} OF 4", size=13, spacing=6, halo=False, opacity=0.85)
+    svg.text((px0 + px1) / 2, 100, f"DETAIL SHEET {sheet_no} OF 5", size=13, spacing=6, halo=False, opacity=0.85)
     svg.text((px0 + px1) / 2, 150, title.upper(), size=40, weight="bold", spacing=4, font=SERIF, halo=False)
     svg.a(f'<line x1="{px0 + 60}" y1="170" x2="{px1 - 60}" y2="170" stroke="{INK}"/>')
     for i, ln in enumerate(notes):
@@ -729,51 +747,77 @@ def detail_sheet(W, H, sheet_no, title, region, buildings_filter, notes, extra=N
     return svg.done()
 
 
+CIVIC = {"cathedral", "keep", "hall", "palace", "chapel", "church", "guildhall", "belfry", "exchange", "bazaar",
+         "gatehouse", "college", "library", "auditorium", "amphitheatre", "theatre", "arsenal", "barracks", "mint",
+         "customs", "ropewalk", "institution", "inn", "manor_house", "market_hall", "mansion", "foundry", "brewery",
+         "glassworks", "watermill", "bathhouse", "sail_loft", "magazine", "stables", "armoury", "chapter_house"}
+
+
+def _region_filter(region):
+    x0, y0, x1, y1 = region
+    return lambda b: b["type"] in CIVIC and x0 < b["x"] < x1 and y0 < b["y"] < y1 and "range" not in b["name"] \
+        and "tier" not in b["name"] and "drum" not in b["name"]
+
+
 def castle_sheet(W, H):
-    cx, cy = 1024, 420
-    return detail_sheet(W, H, 2, NAMES["castle"], (cx - 235, cy - 195, cx + 235, cy + 215),
-                        lambda b: b["district"] == "C" and "turret" not in b["name"] and "Outer Tower" not in b["name"]
-                        and "wall tower" not in b["name"],
-                        ["Numbers on the plan = building ID (C-####).",
-                         "W x D = footprint in metres; WALL = wall height",
-                         "above the highest ground under the building.",
-                         "Contours every 1 m (bold every 5 m).",
-                         "Crag plateau at 118 m, cliffs to the north.",
-                         "Outer curtain 18 m high, 5 m thick, 13 towers;",
-                         "inner curtain 24 m with 7 towers. Keep 46 m."])
+    region = (1380, 890, 2300, 1780)
+    return detail_sheet(W, H, 2, "Crownhold & the Old Town", region, _region_filter(region),
+                        ["The giant castle on its crag and the oldest, densest",
+                         "part of the city below it. Contours every 1 m.",
+                         "Numbers on the plan = building ID. Front-door dots",
+                         "show which way each building faces.",
+                         "Prehistoric places here: Moot Hill (in the Grand",
+                         "Market), the Kingstone (by your house)."])
 
 
 def henge_sheet(W, H):
-    hx, hy = 1024, 905
-    from collections import Counter
-    groups = Counter(p.get("group", p.get("name", p["type"])) for p in W.props
-                     if p["type"] in ("standing_stone", "menhir"))
-    stones = [f"{n:>3} stones - {g}" for g, n in groups.most_common()]
-    return detail_sheet(W, H, 3, NAMES["henge"], (hx - 280, hy - 255, hx + 480, hy + 425),
-                        lambda b: b["district"] in ("H",) or b["type"] in ("cloth_hall", "belfry"),
-                        ["The prehistoric precinct, protected by the Stone Peace.",
-                         "Bank (dotted hachures) 30 m wide, 5 m high; ditch",
-                         "(bold hachures) 28 m wide, 7.5 m deep. Four",
-                         "causeway entrances: N, E, S, W.",
-                         "Great Circle radius 140 m; North Circle with The",
-                         "Cove; South Circle with The Obelisk; The Serpent",
-                         "Avenue runs 600 m south-east to the river.",
-                         "Black marks = stones drawn at true size."],
-                        extra=("THE STONES", stones), ncols=2)
+    region = (2150, 1600, 3260, 2480)
+    return detail_sheet(W, H, 3, "Harbour, Shipyard & Tanners", region, _region_filter(region),
+                        ["The working waterfront: King's Quay, the Ropewalk,",
+                         "the Fish Market, the breakwater and Harbour Light,",
+                         "the shipyard's four slipways, the Tanners' Reach",
+                         "dye vats and kilns, and the Lantern Gardens with",
+                         "the Nine Sisters stone circle."])
 
 
 def centre_sheet(W, H):
-    civic = {"cathedral", "cloth_hall", "belfry", "guildhall", "chapter_house", "palace", "cloister", "chapel",
-             "watermill", "church"}
-    return detail_sheet(W, H, 4, "Market, Minster & Bridges", (540, 950, 1300, 1600),
-                        lambda b: b["type"] in civic and 540 < b["x"] < 1300 and 950 < b["y"] < 1600,
-                        ["The commercial and religious heart of the city.",
-                         "The Grand Market is 260 x 120 m with 150 stalls.",
-                         "The Old Bridge: 150 m, 19 arches, 28 houses and",
-                         "a chapel standing on it. Mill Bridge carries",
-                         "three corn mills. Every building is numbered;",
-                         "residents and trades are in buildings.csv."],
-                        extra=("TRADES NEAR THE MARKET", _trades(W, "M")))
+    region = (840, 1350, 2150, 2620)
+    return detail_sheet(W, H, 4, "King's Isle, Southbank & Westgate", region, _region_filter(region),
+                        ["The Minster on King's Isle, the Grand Bridge, the",
+                         "Southbank's playhouse, bear garden and night market,",
+                         "the Great Auditorium, Scholars' Hill university,",
+                         "the Star Citadel and the camp outside the walls."],
+                        extra=("TRADES OF THE SOUTHBANK", _trades(W, "S")))
+
+
+def gazetteer_sheet(W, H):
+    """Small preserved prehistoric places, each drawn at large scale."""
+    places = W.prehistoric
+    Wsvg, Hsvg = 3560, 2580
+    svg = SVG(Wsvg, Hsvg, f"{REALM} - the ancient places")
+    svg.a(f'<rect width="{Wsvg}" height="{Hsvg}" fill="{BG}"/><rect width="{Wsvg}" height="{Hsvg}" fill="url(#g100)"/>')
+    svg.text(Wsvg / 2, 80, "SHEET 5 OF 5  ·  GAZETTEER OF THE ANCIENT PLACES", size=14, spacing=6, halo=False, opacity=0.85)
+    svg.text(Wsvg / 2, 135, "THE OLD STONES OF " + REALM.upper(), size=44, weight="bold", spacing=5, font=SERIF, halo=False)
+    svg.text(Wsvg / 2, 170, "Small prehistoric places the medieval city kept: each drawn 200 m square, north up, "
+             "stones black, earthworks hatched.", size=14, italic=True, font=SERIF, halo=False)
+    cols, cell, gap = 5, 600, 70
+    x_start = (Wsvg - cols * cell - (cols - 1) * gap) / 2
+    for i, pl in enumerate(places[:10]):
+        col, row = i % cols, i // cols
+        px, py = x_start + col * (cell + gap), 260 + row * (cell + 330)
+        half = 100 if pl["name"] != "The Old Ring" else 190
+        v = View(pl["x"] - half, pl["y"] - half, pl["x"] + half, pl["y"] + half, px, py, cell / (2 * half))
+        draw_map(svg, W, H, v, contour_step=1, index_step=5, detail=True, shade_res=400)
+        svg.a(f'<rect x="{px}" y="{py}" width="{cell}" height="{cell}" fill="none" stroke="{INK}" stroke-width="2"/>')
+        svg.text(px, py + cell + 40, f"{i + 1}. {pl['name']}", size=22, anchor="start", weight="bold", font=SERIF, halo=False)
+        gx = chr(65 + int(pl["x"] // GRID)) + str(int(pl["y"] // GRID) + 1)
+        svg.text(px + cell, py + cell + 40, f"square {gx}", size=13, anchor="end", halo=False, opacity=0.8)
+        for k, ln in enumerate(wrap(pl["desc"], 62)):
+            svg.text(px, py + cell + 72 + k * 22, ln, size=15, anchor="start", italic=True, font=SERIF, halo=False)
+        sb = 50 if half <= 100 else 100
+        svg.a(f'<rect x="{px + 16}" y="{py + cell - 24}" width="{sb * v.s:.1f}" height="7" fill="{INK}"/>')
+        svg.text(px + 16, py + cell - 32, f"{sb} m", size=12, anchor="start", halo=True)
+    return svg.done()
 
 
 def _trades(W, district):

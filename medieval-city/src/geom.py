@@ -1,8 +1,8 @@
 """Geometry, noise and raster helpers shared by every stage of the build.
 
 Coordinate convention used everywhere ("map coordinates"):
-    x = metres east of the west edge   (0 .. 2048)
-    y = metres south of the north edge (0 .. 2048)  -> same as reading an image
+    x = metres east of the west edge   (0 .. WORLD_SIZE)
+    y = metres south of the north edge (0 .. WORLD_SIZE)  -> same as reading an image
 A building's `heading` is the compass direction its front door faces
 (0 = north, 90 = east, clockwise), which is also its rotation in degrees.
 """
@@ -10,6 +10,8 @@ import math
 
 import numpy as np
 from PIL import Image
+
+from config import WORLD_SIZE
 
 
 # ------------------------------------------------------------------ curves
@@ -155,7 +157,7 @@ def fbm(res, seed, octaves=6, base=3, persistence=0.5):
     return (out - out.min()) / (out.max() - out.min())
 
 
-def sample(grid, x, y, size=2048.0):
+def sample(grid, x, y, size=float(WORLD_SIZE)):
     """Bilinear sample of a square grid covering 0..size metres."""
     res = grid.shape[0]
     fx = np.clip(np.asarray(x, dtype=np.float64) / size * (res - 1), 0, res - 1.001)

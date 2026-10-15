@@ -22,8 +22,8 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-from blueprint import castle_sheet, centre_sheet, henge_sheet, main_sheet  # noqa: E402
-from config import HEIGHT_RANGE, REALM, WORLD_SIZE  # noqa: E402
+from blueprint import castle_sheet, centre_sheet, gazetteer_sheet, henge_sheet, main_sheet  # noqa: E402
+from config import HEIGHT_RANGE, REALM, SEA_LEVEL, WORLD_SIZE  # noqa: E402
 from export3d import export_glb  # noqa: E402
 from layout import build_layout  # noqa: E402
 from surface import (LAYERS, attach_heights, build_masks, find_bridges, place_trees,  # noqa: E402
@@ -48,9 +48,10 @@ def to_u16(H):
     return np.round(np.clip(H / HEIGHT_RANGE, 0, 1) * 65535).astype(np.uint16)
 
 
-DISTRICTS = {"C": "Crownhold Castle", "H": "The Hallowstones", "M": "Market quarter", "K": "Minster close",
-             "N": "North Ward", "E": "East Ward", "W": "West Ward", "S": "Southbank", "R": "River, bridges & quays",
-             "G": "Gardens & King's Park", "U": "University", "T": "City wall & gates", "X": "Outside the walls"}
+DISTRICTS = {"C": "Crownhold & Castlegate", "O": "Old Town", "I": "King's Isle", "P": "Palace Quarter",
+             "M": "Merchant Quarter", "H": "Harbour", "Y": "Shipwrights' Reach", "T": "Tanners' Reach",
+             "S": "Southbank", "U": "Scholars' Hill", "W": "Westgate", "D": "South Ward", "N": "Northgate",
+             "E": "Eastfold", "L": "Lantern Point", "R": "Bridges & mills", "X": "Outside the walls"}
 
 
 def write_catalog(W):
@@ -91,22 +92,28 @@ def main():
     attach_heights(W, H)
     river = [w for w in W.waters if w["kind"] == "river"][0]
     for p in W.props:
-        if p["type"] == "ship":
+        if p["type"] == "ship" and not p.get("slip"):
             j = int(np.argmin(np.hypot(river["line"][:, 0] - p["x"], river["line"][:, 1] - p["y"])))
             p["top"] = float(river["levels"][j])
+        if p["type"] == "boat":
+            lake = [w for w in W.waters if w["kind"] == "lake"][0]
+            near_lake = math.hypot(p["x"] - lake["cx"], p["y"] - lake["cy"]) < 400
+            p["top"] = lake["level"] if near_lake else SEA_LEVEL
     log(f"trees: {len(W.trees)}, bridges: {len(W.bridges)}")
 
     # ---------------------------------------------------------------- terrain files
     u16 = to_u16(H)
-    Image.fromarray(u16).save(out("terrain", "heightmap_2049.png"))
-    u16.astype("<u2").tofile(out("terrain", "heightmap_2049.r16"))
-    H17 = np.asarray(Image.fromarray(H, mode="F").resize((2017, 2017), Image.BICUBIC))
-    Image.fromarray(to_u16(H17)).save(out("terrain", "heightmap_2017_unreal.png"))
+    N = WORLD_SIZE + 1
+    UE = {2049: 2017, 4097: 4033}.get(N, N)
+    Image.fromarray(u16).save(out("terrain", f"heightmap_{N}.png"))
+    u16.astype("<u2").tofile(out("terrain", f"heightmap_{N}.r16"))
+    H17 = np.asarray(Image.fromarray(H, mode="F").resize((UE, UE), Image.BICUBIC))
+    Image.fromarray(to_u16(H17)).save(out("terrain", f"heightmap_{UE}_unreal.png"))
     Image.fromarray((np.clip(H / HEIGHT_RANGE, 0, 1) * 255).astype(np.uint8)).save(out("terrain", "heightmap_preview_8bit.png"))
     for k in LAYERS:
         Image.fromarray((np.clip(weights[k], 0, 1) * 255).astype(np.uint8)).save(out("terrain", "masks", f"{k}.png"))
     rgb = preview_image(weights, H)
-    water = np.zeros(H.shape, bool)
+    water = H < SEA_LEVEL
     for w in W.waters:  # paint water on the colour preview so it reads like a map
         if "level" in w:
             k = (H.shape[0] - 1) / WORLD_SIZE
@@ -136,7 +143,8 @@ def main():
                          z="metres above the heightmap's zero (black)", heading="compass direction the front door "
                          "faces: 0 north, 90 east, 180 south, 270 west"),
         size_m=WORLD_SIZE,
-        heightmap=dict(file="terrain/heightmap_2049.png", resolution=2049, metres_per_pixel=WORLD_SIZE / 2048,
+        sea_level_m=SEA_LEVEL,
+        heightmap=dict(file=f"terrain/heightmap_{WORLD_SIZE + 1}.png", resolution=WORLD_SIZE + 1, metres_per_pixel=1.0,
                        height_range_m=HEIGHT_RANGE, encoding="16-bit: value / 65535 * 256 = metres"),
         ground_layers=LAYERS,
         landmarks=W.landmarks,
@@ -174,15 +182,16 @@ def main():
     log("data written")
 
     # ---------------------------------------------------------------- 3D
-    export_glb(W, H, out("model", "stonehallow_blockout.glb"), terrain_step=4)
-    export_glb(W, H, out("model", "stonehallow_preview.glb"), terrain_step=8, tree_stride=3, merge_all=True, lite=True)
+    export_glb(W, H, out("model", "stonehallow_blockout.glb"), terrain_step=8)
+    export_glb(W, H, out("model", "stonehallow_preview.glb"), terrain_step=16, tree_stride=4, merge_all=True, lite=True)
     log("3D models written")
 
     # ---------------------------------------------------------------- blueprints
     out("blueprints", "01_master_site_plan.svg").write_text(main_sheet(W, H))
-    out("blueprints", "02_crownhold_castle.svg").write_text(castle_sheet(W, H))
-    out("blueprints", "03_hallowstones.svg").write_text(henge_sheet(W, H))
-    out("blueprints", "04_market_minster_bridges.svg").write_text(centre_sheet(W, H))
+    out("blueprints", "02_castle_and_old_town.svg").write_text(castle_sheet(W, H))
+    out("blueprints", "03_harbour_and_shipyard.svg").write_text(henge_sheet(W, H))
+    out("blueprints", "04_isle_southbank_westgate.svg").write_text(centre_sheet(W, H))
+    out("blueprints", "05_ancient_places.svg").write_text(gazetteer_sheet(W, H))
     log("blueprints written")
     W.H = H
     return W

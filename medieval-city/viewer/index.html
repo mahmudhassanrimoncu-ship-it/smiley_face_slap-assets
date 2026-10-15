@@ -62,25 +62,26 @@ document.body.appendChild(renderer.domElement);
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0xb9cfe2);
-scene.fog = new THREE.Fog(0xb9cfe2, 2200, 6500);
+scene.fog = new THREE.Fog(0xb9cfe2, 3500, 9000);
 scene.add(new THREE.HemisphereLight(0xdfeeff, 0x4a5a32, 1.25));
 const sun = new THREE.DirectionalLight(0xfff1d6, 2.2);
 sun.position.set(-900, 1400, -600);
 scene.add(sun);
 
-const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 1, 9000);
+const camera = new THREE.PerspectiveCamera(45, innerWidth / innerHeight, 1, 14000);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.maxPolarAngle = Math.PI * 0.49;
 controls.minDistance = 20;
-controls.maxDistance = 3500;
+controls.maxDistance = 6500;
 
 const views = {
-  overview: { target: [1024, 90, 1080], cam: [1024 + 700, 1300, 1080 + 1700] },
-  castle: { target: [1024, 118, 420], cam: [1024 + 300, 330, 420 + 420] },
-  henge: { target: [1024, 75, 905], cam: [1024 + 330, 330, 905 + 420] },
-  market: { target: [1024, 70, 1220], cam: [1024 + 260, 220, 1220 + 330] },
-  city: { target: [1100, 75, 1000], cam: [1100 - 200, 420, 1000 + 900] },
+  overview: { target: [2000, 60, 1900], cam: [2000 + 900, 1900, 1900 + 2600] },
+  castle: { target: [1650, 110, 1200], cam: [1650 + 420, 420, 1200 + 600] },
+  oldtown: { target: [1880, 70, 1600], cam: [1880 + 380, 300, 1600 + 520] },
+  harbour: { target: [2750, 30, 2050], cam: [2750 + 420, 330, 2050 + 600] },
+  southbank: { target: [1800, 50, 2250], cam: [1800 + 450, 360, 2250 + 600] },
+  camp: { target: [900, 70, 2250], cam: [900 + 380, 330, 2250 + 520] },
 };
 let anim = null;
 function fly(target, cam, ms = 1400) {
@@ -124,7 +125,7 @@ const onModel = (gltf) => {
     b.onclick = () => { places.querySelectorAll('button').forEach(x => x.classList.remove('on')); b.classList.add('on'); fn(); };
     places.appendChild(b);
   };
-  add('Whole vale', () => { info.style.display = 'none'; fly(views.overview.target, views.overview.cam, 1800); });
+  add('Whole city', () => { info.style.display = 'none'; fly(views.overview.target, views.overview.cam, 1800); });
   for (const m of marks) {
     const p = new THREE.Vector3(); m.getWorldPosition(p);
     const name = m.userData.label;

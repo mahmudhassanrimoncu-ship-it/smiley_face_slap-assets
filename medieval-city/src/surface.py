@@ -86,6 +86,10 @@ def build_masks(W, H):
             d.polygon(_px(w["line"]), fill=255)
             d.line(_px(list(w["line"]) + [w["line"][0]]), fill=255, width=int(6 * K))
     masks["mud"] = _arr(img, 2)
+    if hasattr(W, "sea_mask"):                                  # sea floor and beaches
+        from geom import blur as _blur
+        shore = _blur(W.sea_mask.astype(np.float32), 8)
+        masks["mud"] = np.maximum(masks["mud"], np.clip(shore * 3, 0, 1))
 
     img, d = _canvas()
     img2, d2 = _canvas()
@@ -142,8 +146,8 @@ def preview_image(weights, H):
 def place_trees(W, H):
     rng = np.random.default_rng(SEED)
     occ_img, d = _canvas()
-    cx, cy, rx, ry = W.city_ellipse
-    d.ellipse([(cx - rx * 1.06) * K, (cy - ry * 1.06) * K, (cx + rx * 1.06) * K, (cy + ry * 1.06) * K], fill=255)
+    for poly in W.built_polys:
+        d.polygon(_px(poly), fill=255)
     for poly in W.green_polys:
         d.polygon(_px(poly), fill=0)
     for r in W.roads:
@@ -169,7 +173,7 @@ def place_trees(W, H):
         d.polygon(_px(o["poly"]), fill=255)
     for p in W.props:
         d.ellipse([(p["x"] - 6) * K, (p["y"] - 6) * K, (p["x"] + 6) * K, (p["y"] + 6) * K], fill=255)
-    occ = np.asarray(occ_img) > 0
+    occ = (np.asarray(occ_img) > 0) | getattr(W, "sea_mask", False)
     slope = W.slope
     clumps = fbm(FINAL, SEED + 11, octaves=5, base=12)
     trees = []
@@ -272,7 +276,7 @@ def attach_heights(W, H):
             deck = next(br["deck_z"] for br in W.bridges if br["name"] == b["on_bridge"])
             b["z"] = b["ground_max"] = round(deck, 2)
     for p in W.props:
-        p["z"] = round(float(sample(H, p["x"], p["y"])), 2)
+        p["z"] = round(float(sample(H, p["x"], p["y"])) + p.get("lift", 0), 2)
         if p.get("on_bridge"):
             br = next(br for br in W.bridges if br["name"] == p["on_bridge"])
             p["z"] = round(br["water_z"] + 1.5, 2)

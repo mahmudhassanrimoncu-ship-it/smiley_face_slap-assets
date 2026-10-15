@@ -1,38 +1,96 @@
 n,name,x,y,desc
-1,Crownhold,1024.0,420.0,"A giant concentric castle on the crag: two rings of walls, 24 towers, 46 m keep."
-2,The Crown Tower,1024.0,392.0,"The 46 m great keep, seven storeys, seat of the Crown."
-3,Great Hall of the Kings,958.0,398.0,Where the court feasts and the king hears petitions.
-4,The Crowning Stone,1024.0,505.0,A prehistoric stone carried up from the henge: every monarch is crowned on it.
-5,King's Gate,1024.0,548.0,Great gatehouse with twin 30 m drum towers and a walled barbican.
-6,City wall & seven gates,194.0,1070.0,"46 towers, seven gatehouses and two water gates where the River Wend passes under chains."
-7,The Hallowstones,1024.0,905.0,"A 420 m henge, 4,000 years older than the city: ditch, bank and 150 standing stones."
-8,The Cove,1024.0,850.0,Three giant stones at the heart of the North Circle; oaths are sworn here.
-9,The Obelisk,1024.0,963.0,"The tallest stone of the South Circle, the city's midsummer sundial."
-10,The Serpent Avenue,1400,1040,Two rows of stones winding 600 m from the henge to the river.
-11,Wardenhouse - YOUR HOUSE,787.1974595619511,818.8109238819316,"Home of The Warden of the Stones, keeper of the ancient stones. Start here."
-12,The Giant's Barrow,470,770,"A 120 m chambered long barrow, the tomb of the 'giant' the city's tales remember."
-13,The Druids' Row,630,780,Thirteen stones in a dead-straight line pointing at the midwinter sunrise.
-14,The Three Kings' Table,620,985,A portal tomb on the Minster lawn; three kings' bones are said to lie beneath.
-15,The Field of Mounds,1200.0,1680.0,Seven Bronze Age burial mounds kept as a public meadow.
-16,The Grand Market,1024,1195,"A 260 x 120 m square with 150 stalls, fountains and the Needle at its heart."
-17,The Needle,1024,1195,A 9 m prehistoric menhir left standing in the market: deals are sealed by touching it.
-18,The Cloth Hall & Belfry,1188,1195,"Vast cloth market with an 84 m belfry, the tallest tower in the city."
-19,The Great Guildhall,860,1195,Seat of the city council and the twelve great guilds.
-20,The King's Column,1024,645,"A 32 m column topped by the first king, facing the stones he swore to protect."
-21,Haymarket,720,663,Carters and hay wains from the northern farms.
-22,Fish Market,1290,1283,Fresh catch straight off the boats at King's Quay.
-23,Corn Market,1024,1530,"Grain market on the south bank, by the Old Bridge."
-24,The Old Bridge,1024,1352,A 150 m stone bridge of 19 arches carrying 28 shops and houses and a chapel.
-25,Mill Bridge,801.2212862383988,1343.2913851878673,Seven arches with three corn mills hung off its side.
-26,King's Quay,1400,1290,"Warehouses, treadwheel cranes and sea-going cogs on the River Wend."
-27,Stonehallow Minster,705,1040,"Gothic cathedral 200 m long; its spire reaches 120 m, the tallest thing in the realm."
-28,The Queen's Maze,1300.0,525.0,A 60 m hedge maze; at its heart a sundial stone.
-29,The Queen's Gardens,1375,520,"Royal pleasure gardens: parterres, ponds, lime avenues and the summer palace."
-30,King's Park,520.0,790.0,"Ancient woodland kept wild inside the walls, with deer, a mere and the barrow."
-31,Collegium of the Seven Stars,490.0,1410.0,"Two colleges, a great library and the Physic Garden of healing herbs."
-32,Hospital of St. Brigid,1315.0,1607.5,"Infirmary, almshouse and herb garden run by the Brigidine sisters."
-33,Whitecross Abbey,790.0,1625.0,Benedictine abbey whose monks first wrote down the legends of the stones.
-34,Greyfriars,360.0,917.5,A friary of preaching brothers.
-35,Blackfriars,1680.0,1202.5,A friary of preaching brothers.
-36,Cattle Fair,1955,990,Livestock fair outside the gate every Thursday.
-37,Horse Fair,95,990,Livestock fair outside the gate every Thursday.
+1,North Gate,1416.9971699605198,1302.1974284492994,Gatehouse of the city wall.
+2,West Gate,1205.326765791553,1516.4182757418855,Gatehouse of the city wall.
+3,South Gate,1832.0177754394426,2582.8788637848475,Gatehouse of the city wall.
+4,Scholars' Gate,1259.6703798666242,2420.1107890952594,Gatehouse of the city wall.
+5,Sea Gate,2574.5115082826815,1300.3550916893305,Gatehouse of the city wall.
+6,Vine Gate,2470.0,1020.0,Gatehouse of the city wall.
+7,The Old Town Wall,2150,1455,"The city's first wall, 400 years old; long stretches pulled down for houses."
+8,Crownhold,1650.0,1150.0,"The giant royal castle on its crag: two curtain walls, 26 towers and a 50 m keep."
+9,The Crown Tower,1650.0,1115.0,"50 m great keep, eight storeys: the throne room is on the fifth."
+10,The Crowning Stone,1620.0,1245.0,A prehistoric stone carried up from the river: every monarch is crowned on it.
+11,The Grand Market,1880.0,1558.5,"Biggest market in the city: cloth, pots, poultry, cheese, everything; the Moot Hill rises in its corner."
+12,Moot Hill,1815,1530,A Bronze Age burial mound left in the Grand Market; the city's assemblies are still held on top.
+13,The Kingstone,1657,1612,A 6 m menhir at the crossroads where the North and West roads meet. Older than any road.
+14,Wardenhouse - YOUR HOUSE,1657,1658,"Home of The Warden of the Stones, facing the Kingstone. Start here."
+15,The Spice Bazaar,2075,1520,"A 160 m covered street of spice, silk and incense sellers."
+16,Wool Hall,2010,1685,Wool exchange: fleeces from a hundred hill farms are graded and sold.
+17,Muster Square,1650.0,1442.5,Parade ground below the castle where the city militia drills.
+18,Shambles Market,1985.0,1640.0,The butchers' street-market (bring a strong stomach).
+19,The Sleeping Giant inn,1740,1660,"The oldest inn in the city, built against the Old Town wall."
+20,The Three Kings' Table,1675,1880,A portal tomb on the Minster lawn; the island was holy before the Minster was.
+21,Stonehallow Minster,1860,1905,"Gothic cathedral on King's Isle; its spire reaches 120 m, the tallest thing in the realm."
+22,The Grand Bridge,1720,1800,Two stone spans across both arms of the river; the north span carries 14 shops.
+23,The Royal Menagerie,2450,1200,"Lions, a bear, an elephant from the south and the King's white stags."
+24,The Giant's Grave,2140,1300,A 90 m long barrow kept as a lawn in the palace gardens.
+25,Palace of the Seven Gardens,2280,1200,"The royal summer palace and its seven gardens: maze, parterres, orchard, water garden, lime walk, menagerie and the Giant's Grave."
+26,The Queen's Maze,2123.0,1183.0,A 66 m hedge maze with a sundial stone at its heart.
+27,Flower Market,2130.0,1402.5,"Flowers, herbs and songbirds for the palace quarter."
+28,Grain Exchange,2410,1620,Corn factors shout prices under the great timber roof.
+29,Merchant Palaces,2330,1660,Four courtyard palaces of the great trading houses.
+30,King's Quay,2700,2060,"Half a kilometre of stone quays, warehouses, treadwheel cranes and cogs from overseas."
+31,Fish Market,2675.0,1977.5,"Fishwives, oysters and the catch of the morning boats."
+32,The Ropewalk,2600,1875,A shed 300 m long where hemp is twisted into ships' cables.
+33,Harbour Light,3215,2042,Lighthouse at the end of the breakwater guiding cogs into the river mouth.
+34,The Star Citadel,1300,1620,Five-pointed bastioned fortress guarding the river's entry into the city.
+35,The Arsenal,1360,1450,"Where the city's crossbows, pikes and siege engines are built and stored."
+36,Drill Field & Archery Butts,1000,1440,Every man of the city must shoot at the butts on Sundays.
+37,Camp of the Iron Host,850,2250,"A standing camp of 2,000 soldiers: tents, horse lines and a palisade."
+38,Siege Yard,1040,2050,Trebuchets and mangonels being built and tested.
+39,Cavalry Paddocks,565,2210,Grazing and training for the knights' horses.
+40,Night Market,1895.0,2167.5,"Opens at dusk under lanterns: hot food, music, fortune-tellers."
+41,The Lantern Playhouse,1995,2245,"Round wooden playhouse for 1,500: comedies, tragedies and riots."
+42,Bear Garden,2080,2300,Animal-baiting pit and its noisy galleries.
+43,Bathhouse of the Swan,2130,2185,"Steam rooms, tubs and gossip."
+44,Bathhouse of the Mermaid,1780,2290,"Steam rooms, tubs and gossip."
+45,The Nine Sisters,2340,2330,"Nine little stones in a ring, kept inside the pleasure gardens; lovers meet here."
+46,Lantern Gardens,2300,2320,Pleasure gardens lit with a thousand lanterns on summer nights.
+47,The Great Auditorium,1600,2400,"Stone amphitheatre seating 8,000 for proclamations, plays and tournaments."
+48,Cattle Market,1900.0,2477.5,"Pens of cattle, sheep and pigs inside the South Gate."
+49,Tanners' Reach,2520,2230,"Downwind and downstream: tanneries, dye vats in three colours, kilns, a bell foundry, glassworks and a brewery."
+50,The Shipyard,2800,2300,"Four slipways building war cogs for the crown, with a sail loft and mast pond."
+51,College of the Seven Stars,1290,2110,"A college of the university: hall, chapel, library and rooms round a grass court."
+52,The Druids' Row,1330,2340,Eight stones in a dead-straight line; the astronomers say it points at the midwinter sunrise.
+53,Scholars' Hill University,1380,2200,"Three colleges, a library, an observatory, an anatomy theatre and the Hall of Disputations."
+54,Book Market,1490.0,2100.0,"Copyists, maps, almanacs and forbidden books under the counter."
+55,West Bridge,1382,1842,Six arches and two corn mills where the scholars cross into the Westgate.
+56,St. Bartholomew's Fair Field,1825,2825,"A fair field the size of the Old Town: tents, pavilions, stages, a jousting tiltyard, archery, a maypole. Busiest in late August."
+57,Field of Rest,1275,2690,The great cemetery beyond the walls.
+58,Whitecross Abbey,2300,2910,"Benedictine abbey with its own farms, fishponds and bees."
+59,Leper House of St. Lazarus,2550,2850,"Kept far outside the walls, with its own chapel and garden."
+60,The Old Ring,700,2600,An Iron Age hillfort: three rings of ramparts on the hill; a hermit now lives inside.
+61,Saltreed Marsh,2780,2580,"Reedbeds, herons and smugglers' paths."
+62,Salt Pans,3040,2640,Sea water evaporates in shallow pans; salt is the city's white gold.
+63,South Down windmills,1880,3480,Four post-mills grinding the southern harvest.
+64,Haymarket,1280.0,985.0,"Carters bring hay, straw and firewood down from the hills."
+65,Brigid's Well & Stone,1180,855,A holy spring guarded by an ancient standing stone; pilgrims tie ribbons to it.
+66,Pilgrims' Hospice,1440,820,Free beds and soup for pilgrims arriving from the north.
+67,Mere Abbey,760,1080,Cistercian abbey on the shore of the Mirror Mere.
+68,Royal Hunting Lodge,820,240,The King's lodge deep in the Royal Forest.
+69,Crownback Vineyards,2320,880,South-facing terraces of vines above the palace.
+70,Horse Fair,940.0,1680.0,Horse dealers' field outside the West Gate.
+71,Eastfold,3020,1170,"Fishing village on Gull Bay: huts on stilts, drying racks and boats on the shingle."
+72,Raven Light,3760,725,Lighthouse on the cliffs of Raven Head.
+73,The Sea Stones,3600,700,"A tiny stone ring and a rock carved with cups and rings, on the windiest cliff in the realm."
+74,Gull Rock Sea Fort,3720,2300,Round fort on an island guarding the river mouth; reached only by boat.
+75,Lantern Point,3300,3110,Smugglers' village and lighthouse on the southern headland.
+76,Nunnery of St. Clare,1942.0,1673.9,One of the city's great religious or charitable houses.
+77,Greyfriars,1458.0,1920.0,One of the city's great religious or charitable houses.
+78,Blackfriars,2566.9,1784.0,One of the city's great religious or charitable houses.
+79,Hospital of St. Brigid,1640.0,2160.0,One of the city's great religious or charitable houses.
+80,Almshouses of the Twelve,1958.0,2400.0,One of the city's great religious or charitable houses.
+81,Jail & Court of Pie Powder,1726.9,1504.0,"Locks, chains and a magistrate who can be bribed."
+82,Hall of the Mercers,2248.0,1630.0,Guild hall of one of the city's trades.
+83,Hall of the Goldsmiths,1900.0,1650.0,Guild hall of one of the city's trades.
+84,Hall of the Vintners,2456.9,1724.0,Guild hall of one of the city's trades.
+85,Hall of the Fishmongers,2616.0,1936.9,Guild hall of one of the city's trades.
+86,Hall of the Weavers,2093.1,2164.0,Guild hall of one of the city's trades.
+87,Hall of the Masons,1700.0,2500.0,Guild hall of one of the city's trades.
+88,Tavern of the Drowned Rat,2858.0,1960.0,"Ale, gossip and trouble."
+89,The Crooked Cup,1884.0,2086.9,"Ale, gossip and trouble."
+90,The Golden Goose,1550.0,2520.0,"Ale, gossip and trouble."
+91,The Mermaid,2756.9,1904.0,"Ale, gossip and trouble."
+92,The Sleeping Bishop,1780.0,2053.0,"Ale, gossip and trouble."
+93,Debtors' Prison,2208.0,2200.0,"Locks, chains and a magistrate who can be bribed."
+94,Alchemist's Tower,1180,1950,Smoke of strange colours pours from its windows at night.
+95,Clockmakers' Hall,2100.0,1592.0,Guild hall of one of the city's trades.

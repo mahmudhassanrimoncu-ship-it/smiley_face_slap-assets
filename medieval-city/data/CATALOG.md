@@ -5,4530 +5,3030 @@ north-west corner (x = east, y = south); z is the floor height. `Facing` is the 
 direction of the front door. W x D is the footprint, Wall is the wall height above the
 highest ground under the building, Roof is the extra height of the roof.
 
-## Crownhold Castle (44 buildings)
+## Crownhold & Castlegate (187 buildings)
 
-30 tower, 2 house, 2 gatehouse, 1 keep, 1 hall, 1 chapel, 1 palace, 1 kitchen, 1 barracks, 1 stables, 1 armoury, 1 mint, 1 granary
-
-| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
-|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| C-0001 | Outer Tower 1 | tower | 864.0 | 325.0 | 117.4 | 0° | round, 18.0 across | 26.0 | crenel 0.0 | 1 | stone |
-| C-0002 | Outer Tower 2 | tower | 899.0 | 305.0 | 113.4 | 0° | round, 14.0 across | 22.0 | crenel 0.0 | 1 | stone |
-| C-0003 | Outer Tower 3 | tower | 934.0 | 285.0 | 114.4 | 0° | round, 18.0 across | 26.0 | crenel 0.0 | 1 | stone |
-| C-0004 | Outer Tower 4 | tower | 1024.0 | 285.0 | 113.5 | 0° | round, 14.0 across | 22.0 | crenel 0.0 | 1 | stone |
-| C-0005 | Outer Tower 5 | tower | 1114.0 | 285.0 | 114.4 | 0° | round, 18.0 across | 26.0 | crenel 0.0 | 1 | stone |
-| C-0006 | Outer Tower 6 | tower | 1149.0 | 305.0 | 113.4 | 0° | round, 14.0 across | 22.0 | crenel 0.0 | 1 | stone |
-| C-0007 | Outer Tower 7 | tower | 1184.0 | 325.0 | 117.4 | 0° | round, 18.0 across | 26.0 | crenel 0.0 | 1 | stone |
-| C-0008 | Outer Tower 8 | tower | 1191.5 | 392.5 | 117.7 | 0° | round, 14.0 across | 22.0 | crenel 0.0 | 1 | stone |
-| C-0009 | Outer Tower 9 | tower | 1199.0 | 460.0 | 103.1 | 0° | round, 18.0 across | 26.0 | crenel 0.0 | 1 | stone |
-| C-0010 | Outer Tower 10 | tower | 1166.5 | 502.5 | 116.7 | 0° | round, 14.0 across | 22.0 | crenel 0.0 | 1 | stone |
-| C-0011 | Outer Tower 11 | tower | 1134.0 | 545.0 | 117.7 | 0° | round, 18.0 across | 26.0 | crenel 0.0 | 1 | stone |
-| C-0012 | Outer Tower 13 | tower | 914.0 | 545.0 | 117.7 | 0° | round, 18.0 across | 26.0 | crenel 0.0 | 1 | stone |
-| C-0013 | Outer Tower 14 | tower | 881.5 | 502.5 | 117.7 | 0° | round, 14.0 across | 22.0 | crenel 0.0 | 1 | stone |
-| C-0014 | Outer Tower 15 | tower | 849.0 | 460.0 | 117.7 | 0° | round, 18.0 across | 26.0 | crenel 0.0 | 1 | stone |
-| C-0015 | Outer Tower 16 | tower | 856.5 | 392.5 | 117.7 | 0° | round, 14.0 across | 22.0 | crenel 0.0 | 1 | stone |
-| C-0016 | King's Tower | tower | 924.0 | 335.0 | 117.7 | 0° | round, 20.0 across | 32.0 | crenel 0.0 | 1 | stone |
-| C-0017 | Inner wall tower | tower | 1024.0 | 335.0 | 117.7 | 0° | round, 14.0 across | 28.0 | crenel 0.0 | 1 | stone |
-| C-0018 | Queen's Tower | tower | 1124.0 | 335.0 | 117.7 | 0° | round, 20.0 across | 32.0 | crenel 0.0 | 1 | stone |
-| C-0019 | Inner wall tower | tower | 1128.0 | 405.0 | 117.7 | 0° | round, 14.0 across | 28.0 | crenel 0.0 | 1 | stone |
-| C-0020 | Treasury Tower | tower | 1132.0 | 475.0 | 117.7 | 0° | round, 20.0 across | 32.0 | crenel 0.0 | 1 | stone |
-| C-0021 | Chapel Tower | tower | 916.0 | 475.0 | 117.7 | 0° | round, 20.0 across | 32.0 | crenel 0.0 | 1 | stone |
-| C-0022 | Inner wall tower | tower | 920.0 | 405.0 | 117.7 | 0° | round, 14.0 across | 28.0 | crenel 0.0 | 1 | stone |
-| C-0023 | The Crown Tower | keep | 1024.0 | 392.0 | 117.7 | 180° | 34.0 x 34.0 | 46.0 | crenel 0.0 | 7 | stone |
-| C-0024 | Crown Tower turret | tower | 1007.0 | 375.0 | 117.7 | 0° | round, 9.0 across | 54.0 | crenel 0.0 | 1 | stone |
-| C-0025 | Crown Tower turret | tower | 1041.0 | 375.0 | 117.7 | 0° | round, 9.0 across | 54.0 | crenel 0.0 | 1 | stone |
-| C-0026 | Crown Tower turret | tower | 1007.0 | 409.0 | 117.7 | 0° | round, 9.0 across | 54.0 | crenel 0.0 | 1 | stone |
-| C-0027 | Crown Tower turret | tower | 1041.0 | 409.0 | 117.7 | 0° | round, 9.0 across | 54.0 | crenel 0.0 | 1 | stone |
-| C-0028 | Great Hall of the Kings | hall | 958.0 | 398.0 | 117.7 | 90° | 52.0 x 18.0 | 18.0 | gable 9.9 | 1 | stone |
-| C-0029 | Royal Chapel of St. Stephen | chapel | 1090.0 | 380.0 | 117.7 | 0° | 32.0 x 13.0 | 16.0 | gable 7.2 | 1 | stone |
-| C-0030 | Royal Apartments | palace | 1024.0 | 452.0 | 117.7 | 180° | 70.0 x 15.0 | 16.0 | hip 6.8 | 3 | stone |
-| C-0031 | Great Kitchen | kitchen | 954.0 | 454.0 | 117.7 | 0° | 20.0 x 14.0 | 9.0 | hip 6.3 | 1 | stone |
-| C-0032 | Treasury & Jewel House | house | 1090.0 | 438.0 | 117.7 | 270° | 22.0 x 14.0 | 12.0 | hip 6.3 | 3 | stone |
-| C-0033 | Barracks of the King's Guard | barracks | 886.0 | 410.0 | 117.7 | 90° | 70.0 x 13.0 | 9.0 | gable 7.2 | 2 | stone |
-| C-0034 | Royal Stables | stables | 1162.0 | 410.0 | 117.7 | 270° | 70.0 x 13.0 | 7.0 | gable 7.2 | 1 | timber |
-| C-0035 | Armoury | armoury | 939.0 | 520.0 | 117.7 | 0° | 26.0 x 13.0 | 9.0 | gable 7.2 | 2 | stone |
-| C-0036 | Royal Mint | mint | 1109.0 | 520.0 | 117.7 | 0° | 26.0 x 13.0 | 9.0 | gable 7.2 | 2 | stone |
-| C-0037 | Constable's Lodging | house | 964.0 | 310.0 | 116.2 | 180° | 30.0 x 12.0 | 10.0 | hip 5.4 | 2 | stone |
-| C-0038 | Granaries | granary | 1084.0 | 310.0 | 116.0 | 180° | 34.0 x 12.0 | 9.0 | gable 6.6 | 1 | stone |
-| C-0039 | King's Gate (great gatehouse) | gatehouse | 1024.0 | 545.0 | 117.7 | 180° | 32.0 x 24.0 | 28.0 | crenel 0.0 | 1 | stone |
-| C-0040 | King's Gate drum (west) | tower | 1007.0 | 550.0 | 117.7 | 0° | round, 18.0 across | 30.0 | crenel 0.0 | 1 | stone |
-| C-0041 | King's Gate drum (east) | tower | 1041.0 | 550.0 | 117.7 | 0° | round, 18.0 across | 30.0 | crenel 0.0 | 1 | stone |
-| C-0042 | Inner Gate | gatehouse | 1024.0 | 475.0 | 117.7 | 180° | 18.0 x 14.0 | 24.0 | crenel 0.0 | 1 | stone |
-| C-0043 | Barbican turret (west) | tower | 1002.0 | 588.0 | 114.5 | 0° | round, 10.0 across | 14.0 | crenel 0.0 | 1 | stone |
-| C-0044 | Barbican turret (east) | tower | 1046.0 | 588.0 | 114.5 | 0° | round, 10.0 across | 14.0 | crenel 0.0 | 1 | stone |
-
-## The Hallowstones (1 buildings)
-
-1 manor house
+145 house, 29 tower, 3 gatehouse, 2 church, 1 keep, 1 hall, 1 chapel, 1 palace, 1 barracks, 1 stables, 1 armoury, 1 mint
 
 | ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
 |---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| H-0001 | Wardenhouse (your house) | manor house | 787.2 | 818.8 | 71.7 | 110° | 18.0 x 12.0 | 11.0 | hip 5.4 | 3 | stone |
+| C-0001 | Outer Tower 1 | tower | 1475.0 | 1040.0 | 107.0 | 0° | round, 20.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| C-0002 | Outer Tower 2 | tower | 1515.0 | 1012.5 | 111.4 | 0° | round, 16.0 across | 24.0 | crenel 0.0 | 1 | stone |
+| C-0003 | Outer Tower 3 | tower | 1555.0 | 985.0 | 114.2 | 0° | round, 20.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| C-0004 | Outer Tower 4 | tower | 1650.0 | 985.0 | 114.5 | 0° | round, 16.0 across | 24.0 | crenel 0.0 | 1 | stone |
+| C-0005 | Outer Tower 5 | tower | 1745.0 | 985.0 | 111.0 | 0° | round, 20.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| C-0006 | Outer Tower 6 | tower | 1785.0 | 1012.5 | 110.4 | 0° | round, 16.0 across | 24.0 | crenel 0.0 | 1 | stone |
+| C-0007 | Outer Tower 7 | tower | 1825.0 | 1040.0 | 108.4 | 0° | round, 20.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| C-0008 | Outer Tower 8 | tower | 1835.0 | 1115.0 | 109.6 | 0° | round, 16.0 across | 24.0 | crenel 0.0 | 1 | stone |
+| C-0009 | Outer Tower 9 | tower | 1845.0 | 1190.0 | 109.8 | 0° | round, 20.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| C-0010 | Outer Tower 10 | tower | 1807.5 | 1245.0 | 111.2 | 0° | round, 16.0 across | 24.0 | crenel 0.0 | 1 | stone |
+| C-0011 | Outer Tower 11 | tower | 1770.0 | 1300.0 | 107.8 | 0° | round, 20.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| C-0012 | Outer Tower 13 | tower | 1530.0 | 1300.0 | 112.2 | 0° | round, 20.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| C-0013 | Outer Tower 14 | tower | 1492.5 | 1245.0 | 115.0 | 0° | round, 16.0 across | 24.0 | crenel 0.0 | 1 | stone |
+| C-0014 | Outer Tower 15 | tower | 1455.0 | 1190.0 | 111.7 | 0° | round, 20.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| C-0015 | Outer Tower 16 | tower | 1465.0 | 1115.0 | 109.3 | 0° | round, 16.0 across | 24.0 | crenel 0.0 | 1 | stone |
+| C-0016 | King's Tower | tower | 1540.0 | 1050.0 | 114.7 | 0° | round, 22.0 across | 34.0 | crenel 0.0 | 1 | stone |
+| C-0017 | Inner wall tower | tower | 1650.0 | 1050.0 | 117.3 | 0° | round, 14.0 across | 30.0 | crenel 0.0 | 1 | stone |
+| C-0018 | Queen's Tower | tower | 1760.0 | 1050.0 | 113.6 | 0° | round, 22.0 across | 34.0 | crenel 0.0 | 1 | stone |
+| C-0019 | Inner wall tower | tower | 1764.0 | 1130.0 | 116.2 | 0° | round, 14.0 across | 30.0 | crenel 0.0 | 1 | stone |
+| C-0020 | Treasury Tower | tower | 1768.0 | 1210.0 | 115.5 | 0° | round, 22.0 across | 34.0 | crenel 0.0 | 1 | stone |
+| C-0021 | Inner wall tower | tower | 1650.0 | 1210.0 | 117.5 | 0° | round, 14.0 across | 30.0 | crenel 0.0 | 1 | stone |
+| C-0022 | Chapel Tower | tower | 1532.0 | 1210.0 | 116.4 | 0° | round, 22.0 across | 34.0 | crenel 0.0 | 1 | stone |
+| C-0023 | Inner wall tower | tower | 1536.0 | 1130.0 | 116.3 | 0° | round, 14.0 across | 30.0 | crenel 0.0 | 1 | stone |
+| C-0024 | The Crown Tower | keep | 1650.0 | 1115.0 | 117.6 | 180° | 38.0 x 38.0 | 50.0 | crenel 0.0 | 8 | stone |
+| C-0025 | Crown Tower turret | tower | 1631.0 | 1096.0 | 117.7 | 0° | round, 10.0 across | 58.0 | crenel 0.0 | 1 | stone |
+| C-0026 | Crown Tower turret | tower | 1669.0 | 1096.0 | 117.6 | 0° | round, 10.0 across | 58.0 | crenel 0.0 | 1 | stone |
+| C-0027 | Crown Tower turret | tower | 1631.0 | 1134.0 | 117.7 | 0° | round, 10.0 across | 58.0 | crenel 0.0 | 1 | stone |
+| C-0028 | Crown Tower turret | tower | 1669.0 | 1134.0 | 117.7 | 0° | round, 10.0 across | 58.0 | crenel 0.0 | 1 | stone |
+| C-0029 | Great Hall of the Kings | hall | 1580.0 | 1125.0 | 117.2 | 90° | 56.0 x 18.0 | 19.0 | gable 9.9 | 1 | stone |
+| C-0030 | Royal Chapel | chapel | 1722.0 | 1100.0 | 116.7 | 0° | 34.0 x 14.0 | 17.0 | gable 7.7 | 1 | stone |
+| C-0031 | Royal Apartments | palace | 1650.0 | 1185.0 | 117.5 | 180° | 80.0 x 15.0 | 17.0 | hip 6.8 | 3 | stone |
+| C-0032 | Treasury | house | 1722.0 | 1170.0 | 117.3 | 270° | 24.0 x 15.0 | 13.0 | hip 6.8 | 3 | stone |
+| C-0033 | Barracks of the King's Guard | barracks | 1500.0 | 1130.0 | 112.9 | 90° | 80.0 x 14.0 | 10.0 | gable 7.7 | 2 | stone |
+| C-0034 | Royal Stables | stables | 1800.0 | 1130.0 | 112.6 | 270° | 80.0 x 14.0 | 8.0 | gable 7.7 | 1 | timber |
+| C-0035 | Armoury | armoury | 1560.0 | 1260.0 | 115.7 | 0° | 34.0 x 14.0 | 10.0 | gable 7.7 | 2 | stone |
+| C-0036 | Royal Mint | mint | 1740.0 | 1260.0 | 113.7 | 0° | 30.0 x 14.0 | 10.0 | gable 7.7 | 2 | stone |
+| C-0037 | Great Kitchen | house | 1575.0 | 1188.0 | 117.4 | 0° | 22.0 x 16.0 | 10.0 | hip 7.2 | 1 | stone |
+| C-0038 | King's Gate | gatehouse | 1650.0 | 1300.0 | 113.0 | 180° | 34.0 x 26.0 | 30.0 | crenel 0.0 | 1 | stone |
+| C-0039 | King's Gate drum (west) | tower | 1631.0 | 1306.0 | 113.4 | 0° | round, 20.0 across | 32.0 | crenel 0.0 | 1 | stone |
+| C-0040 | King's Gate drum (east) | tower | 1669.0 | 1306.0 | 112.7 | 0° | round, 20.0 across | 32.0 | crenel 0.0 | 1 | stone |
+| C-0041 | Postern to the Sea Road | gatehouse | 1800.0 | 1245.0 | 112.0 | 135° | 16.0 x 14.0 | 18.0 | crenel 0.0 | 1 | stone |
+| C-0042 | Inner Gate | gatehouse | 1650.0 | 1210.0 | 117.4 | 180° | 20.0 x 15.0 | 26.0 | crenel 0.0 | 1 | stone |
+| C-0043 | Church of St. Agatha | church | 1600.0 | 1550.0 | 49.2 | 120° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| C-0044 | Church of St. Agatha (tower) | church | 1609.5 | 1533.5 | 53.1 | 120° | 8.0 x 8.0 | 26.0 | crenel 14.0 | 4 | stone |
+| C-0045 | House of Jordan the vintner | house | 1386.0 | 1207.3 | 96.9 | 83° | 12.9 x 11.8 | 6.2 | gable 6.5 | 2 | stone |
+| C-0046 | House of Richard the goldsmith | house | 1387.2 | 1219.4 | 98.1 | 82° | 10.6 x 12.4 | 6.2 | gable 5.8 | 2 | stone |
+| C-0047 | House of Felice the chandler | house | 1388.0 | 1230.8 | 99.1 | 82° | 11.2 x 13.8 | 12.4 | hip 5.0 | 4 | stone |
+| C-0048 | House of Christiana the fishmonger | house | 1391.7 | 1241.7 | 102.8 | 81° | 10.2 x 9.9 | 9.3 | gable 5.4 | 3 | stone |
+| C-0049 | House of Hob the draper | house | 1438.0 | 1365.4 | 88.2 | 53° | 13.2 x 14.2 | 6.2 | hip 5.9 | 2 | stone |
+| C-0050 | House of Rose the goldsmith | house | 1446.2 | 1374.7 | 87.6 | 51° | 9.9 x 12.8 | 12.4 | gable 5.4 | 4 | stone |
+| C-0051 | House of Alan the stonecarver | house | 1466.2 | 1399.3 | 83.5 | 49° | 8.3 x 14.2 | 12.4 | hip 3.7 | 4 | stone |
+| C-0052 | House of Walter the tailor | house | 1488.5 | 1422.8 | 79.8 | 52° | 8.4 x 10.4 | 12.4 | gable 4.6 | 4 | stone |
+| C-0053 | House of Wat the lute-maker | house | 1527.1 | 1478.7 | 64.7 | 54° | 10.2 x 12.9 | 9.3 | gable 5.6 | 3 | stone |
+| C-0054 | House of Hugh the ropemaker | house | 1543.0 | 1499.2 | 59.3 | 51° | 12.2 x 12.9 | 6.2 | gable 6.7 | 2 | stone |
+| C-0055 | House of Emma the butcher | house | 1551.1 | 1509.1 | 57.1 | 48° | 11.5 x 13.6 | 12.4 | hip 5.2 | 4 | stone |
+| C-0056 | House of Ralph the carpenter | house | 1588.0 | 1542.4 | 51.5 | 38° | 8.3 x 13.5 | 6.2 | gable 4.6 | 2 | stone |
+| C-0057 | House of Alan the fisher | house | 1628.7 | 1570.3 | 47.2 | 32° | 12.0 x 12.9 | 6.2 | gable 6.6 | 2 | stone |
+| C-0058 | House of Isabel the fishmonger | house | 1454.0 | 1346.7 | 97.5 | 234° | 10.8 x 11.3 | 6.2 | gable 5.9 | 2 | stone |
+| C-0059 | House of Mabel the fisher | house | 1502.4 | 1402.1 | 87.8 | 231° | 13.8 x 14.8 | 9.3 | gable 7.6 | 3 | stone |
+| C-0060 | House of Emma the glover | house | 1530.5 | 1443.4 | 77.5 | 235° | 12.1 x 10.9 | 12.4 | hip 4.9 | 4 | stone |
+| C-0061 | House of Rose the clockmaker | house | 1544.4 | 1460.9 | 72.1 | 234° | 11.6 x 13.6 | 6.2 | gable 6.4 | 2 | stone |
+| C-0062 | House of Geoffrey the tanner | house | 1562.3 | 1486.3 | 64.5 | 230° | 13.7 x 10.9 | 6.2 | gable 6.0 | 2 | stone |
+| C-0063 | House of Nicholas the fuller | house | 1596.7 | 1517.9 | 55.8 | 218° | 12.5 x 13.2 | 9.3 | hip 5.6 | 3 | stone |
+| C-0064 | House of Simon the barber-surgeon | house | 1624.6 | 1540.4 | 51.6 | 214° | 8.9 x 10.4 | 9.3 | hip 4.0 | 3 | stone |
+| C-0065 | House of Godwin the bellfounder | house | 1652.5 | 1558.7 | 48.4 | 210° | 9.1 x 9.2 | 6.2 | gable 5.0 | 2 | stone |
+| C-0066 | House of Felice the money-changer | house | 1547.2 | 1628.8 | 44.1 | 10° | 13.9 x 14.5 | 12.4 | gable 7.6 | 4 | stone |
+| C-0067 | House of Elena the hatter | house | 1581.5 | 1632.7 | 43.5 | 8° | 12.1 x 11.7 | 12.4 | gable 6.5 | 4 | stone |
+| C-0068 | House of Rose the spicer | house | 1593.3 | 1634.0 | 43.3 | 7° | 10.7 x 11.2 | 6.2 | gable 5.9 | 2 | stone |
+| C-0069 | House of Margery the bellfounder | house | 1523.5 | 1598.0 | 45.9 | 195° | 11.7 x 14.8 | 6.2 | hip 5.3 | 2 | stone |
+| C-0070 | House of Rose the tanner | house | 1545.1 | 1605.3 | 45.3 | 191° | 13.6 x 10.4 | 12.4 | gable 5.7 | 4 | stone |
+| C-0071 | House of Felice the cartographer | house | 1581.5 | 1611.5 | 44.6 | 188° | 12.7 x 9.8 | 6.2 | gable 5.4 | 2 | stone |
+| C-0072 | House of Christiana the tanner | house | 1593.0 | 1612.8 | 44.4 | 187° | 9.9 x 10.4 | 6.2 | gable 5.4 | 2 | stone |
+| C-0073 | House of Beatrice the scribe | house | 1570.4 | 1365.3 | 105.3 | 126° | 11.6 x 12.6 | 12.4 | gable 6.4 | 4 | stone |
+| C-0074 | House of Isabel the wheelwright | house | 1600.1 | 1365.6 | 105.7 | 319° | 8.7 x 11.7 | 12.4 | gable 4.8 | 4 | stone |
+| C-0075 | House of Christiana the lute-maker | house | 1558.8 | 1415.8 | 90.0 | 320° | 12.5 x 9.6 | 9.3 | gable 5.3 | 3 | stone |
+| C-0076 | House of Beatrice the pewterer | house | 1545.6 | 1423.9 | 86.3 | 339° | 11.1 x 11.0 | 6.2 | gable 6.1 | 2 | stone |
+| C-0077 | House of Gilbert the salter | house | 1516.1 | 1387.4 | 96.1 | 308° | 8.0 x 13.2 | 12.4 | hip 3.6 | 4 | stone |
+| C-0078 | House of Henry the fletcher | house | 1521.4 | 1375.8 | 99.7 | 300° | 13.4 x 9.3 | 6.2 | hip 4.2 | 2 | stone |
+| C-0079 | House of Beatrice the baker | house | 1495.4 | 1377.8 | 96.1 | 132° | 8.0 x 14.6 | 12.4 | gable 4.4 | 4 | stone |
+| C-0080 | House of Avice the potter | house | 1510.7 | 1353.7 | 104.5 | 107° | 12.1 x 10.1 | 6.2 | gable 5.5 | 2 | stone |
+| C-0081 | House of Piers the bowyer | house | 1471.4 | 1354.8 | 98.7 | 148° | 9.3 x 10.6 | 9.3 | hip 4.2 | 3 | stone |
+| C-0082 | House of Roger the ropemaker | house | 1485.2 | 1345.5 | 103.5 | 133° | 9.6 x 10.0 | 12.4 | gable 5.2 | 4 | stone |
+| C-0083 | House of Cecily the glover | house | 1491.5 | 1337.3 | 105.6 | 135° | 9.5 x 12.2 | 6.2 | hip 4.3 | 2 | stone |
+| C-0084 | House of Mabel the mercer | house | 1507.0 | 1327.0 | 108.0 | 228° | 8.7 x 10.7 | 9.3 | gable 4.8 | 3 | stone |
+| C-0085 | House of Jordan the butcher | house | 1498.0 | 1311.7 | 109.3 | 247° | 8.4 x 10.6 | 6.2 | gable 4.7 | 2 | stone |
+| C-0086 | House of Amice the tinker | house | 1484.1 | 1324.3 | 107.1 | 63° | 12.6 x 9.1 | 6.2 | hip 4.1 | 2 | stone |
+| C-0087 | House of Gilbert the parchmenter | house | 1476.9 | 1313.9 | 108.1 | 67° | 10.1 x 13.7 | 9.3 | hip 4.5 | 3 | stone |
+| C-0088 | House of Osbert the minstrel | house | 1458.0 | 1328.3 | 103.5 | 313° | 13.3 x 13.9 | 6.2 | gable 7.3 | 2 | stone |
+| C-0089 | House of Baldwin the saddler | house | 1437.6 | 1317.7 | 104.7 | 134° | 8.9 x 13.9 | 9.3 | gable 4.9 | 3 | stone |
+| C-0090 | House of Richard the pewterer | house | 1590.4 | 1487.7 | 65.2 | 145° | 9.7 x 13.3 | 9.3 | hip 4.4 | 3 | stone |
+| C-0091 | House of Sybil the parchmenter | house | 1802.8 | 1351.0 | 91.7 | 300° | 11.3 x 13.4 | 12.4 | gable 6.2 | 4 | stone |
+| C-0092 | House of Cecily the herbalist | house | 1780.2 | 1356.4 | 94.0 | 101° | 11.5 x 11.3 | 12.4 | gable 6.2 | 4 | stone |
+| C-0093 | House of Hob the dyer | house | 1804.3 | 1321.8 | 100.6 | 148° | 12.6 x 14.2 | 9.3 | gable 6.9 | 3 | stone |
+| C-0094 | House of Baldwin the stonecarver | house | 1819.6 | 1315.9 | 99.4 | 169° | 12.0 x 13.8 | 6.2 | gable 6.6 | 2 | stone |
+| C-0095 | House of Joan the cartographer | house | 1831.4 | 1314.4 | 98.0 | 172° | 9.9 x 12.8 | 6.2 | hip 4.5 | 2 | stone |
+| C-0096 | House of Ralph the scribe | house | 1687.0 | 1507.3 | 55.4 | 229° | 11.9 x 12.9 | 12.4 | gable 6.5 | 4 | stone |
+| C-0097 | House of Jordan the astrologer | house | 1677.1 | 1491.0 | 62.0 | 249° | 9.8 x 13.3 | 12.4 | gable 5.4 | 4 | stone |
+| C-0098 | House of Martin the fuller | house | 1673.4 | 1479.3 | 66.8 | 242° | 11.8 x 12.6 | 9.3 | hip 5.3 | 3 | stone |
+| C-0099 | House of Roger the brewer | house | 1494.6 | 1448.6 | 71.5 | 136° | 10.7 x 12.4 | 12.4 | hip 4.8 | 4 | stone |
+| C-0100 | House of Stephen the fletcher | house | 1459.0 | 1472.2 | 59.8 | 149° | 11.3 x 13.3 | 6.2 | gable 6.2 | 2 | stone |
+| C-0101 | House of Rose the baker | house | 1463.2 | 1492.0 | 56.4 | 326° | 12.6 x 12.5 | 6.2 | gable 6.9 | 2 | stone |
+| C-0102 | House of Adam the armourer | house | 1440.6 | 1500.9 | 54.2 | 346° | 12.0 x 9.3 | 9.3 | hip 4.2 | 3 | stone |
+| C-0103 | House of Juliana the clockmaker | house | 1430.5 | 1504.3 | 53.3 | 347° | 8.1 x 11.2 | 12.4 | hip 3.6 | 4 | stone |
+| C-0104 | House of Juliana the pewterer | house | 1418.7 | 1506.2 | 51.6 | 353° | 13.2 x 11.1 | 12.4 | gable 6.1 | 4 | stone |
+| C-0105 | House of Alan the salter | house | 1394.3 | 1510.2 | 49.1 | 356° | 10.2 x 14.6 | 9.3 | hip 4.6 | 3 | stone |
+| C-0106 | House of Beatrice the potter | house | 1536.0 | 1365.0 | 104.2 | 29° | 10.4 x 11.9 | 12.4 | gable 5.7 | 4 | stone |
+| C-0107 | House of Alan the locksmith | house | 1545.6 | 1371.0 | 103.4 | 27° | 10.6 x 13.4 | 12.4 | gable 5.8 | 4 | stone |
+| C-0108 | House of Wat the barber-surgeon | house | 1561.8 | 1381.2 | 101.6 | 32° | 11.7 x 13.4 | 6.2 | gable 6.5 | 2 | stone |
+| C-0109 | House of Avice the clockmaker | house | 1539.4 | 1346.1 | 107.2 | 191° | 10.2 x 13.8 | 12.4 | gable 5.6 | 4 | stone |
+| C-0110 | House of Simon the weaver | house | 1551.6 | 1352.1 | 106.8 | 207° | 10.9 x 13.3 | 6.2 | hip 4.9 | 2 | stone |
+| C-0111 | House of Edith the chandler | house | 1560.7 | 1359.1 | 106.3 | 215° | 8.4 x 9.9 | 9.3 | gable 4.6 | 3 | stone |
+| C-0112 | House of Odo the money-changer | house | 1398.4 | 1335.8 | 88.5 | 164° | 11.1 x 10.0 | 6.2 | gable 5.5 | 2 | stone |
+| C-0113 | House of Hob the scribe | house | 1387.6 | 1339.1 | 84.4 | 164° | 10.7 x 9.5 | 6.2 | hip 4.3 | 2 | stone |
+| C-0114 | House of Felice the dyer | house | 1415.9 | 1349.7 | 87.9 | 352° | 11.2 x 12.0 | 6.2 | gable 6.2 | 2 | stone |
+| C-0115 | House of Margery the glazier | house | 1392.8 | 1354.7 | 80.6 | 344° | 12.7 x 11.0 | 9.3 | gable 6.1 | 3 | stone |
+| C-0116 | House of Hawise the scribe | house | 1568.0 | 1593.8 | 45.9 | 235° | 11.4 x 14.2 | 9.3 | gable 6.3 | 3 | stone |
+| C-0117 | House of Adam the tinker | house | 1547.1 | 1565.5 | 48.8 | 237° | 9.5 x 9.5 | 6.2 | gable 5.2 | 2 | stone |
+| C-0118 | House of Gilbert the baker | house | 1543.5 | 1555.7 | 49.7 | 236° | 9.4 x 14.1 | 9.3 | gable 5.2 | 3 | stone |
+| C-0119 | House of Gilbert the jeweller | house | 1525.4 | 1540.7 | 51.5 | 211° | 9.0 x 11.4 | 6.2 | gable 5.0 | 2 | stone |
+| C-0120 | House of Felice the jeweller | house | 1539.0 | 1584.8 | 46.7 | 60° | 12.2 x 13.9 | 12.4 | gable 6.7 | 4 | stone |
+| C-0121 | House of Maud the lute-maker | house | 1526.8 | 1567.3 | 48.2 | 56° | 12.3 x 14.1 | 12.4 | gable 6.8 | 4 | stone |
+| C-0122 | House of Ida the notary | house | 1511.5 | 1555.0 | 49.4 | 31° | 9.0 x 14.9 | 9.3 | gable 4.9 | 3 | stone |
+| C-0123 | House of Hawise the glover | house | 1503.6 | 1547.8 | 50.3 | 32° | 11.2 x 9.8 | 6.2 | gable 5.4 | 2 | stone |
+| C-0124 | House of Richard the limner | house | 1642.8 | 1538.3 | 51.5 | 276° | 10.6 x 12.4 | 9.3 | gable 5.8 | 3 | stone |
+| C-0125 | House of Roger the cooper | house | 1644.0 | 1513.9 | 56.7 | 271° | 10.6 x 13.0 | 6.2 | hip 4.8 | 2 | stone |
+| C-0126 | House of Walter the baker | house | 1640.1 | 1486.9 | 65.5 | 257° | 13.1 x 13.0 | 9.3 | gable 7.1 | 3 | stone |
+| C-0127 | House of Juliana the tailor | house | 1624.7 | 1527.3 | 54.0 | 89° | 11.2 x 13.1 | 12.4 | hip 5.0 | 4 | stone |
+| C-0128 | House of Cecily the hatter | house | 1624.2 | 1516.4 | 56.9 | 91° | 9.1 x 14.0 | 12.4 | hip 4.1 | 4 | stone |
+| C-0129 | House of Margery the bellfounder | house | 1500.3 | 1568.5 | 48.2 | 265° | 11.2 x 12.6 | 9.3 | gable 6.2 | 3 | stone |
+| C-0130 | House of Petronilla the saddler | house | 1480.6 | 1562.9 | 48.6 | 86° | 13.2 x 13.4 | 12.4 | gable 7.3 | 4 | stone |
+| C-0131 | House of Wat the fishmonger | house | 1482.6 | 1548.6 | 49.8 | 88° | 13.7 x 10.8 | 12.4 | hip 4.9 | 4 | stone |
+| C-0132 | House of Maud the cobbler | house | 1529.0 | 1506.3 | 57.2 | 317° | 8.3 x 13.2 | 9.3 | gable 4.6 | 3 | stone |
+| C-0133 | House of Piers the juggler | house | 1463.0 | 1552.0 | 49.5 | 271° | 9.1 x 14.7 | 12.4 | gable 5.0 | 4 | stone |
+| C-0134 | House of Beatrice the candlemaker | house | 1441.6 | 1552.7 | 49.2 | 109° | 8.3 x 14.2 | 12.4 | gable 4.5 | 4 | stone |
+| C-0135 | House of Edith the goldsmith | house | 1443.8 | 1533.5 | 50.4 | 100° | 13.0 x 14.7 | 9.3 | hip 5.9 | 3 | stone |
+| C-0136 | House of Nicholas the lute-maker | house | 1445.1 | 1513.8 | 52.6 | 82° | 11.7 x 13.8 | 6.2 | gable 6.5 | 2 | stone |
+| C-0137 | House of Geoffrey the jeweller | house | 1564.1 | 1543.5 | 51.6 | 135° | 10.1 x 9.1 | 12.4 | gable 5.0 | 4 | stone |
+| C-0138 | House of Christiana the chandler | house | 1566.2 | 1566.9 | 48.3 | 305° | 10.8 x 12.4 | 9.3 | gable 5.9 | 3 | stone |
+| C-0139 | House of Sybil the limner | house | 1441.2 | 1387.9 | 83.3 | 201° | 9.2 x 9.4 | 9.3 | gable 5.0 | 3 | stone |
+| C-0140 | House of Nicholas the stonecarver | house | 1430.3 | 1383.5 | 81.9 | 202° | 13.7 x 10.3 | 12.4 | gable 5.7 | 4 | stone |
+| C-0141 | House of Alys the shipwright | house | 1408.9 | 1376.6 | 78.9 | 190° | 9.1 x 10.9 | 6.2 | hip 4.1 | 2 | stone |
+| C-0142 | House of Thomas the mercer | house | 1369.8 | 1375.6 | 69.5 | 166° | 12.7 x 9.6 | 12.4 | gable 5.3 | 4 | stone |
+| C-0143 | House of Edith the armourer | house | 1356.5 | 1378.1 | 65.8 | 161° | 11.8 x 12.9 | 9.3 | gable 6.5 | 3 | stone |
+| C-0144 | House of Godwin the fisher | house | 1345.5 | 1380.9 | 62.9 | 161° | 10.1 x 14.9 | 6.2 | gable 5.5 | 2 | stone |
+| C-0145 | House of Sybil the vintner | house | 1327.2 | 1387.5 | 58.1 | 164° | 8.5 x 10.1 | 12.4 | gable 4.7 | 4 | stone |
+| C-0146 | House of Odo the candlemaker | house | 1318.3 | 1388.4 | 55.6 | 164° | 8.2 x 13.1 | 6.2 | gable 4.5 | 2 | stone |
+| C-0147 | House of Alan the barber-surgeon | house | 1306.8 | 1392.2 | 53.2 | 159° | 13.4 x 13.4 | 6.2 | hip 6.0 | 2 | stone |
+| C-0148 | House of Jordan the pewterer | house | 1425.4 | 1398.8 | 76.7 | 22° | 9.1 x 9.2 | 6.2 | hip 4.1 | 2 | stone |
+| C-0149 | House of Margery the limner | house | 1407.0 | 1393.7 | 73.8 | 10° | 8.2 x 11.1 | 6.2 | gable 4.5 | 2 | stone |
+| C-0150 | House of Roger the armourer | house | 1396.5 | 1390.5 | 72.5 | 17° | 11.0 x 9.4 | 6.2 | gable 5.2 | 2 | stone |
+| C-0151 | House of Nicholas the herbalist | house | 1381.7 | 1389.5 | 69.2 | 344° | 10.4 x 10.7 | 12.4 | gable 5.7 | 4 | stone |
+| C-0152 | House of Ida the vintner | house | 1349.7 | 1400.8 | 60.7 | 341° | 8.9 x 13.0 | 9.3 | gable 4.9 | 3 | stone |
+| C-0153 | House of Jordan the butcher | house | 1337.3 | 1403.4 | 58.2 | 353° | 11.7 x 12.9 | 6.2 | gable 6.5 | 2 | stone |
+| C-0154 | House of Baldwin the cutler | house | 1318.6 | 1407.6 | 55.7 | 344° | 11.3 x 11.5 | 9.3 | hip 5.1 | 3 | stone |
+| C-0155 | House of Odo the scribe | house | 1597.9 | 1380.2 | 103.3 | 149° | 8.9 x 9.5 | 6.2 | gable 4.9 | 2 | stone |
+| C-0156 | House of Simon the jeweller | house | 1459.6 | 1424.5 | 74.7 | 109° | 10.2 x 14.3 | 12.4 | hip 4.6 | 4 | stone |
+| C-0157 | House of Wat the wheelwright | house | 1456.4 | 1448.4 | 66.5 | 86° | 9.3 x 9.4 | 12.4 | gable 5.1 | 4 | stone |
+| C-0158 | House of Margery the money-changer | house | 1474.4 | 1441.2 | 71.6 | 295° | 11.8 x 13.2 | 12.4 | gable 6.5 | 4 | stone |
+| C-0159 | House of Elena the herbalist | house | 1473.2 | 1460.6 | 64.8 | 272° | 11.9 x 11.2 | 6.2 | gable 6.2 | 2 | stone |
+| C-0160 | House of Roger the tailor | house | 1481.2 | 1489.0 | 58.3 | 179° | 11.5 x 10.9 | 6.2 | hip 4.9 | 2 | stone |
+| C-0161 | House of Piers the glazier | house | 1493.9 | 1490.9 | 59.3 | 194° | 9.1 x 9.5 | 9.3 | gable 5.0 | 3 | stone |
+| C-0162 | House of Osbert the barber-surgeon | house | 1869.7 | 1260.0 | 102.1 | 304° | 10.6 x 11.8 | 6.2 | gable 5.8 | 2 | stone |
+| C-0163 | House of Sybil the clockmaker | house | 1878.5 | 1239.3 | 102.8 | 285° | 8.5 x 11.1 | 9.3 | gable 4.7 | 3 | stone |
+| C-0164 | House of Isabel the goldsmith | house | 1878.4 | 1225.6 | 103.6 | 266° | 12.7 x 10.1 | 12.4 | hip 4.5 | 4 | stone |
+| C-0165 | House of Emma the pewterer | house | 1880.9 | 1203.4 | 104.1 | 270° | 10.3 x 14.5 | 12.4 | gable 5.7 | 4 | stone |
+| C-0166 | House of Isabel the money-changer | house | 1883.9 | 1169.5 | 103.5 | 275° | 12.8 x 14.2 | 12.4 | gable 7.1 | 4 | stone |
+| C-0167 | House of Henry the astrologer | house | 1852.2 | 1255.0 | 105.6 | 123° | 9.1 x 10.4 | 9.3 | gable 5.0 | 3 | stone |
+| C-0168 | House of Laurence the wheelwright | house | 1860.6 | 1228.3 | 106.1 | 86° | 13.3 x 13.2 | 12.4 | gable 7.3 | 4 | stone |
+| C-0169 | House of Alys the fuller | house | 1552.2 | 1645.8 | 43.6 | 110° | 11.9 x 9.5 | 12.4 | hip 4.3 | 4 | stone |
+| C-0170 | House of Edith the armourer | house | 1570.3 | 1642.3 | 43.4 | 280° | 9.0 x 13.8 | 12.4 | hip 4.1 | 4 | stone |
+| C-0171 | House of Margery the fletcher | house | 1566.9 | 1653.2 | 43.1 | 290° | 10.0 x 12.7 | 6.2 | gable 5.5 | 2 | stone |
+| C-0172 | House of Stephen the sailmaker | house | 1543.3 | 1530.9 | 53.3 | 136° | 8.4 x 9.5 | 9.3 | hip 3.8 | 3 | stone |
+| C-0173 | House of Ralph the cooper | house | 1724.0 | 1481.0 | 59.7 | 276° | 10.8 x 9.2 | 6.2 | hip 4.1 | 2 | stone |
+| C-0174 | House of Odo the cooper | house | 1708.3 | 1477.9 | 62.6 | 96° | 11.6 x 12.3 | 12.4 | gable 6.4 | 4 | stone |
+| C-0175 | House of Joan the salter | house | 1841.0 | 1351.7 | 84.7 | 20° | 10.5 x 12.3 | 6.2 | gable 5.8 | 2 | stone |
+| C-0176 | House of Simon the tanner | house | 1885.8 | 1272.7 | 96.5 | 201° | 13.7 x 9.1 | 6.2 | gable 5.0 | 2 | stone |
+| C-0177 | House of Robin the saddler | house | 1879.9 | 1288.3 | 94.4 | 21° | 13.8 x 13.8 | 9.3 | gable 7.6 | 3 | stone |
+| C-0178 | House of Christiana the tinker | house | 1812.9 | 1363.7 | 85.8 | 208° | 11.8 x 11.3 | 6.2 | gable 6.2 | 2 | stone |
+| C-0179 | House of Edith the mercer | house | 1811.5 | 1381.3 | 80.4 | 33° | 9.0 x 11.2 | 12.4 | hip 4.0 | 4 | stone |
+| C-0180 | House of Sybil the fletcher | house | 1794.8 | 1374.4 | 85.2 | 14° | 13.2 x 11.2 | 9.3 | hip 5.0 | 3 | stone |
+| C-0181 | House of Jordan the bowyer | house | 1774.9 | 1416.0 | 74.0 | 42° | 11.6 x 12.5 | 9.3 | gable 6.3 | 3 | stone |
+| C-0182 | House of Christiana the saddler | house | 1644.3 | 1527.9 | 53.5 | 2° | 12.8 x 9.2 | 9.3 | gable 5.0 | 3 | stone |
+| C-0183 | House of Richard the barber-surgeon | house | 1878.3 | 1310.6 | 90.5 | 238° | 8.7 x 11.8 | 12.4 | gable 4.8 | 4 | stone |
+| C-0184 | House of Hugh the baker | house | 1861.2 | 1315.7 | 92.7 | 58° | 10.0 x 13.2 | 12.4 | gable 5.5 | 4 | stone |
+| C-0185 | House of Elena the brewer | house | 1854.6 | 1305.6 | 96.2 | 61° | 12.2 x 14.6 | 6.2 | gable 6.7 | 2 | stone |
+| C-0186 | House of Robin the tanner | house | 1850.0 | 1290.3 | 100.4 | 98° | 8.1 x 12.6 | 9.3 | gable 4.5 | 3 | stone |
+| C-0187 | House of Felice the bookbinder | house | 1850.3 | 1281.5 | 101.7 | 98° | 8.6 x 14.6 | 9.3 | gable 4.7 | 3 | stone |
 
-## Market quarter (276 buildings)
+## Old Town (435 buildings)
 
-87 tenement, 59 workshop, 48 storehouse, 42 stable, 16 shop, 12 house, 10 guildhall, 1 cloth hall, 1 belfry
-
-| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
-|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| M-0001 | The Cloth Hall & Belfry | cloth hall | 1188.0 | 1195.0 | 71.7 | 270° | 110.0 x 26.0 | 16.0 | gable 14.3 | 3 | stone |
-| M-0002 | The Belfry | belfry | 1188.0 | 1195.0 | 71.6 | 270° | 16.0 x 16.0 | 66.0 | spire 18.0 | 10 | stone |
-| M-0003 | The Great Guildhall | guildhall | 860.0 | 1195.0 | 71.6 | 90° | 80.0 x 24.0 | 18.0 | hip 10.8 | 3 | stone |
-| M-0004 | Guildhall tower | guildhall | 860.0 | 1150.0 | 71.7 | 90° | 12.0 x 12.0 | 34.0 | spire 12.0 | 1 | stone |
-| M-0005 | Mercers' Hall | guildhall | 1240.1 | 1249.7 | 71.5 | 0° | 22.0 x 13.0 | 14.0 | hip 5.8 | 3 | stone |
-| M-0006 | Goldsmiths' Hall | guildhall | 1121.2 | 1280.0 | 71.2 | 0° | 22.0 x 13.0 | 14.0 | hip 5.8 | 3 | stone |
-| M-0007 | Weavers' Hall | guildhall | 945.3 | 1303.3 | 70.9 | 0° | 22.0 x 13.0 | 14.0 | hip 5.8 | 3 | stone |
-| M-0008 | Vintners' Hall | guildhall | 809.5 | 1273.0 | 71.2 | 0° | 22.0 x 13.0 | 14.0 | hip 5.8 | 3 | stone |
-| M-0009 | Masons' Hall | guildhall | 813.9 | 1140.3 | 71.7 | 90° | 22.0 x 13.0 | 14.0 | hip 5.8 | 3 | stone |
-| M-0010 | Fishmongers' Hall | guildhall | 887.8 | 1117.5 | 71.7 | 0° | 22.0 x 13.0 | 14.0 | hip 5.8 | 3 | stone |
-| M-0011 | Drapers' Hall | guildhall | 1147.7 | 1122.6 | 71.7 | 0° | 22.0 x 13.0 | 14.0 | hip 5.8 | 3 | stone |
-| M-0012 | Bakers' Hall | guildhall | 1232.5 | 1127.4 | 71.7 | 0° | 22.0 x 13.0 | 14.0 | hip 5.8 | 3 | stone |
-| M-0013 | House of Cecily the goldsmith | shop | 1010.9 | 1261.7 | 71.5 | 90° | 7.4 x 13.1 | 12.4 | hip 3.3 | 4 | stone |
-| M-0014 | Workshop of Cecily the goldsmith | workshop | 999.2 | 1261.7 | 71.5 | 90° | 5.0 x 5.8 | 6.0 | gable 2.7 | 1 | timber |
-| M-0015 | House of Nicholas the fuller | shop | 1010.2 | 1276.3 | 71.4 | 90° | 8.5 x 14.3 | 12.4 | gable 4.7 | 4 | stone |
-| M-0016 | Workshop of Nicholas the fuller | workshop | 997.3 | 1276.3 | 71.3 | 90° | 6.2 x 7.3 | 3.0 | gable 3.4 | 1 | timber |
-| M-0017 | House of Hob the carpenter | house | 828.2 | 1092.2 | 71.7 | 83° | 7.7 x 10.1 | 12.4 | gable 4.2 | 4 | timber |
-| M-0018 | Workshop of Hob the carpenter | workshop | 818.3 | 1093.5 | 71.7 | 83° | 6.9 x 5.4 | 6.0 | gable 3.0 | 1 | timber |
-| M-0019 | House of Edith the herbalist | shop | 827.3 | 1101.4 | 71.7 | 83° | 9.4 x 14.2 | 9.3 | gable 5.2 | 3 | timber |
-| M-0020 | Workshop of Edith the herbalist | workshop | 816.0 | 1102.8 | 71.6 | 83° | 9.2 x 5.2 | 3.0 | gable 2.8 | 1 | timber |
-| M-0021 | House of Simon the ropemaker | shop | 829.7 | 1117.2 | 71.7 | 84° | 7.4 x 13.1 | 12.4 | gable 4.1 | 4 | timber |
-| M-0022 | Workshop of Simon the ropemaker | workshop | 816.5 | 1118.6 | 71.7 | 84° | 5.3 x 6.4 | 6.0 | gable 2.9 | 1 | timber |
-| M-0023 | House of Hob the cooper | house | 834.3 | 1152.1 | 71.7 | 86° | 9.2 x 9.9 | 12.4 | hip 4.2 | 4 | timber |
-| M-0024 | House of Rose the tanner | shop | 850.1 | 1093.1 | 71.6 | 263° | 8.3 x 10.6 | 12.4 | gable 4.6 | 4 | timber |
-| M-0025 | House of Godwin the brewer | house | 851.5 | 1101.0 | 71.7 | 263° | 6.3 x 11.7 | 15.5 | hip 2.8 | 5 | timber |
-| M-0026 | Workshop of Godwin the brewer | workshop | 862.7 | 1099.7 | 71.7 | 263° | 5.7 x 6.6 | 6.0 | gable 3.1 | 1 | timber |
-| M-0027 | House of Ida the money-changer | house | 855.4 | 1129.7 | 71.7 | 265° | 8.8 x 13.3 | 9.3 | gable 4.8 | 3 | stone |
-| M-0028 | Workshop of Ida the money-changer | workshop | 867.5 | 1128.6 | 71.7 | 265° | 8.2 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| M-0029 | House of Rose the baker | shop | 844.8 | 1277.0 | 71.2 | 285° | 8.3 x 11.6 | 12.4 | hip 3.8 | 4 | timber |
-| M-0030 | House of Gilbert the glover | shop | 1277.8 | 1176.2 | 71.7 | 206° | 6.0 x 10.5 | 12.4 | hip 2.7 | 4 | timber |
-| M-0031 | House of Hawise the glazier | house | 1238.7 | 1230.3 | 71.7 | 211° | 7.7 x 11.8 | 9.3 | gable 4.2 | 3 | timber |
-| M-0032 | Workshop of Hawise the glazier | workshop | 1244.8 | 1220.2 | 71.7 | 211° | 7.7 x 7.0 | 6.0 | gable 3.9 | 1 | timber |
-| M-0033 | House of Godwin the locksmith | house | 1245.1 | 1234.9 | 71.6 | 210° | 6.8 x 10.4 | 15.5 | gable 3.8 | 5 | timber |
-| M-0034 | House of Hugh the bookbinder | shop | 1258.8 | 1242.0 | 71.6 | 210° | 7.7 x 12.0 | 12.4 | hip 3.5 | 4 | timber |
-| M-0035 | Workshop of Hugh the bookbinder | workshop | 1264.9 | 1231.3 | 71.7 | 210° | 7.2 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| M-0036 | House of Richard the baker | house | 1266.0 | 1246.8 | 71.5 | 210° | 8.4 x 11.0 | 12.4 | gable 4.6 | 4 | timber |
-| M-0037 | Workshop of Richard the baker | workshop | 1271.7 | 1237.0 | 71.7 | 210° | 4.6 x 4.7 | 3.0 | gable 2.5 | 1 | timber |
-| M-0038 | House of Godwin the tailor | shop | 1272.7 | 1251.4 | 71.4 | 210° | 6.9 x 9.7 | 12.4 | gable 3.8 | 4 | stone |
-| M-0039 | House of Maud the stonecarver | house | 1193.1 | 1274.8 | 71.3 | 51° | 9.3 x 9.4 | 12.4 | gable 5.1 | 4 | timber |
-| M-0040 | House of Maud the cooper | shop | 1206.4 | 1263.5 | 71.4 | 231° | 8.7 x 9.2 | 12.4 | gable 4.8 | 4 | stone |
-| M-0041 | Workshop of Maud the cooper | workshop | 1214.6 | 1256.8 | 71.5 | 231° | 7.3 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| M-0042 | House of Ivetta the notary | house | 853.7 | 1270.3 | 71.3 | 130° | 7.0 x 11.9 | 12.4 | gable 3.9 | 4 | timber |
-| M-0043 | House of Baldwin the tailor | house | 864.4 | 1287.4 | 71.0 | 311° | 5.7 x 10.0 | 9.3 | gable 3.1 | 3 | stone |
-| M-0044 | Workshop of Baldwin the tailor | workshop | 873.8 | 1295.5 | 70.9 | 311° | 4.8 x 7.2 | 3.0 | gable 2.6 | 1 | timber |
-| M-0045 | House of Gilbert the lute-maker | shop | 860.5 | 1294.0 | 71.0 | 311° | 8.9 x 12.9 | 15.5 | hip 4.0 | 5 | timber |
-| M-0046 | Workshop of Gilbert the lute-maker | workshop | 870.2 | 1302.5 | 70.9 | 311° | 6.0 x 6.6 | 6.0 | gable 3.3 | 1 | timber |
-| M-0047 | House of Thomas the bookbinder | shop | 855.7 | 1299.8 | 70.9 | 311° | 5.5 x 13.3 | 9.3 | gable 3.0 | 3 | timber |
-| M-0048 | House of Avice the cheesemonger | shop | 815.7 | 1247.7 | 71.5 | 145° | 6.4 x 12.3 | 12.4 | gable 3.5 | 4 | timber |
-| M-0049 | Workshop of Avice the cheesemonger | workshop | 809.8 | 1239.4 | 71.6 | 145° | 5.0 x 5.6 | 3.0 | gable 2.8 | 1 | timber |
-| M-0050 | House of Rose the draper | shop | 808.7 | 1251.5 | 71.5 | 145° | 8.6 x 14.0 | 9.3 | hip 3.9 | 3 | stone |
-| M-0051 | House of Simon the weaver | house | 803.1 | 1258.0 | 71.4 | 145° | 6.7 x 9.8 | 12.4 | gable 3.7 | 4 | timber |
-| M-0052 | House of Baldwin the potter | house | 781.5 | 1271.8 | 71.2 | 145° | 7.2 x 11.8 | 12.4 | gable 4.0 | 4 | stone |
-| M-0053 | House of Roger the draper | shop | 787.7 | 1222.9 | 71.7 | 337° | 5.6 x 12.2 | 12.4 | gable 3.1 | 4 | timber |
-| M-0054 | House of Mabel the stonecarver | shop | 780.6 | 1224.3 | 71.7 | 337° | 7.2 x 9.4 | 12.4 | hip 3.2 | 4 | timber |
-| M-0055 | Tenement of Walter the tanner | tenement | 820.0 | 1042.9 | 71.7 | 281° | 4.7 x 5.4 | 6.0 | gable 2.6 | 2 | timber |
-| M-0056 | Stable of Nicholas the bowyer | stable | 1221.7 | 1045.1 | 71.6 | 86° | 7.3 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| M-0057 | Storehouse of Hob the potter | storehouse | 811.8 | 1053.8 | 71.7 | 184° | 8.2 x 6.0 | 3.6 | gable 3.3 | 1 | timber |
-| M-0058 | Workshop of Ralph the limner | workshop | 1211.8 | 1053.9 | 71.6 | 85° | 4.6 x 4.3 | 3.6 | gable 2.3 | 1 | timber |
-| M-0059 | Workshop of Laurence the fuller | workshop | 1229.8 | 1053.0 | 71.7 | 86° | 4.0 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| M-0060 | Storehouse of Margery the pewterer | storehouse | 818.6 | 1062.8 | 71.6 | 182° | 4.0 x 5.3 | 3.6 | gable 2.2 | 1 | timber |
-| M-0061 | Stable of Hawise the draper | stable | 1220.3 | 1059.5 | 71.6 | 87° | 4.3 x 5.4 | 3.6 | gable 2.4 | 1 | timber |
-| M-0062 | Tenement of Ivetta the bellfounder | tenement | 1235.7 | 1061.3 | 71.7 | 84° | 6.6 x 8.2 | 6.0 | gable 3.6 | 2 | timber |
-| M-0063 | Stable of Amice the mercer | stable | 1245.0 | 1060.9 | 71.7 | 358° | 4.3 x 5.0 | 3.6 | gable 2.4 | 1 | timber |
-| M-0064 | Tenement of Richard the weaver | tenement | 811.1 | 1070.9 | 71.6 | 181° | 5.4 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| M-0065 | Tenement of Jordan the money-changer | tenement | 845.9 | 1069.3 | 71.7 | 269° | 4.0 x 4.0 | 6.0 | gable 2.2 | 2 | timber |
-| M-0066 | Stable of Mabel the scribe | stable | 1195.8 | 1069.9 | 71.8 | 89° | 4.0 x 4.6 | 3.6 | gable 2.2 | 1 | timber |
-| M-0067 | Tenement of Alan the fletcher | tenement | 1210.9 | 1070.3 | 71.7 | 2° | 7.0 x 8.6 | 9.0 | gable 3.9 | 3 | timber |
-| M-0068 | Tenement of Stephen the glover | tenement | 1220.6 | 1068.8 | 71.7 | 358° | 6.9 x 8.9 | 9.0 | gable 3.8 | 3 | timber |
-| M-0069 | Stable of Wat the saddler | stable | 1237.9 | 1070.0 | 71.7 | 3° | 4.5 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| M-0070 | Storehouse of Ida the tinker | storehouse | 822.3 | 1078.5 | 71.7 | 174° | 7.9 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| M-0071 | Tenement of Jordan the carpenter | tenement | 847.4 | 1077.5 | 71.6 | 174° | 4.7 x 5.3 | 6.0 | gable 2.6 | 2 | timber |
-| M-0072 | Storehouse of Richard the glover | storehouse | 1201.8 | 1078.2 | 71.7 | 91° | 5.2 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| M-0073 | Workshop of Nicholas the lute-maker | workshop | 1238.3 | 1079.1 | 71.7 | 92° | 8.2 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| M-0074 | Stable of Henry the ropemaker | stable | 870.3 | 1087.6 | 71.7 | 172° | 5.1 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| M-0075 | Storehouse of Robin the notary | storehouse | 1194.4 | 1085.4 | 71.7 | 94° | 5.5 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| M-0076 | Storehouse of Joan the glazier | storehouse | 1204.8 | 1087.9 | 71.7 | 5° | 8.2 x 8.6 | 3.6 | gable 4.5 | 1 | timber |
-| M-0077 | Storehouse of Piers the pie-seller | storehouse | 1220.3 | 1085.3 | 71.7 | 91° | 7.8 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| M-0078 | Tenement of Petronilla the potter | tenement | 1229.4 | 1086.1 | 71.7 | 98° | 5.4 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| M-0079 | Tenement of Alan the cutler | tenement | 1255.5 | 1086.6 | 71.7 | 4° | 8.2 x 6.9 | 6.0 | gable 3.8 | 2 | timber |
-| M-0080 | Stable of Joan the cooper | stable | 879.9 | 1096.3 | 71.7 | 257° | 4.7 x 5.3 | 3.6 | gable 2.6 | 1 | timber |
-| M-0081 | Stable of Thomas the money-changer | stable | 1170.1 | 1094.4 | 71.7 | 8° | 4.7 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| M-0082 | Stable of Amice the candlemaker | stable | 1178.0 | 1096.8 | 71.7 | 7° | 5.0 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| M-0083 | Storehouse of Godwin the ropemaker | storehouse | 1186.9 | 1093.8 | 71.7 | 8° | 5.0 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| M-0084 | Storehouse of Piers the chandler | storehouse | 1212.8 | 1096.2 | 71.7 | 101° | 5.5 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| M-0085 | Workshop of Hob the cobbler | workshop | 1220.9 | 1096.8 | 71.7 | 6° | 5.2 x 5.0 | 3.6 | gable 2.8 | 1 | timber |
-| M-0086 | Tenement of Avice the bowyer | tenement | 1238.3 | 1095.7 | 71.7 | 100° | 8.3 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| M-0087 | Tenement of Elena the stonecarver | tenement | 1261.6 | 1095.9 | 71.7 | 10° | 5.0 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| M-0088 | Workshop of Odo the hatter | workshop | 871.4 | 1103.0 | 71.7 | 258° | 4.1 x 5.3 | 3.6 | gable 2.2 | 1 | timber |
-| M-0089 | Tenement of Piers the apothecary | tenement | 881.5 | 1104.1 | 71.7 | 253° | 5.5 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| M-0090 | Tenement of Rose the parchmenter | tenement | 889.5 | 1102.4 | 71.7 | 258° | 4.2 x 4.4 | 3.0 | gable 2.3 | 1 | timber |
-| M-0091 | Tenement of Hob the draper | tenement | 1170.0 | 1105.1 | 71.7 | 11° | 8.8 x 7.2 | 9.0 | gable 4.0 | 3 | timber |
-| M-0092 | Tenement of Sybil the mason | tenement | 1186.8 | 1102.3 | 71.7 | 8° | 4.3 x 4.5 | 3.0 | gable 2.4 | 1 | timber |
-| M-0093 | Stable of Mabel the cheesemonger | stable | 1202.1 | 1102.8 | 71.7 | 101° | 6.8 x 6.3 | 3.6 | gable 3.4 | 1 | timber |
-| M-0094 | Workshop of Adam the furrier | workshop | 1246.5 | 1103.0 | 71.7 | 101° | 5.3 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| M-0095 | Tenement of Baldwin the fishmonger | tenement | 1263.3 | 1104.7 | 71.7 | 5° | 6.2 x 6.4 | 6.0 | gable 3.4 | 2 | timber |
-| M-0096 | Storehouse of Martin the notary | storehouse | 855.0 | 1110.1 | 71.7 | 170° | 7.5 x 6.5 | 3.6 | gable 3.5 | 1 | timber |
-| M-0097 | Workshop of Richard the vintner | workshop | 905.1 | 1113.5 | 71.7 | 251° | 5.0 x 5.3 | 3.6 | gable 2.7 | 1 | timber |
-| M-0098 | Workshop of Odo the cheesemonger | workshop | 1178.1 | 1113.4 | 71.7 | 18° | 4.9 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| M-0099 | Stable of Laurence the fletcher | stable | 1186.7 | 1110.2 | 71.7 | 17° | 4.5 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| M-0100 | Stable of Robin the clockmaker | stable | 1213.0 | 1113.5 | 71.7 | 105° | 6.5 x 6.9 | 3.6 | gable 3.6 | 1 | timber |
-| M-0101 | Workshop of Christiana the pie-seller | workshop | 1237.6 | 1111.5 | 71.7 | 8° | 6.2 x 7.5 | 3.6 | gable 3.4 | 1 | timber |
-| M-0102 | Tenement of Robin the vintner | tenement | 1253.5 | 1112.1 | 71.7 | 99° | 4.8 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| M-0103 | Tenement of Thomas the fishmonger | tenement | 915.6 | 1119.2 | 71.7 | 249° | 5.4 x 5.1 | 9.0 | gable 2.8 | 3 | timber |
-| M-0104 | Stable of Gilbert the armourer | stable | 1125.9 | 1120.1 | 71.7 | 119° | 4.8 x 5.5 | 3.6 | gable 2.7 | 1 | timber |
-| M-0105 | Tenement of Roger the ropemaker | tenement | 1168.0 | 1118.8 | 71.8 | 21° | 5.1 x 4.8 | 6.0 | gable 2.6 | 2 | timber |
-| M-0106 | Tenement of Ivetta the dyer | tenement | 1175.9 | 1122.0 | 71.7 | 18° | 4.8 x 5.5 | 3.0 | gable 2.6 | 1 | timber |
-| M-0107 | Workshop of Gilbert the fletcher | workshop | 1184.8 | 1120.4 | 71.7 | 104° | 4.3 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| M-0108 | Storehouse of Piers the pie-seller | storehouse | 1192.6 | 1120.6 | 71.7 | 15° | 4.0 x 4.6 | 3.6 | gable 2.2 | 1 | timber |
-| M-0109 | Storehouse of Christiana the wheelwright | storehouse | 1255.6 | 1119.6 | 71.7 | 98° | 4.3 x 5.3 | 3.6 | gable 2.4 | 1 | timber |
-| M-0110 | Tenement of Laurence the clockmaker | tenement | 1271.8 | 1120.4 | 71.7 | 100° | 7.7 x 6.2 | 3.0 | gable 3.4 | 1 | timber |
-| M-0111 | Workshop of Joan the armourer | workshop | 830.2 | 1129.0 | 71.7 | 252° | 8.1 x 7.8 | 3.6 | gable 4.3 | 1 | timber |
-| M-0112 | Stable of Matilda the baker | stable | 887.1 | 1130.3 | 71.7 | 242° | 4.9 x 5.3 | 3.6 | gable 2.7 | 1 | timber |
-| M-0113 | Tenement of Thomas the fletcher | tenement | 907.3 | 1129.0 | 71.7 | 246° | 4.0 x 4.8 | 3.0 | gable 2.2 | 1 | timber |
-| M-0114 | Storehouse of Alan the furrier | storehouse | 922.6 | 1127.5 | 71.7 | 151° | 7.5 x 7.6 | 3.6 | gable 4.1 | 1 | timber |
-| M-0115 | Tenement of Wat the ropemaker | tenement | 1110.9 | 1127.8 | 71.7 | 126° | 4.5 x 5.1 | 9.0 | gable 2.5 | 3 | timber |
-| M-0116 | Tenement of Matilda the cobbler | tenement | 1184.1 | 1129.0 | 71.7 | 17° | 7.8 x 6.9 | 6.0 | gable 3.8 | 2 | timber |
-| M-0117 | Workshop of Nicholas the brewer | workshop | 1194.8 | 1129.5 | 71.7 | 106° | 4.4 x 5.5 | 3.6 | gable 2.4 | 1 | timber |
-| M-0118 | Stable of Agnes the jeweller | stable | 1203.8 | 1129.0 | 71.7 | 20° | 5.1 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| M-0119 | Tenement of Adam the fuller | tenement | 871.4 | 1139.1 | 71.7 | 154° | 8.2 x 8.3 | 3.0 | gable 4.5 | 1 | timber |
-| M-0120 | Tenement of Nicholas the ropemaker | tenement | 881.6 | 1138.5 | 71.8 | 243° | 4.5 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| M-0121 | Storehouse of Mabel the pie-seller | storehouse | 1263.3 | 1137.1 | 71.7 | 18° | 8.2 x 8.3 | 3.6 | gable 4.5 | 1 | timber |
-| M-0122 | Workshop of Martin the pie-seller | workshop | 1161.4 | 1144.6 | 71.7 | 27° | 4.4 x 5.4 | 3.6 | gable 2.4 | 1 | timber |
-| M-0123 | Stable of Emma the wheelwright | stable | 1211.8 | 1144.2 | 71.7 | 109° | 6.8 x 6.9 | 3.6 | gable 3.7 | 1 | timber |
-| M-0124 | Workshop of Piers the weaver | workshop | 1229.5 | 1145.1 | 71.7 | 20° | 7.0 x 7.3 | 3.6 | gable 3.9 | 1 | timber |
-| M-0125 | Tenement of Rose the armourer | tenement | 1246.6 | 1146.7 | 71.7 | 20° | 8.1 x 8.6 | 3.0 | gable 4.4 | 1 | timber |
-| M-0126 | Tenement of Jordan the vintner | tenement | 1270.2 | 1146.0 | 71.7 | 17° | 5.4 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| M-0127 | Storehouse of Isabel the parchmenter | storehouse | 886.9 | 1155.8 | 71.7 | 150° | 8.9 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| M-0128 | Stable of Mabel the butcher | stable | 1213.1 | 1155.2 | 71.7 | 110° | 4.2 x 5.1 | 3.6 | gable 2.3 | 1 | timber |
-| M-0129 | Workshop of Felice the mercer | workshop | 1238.8 | 1153.4 | 71.7 | 113° | 4.0 x 4.7 | 3.6 | gable 2.2 | 1 | timber |
-| M-0130 | Tenement of Elena the goldsmith | tenement | 1262.7 | 1155.1 | 71.6 | 17° | 7.5 x 8.7 | 6.0 | gable 4.1 | 2 | timber |
-| M-0131 | Tenement of Joan the glazier | tenement | 1280.5 | 1155.1 | 71.7 | 106° | 8.8 x 8.8 | 6.0 | gable 4.8 | 2 | timber |
-| M-0132 | Workshop of Isabel the mercer | workshop | 811.4 | 1161.2 | 71.7 | 157° | 7.7 x 6.8 | 3.6 | gable 3.7 | 1 | timber |
-| M-0133 | Workshop of Henry the fishmonger | workshop | 1220.5 | 1162.9 | 71.7 | 118° | 7.2 x 8.5 | 3.6 | gable 4.0 | 1 | timber |
-| M-0134 | Workshop of Richard the brewer | workshop | 1238.7 | 1162.2 | 71.7 | 22° | 8.2 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| M-0135 | Workshop of Christiana the barber-surgeon | workshop | 1252.4 | 1164.1 | 71.6 | 24° | 6.4 x 7.8 | 3.6 | gable 3.5 | 1 | timber |
-| M-0136 | Tenement of Geoffrey the brewer | tenement | 1277.9 | 1164.1 | 71.7 | 20° | 5.3 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| M-0137 | Workshop of Juliana the bookbinder | workshop | 769.2 | 1171.7 | 71.7 | 160° | 5.5 x 5.1 | 3.6 | gable 2.8 | 1 | timber |
-| M-0138 | Tenement of Martin the bellfounder | tenement | 778.2 | 1172.5 | 71.7 | 154° | 4.4 x 4.5 | 9.0 | gable 2.4 | 3 | timber |
-| M-0139 | Tenement of Laurence the herbalist | tenement | 787.4 | 1172.9 | 71.6 | 244° | 5.0 x 4.2 | 3.0 | gable 2.3 | 1 | timber |
-| M-0140 | Storehouse of Elena the cooper | storehouse | 795.6 | 1170.1 | 71.7 | 152° | 6.9 x 8.2 | 3.6 | gable 3.8 | 1 | timber |
-| M-0141 | Storehouse of Beatrice the scribe | storehouse | 813.5 | 1170.0 | 71.7 | 151° | 5.0 x 5.2 | 3.6 | gable 2.7 | 1 | timber |
-| M-0142 | Workshop of Roger the pie-seller | workshop | 822.5 | 1170.5 | 71.7 | 157° | 4.2 x 4.5 | 3.6 | gable 2.3 | 1 | timber |
-| M-0143 | Tenement of Roger the pie-seller | tenement | 1210.2 | 1173.5 | 71.7 | 119° | 4.8 x 5.0 | 6.0 | gable 2.6 | 2 | timber |
-| M-0144 | Storehouse of Richard the draper | storehouse | 1220.7 | 1173.4 | 71.7 | 118° | 4.8 x 5.1 | 3.6 | gable 2.7 | 1 | timber |
-| M-0145 | Stable of Nicholas the stonecarver | stable | 1246.5 | 1171.0 | 71.7 | 28° | 4.5 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| M-0146 | Storehouse of Rose the dyer | storehouse | 1261.3 | 1170.7 | 71.7 | 21° | 8.3 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| M-0147 | Storehouse of Isabel the jeweller | storehouse | 795.9 | 1181.1 | 71.7 | 153° | 4.3 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| M-0148 | Tenement of Walter the ropemaker | tenement | 804.6 | 1179.4 | 71.7 | 245° | 7.1 x 6.6 | 6.0 | gable 3.6 | 2 | timber |
-| M-0149 | Tenement of Margery the tinker | tenement | 828.1 | 1182.0 | 71.7 | 152° | 8.6 x 8.1 | 6.0 | gable 4.5 | 2 | timber |
-| M-0150 | Storehouse of Cecily the fuller | storehouse | 888.6 | 1178.6 | 71.7 | 142° | 5.0 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| M-0151 | Stable of Beatrice the dyer | stable | 1229.8 | 1178.8 | 71.7 | 26° | 6.8 x 8.5 | 3.6 | gable 3.7 | 1 | timber |
-| M-0152 | Storehouse of Agnes the bellfounder | storehouse | 770.2 | 1189.5 | 71.7 | 158° | 7.7 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| M-0153 | Storehouse of Petronilla the brewer | storehouse | 785.5 | 1189.8 | 71.7 | 246° | 8.8 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| M-0154 | Tenement of Walter the draper | tenement | 811.0 | 1190.0 | 71.7 | 149° | 6.9 x 7.9 | 6.0 | gable 3.8 | 2 | timber |
-| M-0155 | Tenement of Alys the notary | tenement | 1161.9 | 1188.5 | 71.7 | 127° | 4.2 x 5.1 | 6.0 | gable 2.3 | 2 | timber |
-| M-0156 | Tenement of Beatrice the fishmonger | tenement | 1211.7 | 1190.0 | 71.7 | 33° | 8.0 x 6.9 | 6.0 | gable 3.8 | 2 | timber |
-| M-0157 | Workshop of Nicholas the hatter | workshop | 1236.9 | 1189.4 | 71.7 | 27° | 8.4 x 7.4 | 3.6 | gable 4.1 | 1 | timber |
-| M-0158 | Storehouse of Simon the saddler | storehouse | 1252.3 | 1187.6 | 71.7 | 31° | 6.6 x 8.2 | 3.6 | gable 3.6 | 1 | timber |
-| M-0159 | Tenement of Agnes the furrier | tenement | 795.2 | 1196.1 | 71.7 | 154° | 5.0 x 4.7 | 6.0 | gable 2.6 | 2 | timber |
-| M-0160 | Tenement of Juliana the glover | tenement | 821.1 | 1196.5 | 71.7 | 235° | 7.9 x 6.6 | 9.0 | gable 3.6 | 3 | timber |
-| M-0161 | Stable of Wat the parchmenter | stable | 881.5 | 1196.9 | 71.7 | 136° | 5.0 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| M-0162 | Tenement of Sybil the bellfounder | tenement | 1221.0 | 1197.3 | 71.7 | 123° | 7.4 x 7.8 | 9.0 | gable 4.0 | 3 | timber |
-| M-0163 | Tenement of Geoffrey the bellfounder | tenement | 1247.0 | 1198.9 | 71.7 | 28° | 6.0 x 6.4 | 9.0 | gable 3.3 | 3 | timber |
-| M-0164 | Tenement of Ida the parchmenter | tenement | 1262.3 | 1195.2 | 71.7 | 120° | 6.5 x 8.4 | 6.0 | gable 3.6 | 2 | timber |
-| M-0165 | Workshop of Roger the glazier | workshop | 769.8 | 1205.0 | 71.7 | 243° | 8.3 x 8.2 | 3.6 | gable 4.5 | 1 | timber |
-| M-0166 | Tenement of Matilda the herbalist | tenement | 813.1 | 1204.8 | 71.7 | 149° | 6.6 x 7.0 | 6.0 | gable 3.6 | 2 | timber |
-| M-0167 | Stable of Ralph the chandler | stable | 1160.8 | 1203.7 | 71.7 | 137° | 5.0 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| M-0168 | Tenement of Felice the fletcher | tenement | 1212.6 | 1206.8 | 71.7 | 39° | 7.2 x 7.5 | 6.0 | gable 4.0 | 2 | timber |
-| M-0169 | Tenement of Beatrice the carpenter | tenement | 1228.0 | 1203.7 | 71.7 | 124° | 5.3 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| M-0170 | Workshop of Hob the dyer | workshop | 1236.1 | 1207.2 | 71.7 | 32° | 5.3 x 5.5 | 3.6 | gable 2.9 | 1 | timber |
-| M-0171 | Stable of Nicholas the carpenter | stable | 1253.6 | 1204.0 | 71.7 | 117° | 4.4 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| M-0172 | Tenement of Joan the cobbler | tenement | 1262.8 | 1205.4 | 71.7 | 28° | 4.7 x 4.0 | 3.0 | gable 2.2 | 1 | timber |
-| M-0173 | Tenement of Alys the glover | tenement | 1271.1 | 1206.2 | 71.7 | 119° | 4.2 x 5.2 | 6.0 | gable 2.3 | 2 | timber |
-| M-0174 | Stable of Martin the locksmith | stable | 810.1 | 1215.4 | 71.6 | 234° | 5.4 x 4.3 | 3.6 | gable 2.3 | 1 | timber |
-| M-0175 | Tenement of Isabel the fletcher | tenement | 822.3 | 1215.0 | 71.7 | 145° | 8.1 x 8.6 | 6.0 | gable 4.5 | 2 | timber |
-| M-0176 | Workshop of Godwin the apothecary | workshop | 881.9 | 1214.9 | 71.7 | 223° | 5.0 x 5.0 | 3.6 | gable 2.7 | 1 | timber |
-| M-0177 | Tenement of Martin the hatter | tenement | 1161.1 | 1215.1 | 71.7 | 134° | 5.5 x 4.7 | 9.0 | gable 2.6 | 3 | timber |
-| M-0178 | Storehouse of Isabel the wheelwright | storehouse | 1221.8 | 1213.8 | 71.7 | 122° | 6.8 x 8.7 | 3.6 | gable 3.7 | 1 | timber |
-| M-0179 | Tenement of Elena the barber-surgeon | tenement | 1253.2 | 1215.1 | 71.7 | 29° | 4.7 x 4.8 | 6.0 | gable 2.6 | 2 | timber |
-| M-0180 | Storehouse of Alys the saddler | storehouse | 803.6 | 1222.2 | 71.7 | 144° | 7.4 x 7.0 | 3.6 | gable 3.9 | 1 | timber |
-| M-0181 | Stable of Laurence the cutler | stable | 829.0 | 1224.1 | 71.7 | 235° | 8.1 x 8.2 | 3.6 | gable 4.5 | 1 | timber |
-| M-0182 | Tenement of Elena the cheesemonger | tenement | 886.5 | 1221.1 | 71.7 | 220° | 4.2 x 5.0 | 9.0 | gable 2.3 | 3 | timber |
-| M-0183 | Tenement of Ralph the fletcher | tenement | 1209.7 | 1220.6 | 71.7 | 127° | 5.4 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| M-0184 | Workshop of Agnes the armourer | workshop | 1227.2 | 1223.0 | 71.7 | 126° | 5.4 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| M-0185 | Stable of Odo the fuller | stable | 1263.3 | 1221.5 | 71.7 | 31° | 5.3 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| M-0186 | Storehouse of Alan the glover | storehouse | 1280.0 | 1224.3 | 71.7 | 123° | 8.0 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| M-0187 | Stable of Amice the chandler | stable | 813.9 | 1232.4 | 71.6 | 235° | 4.8 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| M-0188 | Tenement of Beatrice the bellfounder | tenement | 1212.3 | 1230.7 | 71.7 | 36° | 5.3 x 5.2 | 9.0 | gable 2.9 | 3 | timber |
-| M-0189 | Tenement of Ralph the wheelwright | tenement | 1254.7 | 1229.5 | 71.7 | 37° | 5.1 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| M-0190 | Stable of Simon the chandler | stable | 785.0 | 1239.4 | 71.6 | 232° | 6.0 x 6.4 | 3.6 | gable 3.3 | 1 | timber |
-| M-0191 | Storehouse of Alys the parchmenter | storehouse | 819.5 | 1239.4 | 71.6 | 227° | 4.3 x 5.4 | 3.6 | gable 2.4 | 1 | timber |
-| M-0192 | Stable of Nicholas the fishmonger | stable | 788.0 | 1248.7 | 71.5 | 229° | 6.2 x 7.8 | 3.6 | gable 3.4 | 1 | timber |
-| M-0193 | Tenement of Adam the bowyer | tenement | 855.8 | 1248.8 | 71.6 | 220° | 6.7 x 8.1 | 9.0 | gable 3.7 | 3 | timber |
-| M-0194 | Tenement of Thomas the potter | tenement | 881.7 | 1247.5 | 71.6 | 217° | 6.4 x 8.6 | 9.0 | gable 3.5 | 3 | timber |
-| M-0195 | Storehouse of Simon the pewterer | storehouse | 1160.9 | 1248.2 | 71.6 | 54° | 4.3 x 5.3 | 3.6 | gable 2.4 | 1 | timber |
-| M-0196 | Workshop of Amice the baker | workshop | 1219.9 | 1247.3 | 71.6 | 44° | 6.3 x 6.0 | 3.6 | gable 3.3 | 1 | timber |
-| M-0197 | Storehouse of Isabel the cheesemonger | storehouse | 778.5 | 1255.0 | 71.5 | 234° | 4.0 x 4.3 | 3.6 | gable 2.2 | 1 | timber |
-| M-0198 | Storehouse of Godwin the spicer | storehouse | 863.7 | 1256.2 | 71.5 | 128° | 6.1 x 7.4 | 3.6 | gable 3.4 | 1 | timber |
-| M-0199 | Workshop of Roger the candlemaker | workshop | 888.1 | 1254.6 | 71.6 | 216° | 5.2 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| M-0200 | Workshop of Baldwin the glazier | workshop | 1167.5 | 1255.4 | 71.6 | 54° | 5.0 x 5.1 | 3.6 | gable 2.8 | 1 | timber |
-| M-0201 | Workshop of Isabel the fishmonger | workshop | 872.4 | 1264.4 | 71.4 | 214° | 6.5 x 8.8 | 3.6 | gable 3.6 | 1 | timber |
-| M-0202 | Storehouse of Edith the mercer | storehouse | 889.0 | 1265.2 | 71.5 | 218° | 5.0 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| M-0203 | Tenement of Avice the pie-seller | tenement | 907.3 | 1264.0 | 71.5 | 211° | 8.6 x 6.5 | 3.0 | gable 3.5 | 1 | timber |
-| M-0204 | Storehouse of Osbert the cobbler | storehouse | 924.2 | 1266.4 | 71.5 | 206° | 8.8 x 7.4 | 3.6 | gable 4.0 | 1 | timber |
-| M-0205 | Tenement of Godwin the tinker | tenement | 938.8 | 1265.3 | 71.5 | 116° | 7.9 x 9.0 | 3.0 | gable 4.3 | 1 | timber |
-| M-0206 | Stable of Ralph the butcher | stable | 949.2 | 1266.0 | 71.5 | 113° | 4.2 x 4.9 | 3.6 | gable 2.3 | 1 | timber |
-| M-0207 | Tenement of Piers the bowyer | tenement | 957.6 | 1265.6 | 71.5 | 199° | 4.2 x 5.5 | 6.0 | gable 2.3 | 2 | timber |
-| M-0208 | Workshop of Hugh the jeweller | workshop | 973.6 | 1264.9 | 71.5 | 195° | 6.2 x 8.9 | 3.6 | gable 3.4 | 1 | timber |
-| M-0209 | Tenement of Elena the fishmonger | tenement | 983.6 | 1265.1 | 71.5 | 189° | 7.8 x 8.4 | 6.0 | gable 4.3 | 2 | timber |
-| M-0210 | Tenement of Nicholas the saddler | tenement | 1042.4 | 1264.2 | 71.5 | 172° | 8.4 x 6.4 | 9.0 | gable 3.5 | 3 | timber |
-| M-0211 | Workshop of Beatrice the herbalist | workshop | 1060.1 | 1264.1 | 71.5 | 172° | 7.5 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| M-0212 | Tenement of Nicholas the mercer | tenement | 1074.3 | 1264.2 | 71.5 | 73° | 7.1 x 8.9 | 9.0 | gable 3.9 | 3 | timber |
-| M-0213 | Storehouse of Laurence the limner | storehouse | 1086.0 | 1264.6 | 71.5 | 76° | 8.5 x 7.2 | 3.6 | gable 4.0 | 1 | timber |
-| M-0214 | Workshop of Petronilla the vintner | workshop | 1099.6 | 1265.2 | 71.5 | 66° | 7.4 x 8.2 | 3.6 | gable 4.0 | 1 | timber |
-| M-0215 | Stable of Hawise the stonecarver | stable | 1110.6 | 1264.8 | 71.5 | 63° | 4.1 x 5.3 | 3.6 | gable 2.2 | 1 | timber |
-| M-0216 | Storehouse of Adam the lute-maker | storehouse | 1120.0 | 1264.1 | 71.5 | 61° | 4.1 x 4.4 | 3.6 | gable 2.2 | 1 | timber |
-| M-0217 | Workshop of Rose the pewterer | workshop | 1144.1 | 1264.2 | 71.5 | 61° | 7.7 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| M-0218 | Stable of Avice the glover | stable | 1162.4 | 1266.4 | 71.4 | 52° | 6.2 x 8.5 | 3.6 | gable 3.4 | 1 | timber |
-| M-0219 | Storehouse of Simon the herbalist | storehouse | 1178.9 | 1265.0 | 71.4 | 52° | 7.7 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| M-0220 | Stable of Beatrice the cobbler | stable | 1221.4 | 1266.6 | 71.3 | 48° | 8.1 x 8.2 | 3.6 | gable 4.4 | 1 | timber |
-| M-0221 | Stable of Hugh the vintner | stable | 1237.6 | 1266.7 | 71.3 | 132° | 6.9 x 8.3 | 3.6 | gable 3.8 | 1 | timber |
-| M-0222 | Storehouse of Felice the glover | storehouse | 898.7 | 1274.4 | 71.3 | 123° | 6.1 x 6.6 | 3.6 | gable 3.4 | 1 | timber |
-| M-0223 | Tenement of Joan the bellfounder | tenement | 915.2 | 1271.9 | 71.4 | 208° | 4.8 x 5.3 | 9.0 | gable 2.7 | 3 | timber |
-| M-0224 | Tenement of Sybil the carpenter | tenement | 937.5 | 1275.1 | 71.3 | 114° | 4.5 x 4.1 | 9.0 | gable 2.2 | 3 | timber |
-| M-0225 | Stable of Walter the butcher | stable | 947.7 | 1273.3 | 71.3 | 112° | 5.0 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| M-0226 | Storehouse of Ivetta the herbalist | storehouse | 955.8 | 1275.3 | 71.4 | 106° | 4.2 x 4.3 | 3.6 | gable 2.3 | 1 | timber |
-| M-0227 | Workshop of Alys the hatter | workshop | 966.5 | 1275.1 | 71.4 | 198° | 8.9 x 7.4 | 3.6 | gable 4.1 | 1 | timber |
-| M-0228 | Workshop of Ida the bookbinder | workshop | 982.7 | 1275.5 | 71.3 | 102° | 6.9 x 7.2 | 3.6 | gable 3.8 | 1 | timber |
-| M-0229 | Storehouse of Ivetta the limner | storehouse | 1049.3 | 1272.4 | 71.3 | 86° | 4.2 x 4.7 | 3.6 | gable 2.3 | 1 | timber |
-| M-0230 | Storehouse of Cecily the wheelwright | storehouse | 1145.3 | 1274.9 | 71.3 | 152° | 8.8 x 7.3 | 3.6 | gable 4.0 | 1 | timber |
-| M-0231 | Workshop of Margery the money-changer | workshop | 1169.1 | 1272.8 | 71.3 | 56° | 5.1 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| M-0232 | Workshop of Sybil the stonecarver | workshop | 1229.7 | 1272.5 | 71.3 | 132° | 5.2 x 5.3 | 3.6 | gable 2.9 | 1 | timber |
-| M-0233 | Tenement of Juliana the pewterer | tenement | 870.0 | 1283.1 | 71.2 | 125° | 4.6 x 5.0 | 9.0 | gable 2.5 | 3 | timber |
-| M-0234 | Workshop of Cecily the mercer | workshop | 889.6 | 1282.5 | 71.1 | 126° | 6.2 x 6.8 | 3.6 | gable 3.4 | 1 | timber |
-| M-0235 | Tenement of Rose the lute-maker | tenement | 905.0 | 1281.7 | 71.2 | 123° | 4.6 x 4.9 | 3.0 | gable 2.5 | 1 | timber |
-| M-0236 | Tenement of Christiana the spicer | tenement | 915.0 | 1281.8 | 71.3 | 116° | 4.0 x 4.8 | 6.0 | gable 2.2 | 2 | timber |
-| M-0237 | Tenement of Sybil the scribe | tenement | 931.5 | 1281.5 | 71.2 | 202° | 5.3 x 5.1 | 6.0 | gable 2.8 | 2 | timber |
-| M-0238 | Tenement of Ralph the money-changer | tenement | 948.3 | 1282.5 | 71.2 | 113° | 6.3 x 8.0 | 9.0 | gable 3.5 | 3 | timber |
-| M-0239 | Workshop of Agnes the clockmaker | workshop | 964.7 | 1283.6 | 71.2 | 103° | 4.2 x 5.5 | 3.6 | gable 2.3 | 1 | timber |
-| M-0240 | Workshop of Walter the tinker | workshop | 1041.2 | 1281.8 | 71.2 | 87° | 5.4 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| M-0241 | Workshop of Felice the chandler | workshop | 1049.3 | 1282.8 | 71.2 | 86° | 4.2 x 4.6 | 3.6 | gable 2.3 | 1 | timber |
-| M-0242 | Storehouse of Osbert the tinker | storehouse | 1059.7 | 1283.8 | 71.2 | 169° | 8.2 x 7.8 | 3.6 | gable 4.3 | 1 | timber |
-| M-0243 | Tenement of Hawise the candlemaker | tenement | 1075.8 | 1280.8 | 71.2 | 79° | 7.5 x 7.7 | 6.0 | gable 4.1 | 2 | timber |
-| M-0244 | Stable of Sybil the ropemaker | stable | 1092.6 | 1281.1 | 71.2 | 162° | 7.8 x 8.5 | 3.6 | gable 4.3 | 1 | timber |
-| M-0245 | Tenement of Baldwin the scribe | tenement | 1159.2 | 1282.7 | 71.2 | 144° | 6.9 x 6.7 | 3.0 | gable 3.7 | 1 | timber |
-| M-0246 | Tenement of Ralph the herbalist | tenement | 1179.3 | 1283.9 | 71.1 | 55° | 5.2 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| M-0247 | Storehouse of Avice the tailor | storehouse | 1186.2 | 1280.0 | 71.2 | 140° | 4.4 x 4.8 | 3.6 | gable 2.4 | 1 | timber |
-| M-0248 | Stable of Joan the armourer | stable | 1221.1 | 1281.0 | 71.1 | 140° | 5.3 x 5.5 | 3.6 | gable 2.9 | 1 | timber |
-| M-0249 | Tenement of Petronilla the mercer | tenement | 1236.7 | 1282.1 | 71.1 | 42° | 9.0 x 8.4 | 6.0 | gable 4.6 | 2 | timber |
-| M-0250 | Workshop of Martin the carpenter | workshop | 804.9 | 1291.9 | 71.0 | 225° | 7.7 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| M-0251 | Stable of Felice the goldsmith | stable | 880.2 | 1291.4 | 71.0 | 217° | 5.1 x 5.0 | 3.6 | gable 2.8 | 1 | timber |
-| M-0252 | Storehouse of Isabel the butcher | storehouse | 921.6 | 1291.9 | 71.0 | 205° | 7.3 x 8.6 | 3.6 | gable 4.0 | 1 | timber |
-| M-0253 | Tenement of Godwin the tinker | tenement | 940.4 | 1290.5 | 71.1 | 108° | 4.2 x 4.6 | 6.0 | gable 2.3 | 2 | timber |
-| M-0254 | Workshop of Cecily the spicer | workshop | 954.9 | 1291.2 | 71.1 | 197° | 5.2 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| M-0255 | Tenement of Cecily the ropemaker | tenement | 975.2 | 1291.9 | 71.1 | 192° | 8.4 x 8.3 | 6.0 | gable 4.5 | 2 | timber |
-| M-0256 | Tenement of Geoffrey the cutler | tenement | 988.5 | 1290.9 | 71.1 | 96° | 7.0 x 6.6 | 6.0 | gable 3.6 | 2 | timber |
-| M-0257 | Storehouse of Juliana the jeweller | storehouse | 998.5 | 1291.0 | 71.1 | 99° | 7.3 x 7.5 | 3.6 | gable 4.0 | 1 | timber |
-| M-0258 | Stable of Agnes the glover | stable | 1041.5 | 1291.3 | 71.1 | 88° | 4.9 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| M-0259 | Tenement of Emma the fuller | tenement | 1051.8 | 1291.9 | 71.1 | 83° | 5.5 x 4.7 | 9.0 | gable 2.6 | 3 | timber |
-| M-0260 | Tenement of Robin the butcher | tenement | 1076.6 | 1290.4 | 71.1 | 79° | 5.1 x 4.7 | 9.0 | gable 2.6 | 3 | timber |
-| M-0261 | Storehouse of Martin the baker | storehouse | 889.3 | 1299.7 | 71.0 | 121° | 7.7 x 7.0 | 3.6 | gable 3.8 | 1 | timber |
-| M-0262 | Tenement of Ivetta the tanner | tenement | 906.3 | 1300.5 | 71.0 | 115° | 6.1 x 7.7 | 6.0 | gable 3.4 | 2 | timber |
-| M-0263 | Tenement of Gilbert the parchmenter | tenement | 963.5 | 1297.5 | 71.0 | 195° | 6.3 x 8.7 | 9.0 | gable 3.4 | 3 | timber |
-| M-0264 | Storehouse of Ivetta the pie-seller | storehouse | 1042.7 | 1299.8 | 71.0 | 87° | 4.8 x 5.1 | 3.6 | gable 2.6 | 1 | timber |
-| M-0265 | Stable of Alys the furrier | stable | 1066.2 | 1300.6 | 71.0 | 79° | 8.5 x 8.7 | 3.6 | gable 4.7 | 1 | timber |
-| M-0266 | Tenement of Martin the wheelwright | tenement | 1076.2 | 1297.8 | 71.0 | 169° | 5.0 x 4.5 | 9.0 | gable 2.5 | 3 | timber |
-| M-0267 | Tenement of Osbert the butcher | tenement | 880.9 | 1306.9 | 70.9 | 212° | 5.1 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| M-0268 | Tenement of Cecily the saddler | tenement | 896.2 | 1305.7 | 70.9 | 210° | 4.5 x 5.0 | 3.0 | gable 2.5 | 1 | timber |
-| M-0269 | Workshop of Agnes the scribe | workshop | 913.6 | 1306.8 | 70.9 | 209° | 4.8 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| M-0270 | Stable of Rose the fishmonger | stable | 963.2 | 1307.3 | 70.9 | 192° | 4.7 x 5.1 | 3.6 | gable 2.6 | 1 | timber |
-| M-0271 | Stable of Adam the weaver | stable | 973.2 | 1309.2 | 70.9 | 98° | 6.8 x 7.2 | 3.6 | gable 3.7 | 1 | timber |
-| M-0272 | Storehouse of Thomas the scribe | storehouse | 983.3 | 1309.0 | 70.9 | 96° | 5.2 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| M-0273 | Stable of Christiana the locksmith | stable | 990.9 | 1309.4 | 70.9 | 184° | 4.2 x 4.3 | 3.6 | gable 2.3 | 1 | timber |
-| M-0274 | Storehouse of Ivetta the goldsmith | storehouse | 998.8 | 1308.4 | 70.9 | 189° | 4.3 x 5.2 | 3.6 | gable 2.3 | 1 | timber |
-| M-0275 | Tenement of Matilda the apothecary | tenement | 1043.3 | 1308.7 | 70.9 | 179° | 7.4 x 6.2 | 3.0 | gable 3.4 | 1 | timber |
-| M-0276 | Tenement of Christiana the armourer | tenement | 1083.7 | 1306.0 | 70.9 | 76° | 5.4 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-
-## Minster close (13 buildings)
-
-7 cathedral, 3 cloister, 1 chapter house, 1 palace, 1 house
+196 shop, 111 workshop, 103 house, 9 tower, 6 church, 4 hall, 1 guildhall, 1 belfry, 1 manor house, 1 bazaar, 1 inn, 1 institution
 
 | ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
 |---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| K-0001 | Stonehallow Minster (nave) | cathedral | 650.0 | 1040.0 | 71.7 | 0° | 110.0 x 30.0 | 32.0 | gable 16.5 | 1 | stone |
-| K-0002 | Stonehallow Minster (choir) | cathedral | 730.0 | 1040.0 | 71.7 | 0° | 50.0 x 26.0 | 30.0 | gable 14.3 | 1 | stone |
-| K-0003 | Stonehallow Minster (Lady Chapel) | cathedral | 767.0 | 1040.0 | 71.7 | 0° | 24.0 x 15.0 | 18.0 | gable 8.2 | 1 | stone |
-| K-0004 | Stonehallow Minster (transepts) | cathedral | 705.0 | 1040.0 | 71.7 | 0° | 26.0 x 74.0 | 32.0 | gable 14.3 | 1 | stone |
-| K-0005 | Stonehallow Minster (crossing tower) | cathedral | 705.0 | 1040.0 | 71.7 | 0° | 26.0 x 26.0 | 62.0 | spire 58.0 | 12 | stone |
-| K-0006 | Stonehallow Minster (west tower) | cathedral | 586.0 | 1020.0 | 71.7 | 0° | 18.0 x 18.0 | 68.0 | crenel 0.0 | 12 | stone |
-| K-0007 | Stonehallow Minster (west tower) | cathedral | 586.0 | 1060.0 | 71.7 | 0° | 18.0 x 18.0 | 68.0 | crenel 0.0 | 12 | stone |
-| K-0008 | Cloister east range & dormitory | cloister | 692.0 | 1100.0 | 71.7 | 90° | 50.0 x 10.0 | 10.0 | gable 5.5 | 1 | stone |
-| K-0009 | Cloister south range & library | cloister | 660.0 | 1132.0 | 71.7 | 180° | 54.0 x 10.0 | 10.0 | gable 5.5 | 1 | stone |
-| K-0010 | Cloister west range | cloister | 628.0 | 1100.0 | 71.7 | 270° | 50.0 x 10.0 | 10.0 | gable 5.5 | 1 | stone |
-| K-0011 | Chapter House | chapter house | 724.0 | 1100.0 | 71.7 | 0° | round, 22.0 across | 14.0 | cone 10.0 | 1 | stone |
-| K-0012 | Bishop's Palace | palace | 760.0 | 1140.0 | 71.6 | 180° | 40.0 x 14.0 | 13.0 | hip 6.3 | 3 | stone |
-| K-0013 | Deanery | house | 585.0 | 1135.0 | 71.7 | 0° | 22.0 x 12.0 | 10.0 | hip 5.4 | 2 | stone |
+| O-0001 | Old wall tower | tower | 1656.2 | 1374.7 | 103.7 | 0° | round, 10.0 across | 11.0 | cone 9.0 | 1 | stone |
+| O-0002 | Old wall tower | tower | 1834.4 | 1387.8 | 74.3 | 0° | round, 10.0 across | 11.0 | cone 9.0 | 1 | stone |
+| O-0003 | Old wall tower | tower | 2080.2 | 1445.3 | 38.6 | 0° | round, 10.0 across | 11.0 | cone 9.0 | 1 | stone |
+| O-0004 | Old wall tower | tower | 2209.1 | 1550.3 | 37.0 | 0° | round, 10.0 across | 11.0 | cone 9.0 | 1 | stone |
+| O-0005 | Old wall tower | tower | 2235.0 | 1600.0 | 36.8 | 0° | round, 10.0 across | 11.0 | cone 9.0 | 1 | stone |
+| O-0006 | Old wall tower | tower | 2151.4 | 1737.1 | 36.4 | 0° | round, 10.0 across | 11.0 | cone 9.0 | 1 | stone |
+| O-0007 | Old wall tower | tower | 1740.0 | 1755.0 | 38.1 | 0° | round, 10.0 across | 11.0 | cone 9.0 | 1 | stone |
+| O-0008 | Old wall tower | tower | 1610.9 | 1732.8 | 40.8 | 0° | round, 10.0 across | 11.0 | cone 9.0 | 1 | stone |
+| O-0009 | Old wall tower | tower | 1517.0 | 1526.8 | 53.5 | 0° | round, 10.0 across | 11.0 | cone 9.0 | 1 | stone |
+| O-0010 | Guildhall of Stonehallow | guildhall | 1880.0 | 1490.0 | 41.0 | 180° | 64.0 x 18.0 | 18.0 | hip 8.1 | 3 | stone |
+| O-0011 | Town Belfry | belfry | 1990.0 | 1560.0 | 40.1 | 270° | 14.0 x 14.0 | 58.0 | spire 16.0 | 10 | stone |
+| O-0012 | Town Hall | hall | 1990.0 | 1592.0 | 38.2 | 270° | 30.0 x 22.0 | 16.0 | hip 9.9 | 3 | stone |
+| O-0013 | Wardenhouse (your house) | manor house | 1657.0 | 1658.0 | 41.7 | 0° | 18.0 x 12.0 | 11.0 | hip 5.4 | 3 | stone |
+| O-0014 | The Spice Bazaar (covered street) | bazaar | 2075.0 | 1520.0 | 37.4 | 25° | 160.0 x 16.0 | 9.0 | gable 8.8 | 1 | timber |
+| O-0015 | Wool Hall | hall | 2010.0 | 1685.0 | 37.5 | 180° | 60.0 x 22.0 | 12.0 | gable 12.1 | 2 | stone |
+| O-0016 | The Sleeping Giant | inn | 1740.0 | 1662.0 | 40.1 | 0° | 22.0 x 14.0 | 11.0 | gable 7.7 | 3 | timber |
+| O-0017 | Church of St. Bede | church | 2100.0 | 1650.0 | 37.4 | 90° | 24.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| O-0018 | Church of St. Bede (tower) | church | 2100.0 | 1634.0 | 37.5 | 90° | 8.0 x 8.0 | 30.0 | spire 14.0 | 4 | stone |
+| O-0019 | Church of St. Columba | church | 1958.0 | 1450.0 | 42.9 | 0° | 24.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| O-0020 | Church of St. Columba (tower) | church | 1942.0 | 1450.0 | 44.5 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
+| O-0021 | Church of St. Thomas | church | 1700.0 | 1680.0 | 40.2 | 0° | 36.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| O-0022 | Church of St. Thomas (tower) | church | 1678.0 | 1680.0 | 41.0 | 0° | 8.0 x 8.0 | 22.0 | crenel 14.0 | 4 | stone |
+| O-0023 | Jail & Court of Pie Powder | institution | 1726.9 | 1504.0 | 51.5 | 0° | 30.0 x 24.0 | 9.0 | hip 10.8 | 2 | stone |
+| O-0024 | Hall of the Goldsmiths | hall | 1900.0 | 1650.0 | 38.4 | 0° | 24.0 x 15.0 | 11.0 | hip 6.8 | 2 | stone |
+| O-0025 | Clockmakers' Hall | hall | 2100.0 | 1592.0 | 37.6 | 0° | 22.0 x 14.0 | 11.0 | hip 6.3 | 2 | stone |
+| O-0026 | House of Petronilla the limner | shop | 1820.7 | 1618.1 | 40.2 | 136° | 6.4 x 9.7 | 15.5 | gable 3.5 | 5 | timber |
+| O-0027 | House of Laurence the goldsmith | house | 1815.7 | 1622.3 | 40.0 | 136° | 5.8 x 10.6 | 9.3 | hip 2.6 | 3 | timber |
+| O-0028 | House of Gilbert the tailor | shop | 1783.2 | 1652.0 | 39.9 | 134° | 6.3 x 14.2 | 12.4 | hip 2.8 | 4 | timber |
+| O-0029 | Workshop of Gilbert the tailor | workshop | 1775.1 | 1644.2 | 40.2 | 134° | 6.0 x 5.4 | 3.2 | gable 3.0 | 1 | timber |
+| O-0030 | House of Cecily the potter | shop | 1774.5 | 1663.9 | 39.8 | 133° | 9.4 x 10.3 | 15.5 | gable 5.2 | 5 | timber |
+| O-0031 | House of Piers the pie-seller | house | 1768.3 | 1670.3 | 39.6 | 132° | 7.2 x 10.9 | 12.4 | gable 4.0 | 4 | timber |
+| O-0032 | Workshop of Piers the pie-seller | workshop | 1760.3 | 1663.2 | 40.0 | 132° | 6.3 x 6.2 | 3.2 | gable 3.4 | 1 | timber |
+| O-0033 | House of Odo the stonecarver | shop | 1761.7 | 1675.4 | 39.5 | 130° | 7.6 x 14.3 | 15.5 | gable 4.2 | 5 | timber |
+| O-0034 | House of Walter the ropemaker | shop | 1752.0 | 1691.1 | 39.3 | 125° | 6.7 x 10.2 | 9.3 | gable 3.7 | 3 | timber |
+| O-0035 | Workshop of Walter the ropemaker | workshop | 1744.0 | 1685.5 | 39.6 | 125° | 6.4 x 6.3 | 3.2 | gable 3.5 | 1 | timber |
+| O-0036 | House of Simon the wheelwright | house | 1746.0 | 1696.4 | 39.1 | 124° | 7.6 x 14.1 | 9.3 | gable 4.2 | 3 | timber |
+| O-0037 | Workshop of Simon the wheelwright | workshop | 1735.9 | 1689.8 | 39.6 | 124° | 7.4 x 4.8 | 3.2 | gable 2.7 | 1 | timber |
+| O-0038 | House of Henry the bowyer | shop | 1742.0 | 1704.9 | 38.9 | 122° | 9.5 x 11.3 | 12.4 | gable 5.2 | 4 | timber |
+| O-0039 | House of Godwin the minstrel | shop | 1736.1 | 1712.9 | 38.8 | 121° | 8.9 x 13.1 | 9.3 | gable 4.9 | 3 | stone |
+| O-0040 | Workshop of Godwin the minstrel | workshop | 1726.6 | 1707.3 | 39.2 | 121° | 4.8 x 5.8 | 3.2 | gable 2.6 | 1 | timber |
+| O-0041 | House of Nicholas the goldsmith | shop | 1732.2 | 1720.8 | 38.6 | 119° | 6.9 x 11.9 | 12.4 | hip 3.1 | 4 | timber |
+| O-0042 | House of Ivetta the locksmith | shop | 1720.8 | 1742.4 | 38.4 | 113° | 8.1 x 13.3 | 9.3 | gable 4.4 | 3 | timber |
+| O-0043 | House of Jordan the cooper | shop | 1843.0 | 1628.2 | 39.5 | 315° | 8.2 x 9.6 | 12.4 | gable 4.5 | 4 | stone |
+| O-0044 | House of Amice the glover | house | 1837.4 | 1634.5 | 39.4 | 316° | 7.6 x 10.7 | 12.4 | hip 3.4 | 4 | timber |
+| O-0045 | House of Odo the cutler | shop | 1832.9 | 1639.9 | 39.3 | 316° | 5.6 x 12.2 | 12.4 | gable 3.1 | 4 | timber |
+| O-0046 | House of Margery the cheesemonger | house | 1798.6 | 1672.4 | 39.1 | 314° | 6.8 x 10.0 | 9.3 | hip 3.1 | 3 | timber |
+| O-0047 | Workshop of Margery the cheesemonger | workshop | 1805.6 | 1679.1 | 38.9 | 314° | 6.7 x 6.0 | 3.2 | gable 3.3 | 1 | timber |
+| O-0048 | House of Rose the limner | shop | 1787.5 | 1684.8 | 38.9 | 312° | 9.1 x 10.6 | 9.3 | hip 4.1 | 3 | stone |
+| O-0049 | House of Sybil the ropemaker | shop | 1771.7 | 1705.2 | 38.5 | 306° | 8.5 x 11.8 | 15.5 | gable 4.7 | 5 | timber |
+| O-0050 | House of Martin the tanner | house | 1756.7 | 1730.8 | 38.1 | 300° | 5.9 x 14.1 | 9.3 | hip 2.7 | 3 | timber |
+| O-0051 | House of Robin the salter | shop | 1747.6 | 1744.1 | 38.1 | 295° | 9.4 x 10.3 | 12.4 | gable 5.2 | 4 | timber |
+| O-0052 | Workshop of Robin the salter | workshop | 1756.8 | 1748.5 | 38.0 | 295° | 7.5 x 6.9 | 3.2 | gable 3.8 | 1 | timber |
+| O-0053 | House of Maud the jeweller | house | 1739.6 | 1596.7 | 42.5 | 338° | 8.4 x 13.3 | 15.5 | gable 4.6 | 5 | timber |
+| O-0054 | Workshop of Maud the jeweller | workshop | 1743.5 | 1606.7 | 42.1 | 338° | 6.5 x 5.0 | 3.2 | gable 2.7 | 1 | timber |
+| O-0055 | House of Joan the cooper | shop | 1761.6 | 1585.7 | 41.3 | 329° | 9.5 x 13.9 | 15.5 | gable 5.2 | 5 | timber |
+| O-0056 | Workshop of Joan the cooper | workshop | 1767.7 | 1595.7 | 41.4 | 329° | 6.2 x 7.0 | 3.2 | gable 3.4 | 1 | timber |
+| O-0057 | House of Petronilla the juggler | shop | 1770.2 | 1580.9 | 40.8 | 327° | 8.7 x 14.9 | 12.4 | hip 3.9 | 4 | stone |
+| O-0058 | Workshop of Petronilla the juggler | workshop | 1777.1 | 1591.7 | 40.8 | 327° | 5.4 x 4.8 | 3.2 | gable 2.7 | 1 | timber |
+| O-0059 | House of Hugh the baker | house | 1776.0 | 1574.3 | 40.9 | 328° | 7.7 x 10.0 | 12.4 | gable 4.2 | 4 | timber |
+| O-0060 | House of Beatrice the wheelwright | house | 1670.4 | 1565.2 | 47.0 | 206° | 6.4 x 14.7 | 12.4 | gable 3.5 | 4 | timber |
+| O-0061 | Workshop of Beatrice the wheelwright | workshop | 1675.8 | 1554.0 | 48.6 | 206° | 5.0 x 6.0 | 3.2 | gable 2.7 | 1 | timber |
+| O-0062 | House of Cecily the fuller | house | 1681.7 | 1571.3 | 46.1 | 203° | 7.1 x 13.1 | 12.4 | gable 3.9 | 4 | timber |
+| O-0063 | House of Ida the wheelwright | shop | 1700.8 | 1578.9 | 44.9 | 192° | 7.2 x 10.9 | 9.3 | hip 3.2 | 3 | timber |
+| O-0064 | Workshop of Ida the wheelwright | workshop | 1703.0 | 1568.4 | 45.9 | 192° | 5.8 x 6.0 | 3.2 | gable 3.2 | 1 | timber |
+| O-0065 | House of Maud the butcher | shop | 1711.8 | 1577.9 | 44.5 | 175° | 6.3 x 14.7 | 15.5 | gable 3.5 | 5 | timber |
+| O-0066 | Workshop of Maud the butcher | workshop | 1710.7 | 1565.4 | 46.0 | 175° | 4.9 x 6.3 | 3.2 | gable 2.7 | 1 | timber |
+| O-0067 | House of Ivetta the net-mender | house | 1724.7 | 1575.4 | 44.2 | 162° | 7.1 x 14.4 | 15.5 | gable 3.9 | 5 | stone |
+| O-0068 | House of Alys the sailmaker | shop | 1742.0 | 1568.3 | 43.6 | 151° | 5.7 x 13.5 | 9.3 | gable 3.1 | 3 | timber |
+| O-0069 | Workshop of Alys the sailmaker | workshop | 1736.1 | 1557.6 | 45.7 | 151° | 5.2 x 6.5 | 3.2 | gable 2.9 | 1 | timber |
+| O-0070 | House of Ivetta the herbalist | shop | 1753.1 | 1561.7 | 42.0 | 148° | 6.8 x 13.5 | 12.4 | gable 3.7 | 4 | timber |
+| O-0071 | House of Cecily the hatter | shop | 1760.6 | 1557.8 | 41.3 | 147° | 9.4 x 11.9 | 9.3 | gable 5.2 | 3 | timber |
+| O-0072 | House of Maud the pewterer | house | 2025.9 | 1622.0 | 38.0 | 358° | 6.1 x 14.6 | 15.5 | gable 3.3 | 5 | timber |
+| O-0073 | Workshop of Maud the pewterer | workshop | 2026.2 | 1634.3 | 37.9 | 358° | 5.4 x 6.9 | 3.2 | gable 3.0 | 1 | timber |
+| O-0074 | House of Laurence the parchmenter | shop | 2078.9 | 1620.0 | 37.6 | 3° | 8.3 x 10.1 | 9.3 | gable 4.6 | 3 | timber |
+| O-0075 | Workshop of Laurence the parchmenter | workshop | 2078.4 | 1629.3 | 37.6 | 3° | 5.0 x 5.4 | 3.2 | gable 2.7 | 1 | timber |
+| O-0076 | House of Mabel the chandler | house | 2017.3 | 1597.2 | 38.2 | 178° | 8.2 x 13.3 | 9.3 | hip 3.7 | 3 | timber |
+| O-0077 | House of Walter the goldsmith | house | 2025.1 | 1598.8 | 38.2 | 178° | 6.3 x 9.6 | 9.3 | gable 3.5 | 3 | stone |
+| O-0078 | Workshop of Walter the goldsmith | workshop | 2024.9 | 1588.5 | 38.2 | 178° | 4.7 x 7.0 | 3.2 | gable 2.6 | 1 | timber |
+| O-0079 | House of Ivetta the bowyer | shop | 2031.9 | 1596.0 | 38.1 | 179° | 6.5 x 14.8 | 9.3 | gable 3.6 | 3 | stone |
+| O-0080 | Workshop of Ivetta the bowyer | workshop | 2031.7 | 1583.8 | 38.1 | 179° | 5.7 x 6.3 | 3.2 | gable 3.1 | 1 | timber |
+| O-0081 | House of Cecily the draper | shop | 2040.5 | 1596.2 | 37.9 | 179° | 9.5 x 14.1 | 12.4 | gable 5.2 | 4 | timber |
+| O-0082 | Workshop of Cecily the draper | workshop | 2040.3 | 1583.6 | 38.1 | 179° | 8.3 x 5.6 | 3.2 | gable 3.1 | 1 | timber |
+| O-0083 | House of Alan the tinker | shop | 2062.7 | 1597.5 | 37.8 | 181° | 6.5 x 11.4 | 9.3 | gable 3.6 | 3 | timber |
+| O-0084 | House of Felice the cartographer | shop | 2070.6 | 1597.9 | 37.7 | 182° | 8.2 x 11.1 | 15.5 | gable 4.5 | 5 | timber |
+| O-0085 | House of Alan the jeweller | shop | 2118.9 | 1601.2 | 37.5 | 188° | 7.7 x 12.4 | 12.4 | gable 4.2 | 4 | timber |
+| O-0086 | House of Osbert the glover | shop | 1926.1 | 1466.0 | 43.7 | 313° | 7.8 x 13.4 | 12.4 | gable 4.3 | 4 | timber |
+| O-0087 | Workshop of Osbert the glover | workshop | 1934.1 | 1473.6 | 43.0 | 313° | 5.5 x 6.5 | 3.2 | gable 3.0 | 1 | timber |
+| O-0088 | House of Baldwin the clockmaker | shop | 1930.7 | 1458.7 | 44.3 | 314° | 8.4 x 10.0 | 9.3 | gable 4.6 | 3 | timber |
+| O-0089 | House of Godwin the lute-maker | house | 1973.5 | 1417.8 | 45.5 | 321° | 8.1 x 9.7 | 9.3 | gable 4.5 | 3 | timber |
+| O-0090 | Workshop of Godwin the lute-maker | workshop | 1979.5 | 1425.2 | 44.5 | 321° | 5.9 x 6.2 | 3.2 | gable 3.3 | 1 | timber |
+| O-0091 | House of Ida the bookbinder | house | 2006.3 | 1397.2 | 44.3 | 330° | 8.2 x 12.0 | 12.4 | hip 3.7 | 4 | timber |
+| O-0092 | House of Stephen the baker | shop | 2029.7 | 1386.4 | 43.0 | 337° | 9.4 x 13.4 | 15.5 | gable 5.2 | 5 | timber |
+| O-0093 | Workshop of Stephen the baker | workshop | 2034.4 | 1397.5 | 42.3 | 337° | 7.7 x 5.1 | 3.2 | gable 2.8 | 1 | timber |
+| O-0094 | House of Christiana the tanner | shop | 1894.5 | 1463.3 | 46.1 | 132° | 6.8 x 14.1 | 12.4 | gable 3.7 | 4 | timber |
+| O-0095 | Workshop of Christiana the tanner | workshop | 1886.4 | 1455.9 | 48.4 | 132° | 6.0 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| O-0096 | House of Gilbert the candlemaker | shop | 1901.4 | 1459.5 | 46.4 | 133° | 7.3 x 9.1 | 9.3 | gable 4.0 | 3 | stone |
+| O-0097 | Workshop of Gilbert the candlemaker | workshop | 1894.2 | 1452.8 | 48.1 | 133° | 5.6 x 6.0 | 3.2 | gable 3.1 | 1 | timber |
+| O-0098 | House of Ralph the tanner | house | 1914.0 | 1446.2 | 47.0 | 134° | 8.7 x 9.0 | 9.3 | gable 4.8 | 3 | timber |
+| O-0099 | House of Matilda the bowyer | house | 1925.0 | 1433.7 | 47.6 | 135° | 7.6 x 10.6 | 12.4 | gable 4.2 | 4 | stone |
+| O-0100 | House of Hugh the jeweller | house | 1939.6 | 1418.8 | 48.3 | 137° | 7.4 x 11.4 | 9.3 | gable 4.1 | 3 | timber |
+| O-0101 | House of Cecily the minstrel | shop | 1944.3 | 1413.2 | 48.4 | 137° | 6.1 x 13.3 | 9.3 | gable 3.4 | 3 | stone |
+| O-0102 | House of Stephen the cartographer | shop | 1976.5 | 1389.6 | 48.2 | 147° | 9.1 x 10.0 | 15.5 | hip 4.1 | 5 | stone |
+| O-0103 | House of Beatrice the minstrel | shop | 1984.3 | 1384.6 | 47.9 | 148° | 8.3 x 9.9 | 9.3 | hip 3.8 | 3 | timber |
+| O-0104 | Workshop of Beatrice the minstrel | workshop | 1978.8 | 1375.8 | 50.0 | 148° | 4.8 x 5.6 | 3.2 | gable 2.6 | 1 | timber |
+| O-0105 | House of Simon the butcher | house | 1991.8 | 1380.6 | 47.5 | 149° | 7.1 x 9.1 | 15.5 | gable 3.9 | 5 | timber |
+| O-0106 | Workshop of Simon the butcher | workshop | 1987.2 | 1373.0 | 49.2 | 149° | 6.2 x 5.9 | 3.2 | gable 3.3 | 1 | timber |
+| O-0107 | House of Baldwin the juggler | shop | 2014.2 | 1367.7 | 45.9 | 155° | 9.0 x 10.8 | 12.4 | gable 5.0 | 4 | stone |
+| O-0108 | Workshop of Baldwin the juggler | workshop | 2010.0 | 1358.4 | 47.7 | 155° | 5.6 x 5.4 | 3.2 | gable 3.0 | 1 | timber |
+| O-0109 | House of Margery the fishmonger | shop | 2022.9 | 1362.0 | 45.2 | 158° | 9.4 x 14.6 | 9.3 | hip 4.2 | 3 | timber |
+| O-0110 | House of Adam the mercer | shop | 1619.3 | 1637.7 | 42.9 | 6° | 7.4 x 12.4 | 15.5 | hip 3.3 | 5 | timber |
+| O-0111 | Workshop of Adam the mercer | workshop | 1618.1 | 1648.3 | 42.7 | 6° | 6.4 x 5.2 | 3.2 | gable 2.9 | 1 | timber |
+| O-0112 | House of Robin the net-mender | house | 1617.0 | 1613.9 | 43.9 | 186° | 8.8 x 14.0 | 9.3 | gable 4.9 | 3 | timber |
+| O-0113 | Workshop of Robin the net-mender | workshop | 1618.5 | 1601.3 | 44.9 | 186° | 5.7 x 6.2 | 3.2 | gable 3.1 | 1 | timber |
+| O-0114 | House of Alys the barber-surgeon | house | 1717.8 | 1541.6 | 48.2 | 224° | 7.6 x 13.7 | 12.4 | gable 4.2 | 4 | timber |
+| O-0115 | House of Martin the fisher | shop | 1704.9 | 1554.0 | 47.3 | 44° | 7.2 x 9.8 | 15.5 | gable 4.0 | 5 | timber |
+| O-0116 | House of Christiana the tanner | house | 1698.1 | 1547.5 | 48.4 | 51° | 8.8 x 10.2 | 9.3 | hip 4.0 | 3 | stone |
+| O-0117 | House of Rose the apothecary | shop | 1693.4 | 1541.6 | 49.5 | 51° | 5.6 x 10.1 | 9.3 | gable 3.1 | 3 | timber |
+| O-0118 | Workshop of Rose the apothecary | workshop | 1685.3 | 1548.2 | 49.1 | 51° | 5.0 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| O-0119 | House of Robin the parchmenter | shop | 1683.1 | 1533.6 | 50.9 | 48° | 7.3 x 13.8 | 9.3 | gable 4.0 | 3 | timber |
+| O-0120 | Workshop of Robin the parchmenter | workshop | 1673.6 | 1542.3 | 50.3 | 48° | 6.7 x 6.6 | 3.2 | gable 3.6 | 1 | timber |
+| O-0121 | House of Felice the cartographer | shop | 1834.1 | 1475.8 | 49.0 | 189° | 9.0 x 12.4 | 15.5 | gable 5.0 | 5 | timber |
+| O-0122 | House of Elena the shipwright | house | 1824.5 | 1475.7 | 50.1 | 182° | 7.5 x 10.9 | 9.3 | hip 3.4 | 3 | timber |
+| O-0123 | Workshop of Elena the shipwright | workshop | 1824.8 | 1465.3 | 52.3 | 182° | 5.5 x 5.8 | 3.2 | gable 3.0 | 1 | timber |
+| O-0124 | House of Hawise the ropemaker | shop | 1831.5 | 1494.7 | 41.8 | 9° | 8.1 x 13.4 | 9.3 | gable 4.5 | 3 | timber |
+| O-0125 | House of Avice the tinker | shop | 1814.5 | 1491.9 | 45.8 | 14° | 9.3 x 11.6 | 15.5 | gable 5.1 | 5 | timber |
+| O-0126 | House of Osbert the dyer | shop | 2063.1 | 1579.0 | 38.0 | 276° | 8.8 x 12.4 | 12.4 | gable 4.8 | 4 | timber |
+| O-0127 | House of Sybil the draper | shop | 2065.7 | 1564.0 | 38.0 | 285° | 6.9 x 13.0 | 9.3 | hip 3.1 | 3 | stone |
+| O-0128 | Workshop of Sybil the draper | workshop | 2077.0 | 1567.0 | 38.0 | 285° | 5.9 x 6.4 | 3.2 | gable 3.3 | 1 | timber |
+| O-0129 | House of Alys the salter | shop | 2068.2 | 1555.8 | 38.0 | 281° | 7.8 x 13.9 | 9.3 | gable 4.3 | 3 | stone |
+| O-0130 | House of Felice the salter | house | 2044.1 | 1575.3 | 38.1 | 96° | 9.1 x 13.8 | 15.5 | hip 4.1 | 5 | timber |
+| O-0131 | Workshop of Felice the salter | workshop | 2032.1 | 1574.0 | 38.1 | 96° | 8.9 x 6.8 | 3.2 | gable 3.8 | 1 | timber |
+| O-0132 | House of Christiana the tanner | shop | 2045.0 | 1566.0 | 38.1 | 99° | 8.1 x 14.5 | 9.3 | gable 4.5 | 3 | timber |
+| O-0133 | Workshop of Christiana the tanner | workshop | 2033.0 | 1564.1 | 38.1 | 99° | 5.2 x 5.4 | 3.2 | gable 2.8 | 1 | timber |
+| O-0134 | House of Ralph the furrier | shop | 2047.5 | 1556.5 | 38.1 | 105° | 8.5 x 13.6 | 15.5 | gable 4.7 | 5 | stone |
+| O-0135 | House of Henry the carpenter | shop | 2051.5 | 1541.5 | 38.0 | 110° | 6.2 x 12.8 | 12.4 | gable 3.4 | 4 | stone |
+| O-0136 | Workshop of Henry the carpenter | workshop | 2040.5 | 1537.6 | 38.2 | 110° | 4.9 x 6.7 | 3.2 | gable 2.7 | 1 | timber |
+| O-0137 | House of Stephen the jeweller | house | 2054.1 | 1535.2 | 38.0 | 110° | 6.7 x 12.2 | 12.4 | gable 3.7 | 4 | timber |
+| O-0138 | House of Stephen the scribe | shop | 1699.3 | 1733.8 | 38.8 | 112° | 9.1 x 13.9 | 12.4 | gable 5.0 | 4 | timber |
+| O-0139 | House of Edith the stonecarver | shop | 2085.5 | 1712.5 | 36.9 | 22° | 7.1 x 13.5 | 9.3 | hip 3.2 | 3 | timber |
+| O-0140 | House of Edith the juggler | house | 2093.7 | 1713.6 | 36.8 | 21° | 7.7 x 9.6 | 15.5 | gable 4.2 | 5 | timber |
+| O-0141 | Workshop of Edith the juggler | workshop | 2090.0 | 1723.3 | 36.8 | 21° | 5.0 x 5.7 | 3.2 | gable 2.7 | 1 | timber |
+| O-0142 | House of Ralph the bowyer | shop | 2103.1 | 1722.5 | 36.7 | 49° | 6.2 x 11.8 | 9.3 | hip 2.8 | 3 | timber |
+| O-0143 | House of Robin the tanner | shop | 2085.8 | 1691.2 | 37.2 | 202° | 8.2 x 13.8 | 12.4 | hip 3.7 | 4 | timber |
+| O-0144 | House of Amice the furrier | shop | 2092.7 | 1694.7 | 37.1 | 202° | 6.1 x 12.5 | 12.4 | gable 3.4 | 4 | timber |
+| O-0145 | Workshop of Amice the furrier | workshop | 2096.8 | 1684.7 | 37.2 | 202° | 4.7 x 6.4 | 3.2 | gable 2.6 | 1 | timber |
+| O-0146 | House of Isabel the astrologer | house | 2107.6 | 1703.6 | 37.0 | 221° | 6.0 x 9.3 | 9.3 | gable 3.3 | 3 | timber |
+| O-0147 | Workshop of Isabel the astrologer | workshop | 2114.4 | 1695.9 | 37.0 | 221° | 4.8 x 5.8 | 3.2 | gable 2.6 | 1 | timber |
+| O-0148 | House of Hugh the cooper | shop | 2114.8 | 1709.1 | 36.8 | 229° | 9.2 x 11.1 | 12.4 | gable 5.0 | 4 | timber |
+| O-0149 | House of Laurence the carpenter | shop | 1791.2 | 1711.8 | 38.1 | 23° | 6.8 x 10.7 | 9.3 | gable 3.7 | 3 | stone |
+| O-0150 | Workshop of Laurence the carpenter | workshop | 1786.9 | 1721.8 | 38.1 | 23° | 5.9 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| O-0151 | House of Joan the pewterer | house | 1800.3 | 1714.9 | 38.0 | 15° | 9.2 x 10.2 | 15.5 | hip 4.2 | 5 | timber |
+| O-0152 | Workshop of Joan the pewterer | workshop | 1797.4 | 1725.5 | 37.9 | 15° | 7.7 x 7.0 | 3.2 | gable 3.8 | 1 | timber |
+| O-0153 | House of Ralph the fuller | shop | 1792.2 | 1694.6 | 38.5 | 207° | 6.9 x 9.0 | 12.4 | gable 3.8 | 4 | timber |
+| O-0154 | House of Hob the cartographer | house | 1820.5 | 1708.0 | 37.9 | 217° | 5.8 x 9.3 | 12.4 | hip 2.6 | 4 | timber |
+| O-0155 | House of Maud the hatter | shop | 2052.9 | 1636.5 | 37.7 | 52° | 8.5 x 14.1 | 9.3 | gable 4.7 | 3 | timber |
+| O-0156 | House of Ivetta the mason | shop | 2063.0 | 1647.8 | 37.7 | 68° | 7.3 x 9.3 | 9.3 | hip 3.3 | 3 | stone |
+| O-0157 | Workshop of Ivetta the mason | workshop | 2054.0 | 1651.3 | 37.6 | 68° | 5.5 x 6.9 | 3.2 | gable 3.0 | 1 | timber |
+| O-0158 | House of Elena the stonecarver | shop | 2072.3 | 1665.9 | 37.5 | 23° | 6.5 x 12.5 | 12.4 | gable 3.6 | 4 | timber |
+| O-0159 | House of Laurence the salter | shop | 2079.1 | 1640.9 | 37.6 | 248° | 9.2 x 13.3 | 9.3 | gable 5.0 | 3 | stone |
+| O-0160 | House of Christiana the candlemaker | house | 2082.2 | 1650.1 | 37.5 | 249° | 9.3 x 12.5 | 9.3 | gable 5.1 | 3 | stone |
+| O-0161 | House of Ralph the fletcher | shop | 1996.2 | 1350.2 | 50.7 | 235° | 7.3 x 12.1 | 15.5 | gable 4.0 | 5 | stone |
+| O-0162 | Workshop of Ralph the fletcher | workshop | 2004.9 | 1344.0 | 50.3 | 235° | 6.5 x 6.5 | 3.2 | gable 3.6 | 1 | timber |
+| O-0163 | House of Alan the draper | shop | 1988.1 | 1337.0 | 54.7 | 242° | 7.2 x 12.2 | 15.5 | gable 4.0 | 5 | stone |
+| O-0164 | Workshop of Alan the draper | workshop | 1998.0 | 1331.7 | 54.0 | 242° | 5.2 x 6.0 | 3.2 | gable 2.9 | 1 | timber |
+| O-0165 | House of Cecily the carpenter | house | 1983.2 | 1331.3 | 57.5 | 240° | 6.0 x 9.1 | 15.5 | gable 3.3 | 5 | timber |
+| O-0166 | House of Elena the dyer | house | 1977.4 | 1318.7 | 61.3 | 237° | 7.1 x 12.8 | 15.5 | hip 3.2 | 5 | timber |
+| O-0167 | House of Laurence the armourer | house | 1969.4 | 1312.6 | 65.3 | 224° | 7.8 x 9.8 | 15.5 | hip 3.5 | 5 | timber |
+| O-0168 | House of Amice the net-mender | shop | 1958.8 | 1299.5 | 70.7 | 233° | 9.3 x 10.7 | 9.3 | gable 5.1 | 3 | timber |
+| O-0169 | House of Richard the pie-seller | shop | 1951.3 | 1284.4 | 76.1 | 238° | 6.0 x 14.9 | 15.5 | gable 3.3 | 5 | stone |
+| O-0170 | Workshop of Richard the pie-seller | workshop | 1961.6 | 1277.8 | 74.8 | 238° | 5.6 x 5.3 | 3.2 | gable 2.9 | 1 | timber |
+| O-0171 | House of Simon the barber-surgeon | shop | 1946.4 | 1279.4 | 78.7 | 238° | 7.1 x 11.9 | 15.5 | gable 3.9 | 5 | stone |
+| O-0172 | Workshop of Simon the barber-surgeon | workshop | 1955.3 | 1273.8 | 77.5 | 238° | 6.1 x 5.3 | 3.2 | gable 2.9 | 1 | timber |
+| O-0173 | House of Beatrice the limner | shop | 1983.5 | 1363.3 | 51.1 | 55° | 6.6 x 11.2 | 12.4 | gable 3.6 | 4 | timber |
+| O-0174 | House of Ida the carpenter | shop | 1971.8 | 1348.0 | 55.9 | 62° | 9.3 x 14.6 | 15.5 | gable 5.1 | 5 | timber |
+| O-0175 | House of Ralph the draper | shop | 1959.2 | 1327.1 | 64.8 | 44° | 9.3 x 12.9 | 12.4 | gable 5.1 | 4 | timber |
+| O-0176 | House of Elena the cobbler | shop | 1952.4 | 1319.5 | 68.4 | 47° | 9.2 x 12.0 | 9.3 | hip 4.1 | 3 | timber |
+| O-0177 | House of Baldwin the locksmith | shop | 1946.0 | 1311.8 | 72.0 | 53° | 8.1 x 12.2 | 9.3 | hip 3.6 | 3 | timber |
+| O-0178 | House of Beatrice the armourer | shop | 1939.7 | 1305.1 | 75.1 | 56° | 8.3 x 14.6 | 12.4 | gable 4.6 | 4 | timber |
+| O-0179 | Workshop of Beatrice the armourer | workshop | 1930.2 | 1311.6 | 77.3 | 56° | 6.5 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| O-0180 | House of Ida the carpenter | shop | 1752.5 | 1609.9 | 41.7 | 45° | 5.6 x 12.4 | 9.3 | gable 3.1 | 3 | timber |
+| O-0181 | House of Ivetta the sailmaker | house | 1758.9 | 1614.4 | 41.4 | 45° | 9.0 x 9.6 | 12.4 | gable 4.9 | 4 | timber |
+| O-0182 | House of Martin the herbalist | shop | 1773.0 | 1629.5 | 40.5 | 27° | 6.0 x 14.8 | 9.3 | gable 3.3 | 3 | timber |
+| O-0183 | Workshop of Martin the herbalist | workshop | 1767.0 | 1641.3 | 40.4 | 27° | 4.8 x 6.2 | 3.2 | gable 2.6 | 1 | timber |
+| O-0184 | House of Elena the locksmith | shop | 1775.0 | 1605.9 | 41.0 | 232° | 6.3 x 13.6 | 12.4 | gable 3.5 | 4 | stone |
+| O-0185 | House of Stephen the mercer | shop | 1796.8 | 1622.6 | 40.4 | 212° | 8.3 x 10.2 | 15.5 | gable 4.6 | 5 | timber |
+| O-0186 | House of Robin the fisher | shop | 2113.7 | 1509.3 | 37.6 | 132° | 7.8 x 11.4 | 9.3 | gable 4.3 | 3 | timber |
+| O-0187 | House of Nicholas the bookbinder | house | 2026.4 | 1642.9 | 37.8 | 264° | 7.2 x 10.5 | 9.3 | hip 3.2 | 3 | stone |
+| O-0188 | House of Odo the goldsmith | shop | 2028.8 | 1652.0 | 37.8 | 270° | 8.6 x 14.9 | 9.3 | gable 4.7 | 3 | stone |
+| O-0189 | House of Edith the candlemaker | house | 2024.7 | 1662.2 | 37.8 | 288° | 6.2 x 11.0 | 15.5 | gable 3.4 | 5 | timber |
+| O-0190 | House of Ivetta the scribe | shop | 1748.8 | 1503.7 | 51.9 | 339° | 6.2 x 12.4 | 12.4 | gable 3.4 | 4 | timber |
+| O-0191 | Workshop of Ivetta the scribe | workshop | 1752.5 | 1513.7 | 50.7 | 339° | 6.0 x 4.5 | 3.2 | gable 2.5 | 1 | timber |
+| O-0192 | House of Beatrice the bookbinder | shop | 1785.5 | 1498.5 | 49.5 | 27° | 7.2 x 9.9 | 12.4 | gable 4.0 | 4 | timber |
+| O-0193 | House of Baldwin the herbalist | shop | 1801.7 | 1495.3 | 47.2 | 306° | 6.1 x 11.6 | 9.3 | gable 3.3 | 3 | timber |
+| O-0194 | House of Geoffrey the lute-maker | shop | 1747.0 | 1483.5 | 55.9 | 163° | 7.1 x 14.4 | 12.4 | hip 3.2 | 4 | timber |
+| O-0195 | Workshop of Geoffrey the lute-maker | workshop | 1743.8 | 1472.9 | 60.9 | 163° | 5.7 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| O-0196 | House of Hugh the minstrel | shop | 1754.1 | 1482.3 | 55.6 | 164° | 6.3 x 12.7 | 12.4 | hip 2.8 | 4 | stone |
+| O-0197 | Workshop of Hugh the minstrel | workshop | 1750.7 | 1470.9 | 60.5 | 164° | 5.9 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| O-0198 | House of Emma the net-mender | shop | 1771.7 | 1477.7 | 54.4 | 170° | 7.8 x 15.0 | 12.4 | gable 4.3 | 4 | timber |
+| O-0199 | Workshop of Emma the net-mender | workshop | 1769.6 | 1465.3 | 59.3 | 170° | 6.4 x 5.7 | 3.2 | gable 3.1 | 1 | timber |
+| O-0200 | House of Godwin the locksmith | shop | 1776.8 | 1735.5 | 37.9 | 20° | 6.5 x 10.1 | 12.4 | hip 2.9 | 4 | timber |
+| O-0201 | Workshop of Godwin the locksmith | workshop | 1773.2 | 1745.3 | 37.8 | 20° | 5.9 x 6.8 | 3.2 | gable 3.2 | 1 | timber |
+| O-0202 | House of Godwin the hatter | shop | 1764.8 | 1713.9 | 38.5 | 194° | 7.0 x 11.4 | 12.4 | gable 3.9 | 4 | stone |
+| O-0203 | House of Martin the saddler | house | 2122.1 | 1581.2 | 37.5 | 305° | 6.9 x 13.6 | 12.4 | hip 3.1 | 4 | timber |
+| O-0204 | Workshop of Martin the saddler | workshop | 2132.0 | 1588.2 | 37.4 | 305° | 5.9 x 6.6 | 3.2 | gable 3.2 | 1 | timber |
+| O-0205 | House of Agnes the fuller | shop | 2126.8 | 1571.4 | 37.5 | 283° | 7.2 x 11.6 | 15.5 | gable 3.9 | 5 | timber |
+| O-0206 | Workshop of Agnes the fuller | workshop | 2137.3 | 1573.8 | 37.4 | 283° | 5.7 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| O-0207 | House of Cecily the cheesemonger | house | 2103.3 | 1576.8 | 37.6 | 115° | 8.6 x 11.4 | 15.5 | gable 4.7 | 5 | timber |
+| O-0208 | House of Piers the chandler | house | 2110.5 | 1563.0 | 37.6 | 103° | 7.0 x 11.6 | 12.4 | hip 3.1 | 4 | timber |
+| O-0209 | House of Walter the glazier | shop | 1726.9 | 1638.0 | 41.2 | 186° | 8.3 x 11.1 | 12.4 | hip 3.8 | 4 | timber |
+| O-0210 | House of Laurence the fuller | shop | 1740.5 | 1637.8 | 41.0 | 179° | 5.8 x 12.7 | 15.5 | hip 2.6 | 5 | timber |
+| O-0211 | House of Ida the weaver | shop | 1749.1 | 1639.9 | 40.8 | 194° | 6.7 x 9.5 | 9.3 | gable 3.7 | 3 | timber |
+| O-0212 | House of Baldwin the cooper | shop | 1758.2 | 1640.7 | 40.5 | 198° | 9.1 x 12.4 | 15.5 | hip 4.1 | 5 | timber |
+| O-0213 | Workshop of Baldwin the cooper | workshop | 1761.5 | 1630.4 | 40.8 | 198° | 7.9 x 6.7 | 3.2 | gable 3.7 | 1 | timber |
+| O-0214 | House of Gilbert the stonecarver | house | 1922.3 | 1401.9 | 52.4 | 117° | 9.1 x 14.0 | 15.5 | hip 4.1 | 5 | timber |
+| O-0215 | House of Elena the saddler | house | 1906.6 | 1421.5 | 51.8 | 238° | 6.5 x 14.5 | 12.4 | hip 2.9 | 4 | stone |
+| O-0216 | Workshop of Elena the saddler | workshop | 1916.8 | 1414.9 | 52.0 | 238° | 5.1 x 4.5 | 3.2 | gable 2.5 | 1 | timber |
+| O-0217 | House of Robin the parchmenter | shop | 1901.3 | 1410.4 | 54.9 | 242° | 6.2 x 14.1 | 12.4 | gable 3.4 | 4 | stone |
+| O-0218 | House of Godwin the hatter | shop | 1887.0 | 1424.5 | 53.3 | 68° | 7.1 x 11.0 | 12.4 | gable 3.9 | 4 | stone |
+| O-0219 | House of Gilbert the tailor | house | 1871.2 | 1377.4 | 69.4 | 100° | 7.3 x 14.7 | 15.5 | gable 4.0 | 5 | timber |
+| O-0220 | House of Hugh the jeweller | shop | 1917.9 | 1321.9 | 76.5 | 124° | 6.8 x 13.7 | 9.3 | gable 3.7 | 3 | timber |
+| O-0221 | House of Mabel the mercer | shop | 1914.1 | 1329.6 | 75.4 | 120° | 8.2 x 12.2 | 9.3 | hip 3.7 | 3 | timber |
+| O-0222 | House of Baldwin the fletcher | shop | 1910.2 | 1337.6 | 74.0 | 113° | 6.8 x 12.1 | 12.4 | gable 3.7 | 4 | timber |
+| O-0223 | Workshop of Baldwin the fletcher | workshop | 1900.2 | 1333.3 | 79.1 | 113° | 6.2 x 5.7 | 3.2 | gable 3.1 | 1 | timber |
+| O-0224 | House of Maud the jeweller | shop | 1903.6 | 1348.7 | 72.2 | 123° | 8.7 x 10.9 | 12.4 | gable 4.8 | 4 | stone |
+| O-0225 | House of Beatrice the fletcher | house | 1897.3 | 1356.0 | 70.9 | 116° | 6.8 x 14.3 | 9.3 | gable 3.7 | 3 | stone |
+| O-0226 | House of Gilbert the cobbler | house | 1896.5 | 1364.3 | 69.2 | 113° | 7.5 x 9.1 | 12.4 | gable 4.1 | 4 | timber |
+| O-0227 | Workshop of Gilbert the cobbler | workshop | 1886.9 | 1360.2 | 73.3 | 113° | 6.0 x 6.3 | 3.2 | gable 3.3 | 1 | timber |
+| O-0228 | House of Petronilla the glover | shop | 1933.6 | 1333.0 | 69.5 | 304° | 7.9 x 12.3 | 12.4 | gable 4.3 | 4 | stone |
+| O-0229 | Workshop of Petronilla the glover | workshop | 1942.6 | 1339.1 | 66.7 | 304° | 6.0 x 6.1 | 3.2 | gable 3.3 | 1 | timber |
+| O-0230 | House of Alan the cobbler | shop | 1927.8 | 1346.8 | 66.5 | 293° | 6.8 x 15.0 | 9.3 | hip 3.1 | 3 | timber |
+| O-0231 | Workshop of Alan the cobbler | workshop | 1939.7 | 1352.0 | 63.9 | 293° | 4.8 x 5.3 | 3.2 | gable 2.7 | 1 | timber |
+| O-0232 | House of Isabel the herbalist | shop | 1917.6 | 1358.5 | 66.2 | 303° | 6.6 x 10.8 | 9.3 | gable 3.6 | 3 | timber |
+| O-0233 | House of Baldwin the bowyer | shop | 2071.4 | 1682.8 | 37.4 | 113° | 5.7 x 10.6 | 12.4 | gable 3.1 | 4 | timber |
+| O-0234 | House of Elena the glazier | shop | 2066.8 | 1691.0 | 37.2 | 104° | 9.1 x 14.9 | 9.3 | gable 5.0 | 3 | timber |
+| O-0235 | Workshop of Elena the glazier | workshop | 2055.4 | 1688.2 | 37.4 | 104° | 7.2 x 6.2 | 3.2 | gable 3.4 | 1 | timber |
+| O-0236 | House of Juliana the salter | house | 2066.0 | 1700.4 | 37.1 | 104° | 8.9 x 12.0 | 12.4 | gable 4.9 | 4 | stone |
+| O-0237 | House of Edith the mason | house | 1703.8 | 1706.9 | 39.5 | 220° | 6.5 x 10.7 | 15.5 | gable 3.6 | 5 | stone |
+| O-0238 | House of Walter the spicer | shop | 1697.5 | 1701.8 | 39.8 | 218° | 8.2 x 10.5 | 9.3 | gable 4.5 | 3 | timber |
+| O-0239 | Workshop of Walter the spicer | workshop | 1703.6 | 1693.9 | 40.0 | 218° | 6.3 x 6.3 | 3.2 | gable 3.5 | 1 | timber |
+| O-0240 | House of Avice the glazier | shop | 1692.0 | 1695.1 | 40.1 | 217° | 7.8 x 14.4 | 12.4 | gable 4.3 | 4 | timber |
+| O-0241 | House of Hugh the ropemaker | shop | 1635.9 | 1656.8 | 42.1 | 182° | 8.1 x 14.5 | 15.5 | gable 4.4 | 5 | timber |
+| O-0242 | Workshop of Hugh the ropemaker | workshop | 1636.3 | 1645.5 | 42.5 | 182° | 6.5 x 4.8 | 3.2 | gable 2.6 | 1 | timber |
+| O-0243 | House of Odo the cutler | shop | 1627.6 | 1659.7 | 42.3 | 174° | 5.8 x 9.5 | 9.3 | gable 3.2 | 3 | stone |
+| O-0244 | House of Ida the glazier | house | 1620.0 | 1660.3 | 42.3 | 174° | 8.6 x 9.8 | 15.5 | gable 4.8 | 5 | timber |
+| O-0245 | House of Mabel the dyer | shop | 1681.0 | 1708.7 | 39.9 | 40° | 7.9 x 10.1 | 12.4 | gable 4.4 | 4 | timber |
+| O-0246 | House of Martin the astrologer | house | 1673.3 | 1702.2 | 40.2 | 47° | 9.5 x 10.4 | 15.5 | hip 4.3 | 5 | stone |
+| O-0247 | House of Stephen the cartographer | shop | 1643.1 | 1679.3 | 41.6 | 28° | 7.7 x 10.9 | 9.3 | gable 4.2 | 3 | timber |
+| O-0248 | House of Ida the astrologer | shop | 1631.7 | 1676.4 | 41.8 | 354° | 7.1 x 14.1 | 15.5 | gable 3.9 | 5 | timber |
+| O-0249 | House of Laurence the cheesemonger | house | 1624.8 | 1676.2 | 42.0 | 354° | 5.8 x 12.2 | 12.4 | hip 2.6 | 4 | timber |
+| O-0250 | Workshop of Laurence the cheesemonger | workshop | 1625.8 | 1687.4 | 41.7 | 354° | 5.5 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| O-0251 | House of Beatrice the cartographer | house | 1858.9 | 1692.4 | 38.0 | 186° | 5.8 x 10.5 | 15.5 | gable 3.2 | 5 | stone |
+| O-0252 | House of Cecily the shipwright | shop | 1819.3 | 1686.9 | 38.4 | 178° | 8.4 x 11.1 | 12.4 | hip 3.8 | 4 | timber |
+| O-0253 | House of Elena the barber-surgeon | shop | 1810.0 | 1689.1 | 38.5 | 167° | 6.7 x 9.9 | 12.4 | gable 3.7 | 4 | timber |
+| O-0254 | House of Piers the brewer | shop | 1864.1 | 1710.1 | 37.5 | 357° | 8.3 x 14.2 | 15.5 | gable 4.5 | 5 | timber |
+| O-0255 | House of Ivetta the glover | house | 1855.2 | 1708.7 | 37.6 | 6° | 5.6 x 12.3 | 12.4 | hip 2.5 | 4 | timber |
+| O-0256 | House of Juliana the parchmenter | shop | 1848.0 | 1706.4 | 37.7 | 8° | 8.0 x 9.7 | 15.5 | gable 4.4 | 5 | timber |
+| O-0257 | Workshop of Juliana the parchmenter | workshop | 1846.7 | 1715.1 | 37.6 | 8° | 4.6 x 5.5 | 3.2 | gable 2.5 | 1 | timber |
+| O-0258 | House of Ida the fletcher | shop | 1685.7 | 1726.0 | 39.2 | 210° | 8.4 x 14.1 | 12.4 | hip 3.8 | 4 | timber |
+| O-0259 | House of Wat the ropemaker | shop | 1670.2 | 1720.8 | 39.8 | 204° | 6.9 x 9.1 | 15.5 | gable 3.8 | 5 | timber |
+| O-0260 | House of Hawise the draper | shop | 1641.3 | 1713.4 | 40.5 | 198° | 8.6 x 9.3 | 9.3 | gable 4.7 | 3 | stone |
+| O-0261 | Workshop of Hawise the draper | workshop | 1644.5 | 1703.3 | 40.9 | 198° | 4.6 x 6.5 | 3.2 | gable 2.5 | 1 | timber |
+| O-0262 | House of Maud the tanner | shop | 1626.5 | 1715.2 | 40.7 | 153° | 8.7 x 14.4 | 9.3 | gable 4.8 | 3 | timber |
+| O-0263 | House of Matilda the tinker | shop | 1673.6 | 1739.6 | 39.1 | 30° | 7.6 x 11.0 | 15.5 | gable 4.2 | 5 | timber |
+| O-0264 | House of Amice the tailor | shop | 1653.3 | 1731.8 | 39.7 | 7° | 5.6 x 11.1 | 9.3 | hip 2.5 | 3 | timber |
+| O-0265 | Workshop of Amice the tailor | workshop | 1651.9 | 1742.8 | 39.4 | 7° | 4.6 x 5.9 | 3.2 | gable 2.5 | 1 | timber |
+| O-0266 | House of Godwin the limner | house | 1647.3 | 1731.5 | 39.8 | 6° | 5.9 x 11.9 | 12.4 | gable 3.3 | 4 | timber |
+| O-0267 | Workshop of Godwin the limner | workshop | 1646.2 | 1741.5 | 39.6 | 6° | 5.9 x 5.0 | 3.2 | gable 2.8 | 1 | timber |
+| O-0268 | House of Walter the chandler | shop | 1636.5 | 1729.6 | 40.1 | 333° | 7.6 x 9.9 | 9.3 | gable 4.2 | 3 | timber |
+| O-0269 | House of Nicholas the tanner | shop | 2090.0 | 1571.0 | 37.8 | 274° | 8.6 x 10.0 | 12.4 | gable 4.8 | 4 | timber |
+| O-0270 | House of Richard the wheelwright | shop | 2091.7 | 1561.2 | 37.8 | 272° | 9.3 x 12.3 | 15.5 | gable 5.1 | 5 | timber |
+| O-0271 | House of Robin the mercer | shop | 2092.9 | 1551.9 | 37.8 | 271° | 8.5 x 14.2 | 12.4 | hip 3.8 | 4 | timber |
+| O-0272 | House of Cecily the stonecarver | shop | 2074.3 | 1580.7 | 37.9 | 95° | 6.7 x 9.4 | 12.4 | gable 3.7 | 4 | stone |
+| O-0273 | House of Martin the parchmenter | house | 1988.0 | 1451.5 | 41.9 | 38° | 6.3 x 10.2 | 15.5 | gable 3.5 | 5 | stone |
+| O-0274 | House of Hawise the mason | house | 1995.3 | 1456.5 | 41.1 | 33° | 9.1 x 10.7 | 15.5 | gable 5.0 | 5 | stone |
+| O-0275 | Workshop of Hawise the mason | workshop | 1990.4 | 1464.2 | 41.0 | 33° | 8.7 x 4.7 | 3.2 | gable 2.6 | 1 | timber |
+| O-0276 | House of Henry the mason | shop | 2024.1 | 1467.2 | 39.8 | 28° | 6.3 x 10.8 | 12.4 | gable 3.5 | 4 | timber |
+| O-0277 | Workshop of Henry the mason | workshop | 2018.6 | 1477.3 | 39.7 | 28° | 4.6 x 6.5 | 3.2 | gable 2.5 | 1 | timber |
+| O-0278 | House of Ivetta the stonecarver | shop | 2054.3 | 1481.0 | 38.6 | 19° | 9.2 x 10.3 | 9.3 | gable 5.0 | 3 | timber |
+| O-0279 | House of Avice the hatter | shop | 2066.0 | 1488.9 | 38.4 | 26° | 7.4 x 13.8 | 9.3 | gable 4.1 | 3 | stone |
+| O-0280 | House of Beatrice the furrier | house | 2074.5 | 1491.4 | 38.2 | 15° | 6.4 x 11.9 | 15.5 | gable 3.5 | 5 | timber |
+| O-0281 | House of Hawise the armourer | house | 1987.1 | 1431.3 | 43.2 | 215° | 9.0 x 10.6 | 9.3 | hip 4.1 | 3 | timber |
+| O-0282 | House of Baldwin the furrier | house | 2017.1 | 1448.1 | 40.6 | 193° | 6.8 x 10.3 | 15.5 | gable 3.7 | 5 | timber |
+| O-0283 | House of Matilda the armourer | shop | 2024.9 | 1448.5 | 40.3 | 200° | 5.6 x 14.2 | 15.5 | hip 2.5 | 5 | stone |
+| O-0284 | House of Geoffrey the barber-surgeon | house | 2032.2 | 1453.4 | 39.9 | 208° | 8.2 x 10.8 | 12.4 | hip 3.7 | 4 | timber |
+| O-0285 | Workshop of Geoffrey the barber-surgeon | workshop | 2037.0 | 1444.5 | 40.1 | 208° | 7.2 x 6.3 | 3.2 | gable 3.5 | 1 | timber |
+| O-0286 | House of Robin the jeweller | house | 2054.3 | 1464.4 | 38.9 | 199° | 9.0 x 10.9 | 9.3 | gable 5.0 | 3 | timber |
+| O-0287 | Workshop of Robin the jeweller | workshop | 2057.4 | 1455.2 | 39.0 | 199° | 7.9 x 5.8 | 3.2 | gable 3.2 | 1 | timber |
+| O-0288 | House of Mabel the cartographer | shop | 2076.5 | 1474.2 | 38.4 | 206° | 6.5 x 11.4 | 15.5 | gable 3.5 | 5 | stone |
+| O-0289 | Workshop of Mabel the cartographer | workshop | 2081.4 | 1464.0 | 38.4 | 206° | 6.5 x 6.5 | 3.2 | gable 3.5 | 1 | timber |
+| O-0290 | House of Godwin the salter | house | 1999.4 | 1441.3 | 41.7 | 124° | 7.0 x 11.7 | 9.3 | gable 3.9 | 3 | stone |
+| O-0291 | House of Alan the glazier | shop | 2014.0 | 1427.5 | 41.6 | 153° | 9.4 x 13.3 | 12.4 | gable 5.2 | 4 | timber |
+| O-0292 | Workshop of Alan the glazier | workshop | 2009.4 | 1418.3 | 42.9 | 153° | 7.6 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| O-0293 | House of Petronilla the weaver | shop | 2021.5 | 1423.6 | 41.5 | 155° | 6.1 x 13.8 | 9.3 | hip 2.7 | 3 | timber |
+| O-0294 | House of Piers the pie-seller | house | 2032.7 | 1417.0 | 41.1 | 145° | 9.0 x 14.5 | 9.3 | hip 4.0 | 3 | timber |
+| O-0295 | Workshop of Piers the pie-seller | workshop | 2026.2 | 1407.7 | 42.4 | 145° | 4.7 x 4.8 | 3.2 | gable 2.6 | 1 | timber |
+| O-0296 | House of Nicholas the butcher | shop | 1765.4 | 1500.9 | 50.8 | 98° | 9.2 x 12.6 | 12.4 | gable 5.0 | 4 | timber |
+| O-0297 | House of Alan the furrier | shop | 1765.1 | 1508.7 | 49.5 | 99° | 5.7 x 10.9 | 12.4 | hip 2.5 | 4 | timber |
+| O-0298 | House of Edith the fishmonger | shop | 1764.6 | 1528.4 | 43.4 | 79° | 8.2 x 12.2 | 12.4 | hip 3.7 | 4 | stone |
+| O-0299 | House of Piers the shipwright | house | 1767.9 | 1543.2 | 41.3 | 89° | 8.3 x 9.1 | 12.4 | gable 4.6 | 4 | timber |
+| O-0300 | Workshop of Piers the shipwright | workshop | 1759.7 | 1543.3 | 42.4 | 89° | 8.2 x 4.8 | 3.2 | gable 2.6 | 1 | timber |
+| O-0301 | House of Margery the carpenter | shop | 2106.4 | 1482.4 | 37.7 | 227° | 7.2 x 14.1 | 12.4 | gable 3.9 | 4 | timber |
+| O-0302 | House of Henry the tinker | shop | 2097.7 | 1501.4 | 37.7 | 38° | 8.1 x 14.9 | 15.5 | gable 4.4 | 5 | timber |
+| O-0303 | Workshop of Henry the tinker | workshop | 2090.2 | 1510.8 | 37.8 | 38° | 5.2 x 5.8 | 3.2 | gable 2.9 | 1 | timber |
+| O-0304 | House of Christiana the limner | shop | 2092.6 | 1492.2 | 37.8 | 47° | 8.4 x 9.1 | 9.3 | hip 3.8 | 3 | timber |
+| O-0305 | House of Emma the cartographer | shop | 1922.3 | 1378.5 | 59.8 | 224° | 5.6 x 14.9 | 15.5 | hip 2.5 | 5 | timber |
+| O-0306 | House of Laurence the baker | house | 1915.8 | 1373.2 | 62.0 | 220° | 9.0 x 14.4 | 9.3 | hip 4.0 | 3 | timber |
+| O-0307 | House of Geoffrey the mason | house | 1865.6 | 1344.8 | 82.5 | 214° | 7.6 x 13.4 | 15.5 | hip 3.4 | 5 | timber |
+| O-0308 | House of Roger the notary | house | 1858.1 | 1339.6 | 85.7 | 207° | 7.6 x 13.9 | 9.3 | gable 4.2 | 3 | timber |
+| O-0309 | Workshop of Roger the notary | workshop | 1863.3 | 1329.4 | 89.0 | 207° | 5.3 x 6.2 | 3.2 | gable 2.9 | 1 | timber |
+| O-0310 | House of Edith the tailor | house | 1908.3 | 1389.4 | 59.0 | 40° | 7.8 x 9.6 | 15.5 | gable 4.3 | 5 | timber |
+| O-0311 | House of Elena the wheelwright | house | 1859.2 | 1361.6 | 78.4 | 36° | 7.1 x 11.1 | 9.3 | hip 3.2 | 3 | timber |
+| O-0312 | Workshop of Elena the wheelwright | workshop | 1853.3 | 1369.8 | 77.4 | 36° | 6.3 x 5.2 | 3.2 | gable 2.9 | 1 | timber |
+| O-0313 | House of Hob the pie-seller | shop | 2001.5 | 1550.1 | 39.4 | 184° | 6.1 x 9.8 | 15.5 | gable 3.4 | 5 | timber |
+| O-0314 | Workshop of Hob the pie-seller | workshop | 2002.1 | 1540.8 | 39.1 | 184° | 5.8 x 6.6 | 3.2 | gable 3.2 | 1 | timber |
+| O-0315 | House of Ralph the cheesemonger | shop | 2008.5 | 1566.6 | 38.9 | 8° | 5.6 x 11.3 | 9.3 | hip 2.5 | 3 | timber |
+| O-0316 | Workshop of Ralph the cheesemonger | workshop | 2007.2 | 1576.6 | 38.7 | 8° | 5.5 x 6.1 | 3.2 | gable 3.0 | 1 | timber |
+| O-0317 | House of Isabel the clockmaker | house | 1922.7 | 1280.2 | 86.1 | 180° | 5.8 x 9.6 | 9.3 | hip 2.6 | 3 | timber |
+| O-0318 | House of Laurence the baker | shop | 1907.6 | 1276.0 | 90.7 | 187° | 7.4 x 13.3 | 12.4 | hip 3.3 | 4 | stone |
+| O-0319 | House of Alan the bookbinder | shop | 1925.6 | 1295.3 | 81.4 | 0° | 9.2 x 10.1 | 15.5 | gable 5.0 | 5 | timber |
+| O-0320 | Workshop of Alan the bookbinder | workshop | 1925.6 | 1304.3 | 80.0 | 0° | 8.6 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| O-0321 | House of Avice the fishmonger | house | 1878.4 | 1336.0 | 82.8 | 140° | 6.3 x 10.5 | 9.3 | gable 3.5 | 3 | timber |
+| O-0322 | House of Odo the lute-maker | shop | 1885.4 | 1326.5 | 83.3 | 133° | 5.8 x 14.2 | 12.4 | hip 2.6 | 4 | timber |
+| O-0323 | House of Gilbert the mercer | house | 1893.6 | 1316.8 | 84.8 | 118° | 7.4 x 10.0 | 9.3 | hip 3.3 | 3 | timber |
+| O-0324 | House of Edith the wheelwright | shop | 1902.0 | 1299.8 | 87.0 | 124° | 9.0 x 11.1 | 9.3 | gable 5.0 | 3 | timber |
+| O-0325 | Workshop of Edith the wheelwright | workshop | 1892.5 | 1293.4 | 91.9 | 124° | 8.2 x 6.3 | 3.2 | gable 3.5 | 1 | timber |
+| O-0326 | House of Baldwin the clockmaker | shop | 1863.5 | 1642.0 | 38.8 | 76° | 7.1 x 14.9 | 9.3 | hip 3.2 | 3 | timber |
+| O-0327 | House of Margery the tinker | shop | 1868.8 | 1656.2 | 38.7 | 91° | 7.7 x 12.1 | 12.4 | hip 3.5 | 4 | stone |
+| O-0328 | House of Juliana the lute-maker | house | 1869.6 | 1675.8 | 38.3 | 71° | 7.7 x 12.9 | 12.4 | gable 4.2 | 4 | timber |
+| O-0329 | House of Juliana the lute-maker | shop | 1880.8 | 1630.3 | 39.1 | 253° | 8.4 x 14.1 | 12.4 | gable 4.6 | 4 | timber |
+| O-0330 | House of Edith the fisher | shop | 1886.7 | 1664.8 | 38.4 | 272° | 8.9 x 13.6 | 15.5 | gable 4.9 | 5 | timber |
+| O-0331 | Workshop of Edith the fisher | workshop | 1897.8 | 1665.2 | 38.3 | 272° | 7.8 x 6.1 | 3.2 | gable 3.4 | 1 | timber |
+| O-0332 | House of Osbert the tailor | shop | 1824.9 | 1662.4 | 39.0 | 34° | 9.2 x 12.4 | 12.4 | gable 5.0 | 4 | stone |
+| O-0333 | House of Edith the cheesemonger | shop | 1838.8 | 1671.8 | 38.7 | 42° | 7.4 x 9.2 | 15.5 | gable 4.0 | 5 | stone |
+| O-0334 | House of Jordan the fuller | house | 1849.7 | 1683.6 | 38.2 | 37° | 7.4 x 13.0 | 9.3 | gable 4.1 | 3 | timber |
+| O-0335 | House of Petronilla the butcher | shop | 1869.7 | 1730.0 | 37.2 | 72° | 8.9 x 10.2 | 9.3 | hip 4.0 | 3 | timber |
+| O-0336 | Workshop of Petronilla the butcher | workshop | 1859.4 | 1733.3 | 37.2 | 72° | 8.9 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| O-0337 | House of Odo the cooper | house | 1842.5 | 1654.9 | 39.0 | 221° | 5.6 x 11.6 | 15.5 | gable 3.1 | 5 | timber |
+| O-0338 | Workshop of Odo the cooper | workshop | 1849.8 | 1646.6 | 39.0 | 221° | 5.2 x 6.8 | 3.2 | gable 2.9 | 1 | timber |
+| O-0339 | House of Ralph the cheesemonger | shop | 1848.0 | 1659.8 | 38.8 | 222° | 8.0 x 11.5 | 12.4 | gable 4.4 | 4 | timber |
+| O-0340 | Workshop of Ralph the cheesemonger | workshop | 1854.8 | 1652.4 | 38.9 | 222° | 6.4 x 5.1 | 3.2 | gable 2.8 | 1 | timber |
+| O-0341 | House of Godwin the cooper | shop | 1860.3 | 1669.0 | 38.4 | 217° | 8.2 x 13.6 | 15.5 | gable 4.5 | 5 | timber |
+| O-0342 | House of Sybil the stonecarver | shop | 1876.9 | 1694.0 | 37.8 | 251° | 8.7 x 10.2 | 12.4 | hip 3.9 | 4 | stone |
+| O-0343 | Workshop of Sybil the stonecarver | workshop | 1887.1 | 1690.4 | 37.9 | 251° | 7.2 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| O-0344 | House of Baldwin the cartographer | shop | 1882.2 | 1711.3 | 37.5 | 258° | 6.2 x 13.6 | 9.3 | hip 2.8 | 3 | timber |
+| O-0345 | Workshop of Baldwin the cartographer | workshop | 1892.5 | 1709.2 | 37.5 | 258° | 5.6 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| O-0346 | House of Amice the saddler | house | 1888.0 | 1734.9 | 37.0 | 257° | 8.3 x 12.9 | 15.5 | hip 3.8 | 5 | stone |
+| O-0347 | House of Isabel the bellfounder | shop | 1824.4 | 1730.8 | 37.5 | 320° | 7.5 x 12.7 | 9.3 | hip 3.4 | 3 | stone |
+| O-0348 | Workshop of Isabel the bellfounder | workshop | 1831.7 | 1739.6 | 37.4 | 320° | 4.8 x 6.1 | 3.2 | gable 2.7 | 1 | timber |
+| O-0349 | House of Elena the carpenter | house | 1812.5 | 1740.2 | 37.5 | 316° | 7.8 x 10.7 | 15.5 | gable 4.3 | 5 | timber |
+| O-0350 | Workshop of Elena the carpenter | workshop | 1819.1 | 1747.1 | 37.5 | 316° | 4.9 x 4.5 | 3.2 | gable 2.5 | 1 | timber |
+| O-0351 | House of Edith the locksmith | house | 2101.9 | 1688.6 | 37.2 | 22° | 5.8 x 10.1 | 9.3 | gable 3.2 | 3 | timber |
+| O-0352 | House of Gilbert the fletcher | shop | 2109.0 | 1674.5 | 37.2 | 202° | 7.3 x 11.8 | 9.3 | gable 4.0 | 3 | timber |
+| O-0353 | Workshop of Gilbert the fletcher | workshop | 2113.2 | 1664.3 | 37.3 | 202° | 6.9 x 6.5 | 3.2 | gable 3.6 | 1 | timber |
+| O-0354 | House of Gilbert the carpenter | shop | 2020.3 | 1572.1 | 38.2 | 278° | 7.6 x 9.2 | 9.3 | gable 4.2 | 3 | timber |
+| O-0355 | House of Jordan the glover | shop | 2022.2 | 1564.7 | 38.2 | 280° | 7.1 x 10.6 | 12.4 | hip 3.2 | 4 | timber |
+| O-0356 | House of Avice the sailmaker | house | 2022.7 | 1557.8 | 38.2 | 280° | 6.0 x 9.2 | 15.5 | gable 3.3 | 5 | timber |
+| O-0357 | House of Hugh the wheelwright | shop | 2027.1 | 1540.3 | 38.2 | 267° | 6.5 x 14.5 | 9.3 | gable 3.6 | 3 | timber |
+| O-0358 | House of Richard the butcher | house | 2026.7 | 1527.0 | 38.4 | 280° | 9.2 x 9.9 | 15.5 | hip 4.1 | 5 | timber |
+| O-0359 | House of Isabel the fisher | shop | 2011.7 | 1530.7 | 38.5 | 100° | 8.0 x 9.0 | 12.4 | gable 4.4 | 4 | timber |
+| O-0360 | House of Rose the weaver | house | 2012.5 | 1521.5 | 38.6 | 100° | 9.4 x 10.5 | 15.5 | gable 5.2 | 5 | stone |
+| O-0361 | House of Maud the cartographer | house | 1596.7 | 1650.2 | 42.8 | 105° | 5.7 x 13.1 | 12.4 | gable 3.1 | 4 | stone |
+| O-0362 | Workshop of Maud the cartographer | workshop | 1586.5 | 1647.5 | 43.1 | 105° | 5.3 x 4.8 | 3.2 | gable 2.7 | 1 | timber |
+| O-0363 | House of Agnes the astrologer | shop | 1594.4 | 1657.3 | 42.5 | 105° | 8.2 x 14.0 | 15.5 | hip 3.7 | 5 | timber |
+| O-0364 | Workshop of Agnes the astrologer | workshop | 1583.5 | 1654.3 | 42.9 | 105° | 8.2 x 6.0 | 3.2 | gable 3.3 | 1 | timber |
+| O-0365 | House of Ralph the armourer | house | 1593.8 | 1668.8 | 42.4 | 88° | 8.5 x 14.8 | 12.4 | gable 4.7 | 4 | timber |
+| O-0366 | Workshop of Ralph the armourer | workshop | 1581.8 | 1669.3 | 42.6 | 88° | 7.8 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| O-0367 | House of Juliana the tanner | shop | 1594.8 | 1677.2 | 42.4 | 85° | 6.5 x 14.2 | 12.4 | gable 3.5 | 4 | timber |
+| O-0368 | House of Walter the money-changer | house | 1601.2 | 1703.8 | 41.9 | 69° | 6.2 x 10.2 | 9.3 | gable 3.4 | 3 | stone |
+| O-0369 | Workshop of Walter the money-changer | workshop | 1590.8 | 1707.8 | 42.0 | 69° | 6.2 x 6.2 | 3.2 | gable 3.4 | 1 | timber |
+| O-0370 | House of Wat the jeweller | house | 1602.1 | 1710.7 | 41.6 | 68° | 6.0 x 13.5 | 12.4 | gable 3.3 | 4 | timber |
+| O-0371 | Workshop of Wat the jeweller | workshop | 1592.5 | 1714.7 | 41.8 | 68° | 6.0 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| O-0372 | House of Wat the cooper | shop | 1606.1 | 1720.2 | 41.2 | 54° | 9.2 x 14.8 | 9.3 | gable 5.1 | 3 | timber |
+| O-0373 | House of Beatrice the bellfounder | shop | 1625.0 | 1744.2 | 40.1 | 56° | 7.0 x 9.3 | 12.4 | hip 3.2 | 4 | timber |
+| O-0374 | Workshop of Beatrice the bellfounder | workshop | 1617.0 | 1749.6 | 40.2 | 56° | 6.6 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| O-0375 | House of Felice the vintner | shop | 1612.5 | 1678.2 | 42.1 | 267° | 6.1 x 11.3 | 9.3 | hip 2.8 | 3 | stone |
+| O-0376 | House of Jordan the cheesemonger | house | 1612.8 | 1686.4 | 41.9 | 267° | 9.4 x 11.4 | 15.5 | hip 4.2 | 5 | timber |
+| O-0377 | House of Avice the potter | house | 1618.8 | 1706.7 | 41.2 | 248° | 6.0 x 11.0 | 9.3 | gable 3.3 | 3 | timber |
+| O-0378 | Workshop of Avice the potter | workshop | 1627.8 | 1703.0 | 41.2 | 248° | 5.5 x 5.1 | 3.2 | gable 2.8 | 1 | timber |
+| O-0379 | House of Christiana the jeweller | shop | 1582.8 | 1686.4 | 42.4 | 171° | 6.7 x 10.1 | 15.5 | gable 3.7 | 5 | timber |
+| O-0380 | House of Laurence the fishmonger | shop | 2046.9 | 1432.2 | 40.1 | 48° | 6.8 x 12.7 | 9.3 | gable 3.7 | 3 | timber |
+| O-0381 | House of Isabel the stonecarver | shop | 2051.9 | 1438.7 | 39.6 | 48° | 8.7 x 13.9 | 15.5 | gable 4.8 | 5 | timber |
+| O-0382 | House of Agnes the furrier | shop | 2070.7 | 1456.5 | 38.7 | 39° | 5.8 x 13.1 | 9.3 | gable 3.2 | 3 | timber |
+| O-0383 | House of Agnes the ropemaker | shop | 2091.2 | 1469.0 | 38.1 | 24° | 9.0 x 12.1 | 15.5 | hip 4.0 | 5 | stone |
+| O-0384 | House of Mabel the vintner | house | 2103.4 | 1474.8 | 37.8 | 34° | 5.5 x 10.2 | 9.3 | gable 3.0 | 3 | timber |
+| O-0385 | House of Richard the bellfounder | shop | 2045.3 | 1405.4 | 41.1 | 223° | 7.5 x 10.7 | 15.5 | gable 4.1 | 5 | timber |
+| O-0386 | Workshop of Richard the bellfounder | workshop | 2052.1 | 1398.2 | 41.1 | 223° | 5.5 x 5.0 | 3.2 | gable 2.8 | 1 | timber |
+| O-0387 | House of Joan the herbalist | shop | 2050.4 | 1412.2 | 40.5 | 232° | 6.3 x 9.1 | 9.3 | gable 3.5 | 3 | timber |
+| O-0388 | Workshop of Joan the herbalist | workshop | 2057.7 | 1406.6 | 40.5 | 232° | 4.9 x 4.8 | 3.2 | gable 2.6 | 1 | timber |
+| O-0389 | House of Walter the astrologer | shop | 2061.9 | 1421.8 | 39.7 | 228° | 8.8 x 14.1 | 15.5 | hip 3.9 | 5 | timber |
+| O-0390 | House of Elena the cobbler | shop | 2071.4 | 1435.7 | 39.0 | 221° | 7.7 x 10.3 | 15.5 | gable 4.2 | 5 | stone |
+| O-0391 | Workshop of Elena the cobbler | workshop | 2078.2 | 1427.9 | 39.0 | 221° | 6.1 x 6.9 | 3.2 | gable 3.3 | 1 | timber |
+| O-0392 | House of Juliana the cutler | shop | 2116.8 | 1465.5 | 37.6 | 213° | 6.2 x 10.7 | 15.5 | gable 3.4 | 5 | timber |
+| O-0393 | Workshop of Juliana the cutler | workshop | 2122.6 | 1456.7 | 37.6 | 213° | 5.2 x 4.8 | 3.2 | gable 2.6 | 1 | timber |
+| O-0394 | House of Rose the bookbinder | house | 2128.8 | 1469.2 | 37.5 | 191° | 6.0 x 12.6 | 15.5 | gable 3.3 | 5 | timber |
+| O-0395 | House of Jordan the money-changer | shop | 1711.8 | 1665.2 | 40.7 | 188° | 6.3 x 11.3 | 9.3 | gable 3.5 | 3 | timber |
+| O-0396 | Workshop of Jordan the money-changer | workshop | 1713.3 | 1654.3 | 41.1 | 188° | 5.8 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| O-0397 | House of Beatrice the glazier | shop | 1701.2 | 1665.5 | 40.8 | 166° | 7.9 x 13.2 | 9.3 | gable 4.4 | 3 | timber |
+| O-0398 | House of Nicholas the dyer | house | 1727.5 | 1685.5 | 39.8 | 9° | 5.5 x 14.1 | 15.5 | gable 3.0 | 5 | stone |
+| O-0399 | House of Margery the fletcher | shop | 1706.8 | 1604.3 | 42.9 | 90° | 8.8 x 11.4 | 9.3 | hip 4.0 | 3 | timber |
+| O-0400 | House of Simon the spicer | house | 1706.1 | 1614.4 | 42.5 | 79° | 6.9 x 14.8 | 9.3 | gable 3.8 | 3 | stone |
+| O-0401 | Workshop of Simon the spicer | workshop | 1694.3 | 1616.7 | 42.7 | 79° | 5.6 x 5.0 | 3.2 | gable 2.8 | 1 | timber |
+| O-0402 | House of Henry the saddler | house | 1708.8 | 1631.8 | 41.8 | 75° | 7.0 x 13.5 | 15.5 | gable 3.9 | 5 | stone |
+| O-0403 | Workshop of Henry the saddler | workshop | 1696.2 | 1635.2 | 41.9 | 75° | 6.3 x 6.9 | 3.2 | gable 3.5 | 1 | timber |
+| O-0404 | House of Beatrice the herbalist | shop | 1723.3 | 1605.7 | 42.5 | 270° | 8.2 x 12.1 | 9.3 | gable 4.5 | 3 | timber |
+| O-0405 | House of Matilda the notary | house | 1725.1 | 1621.0 | 41.9 | 270° | 5.5 x 12.2 | 12.4 | hip 2.5 | 4 | timber |
+| O-0406 | Workshop of Matilda the notary | workshop | 1735.5 | 1620.9 | 41.8 | 270° | 4.6 x 5.4 | 3.2 | gable 2.5 | 1 | timber |
+| O-0407 | House of Alys the money-changer | shop | 1830.2 | 1372.9 | 79.7 | 206° | 8.2 x 12.2 | 9.3 | gable 4.5 | 3 | timber |
+| O-0408 | House of Cecily the pie-seller | shop | 1880.3 | 1411.2 | 56.9 | 9° | 5.7 x 12.5 | 15.5 | gable 3.1 | 5 | timber |
+| O-0409 | House of Adam the minstrel | shop | 1872.4 | 1409.5 | 58.4 | 10° | 9.1 x 11.7 | 12.4 | gable 5.0 | 4 | stone |
+| O-0410 | House of Maud the shipwright | shop | 1862.9 | 1405.4 | 62.1 | 23° | 7.4 x 9.3 | 12.4 | gable 4.1 | 4 | timber |
+| O-0411 | House of Robin the cutler | house | 1855.3 | 1405.0 | 63.2 | 22° | 6.4 x 14.4 | 12.4 | gable 3.5 | 4 | timber |
+| O-0412 | House of Ivetta the armourer | shop | 1848.6 | 1400.5 | 66.0 | 22° | 8.7 x 11.2 | 12.4 | gable 4.8 | 4 | stone |
+| O-0413 | House of Elena the scribe | house | 1820.0 | 1388.0 | 75.7 | 26° | 9.4 x 14.4 | 12.4 | gable 5.2 | 4 | timber |
+| O-0414 | House of Walter the candlemaker | house | 1857.4 | 1624.1 | 39.6 | 149° | 7.1 x 12.0 | 15.5 | gable 3.9 | 5 | timber |
+| O-0415 | House of Petronilla the notary | shop | 1752.0 | 1530.6 | 46.0 | 157° | 5.7 x 12.1 | 15.5 | gable 3.1 | 5 | stone |
+| O-0416 | House of Sybil the net-mender | shop | 1744.6 | 1534.6 | 46.8 | 152° | 9.1 x 10.9 | 9.3 | gable 5.0 | 3 | timber |
+| O-0417 | House of Ralph the chandler | house | 1750.0 | 1549.2 | 43.3 | 332° | 6.2 x 10.5 | 15.5 | gable 3.4 | 5 | timber |
+| O-0418 | House of Hob the draper | house | 1871.1 | 1441.7 | 51.5 | 44° | 9.3 x 12.7 | 12.4 | hip 4.2 | 4 | timber |
+| O-0419 | House of Piers the spicer | house | 1841.5 | 1417.8 | 61.9 | 34° | 7.7 x 9.6 | 12.4 | gable 4.2 | 4 | timber |
+| O-0420 | House of Mabel the potter | house | 1826.8 | 1406.5 | 68.4 | 45° | 9.3 x 11.3 | 12.4 | gable 5.1 | 4 | timber |
+| O-0421 | Workshop of Mabel the potter | workshop | 1819.0 | 1414.4 | 67.9 | 45° | 5.8 x 6.8 | 3.2 | gable 3.2 | 1 | timber |
+| O-0422 | House of Gilbert the hatter | shop | 1859.1 | 1438.1 | 53.8 | 219° | 5.6 x 10.6 | 15.5 | gable 3.1 | 5 | timber |
+| O-0423 | House of Thomas the ropemaker | shop | 1854.8 | 1433.8 | 55.3 | 219° | 5.8 x 11.8 | 15.5 | gable 3.2 | 5 | stone |
+| O-0424 | House of Robin the pewterer | house | 1839.3 | 1443.8 | 54.6 | 44° | 6.5 x 14.4 | 9.3 | gable 3.6 | 3 | stone |
+| O-0425 | House of Ivetta the cutler | shop | 1830.5 | 1431.3 | 59.1 | 215° | 8.6 x 11.6 | 12.4 | hip 3.9 | 4 | timber |
+| O-0426 | House of Ida the goldsmith | shop | 1821.7 | 1426.8 | 62.1 | 207° | 8.1 x 10.5 | 9.3 | hip 3.7 | 3 | timber |
+| O-0427 | Workshop of Ida the goldsmith | workshop | 1825.9 | 1418.4 | 64.9 | 207° | 7.4 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| O-0428 | House of Osbert the glover | house | 1800.8 | 1412.9 | 70.7 | 211° | 8.3 x 11.8 | 15.5 | gable 4.6 | 5 | timber |
+| O-0429 | Workshop of Osbert the glover | workshop | 1806.2 | 1403.9 | 73.6 | 211° | 8.0 x 6.7 | 3.2 | gable 3.7 | 1 | timber |
+| O-0430 | House of Laurence the tanner | shop | 1794.4 | 1408.0 | 73.8 | 210° | 6.6 x 13.8 | 15.5 | hip 3.0 | 5 | stone |
+| O-0431 | House of Richard the cooper | house | 1857.7 | 1465.6 | 49.0 | 41° | 8.8 x 9.1 | 9.3 | hip 4.0 | 3 | timber |
+| O-0432 | House of Maud the mason | shop | 1842.8 | 1458.1 | 51.3 | 24° | 9.3 x 10.4 | 9.3 | gable 5.1 | 3 | timber |
+| O-0433 | House of Ralph the pie-seller | house | 1804.4 | 1434.8 | 62.2 | 36° | 9.1 x 12.5 | 12.4 | gable 5.0 | 4 | timber |
+| O-0434 | House of Roger the pewterer | shop | 1792.1 | 1426.6 | 67.8 | 31° | 6.0 x 11.2 | 12.4 | gable 3.3 | 4 | stone |
+| O-0435 | House of Alan the juggler | shop | 2104.9 | 1460.7 | 37.9 | 115° | 6.5 x 9.8 | 9.3 | gable 3.6 | 3 | timber |
 
-## North Ward (258 buildings)
+## King's Isle (56 buildings)
 
-73 house, 68 workshop, 55 shop, 34 tenement, 12 storehouse, 12 stable, 4 church
-
-| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
-|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| N-0001 | Church of St. Jude | church | 804.4 | 652.1 | 82.3 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| N-0002 | Church of St. Jude (tower) | church | 786.4 | 652.1 | 80.9 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| N-0003 | Church of St. Kenelm | church | 1249.6 | 652.1 | 74.0 | 90° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| N-0004 | Church of St. Kenelm (tower) | church | 1249.6 | 634.1 | 83.9 | 90° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| N-0005 | House of Geoffrey the locksmith | house | 1183.4 | 685.3 | 78.0 | 164° | 5.9 x 10.9 | 12.4 | gable 3.2 | 4 | timber |
-| N-0006 | House of Hob the hatter | house | 1191.1 | 684.0 | 77.3 | 165° | 8.8 x 9.4 | 9.3 | gable 4.8 | 3 | timber |
-| N-0007 | House of Stephen the bookbinder | shop | 1235.1 | 670.2 | 73.8 | 167° | 5.8 x 14.3 | 12.4 | gable 3.2 | 4 | timber |
-| N-0008 | House of Alys the hatter | house | 851.2 | 688.8 | 82.6 | 190° | 6.8 x 11.1 | 9.3 | gable 3.8 | 3 | timber |
-| N-0009 | House of Thomas the limner | house | 803.9 | 672.6 | 78.2 | 158° | 8.7 x 9.5 | 12.4 | gable 4.8 | 4 | timber |
-| N-0010 | House of Alan the limner | shop | 830.5 | 662.1 | 88.4 | 163° | 6.5 x 12.8 | 9.3 | hip 2.9 | 3 | timber |
-| N-0011 | Workshop of Alan the limner | workshop | 826.9 | 650.3 | 93.5 | 163° | 6.4 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| N-0012 | House of Baldwin the furrier | shop | 862.9 | 654.6 | 98.8 | 167° | 7.9 x 11.1 | 9.3 | gable 4.4 | 3 | timber |
-| N-0013 | House of Thomas the limner | house | 879.0 | 650.3 | 103.3 | 171° | 8.1 x 13.1 | 6.2 | gable 4.5 | 2 | timber |
-| N-0014 | Workshop of Thomas the limner | workshop | 876.9 | 637.2 | 109.3 | 171° | 7.1 x 7.6 | 3.0 | gable 3.9 | 1 | timber |
-| N-0015 | House of Matilda the butcher | house | 886.7 | 650.0 | 105.3 | 171° | 6.3 x 11.2 | 12.4 | hip 2.9 | 4 | timber |
-| N-0016 | Workshop of Matilda the butcher | workshop | 884.8 | 637.9 | 110.8 | 171° | 5.6 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| N-0017 | House of Elena the tailor | shop | 893.5 | 649.4 | 106.9 | 171° | 5.8 x 10.1 | 12.4 | gable 3.2 | 4 | timber |
-| N-0018 | Workshop of Elena the tailor | workshop | 891.9 | 639.4 | 111.1 | 171° | 5.7 x 6.3 | 3.0 | gable 3.1 | 1 | timber |
-| N-0019 | House of Cecily the locksmith | shop | 916.6 | 644.3 | 111.4 | 174° | 6.5 x 13.6 | 9.3 | gable 3.6 | 3 | timber |
-| N-0020 | Workshop of Cecily the locksmith | workshop | 915.3 | 632.9 | 115.8 | 174° | 5.0 x 4.9 | 6.0 | gable 2.7 | 1 | timber |
-| N-0021 | House of Jordan the apothecary | shop | 924.5 | 645.0 | 112.4 | 174° | 8.6 x 10.5 | 9.3 | gable 4.7 | 3 | stone |
-| N-0022 | House of Beatrice the scribe | shop | 932.8 | 644.0 | 113.2 | 174° | 7.0 x 10.5 | 9.3 | gable 3.9 | 3 | timber |
-| N-0023 | Workshop of Beatrice the scribe | workshop | 931.7 | 634.9 | 113.9 | 174° | 6.5 x 5.9 | 3.0 | gable 3.2 | 1 | timber |
-| N-0024 | House of Amice the mason | house | 939.7 | 643.2 | 113.5 | 174° | 5.8 x 10.6 | 9.3 | gable 3.2 | 3 | timber |
-| N-0025 | House of Amice the scribe | shop | 946.8 | 641.1 | 113.7 | 176° | 7.3 x 13.6 | 12.4 | gable 4.0 | 4 | timber |
-| N-0026 | Workshop of Amice the scribe | workshop | 945.8 | 628.5 | 114.0 | 176° | 5.4 x 7.2 | 6.0 | gable 3.0 | 1 | timber |
-| N-0027 | House of Agnes the locksmith | house | 1162.9 | 675.6 | 84.9 | 14° | 7.9 x 14.9 | 9.3 | hip 3.6 | 3 | timber |
-| N-0028 | Workshop of Agnes the locksmith | workshop | 1159.2 | 690.1 | 81.3 | 14° | 6.1 x 7.2 | 3.0 | gable 3.4 | 1 | timber |
-| N-0029 | House of Walter the tinker | shop | 1121.0 | 643.6 | 110.1 | 189° | 6.9 x 13.5 | 6.2 | gable 3.8 | 2 | timber |
-| N-0030 | Workshop of Walter the tinker | workshop | 1123.0 | 632.0 | 112.7 | 189° | 6.8 x 6.7 | 3.0 | gable 3.7 | 1 | timber |
-| N-0031 | House of Agnes the apothecary | shop | 1135.9 | 646.4 | 103.7 | 189° | 9.4 x 13.0 | 9.3 | gable 5.2 | 3 | stone |
-| N-0032 | House of Hawise the limner | house | 1144.3 | 649.0 | 101.4 | 194° | 5.5 x 11.4 | 6.2 | gable 3.0 | 2 | timber |
-| N-0033 | Workshop of Hawise the limner | workshop | 1146.9 | 638.9 | 105.9 | 194° | 5.2 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| N-0034 | House of Emma the notary | house | 1167.1 | 653.9 | 94.1 | 194° | 6.4 x 12.9 | 6.2 | gable 3.5 | 2 | stone |
-| N-0035 | House of Alys the barber-surgeon | house | 1175.5 | 656.5 | 91.0 | 199° | 8.0 x 12.4 | 6.2 | gable 4.4 | 2 | timber |
-| N-0036 | Workshop of Alys the barber-surgeon | workshop | 1178.8 | 646.7 | 96.4 | 199° | 5.2 x 5.7 | 3.0 | gable 2.9 | 1 | timber |
-| N-0037 | House of Christiana the scribe | house | 1189.6 | 662.4 | 85.6 | 199° | 8.2 x 10.6 | 6.2 | gable 4.5 | 2 | stone |
-| N-0038 | Workshop of Christiana the scribe | workshop | 1193.1 | 652.2 | 90.0 | 199° | 7.4 x 7.2 | 3.0 | gable 4.0 | 1 | timber |
-| N-0039 | House of Nicholas the mercer | shop | 1197.1 | 663.9 | 83.4 | 199° | 5.9 x 12.5 | 9.3 | gable 3.2 | 3 | timber |
-| N-0040 | Workshop of Nicholas the mercer | workshop | 1200.6 | 653.8 | 88.0 | 199° | 5.9 x 6.0 | 6.0 | gable 3.2 | 1 | timber |
-| N-0041 | House of Simon the herbalist | house | 1204.7 | 665.9 | 80.3 | 202° | 8.7 x 13.8 | 12.4 | gable 4.8 | 4 | timber |
-| N-0042 | Workshop of Simon the herbalist | workshop | 1208.8 | 655.8 | 85.3 | 202° | 5.1 x 5.5 | 3.0 | gable 2.8 | 1 | timber |
-| N-0043 | House of Stephen the herbalist | shop | 807.2 | 590.8 | 109.4 | 336° | 5.8 x 12.0 | 6.2 | hip 2.6 | 2 | timber |
-| N-0044 | Workshop of Stephen the herbalist | workshop | 812.1 | 601.6 | 108.0 | 336° | 5.3 x 5.9 | 3.0 | gable 2.9 | 1 | timber |
-| N-0045 | House of Margery the mercer | shop | 762.6 | 590.1 | 94.3 | 153° | 7.0 x 10.0 | 9.3 | gable 3.9 | 3 | stone |
-| N-0046 | House of Wat the jeweller | shop | 769.1 | 584.3 | 97.9 | 156° | 7.7 x 15.0 | 6.2 | gable 4.2 | 2 | timber |
-| N-0047 | House of Thomas the notary | shop | 791.3 | 576.9 | 108.3 | 156° | 7.3 x 9.9 | 6.2 | gable 4.0 | 2 | timber |
-| N-0048 | Workshop of Thomas the notary | workshop | 787.4 | 568.4 | 109.6 | 156° | 7.0 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| N-0049 | House of Petronilla the cobbler | house | 805.7 | 571.0 | 114.3 | 160° | 6.9 x 9.4 | 6.2 | gable 3.8 | 2 | timber |
-| N-0050 | Workshop of Petronilla the cobbler | workshop | 801.9 | 560.6 | 116.3 | 160° | 5.3 x 7.0 | 3.0 | gable 2.9 | 1 | timber |
-| N-0051 | House of Godwin the potter | house | 812.5 | 567.9 | 116.8 | 160° | 7.7 x 10.4 | 9.3 | hip 3.5 | 3 | timber |
-| N-0052 | House of Roger the mercer | shop | 833.7 | 558.8 | 120.0 | 160° | 6.5 x 12.9 | 6.2 | gable 3.5 | 2 | timber |
-| N-0053 | House of Nicholas the potter | shop | 840.3 | 555.6 | 117.7 | 162° | 7.3 x 14.6 | 6.2 | hip 3.3 | 2 | timber |
-| N-0054 | Workshop of Nicholas the potter | workshop | 836.6 | 544.1 | 117.6 | 162° | 7.2 x 6.5 | 3.0 | gable 3.5 | 1 | timber |
-| N-0055 | House of Amice the cooper | shop | 849.7 | 555.7 | 117.7 | 165° | 9.3 x 9.3 | 9.3 | gable 5.1 | 3 | stone |
-| N-0056 | House of Nicholas the pewterer | house | 1219.7 | 577.7 | 95.8 | 13° | 8.5 x 9.3 | 9.3 | gable 4.7 | 3 | timber |
-| N-0057 | House of Alan the saddler | house | 1209.0 | 556.5 | 95.8 | 193° | 8.3 x 10.8 | 6.2 | gable 4.5 | 2 | timber |
-| N-0058 | Workshop of Alan the saddler | workshop | 1211.6 | 545.2 | 94.1 | 193° | 6.7 x 5.2 | 3.0 | gable 2.8 | 1 | timber |
-| N-0059 | House of Sybil the fletcher | house | 1217.5 | 556.5 | 94.4 | 193° | 7.2 x 14.7 | 6.2 | hip 3.2 | 2 | timber |
-| N-0060 | House of Felice the cobbler | shop | 782.7 | 486.1 | 119.1 | 339° | 8.2 x 11.4 | 6.2 | gable 4.5 | 2 | timber |
-| N-0061 | House of Laurence the fishmonger | house | 701.1 | 498.1 | 80.1 | 155° | 8.0 x 13.7 | 6.2 | gable 4.4 | 2 | timber |
-| N-0062 | House of Isabel the baker | house | 730.4 | 486.0 | 95.0 | 157° | 8.2 x 11.9 | 6.2 | gable 4.5 | 2 | timber |
-| N-0063 | Workshop of Isabel the baker | workshop | 725.8 | 475.1 | 93.0 | 157° | 7.1 x 7.9 | 6.0 | gable 3.9 | 1 | timber |
-| N-0064 | House of Godwin the hatter | house | 746.0 | 479.8 | 103.0 | 157° | 7.7 x 11.2 | 6.2 | gable 4.2 | 2 | timber |
-| N-0065 | Workshop of Godwin the hatter | workshop | 741.5 | 469.3 | 101.2 | 157° | 7.3 x 5.1 | 6.0 | gable 2.8 | 1 | timber |
-| N-0066 | House of Stephen the limner | house | 752.8 | 475.2 | 106.0 | 157° | 7.2 x 14.3 | 9.3 | gable 4.0 | 3 | timber |
-| N-0067 | Workshop of Stephen the limner | workshop | 747.6 | 462.8 | 103.8 | 157° | 6.6 x 7.7 | 3.0 | gable 3.6 | 1 | timber |
-| N-0068 | House of Sybil the cutler | shop | 760.0 | 473.3 | 110.0 | 159° | 6.3 x 12.4 | 6.2 | hip 2.8 | 2 | timber |
-| N-0069 | House of Hob the bellfounder | shop | 767.3 | 469.5 | 112.5 | 159° | 9.4 x 14.2 | 6.2 | gable 5.2 | 2 | timber |
-| N-0070 | Workshop of Hob the bellfounder | workshop | 762.4 | 456.7 | 111.2 | 159° | 4.9 x 7.5 | 6.0 | gable 2.7 | 1 | timber |
-| N-0071 | House of Odo the lute-maker | house | 792.7 | 461.2 | 121.3 | 159° | 7.6 x 11.3 | 6.2 | hip 3.4 | 2 | timber |
-| N-0072 | House of Felice the furrier | house | 858.1 | 735.7 | 71.9 | 246° | 7.2 x 10.6 | 9.3 | gable 3.9 | 3 | stone |
-| N-0073 | House of Alan the saddler | house | 856.3 | 729.1 | 72.2 | 246° | 5.9 x 12.6 | 9.3 | gable 3.2 | 3 | timber |
-| N-0074 | Workshop of Alan the saddler | workshop | 865.9 | 724.9 | 73.8 | 246° | 5.9 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| N-0075 | House of Ralph the cobbler | house | 838.3 | 686.3 | 80.2 | 246° | 7.0 x 14.9 | 9.3 | gable 3.9 | 3 | timber |
-| N-0076 | House of Avice the pewterer | shop | 808.3 | 616.8 | 99.8 | 246° | 5.7 x 13.2 | 9.3 | gable 3.1 | 3 | timber |
-| N-0077 | House of Edith the hatter | house | 802.4 | 604.6 | 102.4 | 246° | 5.9 x 12.3 | 9.3 | gable 3.3 | 3 | timber |
-| N-0078 | House of Cecily the parchmenter | shop | 780.2 | 559.9 | 107.6 | 239° | 9.1 x 13.9 | 9.3 | hip 4.1 | 3 | timber |
-| N-0079 | Workshop of Cecily the parchmenter | workshop | 791.6 | 553.1 | 114.7 | 239° | 7.9 x 5.8 | 6.0 | gable 3.2 | 1 | timber |
-| N-0080 | House of Emma the draper | house | 773.9 | 553.9 | 107.7 | 238° | 6.0 x 9.4 | 6.2 | gable 3.3 | 2 | stone |
-| N-0081 | Workshop of Emma the draper | workshop | 783.1 | 548.1 | 112.8 | 238° | 5.1 x 7.8 | 3.0 | gable 2.8 | 1 | timber |
-| N-0082 | House of Ralph the bowyer | shop | 772.6 | 546.8 | 107.5 | 236° | 5.8 x 15.0 | 6.2 | gable 3.2 | 2 | timber |
-| N-0083 | House of Hawise the pie-seller | house | 759.4 | 529.4 | 105.3 | 234° | 6.2 x 13.4 | 6.2 | gable 3.4 | 2 | timber |
-| N-0084 | House of Stephen the goldsmith | shop | 749.8 | 517.9 | 102.6 | 232° | 6.5 x 12.0 | 6.2 | gable 3.6 | 2 | timber |
-| N-0085 | Workshop of Stephen the goldsmith | workshop | 758.3 | 511.2 | 109.0 | 232° | 4.6 x 5.6 | 3.0 | gable 2.5 | 1 | timber |
-| N-0086 | House of Nicholas the candlemaker | house | 739.5 | 503.5 | 98.1 | 231° | 7.8 x 13.8 | 6.2 | gable 4.3 | 2 | timber |
-| N-0087 | House of Odo the goldsmith | shop | 712.1 | 470.8 | 84.7 | 229° | 9.3 x 13.9 | 9.3 | gable 5.1 | 3 | timber |
-| N-0088 | Workshop of Odo the goldsmith | workshop | 720.6 | 463.4 | 90.5 | 229° | 5.7 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| N-0089 | House of Simon the mercer | shop | 700.6 | 458.3 | 83.3 | 229° | 6.5 x 12.9 | 9.3 | gable 3.6 | 3 | timber |
-| N-0090 | Workshop of Simon the mercer | workshop | 708.2 | 451.6 | 84.3 | 229° | 5.5 x 5.1 | 6.0 | gable 2.8 | 1 | timber |
-| N-0091 | House of Amice the mercer | shop | 693.6 | 453.1 | 83.3 | 229° | 9.5 x 9.2 | 6.2 | gable 5.1 | 2 | timber |
-| N-0092 | House of Ivetta the cutler | house | 681.0 | 436.5 | 85.8 | 229° | 6.4 x 12.1 | 6.2 | gable 3.5 | 2 | timber |
-| N-0093 | House of Jordan the chandler | house | 728.0 | 523.9 | 90.8 | 52° | 7.6 x 13.3 | 6.2 | gable 4.2 | 2 | timber |
-| N-0094 | House of Agnes the draper | shop | 724.7 | 517.5 | 90.6 | 51° | 5.8 x 10.5 | 12.4 | gable 3.2 | 4 | stone |
-| N-0095 | House of Walter the mason | house | 689.3 | 476.6 | 79.2 | 49° | 9.0 x 11.8 | 9.3 | hip 4.0 | 3 | stone |
-| N-0096 | Workshop of Walter the mason | workshop | 679.7 | 484.9 | 78.5 | 49° | 5.5 x 6.9 | 3.0 | gable 3.0 | 1 | timber |
-| N-0097 | House of Godwin the herbalist | house | 922.3 | 682.6 | 98.3 | 253° | 6.2 x 13.5 | 9.3 | gable 3.4 | 3 | timber |
-| N-0098 | Workshop of Godwin the herbalist | workshop | 934.1 | 678.9 | 103.2 | 253° | 5.4 x 5.6 | 3.0 | gable 3.0 | 1 | timber |
-| N-0099 | House of Cecily the bellfounder | shop | 918.4 | 675.3 | 100.5 | 253° | 9.3 x 10.2 | 9.3 | gable 5.1 | 3 | timber |
-| N-0100 | House of Felice the pie-seller | house | 906.7 | 617.7 | 117.5 | 260° | 9.3 x 13.5 | 9.3 | gable 5.1 | 3 | timber |
-| N-0101 | Workshop of Felice the pie-seller | workshop | 920.8 | 615.1 | 117.5 | 260° | 5.2 x 8.0 | 3.0 | gable 2.9 | 1 | timber |
-| N-0102 | House of Walter the fletcher | shop | 1119.2 | 681.7 | 92.7 | 278° | 6.4 x 11.3 | 12.4 | gable 3.5 | 4 | timber |
-| N-0103 | Workshop of Walter the fletcher | workshop | 1130.8 | 683.3 | 90.6 | 278° | 5.5 x 5.6 | 6.0 | gable 3.0 | 1 | timber |
-| N-0104 | House of Odo the saddler | house | 1121.2 | 674.1 | 95.0 | 277° | 8.4 x 13.2 | 9.3 | hip 3.8 | 3 | timber |
-| N-0105 | Workshop of Odo the saddler | workshop | 1131.9 | 675.5 | 93.7 | 277° | 5.9 x 5.9 | 6.0 | gable 3.2 | 1 | timber |
-| N-0106 | House of Hawise the armourer | shop | 1121.1 | 666.2 | 100.4 | 276° | 6.7 x 11.0 | 9.3 | gable 3.7 | 3 | timber |
-| N-0107 | Workshop of Hawise the armourer | workshop | 1132.9 | 667.3 | 96.9 | 276° | 6.2 x 6.5 | 3.0 | gable 3.4 | 1 | timber |
-| N-0108 | House of Sybil the bellfounder | house | 1123.2 | 621.4 | 114.5 | 267° | 6.2 x 14.0 | 9.3 | gable 3.4 | 3 | timber |
-| N-0109 | House of Odo the glazier | house | 1203.7 | 720.9 | 71.7 | 300° | 8.4 x 11.6 | 12.4 | hip 3.8 | 4 | timber |
-| N-0110 | House of Joan the glover | house | 1207.9 | 713.4 | 71.7 | 299° | 7.6 x 11.6 | 6.2 | gable 4.2 | 2 | timber |
-| N-0111 | House of Alys the limner | shop | 1212.7 | 707.1 | 71.7 | 298° | 7.0 x 13.8 | 9.3 | gable 3.9 | 3 | timber |
-| N-0112 | House of Hugh the herbalist | house | 1182.6 | 715.1 | 71.8 | 120° | 7.4 x 14.2 | 9.3 | gable 4.0 | 3 | timber |
-| N-0113 | House of Jordan the brewer | house | 834.7 | 741.6 | 71.7 | 330° | 5.8 x 15.0 | 9.3 | hip 2.6 | 3 | timber |
-| N-0114 | Workshop of Jordan the brewer | workshop | 841.7 | 753.5 | 71.7 | 330° | 4.9 x 5.0 | 6.0 | gable 2.7 | 1 | timber |
-| N-0115 | House of Amice the limner | shop | 829.5 | 720.6 | 71.7 | 150° | 7.2 x 14.2 | 6.2 | gable 4.0 | 2 | timber |
-| N-0116 | House of Adam the stonecarver | shop | 897.2 | 695.4 | 88.9 | 166° | 9.2 x 9.2 | 9.3 | gable 5.0 | 3 | stone |
-| N-0117 | House of Ralph the mason | house | 784.9 | 635.1 | 86.0 | 159° | 7.3 x 15.0 | 9.3 | gable 4.0 | 3 | timber |
-| N-0118 | House of Laurence the goldsmith | shop | 793.5 | 634.5 | 89.3 | 161° | 8.1 x 10.1 | 6.2 | hip 3.6 | 2 | timber |
-| N-0119 | Workshop of Laurence the goldsmith | workshop | 790.6 | 626.2 | 92.2 | 161° | 7.4 x 5.2 | 3.0 | gable 2.9 | 1 | timber |
-| N-0120 | House of Odo the cobbler | shop | 815.8 | 625.9 | 98.8 | 161° | 9.2 x 11.7 | 9.3 | gable 5.1 | 3 | timber |
-| N-0121 | House of Matilda the barber-surgeon | shop | 825.5 | 623.7 | 102.7 | 162° | 9.1 x 9.5 | 9.3 | hip 4.1 | 3 | stone |
-| N-0122 | House of Joan the armourer | house | 832.7 | 620.6 | 106.1 | 162° | 6.2 x 11.1 | 9.3 | hip 2.8 | 3 | timber |
-| N-0123 | Workshop of Joan the armourer | workshop | 828.8 | 608.2 | 110.6 | 162° | 4.8 x 7.2 | 3.0 | gable 2.7 | 1 | timber |
-| N-0124 | House of Henry the furrier | house | 854.9 | 612.8 | 113.3 | 162° | 6.1 x 12.6 | 6.2 | hip 2.7 | 2 | timber |
-| N-0125 | Workshop of Henry the furrier | workshop | 851.7 | 602.7 | 116.9 | 162° | 5.9 x 5.6 | 3.0 | gable 3.1 | 1 | timber |
-| N-0126 | House of Martin the armourer | house | 861.3 | 609.7 | 115.0 | 164° | 6.3 x 14.8 | 9.3 | gable 3.5 | 3 | timber |
-| N-0127 | House of Godwin the glover | house | 868.6 | 609.7 | 116.5 | 165° | 7.3 x 10.9 | 6.2 | gable 4.0 | 2 | timber |
-| N-0128 | House of Amice the dyer | shop | 875.2 | 606.2 | 117.8 | 165° | 6.3 x 14.1 | 9.3 | gable 3.4 | 3 | timber |
-| N-0129 | Workshop of Amice the dyer | workshop | 872.2 | 595.1 | 120.2 | 165° | 5.2 x 5.7 | 3.0 | gable 2.9 | 1 | timber |
-| N-0130 | House of Jordan the fuller | shop | 883.3 | 606.2 | 118.6 | 165° | 8.3 x 9.7 | 6.2 | hip 3.7 | 2 | timber |
-| N-0131 | House of Alan the brewer | house | 1197.2 | 632.8 | 96.7 | 19° | 9.2 x 10.8 | 12.4 | gable 5.0 | 4 | timber |
-| N-0132 | Workshop of Alan the brewer | workshop | 1193.7 | 642.6 | 94.6 | 19° | 7.0 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| N-0133 | House of Henry the bookbinder | shop | 1205.6 | 637.9 | 91.8 | 19° | 8.8 x 14.8 | 9.3 | gable 4.8 | 3 | timber |
-| N-0134 | House of Emma the tinker | house | 1147.3 | 600.3 | 116.9 | 193° | 6.1 x 9.7 | 6.2 | gable 3.4 | 2 | timber |
-| N-0135 | House of Ralph the bellfounder | house | 1153.5 | 600.9 | 116.2 | 194° | 5.5 x 11.4 | 6.2 | gable 3.0 | 2 | timber |
-| N-0136 | House of Ralph the cooper | house | 1175.8 | 605.8 | 111.3 | 197° | 8.0 x 15.0 | 6.2 | gable 4.4 | 2 | timber |
-| N-0137 | House of Isabel the ropemaker | house | 1183.1 | 610.6 | 109.0 | 197° | 7.6 x 9.9 | 6.2 | gable 4.2 | 2 | timber |
-| N-0138 | Workshop of Isabel the ropemaker | workshop | 1186.0 | 601.0 | 113.1 | 197° | 5.4 x 4.8 | 6.0 | gable 2.6 | 1 | timber |
-| N-0139 | House of Ralph the limner | house | 1191.6 | 613.6 | 106.0 | 199° | 8.9 x 9.3 | 6.2 | gable 4.9 | 2 | timber |
-| N-0140 | House of Robin the fishmonger | shop | 1200.7 | 615.4 | 102.9 | 199° | 9.1 x 11.9 | 9.3 | gable 5.0 | 3 | timber |
-| N-0141 | Workshop of Robin the fishmonger | workshop | 1204.7 | 604.0 | 108.2 | 199° | 5.5 x 5.2 | 6.0 | gable 2.9 | 1 | timber |
-| N-0142 | House of Joan the cobbler | shop | 1214.6 | 620.7 | 98.1 | 199° | 5.7 x 11.2 | 6.2 | gable 3.1 | 2 | timber |
-| N-0143 | Workshop of Joan the cobbler | workshop | 1218.0 | 611.1 | 101.6 | 199° | 5.5 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| N-0144 | House of Roger the parchmenter | house | 1267.4 | 639.5 | 77.8 | 203° | 6.9 x 15.0 | 6.2 | gable 3.8 | 2 | timber |
-| N-0145 | House of Odo the baker | shop | 733.7 | 559.4 | 89.9 | 334° | 7.7 x 10.1 | 6.2 | gable 4.2 | 2 | timber |
-| N-0146 | Workshop of Odo the baker | workshop | 737.8 | 568.0 | 90.7 | 334° | 5.0 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-| N-0147 | House of Alan the scribe | house | 727.8 | 541.6 | 89.9 | 154° | 7.3 x 14.8 | 6.2 | gable 4.0 | 2 | timber |
-| N-0148 | House of Juliana the herbalist | shop | 735.2 | 540.1 | 94.1 | 154° | 6.6 x 11.0 | 9.3 | gable 3.6 | 3 | timber |
-| N-0149 | House of Hawise the vintner | shop | 772.0 | 525.2 | 112.2 | 159° | 9.3 x 12.4 | 9.3 | gable 5.1 | 3 | timber |
-| N-0150 | Workshop of Hawise the vintner | workshop | 767.5 | 513.3 | 113.2 | 159° | 4.8 x 5.8 | 3.0 | gable 2.6 | 1 | timber |
-| N-0151 | House of Martin the jeweller | house | 780.5 | 520.8 | 116.0 | 163° | 8.1 x 14.8 | 6.2 | gable 4.5 | 2 | timber |
-| N-0152 | Workshop of Martin the jeweller | workshop | 777.0 | 509.3 | 117.2 | 163° | 5.5 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| N-0153 | House of Mabel the tinker | house | 788.0 | 519.5 | 118.9 | 164° | 6.4 x 13.0 | 6.2 | gable 3.5 | 2 | timber |
-| N-0154 | Workshop of Mabel the tinker | workshop | 784.0 | 506.0 | 119.9 | 164° | 5.8 x 7.3 | 6.0 | gable 3.2 | 1 | timber |
-| N-0155 | House of Hawise the weaver | house | 817.3 | 511.0 | 117.6 | 164° | 7.5 x 12.7 | 6.2 | gable 4.1 | 2 | stone |
-| N-0156 | House of Gilbert the glover | house | 673.6 | 460.6 | 81.7 | 329° | 5.8 x 10.7 | 9.3 | hip 2.6 | 3 | stone |
-| N-0157 | House of Emma the cobbler | shop | 709.6 | 440.4 | 85.4 | 333° | 6.0 x 9.7 | 9.3 | hip 2.7 | 3 | timber |
-| N-0158 | Workshop of Emma the cobbler | workshop | 714.1 | 449.3 | 85.7 | 333° | 4.7 x 7.8 | 6.0 | gable 2.6 | 1 | timber |
-| N-0159 | House of Gilbert the cheesemonger | house | 689.5 | 431.0 | 86.7 | 153° | 5.7 x 12.6 | 6.2 | hip 2.6 | 2 | stone |
-| N-0160 | House of Juliana the glover | house | 695.7 | 429.5 | 87.3 | 153° | 5.9 x 9.8 | 6.2 | gable 3.2 | 2 | timber |
-| N-0161 | House of Joan the fuller | shop | 709.1 | 423.0 | 88.7 | 153° | 9.2 x 9.3 | 6.2 | hip 4.2 | 2 | timber |
-| N-0162 | House of Felice the money-changer | house | 733.6 | 408.9 | 93.4 | 158° | 9.4 x 13.1 | 9.3 | gable 5.2 | 3 | timber |
-| N-0163 | House of Margery the brewer | house | 742.6 | 406.3 | 94.0 | 158° | 8.9 x 11.3 | 6.2 | gable 4.9 | 2 | timber |
-| N-0164 | House of Joan the money-changer | shop | 758.9 | 400.5 | 101.7 | 158° | 7.3 x 9.9 | 6.2 | gable 4.0 | 2 | timber |
-| N-0165 | House of Cecily the money-changer | house | 765.6 | 396.9 | 104.2 | 158° | 7.3 x 11.6 | 6.2 | hip 3.3 | 2 | stone |
-| N-0166 | House of Rose the glazier | house | 874.2 | 691.1 | 85.8 | 244° | 8.0 x 12.8 | 9.3 | hip 3.6 | 3 | timber |
-| N-0167 | House of Thomas the stonecarver | house | 872.0 | 684.2 | 88.1 | 244° | 5.5 x 14.8 | 9.3 | gable 3.0 | 3 | timber |
-| N-0168 | House of Simon the barber-surgeon | shop | 858.1 | 633.1 | 106.8 | 266° | 7.4 x 12.5 | 9.3 | hip 3.3 | 3 | timber |
-| N-0169 | House of Rose the lute-maker | house | 846.5 | 589.5 | 118.7 | 253° | 7.8 x 11.9 | 12.4 | hip 3.5 | 4 | timber |
-| N-0170 | House of Margery the stonecarver | house | 845.0 | 580.5 | 120.0 | 251° | 9.1 x 14.4 | 9.3 | gable 5.0 | 3 | timber |
-| N-0171 | Workshop of Margery the stonecarver | workshop | 857.4 | 576.2 | 119.0 | 251° | 4.6 x 6.1 | 3.0 | gable 2.5 | 1 | timber |
-| N-0172 | House of Thomas the chandler | house | 822.2 | 537.4 | 118.5 | 238° | 9.0 x 12.4 | 6.2 | gable 5.0 | 2 | timber |
-| N-0173 | Workshop of Thomas the chandler | workshop | 834.0 | 530.1 | 117.7 | 238° | 5.7 x 7.9 | 3.0 | gable 3.1 | 1 | timber |
-| N-0174 | House of Alan the locksmith | shop | 816.2 | 530.7 | 119.5 | 238° | 7.7 x 9.4 | 6.2 | gable 4.2 | 2 | stone |
-| N-0175 | House of Laurence the cobbler | shop | 803.3 | 544.6 | 118.2 | 58° | 6.5 x 14.9 | 6.2 | gable 3.5 | 2 | timber |
-| N-0176 | House of Nicholas the goldsmith | house | 800.0 | 538.8 | 118.6 | 58° | 6.2 x 14.2 | 9.3 | gable 3.4 | 3 | timber |
-| N-0177 | House of Wat the glover | house | 789.1 | 447.5 | 119.3 | 255° | 6.5 x 14.8 | 9.3 | gable 3.6 | 3 | stone |
-| N-0178 | House of Agnes the herbalist | shop | 784.0 | 433.9 | 116.9 | 256° | 8.6 x 11.7 | 6.2 | gable 4.7 | 2 | timber |
-| N-0179 | House of Martin the cooper | house | 782.6 | 424.7 | 115.1 | 256° | 9.4 x 13.3 | 9.3 | hip 4.2 | 3 | timber |
-| N-0180 | Workshop of Martin the cooper | workshop | 793.7 | 422.0 | 120.5 | 256° | 5.8 x 7.3 | 3.0 | gable 3.2 | 1 | timber |
-| N-0181 | House of Beatrice the bookbinder | shop | 779.5 | 417.3 | 113.8 | 256° | 5.7 x 10.8 | 6.2 | hip 2.6 | 2 | timber |
-| N-0182 | Workshop of Beatrice the bookbinder | workshop | 789.9 | 414.6 | 118.5 | 256° | 5.4 x 6.4 | 3.0 | gable 3.0 | 1 | timber |
-| N-0183 | House of Ivetta the mason | house | 1170.5 | 629.7 | 103.7 | 289° | 8.4 x 12.5 | 9.3 | hip 3.8 | 3 | timber |
-| N-0184 | Workshop of Ivetta the mason | workshop | 1179.8 | 632.8 | 102.0 | 289° | 7.0 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| N-0185 | House of Avice the clockmaker | house | 1193.7 | 575.2 | 112.0 | 302° | 6.8 x 9.8 | 6.2 | gable 3.8 | 2 | timber |
-| N-0186 | House of Agnes the bowyer | shop | 1166.2 | 587.5 | 118.0 | 124° | 5.5 x 10.1 | 9.3 | hip 2.5 | 3 | timber |
-| N-0187 | Tenement of Ivetta the potter | tenement | 742.7 | 423.9 | 98.3 | 243° | 4.4 x 5.3 | 6.0 | gable 2.4 | 2 | timber |
-| N-0188 | Workshop of Piers the goldsmith | workshop | 761.1 | 422.1 | 106.5 | 252° | 8.5 x 6.8 | 3.6 | gable 3.8 | 1 | timber |
-| N-0189 | Workshop of Ivetta the spicer | workshop | 726.3 | 433.1 | 91.1 | 243° | 6.5 x 6.1 | 3.6 | gable 3.4 | 1 | timber |
-| N-0190 | Tenement of Laurence the hatter | tenement | 745.0 | 433.8 | 99.8 | 339° | 7.9 x 6.4 | 6.0 | gable 3.5 | 2 | timber |
-| N-0191 | Storehouse of Margery the clockmaker | storehouse | 794.7 | 433.2 | 122.0 | 248° | 4.9 x 5.1 | 3.6 | gable 2.7 | 1 | timber |
-| N-0192 | Storehouse of Joan the cutler | storehouse | 717.7 | 440.2 | 87.7 | 336° | 4.6 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| N-0193 | Stable of Sybil the herbalist | stable | 727.3 | 442.4 | 92.3 | 337° | 5.0 x 5.1 | 3.6 | gable 2.8 | 1 | timber |
-| N-0194 | Stable of Adam the parchmenter | stable | 753.0 | 441.3 | 105.9 | 339° | 4.1 x 4.5 | 3.6 | gable 2.3 | 1 | timber |
-| N-0195 | Tenement of Avice the chandler | tenement | 759.6 | 439.4 | 108.9 | 338° | 4.1 x 5.1 | 6.0 | gable 2.3 | 2 | timber |
-| N-0196 | Tenement of Geoffrey the bowyer | tenement | 742.3 | 450.9 | 100.1 | 338° | 7.8 x 6.8 | 6.0 | gable 3.7 | 2 | timber |
-| N-0197 | Tenement of Odo the saddler | tenement | 769.8 | 448.8 | 114.2 | 336° | 5.2 x 4.2 | 3.0 | gable 2.3 | 1 | timber |
-| N-0198 | Tenement of Elena the lute-maker | tenement | 728.1 | 458.7 | 94.4 | 248° | 4.7 x 4.2 | 3.0 | gable 2.3 | 1 | timber |
-| N-0199 | Stable of Baldwin the weaver | stable | 803.2 | 456.6 | 119.5 | 342° | 5.3 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| N-0200 | Storehouse of Beatrice the stonecarver | storehouse | 776.6 | 467.5 | 118.0 | 339° | 4.1 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| N-0201 | Stable of Thomas the lute-maker | stable | 804.0 | 476.3 | 119.1 | 340° | 5.5 x 5.0 | 3.6 | gable 2.7 | 1 | timber |
-| N-0202 | Tenement of Alan the barber-surgeon | tenement | 718.2 | 481.1 | 90.1 | 239° | 5.3 x 4.1 | 6.0 | gable 2.2 | 2 | timber |
-| N-0203 | Tenement of Ida the saddler | tenement | 770.8 | 490.2 | 114.9 | 340° | 8.3 x 6.2 | 9.0 | gable 3.4 | 3 | timber |
-| N-0204 | Tenement of Walter the money-changer | tenement | 803.9 | 491.5 | 119.2 | 336° | 8.3 x 8.1 | 6.0 | gable 4.4 | 2 | timber |
-| N-0205 | Tenement of Ida the dyer | tenement | 752.1 | 500.9 | 107.2 | 246° | 4.8 x 4.2 | 6.0 | gable 2.3 | 2 | timber |
-| N-0206 | Storehouse of Petronilla the pie-seller | storehouse | 760.2 | 498.5 | 111.0 | 336° | 5.2 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| N-0207 | Tenement of Ivetta the wheelwright | tenement | 814.0 | 498.8 | 117.6 | 247° | 6.4 x 8.6 | 9.0 | gable 3.5 | 3 | timber |
-| N-0208 | Stable of Juliana the cutler | stable | 710.9 | 516.8 | 84.6 | 242° | 7.9 x 7.6 | 3.6 | gable 4.2 | 1 | timber |
-| N-0209 | Tenement of Petronilla the apothecary | tenement | 717.5 | 532.0 | 86.3 | 239° | 6.4 x 8.0 | 6.0 | gable 3.5 | 2 | timber |
-| N-0210 | Storehouse of Hob the fuller | storehouse | 1220.7 | 542.7 | 93.7 | 289° | 5.0 x 5.4 | 3.6 | gable 2.8 | 1 | timber |
-| N-0211 | Workshop of Elena the glazier | workshop | 742.3 | 558.8 | 94.8 | 243° | 5.0 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| N-0212 | Tenement of Baldwin the fuller | tenement | 751.5 | 560.5 | 98.4 | 245° | 4.8 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| N-0213 | Tenement of Matilda the vintner | tenement | 761.6 | 566.2 | 101.4 | 333° | 4.2 x 4.8 | 6.0 | gable 2.3 | 2 | timber |
-| N-0214 | Storehouse of Alys the pewterer | storehouse | 759.6 | 575.4 | 98.3 | 245° | 4.8 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| N-0215 | Tenement of Richard the barber-surgeon | tenement | 871.3 | 577.6 | 117.7 | 252° | 7.1 x 8.3 | 9.0 | gable 3.9 | 3 | timber |
-| N-0216 | Storehouse of Thomas the spicer | storehouse | 863.4 | 584.5 | 119.7 | 339° | 4.8 x 5.2 | 3.6 | gable 2.6 | 1 | timber |
-| N-0217 | Storehouse of Matilda the notary | storehouse | 878.5 | 585.6 | 117.9 | 345° | 4.2 x 5.0 | 3.6 | gable 2.3 | 1 | timber |
-| N-0218 | Stable of Sybil the glover | stable | 1195.0 | 584.8 | 114.7 | 288° | 4.0 x 5.3 | 3.6 | gable 2.2 | 1 | timber |
-| N-0219 | Tenement of Maud the butcher | tenement | 1204.9 | 584.9 | 106.6 | 288° | 6.2 x 7.8 | 6.0 | gable 3.4 | 2 | timber |
-| N-0220 | Workshop of Hawise the wheelwright | workshop | 796.3 | 594.0 | 105.8 | 242° | 5.0 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| N-0221 | Workshop of Ralph the fishmonger | workshop | 821.9 | 594.5 | 112.6 | 245° | 6.4 x 7.8 | 3.6 | gable 3.5 | 1 | timber |
-| N-0222 | Tenement of Ivetta the locksmith | tenement | 881.4 | 594.5 | 118.5 | 251° | 6.5 x 7.6 | 6.0 | gable 3.6 | 2 | timber |
-| N-0223 | Tenement of Amice the lute-maker | tenement | 1185.1 | 592.0 | 115.6 | 16° | 7.3 x 7.7 | 9.0 | gable 4.0 | 3 | timber |
-| N-0224 | Stable of Hawise the cheesemonger | stable | 1219.4 | 595.2 | 98.8 | 296° | 7.0 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| N-0225 | Tenement of Mabel the fuller | tenement | 904.7 | 600.2 | 117.6 | 343° | 4.6 x 5.1 | 9.0 | gable 2.5 | 3 | timber |
-| N-0226 | Storehouse of Elena the tanner | storehouse | 762.1 | 611.3 | 88.2 | 240° | 4.6 x 5.3 | 3.6 | gable 2.5 | 1 | timber |
-| N-0227 | Workshop of Roger the stonecarver | workshop | 778.9 | 610.4 | 93.8 | 238° | 8.7 x 7.3 | 3.6 | gable 4.0 | 1 | timber |
-| N-0228 | Stable of Juliana the baker | stable | 819.8 | 610.9 | 106.6 | 337° | 8.4 x 6.5 | 3.6 | gable 3.5 | 1 | timber |
-| N-0229 | Tenement of Avice the butcher | tenement | 768.8 | 617.3 | 88.1 | 238° | 6.5 x 7.1 | 6.0 | gable 3.6 | 2 | timber |
-| N-0230 | Tenement of Robin the hatter | tenement | 787.8 | 617.6 | 95.1 | 336° | 4.3 x 5.1 | 3.0 | gable 2.4 | 1 | timber |
-| N-0231 | Tenement of Godwin the armourer | tenement | 940.7 | 619.5 | 114.0 | 351° | 6.3 x 6.3 | 9.0 | gable 3.4 | 3 | timber |
-| N-0232 | Tenement of Amice the saddler | tenement | 1141.8 | 618.1 | 113.2 | 18° | 8.3 x 8.7 | 6.0 | gable 4.6 | 2 | timber |
-| N-0233 | Tenement of Hawise the cheesemonger | tenement | 870.8 | 627.9 | 111.4 | 339° | 7.9 x 8.2 | 9.0 | gable 4.3 | 3 | timber |
-| N-0234 | Workshop of Nicholas the tinker | workshop | 889.0 | 629.4 | 114.4 | 346° | 4.0 x 4.7 | 3.6 | gable 2.2 | 1 | timber |
-| N-0235 | Tenement of Henry the butcher | tenement | 906.2 | 628.1 | 116.1 | 254° | 4.5 x 5.3 | 6.0 | gable 2.5 | 2 | timber |
-| N-0236 | Tenement of Richard the pie-seller | tenement | 923.2 | 628.1 | 115.7 | 348° | 4.8 x 5.1 | 3.0 | gable 2.6 | 1 | timber |
-| N-0237 | Stable of Petronilla the jeweller | stable | 1100.2 | 625.9 | 113.8 | 14° | 5.0 x 5.0 | 3.6 | gable 2.7 | 1 | timber |
-| N-0238 | Tenement of Nicholas the limner | tenement | 1135.2 | 626.5 | 112.3 | 16° | 5.0 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| N-0239 | Stable of Nicholas the brewer | stable | 1144.1 | 628.8 | 110.2 | 288° | 5.2 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| N-0240 | Tenement of Matilda the apothecary | tenement | 839.2 | 635.4 | 103.4 | 244° | 4.5 x 4.1 | 6.0 | gable 2.2 | 2 | timber |
-| N-0241 | Tenement of Agnes the draper | tenement | 1100.9 | 637.9 | 113.4 | 282° | 7.7 x 6.8 | 6.0 | gable 3.7 | 2 | timber |
-| N-0242 | Storehouse of Amice the chandler | storehouse | 1167.5 | 637.7 | 102.7 | 288° | 4.9 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| N-0243 | Tenement of Maud the wheelwright | tenement | 838.5 | 645.5 | 98.1 | 250° | 8.1 x 6.5 | 9.0 | gable 3.6 | 3 | timber |
-| N-0244 | Stable of Isabel the wheelwright | stable | 1218.9 | 644.6 | 88.3 | 22° | 4.8 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| N-0245 | Tenement of Hawise the vintner | tenement | 1236.9 | 654.0 | 79.2 | 294° | 7.7 x 7.3 | 6.0 | gable 4.0 | 2 | timber |
-| N-0246 | Stable of Sybil the tanner | stable | 946.3 | 662.6 | 113.0 | 349° | 6.5 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| N-0247 | Tenement of Walter the chandler | tenement | 1100.3 | 662.2 | 112.4 | 283° | 4.7 x 4.3 | 3.0 | gable 2.4 | 1 | timber |
-| N-0248 | Workshop of Avice the limner | workshop | 879.8 | 672.0 | 96.0 | 250° | 6.4 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| N-0249 | Tenement of Avice the notary | tenement | 889.8 | 668.2 | 99.8 | 343° | 4.9 x 5.5 | 9.0 | gable 2.7 | 3 | timber |
-| N-0250 | Workshop of Henry the pie-seller | workshop | 948.1 | 671.7 | 112.7 | 262° | 4.3 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| N-0251 | Workshop of Piers the fishmonger | workshop | 1099.9 | 671.0 | 110.3 | 280° | 4.5 x 5.5 | 3.6 | gable 2.5 | 1 | timber |
-| N-0252 | Workshop of Amice the mason | workshop | 870.5 | 676.5 | 92.8 | 335° | 4.7 x 5.3 | 3.6 | gable 2.6 | 1 | timber |
-| N-0253 | Storehouse of Margery the dyer | storehouse | 889.4 | 680.4 | 94.4 | 255° | 6.5 x 6.1 | 3.6 | gable 3.4 | 1 | timber |
-| N-0254 | Tenement of Petronilla the limner | tenement | 897.3 | 678.1 | 97.4 | 344° | 5.3 x 4.0 | 3.0 | gable 2.2 | 1 | timber |
-| N-0255 | Workshop of Hugh the armourer | workshop | 1134.8 | 695.8 | 84.8 | 289° | 4.3 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| N-0256 | Storehouse of Amice the saddler | storehouse | 853.0 | 713.0 | 75.8 | 331° | 5.3 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| N-0257 | Workshop of Ivetta the fuller | workshop | 1168.7 | 713.6 | 72.9 | 294° | 5.4 x 5.5 | 3.6 | gable 3.0 | 1 | timber |
-| N-0258 | Workshop of Ralph the brewer | workshop | 1201.9 | 747.4 | 71.7 | 296° | 4.5 x 5.1 | 3.6 | gable 2.5 | 1 | timber |
-
-## East Ward (1270 buildings)
-
-351 workshop, 283 shop, 270 house, 169 tenement, 95 stable, 90 storehouse, 8 church, 3 college, 1 chapel
-
-| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
-|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| E-0001 | Blackfriars (north range) | college | 1680.0 | 1156.0 | 71.7 | 0° | 120.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| E-0002 | Blackfriars (south range) | college | 1680.0 | 1249.0 | 71.3 | 180° | 120.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| E-0003 | Blackfriars (west range) | college | 1626.0 | 1202.5 | 71.5 | 270° | 81.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| E-0004 | Blackfriars (chapel) | chapel | 1734.0 | 1202.5 | 71.7 | 90° | 81.0 x 11.0 | 14.0 | gable 6.0 | 1 | stone |
-| E-0005 | Church of St. Agatha | church | 1677.9 | 1138.2 | 71.7 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| E-0006 | Church of St. Agatha (tower) | church | 1659.9 | 1138.2 | 71.7 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| E-0007 | Church of St. Bede | church | 1458.3 | 1374.5 | 71.0 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| E-0008 | Church of St. Bede (tower) | church | 1440.3 | 1374.5 | 71.0 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| E-0009 | Church of St. Lucy | church | 1542.0 | 703.6 | 71.7 | 90° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| E-0010 | Church of St. Lucy (tower) | church | 1542.0 | 685.6 | 71.7 | 90° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| E-0011 | Church of St. Martin | church | 1533.3 | 973.3 | 71.7 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| E-0012 | Church of St. Martin (tower) | church | 1515.3 | 973.3 | 71.7 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| E-0013 | House of Stephen the cooper | shop | 1278.7 | 865.7 | 71.7 | 10° | 9.4 x 12.7 | 9.3 | hip 4.2 | 3 | timber |
-| E-0014 | House of Alan the herbalist | shop | 1440.4 | 897.1 | 71.7 | 13° | 8.6 x 13.5 | 9.3 | gable 4.7 | 3 | timber |
-| E-0015 | Workshop of Alan the herbalist | workshop | 1437.7 | 908.9 | 71.7 | 13° | 5.8 x 6.5 | 3.0 | gable 3.2 | 1 | timber |
-| E-0016 | House of Laurence the wheelwright | house | 1519.7 | 918.2 | 71.7 | 20° | 6.7 x 10.7 | 9.3 | gable 3.7 | 3 | timber |
-| E-0017 | House of Alan the baker | shop | 1551.5 | 930.9 | 71.7 | 22° | 8.2 x 11.5 | 6.2 | hip 3.7 | 2 | timber |
-| E-0018 | Workshop of Alan the baker | workshop | 1547.3 | 941.1 | 71.7 | 22° | 4.7 x 6.7 | 3.0 | gable 2.6 | 1 | timber |
-| E-0019 | House of Martin the fishmonger | shop | 1612.2 | 959.5 | 71.7 | 26° | 7.3 x 13.0 | 6.2 | hip 3.3 | 2 | timber |
-| E-0020 | House of Petronilla the pewterer | house | 1637.3 | 973.2 | 71.7 | 27° | 6.9 x 15.0 | 9.3 | gable 3.8 | 3 | timber |
-| E-0021 | House of Robin the candlemaker | house | 1643.6 | 976.2 | 71.7 | 27° | 6.1 x 14.6 | 6.2 | gable 3.4 | 2 | timber |
-| E-0022 | House of Amice the parchmenter | shop | 1684.5 | 995.9 | 71.8 | 26° | 6.5 x 13.0 | 6.2 | gable 3.5 | 2 | timber |
-| E-0023 | Workshop of Amice the parchmenter | workshop | 1678.9 | 1007.4 | 71.8 | 26° | 6.2 x 6.2 | 3.0 | gable 3.4 | 1 | timber |
-| E-0024 | House of Laurence the pie-seller | house | 1692.6 | 998.2 | 71.7 | 26° | 8.8 x 9.9 | 6.2 | hip 4.0 | 2 | timber |
-| E-0025 | House of Geoffrey the apothecary | shop | 1729.0 | 1019.3 | 71.7 | 31° | 7.8 x 12.3 | 9.3 | gable 4.3 | 3 | stone |
-| E-0026 | House of Rose the mercer | house | 1413.8 | 866.4 | 71.7 | 192° | 7.8 x 12.8 | 6.2 | gable 4.3 | 2 | timber |
-| E-0027 | Workshop of Rose the mercer | workshop | 1415.9 | 856.0 | 71.7 | 192° | 5.8 x 5.2 | 3.0 | gable 2.9 | 1 | timber |
-| E-0028 | House of Godwin the pie-seller | house | 1420.7 | 869.2 | 71.7 | 192° | 6.1 x 10.1 | 6.2 | hip 2.8 | 2 | timber |
-| E-0029 | House of Godwin the stonecarver | shop | 1427.9 | 869.7 | 71.7 | 192° | 6.9 x 12.2 | 9.3 | gable 3.8 | 3 | timber |
-| E-0030 | House of Adam the candlemaker | shop | 1486.7 | 883.7 | 71.7 | 195° | 8.9 x 12.7 | 12.4 | gable 4.9 | 4 | timber |
-| E-0031 | House of Felice the tanner | house | 1607.0 | 931.8 | 71.6 | 206° | 7.5 x 10.0 | 6.2 | gable 4.1 | 2 | timber |
-| E-0032 | Workshop of Felice the tanner | workshop | 1610.9 | 923.5 | 71.6 | 206° | 7.0 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| E-0033 | House of Sybil the glazier | house | 1667.3 | 960.6 | 71.7 | 207° | 6.1 x 12.2 | 12.4 | gable 3.4 | 4 | timber |
-| E-0034 | Workshop of Sybil the glazier | workshop | 1672.6 | 950.2 | 71.7 | 207° | 4.6 x 6.6 | 3.0 | gable 2.5 | 1 | timber |
-| E-0035 | House of Baldwin the pewterer | shop | 1681.2 | 968.9 | 71.7 | 207° | 6.6 x 10.0 | 9.3 | gable 3.6 | 3 | timber |
-| E-0036 | Workshop of Baldwin the pewterer | workshop | 1686.6 | 958.4 | 71.7 | 207° | 6.5 x 7.8 | 3.0 | gable 3.6 | 1 | timber |
-| E-0037 | House of Osbert the bowyer | house | 1731.0 | 992.5 | 71.7 | 210° | 9.4 x 13.4 | 6.2 | gable 5.2 | 2 | timber |
-| E-0038 | House of Stephen the bellfounder | shop | 1738.0 | 997.1 | 71.7 | 211° | 5.7 x 12.7 | 6.2 | gable 3.1 | 2 | timber |
-| E-0039 | Workshop of Stephen the bellfounder | workshop | 1744.4 | 986.4 | 71.7 | 211° | 5.2 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| E-0040 | House of Agnes the armourer | shop | 1743.0 | 1001.8 | 71.7 | 212° | 7.1 x 9.8 | 9.3 | gable 3.9 | 3 | timber |
-| E-0041 | House of Ida the mason | house | 1762.7 | 1012.7 | 71.7 | 213° | 6.0 x 12.4 | 6.2 | hip 2.7 | 2 | timber |
-| E-0042 | Workshop of Ida the mason | workshop | 1769.4 | 1002.2 | 71.7 | 213° | 4.8 x 7.9 | 6.0 | gable 2.6 | 1 | timber |
-| E-0043 | House of Petronilla the herbalist | house | 1768.0 | 1016.7 | 71.7 | 213° | 6.0 x 11.5 | 6.2 | gable 3.3 | 2 | timber |
-| E-0044 | House of Mabel the barber-surgeon | house | 1773.2 | 1020.4 | 71.7 | 213° | 5.5 x 10.9 | 9.3 | gable 3.0 | 3 | timber |
-| E-0045 | House of Simon the bellfounder | house | 1785.9 | 1029.3 | 71.7 | 212° | 9.5 x 9.5 | 6.2 | gable 5.2 | 2 | timber |
-| E-0046 | House of Geoffrey the tanner | house | 1301.3 | 685.1 | 71.7 | 356° | 8.1 x 10.7 | 12.4 | gable 4.5 | 4 | timber |
-| E-0047 | House of Adam the notary | house | 1433.7 | 653.8 | 73.2 | 335° | 6.0 x 13.2 | 6.2 | gable 3.3 | 2 | timber |
-| E-0048 | House of Sybil the hatter | shop | 1439.6 | 649.3 | 74.1 | 335° | 7.5 x 10.1 | 9.3 | gable 4.1 | 3 | timber |
-| E-0049 | Workshop of Sybil the hatter | workshop | 1444.0 | 658.8 | 72.1 | 335° | 6.8 x 7.3 | 3.0 | gable 3.7 | 1 | timber |
-| E-0050 | House of Christiana the carpenter | shop | 1534.1 | 600.6 | 73.4 | 330° | 6.2 x 12.9 | 9.3 | gable 3.4 | 3 | timber |
-| E-0051 | Workshop of Christiana the carpenter | workshop | 1539.8 | 610.5 | 72.5 | 330° | 5.5 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| E-0052 | House of Stephen the bellfounder | house | 1565.6 | 581.0 | 74.0 | 329° | 6.4 x 10.9 | 6.2 | gable 3.5 | 2 | timber |
-| E-0053 | House of Godwin the pewterer | shop | 1577.0 | 573.7 | 74.4 | 328° | 6.6 x 10.2 | 6.2 | gable 3.6 | 2 | stone |
-| E-0054 | House of Walter the cooper | house | 1584.2 | 571.8 | 74.5 | 328° | 7.2 x 14.5 | 6.2 | gable 4.0 | 2 | timber |
-| E-0055 | Workshop of Walter the cooper | workshop | 1591.3 | 583.3 | 74.1 | 328° | 4.9 x 5.9 | 3.0 | gable 2.7 | 1 | timber |
-| E-0056 | House of Hugh the cooper | shop | 1273.2 | 666.2 | 72.0 | 174° | 7.6 x 9.2 | 9.3 | hip 3.4 | 3 | timber |
-| E-0057 | House of Edith the cheesemonger | house | 1345.2 | 658.1 | 73.7 | 171° | 6.0 x 11.5 | 6.2 | gable 3.3 | 2 | timber |
-| E-0058 | Workshop of Edith the cheesemonger | workshop | 1343.3 | 646.0 | 77.6 | 171° | 5.8 x 6.9 | 6.0 | gable 3.2 | 1 | timber |
-| E-0059 | House of Felice the tailor | house | 1358.9 | 654.1 | 74.6 | 168° | 9.3 x 14.4 | 6.2 | gable 5.1 | 2 | timber |
-| E-0060 | Workshop of Felice the tailor | workshop | 1356.5 | 643.1 | 78.9 | 168° | 8.0 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| E-0061 | House of Richard the stonecarver | shop | 1550.8 | 564.2 | 76.4 | 149° | 8.5 x 10.8 | 9.3 | gable 4.7 | 3 | timber |
-| E-0062 | Workshop of Richard the stonecarver | workshop | 1545.5 | 555.2 | 78.4 | 149° | 4.9 x 7.5 | 3.0 | gable 2.7 | 1 | timber |
-| E-0063 | House of Amice the glover | house | 1565.7 | 556.1 | 76.1 | 149° | 9.2 x 9.3 | 6.2 | gable 5.1 | 2 | timber |
-| E-0064 | House of Avice the fuller | house | 1371.8 | 1078.0 | 71.7 | 85° | 8.5 x 11.4 | 15.5 | gable 4.7 | 5 | timber |
-| E-0065 | House of Alan the fuller | house | 1371.3 | 1085.8 | 71.7 | 85° | 5.5 x 13.6 | 12.4 | gable 3.0 | 4 | timber |
-| E-0066 | House of Hawise the mercer | house | 1371.3 | 1108.0 | 71.7 | 91° | 7.3 x 14.5 | 12.4 | hip 3.3 | 4 | stone |
-| E-0067 | Workshop of Hawise the mercer | workshop | 1357.6 | 1107.9 | 71.7 | 91° | 6.9 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| E-0068 | House of Hob the pie-seller | shop | 1370.8 | 1121.8 | 71.7 | 97° | 5.8 x 13.6 | 12.4 | gable 3.2 | 4 | stone |
-| E-0069 | House of Roger the glover | shop | 1370.9 | 1128.7 | 71.7 | 97° | 7.0 x 11.5 | 9.3 | hip 3.1 | 3 | stone |
-| E-0070 | House of Richard the cobbler | shop | 1368.2 | 1141.6 | 71.7 | 104° | 8.8 x 12.5 | 12.4 | gable 4.8 | 4 | timber |
-| E-0071 | House of Nicholas the bowyer | shop | 1365.8 | 1149.3 | 71.7 | 104° | 6.8 x 13.3 | 9.3 | gable 3.7 | 3 | timber |
-| E-0072 | Workshop of Nicholas the bowyer | workshop | 1352.5 | 1146.0 | 71.7 | 104° | 6.1 x 7.0 | 3.0 | gable 3.4 | 1 | timber |
-| E-0073 | House of Edith the saddler | house | 1360.8 | 1170.5 | 71.7 | 111° | 5.8 x 9.7 | 12.4 | gable 3.2 | 4 | timber |
-| E-0074 | House of Sybil the bowyer | house | 1358.5 | 1177.2 | 71.7 | 111° | 7.1 x 9.4 | 12.4 | gable 3.9 | 4 | timber |
-| E-0075 | Workshop of Sybil the bowyer | workshop | 1349.4 | 1173.8 | 71.7 | 111° | 5.2 x 7.9 | 3.0 | gable 2.8 | 1 | timber |
-| E-0076 | House of Alan the vintner | shop | 1350.2 | 1189.9 | 71.7 | 117° | 7.4 x 13.1 | 9.3 | gable 4.1 | 3 | timber |
-| E-0077 | Workshop of Alan the vintner | workshop | 1339.6 | 1184.6 | 71.7 | 117° | 5.7 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| E-0078 | House of Margery the pewterer | shop | 1330.4 | 1222.8 | 71.6 | 126° | 6.5 x 12.6 | 9.3 | hip 2.9 | 3 | timber |
-| E-0079 | House of Amice the armourer | shop | 1325.6 | 1229.0 | 71.6 | 126° | 8.4 x 13.1 | 12.4 | gable 4.6 | 4 | timber |
-| E-0080 | Workshop of Amice the armourer | workshop | 1314.9 | 1221.2 | 71.7 | 126° | 6.7 x 6.3 | 6.0 | gable 3.4 | 1 | timber |
-| E-0081 | House of Joan the vintner | house | 1316.3 | 1240.6 | 71.5 | 129° | 6.5 x 13.6 | 12.4 | gable 3.6 | 4 | timber |
-| E-0082 | Workshop of Joan the vintner | workshop | 1306.6 | 1232.6 | 71.6 | 129° | 4.8 x 7.5 | 3.0 | gable 2.6 | 1 | timber |
-| E-0083 | House of Amice the saddler | shop | 1312.2 | 1247.3 | 71.5 | 129° | 8.5 x 11.4 | 6.2 | gable 4.7 | 2 | timber |
-| E-0084 | Workshop of Amice the saddler | workshop | 1304.1 | 1240.6 | 71.5 | 129° | 5.0 x 6.3 | 3.0 | gable 2.7 | 1 | timber |
-| E-0085 | House of Richard the butcher | shop | 1301.5 | 1257.3 | 71.3 | 132° | 6.3 x 14.9 | 9.3 | gable 3.5 | 3 | timber |
-| E-0086 | Workshop of Richard the butcher | workshop | 1292.4 | 1249.1 | 71.4 | 132° | 6.2 x 7.3 | 3.0 | gable 3.4 | 1 | timber |
-| E-0087 | House of Petronilla the pewterer | shop | 1336.6 | 1251.3 | 71.3 | 309° | 6.3 x 14.9 | 12.4 | gable 3.5 | 4 | timber |
-| E-0088 | House of Robin the tanner | house | 1330.7 | 1255.8 | 71.3 | 309° | 7.1 x 11.5 | 12.4 | gable 3.9 | 4 | timber |
-| E-0089 | House of Walter the lute-maker | shop | 1303.7 | 885.6 | 71.7 | 54° | 9.4 x 9.1 | 9.3 | gable 5.0 | 3 | timber |
-| E-0090 | Workshop of Walter the lute-maker | workshop | 1295.0 | 891.9 | 71.7 | 54° | 9.1 x 7.4 | 3.0 | gable 4.0 | 1 | timber |
-| E-0091 | House of Piers the scribe | shop | 1252.7 | 811.1 | 71.7 | 216° | 9.0 x 14.4 | 6.2 | gable 4.9 | 2 | stone |
-| E-0092 | Workshop of Piers the scribe | workshop | 1261.0 | 799.6 | 71.7 | 216° | 5.6 x 6.5 | 3.0 | gable 3.1 | 1 | timber |
-| E-0093 | House of Nicholas the herbalist | house | 1259.2 | 816.1 | 71.7 | 216° | 6.2 x 13.9 | 9.3 | gable 3.4 | 3 | timber |
-| E-0094 | House of Juliana the bellfounder | shop | 1264.4 | 822.0 | 71.7 | 216° | 8.2 x 10.3 | 9.3 | gable 4.5 | 3 | timber |
-| E-0095 | House of Mabel the weaver | house | 1271.9 | 825.9 | 71.7 | 220° | 5.7 x 13.5 | 9.3 | gable 3.1 | 3 | timber |
-| E-0096 | House of Mabel the glazier | house | 1290.3 | 842.5 | 71.7 | 225° | 7.5 x 12.4 | 12.4 | hip 3.4 | 4 | timber |
-| E-0097 | Workshop of Mabel the glazier | workshop | 1299.1 | 833.7 | 71.7 | 225° | 6.9 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| E-0098 | House of Jordan the locksmith | shop | 1352.1 | 935.5 | 71.7 | 245° | 7.5 x 9.8 | 15.5 | gable 4.1 | 5 | timber |
-| E-0099 | Workshop of Jordan the locksmith | workshop | 1361.3 | 931.3 | 71.7 | 245° | 7.0 x 6.2 | 3.0 | gable 3.4 | 1 | timber |
-| E-0100 | House of Jordan the tanner | house | 1363.9 | 1040.0 | 71.7 | 77° | 5.9 x 14.6 | 9.3 | hip 2.7 | 3 | timber |
-| E-0101 | Workshop of Jordan the tanner | workshop | 1352.3 | 1042.6 | 71.7 | 77° | 5.3 x 6.9 | 3.0 | gable 2.9 | 1 | timber |
-| E-0102 | House of Joan the ropemaker | house | 1369.1 | 1062.2 | 71.7 | 81° | 8.3 x 12.6 | 12.4 | gable 4.5 | 4 | stone |
-| E-0103 | House of Richard the chandler | house | 1489.5 | 1075.5 | 71.7 | 96° | 7.1 x 11.5 | 12.4 | gable 3.9 | 4 | stone |
-| E-0104 | House of Alan the cheesemonger | shop | 1487.7 | 1083.1 | 71.7 | 96° | 7.4 x 13.7 | 6.2 | gable 4.1 | 2 | timber |
-| E-0105 | Workshop of Alan the cheesemonger | workshop | 1474.8 | 1081.9 | 71.7 | 96° | 5.3 x 7.2 | 3.0 | gable 2.9 | 1 | timber |
-| E-0106 | House of Emma the candlemaker | shop | 1488.3 | 1091.6 | 71.6 | 96° | 8.8 x 10.8 | 6.2 | gable 4.8 | 2 | timber |
-| E-0107 | House of Stephen the wheelwright | house | 1485.5 | 1117.5 | 71.7 | 98° | 6.9 x 9.5 | 9.3 | gable 3.8 | 3 | timber |
-| E-0108 | Workshop of Stephen the wheelwright | workshop | 1475.6 | 1116.1 | 71.7 | 98° | 6.8 x 7.4 | 3.0 | gable 3.7 | 1 | timber |
-| E-0109 | House of Isabel the chandler | house | 1482.5 | 1126.0 | 71.7 | 98° | 9.3 x 12.8 | 9.3 | gable 5.1 | 3 | timber |
-| E-0110 | Workshop of Isabel the chandler | workshop | 1470.8 | 1124.2 | 71.7 | 98° | 4.8 x 6.0 | 6.0 | gable 2.6 | 1 | timber |
-| E-0111 | House of Robin the locksmith | house | 1477.1 | 1157.5 | 71.7 | 104° | 8.2 x 11.2 | 9.3 | gable 4.5 | 3 | timber |
-| E-0112 | House of Thomas the weaver | house | 1297.4 | 742.2 | 71.7 | 35° | 6.2 x 12.1 | 9.3 | gable 3.4 | 3 | timber |
-| E-0113 | Workshop of Thomas the weaver | workshop | 1291.4 | 750.8 | 71.7 | 35° | 5.0 x 5.9 | 3.0 | gable 2.7 | 1 | timber |
-| E-0114 | House of Petronilla the mercer | house | 1327.7 | 764.8 | 71.7 | 37° | 8.4 x 12.2 | 6.2 | hip 3.8 | 2 | timber |
-| E-0115 | Workshop of Petronilla the mercer | workshop | 1321.0 | 773.6 | 71.7 | 37° | 5.7 x 6.0 | 3.0 | gable 3.1 | 1 | timber |
-| E-0116 | House of Robin the mason | house | 1368.5 | 799.1 | 71.7 | 41° | 9.0 x 13.0 | 9.3 | gable 4.9 | 3 | timber |
-| E-0117 | House of Matilda the ropemaker | house | 1381.2 | 810.0 | 71.7 | 43° | 7.0 x 12.3 | 9.3 | gable 3.8 | 3 | timber |
-| E-0118 | House of Osbert the vintner | house | 1404.2 | 831.5 | 71.7 | 47° | 9.4 x 11.1 | 6.2 | gable 5.2 | 2 | timber |
-| E-0119 | House of Beatrice the potter | house | 1460.9 | 906.4 | 71.6 | 63° | 9.4 x 10.2 | 9.3 | gable 5.2 | 3 | timber |
-| E-0120 | Workshop of Beatrice the potter | workshop | 1450.5 | 911.6 | 71.7 | 63° | 7.9 x 5.5 | 6.0 | gable 3.0 | 1 | timber |
-| E-0121 | House of Isabel the potter | shop | 1464.5 | 914.8 | 71.7 | 63° | 8.1 x 11.5 | 9.3 | gable 4.5 | 3 | timber |
-| E-0122 | House of Ida the jeweller | house | 1477.0 | 942.1 | 71.7 | 70° | 6.9 x 9.4 | 6.2 | hip 3.1 | 2 | timber |
-| E-0123 | House of Rose the bellfounder | shop | 1487.1 | 990.2 | 71.7 | 83° | 9.1 x 12.5 | 9.3 | gable 5.0 | 3 | timber |
-| E-0124 | House of Cecily the fishmonger | shop | 1489.3 | 997.9 | 71.7 | 83° | 5.9 x 10.3 | 12.4 | hip 2.7 | 4 | timber |
-| E-0125 | House of Edith the apothecary | house | 1488.8 | 1005.9 | 71.7 | 83° | 8.6 x 13.3 | 9.3 | gable 4.7 | 3 | stone |
-| E-0126 | Workshop of Edith the apothecary | workshop | 1477.7 | 1007.3 | 71.7 | 83° | 8.5 x 6.5 | 6.0 | gable 3.6 | 1 | timber |
-| E-0127 | House of Gilbert the armourer | shop | 1489.6 | 1031.7 | 71.7 | 88° | 8.4 x 14.3 | 9.3 | gable 4.6 | 3 | timber |
-| E-0128 | House of Christiana the limner | house | 1490.3 | 1040.1 | 71.7 | 88° | 7.5 x 13.6 | 9.3 | hip 3.4 | 3 | timber |
-| E-0129 | Workshop of Christiana the limner | workshop | 1478.3 | 1040.4 | 71.7 | 88° | 5.9 x 4.8 | 6.0 | gable 2.6 | 1 | timber |
-| E-0130 | House of Alys the brewer | house | 1263.2 | 694.1 | 71.7 | 209° | 6.6 x 14.7 | 9.3 | gable 3.6 | 3 | stone |
-| E-0131 | House of Thomas the hatter | shop | 1269.1 | 698.2 | 71.7 | 212° | 5.9 x 13.9 | 9.3 | gable 3.2 | 3 | timber |
-| E-0132 | Workshop of Thomas the hatter | workshop | 1276.5 | 686.3 | 71.7 | 212° | 4.9 x 7.2 | 3.0 | gable 2.7 | 1 | timber |
-| E-0133 | House of Ralph the saddler | shop | 1273.3 | 703.4 | 71.7 | 212° | 5.6 x 9.5 | 9.3 | gable 3.1 | 3 | timber |
-| E-0134 | Workshop of Ralph the saddler | workshop | 1278.8 | 694.6 | 71.7 | 212° | 5.4 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| E-0135 | House of Amice the tailor | shop | 1287.1 | 709.1 | 71.7 | 212° | 7.2 x 14.4 | 9.3 | hip 3.2 | 3 | timber |
-| E-0136 | Workshop of Amice the tailor | workshop | 1293.2 | 699.3 | 71.7 | 212° | 6.8 x 6.8 | 3.0 | gable 3.7 | 1 | timber |
-| E-0137 | House of Alys the locksmith | house | 1316.1 | 729.0 | 71.7 | 215° | 7.3 x 14.6 | 9.3 | hip 3.3 | 3 | timber |
-| E-0138 | Workshop of Alys the locksmith | workshop | 1324.4 | 717.4 | 71.7 | 215° | 4.6 x 6.1 | 3.0 | gable 2.5 | 1 | timber |
-| E-0139 | House of Nicholas the parchmenter | house | 1333.1 | 744.6 | 71.7 | 217° | 6.4 x 10.1 | 9.3 | hip 2.9 | 3 | timber |
-| E-0140 | Workshop of Nicholas the parchmenter | workshop | 1338.8 | 737.0 | 71.7 | 217° | 6.4 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| E-0141 | House of Ida the candlemaker | shop | 1339.0 | 748.8 | 71.7 | 217° | 6.9 x 10.6 | 9.3 | gable 3.8 | 3 | timber |
-| E-0142 | Workshop of Ida the candlemaker | workshop | 1346.2 | 739.2 | 71.7 | 217° | 6.3 x 7.5 | 3.0 | gable 3.5 | 1 | timber |
-| E-0143 | House of Piers the goldsmith | shop | 1345.7 | 753.2 | 71.7 | 219° | 7.2 x 12.0 | 9.3 | gable 4.0 | 3 | timber |
-| E-0144 | House of Alan the locksmith | shop | 1369.8 | 773.2 | 71.7 | 221° | 6.9 x 11.5 | 9.3 | gable 3.8 | 3 | timber |
-| E-0145 | Workshop of Alan the locksmith | workshop | 1377.1 | 764.8 | 71.7 | 221° | 4.5 x 7.7 | 3.0 | gable 2.5 | 1 | timber |
-| E-0146 | House of Henry the cheesemonger | house | 1400.9 | 799.6 | 71.7 | 223° | 7.8 x 13.5 | 9.3 | gable 4.3 | 3 | timber |
-| E-0147 | House of Matilda the pie-seller | shop | 1451.6 | 854.3 | 71.7 | 231° | 8.2 x 14.2 | 9.3 | gable 4.5 | 3 | timber |
-| E-0148 | Workshop of Matilda the pie-seller | workshop | 1460.8 | 847.0 | 71.7 | 231° | 4.9 x 6.4 | 3.0 | gable 2.7 | 1 | timber |
-| E-0149 | House of Hob the lute-maker | shop | 1455.6 | 863.5 | 71.7 | 237° | 8.6 x 9.4 | 6.2 | gable 4.7 | 2 | timber |
-| E-0150 | Workshop of Hob the lute-maker | workshop | 1464.7 | 857.5 | 71.7 | 237° | 6.9 x 7.0 | 3.0 | gable 3.8 | 1 | timber |
-| E-0151 | House of Emma the saddler | house | 1600.7 | 1076.0 | 71.7 | 96° | 8.1 x 14.1 | 9.3 | gable 4.5 | 3 | stone |
-| E-0152 | House of Emma the hatter | house | 1598.9 | 1092.2 | 71.7 | 96° | 8.9 x 14.6 | 12.4 | gable 4.9 | 4 | timber |
-| E-0153 | Workshop of Emma the hatter | workshop | 1587.2 | 1091.0 | 71.8 | 96° | 4.9 x 5.4 | 3.0 | gable 2.7 | 1 | timber |
-| E-0154 | House of Alys the cutler | shop | 1600.4 | 1100.9 | 71.7 | 96° | 7.1 x 9.9 | 12.4 | gable 3.9 | 4 | timber |
-| E-0155 | Workshop of Alys the cutler | workshop | 1590.5 | 1099.9 | 71.7 | 96° | 6.4 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| E-0156 | House of Robin the glover | house | 1594.1 | 1127.8 | 71.7 | 101° | 7.6 x 12.8 | 9.3 | gable 4.2 | 3 | timber |
-| E-0157 | House of Maud the ropemaker | shop | 1593.1 | 1135.2 | 71.7 | 101° | 6.7 x 11.8 | 9.3 | gable 3.7 | 3 | timber |
-| E-0158 | Workshop of Maud the ropemaker | workshop | 1583.3 | 1133.3 | 71.7 | 101° | 4.6 x 5.3 | 3.0 | gable 2.5 | 1 | timber |
-| E-0159 | House of Hawise the glazier | shop | 1580.7 | 1182.9 | 71.7 | 110° | 6.0 x 9.7 | 6.2 | hip 2.7 | 2 | timber |
-| E-0160 | Workshop of Hawise the glazier | workshop | 1569.9 | 1179.1 | 71.7 | 110° | 5.8 x 6.6 | 3.0 | gable 3.2 | 1 | timber |
-| E-0161 | House of Piers the fuller | house | 1573.7 | 1196.9 | 71.7 | 110° | 6.9 x 13.5 | 6.2 | gable 3.8 | 2 | timber |
-| E-0162 | House of Maud the bellfounder | shop | 1556.5 | 1240.4 | 71.4 | 112° | 6.0 x 13.6 | 9.3 | gable 3.3 | 3 | timber |
-| E-0163 | House of Ida the furrier | shop | 1375.4 | 637.9 | 79.4 | 32° | 6.5 x 9.1 | 9.3 | gable 3.6 | 3 | timber |
-| E-0164 | Workshop of Ida the furrier | workshop | 1369.9 | 646.8 | 78.2 | 32° | 5.4 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| E-0165 | House of Robin the armourer | shop | 1423.5 | 673.3 | 71.7 | 44° | 6.7 x 9.3 | 9.3 | gable 3.7 | 3 | timber |
-| E-0166 | Workshop of Robin the armourer | workshop | 1416.6 | 680.5 | 71.7 | 44° | 5.8 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| E-0167 | House of Rose the bookbinder | house | 1432.8 | 683.5 | 71.7 | 44° | 7.7 x 11.1 | 9.3 | hip 3.5 | 3 | timber |
-| E-0168 | House of Edith the stonecarver | house | 1443.0 | 695.0 | 71.7 | 44° | 6.1 x 13.6 | 9.3 | gable 3.4 | 3 | timber |
-| E-0169 | Workshop of Edith the stonecarver | workshop | 1435.7 | 702.6 | 71.7 | 44° | 5.9 x 5.0 | 3.0 | gable 2.8 | 1 | timber |
-| E-0170 | House of Baldwin the cooper | house | 1473.8 | 728.8 | 71.7 | 50° | 6.2 x 12.1 | 9.3 | gable 3.4 | 3 | timber |
-| E-0171 | House of Osbert the pewterer | house | 1481.5 | 738.9 | 71.7 | 54° | 6.7 x 11.4 | 6.2 | hip 3.0 | 2 | timber |
-| E-0172 | Workshop of Osbert the pewterer | workshop | 1473.5 | 744.6 | 71.7 | 54° | 5.2 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| E-0173 | House of Elena the scribe | shop | 1497.2 | 761.1 | 71.7 | 57° | 9.2 x 11.7 | 9.3 | gable 5.1 | 3 | timber |
-| E-0174 | Workshop of Elena the scribe | workshop | 1486.8 | 767.8 | 71.7 | 57° | 8.3 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| E-0175 | House of Felice the wheelwright | shop | 1513.5 | 788.6 | 71.7 | 58° | 7.3 x 13.3 | 6.2 | gable 4.0 | 2 | timber |
-| E-0176 | Workshop of Felice the wheelwright | workshop | 1503.4 | 795.0 | 71.7 | 58° | 6.5 x 6.2 | 3.0 | gable 3.4 | 1 | timber |
-| E-0177 | House of Edith the barber-surgeon | shop | 1520.6 | 800.8 | 71.7 | 61° | 6.1 x 13.1 | 6.2 | gable 3.4 | 2 | stone |
-| E-0178 | House of Elena the chandler | shop | 1523.8 | 808.2 | 71.7 | 61° | 8.6 x 14.8 | 9.3 | gable 4.7 | 3 | timber |
-| E-0179 | House of Alys the glazier | house | 1528.9 | 814.7 | 71.7 | 61° | 7.3 x 12.1 | 6.2 | hip 3.3 | 2 | timber |
-| E-0180 | Workshop of Alys the glazier | workshop | 1517.8 | 820.8 | 71.7 | 61° | 5.9 x 7.1 | 3.0 | gable 3.2 | 1 | timber |
-| E-0181 | House of Ralph the tailor | house | 1532.5 | 822.5 | 71.7 | 61° | 9.4 x 13.3 | 6.2 | gable 5.2 | 2 | timber |
-| E-0182 | House of Stephen the notary | shop | 1547.7 | 848.4 | 71.7 | 64° | 8.4 x 9.5 | 6.2 | gable 4.6 | 2 | timber |
-| E-0183 | Workshop of Stephen the notary | workshop | 1538.3 | 853.1 | 71.7 | 64° | 6.3 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| E-0184 | House of Matilda the bowyer | shop | 1558.8 | 877.0 | 71.7 | 66° | 7.4 x 13.3 | 9.3 | gable 4.1 | 3 | timber |
-| E-0185 | House of Wat the draper | house | 1569.5 | 900.2 | 71.6 | 69° | 8.2 x 11.6 | 9.3 | gable 4.5 | 3 | timber |
-| E-0186 | Workshop of Wat the draper | workshop | 1559.6 | 904.0 | 71.7 | 69° | 8.0 x 6.8 | 3.0 | gable 3.7 | 1 | timber |
-| E-0187 | House of Robin the saddler | shop | 1573.1 | 907.5 | 71.6 | 69° | 6.7 x 10.0 | 9.3 | gable 3.7 | 3 | timber |
-| E-0188 | House of Christiana the saddler | house | 1589.1 | 958.8 | 71.7 | 73° | 8.0 x 12.1 | 6.2 | gable 4.4 | 2 | timber |
-| E-0189 | House of Sybil the tinker | house | 1592.6 | 971.8 | 71.7 | 78° | 5.8 x 11.2 | 6.2 | hip 2.6 | 2 | timber |
-| E-0190 | Workshop of Sybil the tinker | workshop | 1582.2 | 974.0 | 71.7 | 78° | 5.3 x 5.0 | 6.0 | gable 2.8 | 1 | timber |
-| E-0191 | House of Richard the dyer | house | 1594.7 | 979.4 | 71.7 | 78° | 9.2 x 10.4 | 9.3 | gable 5.1 | 3 | timber |
-| E-0192 | Workshop of Richard the dyer | workshop | 1584.6 | 981.6 | 71.7 | 78° | 8.7 x 5.7 | 3.0 | gable 3.1 | 1 | timber |
-| E-0193 | House of Isabel the armourer | shop | 1595.5 | 989.1 | 71.7 | 78° | 9.0 x 13.0 | 12.4 | gable 5.0 | 4 | timber |
-| E-0194 | House of Stephen the glover | shop | 1600.6 | 1012.1 | 71.7 | 83° | 5.8 x 9.8 | 6.2 | hip 2.6 | 2 | timber |
-| E-0195 | Workshop of Stephen the glover | workshop | 1591.8 | 1013.1 | 71.7 | 83° | 4.6 x 5.2 | 6.0 | gable 2.5 | 1 | timber |
-| E-0196 | House of Piers the saddler | house | 1601.4 | 1020.0 | 71.7 | 83° | 9.0 x 9.9 | 9.3 | gable 5.0 | 3 | timber |
-| E-0197 | House of Baldwin the jeweller | shop | 1601.3 | 1028.8 | 71.7 | 83° | 7.3 x 12.2 | 6.2 | hip 3.3 | 2 | timber |
-| E-0198 | House of Osbert the cutler | shop | 1603.5 | 1043.4 | 71.7 | 89° | 7.8 x 9.1 | 12.4 | gable 4.3 | 4 | timber |
-| E-0199 | Workshop of Osbert the cutler | workshop | 1592.1 | 1043.5 | 71.7 | 89° | 4.6 x 6.4 | 3.0 | gable 2.5 | 1 | timber |
-| E-0200 | House of Amice the limner | shop | 1601.7 | 1051.2 | 71.7 | 89° | 7.2 x 12.9 | 12.4 | hip 3.2 | 4 | timber |
-| E-0201 | House of Nicholas the hatter | house | 1406.5 | 637.4 | 78.5 | 218° | 5.8 x 9.5 | 6.2 | gable 3.2 | 2 | stone |
-| E-0202 | Workshop of Nicholas the hatter | workshop | 1411.9 | 630.5 | 79.5 | 218° | 5.4 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| E-0203 | House of Amice the goldsmith | house | 1450.9 | 675.4 | 71.7 | 224° | 5.8 x 9.2 | 6.2 | gable 3.2 | 2 | timber |
-| E-0204 | Workshop of Amice the goldsmith | workshop | 1458.2 | 667.8 | 71.7 | 224° | 5.2 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| E-0205 | House of Adam the cooper | house | 1457.6 | 678.2 | 71.7 | 224° | 6.5 x 14.5 | 6.2 | hip 3.0 | 2 | timber |
-| E-0206 | Workshop of Adam the cooper | workshop | 1467.1 | 668.4 | 71.7 | 224° | 5.4 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| E-0207 | House of Piers the money-changer | house | 1713.5 | 1077.8 | 71.7 | 85° | 8.0 x 11.4 | 9.3 | hip 3.6 | 3 | timber |
-| E-0208 | House of Juliana the mercer | shop | 1712.8 | 1086.2 | 71.7 | 85° | 8.0 x 14.3 | 6.2 | gable 4.4 | 2 | stone |
-| E-0209 | Workshop of Juliana the mercer | workshop | 1700.1 | 1087.2 | 71.7 | 85° | 7.6 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| E-0210 | House of Ida the fishmonger | house | 1715.0 | 1094.0 | 71.7 | 85° | 7.1 x 11.2 | 9.3 | gable 3.9 | 3 | timber |
-| E-0211 | House of Maud the cobbler | shop | 1717.1 | 1111.7 | 71.7 | 85° | 8.6 x 9.9 | 9.3 | gable 4.7 | 3 | stone |
-| E-0212 | House of Godwin the saddler | house | 1715.7 | 1134.9 | 71.7 | 90° | 7.2 x 13.7 | 6.2 | hip 3.2 | 2 | timber |
-| E-0213 | Workshop of Godwin the saddler | workshop | 1703.1 | 1135.0 | 71.7 | 90° | 7.0 x 6.9 | 3.0 | gable 3.8 | 1 | timber |
-| E-0214 | House of Thomas the mason | house | 1520.5 | 637.0 | 71.6 | 41° | 7.0 x 14.9 | 6.2 | gable 3.8 | 2 | stone |
-| E-0215 | Workshop of Thomas the mason | workshop | 1511.8 | 646.9 | 71.6 | 41° | 6.4 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| E-0216 | House of Emma the cobbler | shop | 1544.2 | 657.1 | 71.7 | 44° | 5.8 x 11.4 | 6.2 | gable 3.2 | 2 | stone |
-| E-0217 | House of Isabel the spicer | house | 1547.6 | 662.9 | 71.6 | 44° | 5.7 x 15.0 | 6.2 | gable 3.1 | 2 | timber |
-| E-0218 | Workshop of Isabel the spicer | workshop | 1538.0 | 672.9 | 71.7 | 44° | 4.7 x 6.7 | 3.0 | gable 2.6 | 1 | timber |
-| E-0219 | House of Sybil the butcher | shop | 1558.8 | 672.8 | 71.7 | 49° | 8.3 x 12.9 | 6.2 | gable 4.6 | 2 | timber |
-| E-0220 | Workshop of Sybil the butcher | workshop | 1550.4 | 680.2 | 71.7 | 49° | 4.9 x 5.4 | 3.0 | gable 2.7 | 1 | timber |
-| E-0221 | House of Juliana the herbalist | shop | 1564.7 | 679.9 | 71.7 | 49° | 9.4 x 13.3 | 6.2 | gable 5.2 | 2 | timber |
-| E-0222 | House of Alys the barber-surgeon | shop | 1582.5 | 699.4 | 71.7 | 49° | 6.8 x 12.0 | 6.2 | hip 3.0 | 2 | timber |
-| E-0223 | Workshop of Alys the barber-surgeon | workshop | 1572.9 | 707.8 | 71.7 | 49° | 6.2 x 6.8 | 6.0 | gable 3.4 | 1 | timber |
-| E-0224 | House of Agnes the apothecary | house | 1589.7 | 710.2 | 71.7 | 54° | 6.0 x 13.6 | 9.3 | gable 3.3 | 3 | timber |
-| E-0225 | Workshop of Agnes the apothecary | workshop | 1578.4 | 718.2 | 71.7 | 54° | 5.7 x 7.7 | 3.0 | gable 3.1 | 1 | timber |
-| E-0226 | House of Alan the scribe | house | 1600.4 | 721.4 | 71.6 | 54° | 8.2 x 9.2 | 9.3 | gable 4.5 | 3 | timber |
-| E-0227 | Workshop of Alan the scribe | workshop | 1592.5 | 727.1 | 71.6 | 54° | 4.7 x 6.4 | 6.0 | gable 2.6 | 1 | timber |
-| E-0228 | House of Matilda the weaver | shop | 1614.2 | 745.7 | 71.7 | 60° | 8.8 x 13.5 | 9.3 | gable 4.9 | 3 | stone |
-| E-0229 | Workshop of Matilda the weaver | workshop | 1605.3 | 750.8 | 71.7 | 60° | 6.0 x 4.5 | 6.0 | gable 2.5 | 1 | timber |
-| E-0230 | House of Ralph the cooper | house | 1618.8 | 752.9 | 71.7 | 60° | 7.5 x 12.8 | 6.2 | gable 4.1 | 2 | timber |
-| E-0231 | House of Osbert the armourer | house | 1627.2 | 767.2 | 71.6 | 60° | 8.6 x 12.4 | 9.3 | gable 4.7 | 3 | timber |
-| E-0232 | House of Adam the lute-maker | shop | 1631.7 | 773.4 | 71.6 | 60° | 5.7 x 10.9 | 6.2 | gable 3.1 | 2 | timber |
-| E-0233 | Workshop of Adam the lute-maker | workshop | 1621.7 | 779.1 | 71.6 | 60° | 5.4 x 6.3 | 6.0 | gable 3.0 | 1 | timber |
-| E-0234 | House of Cecily the pie-seller | shop | 1647.2 | 804.0 | 71.7 | 65° | 6.7 x 9.1 | 9.3 | hip 3.0 | 3 | timber |
-| E-0235 | House of Edith the cheesemonger | shop | 1648.0 | 811.7 | 71.7 | 65° | 6.8 x 13.9 | 9.3 | hip 3.1 | 3 | stone |
-| E-0236 | Workshop of Edith the cheesemonger | workshop | 1638.2 | 816.2 | 71.7 | 65° | 5.2 x 5.2 | 3.0 | gable 2.8 | 1 | timber |
-| E-0237 | House of Rose the mercer | house | 1654.1 | 824.6 | 71.7 | 70° | 6.4 x 12.4 | 9.3 | gable 3.5 | 3 | timber |
-| E-0238 | Workshop of Rose the mercer | workshop | 1641.5 | 829.2 | 71.7 | 70° | 6.3 x 7.5 | 3.0 | gable 3.5 | 1 | timber |
-| E-0239 | House of Ralph the barber-surgeon | house | 1656.0 | 831.7 | 71.6 | 70° | 7.8 x 13.8 | 9.3 | hip 3.5 | 3 | timber |
-| E-0240 | Workshop of Ralph the barber-surgeon | workshop | 1643.1 | 836.4 | 71.7 | 70° | 5.9 x 5.9 | 6.0 | gable 3.2 | 1 | timber |
-| E-0241 | House of Alan the jeweller | house | 1659.8 | 838.5 | 71.7 | 70° | 6.7 x 11.4 | 12.4 | gable 3.7 | 4 | timber |
-| E-0242 | Workshop of Alan the jeweller | workshop | 1648.0 | 842.9 | 71.7 | 70° | 6.0 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| E-0243 | House of Sybil the cutler | house | 1665.1 | 853.0 | 71.7 | 70° | 8.1 x 11.4 | 9.3 | hip 3.6 | 3 | timber |
-| E-0244 | Workshop of Sybil the cutler | workshop | 1655.8 | 856.4 | 71.7 | 70° | 4.8 x 5.4 | 6.0 | gable 2.6 | 1 | timber |
-| E-0245 | House of Richard the fishmonger | shop | 1670.7 | 876.0 | 71.6 | 73° | 7.2 x 14.5 | 9.3 | gable 4.0 | 3 | timber |
-| E-0246 | Workshop of Richard the fishmonger | workshop | 1659.0 | 879.5 | 71.7 | 73° | 6.2 x 5.9 | 3.0 | gable 3.2 | 1 | timber |
-| E-0247 | House of Emma the fletcher | shop | 1674.5 | 883.2 | 71.6 | 73° | 7.8 x 11.4 | 6.2 | gable 4.3 | 2 | timber |
-| E-0248 | House of Wat the stonecarver | house | 1676.4 | 891.7 | 71.7 | 73° | 8.8 x 12.7 | 9.3 | gable 4.8 | 3 | stone |
-| E-0249 | House of Rose the butcher | shop | 1680.7 | 904.0 | 71.7 | 76° | 6.0 x 11.2 | 9.3 | gable 3.3 | 3 | timber |
-| E-0250 | Workshop of Rose the butcher | workshop | 1670.2 | 906.7 | 71.7 | 76° | 5.7 x 5.8 | 3.0 | gable 3.1 | 1 | timber |
-| E-0251 | House of Simon the chandler | shop | 1686.8 | 929.0 | 71.7 | 76° | 8.9 x 11.4 | 6.2 | gable 4.9 | 2 | timber |
-| E-0252 | Workshop of Simon the chandler | workshop | 1676.5 | 931.5 | 71.7 | 76° | 5.2 x 5.0 | 3.0 | gable 2.8 | 1 | timber |
-| E-0253 | House of Hawise the mason | shop | 1695.1 | 971.0 | 71.7 | 78° | 9.0 x 13.7 | 6.2 | hip 4.0 | 2 | timber |
-| E-0254 | House of Juliana the glazier | house | 1703.7 | 1011.0 | 71.7 | 80° | 8.5 x 12.0 | 9.3 | gable 4.7 | 3 | timber |
-| E-0255 | Workshop of Juliana the glazier | workshop | 1693.2 | 1012.9 | 71.7 | 80° | 4.9 x 6.6 | 3.0 | gable 2.7 | 1 | timber |
-| E-0256 | House of Amice the butcher | shop | 1705.4 | 1019.9 | 71.7 | 80° | 9.0 x 11.8 | 6.2 | gable 5.0 | 2 | timber |
-| E-0257 | House of Ralph the saddler | house | 1709.9 | 1057.7 | 71.7 | 82° | 6.1 x 13.8 | 6.2 | gable 3.4 | 2 | timber |
-| E-0258 | House of Laurence the butcher | shop | 1541.4 | 625.4 | 71.8 | 224° | 8.7 x 14.1 | 9.3 | gable 4.8 | 3 | timber |
-| E-0259 | House of Joan the notary | shop | 1559.2 | 644.3 | 71.7 | 224° | 5.8 x 11.5 | 6.2 | gable 3.2 | 2 | timber |
-| E-0260 | Workshop of Joan the notary | workshop | 1568.0 | 635.1 | 71.7 | 224° | 4.7 x 6.2 | 6.0 | gable 2.6 | 1 | timber |
-| E-0261 | House of Isabel the pie-seller | shop | 1571.6 | 655.4 | 71.7 | 228° | 7.5 x 13.0 | 6.2 | gable 4.1 | 2 | timber |
-| E-0262 | Workshop of Isabel the pie-seller | workshop | 1579.7 | 648.0 | 71.7 | 228° | 7.0 x 6.8 | 6.0 | gable 3.8 | 1 | timber |
-| E-0263 | House of Isabel the armourer | shop | 1620.3 | 715.5 | 71.7 | 234° | 6.3 x 13.7 | 6.2 | gable 3.5 | 2 | stone |
-| E-0264 | Workshop of Isabel the armourer | workshop | 1631.4 | 707.5 | 71.6 | 234° | 5.1 x 6.8 | 6.0 | gable 2.8 | 1 | timber |
-| E-0265 | House of Hob the goldsmith | house | 1303.6 | 1084.1 | 71.7 | 182° | 7.1 x 11.1 | 12.4 | hip 3.2 | 4 | timber |
-| E-0266 | Workshop of Hob the goldsmith | workshop | 1303.9 | 1073.9 | 71.7 | 182° | 5.3 x 6.2 | 3.0 | gable 2.9 | 1 | timber |
-| E-0267 | House of Alan the fuller | house | 1320.2 | 1083.2 | 71.6 | 182° | 9.0 x 14.0 | 6.2 | gable 5.0 | 2 | timber |
-| E-0268 | Workshop of Alan the fuller | workshop | 1320.6 | 1070.8 | 71.7 | 182° | 8.6 x 7.1 | 6.0 | gable 3.9 | 1 | timber |
-| E-0269 | House of Ivetta the mercer | house | 1337.7 | 1083.4 | 71.7 | 182° | 9.4 x 14.5 | 9.3 | gable 5.2 | 3 | timber |
-| E-0270 | House of Avice the stonecarver | shop | 1346.0 | 1086.4 | 71.7 | 182° | 6.6 x 9.2 | 12.4 | hip 3.0 | 4 | timber |
-| E-0271 | Workshop of Avice the stonecarver | workshop | 1346.3 | 1076.6 | 71.7 | 182° | 4.9 x 5.2 | 6.0 | gable 2.7 | 1 | timber |
-| E-0272 | House of Laurence the scribe | shop | 1352.6 | 1086.5 | 71.7 | 182° | 6.1 x 9.3 | 12.4 | gable 3.4 | 4 | stone |
-| E-0273 | House of Felice the armourer | shop | 1359.8 | 1086.6 | 71.7 | 182° | 7.0 x 9.6 | 12.4 | gable 3.8 | 4 | stone |
-| E-0274 | Workshop of Felice the armourer | workshop | 1360.2 | 1074.3 | 71.7 | 182° | 4.7 x 7.5 | 3.0 | gable 2.6 | 1 | timber |
-| E-0275 | House of Martin the jeweller | house | 1398.6 | 1086.5 | 71.7 | 182° | 7.3 x 12.5 | 9.3 | gable 4.0 | 3 | timber |
-| E-0276 | House of Amice the tanner | house | 1573.7 | 1121.5 | 71.7 | 7° | 9.2 x 14.1 | 9.3 | gable 5.0 | 3 | timber |
-| E-0277 | House of Juliana the spicer | house | 1456.2 | 1089.5 | 71.7 | 183° | 5.7 x 11.6 | 9.3 | hip 2.6 | 3 | timber |
-| E-0278 | Workshop of Juliana the spicer | workshop | 1456.8 | 1078.6 | 71.7 | 183° | 5.2 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| E-0279 | House of Ivetta the lute-maker | shop | 1510.1 | 1093.9 | 71.7 | 185° | 6.2 x 10.8 | 9.3 | gable 3.4 | 3 | stone |
-| E-0280 | Workshop of Ivetta the lute-maker | workshop | 1511.1 | 1083.0 | 71.7 | 185° | 5.3 x 7.9 | 3.0 | gable 2.9 | 1 | timber |
-| E-0281 | House of Laurence the wheelwright | shop | 1517.8 | 1094.5 | 71.7 | 186° | 8.9 x 11.0 | 6.2 | gable 4.9 | 2 | timber |
-| E-0282 | House of Mabel the fletcher | house | 1527.0 | 1094.4 | 71.7 | 186° | 8.8 x 13.2 | 9.3 | hip 4.0 | 3 | timber |
-| E-0283 | House of Beatrice the limner | shop | 1534.9 | 1096.6 | 71.7 | 186° | 6.6 x 10.3 | 9.3 | gable 3.6 | 3 | timber |
-| E-0284 | House of Gilbert the chandler | house | 1541.5 | 1097.7 | 71.7 | 186° | 5.8 x 9.6 | 9.3 | gable 3.2 | 3 | timber |
-| E-0285 | House of Adam the apothecary | house | 1563.6 | 1098.1 | 71.7 | 187° | 6.9 x 13.7 | 9.3 | gable 3.8 | 3 | timber |
-| E-0286 | Workshop of Adam the apothecary | workshop | 1565.1 | 1085.6 | 71.7 | 187° | 6.5 x 5.2 | 3.0 | gable 2.9 | 1 | timber |
-| E-0287 | House of Walter the spicer | shop | 1570.9 | 1101.0 | 71.7 | 187° | 7.9 x 9.6 | 9.3 | gable 4.3 | 3 | timber |
-| E-0288 | House of Odo the chandler | house | 1578.8 | 1099.5 | 71.7 | 187° | 6.2 x 14.5 | 9.3 | gable 3.4 | 3 | timber |
-| E-0289 | Workshop of Odo the chandler | workshop | 1580.3 | 1086.3 | 71.7 | 187° | 5.5 x 5.8 | 3.0 | gable 3.0 | 1 | timber |
-| E-0290 | House of Hob the bookbinder | shop | 1622.1 | 1104.5 | 71.7 | 186° | 7.6 x 14.3 | 6.2 | gable 4.2 | 2 | timber |
-| E-0291 | Workshop of Hob the bookbinder | workshop | 1623.6 | 1090.3 | 71.6 | 186° | 6.6 x 7.2 | 6.0 | gable 3.6 | 1 | timber |
-| E-0292 | House of Sybil the cobbler | shop | 1629.4 | 1104.9 | 71.7 | 186° | 6.2 x 14.8 | 9.3 | hip 2.8 | 3 | timber |
-| E-0293 | Workshop of Sybil the cobbler | workshop | 1630.6 | 1093.5 | 71.7 | 186° | 5.3 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| E-0294 | House of Joan the armourer | house | 1636.2 | 1106.6 | 71.7 | 186° | 6.9 x 12.9 | 9.3 | gable 3.8 | 3 | stone |
-| E-0295 | House of Ivetta the carpenter | shop | 1644.2 | 1109.2 | 71.7 | 185° | 8.9 x 9.1 | 6.2 | gable 4.9 | 2 | timber |
-| E-0296 | House of Emma the chandler | shop | 1671.5 | 1108.9 | 71.7 | 185° | 8.1 x 14.6 | 6.2 | hip 3.7 | 2 | timber |
-| E-0297 | Workshop of Emma the chandler | workshop | 1672.7 | 1094.4 | 71.7 | 185° | 7.2 x 7.0 | 3.0 | gable 3.9 | 1 | timber |
-| E-0298 | House of Richard the clockmaker | house | 1686.1 | 1110.2 | 71.7 | 185° | 8.3 x 14.3 | 9.3 | gable 4.6 | 3 | timber |
-| E-0299 | House of Agnes the baker | house | 1694.2 | 1111.7 | 71.7 | 185° | 7.5 x 12.8 | 6.2 | gable 4.1 | 2 | timber |
-| E-0300 | Workshop of Agnes the baker | workshop | 1695.2 | 1099.0 | 71.7 | 185° | 7.1 x 5.9 | 3.0 | gable 3.2 | 1 | timber |
-| E-0301 | House of Isabel the parchmenter | house | 1701.0 | 1112.3 | 71.7 | 185° | 5.8 x 12.5 | 6.2 | hip 2.6 | 2 | timber |
-| E-0302 | House of Walter the hatter | house | 1736.7 | 1115.5 | 71.7 | 184° | 5.9 x 11.7 | 6.2 | gable 3.3 | 2 | timber |
-| E-0303 | Workshop of Walter the hatter | workshop | 1737.5 | 1105.7 | 71.6 | 184° | 4.9 x 5.8 | 6.0 | gable 2.7 | 1 | timber |
-| E-0304 | House of Rose the bowyer | shop | 1743.8 | 1115.3 | 71.6 | 184° | 7.3 x 13.2 | 6.2 | gable 4.0 | 2 | timber |
-| E-0305 | Workshop of Rose the bowyer | workshop | 1744.7 | 1103.5 | 71.6 | 184° | 6.2 x 7.4 | 3.0 | gable 3.4 | 1 | timber |
-| E-0306 | House of Juliana the cooper | shop | 1751.1 | 1117.2 | 71.6 | 184° | 7.0 x 10.7 | 6.2 | hip 3.2 | 2 | timber |
-| E-0307 | Workshop of Juliana the cooper | workshop | 1751.9 | 1105.6 | 71.6 | 184° | 5.8 x 8.0 | 3.0 | gable 3.2 | 1 | timber |
-| E-0308 | House of Henry the limner | house | 1757.8 | 1115.8 | 71.7 | 184° | 5.8 x 14.4 | 6.2 | gable 3.2 | 2 | timber |
-| E-0309 | House of Ida the wheelwright | house | 1775.1 | 1117.8 | 71.7 | 184° | 8.8 x 12.9 | 6.2 | gable 4.9 | 2 | timber |
-| E-0310 | House of Henry the dyer | house | 1783.5 | 1120.4 | 71.7 | 184° | 7.5 x 9.1 | 6.2 | hip 3.4 | 2 | timber |
-| E-0311 | House of Geoffrey the jeweller | shop | 1792.1 | 1119.0 | 71.7 | 184° | 8.0 x 13.2 | 6.2 | gable 4.4 | 2 | timber |
-| E-0312 | House of Simon the locksmith | shop | 1294.6 | 1133.4 | 71.7 | 194° | 6.8 x 14.8 | 9.3 | gable 3.8 | 3 | timber |
-| E-0313 | House of Cecily the money-changer | shop | 1301.9 | 1135.1 | 71.6 | 193° | 7.0 x 14.9 | 9.3 | gable 3.8 | 3 | timber |
-| E-0314 | House of Christiana the mason | house | 1309.3 | 1137.5 | 71.6 | 193° | 7.3 x 13.6 | 15.5 | gable 4.0 | 5 | timber |
-| E-0315 | Workshop of Christiana the mason | workshop | 1312.6 | 1123.4 | 71.7 | 193° | 5.9 x 7.5 | 3.0 | gable 3.2 | 1 | timber |
-| E-0316 | House of Laurence the armourer | shop | 1324.7 | 1142.9 | 71.7 | 193° | 6.9 x 10.4 | 12.4 | gable 3.8 | 4 | stone |
-| E-0317 | Workshop of Laurence the armourer | workshop | 1327.2 | 1132.6 | 71.7 | 193° | 4.8 x 5.4 | 3.0 | gable 2.6 | 1 | timber |
-| E-0318 | House of Juliana the mason | shop | 1333.1 | 1143.6 | 71.7 | 193° | 8.4 x 12.8 | 6.2 | gable 4.6 | 2 | timber |
-| E-0319 | Workshop of Juliana the mason | workshop | 1335.6 | 1133.3 | 71.7 | 193° | 5.7 x 5.5 | 6.0 | gable 3.0 | 1 | timber |
-| E-0320 | House of Walter the bowyer | house | 1341.8 | 1147.2 | 71.7 | 193° | 9.0 x 9.9 | 9.3 | gable 4.9 | 3 | timber |
-| E-0321 | House of Felice the hatter | house | 1390.9 | 1156.6 | 71.8 | 194° | 8.7 x 14.4 | 9.3 | gable 4.8 | 3 | timber |
-| E-0322 | Workshop of Felice the hatter | workshop | 1394.1 | 1143.5 | 71.7 | 194° | 6.6 x 6.3 | 6.0 | gable 3.5 | 1 | timber |
-| E-0323 | House of Nicholas the cheesemonger | house | 1399.4 | 1160.9 | 71.7 | 194° | 8.6 x 10.1 | 6.2 | gable 4.7 | 2 | timber |
-| E-0324 | Workshop of Nicholas the cheesemonger | workshop | 1402.1 | 1149.8 | 71.8 | 194° | 8.3 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| E-0325 | House of Simon the armourer | shop | 1407.5 | 1160.8 | 71.7 | 194° | 6.2 x 14.1 | 6.2 | gable 3.4 | 2 | timber |
-| E-0326 | Workshop of Simon the armourer | workshop | 1410.5 | 1148.6 | 71.7 | 194° | 5.2 x 6.0 | 6.0 | gable 2.9 | 1 | timber |
-| E-0327 | House of Amice the pewterer | house | 1490.6 | 1182.5 | 71.7 | 195° | 6.5 x 12.2 | 12.4 | gable 3.6 | 4 | timber |
-| E-0328 | Workshop of Amice the pewterer | workshop | 1493.6 | 1171.7 | 71.7 | 195° | 5.7 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| E-0329 | House of Laurence the goldsmith | shop | 1496.8 | 1185.0 | 71.6 | 196° | 5.8 x 10.7 | 9.3 | gable 3.2 | 3 | timber |
-| E-0330 | House of Ivetta the carpenter | house | 1509.0 | 1188.3 | 71.6 | 196° | 6.4 x 11.1 | 12.4 | gable 3.5 | 4 | timber |
-| E-0331 | House of Cecily the scribe | shop | 1516.0 | 1190.6 | 71.6 | 196° | 7.6 x 10.4 | 9.3 | gable 4.2 | 3 | timber |
-| E-0332 | Workshop of Cecily the scribe | workshop | 1518.7 | 1181.1 | 71.7 | 196° | 4.8 x 5.9 | 3.0 | gable 2.7 | 1 | timber |
-| E-0333 | House of Petronilla the fishmonger | house | 1547.1 | 1197.6 | 71.7 | 196° | 7.6 x 14.0 | 9.3 | gable 4.2 | 3 | timber |
-| E-0334 | Workshop of Petronilla the fishmonger | workshop | 1550.4 | 1185.9 | 71.7 | 196° | 4.8 x 5.2 | 3.0 | gable 2.6 | 1 | timber |
-| E-0335 | House of Sybil the draper | house | 1554.9 | 1201.3 | 71.7 | 196° | 8.1 x 11.1 | 12.4 | gable 4.5 | 4 | timber |
-| E-0336 | Workshop of Sybil the draper | workshop | 1557.8 | 1190.7 | 71.7 | 196° | 6.3 x 8.0 | 6.0 | gable 3.5 | 1 | timber |
-| E-0337 | House of Emma the stonecarver | shop | 1589.7 | 1210.5 | 71.7 | 194° | 5.9 x 10.9 | 9.3 | gable 3.3 | 3 | timber |
-| E-0338 | House of Thomas the furrier | house | 1596.7 | 1212.4 | 71.7 | 193° | 7.9 x 10.5 | 9.3 | gable 4.3 | 3 | timber |
-| E-0339 | Workshop of Thomas the furrier | workshop | 1599.3 | 1201.2 | 71.7 | 193° | 5.3 x 5.2 | 3.0 | gable 2.9 | 1 | timber |
-| E-0340 | House of Thomas the baker | house | 1611.7 | 1216.0 | 71.7 | 192° | 7.2 x 9.9 | 6.2 | gable 3.9 | 2 | timber |
-| E-0341 | Workshop of Thomas the baker | workshop | 1613.9 | 1205.5 | 71.7 | 192° | 5.7 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| E-0342 | House of Beatrice the jeweller | house | 1781.5 | 1258.6 | 71.6 | 6° | 9.2 x 12.2 | 6.2 | gable 5.0 | 2 | timber |
-| E-0343 | Workshop of Beatrice the jeweller | workshop | 1780.1 | 1270.2 | 71.5 | 6° | 5.4 x 5.6 | 6.0 | gable 3.0 | 1 | timber |
-| E-0344 | House of Godwin the vintner | house | 1749.0 | 1235.5 | 71.7 | 186° | 6.4 x 10.1 | 6.2 | gable 3.5 | 2 | timber |
-| E-0345 | House of Cecily the potter | shop | 1756.4 | 1234.5 | 71.7 | 186° | 7.3 x 13.7 | 6.2 | gable 4.0 | 2 | timber |
-| E-0346 | Workshop of Cecily the potter | workshop | 1757.8 | 1221.9 | 71.7 | 186° | 6.8 x 6.9 | 6.0 | gable 3.7 | 1 | timber |
-| E-0347 | House of Simon the tailor | shop | 1764.6 | 1235.9 | 71.7 | 186° | 8.7 x 12.8 | 6.2 | gable 4.8 | 2 | timber |
-| E-0348 | House of Hawise the spicer | house | 1788.4 | 1240.0 | 71.7 | 187° | 7.6 x 10.0 | 6.2 | gable 4.2 | 2 | timber |
-| E-0349 | House of Henry the mason | shop | 1289.9 | 1181.4 | 71.7 | 206° | 6.6 x 11.8 | 12.4 | gable 3.6 | 4 | timber |
-| E-0350 | Workshop of Henry the mason | workshop | 1295.2 | 1170.4 | 71.7 | 206° | 5.5 x 6.5 | 3.0 | gable 3.0 | 1 | timber |
-| E-0351 | House of Emma the limner | shop | 1297.1 | 1185.5 | 71.7 | 206° | 9.2 x 10.6 | 12.4 | hip 4.1 | 4 | timber |
-| E-0352 | Workshop of Emma the limner | workshop | 1302.3 | 1174.9 | 71.7 | 206° | 7.9 x 6.2 | 6.0 | gable 3.4 | 1 | timber |
-| E-0353 | House of Maud the pewterer | house | 1305.4 | 1188.5 | 71.7 | 206° | 7.8 x 12.7 | 6.2 | hip 3.5 | 2 | timber |
-| E-0354 | Workshop of Maud the pewterer | workshop | 1311.5 | 1176.2 | 71.7 | 206° | 5.3 x 7.8 | 6.0 | gable 2.9 | 1 | timber |
-| E-0355 | House of Simon the armourer | house | 1319.9 | 1195.5 | 71.7 | 206° | 7.5 x 12.9 | 6.2 | hip 3.4 | 2 | timber |
-| E-0356 | House of Amice the cutler | shop | 1331.5 | 1203.3 | 71.7 | 206° | 7.2 x 9.1 | 12.4 | gable 4.0 | 4 | timber |
-| E-0357 | Workshop of Amice the cutler | workshop | 1335.4 | 1195.3 | 71.7 | 206° | 4.8 x 5.8 | 3.0 | gable 2.6 | 1 | timber |
-| E-0358 | House of Cecily the pie-seller | shop | 1340.3 | 1204.7 | 71.7 | 206° | 9.1 x 14.4 | 9.3 | gable 5.0 | 3 | timber |
-| E-0359 | House of Adam the mercer | house | 1357.8 | 1215.4 | 71.6 | 206° | 6.7 x 10.6 | 9.3 | gable 3.7 | 3 | timber |
-| E-0360 | House of Hawise the baker | shop | 1365.7 | 1217.9 | 71.6 | 206° | 8.7 x 12.8 | 9.3 | gable 4.8 | 3 | timber |
-| E-0361 | Workshop of Hawise the baker | workshop | 1370.7 | 1207.5 | 71.6 | 206° | 5.1 x 6.6 | 6.0 | gable 2.8 | 1 | timber |
-| E-0362 | House of Amice the bookbinder | house | 1374.3 | 1221.8 | 71.6 | 206° | 9.3 x 13.3 | 9.3 | hip 4.2 | 3 | timber |
-| E-0363 | House of Juliana the mason | shop | 1389.8 | 1229.0 | 71.5 | 206° | 9.4 x 13.9 | 9.3 | gable 5.2 | 3 | timber |
-| E-0364 | House of Godwin the limner | house | 1404.3 | 1238.3 | 71.4 | 205° | 9.2 x 9.5 | 6.2 | gable 5.1 | 2 | stone |
-| E-0365 | Workshop of Godwin the limner | workshop | 1408.5 | 1229.5 | 71.5 | 205° | 6.0 x 7.0 | 3.0 | gable 3.3 | 1 | timber |
-| E-0366 | House of Ida the mason | shop | 1424.3 | 1246.9 | 71.2 | 205° | 6.6 x 10.9 | 9.3 | gable 3.6 | 3 | timber |
-| E-0367 | Workshop of Ida the mason | workshop | 1429.7 | 1235.4 | 71.5 | 205° | 5.6 x 7.3 | 3.0 | gable 3.1 | 1 | timber |
-| E-0368 | House of Henry the stonecarver | shop | 1438.8 | 1253.0 | 71.1 | 204° | 6.0 x 12.0 | 9.3 | gable 3.3 | 3 | timber |
-| E-0369 | House of Joan the fishmonger | house | 1445.2 | 1255.3 | 71.1 | 204° | 6.5 x 12.9 | 6.2 | gable 3.6 | 2 | timber |
-| E-0370 | House of Amice the lute-maker | shop | 1279.1 | 1254.0 | 71.4 | 210° | 6.0 x 11.7 | 9.3 | gable 3.3 | 3 | timber |
-| E-0371 | House of Baldwin the saddler | shop | 1251.6 | 795.0 | 71.7 | 309° | 8.4 x 9.5 | 9.3 | gable 4.6 | 3 | timber |
-| E-0372 | House of Jordan the notary | shop | 1264.4 | 782.3 | 71.7 | 308° | 7.8 x 13.7 | 9.3 | gable 4.3 | 3 | timber |
-| E-0373 | House of Beatrice the cooper | house | 1278.8 | 762.5 | 71.7 | 307° | 6.1 x 12.6 | 9.3 | gable 3.3 | 3 | timber |
-| E-0374 | House of Joan the hatter | house | 1283.6 | 757.9 | 71.7 | 306° | 6.5 x 14.9 | 9.3 | gable 3.6 | 3 | stone |
-| E-0375 | House of Cecily the cobbler | house | 1307.8 | 717.9 | 71.7 | 298° | 9.2 x 12.8 | 9.3 | gable 5.1 | 3 | timber |
-| E-0376 | House of Hob the draper | house | 1311.1 | 709.8 | 71.7 | 296° | 7.4 x 11.5 | 12.4 | gable 4.1 | 4 | timber |
-| E-0377 | House of Juliana the apothecary | house | 1314.5 | 703.1 | 71.7 | 295° | 5.9 x 11.9 | 9.3 | gable 3.3 | 3 | timber |
-| E-0378 | Workshop of Juliana the apothecary | workshop | 1326.1 | 708.4 | 71.7 | 295° | 4.7 x 6.1 | 3.0 | gable 2.6 | 1 | timber |
-| E-0379 | House of Juliana the lute-maker | shop | 1317.2 | 696.5 | 71.7 | 294° | 7.4 x 11.4 | 12.4 | hip 3.3 | 4 | timber |
-| E-0380 | Workshop of Juliana the lute-maker | workshop | 1328.6 | 701.5 | 71.7 | 294° | 5.5 x 7.1 | 3.0 | gable 3.0 | 1 | timber |
-| E-0381 | House of Edith the vintner | shop | 1332.7 | 660.4 | 73.4 | 293° | 5.7 x 12.0 | 6.2 | gable 3.1 | 2 | timber |
-| E-0382 | House of Isabel the spicer | shop | 1236.3 | 785.2 | 71.7 | 129° | 8.3 x 10.2 | 9.3 | gable 4.6 | 3 | timber |
-| E-0383 | Workshop of Isabel the spicer | workshop | 1226.5 | 777.2 | 71.7 | 129° | 5.3 x 7.4 | 6.0 | gable 2.9 | 1 | timber |
-| E-0384 | House of Matilda the spicer | house | 1302.4 | 824.1 | 71.7 | 314° | 7.5 x 9.4 | 9.3 | gable 4.2 | 3 | stone |
-| E-0385 | House of Hugh the mercer | house | 1324.4 | 802.9 | 71.7 | 316° | 9.4 x 10.3 | 6.2 | gable 5.2 | 2 | timber |
-| E-0386 | Workshop of Hugh the mercer | workshop | 1333.1 | 812.0 | 71.7 | 316° | 9.1 x 7.1 | 3.0 | gable 3.9 | 1 | timber |
-| E-0387 | House of Petronilla the cutler | house | 1344.2 | 786.8 | 71.7 | 320° | 7.5 x 12.8 | 9.3 | gable 4.1 | 3 | timber |
-| E-0388 | Workshop of Petronilla the cutler | workshop | 1351.1 | 795.0 | 71.7 | 320° | 5.6 x 5.0 | 6.0 | gable 2.8 | 1 | timber |
-| E-0389 | House of Amice the chandler | house | 1391.9 | 756.2 | 71.7 | 331° | 5.7 x 14.6 | 9.3 | gable 3.1 | 3 | timber |
-| E-0390 | Workshop of Amice the chandler | workshop | 1398.5 | 768.3 | 71.7 | 331° | 4.5 x 6.8 | 6.0 | gable 2.5 | 1 | timber |
-| E-0391 | House of Maud the armourer | shop | 1397.8 | 751.6 | 71.7 | 332° | 8.2 x 12.0 | 6.2 | gable 4.5 | 2 | stone |
-| E-0392 | House of Thomas the tanner | shop | 1440.4 | 730.9 | 71.7 | 333° | 6.5 x 14.2 | 9.3 | hip 2.9 | 3 | timber |
-| E-0393 | House of Mabel the herbalist | shop | 1453.8 | 723.1 | 71.7 | 331° | 9.4 x 12.9 | 6.2 | hip 4.2 | 2 | timber |
-| E-0394 | Workshop of Mabel the herbalist | workshop | 1459.3 | 733.3 | 71.7 | 331° | 4.6 x 6.1 | 3.0 | gable 2.5 | 1 | timber |
-| E-0395 | House of Robin the clockmaker | shop | 1488.8 | 701.9 | 71.7 | 325° | 5.8 x 13.6 | 6.2 | gable 3.2 | 2 | timber |
-| E-0396 | House of Walter the scribe | shop | 1499.5 | 691.5 | 71.7 | 322° | 7.9 x 9.6 | 6.2 | gable 4.3 | 2 | timber |
-| E-0397 | House of Juliana the apothecary | house | 1574.6 | 629.8 | 71.8 | 317° | 5.8 x 14.5 | 9.3 | gable 3.2 | 3 | timber |
-| E-0398 | House of Roger the tailor | shop | 1596.2 | 609.7 | 72.7 | 317° | 8.2 x 14.6 | 9.3 | gable 4.5 | 3 | timber |
-| E-0399 | Workshop of Roger the tailor | workshop | 1606.0 | 620.3 | 72.5 | 317° | 8.2 x 7.5 | 3.0 | gable 4.1 | 1 | timber |
-| E-0400 | House of Isabel the cobbler | house | 1601.3 | 602.7 | 73.1 | 317° | 7.6 x 11.4 | 6.2 | hip 3.4 | 2 | timber |
-| E-0401 | House of Roger the fuller | house | 1606.6 | 598.5 | 73.4 | 317° | 5.6 x 12.5 | 6.2 | gable 3.1 | 2 | stone |
-| E-0402 | Workshop of Roger the fuller | workshop | 1615.0 | 607.5 | 73.2 | 317° | 5.2 x 6.0 | 3.0 | gable 2.8 | 1 | timber |
-| E-0403 | House of Emma the potter | shop | 1291.0 | 808.1 | 71.7 | 134° | 8.7 x 12.9 | 6.2 | hip 3.9 | 2 | stone |
-| E-0404 | House of Gilbert the fuller | house | 1359.6 | 748.7 | 71.7 | 148° | 8.5 x 14.7 | 12.4 | gable 4.7 | 4 | timber |
-| E-0405 | House of Ivetta the mason | shop | 1374.5 | 741.7 | 71.6 | 150° | 8.4 x 11.3 | 9.3 | hip 3.8 | 3 | timber |
-| E-0406 | House of Walter the tanner | shop | 1381.4 | 736.1 | 71.6 | 151° | 7.7 x 14.4 | 12.4 | gable 4.2 | 4 | timber |
-| E-0407 | House of Stephen the apothecary | shop | 1388.2 | 732.6 | 71.6 | 152° | 6.2 x 14.0 | 6.2 | gable 3.4 | 2 | stone |
-| E-0408 | Workshop of Stephen the apothecary | workshop | 1382.3 | 721.7 | 71.7 | 152° | 5.9 x 5.9 | 3.0 | gable 3.2 | 1 | timber |
-| E-0409 | House of Laurence the vintner | shop | 1418.0 | 718.3 | 71.6 | 153° | 8.7 x 12.3 | 6.2 | gable 4.8 | 2 | timber |
-| E-0410 | House of Felice the cooper | house | 1425.0 | 713.3 | 71.7 | 153° | 7.3 x 14.8 | 9.3 | gable 4.0 | 3 | timber |
-| E-0411 | Workshop of Felice the cooper | workshop | 1419.5 | 702.7 | 71.7 | 153° | 6.8 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| E-0412 | House of Martin the tinker | house | 1473.3 | 687.8 | 71.7 | 146° | 8.9 x 10.9 | 9.3 | gable 4.9 | 3 | timber |
-| E-0413 | Workshop of Martin the tinker | workshop | 1467.0 | 678.6 | 71.7 | 146° | 8.2 x 4.9 | 6.0 | gable 2.7 | 1 | timber |
-| E-0414 | House of Laurence the baker | house | 1480.2 | 683.5 | 71.7 | 144° | 6.7 x 10.0 | 9.3 | gable 3.7 | 3 | timber |
-| E-0415 | House of Sybil the herbalist | house | 1485.1 | 678.9 | 71.7 | 143° | 5.7 x 11.4 | 6.2 | gable 3.1 | 2 | timber |
-| E-0416 | Workshop of Sybil the herbalist | workshop | 1477.1 | 668.3 | 71.7 | 143° | 5.6 x 7.6 | 6.0 | gable 3.1 | 1 | timber |
-| E-0417 | House of Henry the scribe | house | 1501.0 | 666.5 | 71.6 | 141° | 7.4 x 11.4 | 9.3 | gable 4.1 | 3 | timber |
-| E-0418 | Workshop of Henry the scribe | workshop | 1494.2 | 658.2 | 71.7 | 141° | 4.6 x 7.3 | 3.0 | gable 2.5 | 1 | timber |
-| E-0419 | House of Beatrice the money-changer | shop | 1560.0 | 614.8 | 72.2 | 137° | 8.8 x 10.8 | 6.2 | gable 4.8 | 2 | timber |
-| E-0420 | House of Beatrice the wheelwright | shop | 1582.4 | 592.6 | 73.5 | 137° | 6.8 x 12.8 | 6.2 | hip 3.0 | 2 | timber |
-| E-0421 | House of Geoffrey the mason | shop | 1314.0 | 906.5 | 71.7 | 329° | 6.4 x 10.5 | 9.3 | gable 3.5 | 3 | stone |
-| E-0422 | Workshop of Geoffrey the mason | workshop | 1319.0 | 915.0 | 71.7 | 329° | 4.8 x 6.0 | 3.0 | gable 2.7 | 1 | timber |
-| E-0423 | House of Maud the candlemaker | shop | 1444.9 | 829.6 | 71.7 | 329° | 8.4 x 11.9 | 9.3 | gable 4.6 | 3 | timber |
-| E-0424 | House of Felice the cutler | shop | 1452.0 | 826.7 | 71.7 | 329° | 6.3 x 14.2 | 6.2 | gable 3.5 | 2 | timber |
-| E-0425 | House of Agnes the mason | shop | 1550.3 | 771.4 | 71.7 | 334° | 9.4 x 13.3 | 9.3 | gable 5.2 | 3 | stone |
-| E-0426 | House of Avice the butcher | house | 1558.3 | 767.9 | 71.7 | 335° | 7.0 x 13.9 | 6.2 | gable 3.8 | 2 | timber |
-| E-0427 | Workshop of Avice the butcher | workshop | 1563.5 | 778.9 | 71.7 | 335° | 4.9 x 7.9 | 6.0 | gable 2.7 | 1 | timber |
-| E-0428 | House of Agnes the cheesemonger | shop | 1577.9 | 758.4 | 71.7 | 336° | 7.5 x 12.8 | 6.2 | gable 4.1 | 2 | timber |
-| E-0429 | House of Adam the parchmenter | house | 1648.5 | 727.0 | 71.7 | 338° | 7.2 x 9.0 | 6.2 | hip 3.2 | 2 | stone |
-| E-0430 | Workshop of Adam the parchmenter | workshop | 1652.1 | 736.0 | 71.7 | 338° | 5.4 x 7.2 | 6.0 | gable 3.0 | 1 | timber |
-| E-0431 | House of Christiana the vintner | shop | 1701.0 | 706.6 | 72.5 | 338° | 6.9 x 9.9 | 6.2 | gable 3.8 | 2 | timber |
-| E-0432 | Workshop of Christiana the vintner | workshop | 1705.5 | 717.9 | 72.5 | 338° | 5.0 x 6.8 | 3.0 | gable 2.8 | 1 | timber |
-| E-0433 | House of Felice the bookbinder | house | 1324.7 | 878.6 | 71.7 | 149° | 6.7 x 10.1 | 9.3 | gable 3.7 | 3 | timber |
-| E-0434 | Workshop of Felice the bookbinder | workshop | 1318.8 | 868.8 | 71.7 | 149° | 5.5 x 6.1 | 6.0 | gable 3.0 | 1 | timber |
-| E-0435 | House of Isabel the candlemaker | house | 1365.5 | 852.1 | 71.7 | 149° | 8.1 x 13.9 | 9.3 | gable 4.5 | 3 | timber |
-| E-0436 | House of Thomas the baker | shop | 1372.3 | 848.2 | 71.7 | 149° | 6.9 x 13.6 | 12.4 | gable 3.8 | 4 | timber |
-| E-0437 | House of Sybil the tailor | shop | 1386.1 | 842.4 | 71.7 | 150° | 8.5 x 9.7 | 9.3 | hip 3.8 | 3 | timber |
-| E-0438 | Workshop of Sybil the tailor | workshop | 1381.1 | 833.9 | 71.7 | 150° | 8.0 x 6.9 | 3.0 | gable 3.8 | 1 | timber |
-| E-0439 | House of Martin the hatter | shop | 1426.3 | 818.6 | 71.7 | 149° | 6.3 x 9.8 | 9.3 | gable 3.5 | 3 | stone |
-| E-0440 | House of Maud the draper | shop | 1432.4 | 815.2 | 71.7 | 149° | 6.8 x 9.4 | 12.4 | gable 3.8 | 4 | timber |
-| E-0441 | Workshop of Maud the draper | workshop | 1427.0 | 806.2 | 71.7 | 149° | 5.5 x 6.5 | 3.0 | gable 3.0 | 1 | timber |
-| E-0442 | House of Hob the herbalist | house | 1444.6 | 804.7 | 71.7 | 149° | 5.6 x 14.8 | 6.2 | gable 3.1 | 2 | timber |
-| E-0443 | Workshop of Hob the herbalist | workshop | 1437.7 | 793.2 | 71.7 | 149° | 4.9 x 6.7 | 3.0 | gable 2.7 | 1 | timber |
-| E-0444 | House of Wat the weaver | shop | 1458.3 | 799.2 | 71.7 | 149° | 7.7 x 10.3 | 9.3 | gable 4.2 | 3 | timber |
-| E-0445 | Workshop of Wat the weaver | workshop | 1453.0 | 790.3 | 71.7 | 149° | 5.8 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| E-0446 | House of Hugh the glazier | shop | 1477.0 | 786.2 | 71.6 | 150° | 6.7 x 13.7 | 12.4 | gable 3.7 | 4 | timber |
-| E-0447 | Workshop of Hugh the glazier | workshop | 1471.5 | 776.7 | 71.7 | 150° | 4.9 x 5.2 | 3.0 | gable 2.7 | 1 | timber |
-| E-0448 | House of Baldwin the pewterer | shop | 1484.0 | 782.2 | 71.7 | 150° | 8.1 x 13.6 | 9.3 | gable 4.5 | 3 | timber |
-| E-0449 | House of Mabel the brewer | house | 1521.1 | 761.2 | 71.7 | 152° | 6.4 x 14.8 | 6.2 | gable 3.5 | 2 | timber |
-| E-0450 | Workshop of Mabel the brewer | workshop | 1515.7 | 750.9 | 71.7 | 152° | 5.9 x 6.5 | 3.0 | gable 3.2 | 1 | timber |
-| E-0451 | House of Edith the tinker | shop | 1528.9 | 759.1 | 71.7 | 153° | 8.2 x 11.4 | 6.2 | gable 4.5 | 2 | stone |
-| E-0452 | Workshop of Edith the tinker | workshop | 1523.0 | 747.4 | 71.7 | 153° | 6.2 x 6.8 | 3.0 | gable 3.4 | 1 | timber |
-| E-0453 | House of Wat the saddler | house | 1537.2 | 754.6 | 71.7 | 154° | 9.3 x 11.9 | 6.2 | gable 5.1 | 2 | timber |
-| E-0454 | Workshop of Wat the saddler | workshop | 1532.0 | 744.0 | 71.7 | 154° | 8.9 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| E-0455 | House of Beatrice the mercer | shop | 1544.5 | 750.1 | 71.7 | 154° | 7.0 x 13.7 | 6.2 | gable 3.8 | 2 | stone |
-| E-0456 | Workshop of Beatrice the mercer | workshop | 1538.8 | 738.2 | 71.7 | 154° | 5.3 x 7.9 | 3.0 | gable 2.9 | 1 | timber |
-| E-0457 | House of Margery the baker | house | 1566.6 | 742.1 | 71.6 | 156° | 7.4 x 9.7 | 9.3 | hip 3.3 | 3 | timber |
-| E-0458 | House of Henry the chandler | house | 1574.0 | 738.4 | 71.6 | 156° | 8.0 x 10.6 | 6.2 | hip 3.6 | 2 | timber |
-| E-0459 | House of Gilbert the cutler | house | 1581.3 | 734.3 | 71.6 | 157° | 7.4 x 12.2 | 6.2 | hip 3.4 | 2 | stone |
-| E-0460 | House of Ida the hatter | house | 1641.9 | 709.8 | 71.7 | 158° | 6.5 x 11.3 | 6.2 | gable 3.6 | 2 | timber |
-| E-0461 | Workshop of Ida the hatter | workshop | 1637.2 | 698.0 | 71.7 | 158° | 6.5 x 6.0 | 6.0 | gable 3.3 | 1 | timber |
-| E-0462 | House of Emma the cheesemonger | house | 1667.4 | 699.6 | 71.7 | 158° | 6.8 x 11.4 | 6.2 | gable 3.8 | 2 | timber |
-| E-0463 | Workshop of Emma the cheesemonger | workshop | 1663.2 | 688.9 | 71.7 | 158° | 6.6 x 5.5 | 6.0 | gable 3.0 | 1 | timber |
-| E-0464 | House of Christiana the notary | house | 1673.5 | 695.6 | 71.8 | 158° | 6.0 x 14.4 | 6.2 | gable 3.3 | 2 | timber |
-| E-0465 | Workshop of Christiana the notary | workshop | 1669.3 | 684.9 | 71.8 | 158° | 5.8 x 6.3 | 3.0 | gable 3.2 | 1 | timber |
-| E-0466 | House of Robin the limner | house | 1679.8 | 693.3 | 72.0 | 158° | 6.8 x 14.1 | 6.2 | gable 3.8 | 2 | timber |
-| E-0467 | Workshop of Robin the limner | workshop | 1675.1 | 681.4 | 72.1 | 158° | 5.7 x 6.1 | 6.0 | gable 3.1 | 1 | timber |
-| E-0468 | House of Laurence the armourer | shop | 1301.2 | 970.2 | 71.7 | 160° | 7.3 x 14.1 | 9.3 | hip 3.3 | 3 | timber |
-| E-0469 | House of Cecily the weaver | shop | 1384.1 | 963.7 | 71.7 | 340° | 9.5 x 14.1 | 9.3 | hip 4.3 | 3 | timber |
-| E-0470 | House of Agnes the saddler | house | 1430.6 | 945.7 | 71.7 | 341° | 7.5 x 11.4 | 9.3 | hip 3.4 | 3 | timber |
-| E-0471 | Workshop of Agnes the saddler | workshop | 1434.7 | 957.6 | 71.6 | 341° | 5.9 x 7.9 | 3.0 | gable 3.2 | 1 | timber |
-| E-0472 | House of Avice the vintner | shop | 1445.1 | 941.4 | 71.7 | 341° | 5.6 x 12.8 | 9.3 | gable 3.1 | 3 | stone |
-| E-0473 | Workshop of Avice the vintner | workshop | 1449.1 | 953.0 | 71.7 | 341° | 5.3 x 7.8 | 6.0 | gable 2.9 | 1 | timber |
-| E-0474 | House of Laurence the ropemaker | house | 1615.9 | 887.7 | 71.7 | 344° | 6.6 x 13.4 | 6.2 | hip 3.0 | 2 | stone |
-| E-0475 | House of Jordan the mercer | house | 1766.0 | 849.8 | 73.0 | 346° | 9.5 x 13.8 | 6.2 | gable 5.2 | 2 | timber |
-| E-0476 | House of Nicholas the cobbler | shop | 1360.3 | 948.3 | 71.7 | 160° | 5.8 x 14.7 | 9.3 | hip 2.6 | 3 | timber |
-| E-0477 | House of Cecily the goldsmith | shop | 1374.0 | 944.7 | 71.7 | 160° | 5.6 x 12.1 | 9.3 | gable 3.1 | 3 | timber |
-| E-0478 | Workshop of Cecily the goldsmith | workshop | 1369.6 | 932.7 | 71.7 | 160° | 5.0 x 6.2 | 6.0 | gable 2.7 | 1 | timber |
-| E-0479 | House of Jordan the herbalist | house | 1395.2 | 937.1 | 71.7 | 160° | 8.9 x 12.2 | 9.3 | gable 4.9 | 3 | timber |
-| E-0480 | Workshop of Jordan the herbalist | workshop | 1390.7 | 924.3 | 71.7 | 160° | 7.8 x 6.9 | 6.0 | gable 3.8 | 1 | timber |
-| E-0481 | House of Martin the lute-maker | shop | 1418.8 | 927.6 | 71.7 | 161° | 7.8 x 14.2 | 9.3 | gable 4.3 | 3 | timber |
-| E-0482 | House of Ida the glazier | shop | 1435.2 | 922.4 | 71.7 | 161° | 8.2 x 13.2 | 9.3 | gable 4.5 | 3 | timber |
-| E-0483 | House of Laurence the hatter | shop | 1536.5 | 890.7 | 71.7 | 162° | 7.7 x 9.8 | 9.3 | hip 3.4 | 3 | timber |
-| E-0484 | Workshop of Laurence the hatter | workshop | 1533.2 | 880.3 | 71.7 | 162° | 5.6 x 6.4 | 3.0 | gable 3.1 | 1 | timber |
-| E-0485 | House of Stephen the mason | shop | 1580.8 | 874.5 | 71.7 | 164° | 9.2 x 14.8 | 6.2 | gable 5.0 | 2 | timber |
-| E-0486 | House of Roger the draper | house | 1588.9 | 873.4 | 71.6 | 164° | 5.7 x 12.6 | 6.2 | gable 3.1 | 2 | timber |
-| E-0487 | Workshop of Roger the draper | workshop | 1585.5 | 862.0 | 71.7 | 164° | 5.7 x 6.1 | 6.0 | gable 3.1 | 1 | timber |
-| E-0488 | House of Jordan the pie-seller | house | 1603.3 | 870.1 | 71.7 | 164° | 6.9 x 10.7 | 12.4 | hip 3.1 | 4 | stone |
-| E-0489 | House of Rose the furrier | shop | 1610.2 | 867.9 | 71.7 | 164° | 6.3 x 11.3 | 6.2 | hip 2.8 | 2 | stone |
-| E-0490 | Workshop of Rose the furrier | workshop | 1607.5 | 858.5 | 71.7 | 164° | 5.3 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| E-0491 | House of Martin the limner | shop | 1617.3 | 864.4 | 71.7 | 165° | 8.0 x 14.3 | 6.2 | gable 4.4 | 2 | timber |
-| E-0492 | Workshop of Martin the limner | workshop | 1614.2 | 853.2 | 71.7 | 165° | 6.8 x 5.4 | 6.0 | gable 3.0 | 1 | timber |
-| E-0493 | House of Wat the fishmonger | house | 1641.7 | 860.1 | 71.7 | 165° | 6.0 x 9.9 | 9.3 | gable 3.3 | 3 | timber |
-| E-0494 | Workshop of Wat the fishmonger | workshop | 1639.0 | 849.8 | 71.7 | 165° | 5.6 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| E-0495 | House of Cecily the tinker | shop | 1685.6 | 848.1 | 71.7 | 166° | 7.5 x 11.6 | 6.2 | gable 4.1 | 2 | timber |
-| E-0496 | Workshop of Cecily the tinker | workshop | 1682.7 | 836.7 | 71.7 | 166° | 4.5 x 7.9 | 3.0 | gable 2.5 | 1 | timber |
-| E-0497 | House of Piers the carpenter | house | 1693.8 | 847.2 | 71.7 | 166° | 7.9 x 9.2 | 9.3 | gable 4.3 | 3 | timber |
-| E-0498 | Workshop of Piers the carpenter | workshop | 1691.3 | 837.1 | 71.7 | 166° | 4.5 x 7.8 | 3.0 | gable 2.5 | 1 | timber |
-| E-0499 | House of Beatrice the cobbler | shop | 1702.0 | 843.5 | 71.7 | 166° | 8.6 x 12.5 | 6.2 | gable 4.7 | 2 | stone |
-| E-0500 | House of Henry the glover | house | 1710.4 | 841.8 | 71.7 | 166° | 8.2 x 11.8 | 9.3 | gable 4.5 | 3 | timber |
-| E-0501 | Workshop of Henry the glover | workshop | 1707.5 | 830.0 | 71.7 | 166° | 6.5 x 7.6 | 3.0 | gable 3.6 | 1 | timber |
-| E-0502 | House of Walter the tailor | shop | 1718.7 | 840.6 | 71.7 | 166° | 7.7 x 10.2 | 6.2 | hip 3.5 | 2 | timber |
-| E-0503 | Workshop of Walter the tailor | workshop | 1716.4 | 831.5 | 71.7 | 166° | 7.0 x 4.5 | 6.0 | gable 2.5 | 1 | timber |
-| E-0504 | House of Wat the scribe | house | 1743.9 | 834.4 | 72.2 | 166° | 8.6 x 10.2 | 6.2 | hip 3.9 | 2 | timber |
-| E-0505 | Workshop of Wat the scribe | workshop | 1741.1 | 822.8 | 72.2 | 166° | 7.4 x 5.8 | 6.0 | gable 3.2 | 1 | timber |
-| E-0506 | House of Avice the tanner | shop | 1301.4 | 1017.4 | 71.7 | 179° | 9.2 x 14.0 | 12.4 | gable 5.0 | 4 | timber |
-| E-0507 | Workshop of Avice the tanner | workshop | 1301.2 | 1005.0 | 71.7 | 179° | 8.4 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| E-0508 | House of Wat the jeweller | house | 1309.5 | 1018.0 | 71.7 | 179° | 6.1 x 12.6 | 9.3 | gable 3.4 | 3 | timber |
-| E-0509 | House of Beatrice the bellfounder | house | 1316.6 | 1017.2 | 71.7 | 180° | 7.1 x 13.9 | 6.2 | hip 3.2 | 2 | timber |
-| E-0510 | Workshop of Beatrice the bellfounder | workshop | 1316.5 | 1004.7 | 71.7 | 180° | 5.3 x 7.6 | 6.0 | gable 2.9 | 1 | timber |
-| E-0511 | House of Henry the candlemaker | shop | 1325.0 | 1018.5 | 71.7 | 180° | 8.5 x 11.2 | 9.3 | gable 4.7 | 3 | timber |
-| E-0512 | House of Osbert the draper | house | 1333.9 | 1019.4 | 71.7 | 180° | 8.6 x 9.2 | 6.2 | gable 4.7 | 2 | stone |
-| E-0513 | Workshop of Osbert the draper | workshop | 1333.8 | 1007.9 | 71.7 | 180° | 6.4 x 6.1 | 3.0 | gable 3.4 | 1 | timber |
-| E-0514 | House of Mabel the fletcher | shop | 1349.3 | 1016.7 | 71.7 | 180° | 9.1 x 14.4 | 12.4 | gable 5.0 | 4 | timber |
-| E-0515 | Workshop of Mabel the fletcher | workshop | 1349.2 | 1002.8 | 71.7 | 180° | 4.7 x 7.0 | 3.0 | gable 2.6 | 1 | timber |
-| E-0516 | House of Avice the draper | shop | 1420.1 | 1016.4 | 71.7 | 178° | 7.6 x 11.9 | 12.4 | gable 4.2 | 4 | timber |
-| E-0517 | Workshop of Avice the draper | workshop | 1419.6 | 1004.5 | 71.7 | 178° | 7.3 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| E-0518 | House of Baldwin the butcher | shop | 1427.8 | 1015.2 | 71.7 | 178° | 6.6 x 13.6 | 9.3 | gable 3.6 | 3 | timber |
-| E-0519 | Workshop of Baldwin the butcher | workshop | 1427.2 | 1002.3 | 71.6 | 178° | 6.5 x 6.4 | 6.0 | gable 3.5 | 1 | timber |
-| E-0520 | House of Alan the potter | house | 1449.4 | 1014.9 | 71.7 | 176° | 7.0 x 11.9 | 6.2 | gable 3.8 | 2 | timber |
-| E-0521 | House of Ida the cutler | house | 1457.1 | 1015.4 | 71.7 | 176° | 7.8 x 9.8 | 6.2 | hip 3.5 | 2 | timber |
-| E-0522 | House of Matilda the clockmaker | house | 1511.5 | 1007.3 | 71.7 | 169° | 7.4 x 11.5 | 12.4 | gable 4.1 | 4 | timber |
-| E-0523 | House of Geoffrey the pewterer | shop | 1518.4 | 1005.4 | 71.7 | 169° | 6.3 x 12.6 | 6.2 | hip 2.8 | 2 | timber |
-| E-0524 | House of Nicholas the carpenter | house | 1534.7 | 1003.3 | 71.7 | 167° | 7.2 x 9.9 | 12.4 | hip 3.2 | 4 | timber |
-| E-0525 | Workshop of Nicholas the carpenter | workshop | 1532.2 | 992.1 | 71.7 | 167° | 6.2 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| E-0526 | House of Godwin the hatter | house | 1541.3 | 1001.4 | 71.7 | 167° | 5.7 x 10.8 | 9.3 | gable 3.1 | 3 | stone |
-| E-0527 | House of Mabel the brewer | house | 1560.9 | 994.7 | 71.6 | 166° | 6.7 x 14.8 | 6.2 | gable 3.6 | 2 | timber |
-| E-0528 | Workshop of Mabel the brewer | workshop | 1558.3 | 983.9 | 71.7 | 166° | 4.8 x 4.9 | 6.0 | gable 2.6 | 1 | timber |
-| E-0529 | House of Alys the fuller | house | 1575.0 | 992.9 | 71.6 | 166° | 9.4 x 11.6 | 9.3 | gable 5.2 | 3 | timber |
-| E-0530 | Workshop of Alys the fuller | workshop | 1572.2 | 981.5 | 71.7 | 166° | 5.0 x 4.8 | 6.0 | gable 2.6 | 1 | timber |
-| E-0531 | House of Wat the notary | house | 1616.3 | 982.7 | 71.7 | 168° | 8.9 x 13.1 | 6.2 | gable 4.9 | 2 | timber |
-| E-0532 | House of Roger the limner | shop | 1625.6 | 982.3 | 71.7 | 169° | 8.7 x 10.1 | 6.2 | gable 4.8 | 2 | timber |
-| E-0533 | House of Alys the saddler | shop | 1715.0 | 966.7 | 71.7 | 172° | 7.0 x 13.0 | 9.3 | gable 3.8 | 3 | timber |
-| E-0534 | Workshop of Alys the saddler | workshop | 1713.4 | 955.5 | 71.6 | 172° | 5.9 x 6.7 | 6.0 | gable 3.3 | 1 | timber |
-| E-0535 | House of Gilbert the butcher | shop | 1723.0 | 966.6 | 71.7 | 172° | 8.1 x 10.9 | 6.2 | gable 4.5 | 2 | timber |
-| E-0536 | House of Matilda the carpenter | shop | 1731.1 | 963.8 | 71.7 | 172° | 7.8 x 14.3 | 6.2 | gable 4.3 | 2 | timber |
-| E-0537 | Workshop of Matilda the carpenter | workshop | 1729.4 | 951.1 | 71.7 | 172° | 7.6 x 5.9 | 3.0 | gable 3.2 | 1 | timber |
-| E-0538 | House of Osbert the fletcher | shop | 1739.2 | 964.9 | 71.7 | 172° | 6.8 x 9.9 | 6.2 | hip 3.0 | 2 | stone |
-| E-0539 | House of Ida the hatter | shop | 1751.8 | 960.7 | 71.7 | 172° | 6.9 x 14.9 | 9.3 | gable 3.8 | 3 | timber |
-| E-0540 | Workshop of Ida the hatter | workshop | 1749.9 | 947.2 | 71.7 | 172° | 4.6 x 5.1 | 6.0 | gable 2.5 | 1 | timber |
-| E-0541 | House of Thomas the bellfounder | shop | 1759.8 | 962.3 | 71.7 | 172° | 8.2 x 9.6 | 6.2 | gable 4.5 | 2 | timber |
-| E-0542 | Workshop of Thomas the bellfounder | workshop | 1758.3 | 951.2 | 71.7 | 172° | 7.3 x 5.8 | 6.0 | gable 3.2 | 1 | timber |
-| E-0543 | House of Amice the fishmonger | shop | 1768.4 | 959.2 | 71.7 | 172° | 9.1 x 13.5 | 6.2 | gable 5.0 | 2 | timber |
-| E-0544 | Workshop of Amice the fishmonger | workshop | 1766.7 | 946.0 | 71.7 | 172° | 6.0 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| E-0545 | House of Roger the spicer | shop | 1794.0 | 956.1 | 71.8 | 172° | 5.8 x 12.8 | 6.2 | gable 3.2 | 2 | timber |
-| E-0546 | Workshop of Roger the spicer | workshop | 1792.6 | 945.4 | 71.8 | 172° | 4.8 x 4.9 | 6.0 | gable 2.6 | 1 | timber |
-| E-0547 | House of Hawise the glazier | house | 1421.5 | 1157.8 | 71.7 | 110° | 6.2 x 12.7 | 12.4 | hip 2.8 | 4 | timber |
-| E-0548 | House of Matilda the fuller | shop | 1420.5 | 1165.1 | 71.7 | 110° | 7.5 x 9.9 | 9.3 | gable 4.1 | 3 | timber |
-| E-0549 | House of Emma the bowyer | house | 1409.5 | 1186.2 | 71.7 | 113° | 5.8 x 14.4 | 6.2 | gable 3.2 | 2 | timber |
-| E-0550 | Workshop of Emma the bowyer | workshop | 1397.1 | 1181.0 | 71.7 | 113° | 5.3 x 7.9 | 6.0 | gable 2.9 | 1 | timber |
-| E-0551 | House of Jordan the mercer | house | 1405.1 | 1196.5 | 71.7 | 116° | 6.0 x 14.4 | 9.3 | hip 2.7 | 3 | timber |
-| E-0552 | Workshop of Jordan the mercer | workshop | 1393.9 | 1191.1 | 71.7 | 116° | 5.1 x 6.8 | 3.0 | gable 2.8 | 1 | timber |
-| E-0553 | House of Piers the wheelwright | house | 1248.7 | 768.6 | 71.7 | 32° | 9.4 x 14.4 | 9.3 | gable 5.2 | 3 | timber |
-| E-0554 | House of Roger the glazier | shop | 1275.6 | 787.5 | 71.7 | 40° | 9.4 x 14.5 | 9.3 | gable 5.2 | 3 | timber |
-| E-0555 | House of Felice the furrier | house | 1283.7 | 793.3 | 71.7 | 40° | 9.5 x 13.2 | 15.5 | gable 5.2 | 5 | stone |
-| E-0556 | House of Avice the pie-seller | shop | 1331.6 | 840.4 | 71.7 | 51° | 9.3 x 11.5 | 12.4 | gable 5.1 | 4 | timber |
-| E-0557 | House of Richard the tanner | shop | 1336.1 | 848.7 | 71.7 | 51° | 8.0 x 14.9 | 6.2 | gable 4.4 | 2 | timber |
-| E-0558 | House of Henry the draper | shop | 1408.4 | 958.4 | 71.7 | 63° | 6.3 x 14.7 | 9.3 | hip 2.8 | 3 | stone |
-| E-0559 | Workshop of Henry the draper | workshop | 1398.6 | 963.3 | 71.7 | 63° | 6.1 x 5.2 | 6.0 | gable 2.8 | 1 | timber |
-| E-0560 | House of Ivetta the pewterer | shop | 1413.7 | 964.5 | 71.7 | 63° | 8.3 x 10.7 | 9.3 | gable 4.5 | 3 | timber |
-| E-0561 | House of Wat the cheesemonger | shop | 1439.2 | 1060.6 | 71.7 | 87° | 6.0 x 10.4 | 6.2 | gable 3.3 | 2 | timber |
-| E-0562 | House of Richard the hatter | shop | 1227.5 | 736.9 | 71.7 | 204° | 7.1 x 9.1 | 6.2 | gable 3.9 | 2 | timber |
-| E-0563 | House of Juliana the brewer | shop | 1241.8 | 742.9 | 71.6 | 209° | 5.7 x 11.5 | 9.3 | hip 2.6 | 3 | timber |
-| E-0564 | House of Agnes the stonecarver | shop | 1291.5 | 774.7 | 71.7 | 220° | 5.9 x 13.0 | 12.4 | hip 2.7 | 4 | timber |
-| E-0565 | House of Gilbert the glover | house | 1307.1 | 787.0 | 71.7 | 224° | 7.3 x 14.1 | 12.4 | gable 4.0 | 4 | timber |
-| E-0566 | House of Edith the bowyer | house | 1340.2 | 824.6 | 71.7 | 228° | 9.3 x 9.7 | 9.3 | gable 5.1 | 3 | timber |
-| E-0567 | Workshop of Edith the bowyer | workshop | 1347.3 | 818.3 | 71.7 | 228° | 7.6 x 4.8 | 6.0 | gable 2.7 | 1 | timber |
-| E-0568 | House of Edith the fuller | house | 1394.4 | 894.0 | 71.7 | 237° | 6.5 x 13.9 | 9.3 | gable 3.6 | 3 | stone |
-| E-0569 | House of Christiana the carpenter | house | 1545.5 | 1076.0 | 71.7 | 91° | 6.2 x 12.2 | 9.3 | hip 2.8 | 3 | timber |
-| E-0570 | House of Beatrice the bookbinder | shop | 1544.5 | 1083.3 | 71.7 | 91° | 7.9 x 14.2 | 9.3 | hip 3.6 | 3 | timber |
-| E-0571 | Workshop of Beatrice the bookbinder | workshop | 1530.2 | 1083.1 | 71.7 | 91° | 5.1 x 6.9 | 3.0 | gable 2.8 | 1 | timber |
-| E-0572 | House of Hob the parchmenter | shop | 1543.5 | 1116.9 | 71.7 | 96° | 6.3 x 13.0 | 6.2 | hip 2.9 | 2 | timber |
-| E-0573 | House of Robin the saddler | house | 1540.7 | 1136.1 | 71.7 | 99° | 9.0 x 14.7 | 9.3 | gable 4.9 | 3 | timber |
-| E-0574 | Workshop of Robin the saddler | workshop | 1527.7 | 1134.1 | 71.7 | 99° | 5.2 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-| E-0575 | House of Elena the lute-maker | shop | 1537.5 | 1161.0 | 71.7 | 101° | 8.1 x 11.5 | 9.3 | gable 4.5 | 3 | timber |
-| E-0576 | House of Thomas the weaver | house | 1532.8 | 1176.5 | 71.6 | 107° | 6.7 x 12.8 | 9.3 | gable 3.7 | 3 | timber |
-| E-0577 | House of Isabel the stonecarver | house | 1530.3 | 1182.9 | 71.7 | 107° | 6.1 x 13.9 | 6.2 | gable 3.3 | 2 | timber |
-| E-0578 | House of Martin the mason | house | 1528.8 | 1190.4 | 71.7 | 107° | 8.7 x 12.2 | 6.2 | hip 3.9 | 2 | timber |
-| E-0579 | House of Alys the parchmenter | shop | 1517.8 | 1218.9 | 71.6 | 113° | 7.0 x 12.0 | 9.3 | gable 3.9 | 3 | timber |
-| E-0580 | Workshop of Alys the parchmenter | workshop | 1508.4 | 1214.9 | 71.7 | 113° | 5.7 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| E-0581 | House of Richard the dyer | shop | 1513.7 | 1224.8 | 71.5 | 113° | 6.7 x 14.8 | 9.3 | gable 3.7 | 3 | timber |
-| E-0582 | House of Walter the tanner | house | 1508.2 | 1237.1 | 71.3 | 119° | 5.7 x 13.5 | 12.4 | gable 3.1 | 4 | timber |
-| E-0583 | Workshop of Walter the tanner | workshop | 1498.8 | 1231.9 | 71.5 | 119° | 5.0 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| E-0584 | House of Nicholas the chandler | shop | 1506.5 | 1243.1 | 71.3 | 119° | 6.0 x 10.8 | 9.3 | gable 3.3 | 3 | timber |
-| E-0585 | Workshop of Nicholas the chandler | workshop | 1498.4 | 1238.6 | 71.4 | 119° | 5.6 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| E-0586 | House of Elena the weaver | house | 1499.1 | 1256.9 | 71.1 | 119° | 7.9 x 10.7 | 12.4 | hip 3.5 | 4 | timber |
-| E-0587 | House of Amice the draper | shop | 1415.8 | 747.1 | 71.7 | 41° | 8.9 x 12.5 | 9.3 | gable 4.9 | 3 | timber |
-| E-0588 | House of Nicholas the clockmaker | shop | 1421.7 | 752.5 | 71.7 | 41° | 6.4 x 13.0 | 6.2 | hip 2.9 | 2 | timber |
-| E-0589 | Workshop of Nicholas the clockmaker | workshop | 1413.2 | 762.4 | 71.7 | 41° | 5.6 x 6.3 | 6.0 | gable 3.1 | 1 | timber |
-| E-0590 | House of Agnes the stonecarver | house | 1432.6 | 762.5 | 71.7 | 44° | 9.1 x 13.9 | 6.2 | gable 5.0 | 2 | timber |
-| E-0591 | Workshop of Agnes the stonecarver | workshop | 1423.0 | 772.4 | 71.7 | 44° | 4.8 x 6.9 | 6.0 | gable 2.6 | 1 | timber |
-| E-0592 | House of Beatrice the cheesemonger | house | 1484.2 | 825.5 | 71.7 | 60° | 5.6 x 10.9 | 6.2 | hip 2.5 | 2 | timber |
-| E-0593 | Workshop of Beatrice the cheesemonger | workshop | 1474.1 | 831.3 | 71.7 | 60° | 5.0 x 5.3 | 6.0 | gable 2.7 | 1 | timber |
-| E-0594 | House of Walter the armourer | house | 1491.5 | 839.9 | 71.7 | 60° | 7.7 x 12.6 | 9.3 | gable 4.2 | 3 | timber |
-| E-0595 | Workshop of Walter the armourer | workshop | 1480.7 | 846.1 | 71.7 | 60° | 4.9 x 7.5 | 3.0 | gable 2.7 | 1 | timber |
-| E-0596 | House of Elena the limner | house | 1497.6 | 852.7 | 71.7 | 66° | 9.0 x 13.2 | 9.3 | gable 5.0 | 3 | timber |
-| E-0597 | Workshop of Elena the limner | workshop | 1486.0 | 857.9 | 71.7 | 66° | 4.6 x 6.3 | 6.0 | gable 2.5 | 1 | timber |
-| E-0598 | House of Osbert the tanner | house | 1509.3 | 873.8 | 71.6 | 69° | 6.5 x 9.1 | 9.3 | gable 3.6 | 3 | timber |
-| E-0599 | Workshop of Osbert the tanner | workshop | 1500.1 | 877.4 | 71.6 | 69° | 5.5 x 7.4 | 6.0 | gable 3.0 | 1 | timber |
-| E-0600 | House of Baldwin the hatter | house | 1513.1 | 889.7 | 71.7 | 71° | 6.9 x 12.6 | 6.2 | hip 3.1 | 2 | timber |
-| E-0601 | House of Baldwin the tanner | house | 1527.0 | 930.6 | 71.7 | 75° | 7.6 x 9.7 | 9.3 | gable 4.2 | 3 | stone |
-| E-0602 | House of Wat the carpenter | shop | 1528.7 | 938.3 | 71.7 | 75° | 7.1 x 10.5 | 9.3 | gable 3.9 | 3 | timber |
-| E-0603 | Workshop of Wat the carpenter | workshop | 1517.3 | 941.4 | 71.7 | 75° | 7.1 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| E-0604 | House of Juliana the apothecary | house | 1543.1 | 1022.0 | 71.7 | 84° | 6.6 x 10.2 | 9.3 | gable 3.6 | 3 | timber |
-| E-0605 | House of Roger the jeweller | house | 1542.9 | 1029.3 | 71.7 | 84° | 7.5 x 12.1 | 9.3 | gable 4.1 | 3 | timber |
-| E-0606 | Workshop of Roger the jeweller | workshop | 1529.2 | 1030.8 | 71.7 | 84° | 6.9 x 7.5 | 3.0 | gable 3.8 | 1 | timber |
-| E-0607 | House of Robin the cheesemonger | house | 1544.7 | 1064.2 | 71.7 | 87° | 7.2 x 13.4 | 9.3 | gable 4.0 | 3 | timber |
-| E-0608 | Workshop of Robin the cheesemonger | workshop | 1532.3 | 1064.9 | 71.8 | 87° | 6.4 x 7.0 | 3.0 | gable 3.5 | 1 | timber |
-| E-0609 | House of Laurence the hatter | house | 1280.9 | 647.4 | 74.1 | 203° | 7.4 x 11.1 | 9.3 | gable 4.1 | 3 | timber |
-| E-0610 | Workshop of Laurence the hatter | workshop | 1285.1 | 637.6 | 77.9 | 203° | 6.5 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| E-0611 | House of Cecily the furrier | house | 1295.4 | 651.8 | 72.7 | 205° | 8.4 x 15.0 | 6.2 | gable 4.6 | 2 | stone |
-| E-0612 | House of Hawise the clockmaker | shop | 1395.4 | 709.8 | 71.7 | 216° | 7.1 x 9.8 | 9.3 | gable 3.9 | 3 | timber |
-| E-0613 | House of Emma the bowyer | shop | 1432.4 | 739.0 | 71.7 | 221° | 7.9 x 9.0 | 6.2 | gable 4.3 | 2 | timber |
-| E-0614 | House of Baldwin the weaver | house | 1438.5 | 744.0 | 71.7 | 221° | 6.5 x 9.3 | 9.3 | gable 3.6 | 3 | timber |
-| E-0615 | House of Osbert the armourer | house | 1445.6 | 749.1 | 71.6 | 224° | 8.9 x 11.2 | 6.2 | gable 4.9 | 2 | timber |
-| E-0616 | Workshop of Osbert the armourer | workshop | 1452.7 | 741.8 | 71.7 | 224° | 5.8 x 5.7 | 6.0 | gable 3.1 | 1 | timber |
-| E-0617 | House of Martin the bellfounder | shop | 1452.3 | 755.9 | 71.6 | 227° | 8.8 x 11.5 | 6.2 | gable 4.8 | 2 | stone |
-| E-0618 | Workshop of Martin the bellfounder | workshop | 1461.8 | 747.0 | 71.7 | 227° | 5.6 x 7.0 | 3.0 | gable 3.1 | 1 | timber |
-| E-0619 | House of Rose the barber-surgeon | house | 1489.8 | 803.3 | 71.7 | 234° | 8.9 x 9.3 | 6.2 | gable 4.9 | 2 | timber |
-| E-0620 | House of Alan the armourer | shop | 1504.7 | 824.3 | 71.7 | 240° | 5.6 x 13.3 | 6.2 | hip 2.5 | 2 | timber |
-| E-0621 | House of Avice the jeweller | house | 1648.1 | 1076.5 | 71.7 | 94° | 8.5 x 13.7 | 9.3 | gable 4.7 | 3 | timber |
-| E-0622 | House of Christiana the mason | shop | 1646.9 | 1085.0 | 71.7 | 94° | 8.2 x 15.0 | 6.2 | gable 4.5 | 2 | timber |
-| E-0623 | Workshop of Christiana the mason | workshop | 1633.0 | 1084.0 | 71.7 | 94° | 6.6 x 5.7 | 3.0 | gable 3.1 | 1 | timber |
-| E-0624 | House of Elena the cooper | shop | 1648.9 | 1094.4 | 71.7 | 94° | 9.2 x 9.5 | 6.2 | gable 5.0 | 2 | timber |
-| E-0625 | Workshop of Elena the cooper | workshop | 1638.4 | 1093.7 | 71.7 | 94° | 6.1 x 4.9 | 6.0 | gable 2.7 | 1 | timber |
-| E-0626 | House of Margery the pewterer | house | 1643.7 | 1126.1 | 71.7 | 96° | 6.3 x 14.2 | 6.2 | gable 3.5 | 2 | timber |
-| E-0627 | Workshop of Margery the pewterer | workshop | 1633.1 | 1125.0 | 71.7 | 96° | 5.5 x 4.5 | 6.0 | gable 2.5 | 1 | timber |
-| E-0628 | House of Nicholas the tanner | house | 1645.1 | 1134.6 | 71.7 | 96° | 9.4 x 9.6 | 9.3 | hip 4.2 | 3 | timber |
-| E-0629 | Workshop of Nicholas the tanner | workshop | 1633.9 | 1133.4 | 71.7 | 96° | 6.5 x 5.6 | 3.0 | gable 3.1 | 1 | timber |
-| E-0630 | House of Osbert the candlemaker | shop | 1467.2 | 657.1 | 71.8 | 45° | 7.4 x 11.7 | 9.3 | hip 3.3 | 3 | timber |
-| E-0631 | House of Maud the locksmith | shop | 1508.7 | 699.2 | 71.7 | 47° | 8.9 x 10.3 | 9.3 | gable 4.9 | 3 | stone |
-| E-0632 | House of Robin the butcher | shop | 1576.5 | 787.6 | 71.7 | 56° | 8.6 x 13.3 | 9.3 | gable 4.8 | 3 | timber |
-| E-0633 | House of Baldwin the clockmaker | shop | 1595.5 | 816.2 | 71.7 | 60° | 5.9 x 11.1 | 6.2 | hip 2.7 | 2 | timber |
-| E-0634 | House of Jordan the spicer | house | 1605.6 | 836.1 | 71.7 | 63° | 6.5 x 13.0 | 9.3 | gable 3.6 | 3 | timber |
-| E-0635 | Workshop of Jordan the spicer | workshop | 1594.4 | 841.8 | 71.7 | 63° | 5.7 x 5.6 | 3.0 | gable 3.1 | 1 | timber |
-| E-0636 | House of Stephen the mercer | house | 1629.8 | 896.3 | 71.7 | 72° | 8.3 x 13.6 | 9.3 | gable 4.6 | 3 | timber |
-| E-0637 | House of Thomas the fuller | shop | 1633.2 | 905.0 | 71.7 | 72° | 9.3 x 12.7 | 6.2 | gable 5.1 | 2 | timber |
-| E-0638 | House of Nicholas the cooper | house | 1637.7 | 920.1 | 71.7 | 78° | 8.3 x 11.8 | 9.3 | hip 3.8 | 3 | timber |
-| E-0639 | House of Martin the potter | house | 1650.8 | 998.5 | 71.7 | 88° | 8.9 x 9.1 | 6.2 | hip 4.0 | 2 | timber |
-| E-0640 | House of Cecily the parchmenter | house | 1649.5 | 1008.3 | 71.7 | 88° | 9.4 x 12.3 | 9.3 | gable 5.2 | 3 | timber |
-| E-0641 | Workshop of Cecily the parchmenter | workshop | 1636.3 | 1008.8 | 71.6 | 88° | 7.1 x 7.7 | 3.0 | gable 3.9 | 1 | timber |
-| E-0642 | House of Jordan the carpenter | shop | 1649.4 | 1018.3 | 71.7 | 88° | 9.3 x 13.4 | 9.3 | gable 5.1 | 3 | timber |
-| E-0643 | Workshop of Jordan the carpenter | workshop | 1636.7 | 1018.8 | 71.7 | 88° | 5.7 x 6.1 | 3.0 | gable 3.1 | 1 | timber |
-| E-0644 | House of Geoffrey the furrier | house | 1650.7 | 1028.3 | 71.7 | 88° | 9.4 x 11.4 | 12.4 | hip 4.2 | 4 | timber |
-| E-0645 | Workshop of Geoffrey the furrier | workshop | 1638.8 | 1028.8 | 71.7 | 88° | 4.8 x 6.3 | 3.0 | gable 2.7 | 1 | timber |
-| E-0646 | House of Rose the ropemaker | shop | 1649.1 | 1046.4 | 71.7 | 92° | 8.5 x 13.9 | 6.2 | gable 4.7 | 2 | timber |
-| E-0647 | Workshop of Rose the ropemaker | workshop | 1636.3 | 1046.0 | 71.7 | 92° | 6.9 x 6.1 | 3.0 | gable 3.4 | 1 | timber |
-| E-0648 | House of Alan the fuller | shop | 1469.3 | 635.3 | 75.2 | 225° | 5.9 x 9.9 | 6.2 | gable 3.3 | 2 | timber |
-| E-0649 | House of Piers the clockmaker | shop | 1479.9 | 644.6 | 72.5 | 225° | 7.2 x 11.4 | 6.2 | gable 4.0 | 2 | stone |
-| E-0650 | Workshop of Piers the clockmaker | workshop | 1488.6 | 635.8 | 72.9 | 225° | 6.3 x 6.5 | 3.0 | gable 3.5 | 1 | timber |
-| E-0651 | House of Roger the mercer | shop | 1484.2 | 649.6 | 71.8 | 225° | 5.7 x 10.4 | 9.3 | hip 2.6 | 3 | timber |
-| E-0652 | Workshop of Roger the mercer | workshop | 1491.4 | 642.3 | 71.9 | 225° | 4.8 x 5.6 | 6.0 | gable 2.6 | 1 | timber |
-| E-0653 | House of Simon the notary | house | 1514.7 | 679.5 | 71.7 | 227° | 7.4 x 12.9 | 6.2 | gable 4.1 | 2 | timber |
-| E-0654 | Workshop of Simon the notary | workshop | 1523.0 | 671.7 | 71.7 | 227° | 4.9 x 5.9 | 3.0 | gable 2.7 | 1 | timber |
-| E-0655 | House of Sybil the bookbinder | shop | 1520.2 | 686.3 | 71.6 | 227° | 9.0 x 11.7 | 6.2 | hip 4.0 | 2 | timber |
-| E-0656 | House of Joan the bookbinder | house | 1527.6 | 693.0 | 71.6 | 229° | 9.0 x 13.7 | 6.2 | gable 4.9 | 2 | timber |
-| E-0657 | House of Odo the fuller | house | 1552.3 | 724.8 | 71.6 | 232° | 8.0 x 10.0 | 9.3 | gable 4.4 | 3 | timber |
-| E-0658 | Workshop of Odo the fuller | workshop | 1560.2 | 718.6 | 71.6 | 232° | 5.1 x 7.1 | 6.0 | gable 2.8 | 1 | timber |
-| E-0659 | House of Baldwin the butcher | house | 1590.0 | 775.3 | 71.7 | 236° | 6.8 x 10.6 | 9.3 | hip 3.1 | 3 | timber |
-| E-0660 | Workshop of Baldwin the butcher | workshop | 1598.8 | 769.4 | 71.7 | 236° | 5.6 x 6.2 | 6.0 | gable 3.1 | 1 | timber |
-| E-0661 | House of Ralph the barber-surgeon | house | 1594.5 | 782.2 | 71.7 | 236° | 8.9 x 10.2 | 9.3 | gable 4.9 | 3 | timber |
-| E-0662 | Workshop of Ralph the barber-surgeon | workshop | 1603.7 | 776.0 | 71.7 | 236° | 8.3 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| E-0663 | House of Stephen the ropemaker | house | 1621.7 | 825.8 | 71.7 | 240° | 6.8 x 12.6 | 6.2 | gable 3.7 | 2 | timber |
-| E-0664 | Workshop of Stephen the ropemaker | workshop | 1632.8 | 819.5 | 71.7 | 240° | 5.0 x 5.2 | 3.0 | gable 2.8 | 1 | timber |
-| E-0665 | House of Ida the furrier | house | 1794.9 | 1076.7 | 71.6 | 91° | 7.5 x 9.2 | 6.2 | gable 4.2 | 2 | timber |
-| E-0666 | Workshop of Ida the furrier | workshop | 1785.7 | 1076.5 | 71.6 | 91° | 6.4 x 6.7 | 6.0 | gable 3.5 | 1 | timber |
-| E-0667 | House of Hugh the baker | shop | 1792.0 | 1093.3 | 71.6 | 91° | 7.5 x 14.6 | 9.3 | gable 4.2 | 3 | timber |
-| E-0668 | House of Adam the scribe | house | 1791.2 | 1139.5 | 71.7 | 98° | 6.1 x 9.9 | 6.2 | gable 3.3 | 2 | timber |
-| E-0669 | House of Robin the candlemaker | shop | 1789.4 | 1146.3 | 71.7 | 98° | 7.2 x 11.7 | 6.2 | gable 4.0 | 2 | timber |
-| E-0670 | Workshop of Robin the candlemaker | workshop | 1777.8 | 1144.8 | 71.7 | 98° | 7.1 x 6.8 | 3.0 | gable 3.7 | 1 | timber |
-| E-0671 | House of Gilbert the lute-maker | shop | 1788.1 | 1162.2 | 71.7 | 98° | 7.4 x 10.0 | 6.2 | hip 3.3 | 2 | timber |
-| E-0672 | Workshop of Gilbert the lute-maker | workshop | 1778.4 | 1160.9 | 71.7 | 98° | 5.0 x 5.1 | 3.0 | gable 2.7 | 1 | timber |
-| E-0673 | House of Godwin the brewer | house | 1781.4 | 1182.6 | 71.7 | 104° | 7.1 x 14.1 | 6.2 | gable 3.9 | 2 | timber |
-| E-0674 | House of Godwin the scribe | shop | 1777.5 | 1202.5 | 71.6 | 104° | 8.1 x 12.2 | 6.2 | hip 3.7 | 2 | stone |
-| E-0675 | House of Walter the goldsmith | house | 1753.1 | 1272.4 | 71.4 | 114° | 8.4 x 11.8 | 6.2 | hip 3.8 | 2 | timber |
-| E-0676 | House of Simon the jeweller | house | 1749.2 | 1279.3 | 71.3 | 114° | 6.6 x 13.2 | 6.2 | gable 3.6 | 2 | timber |
-| E-0677 | House of Maud the pie-seller | shop | 1803.8 | 1171.6 | 71.7 | 284° | 8.4 x 11.6 | 6.2 | gable 4.6 | 2 | timber |
-| E-0678 | House of Gilbert the bowyer | house | 1528.1 | 567.3 | 79.3 | 43° | 8.3 x 10.6 | 6.2 | hip 3.8 | 2 | timber |
-| E-0679 | House of Ralph the goldsmith | shop | 1533.4 | 574.0 | 78.0 | 43° | 7.7 x 13.1 | 6.2 | gable 4.2 | 2 | timber |
-| E-0680 | House of Thomas the spicer | shop | 1551.7 | 592.2 | 73.3 | 43° | 6.6 x 14.3 | 6.2 | gable 3.6 | 2 | timber |
-| E-0681 | Workshop of Thomas the spicer | workshop | 1543.9 | 600.4 | 73.2 | 43° | 4.6 x 5.4 | 6.0 | gable 2.5 | 1 | timber |
-| E-0682 | House of Mabel the cooper | shop | 1559.4 | 595.9 | 73.2 | 43° | 9.1 x 9.0 | 6.2 | hip 4.1 | 2 | timber |
-| E-0683 | Workshop of Mabel the cooper | workshop | 1551.9 | 603.8 | 72.8 | 43° | 5.2 x 6.3 | 3.0 | gable 2.9 | 1 | timber |
-| E-0684 | House of Richard the butcher | house | 1593.1 | 633.9 | 71.8 | 48° | 7.5 x 10.3 | 6.2 | gable 4.1 | 2 | timber |
-| E-0685 | House of Robin the bookbinder | shop | 1661.1 | 728.0 | 71.7 | 58° | 8.3 x 9.0 | 9.3 | hip 3.7 | 3 | stone |
-| E-0686 | House of Walter the clockmaker | house | 1672.2 | 747.2 | 71.7 | 58° | 7.4 x 10.3 | 6.2 | gable 4.1 | 2 | timber |
-| E-0687 | Workshop of Walter the clockmaker | workshop | 1663.9 | 752.4 | 71.7 | 58° | 6.7 x 6.8 | 6.0 | gable 3.7 | 1 | timber |
-| E-0688 | House of Joan the bellfounder | house | 1699.1 | 793.2 | 71.7 | 60° | 9.1 x 10.4 | 6.2 | hip 4.1 | 2 | timber |
-| E-0689 | House of Rose the spicer | house | 1734.0 | 862.1 | 71.7 | 64° | 6.8 x 11.7 | 6.2 | hip 3.0 | 2 | timber |
-| E-0690 | Workshop of Rose the spicer | workshop | 1724.0 | 866.9 | 71.7 | 64° | 4.9 x 7.0 | 3.0 | gable 2.7 | 1 | timber |
-| E-0691 | House of Avice the apothecary | shop | 1741.4 | 876.9 | 71.7 | 64° | 8.7 x 11.1 | 6.2 | gable 4.8 | 2 | timber |
-| E-0692 | Workshop of Avice the apothecary | workshop | 1732.4 | 881.2 | 71.6 | 64° | 8.1 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| E-0693 | House of Isabel the cutler | shop | 1761.6 | 924.7 | 71.7 | 68° | 9.0 x 11.1 | 6.2 | gable 5.0 | 2 | timber |
-| E-0694 | Workshop of Isabel the cutler | workshop | 1752.3 | 928.5 | 71.7 | 68° | 7.3 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| E-0695 | House of Wat the fletcher | house | 1765.0 | 938.2 | 71.7 | 72° | 6.5 x 13.7 | 6.2 | gable 3.5 | 2 | timber |
-| E-0696 | House of Roger the ropemaker | shop | 1779.7 | 980.2 | 71.7 | 78° | 7.3 x 10.8 | 6.2 | hip 3.3 | 2 | timber |
-| E-0697 | House of Cecily the limner | shop | 1783.1 | 1001.2 | 71.7 | 78° | 6.7 x 13.3 | 9.3 | gable 3.7 | 3 | timber |
-| E-0698 | House of Piers the baker | house | 1786.0 | 1009.0 | 71.7 | 78° | 9.0 x 10.9 | 6.2 | hip 4.0 | 2 | timber |
-| E-0699 | House of Alan the vintner | house | 1793.1 | 1065.0 | 71.7 | 84° | 7.2 x 11.8 | 6.2 | gable 4.0 | 2 | timber |
-| E-0700 | House of Petronilla the bookbinder | house | 1611.4 | 630.5 | 72.2 | 232° | 5.7 x 9.9 | 9.3 | hip 2.6 | 3 | timber |
-| E-0701 | Workshop of Petronilla the bookbinder | workshop | 1618.1 | 625.5 | 72.5 | 232° | 5.2 x 4.5 | 6.0 | gable 2.5 | 1 | timber |
-| E-0702 | House of Ralph the bowyer | house | 1629.5 | 654.5 | 71.8 | 232° | 5.7 x 9.3 | 6.2 | gable 3.1 | 2 | timber |
-| E-0703 | Workshop of Ralph the bowyer | workshop | 1637.4 | 648.5 | 72.1 | 232° | 4.9 x 5.3 | 6.0 | gable 2.7 | 1 | timber |
-| E-0704 | House of Stephen the armourer | shop | 1645.3 | 672.9 | 71.7 | 236° | 7.9 x 13.2 | 6.2 | gable 4.4 | 2 | timber |
-| E-0705 | Workshop of Stephen the armourer | workshop | 1654.2 | 666.9 | 71.9 | 236° | 4.5 x 5.9 | 3.0 | gable 2.5 | 1 | timber |
-| E-0706 | House of Gilbert the herbalist | shop | 1650.8 | 679.9 | 71.7 | 236° | 8.9 x 14.2 | 6.2 | gable 4.9 | 2 | timber |
-| E-0707 | House of Edith the pie-seller | shop | 1674.9 | 718.7 | 71.7 | 238° | 6.3 x 11.8 | 9.3 | hip 2.9 | 3 | timber |
-| E-0708 | Workshop of Edith the pie-seller | workshop | 1684.9 | 712.5 | 71.8 | 238° | 6.0 x 6.9 | 3.0 | gable 3.3 | 1 | timber |
-| E-0709 | House of Stephen the parchmenter | shop | 1679.3 | 724.0 | 71.7 | 238° | 6.3 x 13.7 | 6.2 | gable 3.5 | 2 | timber |
-| E-0710 | House of Hob the notary | house | 1728.2 | 813.3 | 71.8 | 242° | 6.6 x 9.5 | 9.3 | gable 3.6 | 3 | timber |
-| E-0711 | House of Alys the draper | shop | 1772.7 | 905.1 | 71.9 | 248° | 6.1 x 11.9 | 6.2 | gable 3.4 | 2 | timber |
-| E-0712 | House of Walter the cobbler | house | 1475.2 | 1137.2 | 71.7 | 186° | 9.3 x 11.4 | 9.3 | hip 4.2 | 3 | timber |
-| E-0713 | House of Piers the pewterer | house | 1506.1 | 1137.1 | 71.7 | 180° | 9.3 x 14.7 | 9.3 | gable 5.1 | 3 | timber |
-| E-0714 | Workshop of Piers the pewterer | workshop | 1506.0 | 1125.2 | 71.7 | 180° | 4.5 x 5.1 | 6.0 | gable 2.5 | 1 | timber |
-| E-0715 | House of Rose the barber-surgeon | shop | 1514.0 | 1138.5 | 71.7 | 179° | 5.7 x 11.5 | 6.2 | gable 3.1 | 2 | timber |
-| E-0716 | Workshop of Rose the barber-surgeon | workshop | 1513.8 | 1126.3 | 71.7 | 179° | 4.5 x 6.3 | 3.0 | gable 2.5 | 1 | timber |
-| E-0717 | House of Mabel the scribe | shop | 1562.6 | 1151.1 | 71.7 | 174° | 8.4 x 10.0 | 6.2 | gable 4.6 | 2 | timber |
-| E-0718 | House of Wat the tinker | house | 1570.7 | 1149.4 | 71.6 | 175° | 7.5 x 11.9 | 9.3 | hip 3.4 | 3 | timber |
-| E-0719 | House of Hawise the mason | shop | 1577.7 | 1147.6 | 71.6 | 176° | 5.9 x 14.3 | 6.2 | gable 3.2 | 2 | timber |
-| E-0720 | Workshop of Hawise the mason | workshop | 1576.7 | 1135.0 | 71.7 | 176° | 5.2 x 7.9 | 3.0 | gable 2.9 | 1 | timber |
-| E-0721 | House of Piers the tailor | shop | 1585.3 | 1149.3 | 71.7 | 176° | 8.2 x 9.8 | 6.2 | gable 4.5 | 2 | timber |
-| E-0722 | House of Sybil the jeweller | house | 1753.1 | 1168.9 | 71.7 | 204° | 9.4 x 15.0 | 6.2 | gable 5.2 | 2 | timber |
-| E-0723 | Workshop of Sybil the jeweller | workshop | 1758.7 | 1156.1 | 71.6 | 204° | 4.5 x 6.3 | 6.0 | gable 2.5 | 1 | timber |
-| E-0724 | House of Henry the bookbinder | shop | 1761.4 | 1175.0 | 71.7 | 205° | 9.3 x 10.9 | 6.2 | gable 5.1 | 2 | timber |
-| E-0725 | House of Richard the cooper | house | 1422.1 | 1211.3 | 71.7 | 194° | 8.0 x 10.8 | 9.3 | gable 4.4 | 3 | timber |
-| E-0726 | House of Joan the lute-maker | shop | 1430.7 | 1211.6 | 71.7 | 194° | 8.0 x 14.4 | 12.4 | gable 4.4 | 4 | timber |
-| E-0727 | House of Gilbert the vintner | shop | 1526.5 | 1249.6 | 71.2 | 178° | 7.1 x 11.5 | 6.2 | gable 3.9 | 2 | timber |
-| E-0728 | House of Adam the cheesemonger | house | 1534.0 | 1248.7 | 71.2 | 178° | 6.5 x 12.7 | 9.3 | hip 2.9 | 3 | timber |
-| E-0729 | Workshop of Adam the cheesemonger | workshop | 1533.5 | 1236.8 | 71.5 | 178° | 5.9 x 7.3 | 3.0 | gable 3.3 | 1 | timber |
-| E-0730 | House of Amice the weaver | house | 1541.9 | 1249.9 | 71.3 | 179° | 8.3 x 9.7 | 6.2 | hip 3.7 | 2 | timber |
-| E-0731 | Workshop of Amice the weaver | workshop | 1541.7 | 1240.7 | 71.5 | 179° | 4.8 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| E-0732 | House of Alys the jeweller | house | 1550.4 | 1250.0 | 71.3 | 181° | 7.4 x 9.7 | 9.3 | gable 4.1 | 3 | timber |
-| E-0733 | House of Rose the potter | house | 1580.1 | 1254.5 | 71.2 | 201° | 9.3 x 10.8 | 9.3 | hip 4.2 | 3 | timber |
-| E-0734 | Workshop of Rose the potter | workshop | 1584.1 | 1244.1 | 71.4 | 201° | 8.8 x 7.3 | 3.0 | gable 4.0 | 1 | timber |
-| E-0735 | House of Geoffrey the lute-maker | shop | 1588.1 | 1258.5 | 71.1 | 204° | 7.6 x 9.6 | 6.2 | gable 4.2 | 2 | stone |
-| E-0736 | Workshop of Geoffrey the lute-maker | workshop | 1592.0 | 1249.7 | 71.3 | 204° | 5.4 x 5.4 | 6.0 | gable 3.0 | 1 | timber |
-| E-0737 | House of Isabel the lute-maker | house | 1229.1 | 725.3 | 71.7 | 299° | 6.5 x 10.6 | 6.2 | gable 3.6 | 2 | timber |
-| E-0738 | House of Edith the tanner | shop | 1238.9 | 710.6 | 71.7 | 300° | 8.8 x 13.1 | 6.2 | gable 4.8 | 2 | stone |
-| E-0739 | Workshop of Edith the tanner | workshop | 1248.1 | 716.0 | 71.7 | 300° | 6.1 x 6.2 | 3.0 | gable 3.4 | 1 | timber |
-| E-0740 | House of Emma the bookbinder | shop | 1355.9 | 723.5 | 71.7 | 315° | 5.6 x 13.7 | 15.5 | gable 3.1 | 5 | timber |
-| E-0741 | House of Hob the lute-maker | house | 1299.1 | 764.7 | 71.7 | 122° | 7.2 x 11.3 | 9.3 | gable 4.0 | 3 | timber |
-| E-0742 | House of Piers the chandler | shop | 1337.9 | 714.2 | 71.7 | 135° | 9.1 x 12.3 | 6.2 | gable 5.0 | 2 | timber |
-| E-0743 | House of Roger the fletcher | house | 1343.9 | 708.9 | 71.7 | 136° | 6.2 x 11.4 | 9.3 | hip 2.8 | 3 | timber |
-| E-0744 | House of Piers the chandler | house | 1348.4 | 703.3 | 71.7 | 136° | 7.6 x 13.2 | 9.3 | gable 4.2 | 3 | stone |
-| E-0745 | House of Emma the locksmith | shop | 1382.0 | 694.1 | 71.8 | 312° | 7.0 x 9.4 | 9.3 | gable 3.8 | 3 | timber |
-| E-0746 | Workshop of Emma the locksmith | workshop | 1389.0 | 700.5 | 71.7 | 312° | 6.9 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| E-0747 | House of Alys the candlemaker | shop | 1394.9 | 682.8 | 71.7 | 312° | 8.3 x 13.3 | 6.2 | gable 4.6 | 2 | stone |
-| E-0748 | House of Agnes the mason | house | 1399.7 | 676.9 | 71.7 | 311° | 6.4 x 12.6 | 12.4 | hip 2.9 | 4 | timber |
-| E-0749 | Workshop of Agnes the mason | workshop | 1407.9 | 684.0 | 71.7 | 311° | 4.8 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| E-0750 | House of Thomas the lute-maker | shop | 1409.5 | 664.8 | 71.9 | 310° | 7.2 x 11.8 | 9.3 | gable 3.9 | 3 | timber |
-| E-0751 | House of Avice the barber-surgeon | shop | 1365.7 | 684.8 | 71.8 | 132° | 7.3 x 14.9 | 12.4 | gable 4.0 | 4 | timber |
-| E-0752 | House of Richard the locksmith | shop | 1429.5 | 796.5 | 71.7 | 315° | 7.3 x 9.2 | 9.3 | gable 4.0 | 3 | timber |
-| E-0753 | House of Maud the ropemaker | shop | 1362.8 | 822.4 | 71.7 | 154° | 6.7 x 11.0 | 12.4 | gable 3.7 | 4 | timber |
-| E-0754 | House of Odo the furrier | house | 1369.6 | 817.8 | 71.7 | 153° | 8.8 x 13.2 | 6.2 | gable 4.8 | 2 | timber |
-| E-0755 | House of Nicholas the tanner | house | 1413.4 | 787.1 | 71.7 | 135° | 8.6 x 14.3 | 9.3 | gable 4.7 | 3 | timber |
-| E-0756 | House of Osbert the butcher | shop | 1420.2 | 782.4 | 71.7 | 134° | 6.8 x 11.3 | 9.3 | hip 3.1 | 3 | timber |
-| E-0757 | House of Godwin the hatter | house | 1525.5 | 727.3 | 71.7 | 309° | 7.4 x 9.7 | 6.2 | gable 4.1 | 2 | timber |
-| E-0758 | House of Isabel the scribe | house | 1500.6 | 730.2 | 71.7 | 132° | 9.2 x 11.9 | 6.2 | gable 5.0 | 2 | timber |
-| E-0759 | House of Godwin the pewterer | shop | 1509.6 | 718.6 | 71.7 | 130° | 7.9 x 13.5 | 9.3 | hip 3.5 | 3 | timber |
-| E-0760 | Workshop of Godwin the pewterer | workshop | 1500.0 | 710.7 | 71.7 | 130° | 6.0 x 5.7 | 6.0 | gable 3.2 | 1 | timber |
-| E-0761 | House of Maud the mercer | house | 1516.3 | 712.5 | 71.7 | 129° | 9.4 x 10.9 | 6.2 | hip 4.2 | 2 | timber |
-| E-0762 | House of Baldwin the wheelwright | house | 1595.6 | 686.3 | 71.7 | 317° | 6.8 x 13.0 | 9.3 | gable 3.7 | 3 | timber |
-| E-0763 | Workshop of Baldwin the wheelwright | workshop | 1604.4 | 695.8 | 71.7 | 317° | 4.7 x 6.3 | 3.0 | gable 2.6 | 1 | timber |
-| E-0764 | House of Cecily the fletcher | shop | 1600.6 | 678.9 | 71.7 | 314° | 9.5 x 9.3 | 9.3 | hip 4.2 | 3 | timber |
-| E-0765 | House of Amice the herbalist | house | 1613.1 | 665.9 | 71.7 | 311° | 7.0 x 10.1 | 6.2 | gable 3.8 | 2 | timber |
-| E-0766 | Workshop of Amice the herbalist | workshop | 1620.2 | 672.1 | 71.7 | 311° | 6.2 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| E-0767 | House of Laurence the lute-maker | house | 1587.2 | 669.8 | 71.7 | 135° | 8.9 x 10.1 | 6.2 | gable 4.9 | 2 | stone |
-| E-0768 | Workshop of Laurence the lute-maker | workshop | 1581.2 | 663.7 | 71.7 | 135° | 5.5 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| E-0769 | House of Rose the chandler | shop | 1598.2 | 656.0 | 71.7 | 132° | 9.2 x 13.1 | 9.3 | gable 5.0 | 3 | timber |
-| E-0770 | House of Sybil the armourer | shop | 1407.9 | 904.7 | 71.7 | 336° | 6.7 x 9.2 | 9.3 | gable 3.7 | 3 | timber |
-| E-0771 | Workshop of Sybil the armourer | workshop | 1411.9 | 913.5 | 71.7 | 336° | 5.6 x 5.0 | 6.0 | gable 2.7 | 1 | timber |
-| E-0772 | House of Stephen the carpenter | shop | 1523.5 | 858.8 | 71.7 | 328° | 7.4 x 11.3 | 6.2 | gable 4.1 | 2 | timber |
-| E-0773 | House of Hugh the vintner | house | 1530.1 | 856.0 | 71.7 | 328° | 6.4 x 13.7 | 6.2 | gable 3.5 | 2 | stone |
-| E-0774 | House of Felice the baker | house | 1562.8 | 835.0 | 71.7 | 331° | 8.3 x 11.5 | 12.4 | hip 3.7 | 4 | timber |
-| E-0775 | House of Avice the weaver | house | 1520.7 | 840.8 | 71.7 | 148° | 6.1 x 9.7 | 9.3 | hip 2.7 | 3 | timber |
-| E-0776 | Workshop of Avice the weaver | workshop | 1514.8 | 831.6 | 71.6 | 148° | 6.0 x 5.3 | 6.0 | gable 2.9 | 1 | timber |
-| E-0777 | House of Walter the locksmith | shop | 1557.4 | 817.5 | 71.7 | 151° | 7.8 x 12.1 | 9.3 | gable 4.3 | 3 | timber |
-| E-0778 | Workshop of Walter the locksmith | workshop | 1551.3 | 806.4 | 71.7 | 151° | 7.7 x 7.5 | 3.0 | gable 4.1 | 1 | timber |
-| E-0779 | House of Isabel the butcher | shop | 1568.8 | 811.1 | 71.7 | 152° | 6.4 x 12.2 | 9.3 | gable 3.5 | 3 | timber |
-| E-0780 | Workshop of Isabel the butcher | workshop | 1563.7 | 801.6 | 71.7 | 152° | 5.7 x 6.8 | 3.0 | gable 3.1 | 1 | timber |
-| E-0781 | House of Thomas the fishmonger | shop | 1575.3 | 806.4 | 71.7 | 152° | 8.3 x 14.4 | 9.3 | gable 4.6 | 3 | timber |
-| E-0782 | House of Rose the pewterer | shop | 1584.8 | 804.3 | 71.7 | 152° | 9.4 x 9.2 | 9.3 | gable 5.1 | 3 | timber |
-| E-0783 | Workshop of Rose the pewterer | workshop | 1579.9 | 795.2 | 71.7 | 152° | 9.3 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| E-0784 | House of Odo the cutler | house | 1667.1 | 791.0 | 71.6 | 330° | 9.4 x 11.2 | 6.2 | gable 5.2 | 2 | timber |
-| E-0785 | House of Hawise the brewer | house | 1674.8 | 788.6 | 71.7 | 330° | 5.9 x 14.7 | 6.2 | gable 3.2 | 2 | timber |
-| E-0786 | House of Adam the baker | house | 1679.7 | 784.6 | 71.7 | 330° | 5.7 x 12.6 | 6.2 | gable 3.1 | 2 | timber |
-| E-0787 | Workshop of Adam the baker | workshop | 1684.9 | 793.9 | 71.7 | 330° | 4.6 x 5.8 | 6.0 | gable 2.5 | 1 | timber |
-| E-0788 | House of Wat the hatter | shop | 1624.2 | 795.4 | 71.7 | 148° | 9.5 x 14.1 | 9.3 | gable 5.2 | 3 | timber |
-| E-0789 | House of Nicholas the bellfounder | house | 1637.6 | 789.1 | 71.7 | 148° | 5.9 x 10.5 | 6.2 | hip 2.6 | 2 | timber |
-| E-0790 | House of Maud the bellfounder | house | 1656.2 | 777.5 | 71.7 | 149° | 6.8 x 10.7 | 6.2 | gable 3.7 | 2 | stone |
-| E-0791 | Workshop of Maud the bellfounder | workshop | 1651.0 | 768.8 | 71.7 | 149° | 6.0 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| E-0792 | House of Adam the tanner | shop | 1669.1 | 769.0 | 71.7 | 150° | 8.3 x 12.7 | 6.2 | hip 3.7 | 2 | timber |
-| E-0793 | House of Jordan the butcher | shop | 1706.1 | 750.1 | 71.8 | 151° | 9.4 x 9.8 | 6.2 | gable 5.2 | 2 | timber |
-| E-0794 | House of Ida the butcher | shop | 1438.3 | 972.0 | 71.6 | 169° | 8.8 x 9.9 | 9.3 | hip 3.9 | 3 | timber |
-| E-0795 | House of Ivetta the glazier | house | 1453.5 | 967.5 | 71.7 | 168° | 9.3 x 12.9 | 9.3 | hip 4.2 | 3 | timber |
-| E-0796 | House of Margery the pewterer | house | 1470.3 | 964.2 | 71.7 | 167° | 7.4 x 12.2 | 9.3 | gable 4.1 | 3 | timber |
-| E-0797 | Workshop of Margery the pewterer | workshop | 1467.6 | 952.7 | 71.7 | 167° | 7.3 x 5.9 | 3.0 | gable 3.2 | 1 | timber |
-| E-0798 | House of Robin the wheelwright | shop | 1500.6 | 955.1 | 71.7 | 160° | 8.4 x 11.5 | 9.3 | gable 4.6 | 3 | timber |
-| E-0799 | Workshop of Robin the wheelwright | workshop | 1497.0 | 945.5 | 71.7 | 160° | 8.2 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| E-0800 | House of Martin the mercer | shop | 1509.4 | 952.5 | 71.7 | 159° | 8.9 x 10.2 | 6.2 | gable 4.9 | 2 | stone |
-| E-0801 | House of Emma the notary | shop | 1557.1 | 945.1 | 71.7 | 171° | 7.0 x 9.2 | 6.2 | gable 3.9 | 2 | timber |
-| E-0802 | House of Jordan the cheesemonger | house | 1619.7 | 932.5 | 71.6 | 168° | 6.6 x 11.0 | 9.3 | hip 3.0 | 3 | stone |
-| E-0803 | House of Alan the dyer | shop | 1627.2 | 929.6 | 71.6 | 167° | 8.0 x 13.4 | 9.3 | gable 4.4 | 3 | timber |
-| E-0804 | Workshop of Alan the dyer | workshop | 1624.8 | 918.9 | 71.7 | 167° | 6.4 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| E-0805 | House of Gilbert the baker | house | 1661.5 | 919.0 | 71.6 | 161° | 8.8 x 9.8 | 9.3 | gable 4.8 | 3 | timber |
-| E-0806 | House of Martin the notary | shop | 1675.6 | 914.4 | 71.7 | 161° | 6.4 x 9.3 | 9.3 | gable 3.5 | 3 | timber |
-| E-0807 | House of Henry the goldsmith | shop | 1705.8 | 903.8 | 71.6 | 164° | 7.4 x 11.2 | 6.2 | gable 4.1 | 2 | timber |
-| E-0808 | House of Odo the tanner | shop | 1714.3 | 902.1 | 71.6 | 165° | 9.1 x 10.2 | 6.2 | gable 5.0 | 2 | timber |
-| E-0809 | Workshop of Odo the tanner | workshop | 1711.3 | 890.6 | 71.6 | 165° | 8.3 x 5.9 | 3.0 | gable 3.2 | 1 | timber |
-| E-0810 | House of Martin the apothecary | shop | 1730.4 | 896.0 | 71.7 | 167° | 9.3 x 14.4 | 6.2 | hip 4.2 | 2 | timber |
-| E-0811 | House of Wat the cooper | shop | 1738.9 | 894.9 | 71.7 | 167° | 6.9 x 12.9 | 6.2 | gable 3.8 | 2 | timber |
-| E-0812 | House of Geoffrey the fletcher | house | 1456.0 | 1041.6 | 71.7 | 188° | 8.8 x 14.1 | 9.3 | gable 4.8 | 3 | timber |
-| E-0813 | House of Hugh the hatter | shop | 1463.7 | 1042.8 | 71.7 | 187° | 6.2 x 13.6 | 12.4 | gable 3.4 | 4 | stone |
-| E-0814 | House of Avice the baker | shop | 1469.7 | 1044.8 | 71.7 | 186° | 5.8 x 11.1 | 12.4 | gable 3.2 | 4 | timber |
-| E-0815 | House of Thomas the furrier | shop | 1511.2 | 1046.4 | 71.7 | 177° | 9.0 x 11.3 | 9.3 | gable 5.0 | 3 | timber |
-| E-0816 | Workshop of Thomas the furrier | workshop | 1510.6 | 1036.1 | 71.7 | 177° | 8.5 x 5.5 | 6.0 | gable 3.0 | 1 | timber |
-| E-0817 | House of Ralph the cheesemonger | shop | 1519.0 | 1045.8 | 71.7 | 176° | 5.8 x 11.4 | 12.4 | hip 2.6 | 4 | timber |
-| E-0818 | Workshop of Ralph the cheesemonger | workshop | 1518.0 | 1032.8 | 71.7 | 176° | 5.1 x 7.6 | 3.0 | gable 2.8 | 1 | timber |
-| E-0819 | House of Wat the pewterer | shop | 1532.6 | 1043.9 | 71.7 | 175° | 9.1 x 12.9 | 9.3 | gable 5.0 | 3 | timber |
-| E-0820 | House of Juliana the baker | shop | 1541.6 | 1044.2 | 71.7 | 174° | 7.6 x 10.4 | 9.3 | hip 3.4 | 3 | timber |
-| E-0821 | House of Odo the cheesemonger | shop | 1571.0 | 1046.1 | 71.6 | 187° | 6.2 x 11.4 | 9.3 | gable 3.4 | 3 | stone |
-| E-0822 | House of Hugh the jeweller | shop | 1622.3 | 1050.5 | 71.7 | 179° | 8.8 x 9.9 | 6.2 | gable 4.9 | 2 | timber |
-| E-0823 | Workshop of Hugh the jeweller | workshop | 1622.1 | 1038.3 | 71.7 | 179° | 5.4 x 7.8 | 6.0 | gable 3.0 | 1 | timber |
-| E-0824 | House of Alan the ropemaker | shop | 1679.6 | 1034.9 | 71.7 | 186° | 9.2 x 11.2 | 9.3 | gable 5.1 | 3 | timber |
-| E-0825 | Workshop of Alan the ropemaker | workshop | 1680.8 | 1022.8 | 71.8 | 186° | 8.3 x 5.9 | 3.0 | gable 3.2 | 1 | timber |
-| E-0826 | House of Isabel the fuller | house | 1688.2 | 1036.6 | 71.7 | 186° | 7.5 x 9.6 | 6.2 | gable 4.1 | 2 | timber |
-| E-0827 | House of Osbert the bowyer | shop | 1702.7 | 1036.7 | 71.7 | 185° | 9.1 x 12.1 | 6.2 | gable 5.0 | 2 | timber |
-| E-0828 | House of Ralph the saddler | shop | 1732.0 | 1038.7 | 71.7 | 178° | 8.7 x 10.1 | 6.2 | hip 3.9 | 2 | timber |
-| E-0829 | House of Adam the ropemaker | shop | 1747.8 | 1036.4 | 71.7 | 174° | 8.2 x 12.3 | 9.3 | gable 4.5 | 3 | timber |
-| E-0830 | Workshop of Elena the baker | workshop | 1533.6 | 549.2 | 80.3 | 314° | 8.8 x 7.8 | 3.6 | gable 4.3 | 1 | timber |
-| E-0831 | Storehouse of Emma the ropemaker | storehouse | 1567.5 | 603.4 | 73.0 | 322° | 4.2 x 5.0 | 3.6 | gable 2.3 | 1 | timber |
-| E-0832 | Tenement of Matilda the butcher | tenement | 1526.3 | 610.5 | 73.6 | 46° | 4.2 x 4.8 | 3.0 | gable 2.3 | 1 | timber |
-| E-0833 | Stable of Laurence the scribe | stable | 1534.0 | 617.3 | 72.3 | 45° | 5.2 x 5.0 | 3.6 | gable 2.7 | 1 | timber |
-| E-0834 | Tenement of Amice the carpenter | tenement | 1587.3 | 628.8 | 72.0 | 49° | 4.1 x 4.6 | 6.0 | gable 2.2 | 2 | timber |
-| E-0835 | Workshop of Geoffrey the tailor | workshop | 1295.7 | 635.1 | 78.7 | 34° | 4.5 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-0836 | Stable of Sybil the jeweller | stable | 1306.4 | 637.9 | 77.4 | 29° | 8.8 x 6.9 | 3.6 | gable 3.8 | 1 | timber |
-| E-0837 | Tenement of Matilda the bowyer | tenement | 1320.5 | 637.4 | 78.3 | 305° | 6.4 x 6.7 | 3.0 | gable 3.5 | 1 | timber |
-| E-0838 | Stable of Geoffrey the scribe | stable | 1349.3 | 635.8 | 79.7 | 305° | 4.1 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| E-0839 | Tenement of Felice the barber-surgeon | tenement | 1364.4 | 634.6 | 79.6 | 40° | 8.7 x 7.1 | 3.0 | gable 3.9 | 1 | timber |
-| E-0840 | Workshop of Wat the tinker | workshop | 1501.7 | 637.5 | 71.7 | 49° | 6.8 x 8.4 | 3.6 | gable 3.7 | 1 | timber |
-| E-0841 | Tenement of Robin the dyer | tenement | 1381.2 | 645.2 | 78.4 | 40° | 4.7 x 5.0 | 9.0 | gable 2.6 | 3 | timber |
-| E-0842 | Workshop of Martin the mercer | workshop | 1457.8 | 646.4 | 73.4 | 317° | 7.3 x 8.6 | 3.6 | gable 4.0 | 1 | timber |
-| E-0843 | Workshop of Hawise the bellfounder | workshop | 1525.0 | 645.6 | 71.7 | 49° | 6.0 x 7.0 | 3.6 | gable 3.3 | 1 | timber |
-| E-0844 | Tenement of Osbert the bookbinder | tenement | 1568.2 | 645.3 | 71.7 | 321° | 4.2 x 4.1 | 6.0 | gable 2.2 | 2 | timber |
-| E-0845 | Stable of Emma the fuller | stable | 1593.2 | 645.2 | 71.7 | 325° | 4.2 x 5.0 | 3.6 | gable 2.3 | 1 | timber |
-| E-0846 | Tenement of Beatrice the cutler | tenement | 1313.1 | 651.4 | 74.2 | 35° | 8.5 x 7.1 | 6.0 | gable 3.9 | 2 | timber |
-| E-0847 | Stable of Richard the vintner | stable | 1508.7 | 655.0 | 71.7 | 52° | 4.2 x 5.4 | 3.6 | gable 2.3 | 1 | timber |
-| E-0848 | Workshop of Ivetta the fuller | workshop | 1533.9 | 661.8 | 71.7 | 325° | 5.0 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-0849 | Tenement of Beatrice the furrier | tenement | 1638.2 | 661.6 | 71.8 | 53° | 8.1 x 7.2 | 3.0 | gable 4.0 | 1 | timber |
-| E-0850 | Workshop of Piers the barber-surgeon | workshop | 1612.0 | 676.6 | 71.7 | 56° | 5.0 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| E-0851 | Storehouse of Richard the furrier | storehouse | 1289.2 | 688.6 | 71.7 | 308° | 7.9 x 6.1 | 3.6 | gable 3.3 | 1 | timber |
-| E-0852 | Workshop of Stephen the baker | workshop | 1609.8 | 688.2 | 71.6 | 325° | 6.4 x 8.7 | 3.6 | gable 3.5 | 1 | timber |
-| E-0853 | Stable of Beatrice the armourer | stable | 1619.1 | 687.0 | 71.7 | 329° | 4.4 x 5.2 | 3.6 | gable 2.4 | 1 | timber |
-| E-0854 | Stable of Walter the wheelwright | stable | 1626.9 | 685.9 | 71.7 | 328° | 5.0 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| E-0855 | Storehouse of Agnes the ropemaker | storehouse | 1339.2 | 697.0 | 71.7 | 312° | 5.5 x 5.2 | 3.6 | gable 2.8 | 1 | timber |
-| E-0856 | Stable of Jordan the glover | stable | 1398.2 | 697.2 | 71.7 | 44° | 7.9 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| E-0857 | Storehouse of Petronilla the vintner | storehouse | 1414.1 | 693.9 | 71.7 | 320° | 6.5 x 6.5 | 3.6 | gable 3.5 | 1 | timber |
-| E-0858 | Workshop of Gilbert the pewterer | workshop | 1627.7 | 694.7 | 71.7 | 56° | 4.5 x 4.8 | 3.6 | gable 2.5 | 1 | timber |
-| E-0859 | Storehouse of Baldwin the spicer | storehouse | 1405.9 | 705.1 | 71.7 | 43° | 7.8 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| E-0860 | Tenement of Maud the goldsmith | tenement | 1561.3 | 705.7 | 71.7 | 326° | 4.6 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| E-0861 | Tenement of Ralph the limner | tenement | 1612.4 | 703.8 | 71.7 | 325° | 6.9 x 7.2 | 6.0 | gable 3.8 | 2 | timber |
-| E-0862 | Workshop of Maud the pewterer | workshop | 1363.2 | 714.5 | 71.7 | 47° | 6.9 x 6.8 | 3.6 | gable 3.7 | 1 | timber |
-| E-0863 | Tenement of Jordan the bellfounder | tenement | 1483.1 | 712.3 | 71.7 | 55° | 4.8 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| E-0864 | Tenement of Gilbert the draper | tenement | 1262.7 | 719.9 | 71.7 | 306° | 7.8 x 7.0 | 6.0 | gable 3.9 | 2 | timber |
-| E-0865 | Stable of Juliana the scribe | stable | 1329.8 | 721.5 | 71.7 | 37° | 5.0 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-0866 | Workshop of Wat the vintner | workshop | 1466.3 | 719.0 | 71.7 | 319° | 7.1 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| E-0867 | Workshop of Alan the mason | workshop | 1493.3 | 722.0 | 71.7 | 325° | 4.6 x 4.8 | 3.6 | gable 2.5 | 1 | timber |
-| E-0868 | Workshop of Robin the pie-seller | workshop | 1245.7 | 728.0 | 71.7 | 302° | 7.0 x 7.8 | 3.6 | gable 3.9 | 1 | timber |
-| E-0869 | Stable of Robin the spicer | stable | 1270.2 | 730.4 | 71.7 | 308° | 7.0 x 8.6 | 3.6 | gable 3.9 | 1 | timber |
-| E-0870 | Stable of Thomas the cooper | stable | 1365.8 | 729.2 | 71.7 | 315° | 5.4 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-0871 | Tenement of Stephen the hatter | tenement | 1567.1 | 730.8 | 71.6 | 55° | 5.3 x 5.0 | 9.0 | gable 2.8 | 3 | timber |
-| E-0872 | Tenement of Baldwin the dyer | tenement | 1687.8 | 731.3 | 71.7 | 66° | 8.4 x 8.0 | 9.0 | gable 4.4 | 3 | timber |
-| E-0873 | Tenement of Robin the chandler | tenement | 1255.5 | 738.1 | 71.7 | 34° | 7.1 x 7.2 | 6.0 | gable 3.9 | 2 | timber |
-| E-0874 | Storehouse of Adam the draper | storehouse | 1516.6 | 738.5 | 71.7 | 330° | 4.6 x 4.7 | 3.6 | gable 2.5 | 1 | timber |
-| E-0875 | Storehouse of Margery the tanner | storehouse | 1635.7 | 736.7 | 71.7 | 330° | 8.9 x 7.8 | 3.6 | gable 4.3 | 1 | timber |
-| E-0876 | Storehouse of Thomas the bookbinder | storehouse | 1253.6 | 747.0 | 71.7 | 305° | 4.0 x 4.8 | 3.6 | gable 2.2 | 1 | timber |
-| E-0877 | Tenement of Geoffrey the saddler | tenement | 1261.9 | 747.9 | 71.7 | 306° | 5.2 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-| E-0878 | Stable of Hob the clockmaker | stable | 1510.2 | 745.4 | 71.7 | 330° | 4.9 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| E-0879 | Stable of Edith the cobbler | stable | 1643.8 | 745.7 | 71.7 | 58° | 8.6 x 7.3 | 3.6 | gable 4.0 | 1 | timber |
-| E-0880 | Tenement of Richard the ropemaker | tenement | 1655.4 | 747.1 | 71.7 | 336° | 5.4 x 4.5 | 9.0 | gable 2.5 | 3 | timber |
-| E-0881 | Tenement of Christiana the saddler | tenement | 1213.2 | 755.6 | 71.7 | 32° | 7.2 x 8.9 | 6.0 | gable 4.0 | 2 | timber |
-| E-0882 | Tenement of Simon the dyer | tenement | 1304.3 | 756.2 | 71.7 | 43° | 5.4 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| E-0883 | Workshop of Roger the herbalist | workshop | 1466.4 | 756.8 | 71.7 | 54° | 7.6 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| E-0884 | Workshop of Isabel the stonecarver | workshop | 1586.6 | 755.4 | 71.7 | 330° | 6.4 x 8.2 | 3.6 | gable 3.5 | 1 | timber |
-| E-0885 | Storehouse of Adam the glover | storehouse | 1645.6 | 755.9 | 71.7 | 329° | 4.7 x 5.2 | 3.6 | gable 2.6 | 1 | timber |
-| E-0886 | Tenement of Agnes the barber-surgeon | tenement | 1694.8 | 753.1 | 71.7 | 66° | 5.2 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| E-0887 | Storehouse of Isabel the locksmith | storehouse | 1228.7 | 764.5 | 71.7 | 306° | 8.7 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| E-0888 | Stable of Mabel the cooper | stable | 1610.3 | 764.0 | 71.7 | 331° | 8.6 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| E-0889 | Storehouse of Felice the weaver | storehouse | 1680.6 | 764.3 | 71.7 | 66° | 4.5 x 5.2 | 3.6 | gable 2.5 | 1 | timber |
-| E-0890 | Stable of Nicholas the vintner | stable | 1383.0 | 773.3 | 71.7 | 317° | 6.8 x 6.1 | 3.6 | gable 3.3 | 1 | timber |
-| E-0891 | Stable of Cecily the baker | stable | 1499.0 | 770.6 | 71.7 | 328° | 4.7 x 5.4 | 3.6 | gable 2.6 | 1 | timber |
-| E-0892 | Stable of Hawise the fuller | stable | 1713.1 | 772.0 | 71.8 | 68° | 8.3 x 8.0 | 3.6 | gable 4.4 | 1 | timber |
-| E-0893 | Stable of Gilbert the limner | stable | 1391.0 | 781.3 | 71.7 | 53° | 7.7 x 8.7 | 3.6 | gable 4.2 | 1 | timber |
-| E-0894 | Tenement of Henry the pie-seller | tenement | 1536.4 | 782.4 | 71.7 | 327° | 8.2 x 6.5 | 6.0 | gable 3.6 | 2 | timber |
-| E-0895 | Workshop of Gilbert the stonecarver | workshop | 1687.8 | 780.9 | 71.7 | 334° | 8.7 x 8.5 | 3.6 | gable 4.7 | 1 | timber |
-| E-0896 | Tenement of Richard the cheesemonger | tenement | 1720.8 | 781.2 | 72.0 | 64° | 6.1 x 7.2 | 6.0 | gable 3.4 | 2 | timber |
-| E-0897 | Tenement of Baldwin the cooper | tenement | 1543.0 | 790.3 | 71.7 | 63° | 7.6 x 6.5 | 3.0 | gable 3.6 | 1 | timber |
-| E-0898 | Tenement of Geoffrey the mercer | tenement | 1552.8 | 790.3 | 71.7 | 334° | 5.1 x 5.0 | 3.0 | gable 2.8 | 1 | timber |
-| E-0899 | Storehouse of Ralph the tailor | storehouse | 1602.4 | 790.5 | 71.7 | 63° | 7.4 x 6.1 | 3.6 | gable 3.4 | 1 | timber |
-| E-0900 | Workshop of Amice the pie-seller | workshop | 1721.8 | 790.8 | 71.8 | 67° | 6.7 x 7.0 | 3.6 | gable 3.7 | 1 | timber |
-| E-0901 | Tenement of Joan the armourer | tenement | 1730.1 | 788.5 | 72.4 | 70° | 5.1 x 4.4 | 9.0 | gable 2.4 | 3 | timber |
-| E-0902 | Workshop of Martin the bowyer | workshop | 1340.6 | 796.6 | 71.7 | 46° | 4.8 x 5.2 | 3.6 | gable 2.7 | 1 | timber |
-| E-0903 | Tenement of Stephen the glazier | tenement | 1448.6 | 798.3 | 71.7 | 56° | 4.5 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| E-0904 | Stable of Matilda the bowyer | stable | 1610.8 | 796.2 | 71.7 | 64° | 5.3 x 5.3 | 3.6 | gable 2.9 | 1 | timber |
-| E-0905 | Workshop of Matilda the potter | workshop | 1731.0 | 797.0 | 72.2 | 342° | 5.3 x 5.4 | 3.6 | gable 2.9 | 1 | timber |
-| E-0906 | Stable of Henry the spicer | stable | 1341.0 | 807.7 | 71.7 | 49° | 5.1 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| E-0907 | Storehouse of Felice the clockmaker | storehouse | 1357.5 | 806.6 | 71.7 | 324° | 6.2 x 6.4 | 3.6 | gable 3.4 | 1 | timber |
-| E-0908 | Workshop of Ralph the tinker | workshop | 1611.2 | 806.8 | 71.7 | 62° | 4.2 x 5.0 | 3.6 | gable 2.3 | 1 | timber |
-| E-0909 | Workshop of Gilbert the stonecarver | workshop | 1638.1 | 806.1 | 71.7 | 335° | 5.4 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-0910 | Storehouse of Laurence the weaver | storehouse | 1677.3 | 807.1 | 71.7 | 71° | 6.0 x 7.2 | 3.6 | gable 3.3 | 1 | timber |
-| E-0911 | Stable of Robin the tailor | stable | 1686.9 | 805.6 | 71.7 | 68° | 4.9 x 5.0 | 3.6 | gable 2.7 | 1 | timber |
-| E-0912 | Stable of Avice the jeweller | stable | 1696.0 | 807.5 | 71.7 | 341° | 5.3 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-0913 | Storehouse of Roger the cobbler | storehouse | 1270.2 | 813.5 | 71.7 | 314° | 5.2 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| E-0914 | Tenement of Alan the furrier | tenement | 1415.6 | 815.7 | 71.7 | 326° | 5.2 x 4.9 | 9.0 | gable 2.7 | 3 | timber |
-| E-0915 | Tenement of Gilbert the cobbler | tenement | 1468.1 | 816.0 | 71.7 | 58° | 7.1 x 7.9 | 6.0 | gable 3.9 | 2 | timber |
-| E-0916 | Tenement of Thomas the ropemaker | tenement | 1501.2 | 812.5 | 71.6 | 58° | 7.2 x 6.7 | 6.0 | gable 3.7 | 2 | timber |
-| E-0917 | Stable of Martin the apothecary | stable | 1671.1 | 815.8 | 71.7 | 68° | 5.4 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| E-0918 | Tenement of Robin the fletcher | tenement | 1702.8 | 815.4 | 71.7 | 72° | 8.4 x 7.1 | 9.0 | gable 3.9 | 3 | timber |
-| E-0919 | Workshop of Joan the pie-seller | workshop | 1738.9 | 813.1 | 72.4 | 71° | 4.0 x 5.0 | 3.6 | gable 2.2 | 1 | timber |
-| E-0920 | Workshop of Ivetta the barber-surgeon | workshop | 1312.1 | 822.0 | 71.7 | 52° | 7.0 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| E-0921 | Workshop of Geoffrey the money-changer | workshop | 1396.8 | 822.6 | 71.7 | 326° | 4.8 x 5.1 | 3.6 | gable 2.6 | 1 | timber |
-| E-0922 | Tenement of Henry the bellfounder | tenement | 1459.7 | 824.5 | 71.7 | 61° | 4.1 x 5.3 | 6.0 | gable 2.3 | 2 | timber |
-| E-0923 | Storehouse of Geoffrey the herbalist | storehouse | 1583.7 | 822.5 | 71.7 | 66° | 4.1 x 5.3 | 3.6 | gable 2.3 | 1 | timber |
-| E-0924 | Stable of Ivetta the cutler | stable | 1600.8 | 824.9 | 71.7 | 71° | 4.5 x 5.2 | 3.6 | gable 2.5 | 1 | timber |
-| E-0925 | Workshop of Ivetta the cheesemonger | workshop | 1679.0 | 824.5 | 71.7 | 340° | 7.9 x 7.6 | 3.6 | gable 4.2 | 1 | timber |
-| E-0926 | Storehouse of Odo the potter | storehouse | 1688.1 | 823.2 | 71.7 | 336° | 4.4 x 4.7 | 3.6 | gable 2.4 | 1 | timber |
-| E-0927 | Workshop of Margery the furrier | workshop | 1314.2 | 833.1 | 71.7 | 54° | 7.5 x 7.2 | 3.6 | gable 4.0 | 1 | timber |
-| E-0928 | Tenement of Beatrice the parchmenter | tenement | 1390.4 | 830.3 | 71.7 | 325° | 4.7 x 4.7 | 6.0 | gable 2.6 | 2 | timber |
-| E-0929 | Storehouse of Isabel the mercer | storehouse | 1577.3 | 832.0 | 71.7 | 68° | 6.2 x 8.6 | 3.6 | gable 3.4 | 1 | timber |
-| E-0930 | Storehouse of Martin the pewterer | storehouse | 1594.6 | 831.9 | 71.7 | 70° | 4.4 x 5.2 | 3.6 | gable 2.4 | 1 | timber |
-| E-0931 | Tenement of Nicholas the clockmaker | tenement | 1320.1 | 841.2 | 71.7 | 51° | 4.8 x 4.3 | 9.0 | gable 2.4 | 3 | timber |
-| E-0932 | Tenement of Maud the candlemaker | tenement | 1441.1 | 839.7 | 71.7 | 62° | 5.4 x 4.9 | 9.0 | gable 2.7 | 3 | timber |
-| E-0933 | Storehouse of Joan the fishmonger | storehouse | 1457.2 | 838.5 | 71.7 | 63° | 7.0 x 7.0 | 3.6 | gable 3.8 | 1 | timber |
-| E-0934 | Storehouse of Margery the glover | storehouse | 1467.8 | 838.5 | 71.7 | 335° | 4.0 x 4.3 | 3.6 | gable 2.2 | 1 | timber |
-| E-0935 | Tenement of Amice the chandler | tenement | 1578.8 | 841.6 | 71.7 | 66° | 4.1 x 4.3 | 3.0 | gable 2.2 | 1 | timber |
-| E-0936 | Stable of Ivetta the cooper | stable | 1629.5 | 838.4 | 71.7 | 69° | 7.5 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| E-0937 | Tenement of Geoffrey the cobbler | tenement | 1315.0 | 846.5 | 71.7 | 321° | 4.2 x 5.4 | 6.0 | gable 2.3 | 2 | timber |
-| E-0938 | Tenement of Amice the lute-maker | tenement | 1408.1 | 849.7 | 71.7 | 330° | 5.4 x 4.9 | 6.0 | gable 2.7 | 2 | timber |
-| E-0939 | Tenement of Adam the bookbinder | tenement | 1566.9 | 849.1 | 71.7 | 337° | 4.1 x 4.3 | 6.0 | gable 2.3 | 2 | timber |
-| E-0940 | Workshop of Alys the armourer | workshop | 1584.2 | 847.8 | 71.7 | 340° | 4.7 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| E-0941 | Tenement of Laurence the draper | tenement | 1595.7 | 850.0 | 71.7 | 70° | 5.3 x 5.2 | 9.0 | gable 2.9 | 3 | timber |
-| E-0942 | Tenement of Joan the fletcher | tenement | 1603.3 | 846.9 | 71.7 | 66° | 4.6 x 5.1 | 9.0 | gable 2.5 | 3 | timber |
-| E-0943 | Storehouse of Wat the mercer | storehouse | 1397.2 | 855.3 | 71.7 | 328° | 4.8 x 5.2 | 3.6 | gable 2.7 | 1 | timber |
-| E-0944 | Workshop of Ivetta the money-changer | workshop | 1424.5 | 858.5 | 71.7 | 330° | 4.2 x 5.4 | 3.6 | gable 2.3 | 1 | timber |
-| E-0945 | Tenement of Odo the vintner | tenement | 1475.0 | 856.1 | 71.7 | 332° | 4.6 x 5.2 | 6.0 | gable 2.5 | 2 | timber |
-| E-0946 | Workshop of Mabel the lute-maker | workshop | 1551.5 | 856.7 | 71.7 | 70° | 4.7 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-0947 | Tenement of Elena the bowyer | tenement | 1575.5 | 856.9 | 71.7 | 72° | 4.2 x 4.0 | 6.0 | gable 2.2 | 2 | timber |
-| E-0948 | Workshop of Beatrice the cheesemonger | workshop | 1536.3 | 865.4 | 71.7 | 66° | 4.8 x 5.0 | 3.6 | gable 2.6 | 1 | timber |
-| E-0949 | Storehouse of Nicholas the butcher | storehouse | 1689.4 | 866.8 | 71.7 | 75° | 4.1 x 5.4 | 3.6 | gable 2.3 | 1 | timber |
-| E-0950 | Storehouse of Laurence the weaver | storehouse | 1698.0 | 865.9 | 71.7 | 75° | 4.1 x 5.5 | 3.6 | gable 2.2 | 1 | timber |
-| E-0951 | Storehouse of Elena the cooper | storehouse | 1714.1 | 866.8 | 71.7 | 75° | 6.8 x 7.1 | 3.6 | gable 3.8 | 1 | timber |
-| E-0952 | Tenement of Gilbert the brewer | tenement | 1262.3 | 873.3 | 71.7 | 49° | 7.0 x 7.0 | 6.0 | gable 3.8 | 2 | timber |
-| E-0953 | Stable of Avice the mason | stable | 1287.1 | 874.9 | 71.7 | 321° | 8.6 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| E-0954 | Storehouse of Edith the glazier | storehouse | 1439.6 | 873.1 | 71.7 | 64° | 4.4 x 5.0 | 3.6 | gable 2.4 | 1 | timber |
-| E-0955 | Stable of Laurence the armourer | stable | 1527.7 | 874.4 | 71.7 | 338° | 5.2 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| E-0956 | Tenement of Nicholas the armourer | tenement | 1696.9 | 874.6 | 71.7 | 342° | 4.6 x 5.4 | 3.0 | gable 2.5 | 1 | timber |
-| E-0957 | Tenement of Rose the draper | tenement | 1269.2 | 883.3 | 71.7 | 49° | 6.1 x 6.5 | 3.0 | gable 3.4 | 1 | timber |
-| E-0958 | Tenement of Godwin the ropemaker | tenement | 1354.4 | 884.4 | 71.7 | 330° | 7.0 x 7.7 | 9.0 | gable 3.9 | 3 | timber |
-| E-0959 | Workshop of Nicholas the pewterer | workshop | 1473.1 | 881.1 | 71.7 | 69° | 4.7 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-0960 | Storehouse of Edith the goldsmith | storehouse | 1509.2 | 881.9 | 71.7 | 69° | 4.9 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| E-0961 | Stable of Elena the locksmith | stable | 1542.5 | 884.1 | 71.7 | 71° | 4.6 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| E-0962 | Tenement of Rose the apothecary | tenement | 1645.5 | 882.9 | 71.7 | 72° | 4.2 x 4.9 | 6.0 | gable 2.3 | 2 | timber |
-| E-0963 | Tenement of Stephen the locksmith | tenement | 1702.9 | 880.9 | 71.7 | 347° | 4.2 x 4.4 | 9.0 | gable 2.3 | 3 | timber |
-| E-0964 | Tenement of Amice the vintner | tenement | 1764.8 | 884.4 | 72.0 | 79° | 8.2 x 7.9 | 6.0 | gable 4.3 | 2 | timber |
-| E-0965 | Tenement of Godwin the tanner | tenement | 1264.2 | 892.2 | 71.7 | 57° | 5.5 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| E-0966 | Stable of Avice the vintner | stable | 1278.6 | 891.0 | 71.7 | 329° | 7.0 x 7.1 | 3.6 | gable 3.8 | 1 | timber |
-| E-0967 | Tenement of Baldwin the goldsmith | tenement | 1337.3 | 891.5 | 71.7 | 61° | 4.0 x 4.2 | 3.0 | gable 2.2 | 1 | timber |
-| E-0968 | Stable of Isabel the butcher | stable | 1347.4 | 891.4 | 71.7 | 332° | 4.9 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| E-0969 | Workshop of Beatrice the candlemaker | workshop | 1365.1 | 891.6 | 71.7 | 59° | 9.0 x 7.5 | 3.6 | gable 4.1 | 1 | timber |
-| E-0970 | Tenement of Richard the clockmaker | tenement | 1602.9 | 891.2 | 71.7 | 343° | 7.3 x 8.2 | 6.0 | gable 4.0 | 2 | timber |
-| E-0971 | Workshop of Margery the mercer | workshop | 1655.2 | 892.0 | 71.7 | 344° | 6.2 x 8.5 | 3.6 | gable 3.4 | 1 | timber |
-| E-0972 | Storehouse of Matilda the brewer | storehouse | 1746.0 | 890.2 | 71.7 | 350° | 4.8 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| E-0973 | Workshop of Margery the dyer | workshop | 1286.3 | 901.4 | 71.7 | 331° | 6.5 x 7.0 | 3.6 | gable 3.5 | 1 | timber |
-| E-0974 | Tenement of Hawise the clockmaker | tenement | 1338.8 | 898.4 | 71.7 | 331° | 5.3 x 4.1 | 3.0 | gable 2.2 | 1 | timber |
-| E-0975 | Stable of Felice the mercer | stable | 1354.2 | 897.6 | 71.7 | 60° | 6.9 x 8.2 | 3.6 | gable 3.8 | 1 | timber |
-| E-0976 | Tenement of Jordan the money-changer | tenement | 1424.2 | 899.7 | 71.7 | 336° | 6.9 x 6.8 | 6.0 | gable 3.7 | 2 | timber |
-| E-0977 | Tenement of Hugh the spicer | tenement | 1451.5 | 898.0 | 71.7 | 342° | 4.1 x 5.0 | 9.0 | gable 2.3 | 3 | timber |
-| E-0978 | Tenement of Laurence the glover | tenement | 1593.9 | 900.0 | 71.6 | 73° | 8.5 x 6.7 | 6.0 | gable 3.7 | 2 | timber |
-| E-0979 | Storehouse of Geoffrey the bellfounder | storehouse | 1612.8 | 901.5 | 71.7 | 344° | 5.4 x 5.3 | 3.6 | gable 2.9 | 1 | timber |
-| E-0980 | Stable of Stephen the candlemaker | stable | 1662.7 | 900.5 | 71.7 | 348° | 5.2 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-0981 | Workshop of Edith the spicer | workshop | 1345.6 | 909.2 | 71.7 | 63° | 6.2 x 7.6 | 3.6 | gable 3.4 | 1 | timber |
-| E-0982 | Stable of Agnes the candlemaker | stable | 1355.7 | 908.4 | 71.7 | 65° | 4.9 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-0983 | Tenement of Alan the notary | tenement | 1382.2 | 908.5 | 71.8 | 62° | 4.6 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| E-0984 | Tenement of Gilbert the candlemaker | tenement | 1482.0 | 906.1 | 71.6 | 72° | 5.3 x 4.8 | 6.0 | gable 2.6 | 2 | timber |
-| E-0985 | Tenement of Piers the locksmith | tenement | 1600.5 | 909.6 | 71.7 | 73° | 7.5 x 8.9 | 6.0 | gable 4.1 | 2 | timber |
-| E-0986 | Tenement of Maud the bellfounder | tenement | 1754.8 | 909.0 | 71.7 | 345° | 4.9 x 4.8 | 6.0 | gable 2.6 | 2 | timber |
-| E-0987 | Stable of Beatrice the clockmaker | stable | 1304.3 | 915.7 | 71.7 | 334° | 7.5 x 7.7 | 3.6 | gable 4.2 | 1 | timber |
-| E-0988 | Storehouse of Emma the bowyer | storehouse | 1347.4 | 918.4 | 71.7 | 333° | 7.0 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| E-0989 | Workshop of Avice the hatter | workshop | 1366.2 | 915.2 | 71.7 | 69° | 6.8 x 6.8 | 3.6 | gable 3.7 | 1 | timber |
-| E-0990 | Stable of Osbert the bellfounder | stable | 1382.1 | 917.3 | 71.7 | 334° | 5.4 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| E-0991 | Tenement of Matilda the baker | tenement | 1611.8 | 914.8 | 71.6 | 77° | 4.7 x 4.2 | 3.0 | gable 2.3 | 1 | timber |
-| E-0992 | Tenement of Joan the barber-surgeon | tenement | 1729.0 | 918.2 | 71.7 | 75° | 6.3 x 6.7 | 3.0 | gable 3.5 | 1 | timber |
-| E-0993 | Tenement of Thomas the furrier | tenement | 1738.2 | 917.6 | 71.7 | 74° | 5.5 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| E-0994 | Tenement of Hob the clockmaker | tenement | 1746.6 | 915.6 | 71.7 | 345° | 7.0 x 8.2 | 3.0 | gable 3.8 | 1 | timber |
-| E-0995 | Stable of Felice the cutler | stable | 1381.8 | 926.8 | 71.7 | 335° | 5.0 x 5.1 | 3.6 | gable 2.8 | 1 | timber |
-| E-0996 | Workshop of Christiana the lute-maker | workshop | 1491.0 | 925.5 | 71.7 | 69° | 7.6 x 7.0 | 3.6 | gable 3.9 | 1 | timber |
-| E-0997 | Tenement of Walter the draper | tenement | 1500.7 | 925.8 | 71.7 | 72° | 4.7 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| E-0998 | Tenement of Martin the mercer | tenement | 1509.2 | 925.1 | 71.7 | 341° | 4.1 x 4.7 | 6.0 | gable 2.3 | 2 | timber |
-| E-0999 | Tenement of Joan the pewterer | tenement | 1712.7 | 926.9 | 71.7 | 348° | 6.8 x 6.8 | 9.0 | gable 3.7 | 3 | timber |
-| E-1000 | Storehouse of Laurence the candlemaker | storehouse | 1740.5 | 926.6 | 71.7 | 350° | 5.3 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| E-1001 | Tenement of Ida the fuller | tenement | 1465.8 | 932.9 | 71.6 | 347° | 4.6 x 5.2 | 6.0 | gable 2.5 | 2 | timber |
-| E-1002 | Tenement of Joan the bookbinder | tenement | 1493.4 | 935.0 | 71.7 | 75° | 4.8 x 4.6 | 9.0 | gable 2.5 | 3 | timber |
-| E-1003 | Stable of Rose the vintner | stable | 1507.1 | 934.1 | 71.7 | 76° | 5.4 x 5.3 | 3.6 | gable 2.9 | 1 | timber |
-| E-1004 | Storehouse of Hugh the scribe | storehouse | 1518.6 | 933.0 | 71.7 | 75° | 4.5 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| E-1005 | Tenement of Walter the baker | tenement | 1723.4 | 934.6 | 71.7 | 82° | 5.5 x 5.0 | 6.0 | gable 2.7 | 2 | timber |
-| E-1006 | Tenement of Amice the fletcher | tenement | 1736.7 | 935.2 | 71.7 | 77° | 4.8 x 5.1 | 6.0 | gable 2.6 | 2 | timber |
-| E-1007 | Workshop of Odo the parchmenter | workshop | 1262.2 | 943.4 | 71.7 | 331° | 7.5 x 9.0 | 3.6 | gable 4.1 | 1 | timber |
-| E-1008 | Stable of Odo the scribe | stable | 1381.8 | 940.0 | 71.8 | 73° | 8.0 x 8.8 | 3.6 | gable 4.4 | 1 | timber |
-| E-1009 | Stable of Walter the tinker | stable | 1456.2 | 942.3 | 71.7 | 341° | 6.3 x 7.5 | 3.6 | gable 3.5 | 1 | timber |
-| E-1010 | Storehouse of Richard the glover | storehouse | 1509.8 | 942.5 | 71.7 | 72° | 4.1 x 5.2 | 3.6 | gable 2.3 | 1 | timber |
-| E-1011 | Workshop of Nicholas the mercer | workshop | 1569.2 | 942.2 | 71.7 | 348° | 8.8 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| E-1012 | Tenement of Hawise the pewterer | tenement | 1662.8 | 941.1 | 71.7 | 82° | 8.6 x 7.6 | 6.0 | gable 4.2 | 2 | timber |
-| E-1013 | Tenement of Godwin the bellfounder | tenement | 1687.0 | 943.6 | 71.7 | 346° | 7.4 x 6.5 | 6.0 | gable 3.6 | 2 | timber |
-| E-1014 | Tenement of Nicholas the fishmonger | tenement | 1714.2 | 941.5 | 71.7 | 352° | 6.8 x 7.8 | 6.0 | gable 3.7 | 2 | timber |
-| E-1015 | Workshop of Petronilla the bowyer | workshop | 1729.3 | 941.9 | 71.7 | 78° | 4.9 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| E-1016 | Tenement of Stephen the wheelwright | tenement | 1736.8 | 942.4 | 71.7 | 351° | 4.6 x 4.0 | 6.0 | gable 2.2 | 2 | timber |
-| E-1017 | Storehouse of Jordan the apothecary | storehouse | 1270.0 | 950.8 | 71.7 | 331° | 6.0 x 6.6 | 3.6 | gable 3.3 | 1 | timber |
-| E-1018 | Storehouse of Hugh the chandler | storehouse | 1519.0 | 950.7 | 71.7 | 76° | 4.1 x 5.2 | 3.6 | gable 2.2 | 1 | timber |
-| E-1019 | Storehouse of Henry the brewer | storehouse | 1644.1 | 949.4 | 71.7 | 352° | 4.0 x 4.7 | 3.6 | gable 2.2 | 1 | timber |
-| E-1020 | Stable of Petronilla the tanner | stable | 1739.2 | 951.0 | 71.7 | 80° | 8.4 x 7.4 | 3.6 | gable 4.1 | 1 | timber |
-| E-1021 | Tenement of Rose the weaver | tenement | 1261.7 | 957.0 | 71.7 | 333° | 6.0 x 7.0 | 9.0 | gable 3.3 | 3 | timber |
-| E-1022 | Stable of Ralph the glover | stable | 1279.4 | 957.9 | 71.7 | 334° | 6.6 x 7.8 | 3.6 | gable 3.6 | 1 | timber |
-| E-1023 | Storehouse of Piers the fuller | storehouse | 1481.7 | 958.5 | 71.7 | 347° | 6.9 x 8.3 | 3.6 | gable 3.8 | 1 | timber |
-| E-1024 | Workshop of Laurence the cobbler | workshop | 1561.2 | 959.6 | 71.6 | 352° | 4.1 x 4.8 | 3.6 | gable 2.3 | 1 | timber |
-| E-1025 | Tenement of Isabel the mercer | tenement | 1578.1 | 959.0 | 71.7 | 348° | 5.5 x 4.9 | 9.0 | gable 2.7 | 3 | timber |
-| E-1026 | Tenement of Osbert the limner | tenement | 1261.5 | 968.7 | 71.7 | 65° | 8.5 x 8.2 | 3.0 | gable 4.5 | 1 | timber |
-| E-1027 | Workshop of Wat the mercer | workshop | 1278.2 | 969.0 | 71.7 | 66° | 4.1 x 4.7 | 3.6 | gable 2.3 | 1 | timber |
-| E-1028 | Workshop of Elena the pie-seller | workshop | 1371.2 | 967.7 | 71.7 | 346° | 4.1 x 5.3 | 3.6 | gable 2.3 | 1 | timber |
-| E-1029 | Stable of Godwin the lute-maker | stable | 1568.3 | 966.2 | 71.7 | 350° | 4.6 x 4.9 | 3.6 | gable 2.5 | 1 | timber |
-| E-1030 | Storehouse of Mabel the stonecarver | storehouse | 1619.8 | 966.6 | 71.7 | 82° | 4.6 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| E-1031 | Stable of Godwin the cheesemonger | stable | 1627.5 | 966.9 | 71.7 | 347° | 4.8 x 5.4 | 3.6 | gable 2.6 | 1 | timber |
-| E-1032 | Tenement of Elena the pewterer | tenement | 1278.5 | 977.1 | 71.6 | 337° | 4.6 x 4.8 | 3.0 | gable 2.5 | 1 | timber |
-| E-1033 | Stable of Sybil the bowyer | stable | 1286.3 | 975.2 | 71.7 | 72° | 4.3 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-1034 | Tenement of Walter the pewterer | tenement | 1391.8 | 977.2 | 71.7 | 343° | 6.6 x 7.4 | 6.0 | gable 3.6 | 2 | timber |
-| E-1035 | Stable of Adam the ropemaker | stable | 1414.3 | 974.9 | 71.7 | 76° | 6.3 x 8.3 | 3.6 | gable 3.5 | 1 | timber |
-| E-1036 | Stable of Walter the cheesemonger | stable | 1482.5 | 977.8 | 71.7 | 346° | 5.0 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| E-1037 | Storehouse of Adam the dyer | storehouse | 1559.1 | 975.5 | 71.7 | 354° | 7.0 x 6.5 | 3.6 | gable 3.5 | 1 | timber |
-| E-1038 | Tenement of Christiana the wheelwright | tenement | 1575.0 | 974.1 | 71.7 | 82° | 4.3 x 5.1 | 6.0 | gable 2.4 | 2 | timber |
-| E-1039 | Tenement of Simon the herbalist | tenement | 1254.5 | 985.6 | 71.7 | 70° | 7.7 x 6.8 | 6.0 | gable 3.7 | 2 | timber |
-| E-1040 | Stable of Alan the brewer | stable | 1269.7 | 986.4 | 71.7 | 343° | 6.3 x 6.0 | 3.6 | gable 3.3 | 1 | timber |
-| E-1041 | Tenement of Simon the bowyer | tenement | 1322.8 | 986.3 | 71.7 | 75° | 8.5 x 6.8 | 6.0 | gable 3.8 | 2 | timber |
-| E-1042 | Storehouse of Henry the bellfounder | storehouse | 1415.7 | 983.7 | 71.7 | 74° | 5.3 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-1043 | Tenement of Osbert the butcher | tenement | 1465.2 | 982.9 | 71.6 | 349° | 4.2 x 5.2 | 3.0 | gable 2.3 | 1 | timber |
-| E-1044 | Workshop of Juliana the brewer | workshop | 1475.0 | 984.5 | 71.7 | 78° | 8.8 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| E-1045 | Tenement of Osbert the hatter | tenement | 1508.1 | 984.5 | 71.7 | 353° | 7.7 x 6.4 | 3.0 | gable 3.5 | 1 | timber |
-| E-1046 | Storehouse of Mabel the cheesemonger | storehouse | 1526.1 | 983.5 | 71.7 | 84° | 5.0 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| E-1047 | Workshop of Margery the jeweller | workshop | 1754.0 | 984.7 | 71.7 | 84° | 7.0 x 8.4 | 3.6 | gable 3.9 | 1 | timber |
-| E-1048 | Stable of Alan the armourer | stable | 1262.9 | 993.7 | 71.7 | 76° | 4.6 x 4.9 | 3.6 | gable 2.5 | 1 | timber |
-| E-1049 | Stable of Odo the limner | stable | 1296.7 | 993.0 | 71.7 | 76° | 6.2 x 7.7 | 3.6 | gable 3.4 | 1 | timber |
-| E-1050 | Stable of Robin the tanner | stable | 1312.1 | 994.3 | 71.7 | 72° | 7.4 x 8.6 | 3.6 | gable 4.1 | 1 | timber |
-| E-1051 | Tenement of Robin the hatter | tenement | 1397.4 | 991.1 | 71.7 | 351° | 6.7 x 7.3 | 3.0 | gable 3.7 | 1 | timber |
-| E-1052 | Tenement of Isabel the apothecary | tenement | 1406.7 | 994.5 | 71.7 | 80° | 4.7 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| E-1053 | Storehouse of Ida the pie-seller | storehouse | 1423.8 | 993.1 | 71.6 | 83° | 6.9 x 7.0 | 3.6 | gable 3.8 | 1 | timber |
-| E-1054 | Tenement of Alys the limner | tenement | 1458.2 | 991.5 | 71.7 | 347° | 6.9 x 6.5 | 6.0 | gable 3.6 | 2 | timber |
-| E-1055 | Storehouse of Alan the locksmith | storehouse | 1475.3 | 994.3 | 71.7 | 348° | 4.8 x 4.9 | 3.6 | gable 2.6 | 1 | timber |
-| E-1056 | Tenement of Martin the tanner | tenement | 1584.7 | 993.0 | 71.7 | 355° | 5.1 x 5.1 | 6.0 | gable 2.8 | 2 | timber |
-| E-1057 | Stable of Henry the furrier | stable | 1669.2 | 993.2 | 71.7 | 355° | 5.1 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| E-1058 | Tenement of Juliana the candlemaker | tenement | 1755.8 | 994.7 | 71.7 | 88° | 6.1 x 8.7 | 6.0 | gable 3.4 | 2 | timber |
-| E-1059 | Storehouse of Agnes the fletcher | storehouse | 1780.6 | 994.3 | 71.7 | 85° | 4.1 x 4.8 | 3.6 | gable 2.2 | 1 | timber |
-| E-1060 | Storehouse of Martin the dyer | storehouse | 1243.7 | 1003.1 | 71.7 | 342° | 7.3 x 6.1 | 3.6 | gable 3.3 | 1 | timber |
-| E-1061 | Tenement of Christiana the carpenter | tenement | 1252.8 | 1003.0 | 71.7 | 74° | 5.1 x 4.2 | 6.0 | gable 2.3 | 2 | timber |
-| E-1062 | Storehouse of Ralph the herbalist | storehouse | 1262.5 | 1002.2 | 71.7 | 340° | 5.2 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| E-1063 | Workshop of Cecily the candlemaker | workshop | 1271.8 | 1001.3 | 71.7 | 344° | 7.4 x 8.1 | 3.6 | gable 4.1 | 1 | timber |
-| E-1064 | Workshop of Roger the candlemaker | workshop | 1286.7 | 1001.3 | 71.7 | 78° | 8.2 x 7.0 | 3.6 | gable 3.8 | 1 | timber |
-| E-1065 | Tenement of Hawise the tanner | tenement | 1398.5 | 1001.7 | 71.7 | 80° | 6.4 x 7.6 | 9.0 | gable 3.5 | 3 | timber |
-| E-1066 | Storehouse of Maud the locksmith | storehouse | 1408.6 | 1002.0 | 71.7 | 83° | 5.0 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-1067 | Workshop of Isabel the wheelwright | workshop | 1448.4 | 1000.8 | 71.6 | 347° | 8.6 x 7.2 | 3.6 | gable 3.9 | 1 | timber |
-| E-1068 | Stable of Walter the mercer | stable | 1458.9 | 1001.0 | 71.7 | 349° | 4.2 x 4.6 | 3.6 | gable 2.3 | 1 | timber |
-| E-1069 | Tenement of Joan the fishmonger | tenement | 1468.4 | 1003.3 | 71.7 | 348° | 5.0 x 5.4 | 6.0 | gable 2.8 | 2 | timber |
-| E-1070 | Tenement of Walter the dyer | tenement | 1261.3 | 1011.9 | 71.7 | 348° | 8.8 x 7.5 | 3.0 | gable 4.1 | 1 | timber |
-| E-1071 | Stable of Amice the chandler | stable | 1620.7 | 1011.9 | 71.7 | 88° | 6.0 x 6.7 | 3.6 | gable 3.3 | 1 | timber |
-| E-1072 | Storehouse of Ida the candlemaker | storehouse | 1669.4 | 1010.3 | 71.8 | 81° | 4.2 x 4.5 | 3.6 | gable 2.3 | 1 | timber |
-| E-1073 | Stable of Joan the locksmith | stable | 1235.3 | 1016.6 | 71.7 | 345° | 5.0 x 5.4 | 3.6 | gable 2.8 | 1 | timber |
-| E-1074 | Stable of Maud the cutler | stable | 1272.7 | 1017.7 | 71.7 | 345° | 5.0 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| E-1075 | Storehouse of Ida the scribe | storehouse | 1289.8 | 1019.5 | 71.7 | 348° | 7.1 x 7.1 | 3.6 | gable 3.9 | 1 | timber |
-| E-1076 | Tenement of Felice the barber-surgeon | tenement | 1561.7 | 1018.3 | 71.7 | 84° | 7.4 x 6.4 | 6.0 | gable 3.5 | 2 | timber |
-| E-1077 | Tenement of Sybil the scribe | tenement | 1577.5 | 1018.2 | 71.7 | 356° | 6.9 x 6.2 | 6.0 | gable 3.4 | 2 | timber |
-| E-1078 | Stable of Geoffrey the bowyer | stable | 1620.9 | 1019.9 | 71.7 | 88° | 4.3 x 4.6 | 3.6 | gable 2.4 | 1 | timber |
-| E-1079 | Tenement of Hawise the locksmith | tenement | 1230.4 | 1027.2 | 71.7 | 348° | 4.6 x 4.9 | 3.0 | gable 2.5 | 1 | timber |
-| E-1080 | Tenement of Sybil the herbalist | tenement | 1252.6 | 1025.2 | 71.7 | 347° | 8.7 x 7.1 | 6.0 | gable 3.9 | 2 | timber |
-| E-1081 | Stable of Petronilla the spicer | stable | 1262.5 | 1027.9 | 71.7 | 353° | 4.2 x 4.7 | 3.6 | gable 2.3 | 1 | timber |
-| E-1082 | Stable of Henry the cheesemonger | stable | 1279.0 | 1028.3 | 71.7 | 82° | 8.1 x 7.3 | 3.6 | gable 4.0 | 1 | timber |
-| E-1083 | Workshop of Amice the bookbinder | workshop | 1567.7 | 1028.0 | 71.7 | 84° | 7.0 x 8.6 | 3.6 | gable 3.8 | 1 | timber |
-| E-1084 | Tenement of Matilda the locksmith | tenement | 1586.5 | 1027.1 | 71.7 | 355° | 6.8 x 6.4 | 6.0 | gable 3.5 | 2 | timber |
-| E-1085 | Workshop of Matilda the pewterer | workshop | 1626.7 | 1027.0 | 71.7 | 89° | 5.3 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| E-1086 | Tenement of Hawise the draper | tenement | 1244.2 | 1035.2 | 71.7 | 349° | 4.1 x 5.2 | 6.0 | gable 2.3 | 2 | timber |
-| E-1087 | Stable of Richard the hatter | stable | 1254.4 | 1037.5 | 71.7 | 84° | 7.0 x 8.3 | 3.6 | gable 3.9 | 1 | timber |
-| E-1088 | Tenement of Amice the dyer | tenement | 1263.5 | 1037.1 | 71.7 | 356° | 4.4 x 4.8 | 9.0 | gable 2.4 | 3 | timber |
-| E-1089 | Workshop of Ralph the pewterer | workshop | 1280.2 | 1037.3 | 71.7 | 350° | 5.1 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-1090 | Tenement of Wat the weaver | tenement | 1433.7 | 1034.9 | 71.7 | 82° | 4.0 x 4.0 | 6.0 | gable 2.2 | 2 | timber |
-| E-1091 | Stable of Matilda the hatter | stable | 1566.7 | 1036.4 | 71.7 | 86° | 4.3 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-1092 | Workshop of Beatrice the cutler | workshop | 1237.0 | 1042.0 | 71.7 | 86° | 5.3 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-1093 | Workshop of Cecily the weaver | workshop | 1252.3 | 1045.9 | 71.7 | 350° | 5.4 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| E-1094 | Tenement of Henry the baker | tenement | 1287.8 | 1043.5 | 71.6 | 86° | 4.8 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| E-1095 | Workshop of Agnes the mason | workshop | 1312.2 | 1045.7 | 71.7 | 88° | 6.2 x 6.1 | 3.6 | gable 3.4 | 1 | timber |
-| E-1096 | Tenement of Jordan the jeweller | tenement | 1321.9 | 1042.8 | 71.7 | 81° | 4.9 x 5.4 | 6.0 | gable 2.7 | 2 | timber |
-| E-1097 | Storehouse of Petronilla the wheelwright | storehouse | 1331.8 | 1044.7 | 71.7 | 354° | 6.2 x 7.1 | 3.6 | gable 3.4 | 1 | timber |
-| E-1098 | Storehouse of Geoffrey the stonecarver | storehouse | 1584.3 | 1045.3 | 71.7 | 84° | 4.9 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| E-1099 | Tenement of Avice the cooper | tenement | 1264.5 | 1054.0 | 71.7 | 90° | 8.7 x 6.0 | 6.0 | gable 3.3 | 2 | timber |
-| E-1100 | Tenement of Agnes the tinker | tenement | 1280.1 | 1052.1 | 71.6 | 84° | 8.3 x 6.2 | 9.0 | gable 3.4 | 3 | timber |
-| E-1101 | Workshop of Mabel the goldsmith | workshop | 1288.5 | 1053.5 | 71.7 | 353° | 4.6 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| E-1102 | Storehouse of Cecily the goldsmith | storehouse | 1296.3 | 1053.0 | 71.7 | 358° | 4.5 x 5.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-1103 | Stable of Wat the draper | stable | 1332.5 | 1053.4 | 71.7 | 353° | 5.2 x 5.5 | 3.6 | gable 2.9 | 1 | timber |
-| E-1104 | Tenement of Stephen the cooper | tenement | 1347.8 | 1051.6 | 71.7 | 86° | 7.2 x 8.1 | 9.0 | gable 4.0 | 3 | timber |
-| E-1105 | Tenement of Cecily the chandler | tenement | 1366.3 | 1051.2 | 71.7 | 84° | 8.4 x 7.2 | 9.0 | gable 4.0 | 3 | timber |
-| E-1106 | Storehouse of Baldwin the clockmaker | storehouse | 1740.4 | 1054.3 | 71.7 | 1° | 4.8 x 5.5 | 3.6 | gable 2.7 | 1 | timber |
-| E-1107 | Stable of Laurence the cobbler | stable | 1748.8 | 1053.4 | 71.7 | 87° | 4.9 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| E-1108 | Storehouse of Ivetta the saddler | storehouse | 1781.4 | 1052.7 | 71.7 | 0° | 5.4 x 5.0 | 3.6 | gable 2.8 | 1 | timber |
-| E-1109 | Tenement of Simon the clockmaker | tenement | 1280.8 | 1062.6 | 71.7 | 86° | 5.1 x 4.8 | 6.0 | gable 2.6 | 2 | timber |
-| E-1110 | Tenement of Thomas the butcher | tenement | 1297.4 | 1061.0 | 71.7 | 85° | 4.0 x 5.5 | 3.0 | gable 2.2 | 1 | timber |
-| E-1111 | Tenement of Stephen the locksmith | tenement | 1305.6 | 1059.7 | 71.7 | 90° | 4.4 x 5.1 | 3.0 | gable 2.4 | 1 | timber |
-| E-1112 | Tenement of Laurence the fuller | tenement | 1322.4 | 1060.6 | 71.7 | 91° | 8.9 x 6.4 | 3.0 | gable 3.5 | 1 | timber |
-| E-1113 | Stable of Mabel the notary | stable | 1331.7 | 1062.7 | 71.7 | 356° | 5.4 x 5.4 | 3.6 | gable 3.0 | 1 | timber |
-| E-1114 | Tenement of Maud the dyer | tenement | 1346.6 | 1062.0 | 71.7 | 90° | 4.5 x 5.2 | 6.0 | gable 2.5 | 2 | timber |
-| E-1115 | Stable of Petronilla the goldsmith | stable | 1354.2 | 1062.8 | 71.7 | 358° | 4.4 x 5.1 | 3.6 | gable 2.4 | 1 | timber |
-| E-1116 | Tenement of Osbert the weaver | tenement | 1459.2 | 1062.4 | 71.7 | 93° | 6.9 x 7.4 | 9.0 | gable 3.8 | 3 | timber |
-| E-1117 | Tenement of Hawise the tailor | tenement | 1484.2 | 1062.9 | 71.7 | 3° | 8.6 x 6.0 | 6.0 | gable 3.3 | 2 | timber |
-| E-1118 | Tenement of Cecily the herbalist | tenement | 1517.1 | 1062.4 | 71.7 | 87° | 4.2 x 5.0 | 9.0 | gable 2.3 | 3 | timber |
-| E-1119 | Stable of Hob the ropemaker | stable | 1685.8 | 1062.8 | 71.7 | 88° | 8.9 x 8.3 | 3.6 | gable 4.5 | 1 | timber |
-| E-1120 | Workshop of Amice the potter | workshop | 1754.2 | 1061.7 | 71.7 | 2° | 4.3 x 5.1 | 3.6 | gable 2.4 | 1 | timber |
-| E-1121 | Workshop of Matilda the apothecary | workshop | 1763.2 | 1061.0 | 71.7 | 90° | 7.3 x 7.8 | 3.6 | gable 4.0 | 1 | timber |
-| E-1122 | Workshop of Mabel the notary | workshop | 1773.0 | 1061.7 | 71.7 | 91° | 5.3 x 5.0 | 3.6 | gable 2.8 | 1 | timber |
-| E-1123 | Tenement of Walter the candlemaker | tenement | 1781.0 | 1062.7 | 71.7 | 90° | 4.2 x 4.4 | 9.0 | gable 2.3 | 3 | timber |
-| E-1124 | Stable of Alys the lute-maker | stable | 1254.9 | 1069.6 | 71.7 | 92° | 8.2 x 7.6 | 3.6 | gable 4.2 | 1 | timber |
-| E-1125 | Storehouse of Martin the dyer | storehouse | 1269.5 | 1070.2 | 71.7 | 86° | 6.1 x 8.3 | 3.6 | gable 3.4 | 1 | timber |
-| E-1126 | Workshop of Odo the locksmith | workshop | 1288.5 | 1068.2 | 71.7 | 88° | 5.1 x 5.2 | 3.6 | gable 2.8 | 1 | timber |
-| E-1127 | Workshop of Alys the fletcher | workshop | 1339.1 | 1071.2 | 71.7 | 3° | 5.4 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| E-1128 | Stable of Richard the chandler | stable | 1468.3 | 1068.6 | 71.7 | 3° | 5.3 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| E-1129 | Stable of Henry the cobbler | stable | 1518.2 | 1071.3 | 71.7 | 94° | 4.9 x 5.2 | 3.6 | gable 2.7 | 1 | timber |
-| E-1130 | Tenement of Hob the locksmith | tenement | 1568.3 | 1069.8 | 71.7 | 3° | 8.1 x 8.2 | 9.0 | gable 4.5 | 3 | timber |
-| E-1131 | Workshop of Petronilla the draper | workshop | 1585.8 | 1068.9 | 71.7 | 2° | 6.3 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| E-1132 | Tenement of Sybil the candlemaker | tenement | 1621.0 | 1070.2 | 71.7 | 0° | 4.8 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| E-1133 | Storehouse of Odo the candlemaker | storehouse | 1636.0 | 1069.7 | 71.6 | 2° | 6.5 x 8.1 | 3.6 | gable 3.6 | 1 | timber |
-| E-1134 | Workshop of Petronilla the candlemaker | workshop | 1669.3 | 1067.8 | 71.7 | 360° | 7.8 x 7.3 | 3.6 | gable 4.0 | 1 | timber |
-| E-1135 | Storehouse of Agnes the carpenter | storehouse | 1695.2 | 1070.8 | 71.7 | 86° | 4.3 x 4.6 | 3.6 | gable 2.4 | 1 | timber |
-| E-1136 | Tenement of Odo the scribe | tenement | 1739.7 | 1069.3 | 71.7 | 357° | 8.1 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
-| E-1137 | Tenement of Piers the notary | tenement | 1281.3 | 1079.2 | 71.7 | 93° | 8.6 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| E-1138 | Tenement of Joan the glover | tenement | 1312.0 | 1077.7 | 71.7 | 3° | 4.1 x 5.2 | 3.0 | gable 2.3 | 1 | timber |
-| E-1139 | Stable of Richard the saddler | stable | 1577.7 | 1077.1 | 71.7 | 357° | 5.2 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-1140 | Storehouse of Agnes the clockmaker | storehouse | 1587.0 | 1079.3 | 71.7 | 94° | 5.4 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| E-1141 | Stable of Maud the butcher | stable | 1671.2 | 1076.8 | 71.7 | 357° | 4.3 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-1142 | Stable of Hugh the bellfounder | stable | 1762.8 | 1079.5 | 71.7 | 360° | 8.5 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| E-1143 | Storehouse of Edith the barber-surgeon | storehouse | 1774.4 | 1076.2 | 71.7 | 87° | 7.5 x 7.5 | 3.6 | gable 4.1 | 1 | timber |
-| E-1144 | Workshop of Maud the stonecarver | workshop | 1271.6 | 1087.9 | 71.7 | 94° | 4.1 x 4.9 | 3.6 | gable 2.2 | 1 | timber |
-| E-1145 | Storehouse of Geoffrey the furrier | storehouse | 1677.7 | 1085.8 | 71.7 | 360° | 4.5 x 4.8 | 3.6 | gable 2.5 | 1 | timber |
-| E-1146 | Workshop of Laurence the fletcher | workshop | 1687.3 | 1088.4 | 71.7 | 4° | 6.9 x 8.4 | 3.6 | gable 3.8 | 1 | timber |
-| E-1147 | Stable of Elena the clockmaker | stable | 1738.7 | 1087.3 | 71.7 | 93° | 6.0 x 8.0 | 3.6 | gable 3.3 | 1 | timber |
-| E-1148 | Tenement of Osbert the dyer | tenement | 1748.1 | 1087.5 | 71.7 | 4° | 5.0 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| E-1149 | Stable of Jordan the bellfounder | stable | 1772.9 | 1085.6 | 71.7 | 89° | 5.1 x 5.5 | 3.6 | gable 2.8 | 1 | timber |
-| E-1150 | Workshop of Avice the cutler | workshop | 1280.2 | 1093.8 | 71.7 | 3° | 7.2 x 6.1 | 3.6 | gable 3.3 | 1 | timber |
-| E-1151 | Stable of Ralph the jeweller | stable | 1756.4 | 1095.8 | 71.7 | 6° | 4.2 x 4.4 | 3.6 | gable 2.3 | 1 | timber |
-| E-1152 | Tenement of Richard the lute-maker | tenement | 1773.3 | 1096.9 | 71.7 | 88° | 7.3 x 8.0 | 3.0 | gable 4.0 | 1 | timber |
-| E-1153 | Workshop of Hawise the bowyer | workshop | 1271.2 | 1104.0 | 71.7 | 96° | 4.9 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| E-1154 | Storehouse of Robin the locksmith | storehouse | 1280.0 | 1104.3 | 71.7 | 7° | 8.2 x 7.7 | 3.6 | gable 4.2 | 1 | timber |
-| E-1155 | Workshop of Ralph the scribe | workshop | 1295.2 | 1101.9 | 71.7 | 9° | 6.9 x 6.0 | 3.6 | gable 3.3 | 1 | timber |
-| E-1156 | Storehouse of Emma the chandler | storehouse | 1330.8 | 1103.1 | 71.7 | 96° | 4.2 x 4.6 | 3.6 | gable 2.3 | 1 | timber |
-| E-1157 | Tenement of Baldwin the money-changer | tenement | 1339.1 | 1103.7 | 71.7 | 8° | 4.0 x 4.4 | 6.0 | gable 2.2 | 2 | timber |
-| E-1158 | Stable of Richard the lute-maker | stable | 1703.4 | 1101.6 | 71.7 | 90° | 4.0 x 5.1 | 3.6 | gable 2.2 | 1 | timber |
-| E-1159 | Workshop of Alys the candlemaker | workshop | 1791.5 | 1103.1 | 71.7 | 1° | 8.4 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| E-1160 | Storehouse of Edith the tanner | storehouse | 1289.9 | 1113.2 | 71.6 | 13° | 6.6 x 8.8 | 3.6 | gable 3.6 | 1 | timber |
-| E-1161 | Workshop of Nicholas the baker | workshop | 1306.3 | 1111.1 | 71.7 | 11° | 7.6 x 8.7 | 3.6 | gable 4.2 | 1 | timber |
-| E-1162 | Tenement of Hob the stonecarver | tenement | 1320.5 | 1111.3 | 71.7 | 5° | 8.1 x 7.1 | 6.0 | gable 3.9 | 2 | timber |
-| E-1163 | Tenement of Osbert the cheesemonger | tenement | 1330.9 | 1113.9 | 71.7 | 5° | 4.9 x 4.8 | 6.0 | gable 2.6 | 2 | timber |
-| E-1164 | Storehouse of Walter the tailor | storehouse | 1341.0 | 1111.4 | 71.7 | 11° | 4.7 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| E-1165 | Workshop of Matilda the bookbinder | workshop | 1406.3 | 1113.5 | 71.7 | 4° | 7.2 x 8.3 | 3.6 | gable 4.0 | 1 | timber |
-| E-1166 | Tenement of Mabel the weaver | tenement | 1467.4 | 1113.7 | 71.7 | 93° | 5.2 x 4.2 | 6.0 | gable 2.3 | 2 | timber |
-| E-1167 | Workshop of Matilda the clockmaker | workshop | 1509.8 | 1112.4 | 71.7 | 93° | 5.4 x 5.5 | 3.6 | gable 3.0 | 1 | timber |
-| E-1168 | Storehouse of Laurence the carpenter | storehouse | 1663.1 | 1111.1 | 71.8 | 6° | 4.2 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| E-1169 | Tenement of Beatrice the hatter | tenement | 1281.0 | 1120.6 | 71.7 | 102° | 4.7 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| E-1170 | Stable of Laurence the tinker | stable | 1304.7 | 1121.2 | 71.7 | 98° | 5.5 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-1171 | Stable of Alys the chandler | stable | 1337.0 | 1122.0 | 71.7 | 9° | 4.8 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| E-1172 | Storehouse of Isabel the spicer | storehouse | 1347.7 | 1121.4 | 71.7 | 6° | 8.4 x 8.0 | 3.6 | gable 4.4 | 1 | timber |
-| E-1173 | Stable of Isabel the mason | stable | 1416.9 | 1122.4 | 71.7 | 10° | 4.8 x 5.1 | 3.6 | gable 2.6 | 1 | timber |
-| E-1174 | Stable of Joan the candlemaker | stable | 1524.2 | 1121.0 | 71.7 | 7° | 6.5 x 7.1 | 3.6 | gable 3.6 | 1 | timber |
-| E-1175 | Storehouse of Isabel the mercer | storehouse | 1391.0 | 1128.2 | 71.7 | 11° | 7.5 x 8.4 | 3.6 | gable 4.1 | 1 | timber |
-| E-1176 | Tenement of Nicholas the parchmenter | tenement | 1400.0 | 1129.2 | 71.7 | 6° | 4.1 x 4.5 | 6.0 | gable 2.3 | 2 | timber |
-| E-1177 | Workshop of Nicholas the tailor | workshop | 1407.5 | 1127.9 | 71.7 | 101° | 4.1 x 4.5 | 3.6 | gable 2.2 | 1 | timber |
-| E-1178 | Stable of Maud the fletcher | stable | 1620.4 | 1127.1 | 71.7 | 94° | 6.2 x 6.9 | 3.6 | gable 3.4 | 1 | timber |
-| E-1179 | Tenement of Ralph the saddler | tenement | 1347.1 | 1136.5 | 71.7 | 12° | 4.6 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| E-1180 | Storehouse of Petronilla the limner | storehouse | 1407.7 | 1138.5 | 71.8 | 14° | 5.2 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| E-1181 | Tenement of Hawise the fletcher | tenement | 1567.0 | 1136.4 | 71.7 | 96° | 8.7 x 7.4 | 6.0 | gable 4.1 | 2 | timber |
-| E-1182 | Tenement of Mabel the mason | tenement | 1621.3 | 1137.9 | 71.7 | 95° | 6.9 x 6.8 | 9.0 | gable 3.8 | 3 | timber |
-| E-1183 | Workshop of Jordan the tanner | workshop | 1738.1 | 1139.0 | 71.7 | 3° | 6.7 x 7.4 | 3.6 | gable 3.7 | 1 | timber |
-| E-1184 | Tenement of Robin the tinker | tenement | 1747.4 | 1138.7 | 71.7 | 6° | 4.6 x 4.2 | 6.0 | gable 2.3 | 2 | timber |
-| E-1185 | Storehouse of Odo the parchmenter | storehouse | 1764.8 | 1137.2 | 71.6 | 4° | 7.0 x 6.8 | 3.6 | gable 3.7 | 1 | timber |
-| E-1186 | Tenement of Felice the vintner | tenement | 1422.3 | 1147.6 | 71.7 | 14° | 7.4 x 6.5 | 6.0 | gable 3.6 | 2 | timber |
-| E-1187 | Workshop of Mabel the limner | workshop | 1705.4 | 1145.2 | 71.7 | 4° | 4.1 x 5.2 | 3.6 | gable 2.3 | 1 | timber |
-| E-1188 | Tenement of Roger the bellfounder | tenement | 1713.9 | 1145.8 | 71.7 | 2° | 4.1 x 4.3 | 9.0 | gable 2.2 | 3 | timber |
-| E-1189 | Tenement of Stephen the jeweller | tenement | 1747.7 | 1146.2 | 71.7 | 93° | 4.7 x 5.3 | 9.0 | gable 2.6 | 3 | timber |
-| E-1190 | Tenement of Simon the chandler | tenement | 1756.6 | 1146.6 | 71.6 | 95° | 4.5 x 5.4 | 6.0 | gable 2.5 | 2 | timber |
-| E-1191 | Stable of Geoffrey the limner | stable | 1763.9 | 1146.8 | 71.6 | 95° | 5.1 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| E-1192 | Storehouse of Piers the locksmith | storehouse | 1295.5 | 1155.2 | 71.7 | 21° | 5.3 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| E-1193 | Stable of Elena the lute-maker | stable | 1746.7 | 1155.2 | 71.7 | 93° | 6.2 x 7.3 | 3.6 | gable 3.4 | 1 | timber |
-| E-1194 | Workshop of Nicholas the hatter | workshop | 1289.9 | 1163.3 | 71.7 | 107° | 4.5 x 4.9 | 3.6 | gable 2.5 | 1 | timber |
-| E-1195 | Storehouse of Richard the goldsmith | storehouse | 1303.0 | 1161.5 | 71.7 | 112° | 6.5 x 7.7 | 3.6 | gable 3.6 | 1 | timber |
-| E-1196 | Tenement of Alys the goldsmith | tenement | 1328.8 | 1164.8 | 71.6 | 109° | 6.6 x 6.9 | 9.0 | gable 3.6 | 3 | timber |
-| E-1197 | Tenement of Isabel the tailor | tenement | 1501.0 | 1164.8 | 71.7 | 100° | 5.2 x 4.8 | 9.0 | gable 2.7 | 3 | timber |
-| E-1198 | Workshop of Margery the herbalist | workshop | 1519.2 | 1163.8 | 71.7 | 7° | 7.9 x 7.0 | 3.6 | gable 3.8 | 1 | timber |
-| E-1199 | Tenement of Osbert the notary | tenement | 1323.0 | 1171.8 | 71.6 | 22° | 5.0 x 5.2 | 6.0 | gable 2.7 | 2 | timber |
-| E-1200 | Tenement of Robin the tanner | tenement | 1337.9 | 1169.9 | 71.7 | 22° | 6.2 x 6.5 | 6.0 | gable 3.4 | 2 | timber |
-| E-1201 | Stable of Simon the apothecary | stable | 1501.2 | 1173.3 | 71.7 | 8° | 4.1 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| E-1202 | Tenement of Hob the money-changer | tenement | 1552.2 | 1169.8 | 71.7 | 12° | 4.6 x 5.2 | 3.0 | gable 2.5 | 1 | timber |
-| E-1203 | Tenement of Henry the pie-seller | tenement | 1560.8 | 1170.2 | 71.7 | 104° | 5.2 x 5.0 | 6.0 | gable 2.8 | 2 | timber |
-| E-1204 | Tenement of Roger the wheelwright | tenement | 1576.5 | 1169.8 | 71.7 | 12° | 8.7 x 7.2 | 6.0 | gable 4.0 | 2 | timber |
-| E-1205 | Stable of Emma the cutler | stable | 1603.3 | 1172.9 | 71.7 | 11° | 5.1 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| E-1206 | Tenement of Jordan the cheesemonger | tenement | 1774.3 | 1172.9 | 71.7 | 8° | 4.0 x 4.8 | 3.0 | gable 2.2 | 1 | timber |
-| E-1207 | Stable of Edith the fishmonger | stable | 1322.8 | 1181.0 | 71.7 | 113° | 5.2 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| E-1208 | Tenement of Mabel the bookbinder | tenement | 1381.8 | 1179.9 | 71.7 | 18° | 6.2 x 8.7 | 6.0 | gable 3.4 | 2 | timber |
-| E-1209 | Workshop of Geoffrey the stonecarver | workshop | 1550.9 | 1178.1 | 71.7 | 14° | 4.2 x 4.5 | 3.6 | gable 2.3 | 1 | timber |
-| E-1210 | Workshop of Henry the vintner | workshop | 1560.0 | 1178.4 | 71.7 | 104° | 4.4 x 4.8 | 3.6 | gable 2.4 | 1 | timber |
-| E-1211 | Storehouse of Petronilla the glazier | storehouse | 1380.3 | 1190.0 | 71.6 | 22° | 4.5 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| E-1212 | Tenement of Laurence the goldsmith | tenement | 1431.7 | 1188.8 | 71.7 | 19° | 8.7 x 7.2 | 9.0 | gable 4.0 | 3 | timber |
-| E-1213 | Storehouse of Rose the armourer | storehouse | 1601.1 | 1190.4 | 71.7 | 100° | 7.2 x 8.1 | 3.6 | gable 4.0 | 1 | timber |
-| E-1214 | Storehouse of Adam the saddler | storehouse | 1746.5 | 1189.4 | 71.7 | 9° | 5.4 x 5.0 | 3.6 | gable 2.8 | 1 | timber |
-| E-1215 | Stable of Jordan the stonecarver | stable | 1389.0 | 1197.7 | 71.7 | 21° | 5.2 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| E-1216 | Workshop of Geoffrey the fishmonger | workshop | 1424.0 | 1198.7 | 71.7 | 18° | 4.4 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-1217 | Storehouse of Odo the potter | storehouse | 1610.1 | 1195.5 | 71.7 | 102° | 4.4 x 5.1 | 3.6 | gable 2.4 | 1 | timber |
-| E-1218 | Tenement of Juliana the cobbler | tenement | 1755.2 | 1197.0 | 71.7 | 7° | 8.6 x 6.6 | 3.0 | gable 3.6 | 1 | timber |
-| E-1219 | Tenement of Mabel the saddler | tenement | 1765.8 | 1197.5 | 71.7 | 13° | 4.3 x 4.8 | 9.0 | gable 2.4 | 3 | timber |
-| E-1220 | Workshop of Nicholas the tinker | workshop | 1286.5 | 1205.3 | 71.7 | 116° | 7.4 x 7.3 | 3.6 | gable 4.0 | 1 | timber |
-| E-1221 | Storehouse of Edith the fishmonger | storehouse | 1380.8 | 1205.1 | 71.7 | 111° | 8.8 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| E-1222 | Tenement of Nicholas the cooper | tenement | 1397.0 | 1206.2 | 71.7 | 16° | 6.2 x 6.2 | 6.0 | gable 3.4 | 2 | timber |
-| E-1223 | Storehouse of Isabel the dyer | storehouse | 1441.1 | 1204.6 | 71.7 | 21° | 5.1 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| E-1224 | Workshop of Osbert the hatter | workshop | 1500.1 | 1206.4 | 71.7 | 18° | 6.1 x 7.0 | 3.6 | gable 3.4 | 1 | timber |
-| E-1225 | Storehouse of Christiana the baker | storehouse | 1745.6 | 1206.3 | 71.7 | 8° | 4.0 x 5.1 | 3.6 | gable 2.2 | 1 | timber |
-| E-1226 | Stable of Geoffrey the bookbinder | stable | 1298.0 | 1214.1 | 71.7 | 28° | 8.1 x 7.8 | 3.6 | gable 4.3 | 1 | timber |
-| E-1227 | Workshop of Hawise the bowyer | workshop | 1397.6 | 1215.6 | 71.7 | 108° | 4.7 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| E-1228 | Tenement of Felice the fuller | tenement | 1441.1 | 1214.7 | 71.7 | 23° | 6.4 x 7.8 | 3.0 | gable 3.5 | 1 | timber |
-| E-1229 | Stable of Beatrice the tanner | stable | 1485.5 | 1214.7 | 71.6 | 16° | 6.7 x 6.8 | 3.6 | gable 3.7 | 1 | timber |
-| E-1230 | Tenement of Beatrice the tanner | tenement | 1746.6 | 1214.7 | 71.7 | 105° | 4.8 x 4.2 | 9.0 | gable 2.3 | 3 | timber |
-| E-1231 | Tenement of Baldwin the fletcher | tenement | 1762.1 | 1212.7 | 71.7 | 14° | 6.6 x 6.9 | 9.0 | gable 3.6 | 3 | timber |
-| E-1232 | Tenement of Stephen the spicer | tenement | 1773.6 | 1212.0 | 71.7 | 104° | 7.6 x 6.4 | 6.0 | gable 3.5 | 2 | timber |
-| E-1233 | Tenement of Thomas the pie-seller | tenement | 1543.0 | 1220.9 | 71.6 | 104° | 8.3 x 6.7 | 6.0 | gable 3.7 | 2 | timber |
-| E-1234 | Workshop of Elena the cutler | workshop | 1558.4 | 1222.5 | 71.6 | 107° | 7.0 x 8.0 | 3.6 | gable 3.9 | 1 | timber |
-| E-1235 | Tenement of Avice the furrier | tenement | 1747.6 | 1223.8 | 71.7 | 103° | 4.7 x 4.7 | 6.0 | gable 2.6 | 2 | timber |
-| E-1236 | Tenement of Robin the mercer | tenement | 1288.9 | 1232.4 | 71.6 | 34° | 8.4 x 6.2 | 3.0 | gable 3.4 | 1 | timber |
-| E-1237 | Workshop of Gilbert the hatter | workshop | 1553.0 | 1231.4 | 71.6 | 111° | 4.0 x 5.3 | 3.6 | gable 2.2 | 1 | timber |
-| E-1238 | Storehouse of Laurence the jeweller | storehouse | 1584.6 | 1231.8 | 71.5 | 106° | 8.8 x 7.9 | 3.6 | gable 4.3 | 1 | timber |
-| E-1239 | Workshop of Amice the wheelwright | workshop | 1280.2 | 1239.1 | 71.6 | 120° | 7.3 x 7.0 | 3.6 | gable 3.9 | 1 | timber |
-| E-1240 | Tenement of Godwin the fishmonger | tenement | 1348.9 | 1237.5 | 71.5 | 114° | 8.1 x 6.2 | 9.0 | gable 3.4 | 3 | timber |
-| E-1241 | Tenement of Piers the clockmaker | tenement | 1416.8 | 1238.4 | 71.4 | 115° | 6.0 x 8.6 | 9.0 | gable 3.3 | 3 | timber |
-| E-1242 | Stable of Avice the armourer | stable | 1441.9 | 1241.1 | 71.3 | 114° | 8.4 x 7.8 | 3.6 | gable 4.3 | 1 | timber |
-| E-1243 | Tenement of Simon the barber-surgeon | tenement | 1595.8 | 1239.8 | 71.5 | 109° | 9.0 x 6.7 | 9.0 | gable 3.7 | 3 | timber |
-| E-1244 | Storehouse of Mabel the clockmaker | storehouse | 1611.0 | 1239.3 | 71.5 | 106° | 7.3 x 7.2 | 3.6 | gable 4.0 | 1 | timber |
-| E-1245 | Stable of Hugh the dyer | stable | 1346.5 | 1247.4 | 71.4 | 120° | 4.8 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| E-1246 | Stable of Simon the baker | stable | 1354.4 | 1249.3 | 71.3 | 27° | 4.5 x 4.8 | 3.6 | gable 2.5 | 1 | timber |
-| E-1247 | Stable of Sybil the mercer | stable | 1364.2 | 1249.7 | 71.2 | 114° | 8.0 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| E-1248 | Storehouse of Alys the armourer | storehouse | 1603.8 | 1248.7 | 71.3 | 109° | 8.7 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| E-1249 | Storehouse of Robin the glazier | storehouse | 1373.3 | 1257.0 | 71.2 | 117° | 8.0 x 8.5 | 3.6 | gable 4.4 | 1 | timber |
-| E-1250 | Storehouse of Stephen the weaver | storehouse | 1609.4 | 1256.8 | 71.2 | 105° | 5.3 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| E-1251 | Tenement of Isabel the hatter | tenement | 1746.5 | 1257.6 | 71.5 | 108° | 7.0 x 8.4 | 6.0 | gable 3.9 | 2 | timber |
-| E-1252 | Storehouse of Petronilla the pewterer | storehouse | 1757.3 | 1257.0 | 71.6 | 102° | 4.6 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| E-1253 | Storehouse of Ralph the draper | storehouse | 1340.2 | 1263.2 | 71.2 | 124° | 4.6 x 5.0 | 3.6 | gable 2.5 | 1 | timber |
-| E-1254 | Workshop of Henry the bookbinder | workshop | 1619.3 | 1263.6 | 71.1 | 16° | 8.8 x 7.7 | 3.6 | gable 4.2 | 1 | timber |
-| E-1255 | Tenement of Christiana the saddler | tenement | 1636.5 | 1263.1 | 71.2 | 16° | 8.4 x 8.7 | 6.0 | gable 4.6 | 2 | timber |
-| E-1256 | Tenement of Richard the tanner | tenement | 1645.6 | 1264.8 | 71.2 | 107° | 4.5 x 4.7 | 6.0 | gable 2.5 | 2 | timber |
-| E-1257 | Tenement of Elena the jeweller | tenement | 1660.4 | 1264.4 | 71.2 | 19° | 6.3 x 6.1 | 6.0 | gable 3.3 | 2 | timber |
-| E-1258 | Storehouse of Rose the apothecary | storehouse | 1672.1 | 1264.3 | 71.2 | 13° | 7.0 x 8.1 | 3.6 | gable 3.8 | 1 | timber |
-| E-1259 | Storehouse of Godwin the fishmonger | storehouse | 1687.9 | 1265.1 | 71.3 | 18° | 8.9 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| E-1260 | Tenement of Simon the herbalist | tenement | 1697.6 | 1266.1 | 71.3 | 108° | 4.7 x 4.9 | 6.0 | gable 2.6 | 2 | timber |
-| E-1261 | Tenement of Avice the ropemaker | tenement | 1722.6 | 1263.8 | 71.4 | 12° | 8.9 x 7.7 | 6.0 | gable 4.2 | 2 | timber |
-| E-1262 | Storehouse of Cecily the fletcher | storehouse | 1740.3 | 1266.4 | 71.4 | 109° | 7.4 x 8.5 | 3.6 | gable 4.1 | 1 | timber |
-| E-1263 | Stable of Walter the fletcher | stable | 1756.5 | 1264.5 | 71.5 | 17° | 5.2 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| E-1264 | Tenement of Robin the weaver | tenement | 1680.3 | 1274.0 | 71.2 | 19° | 5.3 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| E-1265 | Stable of Edith the bellfounder | stable | 1720.7 | 1274.2 | 71.2 | 103° | 6.1 x 7.5 | 3.6 | gable 3.4 | 1 | timber |
-| E-1266 | Storehouse of Elena the weaver | storehouse | 1695.1 | 1283.1 | 71.1 | 110° | 4.6 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| E-1267 | Workshop of Robin the brewer | workshop | 1712.4 | 1283.5 | 71.1 | 104° | 4.8 x 5.0 | 3.6 | gable 2.6 | 1 | timber |
-| E-1268 | Storehouse of Roger the hatter | storehouse | 1731.3 | 1283.7 | 71.1 | 110° | 8.7 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| E-1269 | Tenement of Simon the cobbler | tenement | 1730.7 | 1300.1 | 70.9 | 105° | 7.1 x 7.5 | 3.0 | gable 3.9 | 1 | timber |
-| E-1270 | Stable of Richard the cobbler | stable | 1737.2 | 1309.2 | 70.9 | 109° | 4.5 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-
-## West Ward (927 buildings)
-
-247 workshop, 211 shop, 193 house, 141 tenement, 63 storehouse, 62 stable, 6 church, 3 college, 1 chapel
+43 house, 6 cathedral, 4 cloister, 1 chapter house, 1 palace, 1 inn
 
 | ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
 |---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| W-0001 | Greyfriars (north range) | college | 360.0 | 866.0 | 71.7 | 0° | 120.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| W-0002 | Greyfriars (south range) | college | 360.0 | 969.0 | 71.7 | 180° | 120.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| W-0003 | Greyfriars (west range) | college | 306.0 | 917.5 | 71.6 | 270° | 91.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| W-0004 | Greyfriars (chapel) | chapel | 414.0 | 917.5 | 71.7 | 90° | 91.0 x 11.0 | 14.0 | gable 6.0 | 1 | stone |
-| W-0005 | Church of St. Giles | church | 385.7 | 1215.2 | 71.3 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| W-0006 | Church of St. Giles (tower) | church | 367.7 | 1215.2 | 71.3 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| W-0007 | Church of St. Hugh | church | 526.6 | 983.7 | 71.7 | 90° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| W-0008 | Church of St. Hugh (tower) | church | 526.6 | 965.7 | 71.7 | 90° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| W-0009 | Church of St. Ivo | church | 518.8 | 669.4 | 71.7 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| W-0010 | Church of St. Ivo (tower) | church | 500.8 | 669.4 | 71.7 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| W-0011 | House of Robin the glazier | shop | 556.9 | 933.6 | 71.7 | 162° | 6.5 x 10.8 | 9.3 | gable 3.6 | 3 | timber |
-| W-0012 | House of Hawise the tinker | shop | 474.5 | 958.6 | 71.3 | 162° | 8.6 x 13.9 | 6.2 | hip 3.9 | 2 | timber |
-| W-0013 | Workshop of Hawise the tinker | workshop | 470.6 | 946.7 | 71.7 | 162° | 5.6 x 6.9 | 3.0 | gable 3.1 | 1 | timber |
-| W-0014 | House of Alys the tinker | shop | 388.7 | 988.6 | 71.7 | 159° | 6.4 x 12.4 | 6.2 | gable 3.5 | 2 | timber |
-| W-0015 | House of Ida the limner | house | 381.9 | 990.2 | 71.7 | 159° | 6.1 x 14.3 | 12.4 | gable 3.3 | 4 | timber |
-| W-0016 | House of Simon the hatter | shop | 774.9 | 900.5 | 71.7 | 348° | 8.8 x 14.8 | 9.3 | gable 4.9 | 3 | timber |
-| W-0017 | Workshop of Simon the hatter | workshop | 777.4 | 912.2 | 71.7 | 348° | 8.1 x 5.0 | 3.0 | gable 2.8 | 1 | timber |
-| W-0018 | House of Mabel the jeweller | shop | 748.8 | 905.9 | 71.7 | 347° | 9.4 x 13.9 | 9.3 | gable 5.2 | 3 | timber |
-| W-0019 | Workshop of Mabel the jeweller | workshop | 751.6 | 918.6 | 71.7 | 347° | 9.0 x 4.7 | 6.0 | gable 2.6 | 1 | timber |
-| W-0020 | House of Emma the glazier | shop | 740.4 | 905.7 | 71.7 | 347° | 6.3 x 9.9 | 9.3 | hip 2.9 | 3 | timber |
-| W-0021 | Workshop of Emma the glazier | workshop | 742.8 | 916.2 | 71.7 | 347° | 5.1 x 5.5 | 3.0 | gable 2.8 | 1 | timber |
-| W-0022 | House of Ida the bookbinder | house | 734.1 | 906.7 | 71.7 | 347° | 5.6 x 9.1 | 6.2 | gable 3.1 | 2 | stone |
-| W-0023 | House of Agnes the herbalist | house | 665.8 | 924.5 | 71.7 | 345° | 8.3 x 11.1 | 6.2 | gable 4.6 | 2 | timber |
-| W-0024 | House of Agnes the jeweller | house | 625.4 | 935.7 | 71.7 | 344° | 8.9 x 10.8 | 9.3 | gable 4.9 | 3 | timber |
-| W-0025 | House of Richard the bellfounder | shop | 618.0 | 938.0 | 71.7 | 343° | 5.8 x 11.0 | 12.4 | gable 3.2 | 4 | timber |
-| W-0026 | Workshop of Richard the bellfounder | workshop | 620.5 | 946.8 | 71.7 | 343° | 5.5 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| W-0027 | House of Felice the cutler | shop | 603.0 | 943.7 | 71.7 | 343° | 9.1 x 13.2 | 6.2 | gable 5.0 | 2 | timber |
-| W-0028 | House of Joan the cobbler | shop | 595.1 | 944.9 | 71.7 | 343° | 5.8 x 11.0 | 9.3 | hip 2.6 | 3 | timber |
-| W-0029 | House of Felice the bellfounder | shop | 545.4 | 961.7 | 71.7 | 342° | 8.5 x 13.4 | 9.3 | gable 4.7 | 3 | timber |
-| W-0030 | Workshop of Felice the bellfounder | workshop | 549.0 | 973.0 | 71.7 | 342° | 5.1 x 6.6 | 3.0 | gable 2.8 | 1 | timber |
-| W-0031 | House of Petronilla the barber-surgeon | house | 379.3 | 1017.7 | 71.7 | 338° | 8.1 x 12.6 | 6.2 | hip 3.7 | 2 | timber |
-| W-0032 | House of Juliana the pewterer | shop | 302.5 | 1048.4 | 71.7 | 339° | 8.8 x 12.2 | 6.2 | hip 3.9 | 2 | timber |
-| W-0033 | House of Nicholas the saddler | shop | 265.2 | 1063.5 | 71.7 | 341° | 7.5 x 14.4 | 6.2 | gable 4.1 | 2 | timber |
-| W-0034 | House of Beatrice the brewer | house | 249.5 | 1068.5 | 71.7 | 342° | 7.7 x 13.8 | 6.2 | gable 4.2 | 2 | stone |
-| W-0035 | House of Gilbert the lute-maker | house | 240.1 | 1069.5 | 71.7 | 343° | 9.3 x 10.1 | 6.2 | gable 5.1 | 2 | stone |
-| W-0036 | Workshop of Gilbert the lute-maker | workshop | 243.2 | 1079.3 | 71.6 | 343° | 7.9 x 5.7 | 3.0 | gable 3.1 | 1 | timber |
-| W-0037 | House of Godwin the vintner | house | 789.0 | 675.1 | 74.3 | 195° | 6.8 x 12.1 | 9.3 | hip 3.1 | 3 | timber |
-| W-0038 | House of Walter the scribe | shop | 764.5 | 666.4 | 72.6 | 200° | 6.0 x 13.8 | 12.4 | gable 3.3 | 4 | timber |
-| W-0039 | House of Richard the fuller | shop | 488.6 | 555.9 | 73.2 | 206° | 7.1 x 11.4 | 9.3 | gable 3.9 | 3 | timber |
-| W-0040 | House of Christiana the jeweller | house | 807.3 | 704.7 | 71.7 | 12° | 7.8 x 14.1 | 12.4 | hip 3.5 | 4 | timber |
-| W-0041 | Workshop of Christiana the jeweller | workshop | 804.6 | 717.1 | 71.7 | 12° | 6.6 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| W-0042 | House of Martin the fishmonger | shop | 799.3 | 701.2 | 71.7 | 14° | 7.5 x 10.9 | 12.4 | gable 4.1 | 4 | timber |
-| W-0043 | House of Ivetta the barber-surgeon | shop | 626.9 | 638.7 | 71.7 | 21° | 5.7 x 9.8 | 9.3 | gable 3.1 | 3 | timber |
-| W-0044 | House of Sybil the scribe | house | 530.4 | 601.3 | 71.7 | 23° | 8.0 x 14.7 | 6.2 | gable 4.4 | 2 | timber |
-| W-0045 | House of Avice the chandler | house | 478.3 | 577.6 | 72.2 | 26° | 5.6 x 14.2 | 6.2 | hip 2.5 | 2 | timber |
-| W-0046 | House of Martin the bowyer | house | 465.7 | 570.4 | 72.7 | 28° | 6.4 x 12.7 | 9.3 | hip 2.9 | 3 | timber |
-| W-0047 | House of Emma the candlemaker | shop | 782.6 | 1293.9 | 70.9 | 222° | 6.7 x 14.9 | 9.3 | hip 3.0 | 3 | timber |
-| W-0048 | House of Avice the potter | shop | 763.5 | 1278.6 | 71.1 | 225° | 9.3 x 10.3 | 15.5 | gable 5.1 | 5 | stone |
-| W-0049 | House of Gilbert the scribe | house | 752.6 | 1266.5 | 71.2 | 228° | 6.0 x 11.5 | 9.3 | gable 3.3 | 3 | stone |
-| W-0050 | House of Gilbert the cutler | house | 719.5 | 1226.0 | 71.7 | 234° | 8.5 x 12.1 | 9.3 | gable 4.7 | 3 | stone |
-| W-0051 | House of Joan the dyer | house | 711.7 | 1213.1 | 71.7 | 238° | 8.6 x 13.9 | 6.2 | gable 4.7 | 2 | timber |
-| W-0052 | House of Henry the parchmenter | shop | 705.4 | 1206.5 | 71.7 | 238° | 8.0 x 10.1 | 6.2 | hip 3.6 | 2 | timber |
-| W-0053 | Workshop of Henry the parchmenter | workshop | 714.1 | 1201.1 | 71.7 | 238° | 4.9 x 6.5 | 3.0 | gable 2.7 | 1 | timber |
-| W-0054 | House of Nicholas the butcher | shop | 698.0 | 1194.5 | 71.7 | 243° | 6.0 x 9.4 | 6.2 | gable 3.3 | 2 | stone |
-| W-0055 | House of Ida the saddler | house | 695.3 | 1188.2 | 71.7 | 243° | 7.5 x 10.1 | 12.4 | hip 3.4 | 4 | timber |
-| W-0056 | House of Simon the cooper | house | 691.6 | 1180.9 | 71.7 | 243° | 7.6 x 10.2 | 12.4 | hip 3.4 | 4 | stone |
-| W-0057 | Workshop of Simon the cooper | workshop | 701.3 | 1176.0 | 71.7 | 243° | 6.0 x 5.5 | 6.0 | gable 3.0 | 1 | timber |
-| W-0058 | House of Joan the mason | house | 749.5 | 1293.4 | 70.9 | 45° | 7.4 x 13.8 | 6.2 | hip 3.4 | 2 | timber |
-| W-0059 | House of Ralph the cobbler | house | 743.1 | 1287.3 | 71.0 | 46° | 8.9 x 14.4 | 9.3 | hip 4.0 | 3 | timber |
-| W-0060 | House of Geoffrey the bowyer | shop | 729.0 | 1270.2 | 71.2 | 48° | 6.4 x 12.2 | 9.3 | gable 3.5 | 3 | timber |
-| W-0061 | House of Hawise the chandler | shop | 723.9 | 1265.3 | 71.2 | 51° | 6.7 x 13.4 | 9.3 | gable 3.7 | 3 | timber |
-| W-0062 | Workshop of Hawise the chandler | workshop | 715.3 | 1272.4 | 71.1 | 51° | 6.3 x 6.4 | 3.0 | gable 3.5 | 1 | timber |
-| W-0063 | House of Piers the bookbinder | house | 703.6 | 1237.8 | 71.6 | 54° | 6.1 x 11.4 | 12.4 | hip 2.7 | 4 | stone |
-| W-0064 | House of Amice the draper | house | 682.4 | 1206.8 | 71.7 | 62° | 5.8 x 13.3 | 9.3 | gable 3.2 | 3 | timber |
-| W-0065 | Workshop of Amice the draper | workshop | 671.9 | 1212.3 | 71.6 | 62° | 5.6 x 7.6 | 3.0 | gable 3.1 | 1 | timber |
-| W-0066 | House of Thomas the wheelwright | house | 676.9 | 1195.5 | 71.6 | 63° | 5.8 x 12.8 | 6.2 | gable 3.2 | 2 | timber |
-| W-0067 | Workshop of Thomas the wheelwright | workshop | 666.6 | 1200.7 | 71.6 | 63° | 5.7 x 5.4 | 6.0 | gable 3.0 | 1 | timber |
-| W-0068 | House of Hob the bookbinder | shop | 711.8 | 947.4 | 71.7 | 291° | 6.7 x 12.4 | 9.3 | gable 3.7 | 3 | timber |
-| W-0069 | Workshop of Hob the bookbinder | workshop | 721.5 | 951.2 | 71.7 | 291° | 4.7 x 6.3 | 3.0 | gable 2.6 | 1 | timber |
-| W-0070 | House of Godwin the stonecarver | house | 726.1 | 919.3 | 71.7 | 299° | 5.9 x 14.2 | 12.4 | gable 3.2 | 4 | timber |
-| W-0071 | House of Baldwin the pie-seller | shop | 728.3 | 913.5 | 71.7 | 299° | 5.7 x 12.3 | 12.4 | gable 3.1 | 4 | timber |
-| W-0072 | House of Matilda the carpenter | house | 767.6 | 859.5 | 71.7 | 315° | 8.0 x 9.1 | 6.2 | gable 4.4 | 2 | timber |
-| W-0073 | Workshop of Matilda the carpenter | workshop | 773.8 | 865.7 | 71.7 | 315° | 5.5 x 5.7 | 3.0 | gable 3.0 | 1 | timber |
-| W-0074 | House of Isabel the goldsmith | shop | 774.8 | 856.4 | 71.7 | 315° | 6.0 x 15.0 | 9.3 | gable 3.3 | 3 | timber |
-| W-0075 | Workshop of Isabel the goldsmith | workshop | 783.8 | 865.5 | 71.7 | 315° | 5.9 x 5.8 | 6.0 | gable 3.2 | 1 | timber |
-| W-0076 | House of Piers the mason | house | 723.6 | 883.8 | 71.7 | 124° | 9.3 x 10.7 | 9.3 | gable 5.1 | 3 | timber |
-| W-0077 | House of Isabel the fuller | shop | 729.0 | 876.3 | 71.7 | 124° | 8.5 x 10.1 | 12.4 | gable 4.7 | 4 | timber |
-| W-0078 | House of Rose the ropemaker | house | 764.7 | 836.4 | 71.7 | 140° | 6.8 x 12.1 | 9.3 | gable 3.7 | 3 | timber |
-| W-0079 | House of Joan the candlemaker | shop | 771.6 | 831.5 | 71.7 | 140° | 8.8 x 10.7 | 6.2 | gable 4.8 | 2 | timber |
-| W-0080 | Workshop of Joan the candlemaker | workshop | 763.9 | 822.2 | 71.7 | 140° | 8.2 x 7.8 | 3.0 | gable 4.3 | 1 | timber |
-| W-0081 | House of Felice the bowyer | house | 623.5 | 1272.2 | 71.1 | 244° | 9.2 x 9.4 | 12.4 | gable 5.0 | 4 | timber |
-| W-0082 | Workshop of Felice the bowyer | workshop | 632.5 | 1267.8 | 71.1 | 244° | 7.7 x 6.4 | 6.0 | gable 3.5 | 1 | timber |
-| W-0083 | House of Richard the cutler | shop | 609.7 | 1233.8 | 71.5 | 249° | 7.9 x 14.8 | 9.3 | gable 4.3 | 3 | timber |
-| W-0084 | House of Geoffrey the bowyer | shop | 605.6 | 1226.9 | 71.6 | 249° | 7.4 x 12.1 | 12.4 | gable 4.1 | 4 | timber |
-| W-0085 | Workshop of Geoffrey the bowyer | workshop | 616.4 | 1222.8 | 71.7 | 249° | 6.5 x 6.9 | 3.0 | gable 3.6 | 1 | timber |
-| W-0086 | House of Elena the tailor | house | 599.4 | 1212.8 | 71.7 | 249° | 7.4 x 10.8 | 6.2 | gable 4.1 | 2 | timber |
-| W-0087 | Workshop of Elena the tailor | workshop | 610.0 | 1208.7 | 71.7 | 249° | 6.1 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| W-0088 | House of Jordan the baker | shop | 591.0 | 1187.5 | 71.7 | 251° | 7.6 x 11.8 | 6.2 | gable 4.2 | 2 | timber |
-| W-0089 | House of Martin the locksmith | shop | 717.6 | 746.9 | 71.7 | 320° | 7.8 x 13.7 | 12.4 | hip 3.5 | 4 | timber |
-| W-0090 | Workshop of Martin the locksmith | workshop | 726.4 | 757.2 | 71.7 | 320° | 6.6 x 8.0 | 3.0 | gable 3.6 | 1 | timber |
-| W-0091 | House of Elena the tinker | house | 762.3 | 714.1 | 71.6 | 332° | 9.2 x 13.3 | 6.2 | gable 5.0 | 2 | timber |
-| W-0092 | Workshop of Elena the tinker | workshop | 767.7 | 724.2 | 71.7 | 332° | 6.2 x 5.3 | 6.0 | gable 2.9 | 1 | timber |
-| W-0093 | House of Juliana the fishmonger | shop | 695.7 | 736.3 | 71.7 | 140° | 6.4 x 14.4 | 6.2 | gable 3.5 | 2 | timber |
-| W-0094 | Workshop of Juliana the fishmonger | workshop | 687.5 | 726.6 | 71.7 | 140° | 4.7 x 6.4 | 3.0 | gable 2.6 | 1 | timber |
-| W-0095 | House of Joan the butcher | shop | 701.6 | 732.3 | 71.7 | 140° | 6.9 x 12.9 | 9.3 | gable 3.8 | 3 | timber |
-| W-0096 | House of Stephen the parchmenter | shop | 714.8 | 721.5 | 71.7 | 140° | 8.2 x 12.3 | 6.2 | gable 4.5 | 2 | timber |
-| W-0097 | Workshop of Stephen the parchmenter | workshop | 706.7 | 711.9 | 71.7 | 140° | 7.8 x 7.0 | 3.0 | gable 3.8 | 1 | timber |
-| W-0098 | House of Ida the parchmenter | house | 727.6 | 710.3 | 71.7 | 146° | 6.0 x 14.9 | 6.2 | gable 3.3 | 2 | timber |
-| W-0099 | House of Thomas the bookbinder | shop | 735.2 | 708.1 | 71.6 | 146° | 8.7 x 9.9 | 6.2 | hip 3.9 | 2 | timber |
-| W-0100 | Workshop of Thomas the bookbinder | workshop | 729.2 | 699.2 | 71.6 | 146° | 7.2 x 6.5 | 3.0 | gable 3.6 | 1 | timber |
-| W-0101 | House of Ralph the cutler | house | 748.6 | 697.4 | 71.6 | 152° | 6.4 x 12.7 | 9.3 | gable 3.5 | 3 | timber |
-| W-0102 | House of Mabel the saddler | shop | 456.6 | 1182.9 | 71.5 | 256° | 8.3 x 9.3 | 6.2 | hip 3.7 | 2 | timber |
-| W-0103 | House of Agnes the baker | shop | 453.7 | 1166.1 | 71.5 | 260° | 7.8 x 10.0 | 6.2 | gable 4.3 | 2 | timber |
-| W-0104 | House of Thomas the brewer | house | 450.8 | 1149.4 | 71.6 | 260° | 7.3 x 9.9 | 6.2 | hip 3.3 | 2 | timber |
-| W-0105 | Workshop of Thomas the brewer | workshop | 460.5 | 1147.7 | 71.5 | 260° | 7.2 x 6.9 | 6.0 | gable 3.8 | 1 | timber |
-| W-0106 | House of Margery the candlemaker | shop | 447.9 | 1118.5 | 71.6 | 263° | 7.7 x 12.0 | 9.3 | gable 4.2 | 3 | stone |
-| W-0107 | Workshop of Margery the candlemaker | workshop | 460.2 | 1117.1 | 71.5 | 263° | 6.7 x 6.2 | 6.0 | gable 3.4 | 1 | timber |
-| W-0108 | House of Maud the spicer | house | 445.7 | 1110.2 | 71.7 | 263° | 8.1 x 9.6 | 9.3 | gable 4.4 | 3 | timber |
-| W-0109 | House of Agnes the draper | shop | 445.9 | 1093.5 | 71.7 | 266° | 6.3 x 12.8 | 6.2 | gable 3.5 | 2 | timber |
-| W-0110 | House of Godwin the locksmith | house | 444.9 | 1086.3 | 71.6 | 266° | 7.1 x 11.7 | 9.3 | gable 3.9 | 3 | timber |
-| W-0111 | Workshop of Godwin the locksmith | workshop | 455.0 | 1085.6 | 71.5 | 266° | 5.6 x 6.0 | 3.0 | gable 3.1 | 1 | timber |
-| W-0112 | House of Stephen the mason | house | 443.6 | 1070.1 | 71.7 | 266° | 8.5 x 11.2 | 9.3 | gable 4.7 | 3 | timber |
-| W-0113 | House of Mabel the bookbinder | house | 444.7 | 1054.0 | 71.7 | 269° | 5.7 x 14.1 | 9.3 | gable 3.1 | 3 | timber |
-| W-0114 | House of Simon the pie-seller | shop | 443.0 | 1029.5 | 71.7 | 272° | 9.5 x 11.2 | 9.3 | gable 5.2 | 3 | timber |
-| W-0115 | Workshop of Simon the pie-seller | workshop | 452.9 | 1029.9 | 71.7 | 272° | 5.7 x 5.5 | 6.0 | gable 3.0 | 1 | timber |
-| W-0116 | House of Hawise the cooper | house | 444.9 | 1013.6 | 71.7 | 272° | 5.6 x 13.8 | 6.2 | gable 3.1 | 2 | stone |
-| W-0117 | Workshop of Hawise the cooper | workshop | 457.1 | 1014.1 | 71.7 | 272° | 5.0 x 6.4 | 3.0 | gable 2.7 | 1 | timber |
-| W-0118 | House of Edith the candlemaker | shop | 444.9 | 1005.5 | 71.7 | 272° | 9.4 x 13.2 | 9.3 | gable 5.2 | 3 | timber |
-| W-0119 | Workshop of Edith the candlemaker | workshop | 456.7 | 1006.0 | 71.7 | 272° | 4.6 x 6.4 | 3.0 | gable 2.5 | 1 | timber |
-| W-0120 | House of Piers the fishmonger | house | 444.8 | 996.9 | 71.7 | 273° | 7.0 x 12.3 | 12.4 | hip 3.1 | 4 | timber |
-| W-0121 | Workshop of Piers the fishmonger | workshop | 457.0 | 997.5 | 71.7 | 273° | 4.7 x 5.2 | 3.0 | gable 2.6 | 1 | timber |
-| W-0122 | House of Beatrice the goldsmith | shop | 447.3 | 966.0 | 71.7 | 276° | 8.8 x 10.6 | 9.3 | hip 4.0 | 3 | timber |
-| W-0123 | House of Ralph the goldsmith | house | 453.1 | 942.0 | 71.7 | 281° | 7.7 x 13.9 | 6.2 | gable 4.2 | 2 | timber |
-| W-0124 | House of Walter the glazier | house | 454.9 | 934.4 | 71.7 | 281° | 7.0 x 14.4 | 9.3 | gable 3.9 | 3 | timber |
-| W-0125 | Workshop of Walter the glazier | workshop | 468.0 | 937.1 | 71.7 | 281° | 4.7 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| W-0126 | House of Ivetta the baker | house | 459.0 | 908.6 | 71.7 | 287° | 8.3 x 9.2 | 9.3 | gable 4.6 | 3 | timber |
-| W-0127 | Workshop of Ivetta the baker | workshop | 469.9 | 912.0 | 71.7 | 287° | 4.8 x 5.8 | 3.0 | gable 2.6 | 1 | timber |
-| W-0128 | House of Hawise the brewer | shop | 638.3 | 688.2 | 71.6 | 323° | 6.4 x 10.0 | 6.2 | gable 3.5 | 2 | timber |
-| W-0129 | Workshop of Hawise the brewer | workshop | 643.8 | 695.7 | 71.7 | 323° | 5.0 x 5.7 | 3.0 | gable 2.8 | 1 | timber |
-| W-0130 | House of Ida the armourer | house | 658.1 | 677.1 | 71.7 | 325° | 7.1 x 14.5 | 9.3 | gable 3.9 | 3 | timber |
-| W-0131 | Workshop of Ida the armourer | workshop | 665.2 | 687.4 | 71.7 | 325° | 7.0 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| W-0132 | House of Sybil the bookbinder | shop | 674.0 | 663.4 | 71.7 | 327° | 6.8 x 9.9 | 6.2 | gable 3.7 | 2 | timber |
-| W-0133 | Workshop of Sybil the bookbinder | workshop | 679.1 | 671.3 | 71.7 | 327° | 5.9 x 5.2 | 6.0 | gable 2.9 | 1 | timber |
-| W-0134 | House of Wat the stonecarver | shop | 627.0 | 673.3 | 71.7 | 143° | 7.4 x 11.1 | 6.2 | hip 3.3 | 2 | timber |
-| W-0135 | Workshop of Wat the stonecarver | workshop | 620.9 | 665.1 | 71.7 | 143° | 5.2 x 6.6 | 6.0 | gable 2.9 | 1 | timber |
-| W-0136 | House of Joan the saddler | shop | 634.4 | 669.1 | 71.7 | 145° | 8.5 x 9.3 | 12.4 | gable 4.7 | 4 | timber |
-| W-0137 | Workshop of Joan the saddler | workshop | 628.7 | 660.9 | 71.7 | 145° | 7.3 x 7.0 | 3.0 | gable 3.9 | 1 | timber |
-| W-0138 | House of Godwin the scribe | house | 639.7 | 663.3 | 71.7 | 145° | 6.6 x 12.8 | 6.2 | gable 3.6 | 2 | timber |
-| W-0139 | House of Ida the tailor | house | 645.7 | 658.3 | 71.7 | 145° | 7.9 x 14.2 | 9.3 | gable 4.3 | 3 | timber |
-| W-0140 | Workshop of Ida the tailor | workshop | 638.4 | 647.7 | 71.7 | 145° | 5.5 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| W-0141 | House of Agnes the tinker | house | 653.7 | 655.7 | 71.7 | 145° | 7.1 x 9.4 | 6.2 | hip 3.2 | 2 | timber |
-| W-0142 | House of Ida the bellfounder | house | 751.7 | 618.9 | 80.7 | 332° | 8.9 x 14.2 | 6.2 | hip 4.0 | 2 | timber |
-| W-0143 | Workshop of Ida the bellfounder | workshop | 758.0 | 630.9 | 79.8 | 332° | 7.9 x 6.5 | 6.0 | gable 3.6 | 1 | timber |
-| W-0144 | House of Ralph the butcher | shop | 700.4 | 624.5 | 71.7 | 149° | 9.4 x 11.0 | 6.2 | gable 5.2 | 2 | timber |
-| W-0145 | Workshop of Ralph the butcher | workshop | 695.8 | 616.6 | 71.7 | 149° | 8.2 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| W-0146 | House of Ida the goldsmith | shop | 721.7 | 610.1 | 74.7 | 149° | 8.7 x 13.9 | 6.2 | gable 4.8 | 2 | timber |
-| W-0147 | House of Simon the cutler | shop | 729.2 | 606.2 | 77.7 | 150° | 7.2 x 13.0 | 9.3 | gable 3.9 | 3 | timber |
-| W-0148 | Workshop of Simon the cutler | workshop | 723.3 | 595.7 | 78.5 | 150° | 4.9 x 5.8 | 3.0 | gable 2.7 | 1 | timber |
-| W-0149 | House of Richard the fuller | house | 748.1 | 596.2 | 87.0 | 152° | 6.4 x 12.8 | 12.4 | gable 3.5 | 4 | timber |
-| W-0150 | Workshop of Richard the fuller | workshop | 742.9 | 586.4 | 88.3 | 152° | 5.0 x 6.1 | 6.0 | gable 2.8 | 1 | timber |
-| W-0151 | House of Godwin the fletcher | shop | 399.1 | 1356.6 | 71.1 | 238° | 9.3 x 11.8 | 6.2 | gable 5.1 | 2 | timber |
-| W-0152 | Workshop of Godwin the fletcher | workshop | 409.2 | 1350.3 | 71.0 | 238° | 7.1 x 6.8 | 6.0 | gable 3.7 | 1 | timber |
-| W-0153 | House of Gilbert the locksmith | house | 384.9 | 1332.0 | 70.9 | 238° | 8.8 x 13.9 | 12.4 | gable 4.8 | 4 | timber |
-| W-0154 | House of Hugh the herbalist | house | 338.9 | 1233.7 | 70.8 | 253° | 9.3 x 12.4 | 6.2 | gable 5.1 | 2 | timber |
-| W-0155 | House of Nicholas the baker | shop | 336.5 | 1225.5 | 71.0 | 253° | 6.5 x 12.6 | 6.2 | gable 3.5 | 2 | timber |
-| W-0156 | House of Thomas the parchmenter | house | 327.0 | 1188.5 | 71.4 | 260° | 6.2 x 12.4 | 9.3 | gable 3.4 | 3 | timber |
-| W-0157 | Workshop of Thomas the parchmenter | workshop | 338.8 | 1186.4 | 71.6 | 260° | 5.4 x 7.2 | 6.0 | gable 3.0 | 1 | timber |
-| W-0158 | House of Hugh the pie-seller | house | 321.4 | 1165.6 | 71.7 | 260° | 7.0 x 9.3 | 6.2 | gable 3.8 | 2 | timber |
-| W-0159 | House of Mabel the spicer | house | 321.1 | 1134.7 | 71.7 | 267° | 7.9 x 13.6 | 6.2 | gable 4.3 | 2 | stone |
-| W-0160 | Workshop of Mabel the spicer | workshop | 332.6 | 1134.1 | 71.7 | 267° | 5.1 x 5.2 | 3.0 | gable 2.8 | 1 | timber |
-| W-0161 | House of Thomas the bookbinder | house | 317.9 | 1117.7 | 71.7 | 267° | 8.4 x 9.2 | 6.2 | gable 4.6 | 2 | timber |
-| W-0162 | Workshop of Thomas the bookbinder | workshop | 327.7 | 1117.1 | 71.6 | 267° | 4.5 x 5.6 | 3.0 | gable 2.5 | 1 | timber |
-| W-0163 | House of Amice the fishmonger | house | 320.9 | 1101.3 | 71.7 | 273° | 7.0 x 13.8 | 6.2 | hip 3.1 | 2 | timber |
-| W-0164 | House of Alys the mason | house | 319.3 | 1093.5 | 71.7 | 273° | 7.3 x 9.6 | 6.2 | hip 3.3 | 2 | timber |
-| W-0165 | Workshop of Alys the mason | workshop | 329.9 | 1094.1 | 71.6 | 273° | 6.8 x 5.5 | 6.0 | gable 3.0 | 1 | timber |
-| W-0166 | House of Isabel the furrier | house | 321.4 | 1070.1 | 71.7 | 279° | 8.4 x 10.8 | 6.2 | gable 4.6 | 2 | timber |
-| W-0167 | Workshop of Isabel the furrier | workshop | 332.9 | 1071.9 | 71.7 | 279° | 7.5 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| W-0168 | House of Isabel the scribe | house | 324.7 | 1062.2 | 71.7 | 279° | 7.8 x 14.9 | 9.3 | hip 3.5 | 3 | timber |
-| W-0169 | Workshop of Isabel the scribe | workshop | 337.2 | 1064.2 | 71.7 | 279° | 6.3 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| W-0170 | House of Juliana the bookbinder | shop | 324.7 | 1053.6 | 71.7 | 279° | 8.2 x 12.2 | 6.2 | gable 4.5 | 2 | timber |
-| W-0171 | House of Agnes the tanner | shop | 327.7 | 1039.1 | 71.7 | 279° | 7.3 x 13.6 | 6.2 | gable 4.0 | 2 | stone |
-| W-0172 | Workshop of Agnes the tanner | workshop | 338.9 | 1040.9 | 71.7 | 279° | 5.8 x 5.7 | 3.0 | gable 3.1 | 1 | timber |
-| W-0173 | House of Felice the apothecary | house | 331.8 | 1009.9 | 71.7 | 284° | 7.2 x 9.4 | 6.2 | gable 3.9 | 2 | stone |
-| W-0174 | House of Adam the glover | shop | 335.9 | 1002.1 | 71.7 | 284° | 9.4 x 13.8 | 9.3 | gable 5.2 | 3 | timber |
-| W-0175 | House of Cecily the glazier | shop | 337.1 | 992.9 | 71.7 | 284° | 8.4 x 11.8 | 6.2 | hip 3.8 | 2 | timber |
-| W-0176 | Workshop of Cecily the glazier | workshop | 348.4 | 995.7 | 71.7 | 284° | 6.2 x 6.7 | 6.0 | gable 3.4 | 1 | timber |
-| W-0177 | House of Odo the fuller | house | 515.0 | 647.3 | 71.7 | 313° | 6.1 x 12.5 | 6.2 | gable 3.4 | 2 | timber |
-| W-0178 | House of Hob the hatter | shop | 519.5 | 640.4 | 71.6 | 313° | 8.8 x 9.5 | 6.2 | gable 4.9 | 2 | timber |
-| W-0179 | House of Ivetta the wheelwright | house | 543.4 | 618.6 | 71.7 | 319° | 5.6 x 9.5 | 9.3 | gable 3.1 | 3 | stone |
-| W-0180 | Workshop of Ivetta the wheelwright | workshop | 550.6 | 626.8 | 71.7 | 319° | 4.5 x 6.1 | 3.0 | gable 2.5 | 1 | timber |
-| W-0181 | House of Beatrice the ropemaker | shop | 553.9 | 609.4 | 71.7 | 319° | 7.7 x 9.4 | 6.2 | hip 3.5 | 2 | timber |
-| W-0182 | Workshop of Beatrice the ropemaker | workshop | 560.7 | 617.2 | 71.6 | 319° | 6.7 x 6.2 | 6.0 | gable 3.4 | 1 | timber |
-| W-0183 | House of Elena the potter | house | 494.5 | 638.1 | 71.7 | 133° | 6.1 x 13.5 | 6.2 | gable 3.4 | 2 | timber |
-| W-0184 | House of Felice the fishmonger | shop | 499.8 | 633.3 | 71.7 | 133° | 7.3 x 12.4 | 9.3 | gable 4.0 | 3 | timber |
-| W-0185 | Workshop of Felice the fishmonger | workshop | 490.3 | 624.4 | 71.7 | 133° | 6.5 x 7.8 | 3.0 | gable 3.5 | 1 | timber |
-| W-0186 | House of Christiana the tinker | shop | 512.6 | 619.9 | 71.7 | 139° | 8.8 x 12.6 | 6.2 | gable 4.8 | 2 | timber |
-| W-0187 | Workshop of Christiana the tinker | workshop | 504.2 | 610.3 | 71.7 | 139° | 5.2 x 7.2 | 3.0 | gable 2.8 | 1 | timber |
-| W-0188 | House of Hawise the bellfounder | house | 554.6 | 585.1 | 71.7 | 144° | 5.8 x 11.3 | 9.3 | hip 2.6 | 3 | timber |
-| W-0189 | House of Roger the tinker | house | 560.0 | 580.0 | 71.7 | 144° | 8.6 x 13.3 | 12.4 | gable 4.8 | 4 | timber |
-| W-0190 | House of Alys the notary | shop | 567.0 | 574.0 | 71.8 | 144° | 8.7 x 14.7 | 6.2 | gable 4.8 | 2 | timber |
-| W-0191 | Workshop of Alys the notary | workshop | 560.1 | 564.5 | 72.0 | 144° | 4.9 x 6.0 | 6.0 | gable 2.7 | 1 | timber |
-| W-0192 | House of Felice the fishmonger | house | 669.4 | 536.9 | 72.7 | 332° | 6.2 x 12.1 | 6.2 | gable 3.4 | 2 | timber |
-| W-0193 | House of Hugh the apothecary | house | 681.8 | 529.0 | 73.5 | 335° | 6.0 x 9.4 | 9.3 | gable 3.3 | 3 | timber |
-| W-0194 | Workshop of Hugh the apothecary | workshop | 685.6 | 537.2 | 73.7 | 335° | 5.2 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-| W-0195 | House of Isabel the pewterer | house | 623.3 | 538.3 | 73.0 | 148° | 7.6 x 12.9 | 6.2 | gable 4.2 | 2 | timber |
-| W-0196 | House of Thomas the barber-surgeon | shop | 631.9 | 534.6 | 73.2 | 152° | 9.0 x 10.8 | 9.3 | hip 4.0 | 3 | timber |
-| W-0197 | Workshop of Thomas the barber-surgeon | workshop | 626.4 | 524.1 | 74.7 | 152° | 7.6 x 6.5 | 3.0 | gable 3.6 | 1 | timber |
-| W-0198 | House of Odo the bowyer | shop | 664.2 | 517.0 | 74.5 | 152° | 7.1 x 11.6 | 9.3 | gable 3.9 | 3 | timber |
-| W-0199 | House of Godwin the pewterer | house | 670.1 | 513.4 | 74.9 | 153° | 6.2 x 12.5 | 6.2 | gable 3.4 | 2 | timber |
-| W-0200 | House of Margery the weaver | shop | 678.2 | 510.4 | 75.4 | 155° | 8.8 x 11.0 | 6.2 | gable 4.8 | 2 | timber |
-| W-0201 | Workshop of Margery the weaver | workshop | 673.4 | 500.3 | 76.5 | 155° | 5.5 x 7.5 | 3.0 | gable 3.0 | 1 | timber |
-| W-0202 | House of Juliana the apothecary | house | 685.7 | 506.5 | 76.7 | 155° | 7.3 x 11.7 | 12.4 | gable 4.0 | 4 | timber |
-| W-0203 | House of Margery the wheelwright | shop | 693.7 | 503.7 | 77.2 | 155° | 8.9 x 9.9 | 6.2 | gable 4.9 | 2 | timber |
-| W-0204 | Workshop of Margery the wheelwright | workshop | 689.6 | 495.0 | 77.2 | 155° | 8.5 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-| W-0205 | House of Gilbert the cheesemonger | house | 690.3 | 1243.2 | 71.5 | 156° | 6.7 x 10.9 | 9.3 | gable 3.7 | 3 | timber |
-| W-0206 | Workshop of Gilbert the cheesemonger | workshop | 685.7 | 1233.1 | 71.7 | 156° | 6.4 x 7.0 | 3.0 | gable 3.5 | 1 | timber |
-| W-0207 | House of Beatrice the parchmenter | house | 674.7 | 1249.6 | 71.3 | 155° | 7.6 x 12.5 | 9.3 | gable 4.2 | 3 | timber |
-| W-0208 | Workshop of Beatrice the parchmenter | workshop | 669.5 | 1238.7 | 71.6 | 155° | 5.9 x 6.3 | 3.0 | gable 3.2 | 1 | timber |
-| W-0209 | House of Wat the scribe | house | 765.6 | 1231.0 | 71.7 | 337° | 7.0 x 10.1 | 9.3 | gable 3.8 | 3 | stone |
-| W-0210 | Workshop of Wat the scribe | workshop | 769.3 | 1239.9 | 71.6 | 337° | 5.6 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| W-0211 | House of Jordan the apothecary | shop | 753.0 | 1235.8 | 71.7 | 337° | 7.5 x 9.2 | 12.4 | gable 4.1 | 4 | stone |
-| W-0212 | Workshop of Jordan the apothecary | workshop | 756.3 | 1243.7 | 71.6 | 337° | 5.7 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-| W-0213 | House of Juliana the hatter | shop | 745.0 | 1239.4 | 71.6 | 337° | 8.7 x 9.5 | 15.5 | gable 4.8 | 5 | timber |
-| W-0214 | House of Wat the bellfounder | shop | 737.6 | 1243.5 | 71.5 | 337° | 7.0 x 11.2 | 12.4 | hip 3.1 | 4 | stone |
-| W-0215 | Workshop of Wat the bellfounder | workshop | 742.0 | 1253.6 | 71.4 | 337° | 5.0 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| W-0216 | House of Ralph the apothecary | shop | 707.9 | 1257.9 | 71.3 | 336° | 8.9 x 13.9 | 12.4 | gable 4.9 | 4 | timber |
-| W-0217 | House of Osbert the jeweller | house | 687.8 | 1267.4 | 71.2 | 335° | 7.4 x 14.5 | 9.3 | gable 4.1 | 3 | timber |
-| W-0218 | House of Matilda the pewterer | house | 660.1 | 1278.6 | 71.0 | 333° | 6.7 x 10.3 | 9.3 | gable 3.7 | 3 | timber |
-| W-0219 | House of Roger the fishmonger | shop | 644.6 | 1173.7 | 71.7 | 164° | 8.4 x 12.7 | 6.2 | hip 3.8 | 2 | stone |
-| W-0220 | House of Thomas the saddler | shop | 538.2 | 1215.6 | 71.5 | 153° | 8.0 x 10.0 | 6.2 | gable 4.4 | 2 | timber |
-| W-0221 | House of Beatrice the ropemaker | shop | 494.5 | 1237.2 | 71.2 | 152° | 7.6 x 12.2 | 12.4 | gable 4.2 | 4 | timber |
-| W-0222 | House of Simon the jeweller | house | 487.1 | 1239.8 | 71.2 | 153° | 7.3 x 14.2 | 9.3 | gable 4.0 | 3 | timber |
-| W-0223 | House of Sybil the mercer | house | 727.2 | 1171.8 | 71.7 | 345° | 6.3 x 10.5 | 6.2 | gable 3.5 | 2 | timber |
-| W-0224 | House of Piers the parchmenter | shop | 720.8 | 1173.8 | 71.7 | 345° | 5.8 x 11.3 | 15.5 | gable 3.2 | 5 | stone |
-| W-0225 | Workshop of Piers the parchmenter | workshop | 723.5 | 1184.1 | 71.7 | 345° | 5.6 x 5.7 | 6.0 | gable 3.1 | 1 | timber |
-| W-0226 | House of Hob the potter | house | 668.1 | 1187.3 | 71.7 | 344° | 7.3 x 10.0 | 9.3 | hip 3.3 | 3 | timber |
-| W-0227 | House of Isabel the scribe | house | 661.5 | 1190.1 | 71.7 | 344° | 5.9 x 11.9 | 12.4 | gable 3.2 | 4 | timber |
-| W-0228 | House of Beatrice the money-changer | shop | 654.0 | 1191.9 | 71.7 | 344° | 8.5 x 11.1 | 9.3 | gable 4.7 | 3 | timber |
-| W-0229 | House of Mabel the notary | shop | 645.0 | 1194.1 | 71.7 | 344° | 8.9 x 10.4 | 12.4 | gable 4.9 | 4 | timber |
-| W-0230 | Workshop of Mabel the notary | workshop | 648.0 | 1204.2 | 71.7 | 344° | 5.9 x 6.0 | 3.0 | gable 3.2 | 1 | timber |
-| W-0231 | House of Alan the glover | shop | 623.9 | 1201.6 | 71.7 | 342° | 7.6 x 12.4 | 9.3 | gable 4.2 | 3 | timber |
-| W-0232 | Workshop of Alan the glover | workshop | 627.4 | 1212.5 | 71.7 | 342° | 7.2 x 6.8 | 3.0 | gable 3.8 | 1 | timber |
-| W-0233 | House of Roger the money-changer | house | 581.7 | 1216.9 | 71.7 | 337° | 7.3 x 12.6 | 9.3 | hip 3.3 | 3 | timber |
-| W-0234 | House of Ivetta the vintner | shop | 575.5 | 1220.2 | 71.6 | 337° | 5.7 x 13.8 | 9.3 | gable 3.1 | 3 | timber |
-| W-0235 | Workshop of Ivetta the vintner | workshop | 580.1 | 1230.7 | 71.5 | 337° | 4.5 x 7.1 | 3.0 | gable 2.5 | 1 | timber |
-| W-0236 | House of Osbert the lute-maker | shop | 569.5 | 1222.5 | 71.6 | 336° | 6.4 x 13.3 | 9.3 | gable 3.5 | 3 | stone |
-| W-0237 | House of Edith the tinker | shop | 564.0 | 1226.0 | 71.5 | 335° | 5.7 x 14.9 | 9.3 | hip 2.5 | 3 | timber |
-| W-0238 | House of Matilda the barber-surgeon | house | 556.5 | 1226.9 | 71.5 | 334° | 8.2 x 10.1 | 9.3 | gable 4.5 | 3 | timber |
-| W-0239 | Workshop of Matilda the barber-surgeon | workshop | 561.4 | 1236.9 | 71.4 | 334° | 6.3 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| W-0240 | House of Alys the baker | house | 544.2 | 1235.0 | 71.4 | 333° | 9.1 x 13.7 | 9.3 | hip 4.1 | 3 | timber |
-| W-0241 | Workshop of Alys the baker | workshop | 550.1 | 1246.7 | 71.2 | 333° | 7.8 x 7.3 | 3.0 | gable 4.0 | 1 | timber |
-| W-0242 | House of Walter the herbalist | shop | 519.9 | 1247.7 | 71.1 | 332° | 8.3 x 13.8 | 9.3 | hip 3.7 | 3 | timber |
-| W-0243 | Workshop of Walter the herbalist | workshop | 525.6 | 1258.6 | 71.0 | 332° | 6.5 x 7.2 | 6.0 | gable 3.6 | 1 | timber |
-| W-0244 | House of Amice the jeweller | shop | 511.9 | 1249.7 | 71.1 | 332° | 7.2 x 9.9 | 6.2 | hip 3.3 | 2 | timber |
-| W-0245 | House of Adam the brewer | shop | 505.5 | 1255.4 | 71.0 | 332° | 8.5 x 13.9 | 6.2 | gable 4.7 | 2 | timber |
-| W-0246 | Workshop of Adam the brewer | workshop | 510.3 | 1264.7 | 70.9 | 332° | 7.8 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| W-0247 | House of Rose the potter | shop | 496.5 | 1257.6 | 70.9 | 333° | 8.4 x 9.5 | 9.3 | gable 4.6 | 3 | timber |
-| W-0248 | House of Beatrice the tinker | shop | 480.6 | 1265.9 | 70.9 | 334° | 9.5 x 10.3 | 9.3 | hip 4.3 | 3 | timber |
-| W-0249 | House of Geoffrey the limner | house | 552.3 | 1135.3 | 71.6 | 355° | 8.1 x 10.6 | 6.2 | gable 4.5 | 2 | timber |
-| W-0250 | Workshop of Geoffrey the limner | workshop | 553.4 | 1147.7 | 71.7 | 355° | 5.2 x 7.1 | 3.0 | gable 2.9 | 1 | timber |
-| W-0251 | House of Robin the lute-maker | house | 544.9 | 1137.7 | 71.6 | 356° | 6.7 x 14.2 | 9.3 | hip 3.0 | 3 | timber |
-| W-0252 | Workshop of Robin the lute-maker | workshop | 545.8 | 1150.6 | 71.7 | 356° | 5.4 x 6.3 | 3.0 | gable 3.0 | 1 | timber |
-| W-0253 | House of Felice the jeweller | house | 536.7 | 1136.1 | 71.7 | 356° | 8.0 x 9.9 | 9.3 | hip 3.6 | 3 | timber |
-| W-0254 | House of Ralph the tailor | house | 527.9 | 1138.4 | 71.7 | 356° | 9.4 x 13.4 | 6.2 | hip 4.2 | 2 | timber |
-| W-0255 | Workshop of Ralph the tailor | workshop | 528.7 | 1152.2 | 71.7 | 356° | 8.2 x 6.7 | 6.0 | gable 3.7 | 1 | timber |
-| W-0256 | House of Emma the fishmonger | shop | 518.3 | 1139.8 | 71.7 | 357° | 9.2 x 14.9 | 9.3 | hip 4.1 | 3 | timber |
-| W-0257 | Workshop of Emma the fishmonger | workshop | 519.2 | 1154.5 | 71.7 | 357° | 5.1 x 7.6 | 3.0 | gable 2.8 | 1 | timber |
-| W-0258 | House of Baldwin the draper | house | 509.2 | 1138.6 | 71.7 | 357° | 8.1 x 11.6 | 9.3 | gable 4.5 | 3 | timber |
-| W-0259 | Workshop of Baldwin the draper | workshop | 509.8 | 1150.8 | 71.7 | 357° | 7.0 x 7.4 | 6.0 | gable 3.9 | 1 | timber |
-| W-0260 | House of Thomas the tinker | shop | 427.0 | 1143.8 | 71.7 | 354° | 7.9 x 11.4 | 6.2 | gable 4.3 | 2 | stone |
-| W-0261 | Workshop of Thomas the tinker | workshop | 428.2 | 1156.5 | 71.6 | 354° | 4.9 x 8.0 | 3.0 | gable 2.7 | 1 | timber |
-| W-0262 | House of Richard the money-changer | shop | 418.6 | 1144.2 | 71.7 | 354° | 7.6 x 10.5 | 9.3 | gable 4.2 | 3 | timber |
-| W-0263 | Workshop of Richard the money-changer | workshop | 419.9 | 1155.5 | 71.7 | 354° | 6.7 x 6.0 | 6.0 | gable 3.3 | 1 | timber |
-| W-0264 | House of Maud the fletcher | house | 410.9 | 1145.6 | 71.7 | 353° | 7.0 x 11.5 | 6.2 | hip 3.1 | 2 | timber |
-| W-0265 | House of Amice the limner | shop | 396.2 | 1147.5 | 71.7 | 352° | 7.6 x 11.6 | 6.2 | gable 4.2 | 2 | timber |
-| W-0266 | Workshop of Amice the limner | workshop | 397.9 | 1159.2 | 71.7 | 352° | 5.6 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| W-0267 | House of Hob the armourer | house | 366.7 | 1152.2 | 71.7 | 351° | 8.0 x 11.9 | 9.3 | hip 3.6 | 3 | timber |
-| W-0268 | Workshop of Hob the armourer | workshop | 368.7 | 1164.5 | 71.7 | 351° | 6.2 x 5.7 | 3.0 | gable 3.1 | 1 | timber |
-| W-0269 | House of Rose the parchmenter | shop | 358.0 | 1154.1 | 71.7 | 350° | 9.4 x 12.7 | 6.2 | gable 5.2 | 2 | timber |
-| W-0270 | House of Laurence the mercer | house | 343.3 | 1155.5 | 71.7 | 350° | 7.9 x 10.4 | 9.3 | gable 4.3 | 3 | timber |
-| W-0271 | Workshop of Laurence the mercer | workshop | 345.2 | 1166.1 | 71.7 | 350° | 5.3 x 5.8 | 3.0 | gable 2.9 | 1 | timber |
-| W-0272 | House of Emma the goldsmith | shop | 329.4 | 1158.2 | 71.7 | 350° | 8.0 x 10.9 | 6.2 | gable 4.4 | 2 | timber |
-| W-0273 | Workshop of Emma the goldsmith | workshop | 331.6 | 1170.1 | 71.7 | 350° | 6.0 x 7.8 | 3.0 | gable 3.3 | 1 | timber |
-| W-0274 | House of Piers the barber-surgeon | house | 300.6 | 1163.8 | 71.7 | 349° | 7.6 x 11.5 | 6.2 | hip 3.4 | 2 | timber |
-| W-0275 | House of Elena the mercer | shop | 292.4 | 1167.2 | 71.6 | 349° | 8.5 x 15.0 | 9.3 | hip 3.8 | 3 | timber |
-| W-0276 | House of Rose the hatter | shop | 284.4 | 1168.0 | 71.6 | 349° | 6.7 x 13.7 | 9.3 | gable 3.7 | 3 | timber |
-| W-0277 | Workshop of Rose the hatter | workshop | 286.3 | 1178.4 | 71.6 | 349° | 4.6 x 4.8 | 6.0 | gable 2.5 | 1 | timber |
-| W-0278 | House of Stephen the scribe | house | 263.2 | 1171.9 | 71.5 | 349° | 7.2 x 13.3 | 6.2 | gable 4.0 | 2 | timber |
-| W-0279 | Workshop of Stephen the scribe | workshop | 265.4 | 1183.6 | 71.3 | 349° | 7.1 x 6.6 | 3.0 | gable 3.6 | 1 | timber |
-| W-0280 | House of Alys the butcher | house | 254.4 | 1171.8 | 71.5 | 349° | 8.9 x 9.8 | 6.2 | gable 4.9 | 2 | stone |
-| W-0281 | Workshop of Alys the butcher | workshop | 256.5 | 1182.7 | 71.4 | 349° | 8.0 x 6.4 | 3.0 | gable 3.5 | 1 | timber |
-| W-0282 | House of Wat the pie-seller | house | 246.2 | 1173.1 | 71.5 | 349° | 6.8 x 9.3 | 6.2 | hip 3.1 | 2 | timber |
-| W-0283 | House of Maud the lute-maker | house | 543.4 | 1051.3 | 71.7 | 359° | 6.5 x 12.8 | 12.4 | gable 3.6 | 4 | timber |
-| W-0284 | Workshop of Maud the lute-maker | workshop | 543.6 | 1062.3 | 71.6 | 359° | 4.6 x 5.8 | 3.0 | gable 2.5 | 1 | timber |
-| W-0285 | House of Beatrice the candlemaker | house | 536.6 | 1050.1 | 71.7 | 358° | 6.7 x 10.2 | 9.3 | hip 3.0 | 3 | timber |
-| W-0286 | Workshop of Beatrice the candlemaker | workshop | 536.9 | 1062.2 | 71.7 | 358° | 5.7 x 7.2 | 3.0 | gable 3.1 | 1 | timber |
-| W-0287 | House of Rose the glazier | shop | 529.4 | 1051.8 | 71.7 | 358° | 6.7 x 13.2 | 9.3 | gable 3.7 | 3 | timber |
-| W-0288 | Workshop of Rose the glazier | workshop | 529.9 | 1063.6 | 71.7 | 358° | 5.1 x 6.0 | 3.0 | gable 2.8 | 1 | timber |
-| W-0289 | House of Sybil the money-changer | house | 521.2 | 1051.1 | 71.7 | 358° | 8.8 x 11.0 | 9.3 | gable 4.8 | 3 | timber |
-| W-0290 | House of Roger the bellfounder | house | 504.5 | 1053.5 | 71.5 | 357° | 6.4 x 14.3 | 6.2 | hip 2.9 | 2 | timber |
-| W-0291 | House of Ivetta the herbalist | shop | 305.4 | 1015.2 | 71.7 | 194° | 8.0 x 9.7 | 6.2 | hip 3.6 | 2 | timber |
-| W-0292 | Workshop of Ivetta the herbalist | workshop | 308.1 | 1004.0 | 71.7 | 194° | 7.0 x 7.0 | 6.0 | gable 3.8 | 1 | timber |
-| W-0293 | House of Jordan the clockmaker | shop | 297.2 | 1011.0 | 71.7 | 194° | 9.5 x 13.9 | 6.2 | gable 5.2 | 2 | stone |
-| W-0294 | Workshop of Jordan the clockmaker | workshop | 300.3 | 998.2 | 71.7 | 194° | 7.2 x 4.9 | 6.0 | gable 2.7 | 1 | timber |
-| W-0295 | House of Avice the bookbinder | shop | 465.0 | 1053.4 | 71.3 | 358° | 9.2 x 10.1 | 9.3 | gable 5.1 | 3 | timber |
-| W-0296 | House of Isabel the armourer | house | 422.1 | 1055.8 | 71.7 | 3° | 9.2 x 14.7 | 6.2 | gable 5.1 | 2 | timber |
-| W-0297 | House of Hob the vintner | shop | 413.9 | 1055.4 | 71.7 | 4° | 5.7 x 14.8 | 9.3 | gable 3.1 | 3 | timber |
-| W-0298 | Workshop of Hob the vintner | workshop | 413.0 | 1069.2 | 71.7 | 4° | 5.2 x 6.0 | 3.0 | gable 2.9 | 1 | timber |
-| W-0299 | House of Thomas the bowyer | shop | 406.3 | 1053.6 | 71.7 | 5° | 8.1 x 12.5 | 9.3 | gable 4.5 | 3 | timber |
-| W-0300 | Workshop of Thomas the bowyer | workshop | 405.3 | 1065.0 | 71.7 | 5° | 4.9 x 6.1 | 6.0 | gable 2.7 | 1 | timber |
-| W-0301 | House of Piers the weaver | shop | 397.9 | 1051.3 | 71.6 | 6° | 8.3 x 9.5 | 6.2 | gable 4.6 | 2 | timber |
-| W-0302 | House of Roger the potter | house | 389.1 | 1051.3 | 71.6 | 8° | 8.4 x 11.8 | 6.2 | gable 4.6 | 2 | timber |
-| W-0303 | Workshop of Roger the potter | workshop | 387.6 | 1062.3 | 71.7 | 8° | 6.1 x 6.1 | 3.0 | gable 3.3 | 1 | timber |
-| W-0304 | House of Roger the wheelwright | shop | 380.9 | 1050.3 | 71.7 | 9° | 6.6 x 12.2 | 6.2 | gable 3.6 | 2 | timber |
-| W-0305 | House of Cecily the bookbinder | shop | 374.0 | 1050.1 | 71.7 | 10° | 6.6 x 14.0 | 6.2 | hip 3.0 | 2 | stone |
-| W-0306 | Workshop of Cecily the bookbinder | workshop | 372.1 | 1061.3 | 71.7 | 10° | 6.5 x 6.0 | 6.0 | gable 3.3 | 1 | timber |
-| W-0307 | House of Martin the brewer | house | 352.0 | 1044.4 | 71.7 | 11° | 5.9 x 10.8 | 6.2 | hip 2.7 | 2 | timber |
-| W-0308 | Workshop of Martin the brewer | workshop | 349.9 | 1054.9 | 71.7 | 11° | 5.0 x 5.2 | 6.0 | gable 2.8 | 1 | timber |
-| W-0309 | House of Juliana the parchmenter | house | 262.8 | 1025.7 | 71.7 | 14° | 8.1 x 14.9 | 6.2 | gable 4.4 | 2 | timber |
-| W-0310 | Workshop of Juliana the parchmenter | workshop | 259.4 | 1038.8 | 71.6 | 14° | 7.4 x 6.6 | 3.0 | gable 3.6 | 1 | timber |
-| W-0311 | House of Avice the spicer | house | 255.4 | 1023.8 | 71.7 | 14° | 6.4 x 14.8 | 6.2 | gable 3.5 | 2 | timber |
-| W-0312 | Workshop of Avice the spicer | workshop | 252.3 | 1036.2 | 71.7 | 14° | 5.2 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| W-0313 | House of Mabel the fuller | shop | 248.8 | 1021.5 | 71.7 | 14° | 6.8 x 13.5 | 9.3 | hip 3.0 | 3 | timber |
-| W-0314 | Workshop of Mabel the fuller | workshop | 245.5 | 1034.3 | 71.6 | 14° | 5.1 x 6.5 | 3.0 | gable 2.8 | 1 | timber |
-| W-0315 | House of Agnes the brewer | house | 518.8 | 945.5 | 71.5 | 12° | 6.3 x 9.1 | 9.3 | hip 2.9 | 3 | timber |
-| W-0316 | House of Hugh the fletcher | house | 479.6 | 939.5 | 71.4 | 13° | 8.4 x 14.0 | 9.3 | hip 3.8 | 3 | timber |
-| W-0317 | House of Avice the fletcher | house | 433.5 | 927.2 | 71.6 | 16° | 5.8 x 12.4 | 9.3 | gable 3.2 | 3 | timber |
-| W-0318 | House of Emma the jeweller | shop | 775.2 | 933.6 | 71.6 | 200° | 6.8 x 14.9 | 9.3 | gable 3.8 | 3 | timber |
-| W-0319 | House of Sybil the pie-seller | house | 761.3 | 928.8 | 71.7 | 200° | 7.4 x 14.6 | 9.3 | gable 4.1 | 3 | stone |
-| W-0320 | House of Juliana the lute-maker | shop | 747.8 | 946.4 | 71.7 | 20° | 9.3 x 11.1 | 12.4 | gable 5.1 | 4 | timber |
-| W-0321 | House of Laurence the brewer | house | 739.3 | 945.0 | 71.7 | 20° | 6.5 x 14.2 | 9.3 | gable 3.6 | 3 | stone |
-| W-0322 | House of Godwin the clockmaker | shop | 733.2 | 941.8 | 71.7 | 20° | 5.8 x 12.2 | 12.4 | gable 3.2 | 4 | timber |
-| W-0323 | Workshop of Godwin the clockmaker | workshop | 729.0 | 953.5 | 71.7 | 20° | 4.6 x 5.0 | 3.0 | gable 2.5 | 1 | timber |
-| W-0324 | House of Juliana the brewer | house | 725.2 | 939.6 | 71.7 | 20° | 9.3 x 13.4 | 15.5 | gable 5.1 | 5 | timber |
-| W-0325 | House of Isabel the chandler | shop | 716.2 | 935.3 | 71.7 | 20° | 9.3 x 11.5 | 9.3 | hip 4.2 | 3 | stone |
-| W-0326 | House of Ralph the tailor | shop | 692.9 | 928.1 | 71.7 | 20° | 7.5 x 14.1 | 12.4 | gable 4.2 | 4 | timber |
-| W-0327 | House of Alys the pie-seller | shop | 685.2 | 924.6 | 71.7 | 21° | 7.8 x 12.9 | 9.3 | gable 4.3 | 3 | stone |
-| W-0328 | Workshop of Alys the pie-seller | workshop | 680.6 | 936.7 | 71.7 | 21° | 4.7 x 6.0 | 3.0 | gable 2.6 | 1 | timber |
-| W-0329 | House of Maud the ropemaker | shop | 634.9 | 903.9 | 71.7 | 23° | 7.2 x 11.8 | 6.2 | hip 3.2 | 2 | timber |
-| W-0330 | House of Beatrice the tanner | house | 627.9 | 900.0 | 71.7 | 24° | 8.0 x 10.4 | 9.3 | gable 4.4 | 3 | timber |
-| W-0331 | House of Rose the cobbler | shop | 729.4 | 838.4 | 71.7 | 215° | 5.9 x 9.2 | 9.3 | gable 3.2 | 3 | timber |
-| W-0332 | Workshop of Rose the cobbler | workshop | 736.1 | 828.8 | 71.7 | 215° | 5.0 x 7.3 | 3.0 | gable 2.8 | 1 | timber |
-| W-0333 | House of Adam the notary | shop | 749.8 | 876.7 | 71.6 | 35° | 5.5 x 14.1 | 12.4 | gable 3.0 | 4 | stone |
-| W-0334 | House of Martin the weaver | house | 738.2 | 865.8 | 71.7 | 35° | 7.2 x 9.3 | 12.4 | gable 4.0 | 4 | timber |
-| W-0335 | House of Adam the cobbler | shop | 726.4 | 858.0 | 71.7 | 35° | 8.2 x 10.0 | 15.5 | gable 4.5 | 5 | timber |
-| W-0336 | House of Robin the dyer | house | 482.4 | 640.7 | 71.7 | 226° | 8.1 x 11.6 | 6.2 | gable 4.5 | 2 | timber |
-| W-0337 | House of Roger the scribe | shop | 477.2 | 634.1 | 71.7 | 226° | 7.5 x 13.1 | 9.3 | gable 4.1 | 3 | timber |
-| W-0338 | House of Sybil the potter | shop | 471.3 | 628.4 | 71.7 | 226° | 7.9 x 12.6 | 6.2 | gable 4.3 | 2 | timber |
-| W-0339 | Workshop of Sybil the potter | workshop | 480.0 | 620.1 | 71.7 | 226° | 6.0 x 7.0 | 6.0 | gable 3.3 | 1 | timber |
-| W-0340 | House of Odo the scribe | shop | 447.9 | 603.1 | 71.8 | 226° | 8.5 x 13.4 | 6.2 | hip 3.8 | 2 | timber |
-| W-0341 | House of Gilbert the goldsmith | shop | 475.9 | 660.7 | 71.7 | 46° | 5.5 x 9.3 | 6.2 | gable 3.0 | 2 | timber |
-| W-0342 | House of Beatrice the glazier | shop | 448.4 | 633.3 | 71.7 | 46° | 9.2 x 11.0 | 9.3 | gable 5.0 | 3 | timber |
-| W-0343 | Workshop of Beatrice the glazier | workshop | 439.4 | 641.8 | 71.7 | 46° | 5.4 x 6.3 | 3.0 | gable 3.0 | 1 | timber |
-| W-0344 | House of Roger the bookbinder | shop | 430.4 | 614.9 | 71.7 | 46° | 6.1 x 11.8 | 6.2 | hip 2.8 | 2 | timber |
-| W-0345 | Workshop of Roger the bookbinder | workshop | 422.4 | 622.5 | 71.7 | 46° | 5.5 x 6.5 | 6.0 | gable 3.0 | 1 | timber |
-| W-0346 | House of Agnes the spicer | house | 425.0 | 609.0 | 71.9 | 46° | 9.2 x 11.3 | 9.3 | gable 5.1 | 3 | timber |
-| W-0347 | Workshop of Agnes the spicer | workshop | 416.6 | 617.1 | 71.9 | 46° | 5.8 x 5.6 | 6.0 | gable 3.1 | 1 | timber |
-| W-0348 | House of Maud the stonecarver | house | 804.0 | 803.7 | 71.7 | 229° | 6.3 x 9.4 | 6.2 | gable 3.5 | 2 | timber |
-| W-0349 | House of Piers the tinker | shop | 767.7 | 759.1 | 71.7 | 230° | 8.0 x 12.4 | 12.4 | hip 3.6 | 4 | timber |
-| W-0350 | House of Martin the clockmaker | shop | 761.9 | 752.5 | 71.7 | 230° | 8.8 x 12.0 | 9.3 | gable 4.9 | 3 | timber |
-| W-0351 | House of Maud the cheesemonger | house | 747.1 | 736.0 | 71.7 | 232° | 7.5 x 9.4 | 6.2 | hip 3.4 | 2 | timber |
-| W-0352 | Workshop of Maud the cheesemonger | workshop | 754.3 | 730.4 | 71.7 | 232° | 6.7 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| W-0353 | House of Baldwin the pewterer | shop | 767.2 | 792.3 | 71.7 | 49° | 8.7 x 14.9 | 9.3 | gable 4.8 | 3 | timber |
-| W-0354 | Workshop of Baldwin the pewterer | workshop | 757.4 | 800.8 | 71.6 | 49° | 7.2 x 7.2 | 6.0 | gable 3.9 | 1 | timber |
-| W-0355 | House of Jordan the glazier | shop | 734.6 | 748.3 | 71.7 | 52° | 9.2 x 9.0 | 9.3 | gable 5.0 | 3 | timber |
-| W-0356 | House of Petronilla the cooper | house | 672.1 | 626.5 | 71.7 | 230° | 6.1 x 9.4 | 6.2 | gable 3.4 | 2 | timber |
-| W-0357 | Workshop of Petronilla the cooper | workshop | 681.6 | 618.7 | 71.7 | 230° | 5.6 x 7.4 | 3.0 | gable 3.1 | 1 | timber |
-| W-0358 | House of Rose the baker | shop | 663.6 | 616.6 | 71.7 | 228° | 7.0 x 9.4 | 6.2 | hip 3.2 | 2 | timber |
-| W-0359 | Workshop of Rose the baker | workshop | 671.1 | 609.8 | 71.7 | 228° | 5.3 x 5.8 | 3.0 | gable 2.9 | 1 | timber |
-| W-0360 | House of Walter the spicer | house | 659.5 | 609.0 | 71.7 | 226° | 7.9 x 13.8 | 9.3 | gable 4.3 | 3 | timber |
-| W-0361 | House of Jordan the saddler | shop | 642.3 | 593.5 | 71.7 | 223° | 7.5 x 11.9 | 9.3 | gable 4.1 | 3 | timber |
-| W-0362 | Workshop of Jordan the saddler | workshop | 649.7 | 585.5 | 71.7 | 223° | 6.1 x 7.3 | 3.0 | gable 3.4 | 1 | timber |
-| W-0363 | House of Martin the herbalist | house | 636.8 | 588.0 | 71.7 | 222° | 7.1 x 12.8 | 6.2 | gable 3.9 | 2 | timber |
-| W-0364 | Workshop of Martin the herbalist | workshop | 645.4 | 578.3 | 71.7 | 222° | 4.7 x 7.5 | 3.0 | gable 2.6 | 1 | timber |
-| W-0365 | House of Rose the bowyer | house | 629.9 | 582.7 | 71.7 | 221° | 8.7 x 11.5 | 9.3 | gable 4.8 | 3 | timber |
-| W-0366 | Workshop of Rose the bowyer | workshop | 636.4 | 575.1 | 71.7 | 221° | 7.9 x 5.4 | 6.0 | gable 3.0 | 1 | timber |
-| W-0367 | House of Osbert the fishmonger | house | 623.8 | 577.3 | 71.7 | 220° | 6.2 x 11.9 | 9.3 | gable 3.4 | 3 | timber |
-| W-0368 | Workshop of Osbert the fishmonger | workshop | 632.3 | 567.3 | 71.7 | 220° | 6.2 x 7.4 | 6.0 | gable 3.4 | 1 | timber |
-| W-0369 | House of Sybil the armourer | house | 547.6 | 518.4 | 75.3 | 217° | 9.4 x 10.6 | 9.3 | gable 5.2 | 3 | stone |
-| W-0370 | House of Mabel the cobbler | shop | 541.6 | 511.4 | 75.8 | 217° | 8.0 x 14.4 | 6.2 | gable 4.4 | 2 | timber |
-| W-0371 | House of Alan the bowyer | shop | 579.4 | 567.5 | 71.8 | 38° | 7.7 x 12.4 | 9.3 | gable 4.2 | 3 | timber |
-| W-0372 | House of Alys the dyer | shop | 569.2 | 558.3 | 72.1 | 38° | 6.9 x 10.5 | 6.2 | gable 3.8 | 2 | timber |
-| W-0373 | House of Mabel the pewterer | shop | 563.4 | 553.3 | 72.5 | 37° | 7.7 x 9.6 | 6.2 | hip 3.5 | 2 | timber |
-| W-0374 | House of Mabel the notary | house | 549.9 | 543.9 | 73.3 | 37° | 6.8 x 10.9 | 6.2 | gable 3.7 | 2 | timber |
-| W-0375 | Workshop of Mabel the notary | workshop | 542.2 | 553.9 | 72.8 | 37° | 4.6 x 7.4 | 3.0 | gable 2.5 | 1 | timber |
-| W-0376 | House of Hawise the clockmaker | shop | 532.3 | 529.3 | 74.6 | 37° | 8.5 x 9.0 | 6.2 | gable 4.7 | 2 | stone |
-| W-0377 | House of Elena the cutler | shop | 660.5 | 1247.5 | 71.4 | 239° | 6.2 x 10.9 | 6.2 | gable 3.4 | 2 | timber |
-| W-0378 | House of Richard the bowyer | house | 646.7 | 1213.1 | 71.6 | 252° | 7.2 x 12.8 | 9.3 | gable 4.0 | 3 | stone |
-| W-0379 | House of Alys the cobbler | house | 633.2 | 1168.0 | 71.6 | 262° | 8.8 x 9.2 | 12.4 | gable 4.8 | 4 | timber |
-| W-0380 | House of Ida the parchmenter | shop | 640.3 | 953.2 | 71.7 | 287° | 8.2 x 9.3 | 9.3 | gable 4.5 | 3 | timber |
-| W-0381 | House of Wat the tailor | house | 646.7 | 937.6 | 71.7 | 292° | 7.8 x 11.1 | 12.4 | hip 3.5 | 4 | timber |
-| W-0382 | Workshop of Wat the tailor | workshop | 657.5 | 942.1 | 71.7 | 292° | 4.7 x 7.8 | 3.0 | gable 2.6 | 1 | timber |
-| W-0383 | House of Beatrice the tinker | house | 667.4 | 894.9 | 71.7 | 304° | 7.3 x 9.7 | 12.4 | gable 4.0 | 4 | timber |
-| W-0384 | House of Maud the armourer | house | 698.3 | 855.6 | 71.7 | 312° | 5.6 x 12.9 | 6.2 | gable 3.1 | 2 | stone |
-| W-0385 | Workshop of Maud the armourer | workshop | 707.1 | 863.5 | 71.7 | 312° | 5.0 x 6.6 | 3.0 | gable 2.8 | 1 | timber |
-| W-0386 | House of Adam the pewterer | shop | 702.6 | 849.6 | 71.7 | 312° | 8.1 x 11.2 | 15.5 | gable 4.4 | 5 | timber |
-| W-0387 | House of Jordan the fletcher | shop | 707.2 | 843.3 | 71.7 | 312° | 6.3 x 9.6 | 9.3 | gable 3.5 | 3 | timber |
-| W-0388 | House of Maud the draper | shop | 736.4 | 815.9 | 71.7 | 317° | 7.3 x 12.9 | 6.2 | gable 4.0 | 2 | timber |
-| W-0389 | Workshop of Maud the draper | workshop | 744.0 | 824.2 | 71.7 | 317° | 6.6 x 6.2 | 3.0 | gable 3.4 | 1 | timber |
-| W-0390 | House of Geoffrey the hatter | house | 748.3 | 805.5 | 71.6 | 317° | 8.8 x 13.8 | 6.2 | gable 4.9 | 2 | timber |
-| W-0391 | Workshop of Geoffrey the hatter | workshop | 757.1 | 815.1 | 71.6 | 317° | 5.8 x 7.0 | 3.0 | gable 3.2 | 1 | timber |
-| W-0392 | House of Rose the draper | shop | 782.2 | 773.8 | 71.7 | 322° | 8.1 x 9.1 | 9.3 | gable 4.5 | 3 | timber |
-| W-0393 | Workshop of Rose the draper | workshop | 788.8 | 782.4 | 71.7 | 322° | 8.1 x 7.7 | 3.0 | gable 4.2 | 1 | timber |
-| W-0394 | House of Ivetta the tinker | shop | 819.3 | 748.7 | 71.7 | 328° | 8.9 x 11.5 | 12.4 | gable 4.9 | 4 | timber |
-| W-0395 | Workshop of Ivetta the tinker | workshop | 825.6 | 758.8 | 71.7 | 328° | 8.0 x 7.2 | 6.0 | gable 4.0 | 1 | timber |
-| W-0396 | House of Cecily the wheelwright | shop | 826.8 | 743.4 | 71.7 | 330° | 8.6 x 10.1 | 9.3 | gable 4.7 | 3 | timber |
-| W-0397 | House of Rose the barber-surgeon | shop | 650.7 | 887.8 | 71.7 | 123° | 7.0 x 13.5 | 9.3 | gable 3.9 | 3 | timber |
-| W-0398 | Workshop of Rose the barber-surgeon | workshop | 641.4 | 881.7 | 71.7 | 123° | 5.5 x 4.6 | 6.0 | gable 2.5 | 1 | timber |
-| W-0399 | House of Amice the spicer | shop | 656.4 | 881.9 | 71.7 | 124° | 8.3 x 10.5 | 9.3 | hip 3.7 | 3 | timber |
-| W-0400 | House of Margery the apothecary | house | 718.8 | 805.1 | 71.7 | 135° | 8.5 x 14.6 | 12.4 | gable 4.7 | 4 | timber |
-| W-0401 | House of Ida the bellfounder | shop | 738.2 | 789.0 | 71.7 | 137° | 7.7 x 11.8 | 9.3 | gable 4.2 | 3 | timber |
-| W-0402 | House of Isabel the butcher | shop | 745.8 | 784.0 | 71.6 | 140° | 9.4 x 9.2 | 12.4 | gable 5.0 | 4 | timber |
-| W-0403 | Workshop of Isabel the butcher | workshop | 738.3 | 775.3 | 71.7 | 140° | 7.8 x 6.8 | 6.0 | gable 3.7 | 1 | timber |
-| W-0404 | House of Matilda the mercer | house | 752.0 | 776.8 | 71.6 | 140° | 8.2 x 12.1 | 9.3 | gable 4.5 | 3 | timber |
-| W-0405 | House of Godwin the cooper | house | 810.0 | 733.6 | 71.7 | 148° | 8.8 x 11.6 | 9.3 | gable 4.9 | 3 | timber |
-| W-0406 | House of Matilda the tinker | house | 816.5 | 728.7 | 71.7 | 150° | 6.4 x 13.4 | 9.3 | hip 2.9 | 3 | timber |
-| W-0407 | House of Beatrice the cheesemonger | shop | 822.8 | 724.5 | 71.7 | 150° | 7.1 x 14.2 | 12.4 | gable 3.9 | 4 | timber |
-| W-0408 | Workshop of Beatrice the cheesemonger | workshop | 816.4 | 713.8 | 71.7 | 150° | 5.7 x 6.4 | 3.0 | gable 3.1 | 1 | timber |
-| W-0409 | House of Ralph the lute-maker | house | 523.5 | 1192.6 | 71.7 | 251° | 8.0 x 14.4 | 12.4 | gable 4.4 | 4 | timber |
-| W-0410 | House of Walter the cobbler | house | 504.8 | 1115.5 | 71.7 | 263° | 5.6 x 14.1 | 9.3 | gable 3.1 | 3 | timber |
-| W-0411 | Workshop of Walter the cobbler | workshop | 516.4 | 1114.1 | 71.7 | 263° | 5.3 x 6.8 | 3.0 | gable 2.9 | 1 | timber |
-| W-0412 | House of Stephen the glover | house | 503.9 | 1109.1 | 71.6 | 263° | 6.8 x 13.8 | 9.3 | gable 3.8 | 3 | timber |
-| W-0413 | Workshop of Stephen the glover | workshop | 516.5 | 1107.6 | 71.7 | 263° | 5.0 x 6.0 | 6.0 | gable 2.7 | 1 | timber |
-| W-0414 | House of Godwin the glover | house | 502.9 | 1096.1 | 71.6 | 269° | 6.0 x 13.7 | 9.3 | hip 2.7 | 3 | timber |
-| W-0415 | Workshop of Godwin the glover | workshop | 513.9 | 1095.9 | 71.7 | 269° | 4.7 x 5.4 | 3.0 | gable 2.6 | 1 | timber |
-| W-0416 | House of Margery the glazier | house | 501.3 | 1066.0 | 71.5 | 274° | 7.0 x 11.0 | 6.2 | hip 3.1 | 2 | timber |
-| W-0417 | Workshop of Margery the glazier | workshop | 514.0 | 1066.8 | 71.7 | 274° | 4.9 x 6.7 | 3.0 | gable 2.7 | 1 | timber |
-| W-0418 | House of Rose the carpenter | shop | 527.7 | 919.9 | 71.6 | 286° | 7.9 x 10.9 | 9.3 | gable 4.3 | 3 | timber |
-| W-0419 | House of Margery the fishmonger | shop | 531.6 | 913.3 | 71.6 | 286° | 5.8 x 14.6 | 9.3 | gable 3.2 | 3 | timber |
-| W-0420 | House of Emma the ropemaker | shop | 535.4 | 1264.4 | 71.0 | 61° | 8.5 x 14.9 | 12.4 | gable 4.7 | 4 | timber |
-| W-0421 | Workshop of Emma the ropemaker | workshop | 523.9 | 1270.8 | 70.9 | 61° | 8.2 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| W-0422 | House of Nicholas the parchmenter | shop | 656.7 | 698.8 | 71.7 | 147° | 7.2 x 14.6 | 9.3 | gable 4.0 | 3 | stone |
-| W-0423 | Workshop of Nicholas the parchmenter | workshop | 649.4 | 687.7 | 71.6 | 147° | 6.9 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| W-0424 | House of Cecily the tinker | shop | 766.5 | 644.4 | 78.2 | 159° | 6.0 x 11.1 | 6.2 | gable 3.3 | 2 | timber |
-| W-0425 | Workshop of Cecily the tinker | workshop | 763.2 | 635.7 | 80.4 | 159° | 5.8 x 4.8 | 6.0 | gable 2.7 | 1 | timber |
-| W-0426 | House of Christiana the fishmonger | shop | 772.7 | 641.5 | 80.6 | 159° | 6.4 x 12.0 | 9.3 | gable 3.5 | 3 | timber |
-| W-0427 | Workshop of Christiana the fishmonger | workshop | 768.4 | 630.4 | 83.7 | 159° | 4.9 x 7.8 | 3.0 | gable 2.7 | 1 | timber |
-| W-0428 | House of Hugh the money-changer | shop | 467.8 | 1357.3 | 71.0 | 239° | 8.3 x 10.8 | 6.2 | gable 4.6 | 2 | timber |
-| W-0429 | Workshop of Hugh the money-changer | workshop | 477.8 | 1351.3 | 70.9 | 239° | 5.7 x 6.2 | 3.0 | gable 3.1 | 1 | timber |
-| W-0430 | House of Roger the herbalist | shop | 415.8 | 1249.1 | 70.9 | 249° | 5.6 x 11.0 | 6.2 | hip 2.5 | 2 | stone |
-| W-0431 | Workshop of Roger the herbalist | workshop | 425.9 | 1245.2 | 71.0 | 249° | 4.7 x 6.0 | 3.0 | gable 2.6 | 1 | timber |
-| W-0432 | House of Isabel the bellfounder | house | 413.1 | 1241.6 | 70.9 | 249° | 9.3 x 11.4 | 6.2 | gable 5.1 | 2 | stone |
-| W-0433 | Workshop of Isabel the bellfounder | workshop | 421.7 | 1238.2 | 71.0 | 249° | 5.7 x 4.6 | 6.0 | gable 2.5 | 1 | timber |
-| W-0434 | House of Avice the barber-surgeon | shop | 398.8 | 1199.0 | 71.6 | 252° | 6.0 x 12.6 | 6.2 | hip 2.7 | 2 | timber |
-| W-0435 | House of Sybil the goldsmith | house | 396.9 | 1192.3 | 71.6 | 252° | 7.3 x 13.1 | 12.4 | gable 4.0 | 4 | timber |
-| W-0436 | House of Matilda the pie-seller | house | 387.2 | 1159.9 | 71.7 | 255° | 7.2 x 11.7 | 9.3 | hip 3.2 | 3 | timber |
-| W-0437 | House of Joan the apothecary | house | 384.5 | 1153.3 | 71.7 | 255° | 5.7 x 9.9 | 9.3 | gable 3.2 | 3 | timber |
-| W-0438 | House of Avice the apothecary | house | 378.8 | 1124.1 | 71.7 | 259° | 6.6 x 10.2 | 9.3 | hip 3.0 | 3 | timber |
-| W-0439 | House of Alys the apothecary | shop | 378.6 | 1117.4 | 71.7 | 259° | 6.0 x 12.5 | 12.4 | gable 3.3 | 4 | timber |
-| W-0440 | House of Agnes the draper | shop | 375.6 | 1103.8 | 71.6 | 264° | 8.3 x 10.5 | 9.3 | hip 3.8 | 3 | timber |
-| W-0441 | House of Wat the baker | house | 373.6 | 1077.5 | 71.7 | 264° | 8.9 x 11.9 | 9.3 | hip 4.0 | 3 | timber |
-| W-0442 | Workshop of Wat the baker | workshop | 384.9 | 1076.4 | 71.7 | 264° | 4.7 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| W-0443 | House of Matilda the butcher | house | 597.4 | 651.2 | 71.5 | 316° | 6.7 x 10.6 | 6.2 | gable 3.7 | 2 | timber |
-| W-0444 | House of Wat the candlemaker | house | 609.0 | 642.4 | 71.6 | 320° | 6.6 x 12.8 | 9.3 | gable 3.6 | 3 | timber |
-| W-0445 | House of Odo the glazier | house | 625.4 | 605.6 | 71.6 | 144° | 6.3 x 10.1 | 6.2 | gable 3.5 | 2 | stone |
-| W-0446 | Workshop of Odo the glazier | workshop | 619.3 | 597.1 | 71.6 | 144° | 5.5 x 6.3 | 3.0 | gable 3.0 | 1 | timber |
-| W-0447 | House of Felice the cobbler | house | 661.2 | 580.5 | 71.7 | 149° | 9.2 x 9.6 | 9.3 | gable 5.0 | 3 | timber |
-| W-0448 | Workshop of Felice the cobbler | workshop | 656.2 | 572.2 | 71.7 | 149° | 5.4 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| W-0449 | House of Sybil the butcher | house | 669.0 | 575.2 | 71.7 | 149° | 8.6 x 10.6 | 9.3 | gable 4.7 | 3 | timber |
-| W-0450 | Workshop of Sybil the butcher | workshop | 664.0 | 566.8 | 71.6 | 149° | 7.8 x 5.0 | 6.0 | gable 2.7 | 1 | timber |
-| W-0451 | House of Joan the lute-maker | house | 699.8 | 557.1 | 75.9 | 154° | 8.4 x 10.7 | 9.3 | gable 4.6 | 3 | timber |
-| W-0452 | House of Rose the glover | shop | 321.6 | 1350.9 | 71.3 | 250° | 6.6 x 11.2 | 6.2 | hip 3.0 | 2 | timber |
-| W-0453 | Workshop of Rose the glover | workshop | 332.1 | 1347.0 | 71.2 | 250° | 6.2 x 4.6 | 6.0 | gable 2.5 | 1 | timber |
-| W-0454 | House of Margery the notary | house | 319.9 | 1343.8 | 71.2 | 250° | 7.5 x 12.9 | 6.2 | gable 4.1 | 2 | timber |
-| W-0455 | House of Isabel the locksmith | shop | 317.7 | 1335.4 | 71.0 | 250° | 8.6 x 14.6 | 6.2 | hip 3.9 | 2 | timber |
-| W-0456 | Workshop of Isabel the locksmith | workshop | 328.2 | 1331.5 | 71.0 | 250° | 7.9 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| W-0457 | House of Richard the potter | shop | 313.1 | 1329.2 | 71.0 | 250° | 5.8 x 10.3 | 6.2 | gable 3.2 | 2 | timber |
-| W-0458 | Workshop of Richard the potter | workshop | 324.2 | 1325.1 | 70.9 | 250° | 5.8 x 6.1 | 3.0 | gable 3.2 | 1 | timber |
-| W-0459 | House of Robin the glover | shop | 287.7 | 1213.5 | 71.0 | 262° | 8.7 x 13.2 | 9.3 | gable 4.8 | 3 | timber |
-| W-0460 | House of Baldwin the lute-maker | house | 286.3 | 1199.4 | 71.2 | 266° | 6.5 x 12.6 | 6.2 | hip 2.9 | 2 | timber |
-| W-0461 | House of Nicholas the saddler | house | 284.2 | 1186.0 | 71.4 | 266° | 5.5 x 10.2 | 6.2 | gable 3.0 | 2 | timber |
-| W-0462 | Workshop of Nicholas the saddler | workshop | 295.3 | 1185.3 | 71.5 | 266° | 5.2 x 5.2 | 3.0 | gable 2.9 | 1 | timber |
-| W-0463 | House of Ralph the tailor | house | 283.1 | 1146.2 | 71.6 | 269° | 7.0 x 11.5 | 6.2 | gable 3.9 | 2 | timber |
-| W-0464 | House of Geoffrey the glover | shop | 284.6 | 1137.7 | 71.7 | 269° | 9.0 x 14.7 | 9.3 | gable 4.9 | 3 | timber |
-| W-0465 | House of Godwin the fletcher | house | 282.7 | 1129.5 | 71.7 | 269° | 5.9 x 10.9 | 9.3 | hip 2.7 | 3 | timber |
-| W-0466 | House of Sybil the wheelwright | shop | 282.6 | 1123.1 | 71.7 | 269° | 6.2 x 10.9 | 6.2 | gable 3.4 | 2 | timber |
-| W-0467 | Workshop of Sybil the wheelwright | workshop | 291.7 | 1123.0 | 71.7 | 269° | 5.1 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| W-0468 | House of Thomas the mason | shop | 283.8 | 1107.1 | 71.7 | 272° | 8.9 x 12.8 | 9.3 | gable 4.9 | 3 | timber |
-| W-0469 | Workshop of Thomas the mason | workshop | 293.6 | 1107.4 | 71.8 | 272° | 7.8 x 4.8 | 6.0 | gable 2.6 | 1 | timber |
-| W-0470 | House of Martin the furrier | shop | 283.1 | 1098.3 | 71.7 | 272° | 8.1 x 10.9 | 6.2 | gable 4.5 | 2 | timber |
-| W-0471 | Workshop of Martin the furrier | workshop | 295.4 | 1098.7 | 71.7 | 272° | 8.0 x 6.3 | 6.0 | gable 3.5 | 1 | timber |
-| W-0472 | House of Ralph the candlemaker | house | 283.8 | 1075.2 | 71.7 | 272° | 8.3 x 10.8 | 6.2 | gable 4.6 | 2 | timber |
-| W-0473 | House of Cecily the herbalist | shop | 284.8 | 1059.9 | 71.7 | 274° | 7.6 x 11.0 | 9.3 | gable 4.2 | 3 | timber |
-| W-0474 | Workshop of Cecily the herbalist | workshop | 296.5 | 1060.7 | 71.7 | 274° | 7.5 x 7.2 | 6.0 | gable 3.9 | 1 | timber |
-| W-0475 | House of Robin the pie-seller | shop | 292.3 | 986.9 | 71.7 | 276° | 6.2 x 14.1 | 6.2 | gable 3.4 | 2 | timber |
-| W-0476 | Workshop of Robin the pie-seller | workshop | 304.1 | 988.0 | 71.7 | 276° | 6.0 x 7.2 | 3.0 | gable 3.3 | 1 | timber |
-| W-0477 | House of Sybil the chandler | house | 291.6 | 980.2 | 71.7 | 276° | 5.6 x 11.5 | 6.2 | hip 2.5 | 2 | timber |
-| W-0478 | House of Beatrice the fletcher | shop | 265.0 | 1121.2 | 71.7 | 89° | 7.7 x 11.8 | 6.2 | gable 4.2 | 2 | stone |
-| W-0479 | House of Simon the fletcher | shop | 318.0 | 846.7 | 71.7 | 286° | 7.8 x 10.8 | 9.3 | gable 4.3 | 3 | timber |
-| W-0480 | House of Christiana the chandler | house | 323.2 | 832.6 | 71.7 | 291° | 7.1 x 11.9 | 6.2 | gable 3.9 | 2 | timber |
-| W-0481 | Workshop of Christiana the chandler | workshop | 335.2 | 837.2 | 71.7 | 291° | 6.6 x 7.4 | 3.0 | gable 3.6 | 1 | timber |
-| W-0482 | House of Emma the pie-seller | house | 319.4 | 795.3 | 71.7 | 111° | 5.7 x 9.4 | 6.2 | gable 3.1 | 2 | timber |
-| W-0483 | Workshop of Emma the pie-seller | workshop | 310.5 | 791.9 | 71.7 | 111° | 4.8 x 7.6 | 6.0 | gable 2.6 | 1 | timber |
-| W-0484 | House of Piers the weaver | shop | 395.2 | 697.8 | 71.7 | 308° | 6.0 x 12.2 | 9.3 | gable 3.3 | 3 | timber |
-| W-0485 | House of Isabel the vintner | shop | 398.9 | 691.5 | 71.7 | 308° | 7.7 x 10.4 | 9.3 | gable 4.2 | 3 | timber |
-| W-0486 | Workshop of Isabel the vintner | workshop | 406.4 | 697.3 | 71.7 | 308° | 6.3 x 6.0 | 6.0 | gable 3.3 | 1 | timber |
-| W-0487 | House of Juliana the baker | house | 423.0 | 661.1 | 71.7 | 312° | 7.6 x 9.2 | 9.3 | gable 4.2 | 3 | timber |
-| W-0488 | House of Beatrice the brewer | shop | 474.1 | 610.2 | 71.7 | 316° | 8.1 x 11.2 | 6.2 | gable 4.5 | 2 | timber |
-| W-0489 | House of Robin the cooper | house | 484.5 | 600.8 | 71.7 | 319° | 6.6 x 12.0 | 6.2 | gable 3.6 | 2 | timber |
-| W-0490 | Workshop of Robin the cooper | workshop | 492.0 | 609.4 | 71.7 | 319° | 6.1 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| W-0491 | House of Matilda the tanner | shop | 490.6 | 596.8 | 71.7 | 319° | 6.9 x 13.9 | 9.3 | hip 3.1 | 3 | timber |
-| W-0492 | Workshop of Matilda the tanner | workshop | 497.9 | 605.1 | 71.7 | 319° | 6.6 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| W-0493 | House of Godwin the chandler | shop | 520.7 | 568.5 | 72.1 | 319° | 6.5 x 10.5 | 6.2 | hip 2.9 | 2 | timber |
-| W-0494 | House of Martin the wheelwright | house | 573.2 | 529.7 | 74.0 | 324° | 6.7 x 14.3 | 6.2 | hip 3.0 | 2 | timber |
-| W-0495 | Workshop of Martin the wheelwright | workshop | 581.0 | 540.3 | 73.3 | 324° | 4.5 x 5.4 | 3.0 | gable 2.5 | 1 | timber |
-| W-0496 | House of Christiana the mason | shop | 590.4 | 515.7 | 75.0 | 324° | 9.2 x 12.0 | 6.2 | gable 5.1 | 2 | timber |
-| W-0497 | House of Laurence the armourer | shop | 364.7 | 710.4 | 71.7 | 122° | 6.3 x 10.3 | 6.2 | gable 3.4 | 2 | timber |
-| W-0498 | House of Nicholas the bookbinder | house | 367.0 | 704.6 | 71.7 | 122° | 5.5 x 12.7 | 9.3 | gable 3.0 | 3 | timber |
-| W-0499 | Workshop of Nicholas the bookbinder | workshop | 357.0 | 698.3 | 71.7 | 122° | 4.6 x 6.6 | 6.0 | gable 2.5 | 1 | timber |
-| W-0500 | House of Martin the apothecary | shop | 370.6 | 698.7 | 71.7 | 128° | 6.2 x 13.2 | 6.2 | gable 3.4 | 2 | timber |
-| W-0501 | Workshop of Martin the apothecary | workshop | 359.8 | 690.3 | 71.8 | 128° | 5.0 x 7.2 | 3.0 | gable 2.7 | 1 | timber |
-| W-0502 | House of Osbert the apothecary | shop | 373.7 | 693.3 | 71.7 | 128° | 5.8 x 14.8 | 9.3 | gable 3.2 | 3 | timber |
-| W-0503 | Workshop of Osbert the apothecary | workshop | 363.5 | 685.4 | 71.8 | 128° | 5.0 x 5.8 | 6.0 | gable 2.7 | 1 | timber |
-| W-0504 | House of Ivetta the cooper | house | 379.9 | 688.8 | 71.7 | 128° | 7.8 x 10.6 | 6.2 | hip 3.5 | 2 | timber |
-| W-0505 | Workshop of Ivetta the cooper | workshop | 372.4 | 683.0 | 71.8 | 128° | 4.9 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| W-0506 | House of Roger the fishmonger | shop | 384.3 | 680.6 | 71.7 | 128° | 9.4 x 13.6 | 6.2 | gable 5.2 | 2 | timber |
-| W-0507 | Workshop of Roger the fishmonger | workshop | 373.2 | 672.0 | 71.7 | 128° | 7.3 x 7.2 | 3.0 | gable 4.0 | 1 | timber |
-| W-0508 | House of Odo the money-changer | shop | 390.4 | 673.1 | 71.7 | 128° | 9.2 x 13.2 | 6.2 | gable 5.1 | 2 | timber |
-| W-0509 | House of Alys the cheesemonger | shop | 394.8 | 666.5 | 71.7 | 128° | 6.2 x 14.3 | 6.2 | gable 3.4 | 2 | timber |
-| W-0510 | House of Matilda the fletcher | house | 405.8 | 655.6 | 71.7 | 132° | 9.0 x 11.1 | 6.2 | gable 5.0 | 2 | timber |
-| W-0511 | House of Amice the cobbler | house | 412.0 | 649.9 | 71.7 | 132° | 6.6 x 9.9 | 6.2 | gable 3.6 | 2 | timber |
-| W-0512 | House of Rose the tailor | house | 417.5 | 644.3 | 71.7 | 132° | 8.5 x 9.2 | 6.2 | hip 3.8 | 2 | timber |
-| W-0513 | Workshop of Rose the tailor | workshop | 410.6 | 638.0 | 71.7 | 132° | 8.2 x 5.5 | 6.0 | gable 3.0 | 1 | timber |
-| W-0514 | House of Agnes the ropemaker | shop | 428.2 | 632.5 | 71.7 | 132° | 7.9 x 9.3 | 6.2 | gable 4.3 | 2 | timber |
-| W-0515 | House of Felice the mercer | shop | 437.8 | 621.6 | 71.7 | 135° | 6.7 x 10.3 | 12.4 | gable 3.7 | 4 | timber |
-| W-0516 | House of Hawise the baker | shop | 464.0 | 596.3 | 71.8 | 136° | 6.9 x 10.4 | 6.2 | hip 3.1 | 2 | timber |
-| W-0517 | Workshop of Hawise the baker | workshop | 457.3 | 589.4 | 72.2 | 136° | 6.3 x 5.8 | 6.0 | gable 3.2 | 1 | timber |
-| W-0518 | House of Nicholas the furrier | shop | 468.8 | 590.9 | 71.9 | 136° | 6.4 x 11.6 | 9.3 | gable 3.5 | 3 | timber |
-| W-0519 | House of Amice the vintner | shop | 563.5 | 514.5 | 75.6 | 144° | 8.8 x 9.3 | 9.3 | hip 4.0 | 3 | timber |
-| W-0520 | House of Hob the mercer | house | 569.5 | 508.3 | 76.0 | 144° | 7.1 x 12.3 | 6.2 | gable 3.9 | 2 | timber |
-| W-0521 | Workshop of Hob the mercer | workshop | 561.1 | 496.9 | 77.5 | 144° | 4.6 x 8.0 | 3.0 | gable 2.5 | 1 | timber |
-| W-0522 | House of Sybil the brewer | house | 590.4 | 492.0 | 77.4 | 144° | 8.9 x 13.9 | 6.2 | gable 4.9 | 2 | timber |
-| W-0523 | Workshop of Sybil the brewer | workshop | 581.9 | 480.3 | 79.2 | 144° | 8.8 x 7.3 | 3.0 | gable 4.0 | 1 | timber |
-| W-0524 | House of Alan the cobbler | shop | 654.5 | 471.2 | 80.3 | 329° | 7.4 x 9.4 | 6.2 | gable 4.0 | 2 | timber |
-| W-0525 | Workshop of Alan the cobbler | workshop | 659.1 | 479.0 | 79.4 | 329° | 4.8 x 5.7 | 6.0 | gable 2.6 | 1 | timber |
-| W-0526 | House of Elena the bellfounder | shop | 657.1 | 450.7 | 83.4 | 149° | 9.3 x 10.8 | 6.2 | gable 5.1 | 2 | timber |
-| W-0527 | Workshop of Elena the bellfounder | workshop | 652.0 | 442.1 | 85.7 | 149° | 4.7 x 7.0 | 6.0 | gable 2.6 | 1 | timber |
-| W-0528 | House of Osbert the mercer | shop | 633.4 | 1247.9 | 71.3 | 343° | 8.5 x 11.9 | 12.4 | hip 3.8 | 4 | timber |
-| W-0529 | House of Osbert the carpenter | house | 625.4 | 1250.6 | 71.2 | 342° | 7.2 x 12.4 | 9.3 | hip 3.2 | 3 | timber |
-| W-0530 | House of Henry the notary | house | 598.6 | 1260.0 | 71.1 | 336° | 7.9 x 11.2 | 6.2 | gable 4.3 | 2 | timber |
-| W-0531 | Workshop of Henry the notary | workshop | 603.7 | 1271.6 | 71.0 | 336° | 7.0 x 6.5 | 3.0 | gable 3.6 | 1 | timber |
-| W-0532 | House of Rose the fletcher | house | 587.1 | 1266.9 | 71.0 | 333° | 6.9 x 13.6 | 6.2 | gable 3.8 | 2 | timber |
-| W-0533 | Workshop of Rose the fletcher | workshop | 593.3 | 1279.1 | 70.9 | 333° | 4.6 x 7.8 | 3.0 | gable 2.5 | 1 | timber |
-| W-0534 | House of Joan the armourer | house | 581.5 | 1270.4 | 70.9 | 332° | 5.6 x 14.6 | 9.3 | gable 3.1 | 3 | timber |
-| W-0535 | Workshop of Joan the armourer | workshop | 587.6 | 1282.2 | 70.9 | 332° | 4.9 x 5.8 | 3.0 | gable 2.7 | 1 | timber |
-| W-0536 | House of Matilda the tailor | shop | 366.2 | 1352.0 | 71.1 | 147° | 6.9 x 11.0 | 6.2 | gable 3.8 | 2 | timber |
-| W-0537 | House of Martin the cheesemonger | house | 359.4 | 1354.9 | 71.2 | 146° | 6.8 x 13.7 | 6.2 | gable 3.8 | 2 | timber |
-| W-0538 | House of Petronilla the armourer | shop | 421.1 | 1343.5 | 70.9 | 343° | 8.2 x 9.8 | 6.2 | hip 3.7 | 2 | timber |
-| W-0539 | Workshop of Petronilla the armourer | workshop | 424.2 | 1353.2 | 71.0 | 343° | 6.6 x 7.2 | 3.0 | gable 3.6 | 1 | timber |
-| W-0540 | House of Alan the fletcher | shop | 553.1 | 1162.7 | 71.7 | 163° | 6.4 x 12.5 | 6.2 | gable 3.5 | 2 | timber |
-| W-0541 | House of Rose the dyer | shop | 546.6 | 1166.3 | 71.8 | 161° | 6.7 x 9.7 | 6.2 | gable 3.7 | 2 | timber |
-| W-0542 | House of Alan the bookbinder | house | 531.6 | 1170.2 | 71.7 | 158° | 8.8 x 13.0 | 9.3 | gable 4.8 | 3 | timber |
-| W-0543 | House of Robin the dyer | shop | 617.7 | 1174.0 | 71.6 | 357° | 5.9 x 12.8 | 15.5 | hip 2.6 | 5 | stone |
-| W-0544 | House of Ralph the lute-maker | house | 611.5 | 1173.5 | 71.6 | 358° | 5.6 x 11.3 | 9.3 | gable 3.1 | 3 | timber |
-| W-0545 | House of Matilda the saddler | house | 604.5 | 1175.6 | 71.7 | 357° | 7.3 x 14.8 | 12.4 | gable 4.0 | 4 | stone |
-| W-0546 | Workshop of Matilda the saddler | workshop | 605.1 | 1187.3 | 71.7 | 357° | 5.8 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| W-0547 | House of Richard the butcher | shop | 565.2 | 1177.5 | 71.7 | 347° | 6.8 x 10.0 | 9.3 | gable 3.7 | 3 | timber |
-| W-0548 | House of Sybil the hatter | house | 551.7 | 1183.1 | 71.7 | 341° | 9.5 x 12.9 | 9.3 | hip 4.3 | 3 | timber |
-| W-0549 | Workshop of Sybil the hatter | workshop | 555.9 | 1195.3 | 71.7 | 341° | 5.0 x 5.4 | 3.0 | gable 2.8 | 1 | timber |
-| W-0550 | House of Beatrice the bookbinder | house | 537.9 | 1187.0 | 71.7 | 338° | 6.6 x 10.4 | 6.2 | hip 3.0 | 2 | timber |
-| W-0551 | House of Amice the spicer | shop | 498.9 | 1193.5 | 71.6 | 337° | 9.4 x 13.2 | 9.3 | gable 5.2 | 3 | timber |
-| W-0552 | Workshop of Amice the spicer | workshop | 503.8 | 1205.2 | 71.6 | 337° | 5.5 x 5.7 | 3.0 | gable 3.0 | 1 | timber |
-| W-0553 | House of Godwin the vintner | house | 489.8 | 1196.2 | 71.3 | 338° | 8.6 x 11.2 | 6.2 | gable 4.7 | 2 | timber |
-| W-0554 | Workshop of Godwin the vintner | workshop | 494.4 | 1207.3 | 71.6 | 338° | 8.3 x 7.5 | 3.0 | gable 4.1 | 1 | timber |
-| W-0555 | House of Martin the candlemaker | house | 440.0 | 1214.0 | 71.4 | 344° | 7.6 x 11.1 | 9.3 | hip 3.4 | 3 | timber |
-| W-0556 | House of Petronilla the vintner | house | 426.6 | 1218.3 | 71.3 | 345° | 6.2 x 12.5 | 6.2 | hip 2.8 | 2 | timber |
-| W-0557 | Workshop of Petronilla the vintner | workshop | 429.1 | 1227.7 | 71.2 | 345° | 5.4 x 4.8 | 3.0 | gable 2.7 | 1 | timber |
-| W-0558 | House of Gilbert the mason | house | 414.4 | 1221.6 | 71.2 | 346° | 6.9 x 12.8 | 9.3 | hip 3.1 | 3 | timber |
-| W-0559 | House of Sybil the dyer | house | 407.3 | 1221.6 | 71.2 | 346° | 6.2 x 9.3 | 9.3 | gable 3.4 | 3 | timber |
-| W-0560 | House of Christiana the potter | shop | 308.8 | 1213.2 | 71.0 | 158° | 7.8 x 13.3 | 6.2 | gable 4.3 | 2 | timber |
-| W-0561 | Workshop of Christiana the potter | workshop | 304.1 | 1201.7 | 71.2 | 158° | 5.0 x 7.0 | 3.0 | gable 2.8 | 1 | timber |
-| W-0562 | House of Edith the cheesemonger | shop | 357.0 | 1221.4 | 71.1 | 358° | 7.7 x 11.3 | 6.2 | gable 4.2 | 2 | timber |
-| W-0563 | Workshop of Edith the cheesemonger | workshop | 357.3 | 1232.7 | 71.0 | 358° | 7.3 x 5.9 | 6.0 | gable 3.2 | 1 | timber |
-| W-0564 | House of Agnes the potter | shop | 313.0 | 1231.0 | 70.9 | 338° | 8.3 x 10.4 | 6.2 | hip 3.8 | 2 | timber |
-| W-0565 | House of Elena the cobbler | shop | 541.7 | 1092.3 | 71.7 | 3° | 9.0 x 12.9 | 9.3 | gable 5.0 | 3 | timber |
-| W-0566 | House of Sybil the fishmonger | shop | 533.0 | 1091.5 | 71.7 | 4° | 7.0 x 12.3 | 9.3 | gable 3.9 | 3 | timber |
-| W-0567 | Workshop of Sybil the fishmonger | workshop | 532.3 | 1103.2 | 71.7 | 4° | 6.4 x 7.8 | 6.0 | gable 3.5 | 1 | timber |
-| W-0568 | House of Martin the locksmith | shop | 526.2 | 1090.6 | 71.7 | 4° | 6.1 x 11.3 | 6.2 | hip 2.7 | 2 | timber |
-| W-0569 | Workshop of Martin the locksmith | workshop | 525.5 | 1099.7 | 71.7 | 4° | 5.1 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| W-0570 | House of Edith the stonecarver | house | 462.9 | 1088.7 | 71.3 | 5° | 6.4 x 11.1 | 6.2 | hip 2.9 | 2 | timber |
-| W-0571 | Workshop of Edith the stonecarver | workshop | 462.1 | 1098.7 | 71.5 | 5° | 4.7 x 4.7 | 6.0 | gable 2.6 | 1 | timber |
-| W-0572 | House of Hob the draper | shop | 420.6 | 1090.6 | 71.7 | 346° | 6.0 x 10.0 | 9.3 | gable 3.3 | 3 | timber |
-| W-0573 | House of Ida the locksmith | house | 399.3 | 1097.7 | 71.6 | 342° | 6.6 x 11.9 | 6.2 | gable 3.6 | 2 | timber |
-| W-0574 | Workshop of Ida the locksmith | workshop | 403.1 | 1109.4 | 71.7 | 342° | 6.1 x 7.8 | 6.0 | gable 3.3 | 1 | timber |
-| W-0575 | House of Hugh the wheelwright | shop | 385.6 | 1101.4 | 71.6 | 342° | 5.8 x 10.2 | 9.3 | gable 3.2 | 3 | stone |
-| W-0576 | House of Baldwin the jeweller | shop | 353.9 | 1100.0 | 71.7 | 14° | 9.4 x 11.8 | 6.2 | gable 5.2 | 2 | timber |
-| W-0577 | House of Alys the baker | house | 346.1 | 1096.9 | 71.7 | 14° | 6.8 x 9.6 | 6.2 | gable 3.7 | 2 | timber |
-| W-0578 | House of Osbert the parchmenter | shop | 546.1 | 1006.9 | 71.7 | 8° | 6.0 x 13.6 | 9.3 | hip 2.7 | 3 | timber |
-| W-0579 | Workshop of Osbert the parchmenter | workshop | 544.1 | 1020.1 | 71.7 | 8° | 5.5 x 6.7 | 3.0 | gable 3.0 | 1 | timber |
-| W-0580 | House of Martin the pie-seller | shop | 539.5 | 1004.6 | 71.8 | 9° | 6.5 x 11.1 | 6.2 | gable 3.6 | 2 | timber |
-| W-0581 | House of Joan the cobbler | shop | 507.6 | 1000.5 | 71.4 | 9° | 6.0 x 13.1 | 9.3 | gable 3.3 | 3 | timber |
-| W-0582 | House of Thomas the bowyer | house | 474.4 | 996.8 | 71.3 | 7° | 8.8 x 14.1 | 9.3 | gable 4.8 | 3 | timber |
-| W-0583 | Workshop of Thomas the bowyer | workshop | 472.9 | 1009.3 | 71.5 | 7° | 6.8 x 6.4 | 3.0 | gable 3.5 | 1 | timber |
-| W-0584 | House of Godwin the saddler | shop | 596.0 | 917.9 | 71.7 | 24° | 6.3 x 10.9 | 9.3 | gable 3.5 | 3 | timber |
-| W-0585 | House of Gilbert the mason | shop | 609.7 | 663.6 | 71.7 | 218° | 7.1 x 14.7 | 6.2 | gable 3.9 | 2 | timber |
-| W-0586 | House of Petronilla the barber-surgeon | shop | 589.9 | 672.9 | 71.6 | 35° | 7.7 x 11.3 | 9.3 | hip 3.5 | 3 | timber |
-| W-0587 | House of Petronilla the furrier | house | 557.4 | 632.6 | 71.6 | 218° | 8.5 x 13.4 | 9.3 | gable 4.7 | 3 | stone |
-| W-0588 | House of Thomas the tailor | shop | 547.5 | 647.2 | 71.6 | 37° | 7.3 x 9.2 | 6.2 | hip 3.3 | 2 | timber |
-| W-0589 | House of Christiana the vintner | house | 540.1 | 643.2 | 71.7 | 38° | 7.8 x 12.1 | 6.2 | gable 4.3 | 2 | timber |
-| W-0590 | Workshop of Christiana the vintner | workshop | 531.8 | 653.6 | 71.7 | 38° | 7.3 x 7.6 | 6.0 | gable 4.0 | 1 | timber |
-| W-0591 | House of Ivetta the glover | shop | 534.2 | 637.4 | 71.7 | 40° | 6.8 x 10.4 | 9.3 | hip 3.1 | 3 | timber |
-| W-0592 | House of Alys the cutler | house | 527.9 | 632.7 | 71.6 | 41° | 7.0 x 11.5 | 6.2 | gable 3.9 | 2 | timber |
-| W-0593 | House of Mabel the potter | house | 778.2 | 719.8 | 71.7 | 59° | 7.3 x 13.2 | 9.3 | gable 4.0 | 3 | timber |
-| W-0594 | House of Martin the cutler | shop | 713.8 | 592.5 | 75.2 | 242° | 5.8 x 11.1 | 6.2 | hip 2.6 | 2 | timber |
-| W-0595 | House of Alan the baker | house | 711.9 | 586.7 | 75.3 | 242° | 5.9 x 13.2 | 9.3 | gable 3.2 | 3 | timber |
-| W-0596 | Workshop of Alan the baker | workshop | 722.8 | 580.8 | 81.1 | 242° | 5.5 x 6.8 | 3.0 | gable 3.0 | 1 | timber |
-| W-0597 | House of Christiana the hatter | house | 703.5 | 573.7 | 75.2 | 242° | 5.5 x 10.7 | 6.2 | gable 3.0 | 2 | stone |
-| W-0598 | House of Henry the stonecarver | shop | 682.5 | 553.2 | 72.5 | 234° | 9.1 x 9.5 | 6.2 | gable 5.0 | 2 | timber |
-| W-0599 | Workshop of Henry the stonecarver | workshop | 691.8 | 546.5 | 74.6 | 234° | 6.3 x 6.8 | 3.0 | gable 3.5 | 1 | timber |
-| W-0600 | House of Piers the clockmaker | house | 653.4 | 506.1 | 75.8 | 239° | 7.4 x 13.1 | 6.2 | gable 4.1 | 2 | timber |
-| W-0601 | Workshop of Piers the clockmaker | workshop | 663.1 | 500.2 | 76.5 | 239° | 7.3 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| W-0602 | House of Hob the saddler | house | 665.2 | 556.3 | 71.6 | 55° | 8.0 x 10.0 | 6.2 | hip 3.6 | 2 | stone |
-| W-0603 | Workshop of Hob the saddler | workshop | 656.1 | 562.8 | 71.6 | 55° | 5.6 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| W-0604 | House of Geoffrey the bowyer | shop | 643.5 | 527.5 | 73.7 | 58° | 9.0 x 13.8 | 6.2 | gable 5.0 | 2 | timber |
-| W-0605 | Tenement of Rose the tanner | tenement | 677.6 | 472.6 | 80.2 | 328° | 6.0 x 6.4 | 6.0 | gable 3.3 | 2 | timber |
-| W-0606 | Storehouse of Baldwin the lute-maker | storehouse | 643.1 | 483.3 | 79.2 | 238° | 6.1 x 6.0 | 3.6 | gable 3.3 | 1 | timber |
-| W-0607 | Workshop of Mabel the saddler | workshop | 666.5 | 484.7 | 78.4 | 239° | 7.2 x 8.4 | 3.6 | gable 4.0 | 1 | timber |
-| W-0608 | Storehouse of Isabel the draper | storehouse | 649.2 | 491.5 | 77.6 | 330° | 7.4 x 8.8 | 3.6 | gable 4.1 | 1 | timber |
-| W-0609 | Tenement of Christiana the parchmenter | tenement | 597.6 | 506.8 | 76.2 | 230° | 5.2 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| W-0610 | Storehouse of Stephen the fletcher | storehouse | 632.9 | 507.6 | 76.5 | 325° | 4.5 x 4.7 | 3.6 | gable 2.5 | 1 | timber |
-| W-0611 | Stable of Margery the mason | stable | 692.2 | 526.8 | 76.5 | 241° | 8.5 x 7.1 | 3.6 | gable 3.9 | 1 | timber |
-| W-0612 | Tenement of Roger the stonecarver | tenement | 589.6 | 535.2 | 73.5 | 233° | 6.5 x 6.8 | 6.0 | gable 3.6 | 2 | timber |
-| W-0613 | Storehouse of Baldwin the fishmonger | storehouse | 699.6 | 534.4 | 79.1 | 241° | 4.6 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| W-0614 | Storehouse of Edith the pewterer | storehouse | 709.3 | 535.6 | 83.0 | 327° | 4.2 x 5.4 | 3.6 | gable 2.3 | 1 | timber |
-| W-0615 | Tenement of Emma the bookbinder | tenement | 700.2 | 542.9 | 78.4 | 331° | 4.8 x 4.3 | 3.0 | gable 2.4 | 1 | timber |
-| W-0616 | Storehouse of Isabel the fishmonger | storehouse | 718.2 | 543.7 | 85.6 | 241° | 6.2 x 6.5 | 3.6 | gable 3.4 | 1 | timber |
-| W-0617 | Stable of Alys the limner | stable | 514.2 | 552.5 | 73.3 | 226° | 4.5 x 5.0 | 3.6 | gable 2.5 | 1 | timber |
-| W-0618 | Tenement of Roger the locksmith | tenement | 643.0 | 551.2 | 71.9 | 324° | 8.3 x 6.1 | 6.0 | gable 3.4 | 2 | timber |
-| W-0619 | Tenement of Piers the wheelwright | tenement | 710.5 | 549.0 | 81.8 | 327° | 5.4 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| W-0620 | Storehouse of Felice the carpenter | storehouse | 497.6 | 561.4 | 72.9 | 312° | 4.5 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| W-0621 | Workshop of Sybil the saddler | workshop | 532.2 | 559.3 | 72.5 | 315° | 7.5 x 6.9 | 3.6 | gable 3.8 | 1 | timber |
-| W-0622 | Tenement of Emma the bellfounder | tenement | 548.2 | 558.6 | 72.5 | 314° | 5.1 x 5.2 | 3.0 | gable 2.8 | 1 | timber |
-| W-0623 | Storehouse of Joan the wheelwright | storehouse | 539.9 | 566.8 | 71.9 | 226° | 7.2 x 6.9 | 3.6 | gable 3.8 | 1 | timber |
-| W-0624 | Tenement of Richard the draper | tenement | 617.5 | 567.2 | 71.7 | 229° | 8.4 x 6.7 | 3.0 | gable 3.7 | 1 | timber |
-| W-0625 | Storehouse of Godwin the furrier | storehouse | 675.8 | 569.9 | 71.7 | 322° | 4.2 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| W-0626 | Stable of Alys the bellfounder | stable | 718.0 | 566.2 | 82.3 | 239° | 4.3 x 5.3 | 3.6 | gable 2.4 | 1 | timber |
-| W-0627 | Storehouse of Martin the parchmenter | storehouse | 548.0 | 574.9 | 71.7 | 228° | 4.9 x 5.0 | 3.6 | gable 2.7 | 1 | timber |
-| W-0628 | Workshop of Cecily the candlemaker | workshop | 736.1 | 578.3 | 86.7 | 330° | 8.4 x 6.8 | 3.6 | gable 3.7 | 1 | timber |
-| W-0629 | Tenement of Ralph the glover | tenement | 685.0 | 584.4 | 71.8 | 238° | 5.1 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| W-0630 | Stable of Laurence the candlemaker | stable | 572.3 | 593.9 | 71.5 | 319° | 4.6 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| W-0631 | Tenement of Maud the scribe | tenement | 606.0 | 594.0 | 71.7 | 232° | 8.2 x 7.4 | 3.0 | gable 4.1 | 1 | timber |
-| W-0632 | Tenement of Henry the dyer | tenement | 676.3 | 591.7 | 71.7 | 237° | 8.2 x 6.6 | 6.0 | gable 3.6 | 2 | timber |
-| W-0633 | Tenement of Walter the scribe | tenement | 734.0 | 592.5 | 82.8 | 329° | 6.9 x 7.8 | 6.0 | gable 3.8 | 2 | timber |
-| W-0634 | Tenement of Hawise the bellfounder | tenement | 668.6 | 601.1 | 71.7 | 234° | 4.4 x 5.0 | 3.0 | gable 2.4 | 1 | timber |
-| W-0635 | Tenement of Hob the notary | tenement | 685.1 | 602.5 | 71.7 | 328° | 6.7 x 6.0 | 6.0 | gable 3.3 | 2 | timber |
-| W-0636 | Storehouse of Matilda the scribe | storehouse | 618.3 | 611.3 | 71.7 | 320° | 4.2 x 5.5 | 3.6 | gable 2.3 | 1 | timber |
-| W-0637 | Stable of Rose the vintner | stable | 691.9 | 610.3 | 71.7 | 238° | 4.3 x 5.5 | 3.6 | gable 2.4 | 1 | timber |
-| W-0638 | Tenement of Robin the locksmith | tenement | 504.3 | 626.9 | 71.7 | 314° | 4.0 x 4.6 | 6.0 | gable 2.2 | 2 | timber |
-| W-0639 | Workshop of Thomas the baker | workshop | 598.1 | 626.9 | 71.4 | 228° | 4.8 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| W-0640 | Tenement of Geoffrey the cutler | tenement | 592.4 | 634.5 | 71.4 | 225° | 6.8 x 6.2 | 6.0 | gable 3.4 | 2 | timber |
-| W-0641 | Tenement of Richard the fishmonger | tenement | 431.3 | 652.9 | 71.7 | 303° | 7.6 x 6.7 | 3.0 | gable 3.7 | 1 | timber |
-| W-0642 | Workshop of Piers the tailor | workshop | 447.7 | 652.3 | 71.7 | 308° | 8.3 x 8.6 | 3.6 | gable 4.6 | 1 | timber |
-| W-0643 | Storehouse of Roger the potter | storehouse | 462.8 | 654.9 | 71.7 | 303° | 6.8 x 6.7 | 3.6 | gable 3.7 | 1 | timber |
-| W-0644 | Workshop of Joan the pewterer | workshop | 616.1 | 651.9 | 71.7 | 313° | 4.0 x 5.4 | 3.6 | gable 2.2 | 1 | timber |
-| W-0645 | Workshop of Joan the goldsmith | workshop | 438.3 | 662.7 | 71.7 | 305° | 6.4 x 8.8 | 3.6 | gable 3.5 | 1 | timber |
-| W-0646 | Storehouse of Jordan the apothecary | storehouse | 453.9 | 661.2 | 71.7 | 213° | 4.2 x 4.3 | 3.6 | gable 2.3 | 1 | timber |
-| W-0647 | Tenement of Juliana the bookbinder | tenement | 539.6 | 660.0 | 71.7 | 216° | 6.9 x 7.7 | 6.0 | gable 3.8 | 2 | timber |
-| W-0648 | Storehouse of Christiana the butcher | storehouse | 556.6 | 659.6 | 71.4 | 220° | 4.7 x 5.5 | 3.6 | gable 2.6 | 1 | timber |
-| W-0649 | Tenement of Osbert the pie-seller | tenement | 777.3 | 662.2 | 75.4 | 238° | 8.3 x 8.2 | 9.0 | gable 4.5 | 3 | timber |
-| W-0650 | Tenement of Cecily the bellfounder | tenement | 420.6 | 671.3 | 71.7 | 214° | 4.8 x 4.6 | 9.0 | gable 2.5 | 3 | timber |
-| W-0651 | Stable of Hob the mercer | stable | 430.1 | 670.9 | 71.7 | 305° | 4.2 x 4.8 | 3.6 | gable 2.3 | 1 | timber |
-| W-0652 | Tenement of Edith the cooper | tenement | 445.5 | 669.7 | 71.7 | 219° | 4.0 x 4.3 | 3.0 | gable 2.2 | 1 | timber |
-| W-0653 | Storehouse of Baldwin the ropemaker | storehouse | 453.6 | 671.7 | 71.7 | 308° | 5.4 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| W-0654 | Storehouse of Henry the notary | storehouse | 463.7 | 669.4 | 71.7 | 214° | 4.6 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| W-0655 | Workshop of Avice the cobbler | workshop | 547.8 | 669.7 | 71.6 | 221° | 6.8 x 7.0 | 3.6 | gable 3.8 | 1 | timber |
-| W-0656 | Stable of Petronilla the cutler | stable | 615.8 | 670.7 | 71.7 | 225° | 4.4 x 4.5 | 3.6 | gable 2.4 | 1 | timber |
-| W-0657 | Tenement of Odo the fuller | tenement | 412.1 | 679.9 | 71.6 | 212° | 8.6 x 7.6 | 3.0 | gable 4.2 | 1 | timber |
-| W-0658 | Stable of Wat the tinker | stable | 428.0 | 679.8 | 71.7 | 215° | 8.1 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| W-0659 | Stable of Henry the weaver | stable | 446.3 | 679.8 | 71.7 | 301° | 4.2 x 4.8 | 3.6 | gable 2.3 | 1 | timber |
-| W-0660 | Tenement of Hawise the wheelwright | tenement | 599.6 | 678.9 | 71.7 | 221° | 4.5 x 4.9 | 6.0 | gable 2.5 | 2 | timber |
-| W-0661 | Stable of Maud the fuller | stable | 609.2 | 686.2 | 71.7 | 313° | 4.5 x 5.3 | 3.6 | gable 2.5 | 1 | timber |
-| W-0662 | Workshop of Roger the tanner | workshop | 676.1 | 685.2 | 71.7 | 231° | 8.9 x 6.5 | 3.6 | gable 3.5 | 1 | timber |
-| W-0663 | Tenement of Edith the money-changer | tenement | 648.8 | 702.8 | 71.7 | 226° | 5.3 x 4.2 | 9.0 | gable 2.3 | 3 | timber |
-| W-0664 | Tenement of Cecily the wheelwright | tenement | 701.2 | 703.3 | 71.7 | 316° | 7.5 x 6.7 | 9.0 | gable 3.7 | 3 | timber |
-| W-0665 | Tenement of Osbert the notary | tenement | 668.2 | 712.9 | 71.7 | 227° | 4.5 x 5.1 | 3.0 | gable 2.5 | 1 | timber |
-| W-0666 | Stable of Matilda the pie-seller | stable | 684.6 | 713.8 | 71.6 | 224° | 8.9 x 6.9 | 3.6 | gable 3.8 | 1 | timber |
-| W-0667 | Workshop of Emma the pewterer | workshop | 677.1 | 721.8 | 71.7 | 316° | 5.2 x 5.4 | 3.6 | gable 2.9 | 1 | timber |
-| W-0668 | Tenement of Hugh the butcher | tenement | 693.3 | 720.5 | 71.7 | 313° | 4.9 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| W-0669 | Storehouse of Godwin the scribe | storehouse | 703.3 | 722.1 | 71.6 | 320° | 4.1 x 4.5 | 3.6 | gable 2.2 | 1 | timber |
-| W-0670 | Storehouse of Thomas the chandler | storehouse | 754.1 | 720.1 | 71.7 | 236° | 4.9 x 5.0 | 3.6 | gable 2.7 | 1 | timber |
-| W-0671 | Stable of Hugh the herbalist | stable | 352.8 | 728.9 | 71.7 | 209° | 7.5 x 6.8 | 3.6 | gable 3.7 | 1 | timber |
-| W-0672 | Tenement of Simon the herbalist | tenement | 778.8 | 730.2 | 71.7 | 324° | 6.0 x 6.9 | 6.0 | gable 3.3 | 2 | timber |
-| W-0673 | Storehouse of Robin the lute-maker | storehouse | 725.9 | 737.0 | 71.7 | 320° | 4.8 x 5.0 | 3.6 | gable 2.6 | 1 | timber |
-| W-0674 | Workshop of Piers the ropemaker | workshop | 762.4 | 736.7 | 71.7 | 325° | 6.1 x 8.8 | 3.6 | gable 3.4 | 1 | timber |
-| W-0675 | Tenement of Alys the fishmonger | tenement | 787.1 | 738.5 | 71.7 | 233° | 7.1 x 6.9 | 6.0 | gable 3.8 | 2 | timber |
-| W-0676 | Stable of Felice the saddler | stable | 777.2 | 747.1 | 71.7 | 236° | 8.2 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| W-0677 | Workshop of Cecily the cobbler | workshop | 709.6 | 754.5 | 71.7 | 225° | 5.3 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| W-0678 | Stable of Alys the saddler | stable | 716.7 | 761.9 | 71.7 | 226° | 8.3 x 7.9 | 3.6 | gable 4.3 | 1 | timber |
-| W-0679 | Storehouse of Amice the tailor | storehouse | 734.5 | 762.1 | 71.7 | 313° | 5.2 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| W-0680 | Stable of Elena the fuller | stable | 744.5 | 761.6 | 71.7 | 225° | 4.3 x 4.5 | 3.6 | gable 2.3 | 1 | timber |
-| W-0681 | Tenement of Hawise the mason | tenement | 813.7 | 764.6 | 71.7 | 326° | 6.7 x 6.8 | 6.0 | gable 3.7 | 2 | timber |
-| W-0682 | Tenement of Walter the locksmith | tenement | 325.6 | 774.0 | 71.6 | 206° | 7.9 x 6.3 | 6.0 | gable 3.5 | 2 | timber |
-| W-0683 | Workshop of Osbert the cutler | workshop | 795.6 | 773.1 | 71.7 | 322° | 6.2 x 8.1 | 3.6 | gable 3.4 | 1 | timber |
-| W-0684 | Tenement of Petronilla the clockmaker | tenement | 819.9 | 773.6 | 71.7 | 326° | 6.5 x 7.4 | 6.0 | gable 3.6 | 2 | timber |
-| W-0685 | Tenement of Rose the weaver | tenement | 803.0 | 780.6 | 71.7 | 233° | 7.8 x 6.2 | 9.0 | gable 3.4 | 3 | timber |
-| W-0686 | Storehouse of Alys the tanner | storehouse | 718.4 | 790.4 | 71.7 | 312° | 4.3 x 4.8 | 3.6 | gable 2.4 | 1 | timber |
-| W-0687 | Tenement of Odo the tanner | tenement | 794.2 | 789.7 | 71.7 | 323° | 5.4 x 5.4 | 9.0 | gable 3.0 | 3 | timber |
-| W-0688 | Tenement of Godwin the furrier | tenement | 810.2 | 788.1 | 71.7 | 232° | 7.0 x 6.7 | 6.0 | gable 3.7 | 2 | timber |
-| W-0689 | Tenement of Emma the pie-seller | tenement | 312.2 | 807.4 | 71.7 | 204° | 8.6 x 6.4 | 6.0 | gable 3.5 | 2 | timber |
-| W-0690 | Workshop of Hugh the dyer | workshop | 767.7 | 806.4 | 71.6 | 319° | 6.7 x 8.4 | 3.6 | gable 3.7 | 1 | timber |
-| W-0691 | Tenement of Matilda the limner | tenement | 711.9 | 813.2 | 71.7 | 216° | 4.2 x 5.5 | 3.0 | gable 2.3 | 1 | timber |
-| W-0692 | Tenement of Hawise the dyer | tenement | 328.7 | 823.5 | 71.7 | 288° | 7.9 x 6.2 | 3.0 | gable 3.4 | 1 | timber |
-| W-0693 | Tenement of Geoffrey the jeweller | tenement | 727.0 | 824.8 | 71.7 | 223° | 7.8 x 6.7 | 9.0 | gable 3.7 | 3 | timber |
-| W-0694 | Storehouse of Osbert the bellfounder | storehouse | 751.6 | 831.6 | 71.7 | 310° | 8.4 x 7.0 | 3.6 | gable 3.8 | 1 | timber |
-| W-0695 | Stable of Beatrice the cutler | stable | 742.5 | 841.8 | 71.7 | 309° | 7.7 x 8.1 | 3.6 | gable 4.2 | 1 | timber |
-| W-0696 | Storehouse of Mabel the tanner | storehouse | 793.1 | 838.6 | 71.7 | 312° | 4.4 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| W-0697 | Workshop of Osbert the weaver | workshop | 294.0 | 849.3 | 71.6 | 201° | 7.4 x 6.0 | 3.6 | gable 3.3 | 1 | timber |
-| W-0698 | Tenement of Amice the spicer | tenement | 337.0 | 846.6 | 71.7 | 290° | 5.3 x 5.2 | 3.0 | gable 2.8 | 1 | timber |
-| W-0699 | Workshop of Juliana the tailor | workshop | 751.6 | 848.0 | 71.7 | 219° | 6.5 x 7.1 | 3.6 | gable 3.5 | 1 | timber |
-| W-0700 | Stable of Hawise the fishmonger | stable | 786.1 | 846.7 | 71.7 | 313° | 8.4 x 7.2 | 3.6 | gable 4.0 | 1 | timber |
-| W-0701 | Workshop of Hob the hatter | workshop | 295.0 | 865.7 | 71.7 | 192° | 4.7 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| W-0702 | Tenement of Henry the furrier | tenement | 666.6 | 867.5 | 71.7 | 208° | 4.8 x 4.5 | 9.0 | gable 2.5 | 3 | timber |
-| W-0703 | Tenement of Simon the limner | tenement | 694.9 | 867.1 | 71.7 | 305° | 8.8 x 9.0 | 6.0 | gable 4.8 | 2 | timber |
-| W-0704 | Stable of Avice the cooper | stable | 717.3 | 863.7 | 71.7 | 301° | 5.2 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| W-0705 | Stable of Agnes the stonecarver | stable | 284.8 | 874.8 | 71.7 | 195° | 6.4 x 7.1 | 3.6 | gable 3.5 | 1 | timber |
-| W-0706 | Storehouse of Roger the armourer | storehouse | 660.0 | 873.5 | 71.6 | 206° | 4.0 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| W-0707 | Stable of Matilda the stonecarver | stable | 684.3 | 874.3 | 71.7 | 212° | 6.2 x 8.3 | 3.6 | gable 3.4 | 1 | timber |
-| W-0708 | Workshop of Felice the locksmith | workshop | 701.1 | 875.6 | 71.7 | 301° | 4.6 x 4.8 | 3.6 | gable 2.5 | 1 | timber |
-| W-0709 | Storehouse of Isabel the cheesemonger | storehouse | 711.2 | 873.9 | 71.7 | 212° | 4.4 x 5.1 | 3.6 | gable 2.4 | 1 | timber |
-| W-0710 | Storehouse of Isabel the candlemaker | storehouse | 676.8 | 884.2 | 71.7 | 297° | 8.0 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| W-0711 | Tenement of Ralph the herbalist | tenement | 692.8 | 882.6 | 71.7 | 302° | 8.6 x 8.8 | 6.0 | gable 4.8 | 2 | timber |
-| W-0712 | Tenement of Simon the herbalist | tenement | 711.9 | 883.5 | 71.7 | 209° | 4.5 x 4.0 | 6.0 | gable 2.2 | 2 | timber |
-| W-0713 | Stable of Rose the candlemaker | stable | 285.8 | 892.1 | 71.7 | 282° | 6.2 x 8.7 | 3.6 | gable 3.4 | 1 | timber |
-| W-0714 | Tenement of Amice the apothecary | tenement | 429.8 | 892.9 | 71.7 | 200° | 4.8 x 4.8 | 9.0 | gable 2.6 | 3 | timber |
-| W-0715 | Storehouse of Avice the brewer | storehouse | 683.2 | 889.3 | 71.7 | 206° | 4.5 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| W-0716 | Storehouse of Hob the armourer | storehouse | 430.0 | 900.8 | 71.7 | 199° | 4.4 x 4.5 | 3.6 | gable 2.4 | 1 | timber |
-| W-0717 | Tenement of Laurence the barber-surgeon | tenement | 438.2 | 898.4 | 71.7 | 198° | 4.0 x 4.8 | 6.0 | gable 2.2 | 2 | timber |
-| W-0718 | Tenement of Jordan the potter | tenement | 464.8 | 900.6 | 71.7 | 286° | 4.2 x 4.2 | 3.0 | gable 2.3 | 1 | timber |
-| W-0719 | Stable of Roger the carpenter | stable | 607.2 | 897.5 | 71.7 | 291° | 8.6 x 7.3 | 3.6 | gable 4.0 | 1 | timber |
-| W-0720 | Storehouse of Cecily the weaver | storehouse | 617.2 | 899.8 | 71.7 | 206° | 6.4 x 7.0 | 3.6 | gable 3.5 | 1 | timber |
-| W-0721 | Stable of Gilbert the scribe | stable | 785.2 | 897.8 | 71.7 | 214° | 5.0 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| W-0722 | Stable of Christiana the baker | stable | 278.1 | 908.7 | 71.7 | 193° | 7.4 x 7.5 | 3.6 | gable 4.1 | 1 | timber |
-| W-0723 | Tenement of Christiana the cheesemonger | tenement | 436.7 | 908.4 | 71.7 | 197° | 7.7 x 6.0 | 6.0 | gable 3.3 | 2 | timber |
-| W-0724 | Workshop of Simon the furrier | workshop | 481.6 | 909.5 | 71.6 | 193° | 6.1 x 8.9 | 3.6 | gable 3.4 | 1 | timber |
-| W-0725 | Tenement of Emma the clockmaker | tenement | 540.8 | 907.5 | 71.7 | 201° | 6.1 x 6.5 | 3.0 | gable 3.4 | 1 | timber |
-| W-0726 | Tenement of Alys the vintner | tenement | 556.6 | 906.7 | 71.7 | 201° | 7.0 x 8.5 | 3.0 | gable 3.9 | 1 | timber |
-| W-0727 | Tenement of Cecily the goldsmith | tenement | 573.8 | 909.8 | 71.7 | 198° | 9.0 x 6.6 | 9.0 | gable 3.6 | 3 | timber |
-| W-0728 | Tenement of Richard the clockmaker | tenement | 760.8 | 907.8 | 71.6 | 303° | 7.1 x 6.3 | 9.0 | gable 3.5 | 3 | timber |
-| W-0729 | Tenement of Godwin the butcher | tenement | 488.6 | 916.2 | 71.5 | 288° | 4.5 x 4.2 | 3.0 | gable 2.3 | 1 | timber |
-| W-0730 | Tenement of Jordan the pie-seller | tenement | 548.5 | 916.2 | 71.7 | 289° | 6.7 x 6.6 | 6.0 | gable 3.6 | 2 | timber |
-| W-0731 | Tenement of Martin the barber-surgeon | tenement | 269.0 | 925.4 | 71.7 | 187° | 8.2 x 7.9 | 3.0 | gable 4.3 | 1 | timber |
-| W-0732 | Stable of Christiana the herbalist | stable | 540.8 | 923.0 | 71.7 | 291° | 4.7 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| W-0733 | Stable of Matilda the pewterer | stable | 548.7 | 926.5 | 71.7 | 199° | 4.2 x 4.3 | 3.6 | gable 2.3 | 1 | timber |
-| W-0734 | Tenement of Elena the pewterer | tenement | 564.9 | 924.6 | 71.7 | 287° | 6.1 x 8.8 | 6.0 | gable 3.3 | 2 | timber |
-| W-0735 | Tenement of Ivetta the fishmonger | tenement | 676.1 | 924.7 | 71.7 | 201° | 4.9 x 4.7 | 9.0 | gable 2.6 | 3 | timber |
-| W-0736 | Storehouse of Beatrice the potter | storehouse | 539.0 | 932.5 | 71.7 | 285° | 4.2 x 4.6 | 3.6 | gable 2.3 | 1 | timber |
-| W-0737 | Tenement of Felice the bookbinder | tenement | 658.2 | 933.4 | 71.7 | 197° | 4.6 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| W-0738 | Workshop of Petronilla the parchmenter | workshop | 786.4 | 935.2 | 71.6 | 297° | 6.6 x 8.2 | 3.6 | gable 3.6 | 1 | timber |
-| W-0739 | Tenement of Hawise the jeweller | tenement | 268.3 | 942.1 | 71.6 | 188° | 8.8 x 6.8 | 6.0 | gable 3.8 | 2 | timber |
-| W-0740 | Stable of Emma the glover | stable | 427.9 | 941.8 | 71.7 | 282° | 7.5 x 8.6 | 3.6 | gable 4.1 | 1 | timber |
-| W-0741 | Stable of Hawise the armourer | stable | 669.4 | 941.8 | 71.7 | 204° | 7.5 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| W-0742 | Tenement of Wat the cobbler | tenement | 692.4 | 943.7 | 71.7 | 290° | 4.3 x 5.0 | 9.0 | gable 2.4 | 3 | timber |
-| W-0743 | Storehouse of Piers the glover | storehouse | 278.4 | 951.7 | 71.7 | 187° | 4.2 x 4.9 | 3.6 | gable 2.3 | 1 | timber |
-| W-0744 | Tenement of Thomas the candlemaker | tenement | 651.4 | 948.8 | 71.7 | 288° | 4.9 x 5.2 | 9.0 | gable 2.7 | 3 | timber |
-| W-0745 | Storehouse of Odo the cooper | storehouse | 683.7 | 949.5 | 71.7 | 292° | 7.5 x 7.7 | 3.6 | gable 4.1 | 1 | timber |
-| W-0746 | Stable of Juliana the mercer | stable | 759.4 | 951.8 | 71.6 | 202° | 6.3 x 6.0 | 3.6 | gable 3.3 | 1 | timber |
-| W-0747 | Tenement of Edith the dyer | tenement | 268.1 | 958.3 | 71.7 | 187° | 8.3 x 8.1 | 3.0 | gable 4.5 | 1 | timber |
-| W-0748 | Stable of Robin the pie-seller | stable | 294.0 | 959.5 | 71.7 | 192° | 4.9 x 5.1 | 3.6 | gable 2.7 | 1 | timber |
-| W-0749 | Tenement of Robin the cheesemonger | tenement | 428.7 | 957.5 | 71.7 | 277° | 4.8 x 4.3 | 3.0 | gable 2.4 | 1 | timber |
-| W-0750 | Tenement of Agnes the bellfounder | tenement | 461.5 | 959.5 | 71.7 | 190° | 8.2 x 8.7 | 9.0 | gable 4.5 | 3 | timber |
-| W-0751 | Tenement of Baldwin the glazier | tenement | 267.8 | 968.0 | 71.7 | 187° | 6.1 x 6.4 | 3.0 | gable 3.3 | 1 | timber |
-| W-0752 | Tenement of Joan the candlemaker | tenement | 292.9 | 967.9 | 71.7 | 275° | 5.5 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| W-0753 | Storehouse of Ivetta the armourer | storehouse | 274.8 | 977.9 | 71.6 | 275° | 4.3 x 4.9 | 3.6 | gable 2.4 | 1 | timber |
-| W-0754 | Tenement of Rose the cheesemonger | tenement | 512.5 | 974.6 | 71.4 | 187° | 5.4 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| W-0755 | Stable of Martin the locksmith | stable | 539.2 | 977.1 | 71.7 | 194° | 7.6 x 7.0 | 3.6 | gable 3.9 | 1 | timber |
-| W-0756 | Storehouse of Isabel the parchmenter | storehouse | 260.1 | 982.6 | 71.6 | 185° | 8.0 x 6.8 | 3.6 | gable 3.7 | 1 | timber |
-| W-0757 | Tenement of Thomas the potter | tenement | 320.1 | 983.8 | 71.7 | 188° | 4.6 x 4.3 | 6.0 | gable 2.3 | 2 | timber |
-| W-0758 | Tenement of Odo the hatter | tenement | 342.6 | 985.7 | 71.7 | 183° | 4.2 x 4.0 | 6.0 | gable 2.2 | 2 | timber |
-| W-0759 | Storehouse of Sybil the wheelwright | storehouse | 353.4 | 984.3 | 71.7 | 190° | 8.5 x 7.3 | 3.6 | gable 4.0 | 1 | timber |
-| W-0760 | Workshop of Emma the pewterer | workshop | 516.1 | 984.0 | 71.6 | 280° | 4.2 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| W-0761 | Stable of Hawise the herbalist | stable | 550.3 | 983.4 | 71.7 | 194° | 8.7 x 6.8 | 3.6 | gable 3.8 | 1 | timber |
-| W-0762 | Tenement of Martin the tailor | tenement | 269.3 | 993.5 | 71.7 | 278° | 8.0 x 6.5 | 3.0 | gable 3.6 | 1 | timber |
-| W-0763 | Tenement of Rose the notary | tenement | 360.2 | 994.2 | 71.7 | 188° | 5.0 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| W-0764 | Stable of Cecily the carpenter | stable | 260.2 | 1002.5 | 71.7 | 185° | 7.3 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| W-0765 | Tenement of Martin the apothecary | tenement | 359.6 | 1002.3 | 71.7 | 184° | 4.4 x 4.3 | 9.0 | gable 2.4 | 3 | timber |
-| W-0766 | Tenement of Felice the herbalist | tenement | 422.3 | 1001.3 | 71.7 | 190° | 4.7 x 5.1 | 9.0 | gable 2.6 | 3 | timber |
-| W-0767 | Stable of Elena the carpenter | stable | 515.8 | 1001.5 | 71.6 | 189° | 4.5 x 5.2 | 3.6 | gable 2.5 | 1 | timber |
-| W-0768 | Tenement of Thomas the dyer | tenement | 286.4 | 1008.1 | 71.7 | 188° | 4.7 x 5.3 | 3.0 | gable 2.6 | 1 | timber |
-| W-0769 | Tenement of Felice the brewer | tenement | 402.4 | 1010.2 | 71.7 | 182° | 8.2 x 8.9 | 3.0 | gable 4.5 | 1 | timber |
-| W-0770 | Tenement of Maud the parchmenter | tenement | 420.1 | 1009.9 | 71.7 | 273° | 5.4 x 5.1 | 6.0 | gable 2.8 | 2 | timber |
-| W-0771 | Storehouse of Piers the vintner | storehouse | 521.0 | 1011.7 | 71.7 | 276° | 7.9 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| W-0772 | Workshop of Laurence the locksmith | workshop | 531.2 | 1009.9 | 71.7 | 280° | 4.4 x 5.0 | 3.6 | gable 2.4 | 1 | timber |
-| W-0773 | Storehouse of Hawise the cutler | storehouse | 394.5 | 1020.1 | 71.7 | 276° | 4.5 x 5.2 | 3.6 | gable 2.5 | 1 | timber |
-| W-0774 | Storehouse of Robin the carpenter | storehouse | 410.9 | 1020.4 | 71.7 | 185° | 4.0 x 5.0 | 3.6 | gable 2.2 | 1 | timber |
-| W-0775 | Stable of Wat the brewer | stable | 419.6 | 1019.7 | 71.7 | 276° | 8.7 x 7.7 | 3.6 | gable 4.2 | 1 | timber |
-| W-0776 | Tenement of Roger the weaver | tenement | 473.5 | 1017.5 | 71.5 | 276° | 5.0 x 5.1 | 9.0 | gable 2.7 | 3 | timber |
-| W-0777 | Tenement of Odo the mercer | tenement | 505.1 | 1017.3 | 71.5 | 278° | 4.8 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| W-0778 | Storehouse of Hawise the glazier | storehouse | 530.9 | 1018.4 | 71.7 | 279° | 6.9 x 8.0 | 3.6 | gable 3.8 | 1 | timber |
-| W-0779 | Tenement of Baldwin the cobbler | tenement | 811.6 | 1018.3 | 71.6 | 285° | 8.9 x 7.6 | 9.0 | gable 4.2 | 3 | timber |
-| W-0780 | Storehouse of Hawise the wheelwright | storehouse | 464.6 | 1027.7 | 71.5 | 186° | 8.1 x 8.3 | 3.6 | gable 4.4 | 1 | timber |
-| W-0781 | Stable of Amice the spicer | stable | 513.4 | 1027.0 | 71.7 | 271° | 8.4 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| W-0782 | Stable of Ivetta the potter | stable | 524.5 | 1027.2 | 71.7 | 276° | 6.9 x 8.0 | 3.6 | gable 3.8 | 1 | timber |
-| W-0783 | Workshop of Godwin the herbalist | workshop | 811.0 | 1033.7 | 71.7 | 191° | 7.2 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| W-0784 | Workshop of Ralph the mercer | workshop | 812.3 | 1042.8 | 71.7 | 188° | 4.0 x 4.8 | 3.6 | gable 2.2 | 1 | timber |
-| W-0785 | Tenement of Amice the herbalist | tenement | 337.1 | 1051.3 | 71.7 | 271° | 8.6 x 8.5 | 3.0 | gable 4.7 | 1 | timber |
-| W-0786 | Storehouse of Margery the clockmaker | storehouse | 456.2 | 1052.4 | 71.6 | 273° | 5.1 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| W-0787 | Stable of Felice the brewer | stable | 301.3 | 1069.7 | 71.6 | 267° | 4.7 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| W-0788 | Workshop of Sybil the baker | workshop | 352.8 | 1069.8 | 71.7 | 184° | 7.1 x 7.6 | 3.6 | gable 3.9 | 1 | timber |
-| W-0789 | Stable of Martin the parchmenter | stable | 396.8 | 1069.3 | 71.7 | 179° | 6.9 x 8.2 | 3.6 | gable 3.8 | 1 | timber |
-| W-0790 | Stable of Sybil the fletcher | stable | 454.4 | 1069.2 | 71.6 | 268° | 4.8 x 5.0 | 3.6 | gable 2.6 | 1 | timber |
-| W-0791 | Tenement of Martin the cutler | tenement | 521.6 | 1069.5 | 71.7 | 270° | 4.3 x 4.1 | 6.0 | gable 2.2 | 2 | timber |
-| W-0792 | Tenement of Felice the apothecary | tenement | 260.4 | 1076.6 | 71.8 | 268° | 4.3 x 5.3 | 9.0 | gable 2.4 | 3 | timber |
-| W-0793 | Tenement of Osbert the tailor | tenement | 346.5 | 1078.7 | 71.7 | 181° | 5.0 x 4.8 | 6.0 | gable 2.7 | 2 | timber |
-| W-0794 | Tenement of Emma the herbalist | tenement | 259.3 | 1084.7 | 71.7 | 272° | 4.9 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| W-0795 | Stable of Wat the clockmaker | stable | 252.8 | 1094.8 | 71.7 | 182° | 7.9 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| W-0796 | Tenement of Richard the potter | tenement | 411.0 | 1096.7 | 71.7 | 178° | 8.0 x 8.1 | 3.0 | gable 4.4 | 1 | timber |
-| W-0797 | Workshop of Matilda the baker | workshop | 260.6 | 1105.4 | 71.7 | 174° | 6.2 x 6.0 | 3.6 | gable 3.3 | 1 | timber |
-| W-0798 | Stable of Amice the vintner | stable | 337.1 | 1104.7 | 71.7 | 269° | 5.4 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| W-0799 | Tenement of Mabel the baker | tenement | 421.4 | 1105.4 | 71.7 | 174° | 4.9 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| W-0800 | Tenement of Gilbert the tanner | tenement | 447.8 | 1101.5 | 71.7 | 270° | 4.3 x 4.6 | 3.0 | gable 2.4 | 1 | timber |
-| W-0801 | Tenement of Edith the glazier | tenement | 352.4 | 1112.4 | 71.7 | 270° | 6.6 x 8.8 | 9.0 | gable 3.6 | 3 | timber |
-| W-0802 | Storehouse of Elena the glover | storehouse | 394.8 | 1111.0 | 71.7 | 267° | 5.3 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| W-0803 | Workshop of Henry the mercer | workshop | 412.6 | 1110.7 | 71.7 | 263° | 4.3 x 4.8 | 3.6 | gable 2.4 | 1 | timber |
-| W-0804 | Storehouse of Maud the potter | storehouse | 524.6 | 1113.9 | 71.7 | 179° | 4.8 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| W-0805 | Storehouse of Osbert the furrier | storehouse | 541.0 | 1111.7 | 71.7 | 179° | 4.6 x 4.7 | 3.6 | gable 2.5 | 1 | timber |
-| W-0806 | Workshop of Maud the dyer | workshop | 335.9 | 1121.9 | 71.6 | 263° | 4.6 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| W-0807 | Storehouse of Isabel the brewer | storehouse | 352.2 | 1122.2 | 71.7 | 264° | 5.1 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| W-0808 | Tenement of Mabel the hatter | tenement | 396.5 | 1121.9 | 71.7 | 178° | 8.2 x 9.0 | 3.0 | gable 4.5 | 1 | timber |
-| W-0809 | Tenement of Sybil the tailor | tenement | 420.2 | 1119.1 | 71.7 | 174° | 8.3 x 6.5 | 3.0 | gable 3.5 | 1 | timber |
-| W-0810 | Storehouse of Sybil the furrier | storehouse | 301.4 | 1129.3 | 71.7 | 173° | 4.1 x 5.0 | 3.6 | gable 2.2 | 1 | timber |
-| W-0811 | Tenement of Laurence the parchmenter | tenement | 344.4 | 1129.3 | 71.7 | 176° | 5.1 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| W-0812 | Stable of Piers the spicer | stable | 266.0 | 1136.5 | 71.7 | 262° | 5.3 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| W-0813 | Tenement of Henry the saddler | tenement | 266.1 | 1146.1 | 71.6 | 262° | 4.4 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| W-0814 | Tenement of Henry the cheesemonger | tenement | 301.3 | 1145.1 | 71.7 | 170° | 5.2 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| W-0815 | Storehouse of Baldwin the ropemaker | storehouse | 490.7 | 1147.7 | 71.5 | 172° | 7.1 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| W-0816 | Stable of Jordan the brewer | stable | 410.8 | 1161.2 | 71.7 | 170° | 6.7 x 7.1 | 3.6 | gable 3.7 | 1 | timber |
-| W-0817 | Tenement of Beatrice the clockmaker | tenement | 513.5 | 1164.0 | 71.7 | 171° | 4.8 x 5.0 | 3.0 | gable 2.6 | 1 | timber |
-| W-0818 | Stable of Piers the candlemaker | stable | 370.1 | 1171.4 | 71.6 | 264° | 4.0 x 4.4 | 3.6 | gable 2.2 | 1 | timber |
-| W-0819 | Storehouse of Simon the glazier | storehouse | 402.3 | 1171.5 | 71.7 | 173° | 4.5 x 5.5 | 3.6 | gable 2.5 | 1 | timber |
-| W-0820 | Workshop of Hawise the goldsmith | workshop | 410.6 | 1171.0 | 71.7 | 259° | 6.5 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| W-0821 | Stable of Odo the potter | stable | 420.3 | 1171.4 | 71.7 | 259° | 6.4 x 7.5 | 3.6 | gable 3.5 | 1 | timber |
-| W-0822 | Tenement of Rose the fishmonger | tenement | 429.3 | 1171.3 | 71.7 | 174° | 5.0 x 4.3 | 3.0 | gable 2.4 | 1 | timber |
-| W-0823 | Tenement of Mabel the baker | tenement | 488.9 | 1170.5 | 71.6 | 166° | 6.2 x 8.0 | 6.0 | gable 3.4 | 2 | timber |
-| W-0824 | Stable of Christiana the draper | stable | 657.2 | 1171.3 | 71.7 | 257° | 4.7 x 5.1 | 3.6 | gable 2.6 | 1 | timber |
-| W-0825 | Workshop of Wat the tanner | workshop | 744.2 | 1171.7 | 71.7 | 249° | 8.1 x 6.9 | 3.6 | gable 3.8 | 1 | timber |
-| W-0826 | Tenement of Godwin the tailor | tenement | 759.8 | 1172.5 | 71.7 | 162° | 7.8 x 8.2 | 6.0 | gable 4.3 | 2 | timber |
-| W-0827 | Workshop of Alys the fuller | workshop | 326.8 | 1181.3 | 71.6 | 259° | 4.8 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| W-0828 | Storehouse of Piers the fletcher | storehouse | 342.9 | 1178.5 | 71.7 | 264° | 5.2 x 5.2 | 3.6 | gable 2.9 | 1 | timber |
-| W-0829 | Stable of Godwin the parchmenter | stable | 354.1 | 1180.1 | 71.7 | 168° | 7.1 x 8.2 | 3.6 | gable 3.9 | 1 | timber |
-| W-0830 | Stable of Odo the mercer | stable | 394.4 | 1180.1 | 71.7 | 259° | 8.3 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| W-0831 | Storehouse of Emma the armourer | storehouse | 405.4 | 1180.4 | 71.7 | 173° | 4.7 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| W-0832 | Tenement of Alys the parchmenter | tenement | 431.2 | 1179.3 | 71.7 | 263° | 6.5 x 8.6 | 9.0 | gable 3.6 | 3 | timber |
-| W-0833 | Tenement of Beatrice the bookbinder | tenement | 592.0 | 1178.4 | 71.7 | 168° | 4.6 x 4.3 | 9.0 | gable 2.4 | 3 | timber |
-| W-0834 | Tenement of Petronilla the baker | tenement | 752.4 | 1180.9 | 71.7 | 247° | 4.7 x 4.4 | 9.0 | gable 2.4 | 3 | timber |
-| W-0835 | Stable of Ida the lute-maker | stable | 763.0 | 1181.9 | 71.7 | 245° | 5.1 x 5.0 | 3.6 | gable 2.8 | 1 | timber |
-| W-0836 | Tenement of Walter the pie-seller | tenement | 353.6 | 1190.4 | 71.6 | 167° | 6.5 x 6.0 | 9.0 | gable 3.3 | 3 | timber |
-| W-0837 | Tenement of Jordan the tinker | tenement | 370.9 | 1188.1 | 71.6 | 167° | 8.1 x 6.2 | 6.0 | gable 3.4 | 2 | timber |
-| W-0838 | Workshop of Richard the barber-surgeon | workshop | 411.3 | 1187.3 | 71.7 | 257° | 6.1 x 8.4 | 3.6 | gable 3.4 | 1 | timber |
-| W-0839 | Workshop of Alan the chandler | workshop | 436.1 | 1189.7 | 71.7 | 257° | 8.8 x 7.0 | 3.6 | gable 3.8 | 1 | timber |
-| W-0840 | Tenement of Gilbert the armourer | tenement | 567.3 | 1186.8 | 71.7 | 168° | 4.1 x 4.8 | 9.0 | gable 2.3 | 3 | timber |
-| W-0841 | Stable of Ralph the hatter | stable | 743.1 | 1186.5 | 71.7 | 157° | 8.9 x 8.3 | 3.6 | gable 4.6 | 1 | timber |
-| W-0842 | Tenement of Adam the fletcher | tenement | 267.1 | 1196.2 | 71.2 | 169° | 4.1 x 4.7 | 9.0 | gable 2.2 | 3 | timber |
-| W-0843 | Tenement of Nicholas the limner | tenement | 334.9 | 1196.6 | 71.4 | 169° | 6.8 x 6.4 | 6.0 | gable 3.5 | 2 | timber |
-| W-0844 | Workshop of Juliana the mason | workshop | 363.4 | 1197.4 | 71.5 | 257° | 5.4 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| W-0845 | Workshop of Joan the wheelwright | workshop | 371.1 | 1196.8 | 71.6 | 171° | 4.2 x 5.2 | 3.6 | gable 2.3 | 1 | timber |
-| W-0846 | Workshop of Ivetta the draper | workshop | 410.9 | 1196.8 | 71.7 | 255° | 5.5 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| W-0847 | Storehouse of Margery the parchmenter | storehouse | 419.1 | 1196.0 | 71.7 | 169° | 5.1 x 5.4 | 3.6 | gable 2.8 | 1 | timber |
-| W-0848 | Workshop of Hugh the cooper | workshop | 549.4 | 1198.7 | 71.7 | 161° | 4.0 x 4.9 | 3.6 | gable 2.2 | 1 | timber |
-| W-0849 | Workshop of Henry the notary | workshop | 564.8 | 1199.0 | 71.7 | 164° | 4.0 x 5.3 | 3.6 | gable 2.2 | 1 | timber |
-| W-0850 | Tenement of Agnes the baker | tenement | 574.4 | 1197.5 | 71.7 | 161° | 4.1 x 4.4 | 9.0 | gable 2.3 | 3 | timber |
-| W-0851 | Workshop of Agnes the cooper | workshop | 735.2 | 1198.1 | 71.7 | 154° | 8.4 x 6.7 | 3.6 | gable 3.7 | 1 | timber |
-| W-0852 | Tenement of Thomas the glover | tenement | 745.5 | 1196.5 | 71.7 | 157° | 4.7 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| W-0853 | Tenement of Hob the tailor | tenement | 760.3 | 1196.9 | 71.7 | 154° | 6.5 x 7.1 | 3.0 | gable 3.6 | 1 | timber |
-| W-0854 | Tenement of Emma the saddler | tenement | 334.4 | 1204.8 | 71.3 | 262° | 4.3 x 4.1 | 6.0 | gable 2.2 | 2 | timber |
-| W-0855 | Tenement of Margery the locksmith | tenement | 346.4 | 1204.4 | 71.3 | 169° | 4.3 x 4.6 | 9.0 | gable 2.4 | 3 | timber |
-| W-0856 | Tenement of Nicholas the cooper | tenement | 480.3 | 1204.1 | 71.5 | 170° | 4.3 x 4.7 | 3.0 | gable 2.4 | 1 | timber |
-| W-0857 | Tenement of Walter the tailor | tenement | 538.8 | 1204.1 | 71.7 | 162° | 6.2 x 6.2 | 9.0 | gable 3.4 | 3 | timber |
-| W-0858 | Tenement of Juliana the brewer | tenement | 660.3 | 1206.4 | 71.6 | 159° | 5.0 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| W-0859 | Tenement of Cecily the money-changer | tenement | 728.1 | 1204.0 | 71.7 | 248° | 4.2 x 4.0 | 6.0 | gable 2.2 | 2 | timber |
-| W-0860 | Tenement of Alan the apothecary | tenement | 478.6 | 1215.6 | 71.5 | 164° | 4.5 x 4.7 | 6.0 | gable 2.5 | 2 | timber |
-| W-0861 | Storehouse of Baldwin the notary | storehouse | 727.2 | 1214.4 | 71.7 | 243° | 6.4 x 7.5 | 3.6 | gable 3.5 | 1 | timber |
-| W-0862 | Workshop of Alan the lute-maker | workshop | 744.6 | 1214.3 | 71.7 | 152° | 6.8 x 7.6 | 3.6 | gable 3.7 | 1 | timber |
-| W-0863 | Storehouse of Petronilla the armourer | storehouse | 291.8 | 1223.1 | 70.9 | 167° | 4.4 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| W-0864 | Tenement of Alan the furrier | tenement | 444.6 | 1223.7 | 71.3 | 257° | 6.8 x 6.5 | 6.0 | gable 3.6 | 2 | timber |
-| W-0865 | Tenement of Roger the furrier | tenement | 482.0 | 1224.4 | 71.5 | 254° | 6.5 x 6.2 | 6.0 | gable 3.4 | 2 | timber |
-| W-0866 | Storehouse of Hugh the money-changer | storehouse | 495.9 | 1221.3 | 71.5 | 254° | 8.9 x 8.3 | 3.6 | gable 4.6 | 1 | timber |
-| W-0867 | Tenement of Alan the tanner | tenement | 514.3 | 1221.8 | 71.5 | 253° | 6.9 x 6.9 | 6.0 | gable 3.8 | 2 | timber |
-| W-0868 | Workshop of Joan the scribe | workshop | 648.6 | 1220.8 | 71.6 | 250° | 4.4 x 5.3 | 3.6 | gable 2.4 | 1 | timber |
-| W-0869 | Workshop of Petronilla the bookbinder | workshop | 668.0 | 1222.6 | 71.7 | 158° | 5.3 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| W-0870 | Workshop of Robin the glover | workshop | 677.7 | 1223.3 | 71.7 | 154° | 6.1 x 6.5 | 3.6 | gable 3.3 | 1 | timber |
-| W-0871 | Workshop of Juliana the glover | workshop | 691.9 | 1222.3 | 71.7 | 156° | 8.4 x 8.9 | 3.6 | gable 4.7 | 1 | timber |
-| W-0872 | Storehouse of Thomas the barber-surgeon | storehouse | 737.0 | 1221.8 | 71.7 | 242° | 7.3 x 8.2 | 3.6 | gable 4.0 | 1 | timber |
-| W-0873 | Tenement of Baldwin the cheesemonger | tenement | 368.1 | 1229.8 | 71.0 | 164° | 6.2 x 7.8 | 3.0 | gable 3.4 | 1 | timber |
-| W-0874 | Tenement of Osbert the lute-maker | tenement | 377.9 | 1229.6 | 71.1 | 168° | 4.7 x 4.2 | 6.0 | gable 2.3 | 2 | timber |
-| W-0875 | Storehouse of Sybil the tanner | storehouse | 388.9 | 1231.6 | 71.0 | 257° | 8.0 x 7.9 | 3.6 | gable 4.4 | 1 | timber |
-| W-0876 | Tenement of Edith the goldsmith | tenement | 504.2 | 1229.3 | 71.4 | 162° | 4.8 x 4.8 | 6.0 | gable 2.6 | 2 | timber |
-| W-0877 | Tenement of Godwin the herbalist | tenement | 626.6 | 1229.8 | 71.6 | 251° | 8.0 x 7.4 | 9.0 | gable 4.1 | 3 | timber |
-| W-0878 | Tenement of Juliana the stonecarver | tenement | 658.2 | 1230.2 | 71.6 | 153° | 6.4 x 6.0 | 9.0 | gable 3.3 | 3 | timber |
-| W-0879 | Tenement of Adam the jeweller | tenement | 320.1 | 1239.2 | 70.9 | 254° | 4.8 x 5.2 | 6.0 | gable 2.6 | 2 | timber |
-| W-0880 | Stable of Osbert the cooper | stable | 353.7 | 1241.0 | 70.9 | 166° | 4.1 x 4.8 | 3.6 | gable 2.2 | 1 | timber |
-| W-0881 | Tenement of Elena the stonecarver | tenement | 370.9 | 1238.8 | 70.9 | 253° | 4.8 x 4.8 | 6.0 | gable 2.6 | 2 | timber |
-| W-0882 | Stable of Juliana the brewer | stable | 394.2 | 1241.0 | 71.0 | 169° | 4.1 x 4.8 | 3.6 | gable 2.2 | 1 | timber |
-| W-0883 | Storehouse of Rose the clockmaker | storehouse | 448.2 | 1238.2 | 71.2 | 255° | 8.3 x 6.9 | 3.6 | gable 3.8 | 1 | timber |
-| W-0884 | Tenement of Amice the dyer | tenement | 478.7 | 1241.4 | 71.3 | 254° | 4.8 x 4.2 | 6.0 | gable 2.3 | 2 | timber |
-| W-0885 | Tenement of Geoffrey the furrier | tenement | 572.3 | 1239.3 | 71.4 | 162° | 6.2 x 6.8 | 9.0 | gable 3.4 | 3 | timber |
-| W-0886 | Stable of Hugh the fishmonger | stable | 583.1 | 1240.7 | 71.4 | 162° | 8.4 x 8.0 | 3.6 | gable 4.4 | 1 | timber |
-| W-0887 | Workshop of Margery the limner | workshop | 378.2 | 1249.9 | 70.9 | 163° | 7.1 x 7.3 | 3.6 | gable 3.9 | 1 | timber |
-| W-0888 | Storehouse of Christiana the jeweller | storehouse | 393.7 | 1249.0 | 70.9 | 162° | 5.2 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| W-0889 | Workshop of Cecily the draper | workshop | 564.0 | 1246.0 | 71.2 | 249° | 7.0 x 7.1 | 3.6 | gable 3.8 | 1 | timber |
-| W-0890 | Storehouse of Thomas the lute-maker | storehouse | 576.0 | 1248.3 | 71.3 | 159° | 4.1 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| W-0891 | Stable of Laurence the carpenter | stable | 419.2 | 1255.0 | 70.9 | 163° | 4.5 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| W-0892 | Workshop of Hawise the limner | workshop | 429.8 | 1257.6 | 70.9 | 165° | 4.7 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| W-0893 | Tenement of Simon the tanner | tenement | 448.3 | 1255.6 | 71.2 | 158° | 4.7 x 4.1 | 6.0 | gable 2.2 | 2 | timber |
-| W-0894 | Storehouse of Ida the furrier | storehouse | 558.5 | 1257.7 | 71.1 | 154° | 5.1 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| W-0895 | Workshop of Laurence the goldsmith | workshop | 616.6 | 1255.3 | 71.2 | 247° | 7.6 x 8.1 | 3.6 | gable 4.2 | 1 | timber |
-| W-0896 | Storehouse of Nicholas the butcher | storehouse | 717.1 | 1255.7 | 71.5 | 149° | 4.4 x 4.3 | 3.6 | gable 2.3 | 1 | timber |
-| W-0897 | Tenement of Laurence the saddler | tenement | 752.4 | 1256.6 | 71.4 | 144° | 4.1 x 4.0 | 9.0 | gable 2.2 | 3 | timber |
-| W-0898 | Workshop of Jordan the herbalist | workshop | 768.5 | 1256.6 | 71.5 | 235° | 7.9 x 7.9 | 3.6 | gable 4.3 | 1 | timber |
-| W-0899 | Workshop of Wat the cooper | workshop | 644.0 | 1266.1 | 71.2 | 246° | 5.2 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| W-0900 | Tenement of Avice the lute-maker | tenement | 762.9 | 1264.3 | 71.4 | 145° | 4.3 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| W-0901 | Tenement of Amice the pewterer | tenement | 540.2 | 1272.8 | 70.9 | 154° | 4.2 x 4.5 | 6.0 | gable 2.3 | 2 | timber |
-| W-0902 | Stable of Hob the weaver | stable | 675.3 | 1273.4 | 71.1 | 239° | 4.4 x 5.2 | 3.6 | gable 2.4 | 1 | timber |
-| W-0903 | Tenement of Isabel the carpenter | tenement | 702.9 | 1273.5 | 71.1 | 238° | 7.0 x 6.1 | 6.0 | gable 3.4 | 2 | timber |
-| W-0904 | Storehouse of Hugh the scribe | storehouse | 771.4 | 1271.9 | 71.2 | 229° | 5.1 x 5.1 | 3.6 | gable 2.8 | 1 | timber |
-| W-0905 | Tenement of Hugh the saddler | tenement | 683.8 | 1282.9 | 71.0 | 146° | 7.6 x 6.4 | 9.0 | gable 3.5 | 3 | timber |
-| W-0906 | Workshop of Henry the butcher | workshop | 711.4 | 1281.7 | 71.0 | 143° | 4.1 x 5.2 | 3.6 | gable 2.3 | 1 | timber |
-| W-0907 | Workshop of Gilbert the carpenter | workshop | 727.0 | 1282.2 | 71.0 | 147° | 4.1 x 4.9 | 3.6 | gable 2.3 | 1 | timber |
-| W-0908 | Workshop of Alys the hatter | workshop | 734.7 | 1280.3 | 71.1 | 145° | 5.3 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| W-0909 | Workshop of Maud the hatter | workshop | 648.5 | 1290.4 | 70.9 | 151° | 4.4 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| W-0910 | Storehouse of Juliana the baker | storehouse | 669.3 | 1289.6 | 70.9 | 235° | 4.9 x 5.5 | 3.6 | gable 2.7 | 1 | timber |
-| W-0911 | Stable of Alan the weaver | stable | 694.1 | 1289.5 | 70.9 | 234° | 8.6 x 7.4 | 3.6 | gable 4.1 | 1 | timber |
-| W-0912 | Stable of Amice the glazier | stable | 717.8 | 1288.7 | 70.9 | 148° | 7.2 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| W-0913 | Workshop of Henry the cheesemonger | workshop | 727.4 | 1297.8 | 70.9 | 139° | 6.7 x 8.1 | 3.6 | gable 3.7 | 1 | timber |
-| W-0914 | Stable of Robin the wheelwright | stable | 311.6 | 1317.0 | 70.9 | 157° | 6.8 x 8.6 | 3.6 | gable 3.8 | 1 | timber |
-| W-0915 | Tenement of Simon the saddler | tenement | 321.0 | 1316.0 | 70.9 | 251° | 4.1 x 4.6 | 6.0 | gable 2.2 | 2 | timber |
-| W-0916 | Stable of Hawise the candlemaker | stable | 353.0 | 1333.6 | 70.9 | 251° | 7.0 x 8.1 | 3.6 | gable 3.9 | 1 | timber |
-| W-0917 | Stable of Thomas the glover | stable | 343.8 | 1341.7 | 71.0 | 159° | 8.3 x 8.7 | 3.6 | gable 4.6 | 1 | timber |
-| W-0918 | Workshop of Ivetta the spicer | workshop | 431.4 | 1343.3 | 70.9 | 246° | 8.4 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| W-0919 | Tenement of Sybil the apothecary | tenement | 463.3 | 1348.8 | 70.9 | 247° | 4.7 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| W-0920 | Stable of Alan the locksmith | stable | 487.6 | 1351.0 | 70.9 | 154° | 4.9 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| W-0921 | Tenement of Hugh the jeweller | tenement | 496.7 | 1350.0 | 70.9 | 243° | 4.7 x 4.0 | 3.0 | gable 2.2 | 1 | timber |
-| W-0922 | Tenement of Martin the ropemaker | tenement | 325.7 | 1357.0 | 71.4 | 248° | 4.2 x 5.2 | 6.0 | gable 2.3 | 2 | timber |
-| W-0923 | Tenement of Gilbert the ropemaker | tenement | 337.6 | 1359.4 | 71.3 | 154° | 8.4 x 8.5 | 6.0 | gable 4.6 | 2 | timber |
-| W-0924 | Workshop of Sybil the barber-surgeon | workshop | 480.6 | 1359.2 | 71.0 | 239° | 4.7 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| W-0925 | Tenement of Christiana the limner | tenement | 496.6 | 1358.8 | 70.9 | 150° | 4.5 x 4.8 | 6.0 | gable 2.5 | 2 | timber |
-| W-0926 | Tenement of Ralph the money-changer | tenement | 514.6 | 1359.9 | 71.0 | 147° | 6.9 x 6.4 | 6.0 | gable 3.5 | 2 | timber |
-| W-0927 | Tenement of Nicholas the weaver | tenement | 548.5 | 1359.3 | 70.9 | 148° | 5.1 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
+| I-0001 | Stonehallow Minster (nave) | cathedral | 1830.0 | 1905.0 | 37.2 | 0° | 100.0 x 28.0 | 32.0 | gable 15.4 | 1 | stone |
+| I-0002 | Stonehallow Minster (choir) | cathedral | 1905.0 | 1905.0 | 36.4 | 0° | 50.0 x 24.0 | 30.0 | gable 13.2 | 1 | stone |
+| I-0003 | Stonehallow Minster (transepts) | cathedral | 1880.0 | 1905.0 | 36.9 | 0° | 24.0 x 66.0 | 32.0 | gable 13.2 | 1 | stone |
+| I-0004 | Stonehallow Minster (crossing tower & spire) | cathedral | 1880.0 | 1905.0 | 37.1 | 0° | 24.0 x 24.0 | 60.0 | spire 60.0 | 12 | stone |
+| I-0005 | Stonehallow Minster (west tower) | cathedral | 1772.0 | 1890.0 | 38.1 | 0° | 16.0 x 16.0 | 66.0 | crenel 0.0 | 12 | stone |
+| I-0006 | Stonehallow Minster (west tower) | cathedral | 1772.0 | 1920.0 | 38.2 | 0° | 16.0 x 16.0 | 66.0 | crenel 0.0 | 12 | stone |
+| I-0007 | Chapter House | chapter house | 1940.0 | 1950.0 | 36.2 | 0° | round, 20.0 across | 14.0 | cone 9.0 | 1 | stone |
+| I-0008 | Bishop's Palace | palace | 1990.0 | 1930.0 | 35.0 | 90° | 36.0 x 12.0 | 13.0 | hip 5.4 | 3 | stone |
+| I-0009 | Cloister (front range) | cloister | 1840.0 | 1938.0 | 37.4 | 0° | 56.0 x 8.0 | 9.0 | gable 4.4 | 1 | stone |
+| I-0010 | Cloister (back range) | cloister | 1840.0 | 1966.0 | 37.1 | 180° | 56.0 x 8.0 | 9.0 | gable 4.4 | 1 | stone |
+| I-0011 | Cloister (west range) | cloister | 1816.0 | 1952.0 | 37.7 | 270° | 20.0 x 8.0 | 9.0 | gable 4.4 | 1 | stone |
+| I-0012 | Cloister (east range) | cloister | 1864.0 | 1952.0 | 37.3 | 90° | 20.0 x 8.0 | 9.0 | gable 4.4 | 1 | stone |
+| I-0013 | The Sleeping Bishop | inn | 1780.0 | 2053.0 | 37.4 | 90° | 14.0 x 10.0 | 9.0 | hip 4.5 | 2 | timber |
+| I-0014 | House of Wat the fuller | house | 1713.3 | 2039.0 | 38.2 | 72° | 12.7 x 12.5 | 9.3 | gable 6.9 | 3 | stone |
+| I-0015 | House of Jordan the fuller | house | 1723.8 | 2058.2 | 38.0 | 69° | 11.9 x 11.5 | 6.2 | gable 6.3 | 2 | stone |
+| I-0016 | House of Simon the mercer | house | 1751.6 | 2052.6 | 37.7 | 248° | 13.1 x 12.1 | 9.3 | hip 5.5 | 3 | stone |
+| I-0017 | House of Wat the barber-surgeon | house | 1663.2 | 2116.2 | 38.3 | 13° | 12.1 x 9.9 | 9.3 | gable 5.4 | 3 | stone |
+| I-0018 | House of Mabel the tanner | house | 1727.1 | 2130.8 | 37.3 | 9° | 13.5 x 14.1 | 9.3 | hip 6.1 | 3 | stone |
+| I-0019 | House of Nicholas the limner | house | 1898.1 | 2059.1 | 36.1 | 154° | 12.9 x 9.5 | 6.2 | gable 5.2 | 2 | stone |
+| I-0020 | House of Sybil the brewer | house | 1882.5 | 2068.8 | 36.1 | 140° | 11.0 x 9.2 | 9.3 | gable 5.1 | 3 | stone |
+| I-0021 | House of Ralph the cartographer | house | 1910.8 | 2081.8 | 35.6 | 335° | 8.1 x 14.9 | 6.2 | gable 4.5 | 2 | stone |
+| I-0022 | House of Juliana the mercer | house | 1736.8 | 2092.3 | 37.6 | 244° | 8.1 x 9.6 | 6.2 | gable 4.4 | 2 | stone |
+| I-0023 | House of Godwin the weaver | house | 1712.0 | 2084.7 | 37.9 | 57° | 10.7 x 9.5 | 9.3 | gable 5.2 | 3 | stone |
+| I-0024 | House of Nicholas the glover | house | 1754.5 | 2067.4 | 37.6 | 87° | 9.3 x 10.8 | 9.3 | hip 4.2 | 3 | stone |
+| I-0025 | House of Jordan the cheesemonger | house | 1648.6 | 2010.4 | 39.1 | 318° | 12.8 x 11.1 | 9.3 | gable 6.1 | 3 | stone |
+| I-0026 | House of Adam the lute-maker | house | 1614.9 | 2009.2 | 39.8 | 130° | 12.4 x 14.9 | 9.3 | gable 6.8 | 3 | stone |
+| I-0027 | House of Godwin the brewer | house | 1630.6 | 1993.2 | 39.4 | 138° | 11.9 x 12.7 | 9.3 | gable 6.5 | 3 | stone |
+| I-0028 | House of Nicholas the tinker | house | 2047.7 | 1806.9 | 35.2 | 300° | 8.8 x 14.3 | 6.2 | gable 4.8 | 2 | stone |
+| I-0029 | House of Simon the mason | house | 1583.3 | 1826.2 | 40.2 | 49° | 11.4 x 10.0 | 6.2 | gable 5.5 | 2 | stone |
+| I-0030 | House of Henry the cutler | house | 1613.3 | 1827.8 | 39.2 | 241° | 11.5 x 11.8 | 9.3 | hip 5.2 | 3 | stone |
+| I-0031 | House of Nicholas the weaver | house | 1992.2 | 2036.9 | 35.3 | 235° | 10.4 x 9.8 | 6.2 | hip 4.4 | 2 | stone |
+| I-0032 | House of Stephen the hatter | house | 2100.5 | 1995.7 | 33.8 | 347° | 11.5 x 11.6 | 6.2 | gable 6.3 | 2 | stone |
+| I-0033 | House of Felice the saddler | house | 2101.8 | 1970.8 | 33.7 | 164° | 13.7 x 13.9 | 6.2 | gable 7.5 | 2 | stone |
+| I-0034 | House of Roger the vintner | house | 2108.2 | 2006.5 | 33.7 | 252° | 10.7 x 14.0 | 6.2 | gable 5.9 | 2 | stone |
+| I-0035 | House of Petronilla the parchmenter | house | 2075.6 | 1990.4 | 34.2 | 42° | 8.4 x 13.6 | 6.2 | gable 4.6 | 2 | stone |
+| I-0036 | House of Godwin the salter | house | 1847.9 | 2059.2 | 36.7 | 288° | 8.1 x 12.5 | 6.2 | gable 4.4 | 2 | stone |
+| I-0037 | House of Piers the bellfounder | house | 1818.4 | 2071.4 | 36.8 | 94° | 12.5 x 14.6 | 6.2 | gable 6.9 | 2 | stone |
+| I-0038 | House of Joan the tanner | house | 1676.5 | 2125.7 | 38.1 | 103° | 12.2 x 12.8 | 6.2 | gable 6.7 | 2 | stone |
+| I-0039 | House of Godwin the barber-surgeon | house | 1767.0 | 2085.4 | 37.3 | 355° | 10.5 x 13.2 | 6.2 | hip 4.7 | 2 | stone |
+| I-0040 | House of Juliana the limner | house | 2037.2 | 2030.5 | 34.7 | 267° | 10.6 x 10.7 | 6.2 | gable 5.8 | 2 | stone |
+| I-0041 | House of Beatrice the lute-maker | house | 2014.7 | 2029.0 | 34.9 | 87° | 10.8 x 13.5 | 6.2 | hip 4.9 | 2 | stone |
+| I-0042 | House of Matilda the jeweller | house | 2076.8 | 1815.3 | 35.1 | 288° | 13.1 x 14.7 | 6.2 | gable 7.2 | 2 | stone |
+| I-0043 | House of Matilda the minstrel | house | 1987.4 | 2062.6 | 35.0 | 334° | 12.0 x 11.8 | 9.3 | gable 6.5 | 3 | stone |
+| I-0044 | House of Alys the cheesemonger | house | 2115.7 | 1840.3 | 34.4 | 134° | 9.0 x 9.9 | 9.3 | gable 5.0 | 3 | stone |
+| I-0045 | House of Rose the cartographer | house | 2119.0 | 1869.0 | 33.9 | 311° | 8.6 x 14.2 | 6.2 | gable 4.7 | 2 | stone |
+| I-0046 | House of Odo the candlemaker | house | 2081.7 | 2009.5 | 34.1 | 215° | 11.4 x 9.6 | 9.3 | hip 4.3 | 3 | stone |
+| I-0047 | House of Hawise the tinker | house | 2054.6 | 1986.9 | 34.8 | 213° | 13.4 x 14.0 | 9.3 | gable 7.4 | 3 | stone |
+| I-0048 | House of Ida the ropemaker | house | 2053.0 | 2016.0 | 34.5 | 33° | 13.9 x 9.5 | 6.2 | hip 4.3 | 2 | stone |
+| I-0049 | House of Piers the carpenter | house | 1913.4 | 2049.8 | 36.1 | 60° | 13.6 x 14.8 | 6.2 | gable 7.5 | 2 | stone |
+| I-0050 | House of Thomas the tanner | house | 2101.2 | 1815.7 | 35.1 | 23° | 8.8 x 14.7 | 6.2 | hip 4.0 | 2 | stone |
+| I-0051 | House of Margery the glover | house | 2092.8 | 1788.5 | 35.5 | 212° | 11.0 x 11.1 | 6.2 | hip 5.0 | 2 | stone |
+| I-0052 | House of Nicholas the carpenter | house | 1583.8 | 1933.4 | 39.9 | 270° | 8.6 x 14.2 | 9.3 | gable 4.8 | 3 | stone |
+| I-0053 | House of Henry the stonecarver | house | 1660.7 | 1761.9 | 38.9 | 228° | 13.5 x 10.4 | 6.2 | gable 5.7 | 2 | stone |
+| I-0054 | House of Alys the tailor | house | 1609.3 | 1759.3 | 40.1 | 134° | 8.1 x 10.1 | 9.3 | gable 4.5 | 3 | stone |
+| I-0055 | House of Petronilla the tailor | house | 1572.4 | 1784.8 | 41.0 | 140° | 9.4 x 13.6 | 6.2 | hip 4.2 | 2 | stone |
+| I-0056 | House of Richard the clockmaker | house | 1606.8 | 1784.1 | 39.5 | 330° | 12.9 x 10.6 | 6.2 | hip 4.8 | 2 | stone |
 
-## Southbank (1323 buildings)
+## Palace Quarter (45 buildings)
 
-348 workshop, 301 house, 290 shop, 186 tenement, 95 storehouse, 85 stable, 10 church, 7 college, 1 chapel
+31 house, 6 shed, 5 mansion, 3 palace
 
 | ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
 |---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| S-0001 | Hospital of St. Brigid (north range) | college | 1315.0 | 1571.0 | 71.7 | 0° | 130.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| S-0002 | Hospital of St. Brigid (south range) | college | 1315.0 | 1644.0 | 71.7 | 180° | 130.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| S-0003 | Hospital of St. Brigid (west range) | college | 1256.0 | 1607.5 | 71.7 | 270° | 61.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| S-0004 | Hospital of St. Brigid (chapel) | chapel | 1374.0 | 1607.5 | 71.7 | 90° | 61.0 x 11.0 | 14.0 | gable 6.0 | 1 | stone |
-| S-0005 | Whitecross Abbey church | church | 790.0 | 1585.0 | 71.7 | 0° | 120.0 x 20.0 | 22.0 | gable 11.0 | 1 | stone |
-| S-0006 | Whitecross Abbey tower | church | 810.0 | 1585.0 | 71.7 | 0° | 16.0 x 16.0 | 40.0 | spire 20.0 | 1 | stone |
-| S-0007 | Whitecross Abbey cloister (north range) | college | 790.0 | 1611.0 | 71.6 | 0° | 120.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| S-0008 | Whitecross Abbey cloister (south range) | college | 790.0 | 1684.0 | 71.7 | 180° | 120.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| S-0009 | Whitecross Abbey cloister (west range) | college | 736.0 | 1647.5 | 71.6 | 270° | 61.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| S-0010 | Whitecross Abbey cloister (east range) | college | 844.0 | 1647.5 | 71.7 | 90° | 61.0 x 11.0 | 11.0 | gable 6.0 | 1 | stone |
-| S-0011 | Church of St. Columba | church | 1308.7 | 1553.0 | 71.7 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| S-0012 | Church of St. Columba (tower) | church | 1290.7 | 1553.0 | 71.7 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| S-0013 | Church of St. Dunstan | church | 1063.0 | 1571.1 | 71.7 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| S-0014 | Church of St. Dunstan (tower) | church | 1045.0 | 1571.1 | 71.7 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| S-0015 | Church of St. Edith | church | 753.9 | 1546.1 | 71.7 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| S-0016 | Church of St. Edith (tower) | church | 735.9 | 1546.1 | 71.7 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| S-0017 | Church of St. Fiacre | church | 632.8 | 1374.1 | 70.9 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
-| S-0018 | Church of St. Fiacre (tower) | church | 614.8 | 1374.1 | 70.9 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
-| S-0019 | House of Wat the weaver | house | 1011.9 | 1432.8 | 71.4 | 90° | 8.4 x 11.1 | 9.3 | gable 4.7 | 3 | timber |
-| S-0020 | Workshop of Wat the weaver | workshop | 998.5 | 1432.8 | 71.4 | 90° | 5.7 x 7.9 | 3.0 | gable 3.2 | 1 | timber |
-| S-0021 | House of Thomas the furrier | shop | 1011.4 | 1456.3 | 71.6 | 90° | 8.8 x 12.0 | 12.4 | gable 4.8 | 4 | timber |
-| S-0022 | House of Geoffrey the cobbler | house | 1012.2 | 1464.9 | 71.7 | 90° | 7.0 x 10.5 | 9.3 | hip 3.1 | 3 | timber |
-| S-0023 | House of Nicholas the cheesemonger | house | 1012.8 | 1472.4 | 71.7 | 90° | 7.6 x 9.3 | 9.3 | gable 4.2 | 3 | timber |
-| S-0024 | Workshop of Nicholas the cheesemonger | workshop | 1003.0 | 1472.4 | 71.7 | 90° | 5.1 x 4.6 | 6.0 | gable 2.5 | 1 | timber |
-| S-0025 | House of Christiana the clockmaker | house | 1010.6 | 1487.2 | 71.7 | 90° | 8.2 x 13.5 | 12.4 | hip 3.7 | 4 | stone |
-| S-0026 | House of Juliana the pie-seller | shop | 1010.5 | 1588.1 | 71.7 | 94° | 5.9 x 12.1 | 6.2 | hip 2.6 | 2 | timber |
-| S-0027 | House of Simon the apothecary | house | 1010.1 | 1595.1 | 71.7 | 94° | 7.3 x 11.9 | 6.2 | gable 4.0 | 2 | timber |
-| S-0028 | House of Alan the hatter | house | 1005.9 | 1671.0 | 71.7 | 91° | 8.0 x 13.1 | 6.2 | hip 3.6 | 2 | timber |
-| S-0029 | House of Geoffrey the bookbinder | shop | 1005.2 | 1700.6 | 71.7 | 88° | 7.4 x 15.0 | 6.2 | hip 3.3 | 2 | timber |
-| S-0030 | House of Nicholas the notary | shop | 1006.8 | 1725.8 | 71.6 | 87° | 6.7 x 13.8 | 6.2 | gable 3.7 | 2 | timber |
-| S-0031 | House of Maud the money-changer | house | 1008.8 | 1758.9 | 71.7 | 87° | 6.2 x 13.5 | 9.3 | hip 2.8 | 3 | timber |
-| S-0032 | Workshop of Maud the money-changer | workshop | 995.8 | 1759.6 | 71.7 | 87° | 4.8 x 7.9 | 3.0 | gable 2.6 | 1 | timber |
-| S-0033 | House of Wat the cooper | shop | 1029.8 | 1713.9 | 71.7 | 268° | 7.3 x 10.9 | 9.3 | gable 4.0 | 3 | timber |
-| S-0034 | House of Avice the apothecary | house | 1032.2 | 1731.0 | 71.7 | 267° | 7.6 x 14.0 | 6.2 | gable 4.2 | 2 | timber |
-| S-0035 | House of Matilda the furrier | house | 1032.8 | 1771.0 | 71.7 | 267° | 6.4 x 10.7 | 9.3 | gable 3.5 | 3 | timber |
-| S-0036 | House of Matilda the wheelwright | shop | 572.6 | 1509.5 | 71.7 | 150° | 8.0 x 10.2 | 9.3 | hip 3.6 | 3 | timber |
-| S-0037 | House of Henry the spicer | house | 546.4 | 1524.1 | 71.6 | 151° | 9.0 x 10.7 | 6.2 | gable 4.9 | 2 | timber |
-| S-0038 | Workshop of Henry the spicer | workshop | 541.4 | 1515.0 | 71.6 | 151° | 6.9 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| S-0039 | House of Baldwin the clockmaker | shop | 518.3 | 1537.5 | 71.7 | 151° | 9.1 x 14.6 | 6.2 | gable 5.0 | 2 | timber |
-| S-0040 | House of Geoffrey the vintner | house | 693.6 | 1456.0 | 71.7 | 324° | 7.2 x 11.8 | 9.3 | gable 4.0 | 3 | timber |
-| S-0041 | House of Robin the herbalist | house | 587.9 | 1527.1 | 71.7 | 330° | 8.5 x 13.0 | 6.2 | gable 4.7 | 2 | timber |
-| S-0042 | House of Laurence the armourer | house | 569.1 | 1537.0 | 71.7 | 330° | 6.7 x 11.5 | 9.3 | gable 3.7 | 3 | timber |
-| S-0043 | Workshop of Laurence the armourer | workshop | 574.1 | 1545.8 | 71.7 | 330° | 5.7 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| S-0044 | House of Isabel the furrier | house | 528.0 | 1561.1 | 71.7 | 331° | 8.3 x 13.7 | 9.3 | hip 3.7 | 3 | timber |
-| S-0045 | Workshop of Isabel the furrier | workshop | 533.4 | 1570.8 | 71.7 | 331° | 8.1 x 5.5 | 6.0 | gable 3.0 | 1 | timber |
-| S-0046 | House of Richard the fletcher | shop | 520.0 | 1564.9 | 71.7 | 331° | 8.7 x 12.5 | 6.2 | gable 4.8 | 2 | timber |
-| S-0047 | House of Rose the cobbler | shop | 491.0 | 1581.0 | 71.7 | 330° | 9.4 x 12.3 | 6.2 | hip 4.2 | 2 | timber |
-| S-0048 | Workshop of Rose the cobbler | workshop | 496.6 | 1591.0 | 71.7 | 330° | 9.2 x 5.4 | 6.0 | gable 3.0 | 1 | timber |
-| S-0049 | House of Edith the candlemaker | shop | 483.0 | 1584.5 | 71.8 | 330° | 7.3 x 10.4 | 9.3 | gable 4.0 | 3 | timber |
-| S-0050 | House of Edith the wheelwright | house | 1226.8 | 1531.2 | 71.7 | 358° | 6.7 x 11.9 | 6.2 | gable 3.7 | 2 | timber |
-| S-0051 | House of Isabel the money-changer | house | 1294.4 | 1530.2 | 71.7 | 4° | 6.7 x 9.8 | 9.3 | gable 3.7 | 3 | timber |
-| S-0052 | Workshop of Isabel the money-changer | workshop | 1293.8 | 1538.9 | 71.7 | 4° | 6.4 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| S-0053 | House of Baldwin the scribe | shop | 1361.2 | 1539.0 | 71.7 | 10° | 6.4 x 11.2 | 12.4 | hip 2.9 | 4 | timber |
-| S-0054 | House of Ivetta the weaver | shop | 1504.7 | 1573.8 | 71.7 | 14° | 9.4 x 13.2 | 6.2 | gable 5.2 | 2 | timber |
-| S-0055 | Workshop of Ivetta the weaver | workshop | 1501.5 | 1586.1 | 71.7 | 14° | 7.9 x 5.3 | 6.0 | gable 2.9 | 1 | timber |
-| S-0056 | House of Hugh the carpenter | house | 1116.4 | 1516.1 | 71.7 | 176° | 9.2 x 9.8 | 6.2 | gable 5.0 | 2 | timber |
-| S-0057 | Workshop of Hugh the carpenter | workshop | 1115.5 | 1504.9 | 71.7 | 176° | 5.5 x 4.8 | 3.0 | gable 2.7 | 1 | timber |
-| S-0058 | House of Hawise the clockmaker | shop | 1125.4 | 1514.6 | 71.7 | 176° | 8.2 x 11.5 | 6.2 | gable 4.5 | 2 | timber |
-| S-0059 | House of Walter the cheesemonger | house | 1132.9 | 1513.3 | 71.7 | 176° | 6.3 x 12.9 | 9.3 | gable 3.5 | 3 | timber |
-| S-0060 | Workshop of Walter the cheesemonger | workshop | 1132.0 | 1500.6 | 71.7 | 176° | 5.8 x 5.0 | 3.0 | gable 2.8 | 1 | timber |
-| S-0061 | House of Odo the lute-maker | house | 1280.6 | 1507.9 | 71.7 | 182° | 7.6 x 11.2 | 6.2 | hip 3.4 | 2 | timber |
-| S-0062 | House of Gilbert the limner | shop | 1337.3 | 1512.4 | 71.7 | 188° | 6.2 x 11.6 | 9.3 | gable 3.4 | 3 | timber |
-| S-0063 | House of Joan the fishmonger | shop | 1344.6 | 1513.0 | 71.7 | 188° | 7.4 x 12.5 | 6.2 | gable 4.1 | 2 | timber |
-| S-0064 | House of Petronilla the carpenter | house | 1387.1 | 1520.1 | 71.7 | 191° | 8.4 x 13.2 | 9.3 | hip 3.8 | 3 | timber |
-| S-0065 | House of Edith the mason | shop | 1455.8 | 1538.0 | 71.7 | 194° | 9.4 x 9.2 | 9.3 | gable 5.1 | 3 | timber |
-| S-0066 | Workshop of Edith the mason | workshop | 1458.5 | 1527.3 | 71.7 | 194° | 9.1 x 6.9 | 3.0 | gable 3.8 | 1 | timber |
-| S-0067 | House of Beatrice the scribe | house | 1473.3 | 1540.6 | 71.7 | 195° | 9.2 x 12.8 | 9.3 | gable 5.1 | 3 | timber |
-| S-0068 | Workshop of Beatrice the scribe | workshop | 1476.7 | 1527.8 | 71.7 | 195° | 5.5 x 6.9 | 6.0 | gable 3.0 | 1 | timber |
-| S-0069 | House of Odo the stonecarver | house | 1507.7 | 1549.5 | 71.7 | 194° | 6.5 x 12.9 | 6.2 | gable 3.6 | 2 | timber |
-| S-0070 | House of Hugh the fishmonger | shop | 1526.8 | 1555.4 | 71.7 | 195° | 8.5 x 11.1 | 9.3 | hip 3.8 | 3 | timber |
-| S-0071 | House of Ivetta the money-changer | shop | 1326.3 | 1374.5 | 70.9 | 146° | 8.4 x 13.0 | 9.3 | hip 3.8 | 3 | timber |
-| S-0072 | House of Juliana the herbalist | shop | 1311.5 | 1384.2 | 71.0 | 146° | 8.4 x 13.3 | 6.2 | gable 4.6 | 2 | timber |
-| S-0073 | House of Alys the dyer | shop | 1200.1 | 1449.3 | 71.6 | 153° | 9.4 x 12.5 | 12.4 | gable 5.2 | 4 | timber |
-| S-0074 | Workshop of Alys the dyer | workshop | 1194.5 | 1438.3 | 71.5 | 153° | 5.5 x 7.9 | 3.0 | gable 3.0 | 1 | timber |
-| S-0075 | House of Isabel the herbalist | shop | 1360.7 | 1376.5 | 70.9 | 324° | 8.1 x 14.5 | 12.4 | gable 4.4 | 4 | timber |
-| S-0076 | Workshop of Isabel the herbalist | workshop | 1368.4 | 1387.0 | 71.1 | 324° | 7.7 x 7.2 | 3.0 | gable 4.0 | 1 | timber |
-| S-0077 | House of Osbert the potter | shop | 1340.1 | 1389.5 | 71.0 | 325° | 9.0 x 11.0 | 9.3 | gable 4.9 | 3 | timber |
-| S-0078 | Workshop of Osbert the potter | workshop | 1347.4 | 1399.9 | 71.2 | 325° | 7.8 x 7.2 | 3.0 | gable 4.0 | 1 | timber |
-| S-0079 | House of Maud the fishmonger | shop | 1333.2 | 1393.8 | 71.1 | 326° | 6.8 x 10.3 | 9.3 | gable 3.7 | 3 | timber |
-| S-0080 | Workshop of Maud the fishmonger | workshop | 1338.8 | 1402.2 | 71.2 | 326° | 4.7 x 5.2 | 6.0 | gable 2.6 | 1 | timber |
-| S-0081 | House of Roger the candlemaker | house | 1298.5 | 1416.6 | 71.3 | 328° | 9.1 x 10.8 | 9.3 | hip 4.1 | 3 | timber |
-| S-0082 | Workshop of Roger the candlemaker | workshop | 1304.5 | 1426.2 | 71.5 | 328° | 5.1 x 7.8 | 6.0 | gable 2.8 | 1 | timber |
-| S-0083 | House of Elena the vintner | house | 1290.9 | 1421.6 | 71.4 | 328° | 8.7 x 11.1 | 15.5 | gable 4.8 | 5 | timber |
-| S-0084 | Workshop of Elena the vintner | workshop | 1296.2 | 1430.0 | 71.6 | 328° | 8.0 x 5.0 | 3.0 | gable 2.8 | 1 | timber |
-| S-0085 | House of Hugh the furrier | shop | 1283.5 | 1427.4 | 71.5 | 329° | 8.6 x 13.2 | 6.2 | gable 4.8 | 2 | timber |
-| S-0086 | Workshop of Hugh the furrier | workshop | 1289.1 | 1436.8 | 71.6 | 329° | 7.0 x 5.2 | 3.0 | gable 2.9 | 1 | timber |
-| S-0087 | House of Rose the cooper | shop | 1261.7 | 1439.8 | 71.5 | 330° | 6.6 x 12.5 | 12.4 | gable 3.6 | 4 | timber |
-| S-0088 | House of Edith the mason | house | 1255.0 | 1444.8 | 71.6 | 331° | 8.9 x 14.7 | 9.3 | gable 4.9 | 3 | timber |
-| S-0089 | Workshop of Edith the mason | workshop | 1260.9 | 1455.4 | 71.7 | 331° | 4.9 x 6.5 | 6.0 | gable 2.7 | 1 | timber |
-| S-0090 | House of Isabel the candlemaker | house | 1240.2 | 1450.7 | 71.7 | 331° | 5.8 x 10.6 | 9.3 | gable 3.2 | 3 | timber |
-| S-0091 | Workshop of Isabel the candlemaker | workshop | 1245.6 | 1460.5 | 71.7 | 331° | 5.6 x 7.6 | 3.0 | gable 3.1 | 1 | timber |
-| S-0092 | House of Alys the draper | shop | 1216.9 | 1462.4 | 71.6 | 333° | 8.9 x 9.8 | 9.3 | gable 4.9 | 3 | timber |
-| S-0093 | Workshop of Alys the draper | workshop | 1222.0 | 1472.4 | 71.6 | 333° | 7.2 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| S-0094 | House of Alan the goldsmith | shop | 1209.4 | 1466.3 | 71.6 | 333° | 7.6 x 9.9 | 6.2 | hip 3.4 | 2 | timber |
-| S-0095 | House of Stephen the bellfounder | house | 1203.0 | 1470.5 | 71.7 | 334° | 6.4 x 11.6 | 9.3 | gable 3.5 | 3 | timber |
-| S-0096 | House of Joan the bellfounder | house | 1196.8 | 1473.2 | 71.7 | 336° | 6.3 x 11.5 | 9.3 | hip 2.8 | 3 | timber |
-| S-0097 | House of Henry the cobbler | house | 1174.6 | 1484.6 | 71.7 | 338° | 6.9 x 14.4 | 6.2 | gable 3.8 | 2 | timber |
-| S-0098 | Workshop of Henry the cobbler | workshop | 1180.2 | 1498.1 | 71.7 | 338° | 5.6 x 7.3 | 3.0 | gable 3.1 | 1 | timber |
-| S-0099 | House of Christiana the tailor | house | 1167.5 | 1486.5 | 71.7 | 340° | 5.9 x 13.0 | 9.3 | hip 2.7 | 3 | timber |
-| S-0100 | Workshop of Christiana the tailor | workshop | 1171.3 | 1497.0 | 71.7 | 340° | 5.6 x 6.2 | 3.0 | gable 3.1 | 1 | timber |
-| S-0101 | House of Simon the parchmenter | shop | 1160.3 | 1487.9 | 71.7 | 340° | 7.6 x 10.7 | 6.2 | hip 3.4 | 2 | timber |
-| S-0102 | Workshop of Simon the parchmenter | workshop | 1164.0 | 1498.2 | 71.7 | 340° | 6.2 x 7.8 | 3.0 | gable 3.4 | 1 | timber |
-| S-0103 | House of Godwin the candlemaker | shop | 1153.9 | 1490.6 | 71.7 | 340° | 5.8 x 11.3 | 9.3 | gable 3.2 | 3 | timber |
-| S-0104 | Workshop of Godwin the candlemaker | workshop | 1158.0 | 1502.0 | 71.7 | 340° | 5.3 x 7.1 | 3.0 | gable 2.9 | 1 | timber |
-| S-0105 | House of Hugh the clockmaker | shop | 1092.1 | 1506.0 | 71.7 | 350° | 8.2 x 9.7 | 9.3 | hip 3.7 | 3 | timber |
-| S-0106 | House of Ida the stonecarver | shop | 1085.2 | 1508.3 | 71.7 | 350° | 5.9 x 11.8 | 9.3 | gable 3.2 | 3 | timber |
-| S-0107 | House of Godwin the dyer | house | 782.8 | 1430.6 | 71.4 | 207° | 6.5 x 14.9 | 6.2 | gable 3.6 | 2 | timber |
-| S-0108 | Workshop of Godwin the dyer | workshop | 787.8 | 1420.7 | 71.3 | 207° | 5.7 x 5.2 | 3.0 | gable 2.8 | 1 | timber |
-| S-0109 | House of Odo the ropemaker | house | 727.2 | 1398.2 | 71.0 | 217° | 7.1 x 14.1 | 9.3 | gable 3.9 | 3 | timber |
-| S-0110 | Workshop of Odo the ropemaker | workshop | 734.5 | 1388.5 | 70.9 | 217° | 5.8 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| S-0111 | House of Osbert the fishmonger | shop | 971.5 | 1508.4 | 71.7 | 9° | 8.4 x 10.5 | 6.2 | gable 4.6 | 2 | timber |
-| S-0112 | House of Sybil the limner | shop | 963.3 | 1508.9 | 71.6 | 9° | 6.8 x 14.0 | 12.4 | hip 3.0 | 4 | timber |
-| S-0113 | Workshop of Sybil the limner | workshop | 961.2 | 1521.5 | 71.7 | 9° | 6.3 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| S-0114 | House of Gilbert the vintner | shop | 956.2 | 1505.6 | 71.6 | 9° | 7.7 x 9.7 | 9.3 | gable 4.2 | 3 | stone |
-| S-0115 | House of Jordan the glover | house | 947.6 | 1506.1 | 71.7 | 9° | 8.0 x 13.5 | 6.2 | gable 4.4 | 2 | timber |
-| S-0116 | House of Isabel the ropemaker | house | 925.7 | 1501.0 | 71.7 | 12° | 8.7 x 11.9 | 9.3 | gable 4.8 | 3 | timber |
-| S-0117 | Workshop of Isabel the ropemaker | workshop | 923.4 | 1511.7 | 71.7 | 12° | 6.0 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| S-0118 | House of Geoffrey the scribe | shop | 916.9 | 1499.6 | 71.7 | 12° | 8.5 x 13.0 | 9.3 | gable 4.7 | 3 | timber |
-| S-0119 | House of Wat the vintner | house | 908.6 | 1496.5 | 71.7 | 12° | 7.8 x 10.5 | 9.3 | gable 4.3 | 3 | timber |
-| S-0120 | Workshop of Wat the vintner | workshop | 906.5 | 1506.3 | 71.7 | 12° | 7.0 x 4.6 | 6.0 | gable 2.5 | 1 | timber |
-| S-0121 | House of Mabel the chandler | house | 883.6 | 1492.1 | 71.7 | 15° | 6.6 x 14.7 | 9.3 | hip 3.0 | 3 | timber |
-| S-0122 | House of Joan the scribe | shop | 877.4 | 1490.4 | 71.7 | 15° | 5.8 x 14.7 | 12.4 | gable 3.2 | 4 | timber |
-| S-0123 | Workshop of Joan the scribe | workshop | 874.0 | 1503.1 | 71.7 | 15° | 5.7 x 5.9 | 6.0 | gable 3.1 | 1 | timber |
-| S-0124 | House of Agnes the bowyer | house | 871.1 | 1488.3 | 71.7 | 17° | 5.7 x 14.1 | 9.3 | gable 3.1 | 3 | timber |
-| S-0125 | House of Christiana the cutler | shop | 866.3 | 1484.3 | 71.7 | 17° | 5.6 x 9.3 | 9.3 | gable 3.1 | 3 | stone |
-| S-0126 | Workshop of Christiana the cutler | workshop | 863.3 | 1493.7 | 71.7 | 17° | 5.1 x 4.6 | 6.0 | gable 2.5 | 1 | timber |
-| S-0127 | House of Martin the clockmaker | shop | 860.7 | 1482.7 | 71.7 | 17° | 5.6 x 9.5 | 6.2 | gable 3.1 | 2 | timber |
-| S-0128 | Workshop of Martin the clockmaker | workshop | 858.1 | 1491.2 | 71.7 | 17° | 5.0 x 4.9 | 6.0 | gable 2.7 | 1 | timber |
-| S-0129 | House of Christiana the butcher | house | 846.1 | 1479.5 | 71.6 | 17° | 6.0 x 12.3 | 6.2 | gable 3.3 | 2 | timber |
-| S-0130 | Workshop of Christiana the butcher | workshop | 842.8 | 1490.2 | 71.7 | 17° | 5.8 x 7.2 | 6.0 | gable 3.2 | 1 | timber |
-| S-0131 | House of Ida the ropemaker | shop | 825.9 | 1471.5 | 71.7 | 20° | 5.7 x 10.7 | 9.3 | hip 2.5 | 3 | timber |
-| S-0132 | Workshop of Ida the ropemaker | workshop | 822.0 | 1482.2 | 71.7 | 20° | 4.6 x 5.3 | 3.0 | gable 2.5 | 1 | timber |
-| S-0133 | House of Roger the lute-maker | house | 778.1 | 1452.5 | 71.7 | 27° | 7.9 x 11.8 | 6.2 | hip 3.5 | 2 | timber |
-| S-0134 | House of Petronilla the dyer | shop | 770.6 | 1448.5 | 71.7 | 27° | 7.7 x 11.6 | 12.4 | gable 4.2 | 4 | timber |
-| S-0135 | House of Hugh the bellfounder | shop | 755.3 | 1439.6 | 71.5 | 27° | 8.9 x 9.6 | 9.3 | gable 4.9 | 3 | timber |
-| S-0136 | House of Joan the fuller | shop | 733.3 | 1428.8 | 71.5 | 32° | 8.7 x 13.6 | 9.3 | hip 3.9 | 3 | timber |
-| S-0137 | Workshop of Joan the fuller | workshop | 726.6 | 1439.6 | 71.7 | 32° | 7.6 x 5.2 | 3.0 | gable 2.9 | 1 | timber |
-| S-0138 | House of Cecily the furrier | shop | 694.1 | 1398.0 | 71.1 | 43° | 5.7 x 10.0 | 6.2 | gable 3.1 | 2 | timber |
-| S-0139 | House of Piers the tinker | house | 681.8 | 1387.8 | 71.0 | 43° | 8.6 x 11.8 | 9.3 | hip 3.9 | 3 | timber |
-| S-0140 | House of Emma the goldsmith | shop | 675.4 | 1381.2 | 70.8 | 43° | 9.0 x 11.1 | 6.2 | gable 4.9 | 2 | timber |
-| S-0141 | Workshop of Emma the goldsmith | workshop | 667.5 | 1389.6 | 71.0 | 43° | 4.8 x 7.7 | 3.0 | gable 2.6 | 1 | timber |
-| S-0142 | House of Elena the glover | shop | 1491.7 | 1369.8 | 71.0 | 120° | 7.5 x 12.3 | 6.2 | gable 4.1 | 2 | timber |
-| S-0143 | House of Emma the butcher | house | 1483.2 | 1384.6 | 71.1 | 124° | 9.4 x 10.5 | 6.2 | hip 4.2 | 2 | timber |
-| S-0144 | House of Petronilla the parchmenter | shop | 1474.2 | 1397.1 | 71.3 | 124° | 7.5 x 11.4 | 9.3 | gable 4.1 | 3 | timber |
-| S-0145 | House of Margery the candlemaker | shop | 1444.5 | 1435.1 | 71.7 | 129° | 7.1 x 11.6 | 6.2 | gable 3.9 | 2 | timber |
-| S-0146 | House of Baldwin the baker | shop | 1426.6 | 1453.6 | 71.6 | 134° | 8.3 x 11.4 | 9.3 | hip 3.7 | 3 | timber |
-| S-0147 | House of Cecily the bellfounder | house | 1420.3 | 1459.2 | 71.6 | 134° | 8.1 x 12.7 | 6.2 | gable 4.4 | 2 | timber |
-| S-0148 | Workshop of Cecily the bellfounder | workshop | 1412.5 | 1451.5 | 71.7 | 134° | 6.5 x 5.9 | 6.0 | gable 3.3 | 1 | timber |
-| S-0149 | House of Hawise the bookbinder | shop | 1364.3 | 1503.5 | 71.6 | 146° | 8.6 x 11.6 | 6.2 | gable 4.7 | 2 | timber |
-| S-0150 | Workshop of Hawise the bookbinder | workshop | 1357.8 | 1493.7 | 71.7 | 146° | 5.7 x 7.0 | 3.0 | gable 3.1 | 1 | timber |
-| S-0151 | House of Cecily the goldsmith | shop | 1356.2 | 1507.8 | 71.6 | 146° | 8.8 x 13.3 | 6.2 | gable 4.9 | 2 | timber |
-| S-0152 | Workshop of Cecily the goldsmith | workshop | 1349.1 | 1497.1 | 71.7 | 146° | 7.2 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-| S-0153 | House of Osbert the glazier | shop | 1496.5 | 1401.4 | 71.4 | 304° | 5.6 x 14.0 | 9.3 | hip 2.5 | 3 | timber |
-| S-0154 | Workshop of Osbert the glazier | workshop | 1508.0 | 1409.3 | 71.5 | 304° | 5.1 x 6.0 | 3.0 | gable 2.8 | 1 | timber |
-| S-0155 | House of Petronilla the tinker | shop | 1451.5 | 1455.3 | 71.7 | 314° | 7.7 x 10.0 | 6.2 | gable 4.2 | 2 | timber |
-| S-0156 | Workshop of Petronilla the tinker | workshop | 1459.5 | 1463.2 | 71.7 | 314° | 5.6 x 7.0 | 3.0 | gable 3.1 | 1 | timber |
-| S-0157 | House of Cecily the mason | house | 1436.6 | 1470.7 | 71.7 | 314° | 6.0 x 10.2 | 6.2 | gable 3.3 | 2 | timber |
-| S-0158 | House of Henry the carpenter | house | 1433.5 | 1476.7 | 71.7 | 314° | 6.6 x 14.3 | 6.2 | hip 3.0 | 2 | stone |
-| S-0159 | House of Agnes the potter | house | 1422.7 | 1486.5 | 71.7 | 320° | 7.2 x 14.8 | 9.3 | gable 4.0 | 3 | timber |
-| S-0160 | House of Ivetta the locksmith | house | 1416.2 | 1489.6 | 71.7 | 320° | 6.2 x 11.3 | 6.2 | gable 3.4 | 2 | timber |
-| S-0161 | House of Baldwin the mason | shop | 1393.7 | 1507.1 | 71.7 | 326° | 6.8 x 10.9 | 6.2 | gable 3.8 | 2 | timber |
-| S-0162 | Workshop of Baldwin the mason | workshop | 1400.9 | 1517.9 | 71.7 | 326° | 4.5 x 7.2 | 3.0 | gable 2.5 | 1 | timber |
-| S-0163 | House of Christiana the bellfounder | shop | 1335.8 | 1544.1 | 71.7 | 332° | 6.2 x 14.3 | 6.2 | hip 2.8 | 2 | timber |
-| S-0164 | Workshop of Christiana the bellfounder | workshop | 1341.0 | 1553.7 | 71.7 | 332° | 6.0 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0165 | House of Joan the pewterer | shop | 1239.7 | 1580.5 | 71.7 | 344° | 9.2 x 11.9 | 9.3 | gable 5.0 | 3 | timber |
-| S-0166 | House of Isabel the dyer | shop | 1218.7 | 1587.0 | 71.7 | 344° | 7.1 x 12.7 | 6.2 | hip 3.2 | 2 | timber |
-| S-0167 | House of Martin the mercer | house | 1211.5 | 1589.5 | 71.7 | 344° | 6.7 x 13.5 | 6.2 | gable 3.7 | 2 | timber |
-| S-0168 | Workshop of Martin the mercer | workshop | 1214.5 | 1600.1 | 71.7 | 344° | 6.0 x 5.2 | 3.0 | gable 2.9 | 1 | timber |
-| S-0169 | House of Gilbert the tailor | house | 1203.8 | 1590.2 | 71.7 | 346° | 7.6 x 10.9 | 6.2 | gable 4.2 | 2 | timber |
-| S-0170 | Workshop of Gilbert the tailor | workshop | 1206.5 | 1601.2 | 71.7 | 346° | 5.3 x 6.3 | 3.0 | gable 2.9 | 1 | timber |
-| S-0171 | House of Geoffrey the cobbler | shop | 1188.4 | 1594.6 | 71.7 | 346° | 9.4 x 12.3 | 9.3 | gable 5.2 | 3 | stone |
-| S-0172 | Workshop of Geoffrey the cobbler | workshop | 1191.1 | 1605.8 | 71.7 | 346° | 6.3 x 6.8 | 6.0 | gable 3.5 | 1 | timber |
-| S-0173 | House of Robin the pewterer | shop | 1179.8 | 1596.2 | 71.7 | 346° | 7.2 x 11.2 | 6.2 | hip 3.3 | 2 | stone |
-| S-0174 | Workshop of Robin the pewterer | workshop | 1182.4 | 1606.9 | 71.7 | 346° | 5.9 x 7.4 | 6.0 | gable 3.2 | 1 | timber |
-| S-0175 | House of Beatrice the pie-seller | shop | 1171.9 | 1598.1 | 71.7 | 346° | 8.2 x 11.2 | 9.3 | gable 4.5 | 3 | timber |
-| S-0176 | Workshop of Beatrice the pie-seller | workshop | 1174.3 | 1607.9 | 71.7 | 346° | 5.0 x 6.1 | 3.0 | gable 2.8 | 1 | timber |
-| S-0177 | House of Christiana the dyer | house | 1164.5 | 1601.5 | 71.7 | 349° | 5.7 x 14.8 | 6.2 | hip 2.5 | 2 | timber |
-| S-0178 | House of Petronilla the chandler | shop | 1142.5 | 1603.9 | 71.7 | 349° | 6.1 x 11.1 | 6.2 | gable 3.4 | 2 | timber |
-| S-0179 | House of Joan the jeweller | house | 1134.9 | 1606.5 | 71.6 | 349° | 9.2 x 13.0 | 6.2 | hip 4.1 | 2 | stone |
-| S-0180 | Workshop of Joan the jeweller | workshop | 1137.5 | 1619.1 | 71.7 | 349° | 6.2 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| S-0181 | House of Wat the potter | shop | 1125.3 | 1607.5 | 71.7 | 351° | 9.2 x 11.5 | 9.3 | gable 5.1 | 3 | timber |
-| S-0182 | Workshop of Wat the potter | workshop | 1127.2 | 1620.6 | 71.7 | 351° | 6.5 x 7.2 | 3.0 | gable 3.6 | 1 | timber |
-| S-0183 | House of Petronilla the barber-surgeon | shop | 1115.7 | 1608.5 | 71.7 | 351° | 9.0 x 10.8 | 6.2 | hip 4.1 | 2 | timber |
-| S-0184 | Workshop of Petronilla the barber-surgeon | workshop | 1117.1 | 1618.3 | 71.7 | 351° | 6.3 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| S-0185 | House of Hob the fishmonger | shop | 1094.7 | 1610.8 | 71.7 | 351° | 5.6 x 9.0 | 9.3 | gable 3.1 | 3 | timber |
-| S-0186 | House of Walter the weaver | shop | 1088.5 | 1612.2 | 71.7 | 351° | 6.0 x 9.8 | 9.3 | gable 3.3 | 3 | timber |
-| S-0187 | House of Thomas the cutler | shop | 1080.3 | 1615.6 | 71.7 | 354° | 9.3 x 14.8 | 9.3 | gable 5.1 | 3 | stone |
-| S-0188 | Workshop of Thomas the cutler | workshop | 1081.7 | 1629.3 | 71.7 | 354° | 5.8 x 6.3 | 3.0 | gable 3.2 | 1 | timber |
-| S-0189 | House of Roger the scribe | house | 1070.4 | 1614.9 | 71.7 | 354° | 9.3 x 11.6 | 6.2 | gable 5.1 | 2 | timber |
-| S-0190 | Workshop of Roger the scribe | workshop | 1071.4 | 1625.7 | 71.7 | 354° | 7.6 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-| S-0191 | House of Jordan the glover | house | 1061.8 | 1616.0 | 71.7 | 354° | 6.9 x 12.2 | 9.3 | hip 3.1 | 3 | timber |
-| S-0192 | Workshop of Jordan the glover | workshop | 1063.1 | 1629.3 | 71.7 | 354° | 5.5 x 7.2 | 6.0 | gable 3.0 | 1 | timber |
-| S-0193 | House of Martin the saddler | shop | 1054.8 | 1617.6 | 71.7 | 354° | 6.2 x 14.0 | 12.4 | hip 2.8 | 4 | timber |
-| S-0194 | Workshop of Martin the saddler | workshop | 1056.1 | 1630.5 | 71.7 | 354° | 4.9 x 6.5 | 3.0 | gable 2.7 | 1 | timber |
-| S-0195 | House of Osbert the tailor | shop | 1038.9 | 1617.3 | 71.7 | 358° | 6.1 x 11.0 | 9.3 | gable 3.4 | 3 | timber |
-| S-0196 | Workshop of Osbert the tailor | workshop | 1039.3 | 1628.6 | 71.7 | 358° | 5.2 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| S-0197 | House of Walter the goldsmith | shop | 1010.7 | 1618.9 | 71.8 | 358° | 5.9 x 12.6 | 6.2 | hip 2.6 | 2 | timber |
-| S-0198 | House of Agnes the cheesemonger | house | 1003.7 | 1617.9 | 71.7 | 360° | 6.4 x 10.2 | 6.2 | hip 2.9 | 2 | timber |
-| S-0199 | House of Rose the tailor | house | 969.3 | 1616.2 | 71.7 | 3° | 9.2 x 9.9 | 12.4 | hip 4.1 | 4 | timber |
-| S-0200 | Workshop of Rose the tailor | workshop | 968.9 | 1625.0 | 71.7 | 3° | 6.9 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| S-0201 | House of Nicholas the pie-seller | house | 960.5 | 1615.5 | 71.6 | 5° | 7.8 x 9.5 | 9.3 | gable 4.3 | 3 | stone |
-| S-0202 | Workshop of Nicholas the pie-seller | workshop | 959.5 | 1626.0 | 71.7 | 5° | 7.7 x 5.9 | 3.0 | gable 3.3 | 1 | timber |
-| S-0203 | House of Roger the parchmenter | house | 952.3 | 1614.3 | 71.6 | 8° | 7.0 x 9.3 | 9.3 | gable 3.8 | 3 | timber |
-| S-0204 | Workshop of Roger the parchmenter | workshop | 950.9 | 1624.4 | 71.7 | 8° | 4.9 x 7.8 | 6.0 | gable 2.7 | 1 | timber |
-| S-0205 | House of Rose the parchmenter | shop | 944.4 | 1615.7 | 71.7 | 8° | 7.2 x 14.3 | 6.2 | hip 3.2 | 2 | timber |
-| S-0206 | Workshop of Rose the parchmenter | workshop | 942.5 | 1629.5 | 71.7 | 8° | 5.9 x 7.1 | 3.0 | gable 3.3 | 1 | timber |
-| S-0207 | House of Roger the saddler | shop | 937.5 | 1612.2 | 71.7 | 8° | 6.0 x 9.2 | 6.2 | hip 2.7 | 2 | stone |
-| S-0208 | Workshop of Roger the saddler | workshop | 936.4 | 1620.5 | 71.7 | 8° | 4.6 x 5.0 | 3.0 | gable 2.5 | 1 | timber |
-| S-0209 | House of Geoffrey the herbalist | house | 914.2 | 1609.3 | 71.7 | 13° | 8.6 x 10.9 | 9.3 | hip 3.9 | 3 | timber |
-| S-0210 | Workshop of Geoffrey the herbalist | workshop | 911.9 | 1618.9 | 71.7 | 13° | 6.5 x 6.8 | 3.0 | gable 3.6 | 1 | timber |
-| S-0211 | House of Margery the fletcher | house | 898.7 | 1607.0 | 71.6 | 13° | 6.5 x 13.5 | 6.2 | gable 3.5 | 2 | stone |
-| S-0212 | House of Avice the draper | house | 891.7 | 1604.3 | 71.7 | 13° | 7.0 x 11.3 | 6.2 | gable 3.9 | 2 | timber |
-| S-0213 | House of Walter the saddler | house | 770.4 | 1533.9 | 71.7 | 211° | 6.9 x 10.1 | 6.2 | gable 3.8 | 2 | timber |
-| S-0214 | Workshop of Walter the saddler | workshop | 776.5 | 1523.7 | 71.7 | 211° | 5.0 x 7.7 | 3.0 | gable 2.8 | 1 | timber |
-| S-0215 | House of Ralph the stonecarver | house | 710.7 | 1494.4 | 71.7 | 213° | 5.9 x 13.5 | 9.3 | gable 3.2 | 3 | timber |
-| S-0216 | House of Simon the lute-maker | house | 697.0 | 1486.3 | 71.7 | 215° | 8.4 x 11.4 | 6.2 | hip 3.8 | 2 | timber |
-| S-0217 | Workshop of Simon the lute-maker | workshop | 703.1 | 1477.5 | 71.6 | 215° | 6.1 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| S-0218 | House of Laurence the apothecary | house | 678.7 | 1473.7 | 71.7 | 215° | 7.0 x 11.2 | 6.2 | gable 3.9 | 2 | timber |
-| S-0219 | Workshop of Laurence the apothecary | workshop | 684.8 | 1465.0 | 71.7 | 215° | 5.4 x 7.2 | 3.0 | gable 3.0 | 1 | timber |
-| S-0220 | House of Walter the limner | house | 648.1 | 1452.4 | 71.7 | 216° | 5.7 x 9.3 | 9.3 | gable 3.1 | 3 | timber |
-| S-0221 | Workshop of Walter the limner | workshop | 653.8 | 1444.6 | 71.7 | 216° | 5.3 x 7.7 | 3.0 | gable 2.9 | 1 | timber |
-| S-0222 | House of Walter the pie-seller | house | 636.8 | 1442.4 | 71.7 | 218° | 6.3 x 11.3 | 6.2 | hip 2.8 | 2 | timber |
-| S-0223 | Workshop of Walter the pie-seller | workshop | 642.4 | 1435.2 | 71.7 | 218° | 5.3 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0224 | House of Juliana the mason | house | 627.7 | 1433.2 | 71.6 | 218° | 6.7 x 14.6 | 6.2 | gable 3.7 | 2 | timber |
-| S-0225 | House of Robin the brewer | house | 612.0 | 1420.7 | 71.5 | 221° | 5.8 x 14.3 | 12.4 | gable 3.2 | 4 | stone |
-| S-0226 | Workshop of Robin the brewer | workshop | 619.4 | 1412.1 | 71.4 | 221° | 5.8 x 6.0 | 6.0 | gable 3.2 | 1 | timber |
-| S-0227 | House of Ida the wheelwright | house | 606.4 | 1417.8 | 71.5 | 221° | 5.7 x 11.4 | 6.2 | gable 3.1 | 2 | stone |
-| S-0228 | House of Avice the hatter | shop | 601.9 | 1411.9 | 71.4 | 221° | 8.1 x 14.5 | 6.2 | gable 4.4 | 2 | timber |
-| S-0229 | Workshop of Avice the hatter | workshop | 610.7 | 1401.7 | 71.3 | 221° | 6.7 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| S-0230 | House of Margery the barber-surgeon | shop | 593.8 | 1407.7 | 71.4 | 221° | 8.2 x 10.4 | 6.2 | gable 4.5 | 2 | timber |
-| S-0231 | House of Ida the wheelwright | house | 733.0 | 1532.4 | 71.7 | 31° | 7.9 x 9.4 | 6.2 | hip 3.6 | 2 | stone |
-| S-0232 | Workshop of Ida the wheelwright | workshop | 727.7 | 1541.1 | 71.7 | 31° | 5.0 x 6.8 | 6.0 | gable 2.8 | 1 | timber |
-| S-0233 | House of Robin the cobbler | shop | 725.3 | 1530.1 | 71.7 | 33° | 6.5 x 13.7 | 6.2 | hip 2.9 | 2 | timber |
-| S-0234 | Workshop of Robin the cobbler | workshop | 717.5 | 1542.1 | 71.7 | 33° | 5.4 x 7.8 | 3.0 | gable 3.0 | 1 | timber |
-| S-0235 | House of Gilbert the lute-maker | house | 718.8 | 1524.9 | 71.7 | 33° | 9.2 x 12.1 | 9.3 | gable 5.0 | 3 | timber |
-| S-0236 | Workshop of Gilbert the lute-maker | workshop | 712.1 | 1535.2 | 71.7 | 33° | 6.2 x 5.2 | 3.0 | gable 2.9 | 1 | timber |
-| S-0237 | House of Henry the weaver | house | 694.6 | 1508.7 | 71.7 | 35° | 9.4 x 11.7 | 12.4 | gable 5.2 | 4 | timber |
-| S-0238 | House of Matilda the tailor | house | 688.4 | 1503.2 | 71.7 | 35° | 5.9 x 9.8 | 6.2 | gable 3.2 | 2 | timber |
-| S-0239 | House of Joan the glazier | house | 675.7 | 1497.2 | 71.7 | 35° | 5.5 x 14.6 | 6.2 | gable 3.0 | 2 | timber |
-| S-0240 | House of Amice the bookbinder | shop | 663.2 | 1487.4 | 71.7 | 36° | 7.5 x 12.8 | 9.3 | gable 4.1 | 3 | timber |
-| S-0241 | House of Godwin the stonecarver | house | 631.4 | 1464.3 | 71.7 | 38° | 8.0 x 13.4 | 12.4 | hip 3.6 | 4 | timber |
-| S-0242 | Workshop of Godwin the stonecarver | workshop | 624.3 | 1473.3 | 71.7 | 38° | 6.4 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0243 | House of Joan the pewterer | shop | 612.3 | 1450.2 | 71.6 | 38° | 7.1 x 14.8 | 6.2 | gable 3.9 | 2 | timber |
-| S-0244 | Workshop of Joan the pewterer | workshop | 603.8 | 1461.1 | 71.6 | 38° | 6.5 x 7.7 | 3.0 | gable 3.6 | 1 | timber |
-| S-0245 | House of Godwin the baker | house | 596.5 | 1435.4 | 71.7 | 41° | 6.5 x 11.7 | 6.2 | gable 3.6 | 2 | timber |
-| S-0246 | Workshop of Godwin the baker | workshop | 588.5 | 1444.6 | 71.7 | 41° | 5.6 x 5.5 | 6.0 | gable 3.0 | 1 | timber |
-| S-0247 | House of Simon the potter | house | 591.2 | 1429.2 | 71.7 | 41° | 8.5 x 9.3 | 9.3 | gable 4.7 | 3 | timber |
-| S-0248 | House of Petronilla the notary | shop | 1633.2 | 1390.8 | 71.0 | 126° | 8.1 x 11.5 | 6.2 | gable 4.4 | 2 | timber |
-| S-0249 | Workshop of Petronilla the notary | workshop | 1624.8 | 1384.6 | 71.0 | 126° | 6.9 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| S-0250 | House of Osbert the candlemaker | house | 1623.5 | 1402.3 | 71.2 | 126° | 9.0 x 13.7 | 6.2 | gable 5.0 | 2 | timber |
-| S-0251 | Workshop of Osbert the candlemaker | workshop | 1613.8 | 1395.3 | 71.2 | 126° | 8.4 x 6.6 | 3.0 | gable 3.6 | 1 | timber |
-| S-0252 | House of Martin the pie-seller | shop | 1597.5 | 1435.7 | 71.6 | 130° | 5.7 x 10.8 | 9.3 | gable 3.1 | 3 | timber |
-| S-0253 | House of Adam the cheesemonger | shop | 1593.6 | 1441.7 | 71.7 | 130° | 7.4 x 9.2 | 9.3 | gable 4.1 | 3 | timber |
-| S-0254 | Workshop of Adam the cheesemonger | workshop | 1585.5 | 1434.8 | 71.7 | 130° | 5.2 x 6.8 | 3.0 | gable 2.9 | 1 | timber |
-| S-0255 | House of Osbert the limner | house | 1568.4 | 1464.0 | 71.7 | 134° | 7.4 x 14.9 | 9.3 | hip 3.4 | 3 | timber |
-| S-0256 | Workshop of Osbert the limner | workshop | 1559.5 | 1455.5 | 71.7 | 134° | 6.0 x 7.5 | 3.0 | gable 3.3 | 1 | timber |
-| S-0257 | House of Agnes the candlemaker | shop | 1564.8 | 1471.3 | 71.7 | 134° | 6.8 x 10.1 | 6.2 | gable 3.8 | 2 | timber |
-| S-0258 | House of Walter the mercer | house | 1530.7 | 1504.7 | 71.7 | 136° | 7.9 x 9.5 | 6.2 | hip 3.5 | 2 | stone |
-| S-0259 | House of Petronilla the bellfounder | house | 1517.2 | 1513.2 | 71.7 | 139° | 7.0 x 14.8 | 6.2 | gable 3.8 | 2 | timber |
-| S-0260 | Workshop of Petronilla the bellfounder | workshop | 1508.8 | 1503.6 | 71.7 | 139° | 5.6 x 7.5 | 3.0 | gable 3.1 | 1 | timber |
-| S-0261 | House of Henry the draper | house | 1429.6 | 1584.8 | 71.7 | 145° | 8.4 x 10.9 | 9.3 | gable 4.6 | 3 | timber |
-| S-0262 | Workshop of Henry the draper | workshop | 1423.8 | 1576.4 | 71.7 | 145° | 4.6 x 6.9 | 6.0 | gable 2.5 | 1 | timber |
-| S-0263 | House of Thomas the barber-surgeon | house | 1422.2 | 1589.4 | 71.7 | 145° | 8.0 x 11.8 | 6.2 | gable 4.4 | 2 | timber |
-| S-0264 | House of Robin the furrier | house | 1386.5 | 1612.6 | 71.7 | 149° | 6.9 x 9.8 | 9.3 | gable 3.8 | 3 | timber |
-| S-0265 | House of Wat the carpenter | house | 1664.4 | 1380.7 | 70.9 | 306° | 8.8 x 10.8 | 9.3 | hip 4.0 | 3 | timber |
-| S-0266 | House of Wat the vintner | shop | 1660.5 | 1387.3 | 71.0 | 306° | 5.9 x 12.2 | 6.2 | gable 3.2 | 2 | stone |
-| S-0267 | Workshop of Wat the vintner | workshop | 1669.9 | 1394.1 | 71.1 | 306° | 5.4 x 6.8 | 3.0 | gable 3.0 | 1 | timber |
-| S-0268 | House of Felice the mercer | house | 1630.6 | 1425.5 | 71.6 | 310° | 8.4 x 10.0 | 6.2 | gable 4.6 | 2 | timber |
-| S-0269 | Workshop of Felice the mercer | workshop | 1638.4 | 1432.1 | 71.7 | 310° | 5.4 x 6.2 | 3.0 | gable 3.0 | 1 | timber |
-| S-0270 | House of Elena the apothecary | shop | 1618.0 | 1441.9 | 71.6 | 310° | 6.3 x 12.0 | 6.2 | gable 3.5 | 2 | timber |
-| S-0271 | Workshop of Elena the apothecary | workshop | 1627.1 | 1449.5 | 71.7 | 310° | 5.3 x 5.7 | 3.0 | gable 2.9 | 1 | timber |
-| S-0272 | House of Maud the furrier | shop | 1593.1 | 1471.5 | 71.7 | 314° | 7.7 x 14.8 | 6.2 | hip 3.5 | 2 | timber |
-| S-0273 | House of Roger the potter | shop | 1585.3 | 1476.7 | 71.7 | 314° | 9.1 x 10.6 | 6.2 | hip 4.1 | 2 | timber |
-| S-0274 | House of Sybil the ropemaker | house | 1575.1 | 1486.9 | 71.7 | 314° | 6.0 x 9.9 | 6.2 | gable 3.3 | 2 | timber |
-| S-0275 | Workshop of Sybil the ropemaker | workshop | 1582.8 | 1494.2 | 71.7 | 314° | 6.0 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| S-0276 | House of Wat the glover | house | 1551.9 | 1509.7 | 71.7 | 316° | 9.4 x 10.6 | 6.2 | hip 4.2 | 2 | timber |
-| S-0277 | Workshop of Wat the glover | workshop | 1558.8 | 1517.0 | 71.7 | 316° | 8.4 x 6.7 | 6.0 | gable 3.7 | 1 | timber |
-| S-0278 | House of Godwin the fletcher | shop | 1540.1 | 1523.6 | 71.7 | 317° | 8.8 x 14.5 | 9.3 | gable 4.8 | 3 | timber |
-| S-0279 | Workshop of Godwin the fletcher | workshop | 1548.2 | 1532.4 | 71.6 | 317° | 7.1 x 5.9 | 3.0 | gable 3.3 | 1 | timber |
-| S-0280 | House of Hob the vintner | house | 1444.9 | 1599.0 | 71.7 | 325° | 6.9 x 13.6 | 6.2 | gable 3.8 | 2 | timber |
-| S-0281 | House of Hob the fletcher | house | 1438.4 | 1604.3 | 71.7 | 325° | 8.9 x 14.9 | 12.4 | gable 4.9 | 4 | timber |
-| S-0282 | Workshop of Hob the fletcher | workshop | 1445.2 | 1614.0 | 71.7 | 325° | 5.1 x 5.7 | 3.0 | gable 2.8 | 1 | timber |
-| S-0283 | House of Ralph the barber-surgeon | house | 1432.1 | 1608.8 | 71.7 | 325° | 6.3 x 15.0 | 6.2 | hip 2.8 | 2 | timber |
-| S-0284 | Workshop of Ralph the barber-surgeon | workshop | 1438.8 | 1618.4 | 71.7 | 325° | 4.7 x 5.5 | 3.0 | gable 2.6 | 1 | timber |
-| S-0285 | House of Edith the money-changer | shop | 1417.8 | 1615.5 | 71.7 | 329° | 8.0 x 11.0 | 9.3 | gable 4.4 | 3 | timber |
-| S-0286 | Workshop of Edith the money-changer | workshop | 1423.8 | 1625.4 | 71.7 | 329° | 7.4 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| S-0287 | House of Margery the ropemaker | shop | 1397.7 | 1626.5 | 71.7 | 329° | 7.1 x 9.2 | 6.2 | gable 3.9 | 2 | timber |
-| S-0288 | House of Joan the lute-maker | shop | 1089.6 | 1703.2 | 71.6 | 1° | 9.0 x 9.4 | 9.3 | gable 5.0 | 3 | timber |
-| S-0289 | Workshop of Joan the lute-maker | workshop | 1089.4 | 1714.7 | 71.7 | 1° | 6.4 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| S-0290 | House of Martin the tailor | house | 1080.2 | 1705.3 | 71.7 | 1° | 8.7 x 14.0 | 6.2 | hip 3.9 | 2 | stone |
-| S-0291 | Workshop of Martin the tailor | workshop | 1080.0 | 1718.0 | 71.7 | 1° | 6.9 x 6.0 | 6.0 | gable 3.3 | 1 | timber |
-| S-0292 | House of Osbert the fishmonger | house | 1072.0 | 1704.6 | 71.7 | 1° | 6.6 x 12.7 | 9.3 | hip 3.0 | 3 | timber |
-| S-0293 | House of Petronilla the bellfounder | house | 1065.1 | 1704.6 | 71.7 | 1° | 6.7 x 12.9 | 6.2 | gable 3.7 | 2 | timber |
-| S-0294 | House of Odo the chandler | house | 1056.7 | 1704.5 | 71.7 | 1° | 9.1 x 12.8 | 9.3 | gable 5.0 | 3 | timber |
-| S-0295 | House of Piers the bookbinder | shop | 988.8 | 1701.4 | 71.7 | 4° | 8.2 x 12.8 | 6.2 | hip 3.7 | 2 | timber |
-| S-0296 | House of Ivetta the hatter | shop | 964.0 | 1698.2 | 71.7 | 4° | 7.4 x 9.9 | 6.2 | gable 4.1 | 2 | timber |
-| S-0297 | Workshop of Ivetta the hatter | workshop | 963.3 | 1707.8 | 71.7 | 4° | 5.3 x 6.8 | 3.0 | gable 2.9 | 1 | timber |
-| S-0298 | House of Henry the fuller | house | 955.9 | 1699.3 | 71.7 | 4° | 7.7 x 13.3 | 9.3 | hip 3.5 | 3 | timber |
-| S-0299 | Workshop of Henry the fuller | workshop | 955.0 | 1710.8 | 71.7 | 4° | 5.5 x 6.7 | 6.0 | gable 3.0 | 1 | timber |
-| S-0300 | House of Odo the baker | house | 948.7 | 1697.4 | 71.7 | 5° | 6.2 x 10.6 | 6.2 | gable 3.4 | 2 | timber |
-| S-0301 | House of Isabel the locksmith | house | 941.2 | 1696.0 | 71.7 | 5° | 8.4 x 9.3 | 9.3 | gable 4.6 | 3 | timber |
-| S-0302 | Workshop of Isabel the locksmith | workshop | 940.4 | 1705.1 | 71.7 | 5° | 8.3 x 4.9 | 6.0 | gable 2.7 | 1 | timber |
-| S-0303 | House of Baldwin the butcher | house | 932.0 | 1696.2 | 71.7 | 5° | 8.8 x 11.3 | 6.2 | gable 4.9 | 2 | stone |
-| S-0304 | Workshop of Baldwin the butcher | workshop | 930.9 | 1707.6 | 71.7 | 5° | 8.1 x 6.3 | 3.0 | gable 3.5 | 1 | timber |
-| S-0305 | House of Edith the fishmonger | shop | 923.3 | 1694.8 | 71.7 | 5° | 7.7 x 10.4 | 9.3 | hip 3.5 | 3 | timber |
-| S-0306 | Workshop of Edith the fishmonger | workshop | 922.2 | 1705.8 | 71.7 | 5° | 5.1 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| S-0307 | House of Roger the dyer | shop | 893.6 | 1692.9 | 71.7 | 7° | 6.3 x 12.8 | 6.2 | hip 2.8 | 2 | timber |
-| S-0308 | Workshop of Roger the dyer | workshop | 892.1 | 1704.7 | 71.7 | 7° | 4.8 x 5.4 | 3.0 | gable 2.6 | 1 | timber |
-| S-0309 | House of Geoffrey the baker | shop | 887.0 | 1693.1 | 71.7 | 7° | 6.1 x 14.7 | 9.3 | gable 3.4 | 3 | timber |
-| S-0310 | Workshop of Geoffrey the baker | workshop | 885.4 | 1705.4 | 71.7 | 7° | 4.9 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0311 | House of Laurence the bookbinder | shop | 625.3 | 1591.1 | 71.7 | 213° | 6.8 x 10.0 | 6.2 | gable 3.8 | 2 | timber |
-| S-0312 | House of Alys the hatter | shop | 618.9 | 1586.3 | 71.7 | 213° | 8.3 x 11.0 | 9.3 | gable 4.6 | 3 | timber |
-| S-0313 | Workshop of Alys the hatter | workshop | 624.9 | 1577.2 | 71.6 | 213° | 4.6 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| S-0314 | House of Walter the furrier | house | 673.2 | 1637.0 | 71.7 | 22° | 7.0 x 10.3 | 6.2 | gable 3.8 | 2 | timber |
-| S-0315 | Workshop of Walter the furrier | workshop | 669.2 | 1646.7 | 71.7 | 22° | 6.5 x 7.4 | 3.0 | gable 3.6 | 1 | timber |
-| S-0316 | House of Beatrice the furrier | shop | 656.6 | 1631.4 | 71.7 | 28° | 6.8 x 14.4 | 6.2 | gable 3.7 | 2 | timber |
-| S-0317 | House of Sybil the tanner | shop | 636.6 | 1618.7 | 71.7 | 28° | 6.7 x 10.6 | 6.2 | gable 3.7 | 2 | timber |
-| S-0318 | House of Godwin the mason | shop | 606.5 | 1602.4 | 71.6 | 33° | 7.8 x 13.1 | 9.3 | gable 4.3 | 3 | timber |
-| S-0319 | House of Rose the jeweller | house | 591.2 | 1593.1 | 71.7 | 33° | 9.2 x 14.3 | 6.2 | gable 5.1 | 2 | timber |
-| S-0320 | House of Agnes the candlemaker | house | 575.8 | 1579.9 | 71.7 | 38° | 9.2 x 10.3 | 9.3 | gable 5.0 | 3 | timber |
-| S-0321 | Workshop of Agnes the candlemaker | workshop | 568.4 | 1589.2 | 71.7 | 38° | 5.5 x 7.5 | 6.0 | gable 3.0 | 1 | timber |
-| S-0322 | House of Isabel the wheelwright | shop | 544.1 | 1557.1 | 71.7 | 38° | 5.7 x 13.7 | 12.4 | gable 3.1 | 4 | timber |
-| S-0323 | House of Godwin the tanner | shop | 538.6 | 1552.6 | 71.7 | 43° | 6.0 x 14.1 | 6.2 | gable 3.3 | 2 | timber |
-| S-0324 | House of Beatrice the clockmaker | house | 402.9 | 1364.2 | 71.2 | 238° | 6.3 x 10.3 | 6.2 | gable 3.5 | 2 | stone |
-| S-0325 | House of Godwin the armourer | shop | 1707.5 | 1396.5 | 70.8 | 25° | 6.5 x 14.9 | 6.2 | gable 3.6 | 2 | timber |
-| S-0326 | Workshop of Godwin the armourer | workshop | 1701.5 | 1409.2 | 71.2 | 25° | 4.6 x 7.5 | 3.0 | gable 2.5 | 1 | timber |
-| S-0327 | House of Avice the weaver | shop | 1714.5 | 1398.9 | 70.9 | 25° | 7.8 x 13.3 | 9.3 | hip 3.5 | 3 | timber |
-| S-0328 | Workshop of Avice the weaver | workshop | 1708.9 | 1410.8 | 71.1 | 25° | 5.6 x 6.6 | 3.0 | gable 3.1 | 1 | timber |
-| S-0329 | House of Roger the baker | shop | 1428.0 | 1380.4 | 71.1 | 42° | 9.2 x 11.1 | 12.4 | hip 4.1 | 4 | timber |
-| S-0330 | Workshop of Roger the baker | workshop | 1420.4 | 1389.0 | 71.2 | 42° | 5.0 x 7.8 | 6.0 | gable 2.8 | 1 | timber |
-| S-0331 | House of Piers the glazier | shop | 1444.1 | 1395.7 | 71.2 | 42° | 6.4 x 12.3 | 6.2 | gable 3.5 | 2 | timber |
-| S-0332 | Workshop of Piers the glazier | workshop | 1436.4 | 1404.2 | 71.4 | 42° | 4.6 x 7.8 | 6.0 | gable 2.5 | 1 | timber |
-| S-0333 | House of Emma the draper | house | 1460.6 | 1410.3 | 71.5 | 42° | 5.8 x 11.6 | 9.3 | hip 2.6 | 3 | timber |
-| S-0334 | House of Roger the stonecarver | shop | 1477.4 | 1425.9 | 71.6 | 42° | 9.2 x 12.1 | 6.2 | hip 4.1 | 2 | stone |
-| S-0335 | Workshop of Roger the stonecarver | workshop | 1469.5 | 1434.7 | 71.7 | 42° | 7.4 x 6.7 | 6.0 | gable 3.7 | 1 | timber |
-| S-0336 | House of Martin the fletcher | shop | 1506.9 | 1453.1 | 71.7 | 41° | 7.2 x 14.2 | 12.4 | gable 3.9 | 4 | stone |
-| S-0337 | Workshop of Martin the fletcher | workshop | 1498.3 | 1463.1 | 71.7 | 41° | 4.6 x 5.3 | 3.0 | gable 2.5 | 1 | timber |
-| S-0338 | House of Joan the bellfounder | shop | 1513.9 | 1456.9 | 71.7 | 41° | 7.6 x 10.8 | 6.2 | gable 4.2 | 2 | timber |
-| S-0339 | House of Baldwin the carpenter | house | 1531.7 | 1471.4 | 71.7 | 41° | 8.7 x 9.1 | 6.2 | gable 4.8 | 2 | timber |
-| S-0340 | Workshop of Baldwin the carpenter | workshop | 1525.2 | 1478.9 | 71.7 | 41° | 6.6 x 6.6 | 3.0 | gable 3.6 | 1 | timber |
-| S-0341 | House of Petronilla the bookbinder | shop | 1543.1 | 1482.8 | 71.7 | 41° | 9.4 x 11.4 | 6.2 | hip 4.2 | 2 | timber |
-| S-0342 | Workshop of Petronilla the bookbinder | workshop | 1534.9 | 1492.2 | 71.7 | 41° | 4.6 x 5.7 | 3.0 | gable 2.5 | 1 | timber |
-| S-0343 | House of Petronilla the armourer | house | 1567.0 | 1503.1 | 71.7 | 41° | 5.8 x 10.6 | 6.2 | gable 3.2 | 2 | timber |
-| S-0344 | House of Margery the barber-surgeon | shop | 1572.1 | 1508.0 | 71.7 | 41° | 7.7 x 11.2 | 6.2 | gable 4.3 | 2 | timber |
-| S-0345 | House of Godwin the cobbler | shop | 1501.1 | 1419.0 | 71.6 | 221° | 6.3 x 13.3 | 6.2 | hip 2.9 | 2 | timber |
-| S-0346 | House of Nicholas the ropemaker | house | 1511.8 | 1428.2 | 71.6 | 221° | 7.4 x 13.4 | 6.2 | gable 4.1 | 2 | timber |
-| S-0347 | House of Elena the herbalist | shop | 1517.7 | 1434.1 | 71.7 | 221° | 8.8 x 12.4 | 6.2 | hip 3.9 | 2 | timber |
-| S-0348 | Workshop of Elena the herbalist | workshop | 1525.7 | 1424.9 | 71.7 | 221° | 4.8 x 6.4 | 6.0 | gable 2.7 | 1 | timber |
-| S-0349 | House of Isabel the wheelwright | house | 1523.4 | 1440.5 | 71.7 | 221° | 6.8 x 10.2 | 9.3 | gable 3.8 | 3 | timber |
-| S-0350 | Workshop of Isabel the wheelwright | workshop | 1530.4 | 1432.4 | 71.7 | 221° | 5.1 x 5.2 | 3.0 | gable 2.8 | 1 | timber |
-| S-0351 | House of Adam the hatter | house | 1544.1 | 1456.0 | 71.7 | 221° | 7.6 x 13.8 | 9.3 | gable 4.2 | 3 | timber |
-| S-0352 | Workshop of Adam the hatter | workshop | 1552.7 | 1446.2 | 71.7 | 221° | 5.5 x 5.1 | 6.0 | gable 2.8 | 1 | timber |
-| S-0353 | House of Geoffrey the tanner | house | 1592.7 | 1501.2 | 71.7 | 221° | 9.2 x 9.6 | 9.3 | gable 5.0 | 3 | timber |
-| S-0354 | Workshop of Geoffrey the tanner | workshop | 1599.2 | 1493.8 | 71.7 | 221° | 7.9 x 7.9 | 3.0 | gable 4.4 | 1 | timber |
-| S-0355 | House of Adam the fishmonger | shop | 1606.3 | 1510.2 | 71.7 | 221° | 6.0 x 14.1 | 9.3 | gable 3.3 | 3 | timber |
-| S-0356 | Workshop of Adam the fishmonger | workshop | 1615.2 | 1500.0 | 71.7 | 221° | 6.0 x 6.8 | 3.0 | gable 3.3 | 1 | timber |
-| S-0357 | House of Margery the bellfounder | shop | 1286.0 | 1388.7 | 70.9 | 50° | 8.9 x 10.8 | 9.3 | hip 4.0 | 3 | timber |
-| S-0358 | Workshop of Margery the bellfounder | workshop | 1276.8 | 1396.5 | 71.0 | 50° | 7.1 x 7.9 | 3.0 | gable 3.9 | 1 | timber |
-| S-0359 | House of Christiana the candlemaker | house | 1290.0 | 1396.4 | 71.0 | 49° | 6.6 x 14.6 | 12.4 | gable 3.6 | 4 | timber |
-| S-0360 | Workshop of Christiana the candlemaker | workshop | 1280.2 | 1404.9 | 71.2 | 49° | 4.8 x 5.2 | 3.0 | gable 2.6 | 1 | timber |
-| S-0361 | House of Elena the jeweller | house | 1318.4 | 1424.5 | 71.5 | 46° | 6.2 x 10.5 | 6.2 | gable 3.4 | 2 | stone |
-| S-0362 | Workshop of Elena the jeweller | workshop | 1311.3 | 1431.3 | 71.6 | 46° | 4.7 x 5.3 | 6.0 | gable 2.6 | 1 | timber |
-| S-0363 | House of Ralph the apothecary | house | 1323.0 | 1429.7 | 71.6 | 46° | 7.2 x 11.1 | 9.3 | gable 4.0 | 3 | timber |
-| S-0364 | House of Ralph the wheelwright | house | 1359.0 | 1466.3 | 71.7 | 45° | 8.5 x 11.4 | 9.3 | gable 4.7 | 3 | timber |
-| S-0365 | Workshop of Ralph the wheelwright | workshop | 1350.7 | 1474.5 | 71.7 | 45° | 5.0 x 7.3 | 6.0 | gable 2.8 | 1 | timber |
-| S-0366 | House of Osbert the mercer | shop | 1375.4 | 1484.2 | 71.7 | 47° | 6.6 x 12.7 | 9.3 | gable 3.6 | 3 | timber |
-| S-0367 | Workshop of Osbert the mercer | workshop | 1366.7 | 1492.2 | 71.7 | 47° | 5.0 x 4.5 | 6.0 | gable 2.5 | 1 | timber |
-| S-0368 | House of Nicholas the bowyer | house | 1381.9 | 1489.5 | 71.7 | 48° | 9.4 x 10.3 | 6.2 | gable 5.2 | 2 | timber |
-| S-0369 | Workshop of Nicholas the bowyer | workshop | 1373.2 | 1497.4 | 71.7 | 48° | 8.0 x 7.0 | 6.0 | gable 3.9 | 1 | timber |
-| S-0370 | House of Odo the butcher | shop | 1430.3 | 1555.8 | 71.7 | 57° | 7.6 x 12.3 | 9.3 | hip 3.4 | 3 | timber |
-| S-0371 | Workshop of Odo the butcher | workshop | 1420.9 | 1561.9 | 71.7 | 57° | 4.7 x 5.9 | 3.0 | gable 2.6 | 1 | timber |
-| S-0372 | House of Alys the tanner | shop | 1433.8 | 1563.8 | 71.7 | 58° | 9.0 x 15.0 | 6.2 | gable 5.0 | 2 | timber |
-| S-0373 | House of Osbert the fuller | shop | 1440.8 | 1570.3 | 71.7 | 58° | 8.8 x 9.9 | 9.3 | gable 4.8 | 3 | timber |
-| S-0374 | House of Edith the draper | house | 1456.5 | 1595.9 | 71.7 | 59° | 7.5 x 9.8 | 9.3 | hip 3.4 | 3 | timber |
-| S-0375 | House of Rose the brewer | house | 1464.2 | 1610.8 | 71.7 | 60° | 9.1 x 11.5 | 6.2 | hip 4.1 | 2 | timber |
-| S-0376 | House of Christiana the furrier | house | 1467.8 | 1619.3 | 71.7 | 60° | 8.1 x 13.9 | 9.3 | gable 4.5 | 3 | timber |
-| S-0377 | House of Rose the glover | shop | 1480.4 | 1640.8 | 71.6 | 60° | 8.3 x 13.9 | 6.2 | gable 4.6 | 2 | stone |
-| S-0378 | House of Thomas the butcher | house | 1348.4 | 1429.3 | 71.6 | 225° | 6.4 x 9.1 | 6.2 | gable 3.5 | 2 | timber |
-| S-0379 | Workshop of Thomas the butcher | workshop | 1355.8 | 1422.0 | 71.6 | 225° | 5.2 x 6.3 | 3.0 | gable 2.9 | 1 | timber |
-| S-0380 | House of Maud the jeweller | house | 1377.8 | 1455.4 | 71.7 | 226° | 6.8 x 14.2 | 6.2 | gable 3.8 | 2 | timber |
-| S-0381 | Workshop of Maud the jeweller | workshop | 1387.7 | 1445.8 | 71.7 | 226° | 6.0 x 6.6 | 3.0 | gable 3.3 | 1 | timber |
-| S-0382 | House of Emma the pewterer | house | 1393.2 | 1473.8 | 71.7 | 228° | 9.0 x 11.1 | 6.2 | gable 5.0 | 2 | timber |
-| S-0383 | Workshop of Emma the pewterer | workshop | 1401.5 | 1466.3 | 71.6 | 228° | 6.4 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| S-0384 | House of Martin the tinker | shop | 1425.4 | 1511.4 | 71.7 | 234° | 8.6 x 13.1 | 6.2 | gable 4.7 | 2 | timber |
-| S-0385 | Workshop of Martin the tinker | workshop | 1434.7 | 1504.6 | 71.7 | 234° | 7.8 x 6.3 | 3.0 | gable 3.5 | 1 | timber |
-| S-0386 | House of Roger the candlemaker | shop | 1488.6 | 1611.7 | 71.7 | 240° | 5.5 x 13.2 | 6.2 | gable 3.0 | 2 | timber |
-| S-0387 | Workshop of Roger the candlemaker | workshop | 1499.4 | 1605.3 | 71.7 | 240° | 4.8 x 7.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0388 | House of Hugh the mason | house | 1193.9 | 1395.1 | 70.9 | 63° | 5.5 x 11.8 | 6.2 | gable 3.0 | 2 | timber |
-| S-0389 | House of Joan the cheesemonger | house | 1202.5 | 1411.5 | 71.1 | 64° | 6.8 x 11.1 | 9.3 | gable 3.7 | 3 | timber |
-| S-0390 | House of Elena the baker | house | 1208.4 | 1424.8 | 71.3 | 64° | 8.7 x 12.2 | 12.4 | gable 4.8 | 4 | timber |
-| S-0391 | House of Margery the barber-surgeon | shop | 1213.9 | 1438.8 | 71.5 | 66° | 7.2 x 14.0 | 12.4 | gable 3.9 | 4 | stone |
-| S-0392 | House of Hugh the scribe | house | 1230.9 | 1481.0 | 71.7 | 70° | 7.3 x 14.2 | 6.2 | gable 4.0 | 2 | timber |
-| S-0393 | House of Roger the cutler | shop | 1249.7 | 1530.9 | 71.6 | 71° | 8.0 x 11.0 | 9.3 | gable 4.4 | 3 | timber |
-| S-0394 | Workshop of Roger the cutler | workshop | 1239.7 | 1534.4 | 71.7 | 71° | 6.0 x 6.7 | 6.0 | gable 3.3 | 1 | timber |
-| S-0395 | House of Martin the glover | shop | 1254.7 | 1546.4 | 71.7 | 70° | 8.4 x 12.1 | 9.3 | hip 3.8 | 3 | timber |
-| S-0396 | Workshop of Martin the glover | workshop | 1243.1 | 1550.7 | 71.7 | 70° | 7.8 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0397 | House of Simon the vintner | house | 1229.1 | 1422.2 | 71.3 | 245° | 9.2 x 11.1 | 12.4 | gable 5.0 | 4 | timber |
-| S-0398 | House of Adam the pie-seller | house | 1316.5 | 1664.8 | 71.7 | 58° | 9.5 x 13.7 | 6.2 | gable 5.2 | 2 | stone |
-| S-0399 | Workshop of Adam the pie-seller | workshop | 1307.1 | 1670.8 | 71.7 | 58° | 7.4 x 6.5 | 6.0 | gable 3.6 | 1 | timber |
-| S-0400 | House of Elena the goldsmith | house | 1320.8 | 1671.7 | 71.7 | 57° | 5.7 x 13.9 | 9.3 | gable 3.1 | 3 | timber |
-| S-0401 | House of Nicholas the fletcher | house | 1326.4 | 1677.3 | 71.7 | 57° | 8.9 x 10.4 | 6.2 | gable 4.9 | 2 | timber |
-| S-0402 | House of Robin the vintner | shop | 1337.0 | 1697.2 | 71.6 | 57° | 6.1 x 14.5 | 6.2 | gable 3.3 | 2 | timber |
-| S-0403 | Workshop of Robin the vintner | workshop | 1327.6 | 1703.3 | 71.6 | 57° | 5.9 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| S-0404 | House of Agnes the cobbler | shop | 1340.6 | 1703.3 | 71.7 | 57° | 7.0 x 15.0 | 6.2 | gable 3.9 | 2 | timber |
-| S-0405 | House of Emma the fuller | house | 1347.0 | 1709.0 | 71.7 | 57° | 8.8 x 10.7 | 6.2 | gable 4.8 | 2 | timber |
-| S-0406 | Workshop of Emma the fuller | workshop | 1337.8 | 1715.0 | 71.7 | 57° | 6.5 x 7.2 | 3.0 | gable 3.6 | 1 | timber |
-| S-0407 | House of Jordan the glover | house | 1339.7 | 1664.5 | 71.7 | 237° | 6.2 x 9.3 | 6.2 | gable 3.4 | 2 | timber |
-| S-0408 | House of Mabel the dyer | house | 1111.9 | 1399.2 | 70.9 | 72° | 8.1 x 11.6 | 12.4 | gable 4.5 | 4 | timber |
-| S-0409 | House of Maud the baker | shop | 1116.7 | 1414.3 | 71.1 | 72° | 7.3 x 11.7 | 12.4 | gable 4.0 | 4 | timber |
-| S-0410 | House of Adam the herbalist | house | 1124.8 | 1437.5 | 71.5 | 74° | 7.2 x 9.6 | 6.2 | gable 3.9 | 2 | timber |
-| S-0411 | Workshop of Adam the herbalist | workshop | 1115.2 | 1440.2 | 71.5 | 74° | 6.5 x 7.9 | 3.0 | gable 3.6 | 1 | timber |
-| S-0412 | House of Adam the parchmenter | shop | 1129.1 | 1459.2 | 71.7 | 76° | 7.6 x 12.3 | 9.3 | hip 3.4 | 3 | timber |
-| S-0413 | House of Maud the scribe | house | 1133.1 | 1474.1 | 71.7 | 79° | 6.6 x 11.0 | 9.3 | gable 3.6 | 3 | timber |
-| S-0414 | Workshop of Maud the scribe | workshop | 1122.9 | 1476.1 | 71.7 | 79° | 6.2 x 7.1 | 3.0 | gable 3.4 | 1 | timber |
-| S-0415 | House of Maud the carpenter | house | 1136.9 | 1558.6 | 71.7 | 88° | 9.3 x 12.8 | 6.2 | gable 5.1 | 2 | timber |
-| S-0416 | House of Martin the mercer | shop | 1136.8 | 1566.5 | 71.6 | 88° | 5.5 x 13.5 | 6.2 | hip 2.5 | 2 | timber |
-| S-0417 | House of Ralph the wheelwright | house | 1137.1 | 1574.4 | 71.7 | 86° | 9.2 x 14.0 | 12.4 | gable 5.0 | 4 | timber |
-| S-0418 | House of Roger the limner | shop | 1137.5 | 1582.5 | 71.7 | 84° | 5.6 x 14.4 | 6.2 | gable 3.1 | 2 | timber |
-| S-0419 | House of Christiana the tailor | house | 1147.7 | 1624.7 | 71.7 | 72° | 6.8 x 11.1 | 6.2 | gable 3.7 | 2 | timber |
-| S-0420 | House of Felice the chandler | house | 1047.6 | 1770.6 | 71.7 | 74° | 8.1 x 10.9 | 6.2 | gable 4.4 | 2 | timber |
-| S-0421 | House of Margery the cobbler | shop | 945.7 | 1393.6 | 70.9 | 101° | 6.2 x 10.7 | 12.4 | gable 3.4 | 4 | timber |
-| S-0422 | House of Thomas the mason | shop | 943.1 | 1408.3 | 71.1 | 101° | 6.2 x 10.1 | 9.3 | gable 3.4 | 3 | timber |
-| S-0423 | Workshop of Thomas the mason | workshop | 932.9 | 1406.2 | 71.0 | 101° | 5.5 x 7.1 | 6.0 | gable 3.0 | 1 | timber |
-| S-0424 | House of Amice the baker | house | 942.0 | 1414.8 | 71.2 | 101° | 5.7 x 9.9 | 9.3 | hip 2.5 | 3 | timber |
-| S-0425 | House of Stephen the hatter | shop | 937.0 | 1429.5 | 71.4 | 101° | 7.2 x 14.3 | 6.2 | gable 3.9 | 2 | timber |
-| S-0426 | House of Henry the pie-seller | shop | 934.6 | 1451.7 | 71.6 | 100° | 6.0 x 11.0 | 6.2 | gable 3.3 | 2 | timber |
-| S-0427 | House of Jordan the jeweller | shop | 932.5 | 1459.7 | 71.6 | 100° | 9.2 x 12.4 | 9.3 | gable 5.0 | 3 | timber |
-| S-0428 | House of Adam the vintner | house | 932.5 | 1467.7 | 71.6 | 99° | 5.8 x 9.6 | 6.2 | gable 3.2 | 2 | timber |
-| S-0429 | Workshop of Adam the vintner | workshop | 923.0 | 1466.2 | 71.6 | 99° | 4.6 x 4.9 | 3.0 | gable 2.5 | 1 | timber |
-| S-0430 | House of Joan the lute-maker | shop | 929.5 | 1473.5 | 71.7 | 99° | 5.8 x 13.9 | 6.2 | gable 3.2 | 2 | timber |
-| S-0431 | Workshop of Joan the lute-maker | workshop | 918.0 | 1471.7 | 71.7 | 99° | 4.7 x 5.5 | 3.0 | gable 2.6 | 1 | timber |
-| S-0432 | House of Baldwin the cutler | shop | 929.9 | 1481.1 | 71.7 | 98° | 8.4 x 10.7 | 9.3 | gable 4.7 | 3 | timber |
-| S-0433 | Workshop of Baldwin the cutler | workshop | 919.1 | 1479.5 | 71.7 | 98° | 5.5 x 6.2 | 3.0 | gable 3.0 | 1 | timber |
-| S-0434 | House of Nicholas the cheesemonger | shop | 923.2 | 1524.7 | 71.7 | 96° | 7.2 x 13.8 | 9.3 | gable 4.0 | 3 | timber |
-| S-0435 | House of Hob the locksmith | house | 922.7 | 1533.0 | 71.7 | 95° | 8.5 x 13.2 | 6.2 | gable 4.7 | 2 | timber |
-| S-0436 | Workshop of Hob the locksmith | workshop | 908.7 | 1531.7 | 71.7 | 95° | 4.5 x 7.9 | 6.0 | gable 2.5 | 1 | timber |
-| S-0437 | House of Sybil the armourer | shop | 920.3 | 1560.2 | 71.7 | 95° | 7.0 x 12.9 | 6.2 | hip 3.2 | 2 | timber |
-| S-0438 | Workshop of Sybil the armourer | workshop | 906.2 | 1558.9 | 71.6 | 95° | 5.8 x 7.9 | 6.0 | gable 3.2 | 1 | timber |
-| S-0439 | House of Baldwin the locksmith | shop | 919.5 | 1568.4 | 71.7 | 96° | 8.3 x 13.1 | 9.3 | gable 4.6 | 3 | timber |
-| S-0440 | Workshop of Baldwin the locksmith | workshop | 906.9 | 1567.1 | 71.7 | 96° | 8.0 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| S-0441 | House of Edith the saddler | house | 919.5 | 1583.1 | 71.7 | 96° | 8.3 x 9.9 | 6.2 | gable 4.6 | 2 | timber |
-| S-0442 | Workshop of Edith the saddler | workshop | 909.3 | 1581.9 | 71.7 | 96° | 4.5 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| S-0443 | House of Mabel the glover | shop | 912.1 | 1629.5 | 71.7 | 101° | 6.3 x 11.0 | 9.3 | gable 3.5 | 3 | timber |
-| S-0444 | Workshop of Mabel the glover | workshop | 902.1 | 1627.7 | 71.7 | 101° | 5.0 x 6.8 | 3.0 | gable 2.8 | 1 | timber |
-| S-0445 | House of Maud the parchmenter | shop | 907.5 | 1652.6 | 71.7 | 102° | 6.5 x 11.0 | 6.2 | gable 3.6 | 2 | timber |
-| S-0446 | Workshop of Maud the parchmenter | workshop | 895.1 | 1650.0 | 71.7 | 102° | 5.6 x 6.8 | 3.0 | gable 3.1 | 1 | timber |
-| S-0447 | House of Maud the weaver | shop | 902.6 | 1666.7 | 71.7 | 103° | 7.3 x 14.5 | 6.2 | gable 4.0 | 2 | timber |
-| S-0448 | Workshop of Maud the weaver | workshop | 889.5 | 1663.8 | 71.7 | 103° | 4.7 x 6.2 | 3.0 | gable 2.6 | 1 | timber |
-| S-0449 | House of Avice the cutler | shop | 903.5 | 1675.0 | 71.7 | 103° | 8.0 x 9.2 | 9.3 | gable 4.4 | 3 | timber |
-| S-0450 | House of Henry the jeweller | shop | 892.7 | 1717.6 | 71.7 | 104° | 7.2 x 10.4 | 6.2 | gable 4.0 | 2 | timber |
-| S-0451 | House of Elena the pie-seller | house | 888.7 | 1733.3 | 71.7 | 104° | 8.6 x 10.6 | 6.2 | gable 4.8 | 2 | timber |
-| S-0452 | House of Rose the brewer | house | 885.5 | 1740.2 | 71.7 | 104° | 5.8 x 13.4 | 6.2 | gable 3.2 | 2 | timber |
-| S-0453 | Workshop of Rose the brewer | workshop | 874.4 | 1737.4 | 71.7 | 104° | 4.9 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| S-0454 | House of Avice the ropemaker | house | 881.5 | 1762.2 | 71.7 | 104° | 7.2 x 10.6 | 6.2 | hip 3.2 | 2 | timber |
-| S-0455 | House of Isabel the weaver | shop | 879.8 | 1770.4 | 71.7 | 104° | 8.1 x 9.9 | 6.2 | gable 4.5 | 2 | timber |
-| S-0456 | Workshop of Isabel the weaver | workshop | 868.9 | 1767.8 | 71.7 | 104° | 7.4 x 7.0 | 3.0 | gable 3.9 | 1 | timber |
-| S-0457 | House of Edith the glover | shop | 869.0 | 1394.0 | 70.9 | 116° | 6.1 x 9.2 | 6.2 | hip 2.8 | 2 | timber |
-| S-0458 | Workshop of Edith the glover | workshop | 859.8 | 1389.5 | 70.9 | 116° | 5.0 x 6.1 | 3.0 | gable 2.7 | 1 | timber |
-| S-0459 | House of Gilbert the lute-maker | house | 864.9 | 1399.0 | 71.0 | 116° | 6.1 x 12.2 | 12.4 | hip 2.8 | 4 | timber |
-| S-0460 | Workshop of Gilbert the lute-maker | workshop | 854.5 | 1393.9 | 71.0 | 116° | 4.7 x 6.1 | 3.0 | gable 2.6 | 1 | timber |
-| S-0461 | House of Mabel the butcher | shop | 862.8 | 1406.0 | 71.0 | 116° | 7.6 x 9.8 | 9.3 | gable 4.2 | 3 | timber |
-| S-0462 | Workshop of Mabel the butcher | workshop | 852.2 | 1400.8 | 71.0 | 116° | 5.5 x 8.0 | 3.0 | gable 3.0 | 1 | timber |
-| S-0463 | House of Henry the brewer | house | 847.9 | 1430.3 | 71.4 | 117° | 6.7 x 14.7 | 9.3 | gable 3.7 | 3 | timber |
-| S-0464 | Workshop of Henry the brewer | workshop | 835.3 | 1423.9 | 71.4 | 117° | 4.9 x 7.0 | 6.0 | gable 2.7 | 1 | timber |
-| S-0465 | House of Matilda the brewer | shop | 838.3 | 1449.0 | 71.6 | 118° | 6.5 x 14.5 | 6.2 | gable 3.6 | 2 | timber |
-| S-0466 | Workshop of Matilda the brewer | workshop | 827.8 | 1443.5 | 71.6 | 118° | 6.1 x 5.9 | 3.0 | gable 3.2 | 1 | timber |
-| S-0467 | House of Hob the scribe | house | 810.8 | 1498.6 | 71.7 | 120° | 7.7 x 14.5 | 9.3 | gable 4.2 | 3 | stone |
-| S-0468 | Workshop of Hob the scribe | workshop | 799.4 | 1492.0 | 71.7 | 120° | 5.0 x 6.1 | 6.0 | gable 2.8 | 1 | timber |
-| S-0469 | House of Laurence the fletcher | house | 809.0 | 1506.0 | 71.7 | 120° | 5.8 x 10.2 | 6.2 | hip 2.6 | 2 | timber |
-| S-0470 | House of Maud the dyer | shop | 795.6 | 1525.3 | 71.7 | 120° | 9.0 x 14.0 | 12.4 | gable 5.0 | 4 | timber |
-| S-0471 | Workshop of Maud the dyer | workshop | 784.7 | 1519.0 | 71.7 | 120° | 6.5 x 8.0 | 6.0 | gable 3.6 | 1 | timber |
-| S-0472 | House of Joan the mercer | shop | 792.8 | 1533.7 | 71.7 | 120° | 8.0 x 10.5 | 6.2 | hip 3.6 | 2 | timber |
-| S-0473 | House of Thomas the notary | shop | 789.0 | 1541.6 | 71.7 | 120° | 8.8 x 9.1 | 9.3 | gable 4.9 | 3 | timber |
-| S-0474 | House of Henry the butcher | shop | 884.6 | 1404.5 | 71.0 | 296° | 8.7 x 11.6 | 6.2 | gable 4.8 | 2 | timber |
-| S-0475 | Workshop of Henry the butcher | workshop | 895.1 | 1409.6 | 71.1 | 296° | 4.5 x 7.3 | 3.0 | gable 2.5 | 1 | timber |
-| S-0476 | House of Alan the tinker | shop | 869.3 | 1437.8 | 71.5 | 297° | 9.1 x 13.9 | 12.4 | hip 4.1 | 4 | timber |
-| S-0477 | Workshop of Alan the tinker | workshop | 881.9 | 1444.2 | 71.6 | 297° | 7.1 x 7.8 | 6.0 | gable 3.9 | 1 | timber |
-| S-0478 | House of Rose the weaver | shop | 725.7 | 1451.9 | 71.7 | 109° | 7.0 x 10.7 | 9.3 | gable 3.8 | 3 | timber |
-| S-0479 | House of Beatrice the pie-seller | house | 723.5 | 1458.4 | 71.7 | 109° | 5.6 x 10.7 | 9.3 | gable 3.1 | 3 | timber |
-| S-0480 | House of Ida the goldsmith | house | 715.6 | 1481.7 | 71.6 | 109° | 6.9 x 10.6 | 6.2 | hip 3.1 | 2 | stone |
-| S-0481 | House of Rose the bookbinder | house | 697.2 | 1523.0 | 71.7 | 119° | 8.6 x 12.1 | 6.2 | hip 3.9 | 2 | timber |
-| S-0482 | Workshop of Rose the bookbinder | workshop | 686.7 | 1517.2 | 71.7 | 119° | 4.5 x 5.6 | 3.0 | gable 2.5 | 1 | timber |
-| S-0483 | House of Henry the fletcher | shop | 685.9 | 1542.5 | 71.6 | 128° | 6.0 x 9.2 | 6.2 | gable 3.3 | 2 | timber |
-| S-0484 | House of Sybil the apothecary | shop | 644.8 | 1580.8 | 71.7 | 140° | 6.4 x 11.5 | 12.4 | gable 3.5 | 4 | timber |
-| S-0485 | House of Margery the weaver | house | 639.2 | 1586.3 | 71.7 | 141° | 8.1 x 9.9 | 9.3 | gable 4.4 | 3 | timber |
-| S-0486 | House of Felice the limner | house | 598.6 | 1616.6 | 71.6 | 144° | 6.9 x 10.7 | 9.3 | gable 3.8 | 3 | stone |
-| S-0487 | House of Agnes the carpenter | shop | 584.9 | 1624.9 | 71.7 | 144° | 8.8 x 13.3 | 9.3 | hip 4.0 | 3 | stone |
-| S-0488 | House of Sybil the cheesemonger | shop | 566.5 | 1639.4 | 71.6 | 144° | 8.3 x 11.3 | 6.2 | gable 4.6 | 2 | timber |
-| S-0489 | House of Simon the brewer | house | 769.8 | 1402.4 | 71.1 | 304° | 8.5 x 9.8 | 9.3 | gable 4.7 | 3 | timber |
-| S-0490 | House of Maud the lute-maker | shop | 689.7 | 1568.0 | 71.7 | 314° | 8.1 x 14.0 | 9.3 | hip 3.6 | 3 | timber |
-| S-0491 | House of Hugh the goldsmith | shop | 682.5 | 1572.5 | 71.7 | 316° | 7.7 x 10.1 | 9.3 | hip 3.5 | 3 | timber |
-| S-0492 | House of Christiana the bowyer | shop | 672.7 | 1584.8 | 71.7 | 318° | 5.8 x 14.7 | 12.4 | hip 2.6 | 4 | timber |
-| S-0493 | Workshop of Christiana the bowyer | workshop | 680.6 | 1593.6 | 71.7 | 318° | 5.7 x 5.8 | 6.0 | gable 3.1 | 1 | timber |
-| S-0494 | House of Simon the fletcher | shop | 666.8 | 1589.7 | 71.7 | 319° | 8.1 x 14.1 | 6.2 | gable 4.4 | 2 | timber |
-| S-0495 | House of Agnes the chandler | house | 660.2 | 1594.9 | 71.7 | 320° | 8.2 x 13.6 | 6.2 | gable 4.5 | 2 | timber |
-| S-0496 | House of Jordan the cutler | house | 654.0 | 1600.8 | 71.7 | 321° | 7.3 x 14.8 | 9.3 | gable 4.0 | 3 | timber |
-| S-0497 | Workshop of Jordan the cutler | workshop | 663.2 | 1612.1 | 71.7 | 321° | 6.7 x 7.0 | 6.0 | gable 3.7 | 1 | timber |
-| S-0498 | House of Thomas the bellfounder | house | 620.5 | 1623.1 | 71.7 | 324° | 7.8 x 9.1 | 6.2 | hip 3.5 | 2 | timber |
-| S-0499 | House of Edith the fletcher | house | 584.2 | 1651.8 | 71.7 | 324° | 5.8 x 13.2 | 6.2 | gable 3.2 | 2 | timber |
-| S-0500 | Workshop of Edith the fletcher | workshop | 590.8 | 1661.1 | 71.7 | 324° | 5.7 x 5.0 | 3.0 | gable 2.8 | 1 | timber |
-| S-0501 | House of Juliana the scribe | shop | 630.1 | 1403.9 | 71.3 | 130° | 5.5 x 9.9 | 12.4 | hip 2.5 | 4 | timber |
-| S-0502 | Workshop of Juliana the scribe | workshop | 621.7 | 1396.8 | 71.2 | 130° | 5.1 x 7.5 | 3.0 | gable 2.8 | 1 | timber |
-| S-0503 | House of Gilbert the tinker | house | 598.0 | 1468.1 | 71.6 | 318° | 7.7 x 14.1 | 9.3 | gable 4.2 | 3 | timber |
-| S-0504 | Workshop of Gilbert the tinker | workshop | 605.7 | 1476.5 | 71.6 | 318° | 6.3 x 6.3 | 3.0 | gable 3.5 | 1 | timber |
-| S-0505 | House of Matilda the locksmith | shop | 494.0 | 1515.2 | 71.7 | 148° | 9.0 x 12.0 | 6.2 | hip 4.0 | 2 | stone |
-| S-0506 | House of Maud the chandler | house | 495.4 | 1537.2 | 71.7 | 329° | 5.8 x 10.6 | 6.2 | gable 3.2 | 2 | timber |
-| S-0507 | Workshop of Maud the chandler | workshop | 501.1 | 1546.4 | 71.7 | 329° | 4.6 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| S-0508 | House of Emma the cobbler | shop | 489.6 | 1539.8 | 71.7 | 329° | 6.1 x 9.0 | 9.3 | gable 3.4 | 3 | timber |
-| S-0509 | Workshop of Emma the cobbler | workshop | 495.2 | 1548.9 | 71.7 | 329° | 4.8 x 6.0 | 3.0 | gable 2.6 | 1 | timber |
-| S-0510 | House of Avice the ropemaker | shop | 484.1 | 1546.2 | 71.7 | 329° | 9.0 x 14.1 | 6.2 | gable 5.0 | 2 | timber |
-| S-0511 | Workshop of Avice the ropemaker | workshop | 490.6 | 1556.9 | 71.7 | 329° | 4.7 x 5.7 | 3.0 | gable 2.6 | 1 | timber |
-| S-0512 | House of Petronilla the barber-surgeon | house | 462.4 | 1557.5 | 71.7 | 329° | 9.2 x 11.1 | 6.2 | gable 5.0 | 2 | timber |
-| S-0513 | Workshop of Petronilla the barber-surgeon | workshop | 468.5 | 1567.6 | 71.7 | 329° | 8.2 x 5.5 | 3.0 | gable 3.0 | 1 | timber |
-| S-0514 | House of Baldwin the glover | house | 1231.6 | 1398.8 | 70.9 | 338° | 8.7 x 10.3 | 12.4 | gable 4.8 | 4 | timber |
-| S-0515 | Workshop of Baldwin the glover | workshop | 1235.4 | 1408.3 | 71.1 | 338° | 6.8 x 5.6 | 3.0 | gable 3.1 | 1 | timber |
-| S-0516 | House of Wat the pie-seller | shop | 1224.2 | 1403.0 | 71.0 | 339° | 6.8 x 12.8 | 12.4 | hip 3.1 | 4 | timber |
-| S-0517 | House of Amice the baker | house | 1187.7 | 1415.9 | 71.2 | 342° | 9.4 x 12.7 | 9.3 | gable 5.2 | 3 | timber |
-| S-0518 | Workshop of Amice the baker | workshop | 1191.3 | 1426.8 | 71.4 | 342° | 6.2 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| S-0519 | House of Maud the candlemaker | house | 1178.0 | 1418.0 | 71.2 | 343° | 9.3 x 10.6 | 9.3 | gable 5.1 | 3 | timber |
-| S-0520 | House of Alan the lute-maker | house | 1153.4 | 1425.4 | 71.3 | 344° | 9.1 x 10.9 | 12.4 | gable 5.0 | 4 | timber |
-| S-0521 | Workshop of Alan the lute-maker | workshop | 1156.0 | 1434.5 | 71.5 | 344° | 8.0 x 5.1 | 6.0 | gable 2.8 | 1 | timber |
-| S-0522 | House of Hob the glover | house | 1145.1 | 1427.4 | 71.3 | 345° | 6.8 x 10.3 | 9.3 | hip 3.0 | 3 | timber |
-| S-0523 | House of Cecily the vintner | house | 1102.2 | 1439.5 | 71.5 | 346° | 7.0 x 12.6 | 9.3 | gable 3.8 | 3 | timber |
-| S-0524 | House of Maud the fishmonger | shop | 1074.6 | 1444.4 | 71.5 | 348° | 6.8 x 10.5 | 15.5 | gable 3.8 | 5 | timber |
-| S-0525 | House of Adam the draper | house | 1066.7 | 1445.8 | 71.5 | 351° | 7.0 x 10.1 | 9.3 | gable 3.9 | 3 | timber |
-| S-0526 | Workshop of Adam the draper | workshop | 1068.2 | 1455.2 | 71.6 | 351° | 5.5 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| S-0527 | House of Amice the lute-maker | house | 1058.4 | 1448.8 | 71.5 | 351° | 9.3 x 13.6 | 6.2 | gable 5.1 | 2 | timber |
-| S-0528 | House of Avice the dyer | shop | 1050.2 | 1450.7 | 71.6 | 351° | 6.6 x 14.8 | 6.2 | gable 3.6 | 2 | timber |
-| S-0529 | Workshop of Avice the dyer | workshop | 1052.2 | 1463.2 | 71.7 | 351° | 5.6 x 5.8 | 3.0 | gable 3.1 | 1 | timber |
-| S-0530 | House of Simon the mason | shop | 988.3 | 1453.4 | 71.6 | 359° | 9.1 x 11.0 | 9.3 | hip 4.1 | 3 | timber |
-| S-0531 | House of Alan the armourer | house | 979.4 | 1453.6 | 71.6 | 1° | 6.8 x 11.2 | 6.2 | gable 3.7 | 2 | timber |
-| S-0532 | Workshop of Alan the armourer | workshop | 979.1 | 1465.2 | 71.7 | 1° | 6.3 x 7.1 | 3.0 | gable 3.5 | 1 | timber |
-| S-0533 | House of Martin the locksmith | shop | 972.5 | 1454.9 | 71.6 | 4° | 5.9 x 14.8 | 6.2 | gable 3.2 | 2 | timber |
-| S-0534 | Workshop of Martin the locksmith | workshop | 971.5 | 1468.0 | 71.7 | 4° | 4.8 x 5.7 | 3.0 | gable 2.7 | 1 | timber |
-| S-0535 | House of Stephen the armourer | shop | 966.2 | 1453.8 | 71.6 | 4° | 5.8 x 13.7 | 9.3 | gable 3.2 | 3 | timber |
-| S-0536 | Workshop of Stephen the armourer | workshop | 965.3 | 1465.7 | 71.7 | 4° | 5.2 x 5.0 | 3.0 | gable 2.8 | 1 | timber |
-| S-0537 | House of Joan the lute-maker | house | 959.3 | 1453.2 | 71.6 | 4° | 6.7 x 13.4 | 12.4 | gable 3.7 | 4 | timber |
-| S-0538 | Workshop of Joan the lute-maker | workshop | 958.3 | 1466.6 | 71.7 | 4° | 5.9 x 6.0 | 6.0 | gable 3.3 | 1 | timber |
-| S-0539 | House of Avice the hatter | shop | 923.8 | 1446.3 | 71.5 | 10° | 8.2 x 10.1 | 9.3 | gable 4.5 | 3 | timber |
-| S-0540 | House of Piers the locksmith | house | 897.1 | 1439.4 | 71.5 | 15° | 7.5 x 9.9 | 9.3 | gable 4.2 | 3 | timber |
-| S-0541 | Workshop of Piers the locksmith | workshop | 893.9 | 1451.7 | 71.7 | 15° | 6.7 x 7.6 | 3.0 | gable 3.7 | 1 | timber |
-| S-0542 | House of Geoffrey the brewer | shop | 813.2 | 1406.4 | 71.0 | 27° | 7.5 x 14.1 | 9.3 | gable 4.2 | 3 | stone |
-| S-0543 | Workshop of Geoffrey the brewer | workshop | 807.2 | 1418.1 | 71.3 | 27° | 6.8 x 4.8 | 3.0 | gable 2.7 | 1 | timber |
-| S-0544 | House of Agnes the goldsmith | house | 797.7 | 1398.1 | 71.0 | 30° | 6.6 x 14.8 | 9.3 | gable 3.6 | 3 | timber |
-| S-0545 | House of Agnes the tinker | house | 790.8 | 1393.8 | 70.9 | 30° | 9.1 x 14.1 | 12.4 | hip 4.1 | 4 | timber |
-| S-0546 | House of Hawise the saddler | shop | 1405.1 | 1374.8 | 71.0 | 133° | 9.4 x 12.5 | 9.3 | gable 5.2 | 3 | timber |
-| S-0547 | House of Martin the parchmenter | shop | 1400.9 | 1381.5 | 71.1 | 133° | 5.6 x 9.3 | 6.2 | hip 2.5 | 2 | timber |
-| S-0548 | House of Cecily the cobbler | house | 1385.3 | 1395.9 | 71.2 | 135° | 6.5 x 11.9 | 9.3 | gable 3.6 | 3 | timber |
-| S-0549 | House of Avice the fishmonger | shop | 1367.7 | 1414.5 | 71.5 | 135° | 7.9 x 10.6 | 9.3 | gable 4.3 | 3 | timber |
-| S-0550 | Workshop of Avice the fishmonger | workshop | 1360.2 | 1407.0 | 71.4 | 135° | 7.8 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| S-0551 | House of Henry the cheesemonger | shop | 1331.0 | 1447.7 | 71.7 | 141° | 6.7 x 9.9 | 6.2 | gable 3.7 | 2 | timber |
-| S-0552 | Workshop of Henry the cheesemonger | workshop | 1324.3 | 1439.5 | 71.7 | 141° | 5.9 x 7.9 | 3.0 | gable 3.3 | 1 | timber |
-| S-0553 | House of Felice the furrier | shop | 1323.7 | 1450.8 | 71.7 | 141° | 7.6 x 14.5 | 12.4 | gable 4.2 | 4 | timber |
-| S-0554 | Workshop of Felice the furrier | workshop | 1315.2 | 1440.5 | 71.7 | 141° | 5.3 x 7.2 | 3.0 | gable 2.9 | 1 | timber |
-| S-0555 | House of Hob the barber-surgeon | house | 1318.3 | 1457.7 | 71.7 | 141° | 8.3 x 10.7 | 6.2 | gable 4.6 | 2 | timber |
-| S-0556 | Workshop of Hob the barber-surgeon | workshop | 1310.6 | 1448.3 | 71.7 | 141° | 4.9 x 6.7 | 6.0 | gable 2.7 | 1 | timber |
-| S-0557 | House of Osbert the barber-surgeon | shop | 1410.1 | 1397.5 | 71.2 | 313° | 9.5 x 13.5 | 6.2 | gable 5.2 | 2 | timber |
-| S-0558 | Workshop of Osbert the barber-surgeon | workshop | 1418.7 | 1405.5 | 71.4 | 313° | 5.6 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| S-0559 | House of Edith the dyer | house | 1403.3 | 1403.2 | 71.3 | 314° | 6.6 x 11.6 | 9.3 | gable 3.6 | 3 | stone |
-| S-0560 | House of Cecily the goldsmith | shop | 1387.9 | 1420.0 | 71.6 | 315° | 6.6 x 13.3 | 9.3 | gable 3.6 | 3 | stone |
-| S-0561 | Workshop of Cecily the goldsmith | workshop | 1395.3 | 1427.4 | 71.7 | 315° | 6.5 x 5.7 | 3.0 | gable 3.1 | 1 | timber |
-| S-0562 | House of Sybil the draper | house | 1381.7 | 1425.1 | 71.6 | 315° | 8.6 x 11.8 | 6.2 | gable 4.8 | 2 | timber |
-| S-0563 | Workshop of Sybil the draper | workshop | 1390.4 | 1433.8 | 71.7 | 315° | 4.7 x 6.5 | 6.0 | gable 2.6 | 1 | timber |
-| S-0564 | House of Odo the bellfounder | house | 1374.9 | 1431.3 | 71.7 | 317° | 8.4 x 11.5 | 6.2 | hip 3.8 | 2 | timber |
-| S-0565 | Workshop of Odo the bellfounder | workshop | 1381.2 | 1438.1 | 71.7 | 317° | 7.6 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| S-0566 | House of Matilda the hatter | house | 1368.5 | 1436.6 | 71.7 | 317° | 7.4 x 10.5 | 9.3 | gable 4.1 | 3 | timber |
-| S-0567 | House of Emma the tanner | house | 1363.2 | 1443.3 | 71.7 | 317° | 9.2 x 13.1 | 6.2 | gable 5.0 | 2 | stone |
-| S-0568 | House of Rose the goldsmith | house | 1326.8 | 1474.1 | 71.7 | 323° | 5.5 x 13.1 | 9.3 | gable 3.0 | 3 | timber |
-| S-0569 | House of Odo the glazier | house | 1322.0 | 1478.5 | 71.7 | 325° | 6.2 x 14.6 | 6.2 | gable 3.4 | 2 | timber |
-| S-0570 | Workshop of Odo the glazier | workshop | 1329.5 | 1489.2 | 71.7 | 325° | 5.5 x 6.6 | 3.0 | gable 3.0 | 1 | timber |
-| S-0571 | House of Matilda the hatter | shop | 1204.7 | 1536.9 | 71.7 | 341° | 8.5 x 9.7 | 6.2 | gable 4.7 | 2 | timber |
-| S-0572 | Workshop of Matilda the hatter | workshop | 1207.8 | 1546.2 | 71.7 | 341° | 7.5 x 7.7 | 6.0 | gable 4.1 | 1 | timber |
-| S-0573 | House of Elena the hatter | house | 1188.6 | 1542.0 | 71.7 | 346° | 7.9 x 9.8 | 12.4 | gable 4.3 | 4 | timber |
-| S-0574 | Workshop of Elena the hatter | workshop | 1191.5 | 1553.9 | 71.7 | 346° | 6.7 x 6.7 | 6.0 | gable 3.7 | 1 | timber |
-| S-0575 | House of Henry the glover | shop | 1181.0 | 1545.4 | 71.7 | 346° | 8.0 x 12.8 | 9.3 | gable 4.4 | 3 | timber |
-| S-0576 | Workshop of Henry the glover | workshop | 1184.1 | 1558.0 | 71.7 | 346° | 7.4 x 6.3 | 3.0 | gable 3.5 | 1 | timber |
-| S-0577 | House of Baldwin the cutler | house | 1173.3 | 1546.3 | 71.7 | 346° | 7.0 x 10.9 | 6.2 | gable 3.9 | 2 | timber |
-| S-0578 | Workshop of Baldwin the cutler | workshop | 1175.7 | 1556.2 | 71.7 | 346° | 6.3 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| S-0579 | House of Godwin the candlemaker | house | 1165.5 | 1548.5 | 71.7 | 346° | 8.1 x 11.5 | 9.3 | gable 4.5 | 3 | timber |
-| S-0580 | Workshop of Godwin the candlemaker | workshop | 1167.9 | 1558.1 | 71.7 | 346° | 6.9 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| S-0581 | House of Stephen the money-changer | house | 1123.7 | 1557.5 | 71.7 | 351° | 8.8 x 14.7 | 6.2 | gable 4.8 | 2 | timber |
-| S-0582 | Workshop of Stephen the money-changer | workshop | 1125.6 | 1569.8 | 71.7 | 351° | 5.6 x 6.8 | 3.0 | gable 3.1 | 1 | timber |
-| S-0583 | House of Cecily the candlemaker | house | 1115.4 | 1558.3 | 71.7 | 355° | 6.0 x 14.0 | 9.3 | hip 2.7 | 3 | timber |
-| S-0584 | Workshop of Cecily the candlemaker | workshop | 1116.3 | 1568.6 | 71.7 | 355° | 4.9 x 4.5 | 6.0 | gable 2.5 | 1 | timber |
-| S-0585 | House of Agnes the cheesemonger | shop | 1109.3 | 1559.3 | 71.7 | 355° | 5.9 x 14.9 | 9.3 | hip 2.7 | 3 | timber |
-| S-0586 | House of Petronilla the tanner | shop | 1086.0 | 1560.9 | 71.7 | 355° | 7.2 x 14.0 | 6.2 | gable 4.0 | 2 | timber |
-| S-0587 | Workshop of Petronilla the tanner | workshop | 1087.3 | 1575.2 | 71.7 | 355° | 4.7 x 7.6 | 3.0 | gable 2.6 | 1 | timber |
-| S-0588 | House of Baldwin the cheesemonger | house | 745.7 | 1472.3 | 71.7 | 214° | 8.8 x 13.7 | 6.2 | gable 4.8 | 2 | timber |
-| S-0589 | Workshop of Baldwin the cheesemonger | workshop | 752.5 | 1462.0 | 71.7 | 214° | 7.0 x 6.8 | 6.0 | gable 3.7 | 1 | timber |
-| S-0590 | House of Sybil the wheelwright | house | 680.9 | 1419.8 | 71.4 | 223° | 8.6 x 12.4 | 6.2 | gable 4.7 | 2 | timber |
-| S-0591 | Workshop of Sybil the wheelwright | workshop | 689.5 | 1410.8 | 71.3 | 223° | 4.6 x 5.4 | 6.0 | gable 2.5 | 1 | timber |
-| S-0592 | House of Christiana the carpenter | house | 670.0 | 1409.4 | 71.2 | 227° | 7.7 x 11.1 | 6.2 | hip 3.5 | 2 | timber |
-| S-0593 | Workshop of Christiana the carpenter | workshop | 679.4 | 1400.7 | 71.1 | 227° | 5.1 x 7.8 | 3.0 | gable 2.8 | 1 | timber |
-| S-0594 | House of Richard the carpenter | shop | 659.6 | 1397.8 | 71.1 | 227° | 7.1 x 11.8 | 9.3 | gable 3.9 | 3 | timber |
-| S-0595 | House of Amice the butcher | shop | 970.6 | 1559.0 | 71.7 | 3° | 6.5 x 11.2 | 12.4 | hip 2.9 | 4 | timber |
-| S-0596 | House of Emma the pie-seller | house | 963.1 | 1557.8 | 71.7 | 6° | 8.0 x 10.2 | 6.2 | gable 4.4 | 2 | timber |
-| S-0597 | Workshop of Emma the pie-seller | workshop | 962.0 | 1569.2 | 71.7 | 6° | 7.8 x 6.9 | 6.0 | gable 3.8 | 1 | timber |
-| S-0598 | House of Hugh the butcher | house | 944.8 | 1557.1 | 71.7 | 6° | 9.3 x 12.2 | 9.3 | gable 5.1 | 3 | timber |
-| S-0599 | House of Agnes the cutler | house | 901.2 | 1549.8 | 71.6 | 9° | 6.5 x 9.2 | 6.2 | gable 3.6 | 2 | timber |
-| S-0600 | House of Matilda the armourer | house | 894.3 | 1549.4 | 71.6 | 9° | 6.8 x 10.6 | 12.4 | hip 3.0 | 4 | timber |
-| S-0601 | Workshop of Matilda the armourer | workshop | 892.6 | 1560.5 | 71.6 | 9° | 4.8 x 7.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0602 | House of Avice the fletcher | shop | 886.3 | 1548.2 | 71.7 | 12° | 8.0 x 11.5 | 6.2 | gable 4.4 | 2 | timber |
-| S-0603 | House of Richard the tailor | shop | 862.1 | 1544.7 | 71.6 | 12° | 7.2 x 14.9 | 9.3 | gable 4.0 | 3 | timber |
-| S-0604 | House of Alys the dyer | shop | 854.5 | 1542.7 | 71.6 | 15° | 6.9 x 14.6 | 9.3 | gable 3.8 | 3 | timber |
-| S-0605 | Workshop of Alys the dyer | workshop | 850.8 | 1556.2 | 71.6 | 15° | 4.9 x 7.0 | 3.0 | gable 2.7 | 1 | timber |
-| S-0606 | House of Thomas the draper | house | 848.6 | 1538.4 | 71.6 | 17° | 5.8 x 9.6 | 6.2 | gable 3.2 | 2 | timber |
-| S-0607 | House of Juliana the brewer | house | 840.7 | 1538.3 | 71.6 | 17° | 8.8 x 14.3 | 9.3 | gable 4.8 | 3 | timber |
-| S-0608 | Workshop of Juliana the brewer | workshop | 836.6 | 1551.5 | 71.6 | 17° | 6.2 x 7.5 | 6.0 | gable 3.4 | 1 | timber |
-| S-0609 | House of Gilbert the stonecarver | house | 825.8 | 1534.0 | 71.7 | 17° | 6.4 x 14.6 | 6.2 | gable 3.5 | 2 | timber |
-| S-0610 | Workshop of Gilbert the stonecarver | workshop | 821.7 | 1547.1 | 71.7 | 17° | 5.6 x 5.2 | 6.0 | gable 2.8 | 1 | timber |
-| S-0611 | House of Elena the glazier | house | 819.6 | 1530.9 | 71.7 | 18° | 6.4 x 12.4 | 9.3 | gable 3.5 | 3 | timber |
-| S-0612 | House of Sybil the fuller | shop | 761.9 | 1502.9 | 71.7 | 28° | 6.3 x 9.3 | 6.2 | gable 3.4 | 2 | timber |
-| S-0613 | Workshop of Sybil the fuller | workshop | 757.5 | 1511.2 | 71.7 | 28° | 5.4 x 5.7 | 6.0 | gable 3.0 | 1 | timber |
-| S-0614 | House of Avice the bowyer | house | 746.9 | 1496.2 | 71.7 | 34° | 6.3 x 12.5 | 12.4 | gable 3.5 | 4 | stone |
-| S-0615 | Workshop of Avice the bowyer | workshop | 740.3 | 1506.1 | 71.7 | 34° | 5.9 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| S-0616 | House of Odo the baker | shop | 712.1 | 1470.1 | 71.7 | 39° | 5.9 x 9.5 | 6.2 | gable 3.2 | 2 | stone |
-| S-0617 | House of Baldwin the mercer | house | 705.5 | 1466.1 | 71.7 | 39° | 8.3 x 11.5 | 9.3 | gable 4.6 | 3 | stone |
-| S-0618 | House of Hugh the locksmith | house | 669.2 | 1432.3 | 71.6 | 43° | 7.7 x 9.3 | 9.3 | gable 4.2 | 3 | timber |
-| S-0619 | Workshop of Hugh the locksmith | workshop | 662.7 | 1439.2 | 71.7 | 43° | 7.1 x 6.2 | 3.0 | gable 3.4 | 1 | timber |
-| S-0620 | House of Petronilla the draper | house | 655.2 | 1421.6 | 71.5 | 47° | 8.8 x 14.8 | 9.3 | gable 4.8 | 3 | timber |
-| S-0621 | House of Roger the lute-maker | shop | 1579.7 | 1372.0 | 70.9 | 118° | 5.8 x 9.0 | 6.2 | gable 3.2 | 2 | timber |
-| S-0622 | House of Elena the tailor | house | 1569.4 | 1387.0 | 71.1 | 124° | 6.6 x 11.3 | 9.3 | hip 3.0 | 3 | stone |
-| S-0623 | Workshop of Elena the tailor | workshop | 1560.0 | 1380.5 | 71.1 | 124° | 6.2 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| S-0624 | House of Hob the pie-seller | shop | 1556.8 | 1406.4 | 71.4 | 124° | 8.8 x 10.2 | 6.2 | gable 4.8 | 2 | timber |
-| S-0625 | Workshop of Hob the pie-seller | workshop | 1546.3 | 1399.2 | 71.3 | 124° | 8.1 x 7.7 | 3.0 | gable 4.2 | 1 | timber |
-| S-0626 | House of Hawise the cutler | shop | 1546.2 | 1419.9 | 71.6 | 131° | 7.5 x 10.9 | 6.2 | hip 3.4 | 2 | timber |
-| S-0627 | House of Thomas the fishmonger | shop | 1492.9 | 1472.5 | 71.7 | 137° | 7.6 x 14.9 | 12.4 | gable 4.2 | 4 | timber |
-| S-0628 | House of Amice the glover | shop | 1457.6 | 1502.7 | 71.7 | 142° | 7.9 x 11.8 | 9.3 | gable 4.3 | 3 | timber |
-| S-0629 | House of Avice the cutler | shop | 1438.3 | 1517.5 | 71.7 | 146° | 7.6 x 9.2 | 6.2 | gable 4.2 | 2 | stone |
-| S-0630 | House of Baldwin the baker | shop | 1432.5 | 1521.5 | 71.7 | 146° | 5.9 x 9.2 | 9.3 | gable 3.2 | 3 | timber |
-| S-0631 | House of Piers the stonecarver | house | 1587.0 | 1394.0 | 71.2 | 304° | 8.3 x 13.3 | 6.2 | hip 3.7 | 2 | stone |
-| S-0632 | Workshop of Piers the stonecarver | workshop | 1596.6 | 1400.5 | 71.4 | 304° | 5.7 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| S-0633 | House of Petronilla the lute-maker | house | 1568.2 | 1419.8 | 71.6 | 304° | 6.1 x 11.5 | 6.2 | gable 3.4 | 2 | timber |
-| S-0634 | Workshop of Petronilla the lute-maker | workshop | 1578.4 | 1426.8 | 71.7 | 304° | 6.1 x 6.8 | 3.0 | gable 3.4 | 1 | timber |
-| S-0635 | House of Stephen the goldsmith | house | 1563.8 | 1425.5 | 71.6 | 309° | 6.4 x 10.9 | 6.2 | gable 3.5 | 2 | stone |
-| S-0636 | Workshop of Stephen the goldsmith | workshop | 1572.3 | 1432.5 | 71.7 | 309° | 5.2 x 7.6 | 3.0 | gable 2.9 | 1 | timber |
-| S-0637 | House of Maud the tinker | house | 1560.6 | 1432.0 | 71.7 | 311° | 5.8 x 14.4 | 6.2 | gable 3.2 | 2 | timber |
-| S-0638 | House of Geoffrey the baker | shop | 1513.9 | 1477.7 | 71.7 | 317° | 8.3 x 9.2 | 6.2 | gable 4.5 | 2 | timber |
-| S-0639 | House of Maud the barber-surgeon | house | 1495.5 | 1495.0 | 71.7 | 322° | 5.6 x 10.6 | 6.2 | hip 2.5 | 2 | timber |
-| S-0640 | House of Christiana the cheesemonger | house | 1411.0 | 1553.3 | 71.7 | 329° | 9.3 x 9.5 | 9.3 | gable 5.1 | 3 | timber |
-| S-0641 | House of Petronilla the draper | house | 1092.1 | 1665.7 | 71.7 | 357° | 9.4 x 9.7 | 9.3 | gable 5.2 | 3 | timber |
-| S-0642 | House of Gilbert the draper | house | 1082.5 | 1667.1 | 71.7 | 359° | 8.5 x 12.1 | 9.3 | gable 4.7 | 3 | timber |
-| S-0643 | Workshop of Gilbert the draper | workshop | 1082.7 | 1679.3 | 71.7 | 359° | 6.5 x 7.4 | 3.0 | gable 3.6 | 1 | timber |
-| S-0644 | House of Joan the potter | shop | 1065.6 | 1666.6 | 71.7 | 359° | 6.7 x 10.4 | 9.3 | hip 3.0 | 3 | timber |
-| S-0645 | House of Matilda the cobbler | house | 1049.0 | 1666.8 | 71.7 | 359° | 6.7 x 10.3 | 6.2 | hip 3.0 | 2 | timber |
-| S-0646 | House of Isabel the potter | house | 993.7 | 1664.2 | 71.7 | 9° | 8.1 x 13.9 | 6.2 | gable 4.5 | 2 | timber |
-| S-0647 | Workshop of Isabel the potter | workshop | 991.9 | 1675.6 | 71.6 | 9° | 7.5 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| S-0648 | House of Alan the lute-maker | house | 956.2 | 1656.9 | 71.7 | 10° | 8.5 x 10.9 | 6.2 | gable 4.7 | 2 | timber |
-| S-0649 | Workshop of Alan the lute-maker | workshop | 954.2 | 1668.5 | 71.7 | 10° | 8.3 x 5.6 | 3.0 | gable 3.1 | 1 | timber |
-| S-0650 | House of Wat the cutler | house | 947.4 | 1656.1 | 71.6 | 13° | 7.8 x 13.0 | 12.4 | gable 4.3 | 4 | timber |
-| S-0651 | House of Laurence the limner | shop | 932.1 | 1651.7 | 71.7 | 13° | 9.4 x 11.2 | 9.3 | hip 4.2 | 3 | timber |
-| S-0652 | Workshop of Laurence the limner | workshop | 929.6 | 1662.7 | 71.7 | 13° | 5.7 x 5.7 | 3.0 | gable 3.1 | 1 | timber |
-| S-0653 | House of Petronilla the carpenter | shop | 627.1 | 1518.2 | 71.7 | 212° | 6.3 x 9.3 | 9.3 | gable 3.5 | 3 | stone |
-| S-0654 | House of Margery the fletcher | house | 665.6 | 1557.3 | 71.7 | 25° | 8.2 x 10.4 | 9.3 | gable 4.5 | 3 | timber |
-| S-0655 | House of Emma the mercer | shop | 657.9 | 1552.7 | 71.7 | 28° | 8.4 x 9.2 | 6.2 | gable 4.6 | 2 | timber |
-| S-0656 | Workshop of Emma the mercer | workshop | 653.1 | 1561.7 | 71.7 | 28° | 6.5 x 4.9 | 6.0 | gable 2.7 | 1 | timber |
-| S-0657 | House of Roger the fuller | house | 650.3 | 1549.3 | 71.7 | 28° | 7.2 x 10.3 | 6.2 | gable 4.0 | 2 | timber |
-| S-0658 | Workshop of Roger the fuller | workshop | 644.9 | 1559.4 | 71.7 | 28° | 4.7 x 7.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0659 | House of Avice the chandler | shop | 602.0 | 1521.1 | 71.7 | 32° | 6.6 x 10.3 | 6.2 | gable 3.6 | 2 | timber |
-| S-0660 | House of Emma the dyer | shop | 1682.2 | 1407.6 | 71.1 | 123° | 6.0 x 9.5 | 6.2 | hip 2.7 | 2 | timber |
-| S-0661 | House of Sybil the mercer | shop | 1677.7 | 1412.8 | 71.2 | 123° | 6.5 x 11.4 | 9.3 | gable 3.6 | 3 | timber |
-| S-0662 | Workshop of Sybil the mercer | workshop | 1668.7 | 1407.0 | 71.2 | 123° | 5.1 x 6.0 | 3.0 | gable 2.8 | 1 | timber |
-| S-0663 | House of Hugh the parchmenter | shop | 1669.3 | 1425.5 | 71.5 | 123° | 8.9 x 11.7 | 6.2 | gable 4.9 | 2 | timber |
-| S-0664 | House of Odo the furrier | house | 1625.5 | 1486.8 | 71.7 | 129° | 6.3 x 9.7 | 6.2 | gable 3.5 | 2 | timber |
-| S-0665 | House of Martin the cutler | shop | 1620.5 | 1492.7 | 71.7 | 129° | 7.9 x 10.1 | 6.2 | hip 3.5 | 2 | timber |
-| S-0666 | House of Amice the baker | shop | 1566.5 | 1549.7 | 71.7 | 139° | 7.2 x 12.1 | 9.3 | gable 4.0 | 3 | timber |
-| S-0667 | House of Hawise the chandler | house | 1561.6 | 1555.5 | 71.7 | 139° | 6.6 x 9.8 | 9.3 | gable 3.6 | 3 | timber |
-| S-0668 | Workshop of Hawise the chandler | workshop | 1555.5 | 1548.7 | 71.7 | 139° | 5.0 x 5.8 | 6.0 | gable 2.7 | 1 | timber |
-| S-0669 | House of Maud the brewer | shop | 1530.3 | 1581.7 | 71.7 | 144° | 5.6 x 11.3 | 9.3 | gable 3.1 | 3 | timber |
-| S-0670 | House of Richard the pie-seller | house | 1458.8 | 1629.2 | 71.7 | 150° | 7.9 x 10.7 | 9.3 | gable 4.3 | 3 | timber |
-| S-0671 | Workshop of Richard the pie-seller | workshop | 1453.7 | 1620.5 | 71.7 | 150° | 4.8 x 6.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0672 | House of Ralph the brewer | shop | 1452.3 | 1633.9 | 71.7 | 150° | 7.6 x 9.1 | 6.2 | gable 4.2 | 2 | stone |
-| S-0673 | Workshop of Ralph the brewer | workshop | 1447.2 | 1625.2 | 71.7 | 150° | 4.7 x 7.2 | 3.0 | gable 2.6 | 1 | timber |
-| S-0674 | House of Robin the fletcher | shop | 1694.2 | 1418.5 | 71.3 | 303° | 7.6 x 10.1 | 6.2 | hip 3.4 | 2 | timber |
-| S-0675 | Workshop of Robin the fletcher | workshop | 1703.9 | 1424.7 | 71.4 | 303° | 5.3 x 7.0 | 6.0 | gable 2.9 | 1 | timber |
-| S-0676 | House of Simon the cutler | shop | 1660.5 | 1469.6 | 71.7 | 306° | 7.1 x 12.2 | 9.3 | gable 3.9 | 3 | timber |
-| S-0677 | Workshop of Simon the cutler | workshop | 1670.2 | 1476.6 | 71.6 | 306° | 6.2 x 7.3 | 3.0 | gable 3.4 | 1 | timber |
-| S-0678 | House of Ida the glover | house | 1636.9 | 1500.7 | 71.7 | 309° | 7.2 x 13.1 | 6.2 | hip 3.3 | 2 | stone |
-| S-0679 | House of Maud the spicer | shop | 1617.9 | 1524.5 | 71.7 | 313° | 6.5 x 14.3 | 6.2 | hip 2.9 | 2 | stone |
-| S-0680 | House of Mabel the spicer | house | 1600.5 | 1542.8 | 71.6 | 314° | 8.3 x 14.4 | 9.3 | gable 4.6 | 3 | timber |
-| S-0681 | House of Agnes the lute-maker | shop | 1588.6 | 1554.0 | 71.6 | 314° | 6.7 x 12.5 | 6.2 | gable 3.7 | 2 | timber |
-| S-0682 | House of Isabel the herbalist | shop | 1582.8 | 1561.0 | 71.7 | 318° | 9.3 x 14.0 | 9.3 | gable 5.1 | 3 | timber |
-| S-0683 | House of Margery the armourer | shop | 1552.5 | 1586.8 | 71.7 | 319° | 9.3 x 12.7 | 6.2 | hip 4.2 | 2 | stone |
-| S-0684 | House of Ralph the hatter | shop | 1545.2 | 1591.0 | 71.7 | 319° | 6.5 x 9.3 | 9.3 | gable 3.6 | 3 | timber |
-| S-0685 | House of Martin the tanner | shop | 1538.8 | 1597.1 | 71.7 | 324° | 8.7 x 11.3 | 6.2 | gable 4.8 | 2 | timber |
-| S-0686 | House of Simon the clockmaker | shop | 1522.7 | 1608.2 | 71.6 | 324° | 6.5 x 10.3 | 6.2 | hip 2.9 | 2 | timber |
-| S-0687 | House of Cecily the tinker | shop | 1518.7 | 1613.7 | 71.7 | 324° | 5.8 x 14.5 | 6.2 | gable 3.2 | 2 | timber |
-| S-0688 | House of Martin the brewer | shop | 1505.5 | 1621.2 | 71.7 | 324° | 7.3 x 11.3 | 6.2 | gable 4.0 | 2 | timber |
-| S-0689 | Workshop of Martin the brewer | workshop | 1511.5 | 1629.5 | 71.7 | 324° | 4.8 x 5.0 | 3.0 | gable 2.6 | 1 | timber |
-| S-0690 | House of Matilda the weaver | shop | 1499.1 | 1625.6 | 71.7 | 330° | 6.1 x 11.4 | 6.2 | hip 2.7 | 2 | timber |
-| S-0691 | House of Elena the scribe | shop | 1444.6 | 1656.4 | 71.7 | 335° | 9.2 x 11.8 | 6.2 | gable 5.0 | 2 | timber |
-| S-0692 | House of Thomas the saddler | shop | 1438.1 | 1660.8 | 71.7 | 335° | 5.6 x 14.3 | 6.2 | gable 3.1 | 2 | timber |
-| S-0693 | House of Roger the bookbinder | shop | 1416.2 | 1668.3 | 71.7 | 335° | 9.3 x 9.2 | 6.2 | hip 4.1 | 2 | timber |
-| S-0694 | Workshop of Roger the bookbinder | workshop | 1420.5 | 1677.5 | 71.6 | 335° | 8.0 x 6.1 | 3.0 | gable 3.4 | 1 | timber |
-| S-0695 | House of Hob the vintner | shop | 1409.3 | 1672.4 | 71.6 | 335° | 6.3 x 10.7 | 6.2 | gable 3.5 | 2 | timber |
-| S-0696 | House of Adam the pewterer | house | 1401.8 | 1676.7 | 71.6 | 339° | 9.1 x 13.2 | 9.3 | gable 5.0 | 3 | timber |
-| S-0697 | Workshop of Adam the pewterer | workshop | 1406.0 | 1687.9 | 71.6 | 339° | 8.7 x 5.2 | 3.0 | gable 2.8 | 1 | timber |
-| S-0698 | House of Walter the bowyer | house | 1393.5 | 1677.9 | 71.6 | 339° | 6.2 x 9.7 | 6.2 | gable 3.4 | 2 | stone |
-| S-0699 | Workshop of Walter the bowyer | workshop | 1397.8 | 1689.5 | 71.6 | 339° | 5.4 x 7.1 | 3.0 | gable 3.0 | 1 | timber |
-| S-0700 | House of Richard the goldsmith | shop | 1381.3 | 1683.8 | 71.7 | 339° | 8.6 x 12.1 | 6.2 | gable 4.7 | 2 | timber |
-| S-0701 | House of Jordan the hatter | house | 1373.3 | 1687.0 | 71.7 | 339° | 8.0 x 12.6 | 9.3 | gable 4.4 | 3 | timber |
-| S-0702 | Workshop of Jordan the hatter | workshop | 1377.7 | 1698.7 | 71.7 | 339° | 7.3 x 6.0 | 3.0 | gable 3.3 | 1 | timber |
-| S-0703 | House of Mabel the armourer | house | 1364.5 | 1689.4 | 71.7 | 339° | 9.4 x 10.7 | 6.2 | gable 5.2 | 2 | timber |
-| S-0704 | Workshop of Mabel the armourer | workshop | 1368.7 | 1700.4 | 71.7 | 339° | 8.7 x 5.2 | 6.0 | gable 2.8 | 1 | timber |
-| S-0705 | House of Beatrice the pie-seller | shop | 1315.7 | 1706.0 | 71.6 | 343° | 7.7 x 13.1 | 6.2 | gable 4.2 | 2 | timber |
-| S-0706 | Workshop of Beatrice the pie-seller | workshop | 1319.4 | 1718.4 | 71.6 | 343° | 5.1 x 5.4 | 3.0 | gable 2.8 | 1 | timber |
-| S-0707 | House of Hugh the goldsmith | house | 1307.1 | 1708.4 | 71.6 | 346° | 8.1 x 12.9 | 6.2 | gable 4.4 | 2 | timber |
-| S-0708 | Workshop of Hugh the goldsmith | workshop | 1310.5 | 1721.5 | 71.6 | 346° | 6.9 x 7.4 | 3.0 | gable 3.8 | 1 | timber |
-| S-0709 | House of Isabel the ropemaker | shop | 831.0 | 1732.6 | 71.7 | 193° | 8.6 x 14.8 | 6.2 | gable 4.7 | 2 | timber |
-| S-0710 | House of Adam the cheesemonger | house | 821.8 | 1732.8 | 71.7 | 193° | 8.6 x 10.4 | 6.2 | gable 4.7 | 2 | timber |
-| S-0711 | Workshop of Adam the cheesemonger | workshop | 824.4 | 1721.5 | 71.7 | 193° | 7.7 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| S-0712 | House of Osbert the fletcher | house | 1156.4 | 1742.6 | 71.6 | 349° | 9.2 x 14.1 | 9.3 | gable 5.1 | 3 | timber |
-| S-0713 | Workshop of Osbert the fletcher | workshop | 1158.5 | 1753.8 | 71.6 | 349° | 4.7 x 5.8 | 6.0 | gable 2.6 | 1 | timber |
-| S-0714 | House of Alan the weaver | shop | 1147.8 | 1743.4 | 71.6 | 350° | 6.4 x 12.7 | 6.2 | gable 3.5 | 2 | timber |
-| S-0715 | Workshop of Alan the weaver | workshop | 1149.6 | 1753.7 | 71.6 | 350° | 5.6 x 5.6 | 3.0 | gable 3.1 | 1 | timber |
-| S-0716 | House of Edith the weaver | house | 1140.0 | 1743.2 | 71.7 | 350° | 8.0 x 9.7 | 9.3 | gable 4.4 | 3 | timber |
-| S-0717 | House of Geoffrey the tanner | shop | 1131.9 | 1744.8 | 71.7 | 350° | 7.9 x 10.3 | 6.2 | gable 4.3 | 2 | timber |
-| S-0718 | Workshop of Geoffrey the tanner | workshop | 1133.5 | 1754.3 | 71.7 | 350° | 5.0 x 6.0 | 6.0 | gable 2.7 | 1 | timber |
-| S-0719 | House of Martin the locksmith | shop | 1123.4 | 1746.4 | 71.7 | 350° | 8.9 x 10.5 | 9.3 | hip 4.0 | 3 | timber |
-| S-0720 | Workshop of Martin the locksmith | workshop | 1125.4 | 1758.3 | 71.7 | 350° | 6.2 x 6.3 | 6.0 | gable 3.4 | 1 | timber |
-| S-0721 | House of Laurence the notary | shop | 1116.0 | 1748.8 | 71.7 | 350° | 5.8 x 12.8 | 6.2 | gable 3.2 | 2 | timber |
-| S-0722 | House of Hugh the jeweller | shop | 1100.1 | 1750.0 | 71.6 | 352° | 8.0 x 10.1 | 6.2 | gable 4.4 | 2 | timber |
-| S-0723 | Workshop of Hugh the jeweller | workshop | 1101.5 | 1760.0 | 71.6 | 352° | 5.6 x 7.8 | 6.0 | gable 3.1 | 1 | timber |
-| S-0724 | House of Isabel the furrier | house | 1091.3 | 1751.4 | 71.6 | 352° | 9.1 x 10.4 | 6.2 | gable 5.0 | 2 | timber |
-| S-0725 | House of Alan the cheesemonger | shop | 1073.4 | 1755.5 | 71.6 | 352° | 8.1 x 13.9 | 6.2 | gable 4.4 | 2 | timber |
-| S-0726 | Workshop of Alan the cheesemonger | workshop | 1075.2 | 1768.7 | 71.7 | 352° | 4.5 x 8.0 | 3.0 | gable 2.5 | 1 | timber |
-| S-0727 | House of Nicholas the cooper | house | 1065.2 | 1755.9 | 71.6 | 352° | 7.8 x 12.3 | 6.2 | gable 4.3 | 2 | stone |
-| S-0728 | House of Margery the clockmaker | shop | 1032.7 | 1760.3 | 71.7 | 355° | 5.7 x 14.2 | 6.2 | hip 2.5 | 2 | timber |
-| S-0729 | House of Amice the saddler | house | 980.5 | 1761.6 | 71.7 | 358° | 9.1 x 9.4 | 9.3 | gable 5.0 | 3 | timber |
-| S-0730 | Workshop of Amice the saddler | workshop | 980.9 | 1773.7 | 71.7 | 358° | 8.4 x 7.3 | 6.0 | gable 4.0 | 1 | timber |
-| S-0731 | House of Ivetta the carpenter | shop | 955.4 | 1763.9 | 71.7 | 358° | 7.9 x 12.7 | 6.2 | gable 4.3 | 2 | timber |
-| S-0732 | Workshop of Ivetta the carpenter | workshop | 955.7 | 1775.7 | 71.7 | 358° | 5.0 x 7.0 | 3.0 | gable 2.8 | 1 | timber |
-| S-0733 | House of Beatrice the wheelwright | house | 937.5 | 1762.4 | 71.6 | 3° | 7.3 x 9.8 | 6.2 | gable 4.0 | 2 | timber |
-| S-0734 | Workshop of Beatrice the wheelwright | workshop | 937.0 | 1772.6 | 71.7 | 3° | 7.0 x 7.4 | 3.0 | gable 3.9 | 1 | timber |
-| S-0735 | House of Martin the jeweller | house | 920.0 | 1764.1 | 71.7 | 3° | 8.5 x 14.7 | 6.2 | gable 4.7 | 2 | stone |
-| S-0736 | House of Piers the draper | house | 911.7 | 1761.2 | 71.7 | 3° | 8.0 x 9.7 | 6.2 | gable 4.4 | 2 | timber |
-| S-0737 | House of Emma the fishmonger | shop | 903.6 | 1760.7 | 71.7 | 3° | 7.5 x 9.6 | 6.2 | hip 3.4 | 2 | timber |
-| S-0738 | House of Odo the bowyer | house | 858.2 | 1757.5 | 71.7 | 8° | 5.9 x 13.1 | 6.2 | gable 3.3 | 2 | timber |
-| S-0739 | House of Cecily the locksmith | shop | 843.1 | 1755.8 | 71.7 | 8° | 7.1 x 13.8 | 6.2 | hip 3.2 | 2 | timber |
-| S-0740 | House of Odo the cooper | shop | 835.6 | 1754.4 | 71.7 | 9° | 6.8 x 13.2 | 9.3 | gable 3.8 | 3 | timber |
-| S-0741 | House of Juliana the jeweller | house | 828.8 | 1751.2 | 71.7 | 13° | 5.7 x 9.9 | 6.2 | gable 3.1 | 2 | timber |
-| S-0742 | House of Mabel the pewterer | shop | 821.1 | 1750.8 | 71.7 | 13° | 8.5 x 12.6 | 9.3 | hip 3.8 | 3 | timber |
-| S-0743 | House of Adam the cheesemonger | house | 813.3 | 1749.2 | 71.7 | 13° | 6.5 x 13.0 | 6.2 | gable 3.6 | 2 | timber |
-| S-0744 | House of Agnes the tailor | house | 805.6 | 1746.6 | 71.7 | 13° | 8.6 x 11.5 | 6.2 | gable 4.7 | 2 | timber |
-| S-0745 | House of Gilbert the lute-maker | shop | 797.2 | 1745.2 | 71.7 | 13° | 8.1 x 12.7 | 6.2 | hip 3.6 | 2 | timber |
-| S-0746 | House of Cecily the jeweller | house | 790.2 | 1742.5 | 71.7 | 13° | 6.0 x 10.4 | 6.2 | gable 3.3 | 2 | timber |
-| S-0747 | House of Wat the money-changer | house | 783.3 | 1740.8 | 71.7 | 15° | 7.1 x 10.3 | 9.3 | gable 3.9 | 3 | timber |
-| S-0748 | House of Rose the lute-maker | house | 776.0 | 1740.2 | 71.7 | 18° | 5.6 x 13.8 | 6.2 | gable 3.1 | 2 | timber |
-| S-0749 | House of Joan the chandler | shop | 769.7 | 1737.5 | 71.7 | 18° | 6.7 x 12.6 | 9.3 | gable 3.7 | 3 | timber |
-| S-0750 | House of Ida the chandler | house | 762.0 | 1735.8 | 71.7 | 18° | 8.3 x 14.1 | 6.2 | gable 4.6 | 2 | timber |
-| S-0751 | House of Alys the herbalist | house | 749.0 | 1730.2 | 71.7 | 18° | 6.1 x 11.8 | 6.2 | gable 3.3 | 2 | timber |
-| S-0752 | House of Amice the pewterer | shop | 742.8 | 1727.8 | 71.7 | 18° | 6.9 x 11.1 | 6.2 | gable 3.8 | 2 | timber |
-| S-0753 | House of Felice the herbalist | shop | 664.6 | 1674.0 | 71.7 | 207° | 6.0 x 11.6 | 6.2 | gable 3.3 | 2 | stone |
-| S-0754 | House of Roger the baker | house | 562.9 | 1611.0 | 71.8 | 214° | 6.2 x 13.8 | 6.2 | gable 3.4 | 2 | timber |
-| S-0755 | House of Piers the money-changer | shop | 530.0 | 1587.1 | 71.7 | 216° | 5.9 x 14.0 | 6.2 | hip 2.7 | 2 | timber |
-| S-0756 | Workshop of Piers the money-changer | workshop | 537.8 | 1576.5 | 71.7 | 216° | 5.5 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0757 | House of Richard the herbalist | house | 523.1 | 1583.0 | 71.7 | 216° | 9.4 x 12.5 | 6.2 | hip 4.2 | 2 | timber |
-| S-0758 | House of Elena the fishmonger | house | 509.8 | 1573.1 | 71.7 | 219° | 8.4 x 12.0 | 6.2 | hip 3.8 | 2 | timber |
-| S-0759 | House of Hawise the candlemaker | shop | 458.6 | 1530.5 | 71.7 | 222° | 8.2 x 11.6 | 6.2 | gable 4.5 | 2 | stone |
-| S-0760 | House of Edith the wheelwright | house | 452.1 | 1525.5 | 71.7 | 222° | 7.5 x 10.2 | 9.3 | gable 4.1 | 3 | timber |
-| S-0761 | Workshop of Edith the wheelwright | workshop | 459.0 | 1517.9 | 71.7 | 222° | 7.0 x 7.9 | 3.0 | gable 3.9 | 1 | timber |
-| S-0762 | House of Felice the stonecarver | shop | 446.3 | 1519.5 | 71.7 | 222° | 8.3 x 11.4 | 6.2 | gable 4.5 | 2 | timber |
-| S-0763 | House of Alys the lute-maker | house | 434.2 | 1508.8 | 71.7 | 226° | 8.7 x 10.3 | 6.2 | gable 4.8 | 2 | stone |
-| S-0764 | House of Hawise the tailor | shop | 688.0 | 1705.6 | 71.6 | 23° | 6.8 x 11.5 | 6.2 | gable 3.7 | 2 | stone |
-| S-0765 | House of Richard the bookbinder | shop | 682.2 | 1701.7 | 71.6 | 27° | 5.5 x 9.0 | 6.2 | hip 2.5 | 2 | timber |
-| S-0766 | House of Mabel the candlemaker | shop | 674.3 | 1700.7 | 71.7 | 27° | 8.4 x 14.5 | 6.2 | gable 4.6 | 2 | timber |
-| S-0767 | House of Piers the glazier | house | 667.5 | 1694.9 | 71.7 | 27° | 7.8 x 10.4 | 6.2 | gable 4.3 | 2 | stone |
-| S-0768 | House of Robin the apothecary | shop | 659.9 | 1690.7 | 71.7 | 27° | 8.9 x 10.1 | 9.3 | gable 4.9 | 3 | timber |
-| S-0769 | House of Petronilla the tailor | shop | 646.8 | 1683.8 | 71.7 | 27° | 8.4 x 9.8 | 6.2 | hip 3.8 | 2 | timber |
-| S-0770 | House of Hugh the notary | shop | 638.1 | 1681.6 | 71.7 | 27° | 8.5 x 13.9 | 9.3 | gable 4.7 | 3 | timber |
-| S-0771 | House of Ida the limner | house | 631.5 | 1676.8 | 71.7 | 31° | 5.9 x 12.1 | 6.2 | hip 2.7 | 2 | timber |
-| S-0772 | House of Ida the bellfounder | house | 617.7 | 1668.7 | 71.7 | 31° | 6.9 x 12.2 | 9.3 | gable 3.8 | 3 | timber |
-| S-0773 | House of Godwin the locksmith | shop | 606.4 | 1661.4 | 71.7 | 31° | 6.7 x 11.3 | 6.2 | gable 3.7 | 2 | timber |
-| S-0774 | House of Agnes the hatter | house | 551.2 | 1626.3 | 71.6 | 34° | 7.1 x 12.2 | 9.3 | gable 3.9 | 3 | timber |
-| S-0775 | Workshop of Agnes the hatter | workshop | 545.2 | 1635.4 | 71.6 | 34° | 4.9 x 4.7 | 6.0 | gable 2.6 | 1 | timber |
-| S-0776 | House of Adam the lute-maker | shop | 545.1 | 1622.2 | 71.6 | 36° | 5.8 x 12.4 | 6.2 | gable 3.2 | 2 | timber |
-| S-0777 | House of Odo the brewer | shop | 540.1 | 1618.4 | 71.6 | 36° | 5.7 x 12.2 | 6.2 | gable 3.1 | 2 | timber |
-| S-0778 | House of Godwin the barber-surgeon | house | 510.5 | 1596.3 | 71.7 | 36° | 8.5 x 11.5 | 9.3 | gable 4.7 | 3 | stone |
-| S-0779 | House of Amice the vintner | house | 444.3 | 1541.9 | 71.7 | 42° | 7.7 x 12.2 | 6.2 | gable 4.2 | 2 | timber |
-| S-0780 | House of Maud the hatter | house | 438.2 | 1537.8 | 71.7 | 42° | 5.6 x 14.3 | 6.2 | gable 3.1 | 2 | timber |
-| S-0781 | House of Laurence the money-changer | shop | 425.4 | 1525.7 | 71.6 | 44° | 9.2 x 13.5 | 6.2 | gable 5.0 | 2 | timber |
-| S-0782 | House of Hob the fuller | house | 414.3 | 1514.2 | 71.7 | 46° | 8.3 x 13.3 | 6.2 | gable 4.5 | 2 | timber |
-| S-0783 | House of Simon the goldsmith | house | 368.4 | 1431.9 | 71.7 | 237° | 7.7 x 11.9 | 9.3 | hip 3.5 | 3 | stone |
-| S-0784 | Workshop of Simon the goldsmith | workshop | 377.7 | 1425.8 | 71.7 | 237° | 7.0 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| S-0785 | House of Sybil the saddler | shop | 365.8 | 1425.2 | 71.7 | 237° | 5.5 x 14.9 | 6.2 | gable 3.0 | 2 | timber |
-| S-0786 | Workshop of Sybil the saddler | workshop | 376.6 | 1418.1 | 71.7 | 237° | 5.2 x 6.6 | 3.0 | gable 2.8 | 1 | timber |
-| S-0787 | House of Hawise the locksmith | house | 358.1 | 1414.5 | 71.7 | 237° | 6.2 x 13.9 | 6.2 | gable 3.4 | 2 | timber |
-| S-0788 | Workshop of Hawise the locksmith | workshop | 367.9 | 1408.0 | 71.7 | 237° | 4.7 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0789 | House of Juliana the dyer | shop | 354.0 | 1409.1 | 71.7 | 237° | 7.0 x 12.9 | 6.2 | hip 3.1 | 2 | timber |
-| S-0790 | Workshop of Juliana the dyer | workshop | 364.9 | 1401.9 | 71.7 | 237° | 5.0 x 6.0 | 3.0 | gable 2.8 | 1 | timber |
-| S-0791 | House of Ralph the bookbinder | house | 349.1 | 1403.3 | 71.7 | 237° | 7.0 x 11.1 | 6.2 | gable 3.9 | 2 | timber |
-| S-0792 | Workshop of Ralph the bookbinder | workshop | 357.1 | 1398.1 | 71.7 | 237° | 6.4 x 5.7 | 6.0 | gable 3.1 | 1 | timber |
-| S-0793 | House of Adam the tinker | shop | 342.2 | 1388.1 | 71.6 | 243° | 7.7 x 14.6 | 6.2 | gable 4.2 | 2 | timber |
-| S-0794 | Workshop of Adam the tinker | workshop | 353.0 | 1382.6 | 71.5 | 243° | 5.8 x 7.4 | 6.0 | gable 3.2 | 1 | timber |
-| S-0795 | House of Agnes the pewterer | shop | 334.7 | 1374.4 | 71.6 | 243° | 7.0 x 13.6 | 6.2 | gable 3.9 | 2 | timber |
-| S-0796 | Workshop of Agnes the pewterer | workshop | 347.1 | 1368.1 | 71.4 | 243° | 6.0 x 7.0 | 3.0 | gable 3.3 | 1 | timber |
-| S-0797 | House of Gilbert the hatter | house | 387.3 | 1486.5 | 71.6 | 51° | 7.8 x 14.2 | 6.2 | gable 4.3 | 2 | timber |
-| S-0798 | House of Joan the clockmaker | shop | 377.0 | 1472.6 | 71.7 | 51° | 6.4 x 12.5 | 9.3 | hip 2.9 | 3 | timber |
-| S-0799 | House of Godwin the bookbinder | shop | 358.2 | 1451.2 | 71.7 | 51° | 7.0 x 14.7 | 6.2 | gable 3.9 | 2 | timber |
-| S-0800 | House of Ida the tailor | house | 355.2 | 1444.3 | 71.7 | 57° | 5.6 x 11.3 | 6.2 | gable 3.1 | 2 | timber |
-| S-0801 | House of Hawise the hatter | shop | 351.8 | 1437.3 | 71.7 | 57° | 8.8 x 9.3 | 6.2 | hip 4.0 | 2 | stone |
-| S-0802 | House of Robin the bookbinder | shop | 1517.7 | 1385.9 | 71.2 | 25° | 7.9 x 11.2 | 6.2 | gable 4.3 | 2 | stone |
-| S-0803 | Workshop of Robin the bookbinder | workshop | 1513.5 | 1395.0 | 71.3 | 25° | 7.7 x 6.8 | 6.0 | gable 3.8 | 1 | timber |
-| S-0804 | House of Thomas the scribe | house | 1522.6 | 1368.1 | 71.0 | 205° | 7.1 x 12.8 | 9.3 | gable 3.9 | 3 | timber |
-| S-0805 | House of Maud the pie-seller | house | 1535.1 | 1374.3 | 71.0 | 202° | 8.7 x 11.6 | 6.2 | gable 4.8 | 2 | timber |
-| S-0806 | Workshop of Maud the pie-seller | workshop | 1538.7 | 1365.3 | 71.0 | 202° | 4.7 x 5.3 | 6.0 | gable 2.6 | 1 | timber |
-| S-0807 | House of Agnes the apothecary | shop | 1542.6 | 1377.6 | 71.0 | 201° | 7.0 x 10.9 | 9.3 | gable 3.9 | 3 | timber |
-| S-0808 | House of Hob the herbalist | shop | 1576.3 | 1412.7 | 71.5 | 39° | 7.3 x 12.8 | 9.3 | gable 4.0 | 3 | timber |
-| S-0809 | House of Mabel the hatter | house | 1601.0 | 1407.9 | 71.4 | 218° | 9.1 x 13.2 | 9.3 | hip 4.1 | 3 | stone |
-| S-0810 | House of Stephen the potter | house | 1416.3 | 1441.4 | 71.7 | 45° | 7.7 x 10.4 | 9.3 | gable 4.2 | 3 | timber |
-| S-0811 | House of Ivetta the saddler | house | 1424.1 | 1426.2 | 71.7 | 224° | 7.2 x 10.0 | 9.3 | gable 4.0 | 3 | timber |
-| S-0812 | House of Avice the wheelwright | house | 1430.5 | 1430.0 | 71.7 | 225° | 6.7 x 13.4 | 9.3 | gable 3.7 | 3 | timber |
-| S-0813 | House of Beatrice the mercer | shop | 1488.1 | 1511.0 | 71.7 | 44° | 9.0 x 10.6 | 6.2 | gable 5.0 | 2 | timber |
-| S-0814 | Workshop of Beatrice the mercer | workshop | 1481.2 | 1518.1 | 71.7 | 44° | 7.9 x 6.9 | 6.0 | gable 3.8 | 1 | timber |
-| S-0815 | House of Piers the lute-maker | house | 1499.1 | 1520.6 | 71.7 | 44° | 7.1 x 9.1 | 6.2 | gable 3.9 | 2 | timber |
-| S-0816 | Workshop of Piers the lute-maker | workshop | 1491.5 | 1528.4 | 71.7 | 44° | 5.7 x 6.2 | 6.0 | gable 3.1 | 1 | timber |
-| S-0817 | House of Osbert the mason | shop | 1533.3 | 1532.2 | 71.7 | 224° | 6.6 x 9.2 | 9.3 | gable 3.6 | 3 | timber |
-| S-0818 | House of Osbert the pewterer | house | 1247.5 | 1417.9 | 71.2 | 53° | 6.0 x 12.5 | 6.2 | gable 3.3 | 2 | timber |
-| S-0819 | House of Elena the cobbler | house | 1275.0 | 1453.4 | 71.7 | 50° | 9.4 x 14.1 | 9.3 | hip 4.2 | 3 | timber |
-| S-0820 | House of Wat the apothecary | house | 1280.6 | 1460.5 | 71.7 | 50° | 7.8 x 14.8 | 6.2 | hip 3.5 | 2 | timber |
-| S-0821 | House of Godwin the scribe | shop | 1253.8 | 1394.7 | 71.0 | 233° | 5.8 x 13.3 | 9.3 | hip 2.6 | 3 | stone |
-| S-0822 | Workshop of Godwin the scribe | workshop | 1263.3 | 1387.6 | 70.9 | 233° | 5.1 x 7.5 | 6.0 | gable 2.8 | 1 | timber |
-| S-0823 | House of Alan the locksmith | house | 1257.7 | 1400.9 | 71.0 | 233° | 8.0 x 12.1 | 9.3 | gable 4.4 | 3 | timber |
-| S-0824 | House of Stephen the fuller | house | 1261.8 | 1408.4 | 71.1 | 233° | 8.2 x 9.5 | 12.4 | gable 4.5 | 4 | timber |
-| S-0825 | Workshop of Stephen the fuller | workshop | 1270.0 | 1402.2 | 71.1 | 233° | 5.8 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-| S-0826 | House of Felice the herbalist | shop | 1269.0 | 1413.5 | 71.2 | 232° | 7.5 x 14.7 | 6.2 | gable 4.1 | 2 | timber |
-| S-0827 | House of Ida the furrier | house | 1295.9 | 1449.9 | 71.7 | 230° | 9.4 x 9.9 | 9.3 | gable 5.2 | 3 | timber |
-| S-0828 | House of Maud the notary | house | 1308.1 | 1462.0 | 71.7 | 230° | 5.7 x 12.7 | 12.4 | gable 3.1 | 4 | timber |
-| S-0829 | House of Rose the bellfounder | house | 1304.4 | 1492.3 | 71.7 | 67° | 7.5 x 12.4 | 9.3 | gable 4.1 | 3 | timber |
-| S-0830 | House of Hawise the brewer | house | 1371.8 | 1551.5 | 71.7 | 220° | 8.0 x 9.1 | 6.2 | gable 4.4 | 2 | timber |
-| S-0831 | Workshop of Hawise the brewer | workshop | 1378.9 | 1542.9 | 71.7 | 220° | 6.7 x 5.8 | 3.0 | gable 3.2 | 1 | timber |
-| S-0832 | House of Laurence the pewterer | shop | 1392.8 | 1592.3 | 71.7 | 234° | 7.2 x 9.7 | 6.2 | gable 4.0 | 2 | timber |
-| S-0833 | House of Laurence the scribe | house | 1398.6 | 1597.2 | 71.7 | 234° | 6.3 x 13.1 | 9.3 | gable 3.5 | 3 | timber |
-| S-0834 | House of Alan the mercer | shop | 1423.5 | 1637.0 | 71.6 | 238° | 6.0 x 10.4 | 6.2 | gable 3.3 | 2 | stone |
-| S-0835 | House of Juliana the mercer | shop | 1426.5 | 1642.5 | 71.6 | 239° | 5.6 x 9.9 | 12.4 | gable 3.1 | 4 | stone |
-| S-0836 | Workshop of Juliana the mercer | workshop | 1436.4 | 1636.5 | 71.6 | 239° | 5.2 x 7.5 | 3.0 | gable 2.8 | 1 | timber |
-| S-0837 | House of Isabel the saddler | house | 1162.7 | 1439.1 | 71.5 | 69° | 5.9 x 12.5 | 12.4 | hip 2.6 | 4 | timber |
-| S-0838 | House of Avice the brewer | house | 1165.8 | 1445.2 | 71.5 | 69° | 6.4 x 11.2 | 6.2 | hip 2.9 | 2 | timber |
-| S-0839 | Workshop of Avice the brewer | workshop | 1156.0 | 1449.0 | 71.7 | 69° | 5.0 x 5.5 | 3.0 | gable 2.8 | 1 | timber |
-| S-0840 | House of Henry the dyer | shop | 1172.1 | 1460.2 | 71.7 | 67° | 8.8 x 10.7 | 6.2 | gable 4.8 | 2 | stone |
-| S-0841 | House of Nicholas the pewterer | shop | 1187.2 | 1489.4 | 71.7 | 61° | 6.5 x 9.2 | 12.4 | gable 3.6 | 4 | timber |
-| S-0842 | House of Elena the glover | house | 1214.0 | 1565.3 | 71.7 | 72° | 8.9 x 9.9 | 9.3 | gable 4.9 | 3 | timber |
-| S-0843 | House of Nicholas the fishmonger | house | 1227.0 | 1595.3 | 71.7 | 63° | 6.8 x 9.6 | 9.3 | gable 3.7 | 3 | timber |
-| S-0844 | House of Rose the money-changer | house | 1230.5 | 1601.8 | 71.7 | 62° | 7.3 x 9.4 | 6.2 | gable 4.0 | 2 | timber |
-| S-0845 | Workshop of Rose the money-changer | workshop | 1221.0 | 1606.8 | 71.7 | 62° | 4.6 x 7.5 | 3.0 | gable 2.5 | 1 | timber |
-| S-0846 | House of Simon the cheesemonger | house | 1235.5 | 1616.8 | 71.7 | 62° | 6.6 x 14.8 | 9.3 | gable 3.6 | 3 | stone |
-| S-0847 | Workshop of Simon the cheesemonger | workshop | 1224.6 | 1622.7 | 71.7 | 62° | 5.8 x 7.2 | 3.0 | gable 3.2 | 1 | timber |
-| S-0848 | House of Rose the hatter | house | 1080.2 | 1463.8 | 71.7 | 72° | 9.4 x 15.0 | 6.2 | hip 4.2 | 2 | stone |
-| S-0849 | Workshop of Rose the hatter | workshop | 1067.5 | 1467.8 | 71.7 | 72° | 7.5 x 4.7 | 3.0 | gable 2.6 | 1 | timber |
-| S-0850 | House of Elena the fishmonger | house | 1086.0 | 1481.2 | 71.7 | 75° | 9.4 x 13.7 | 9.3 | hip 4.2 | 3 | timber |
-| S-0851 | Workshop of Elena the fishmonger | workshop | 1074.7 | 1484.2 | 71.7 | 75° | 7.8 x 5.9 | 3.0 | gable 3.3 | 1 | timber |
-| S-0852 | House of Piers the tinker | shop | 1092.3 | 1587.6 | 71.7 | 84° | 8.3 x 9.1 | 9.3 | gable 4.6 | 3 | timber |
-| S-0853 | House of Laurence the herbalist | house | 1094.9 | 1621.6 | 71.7 | 84° | 8.6 x 11.4 | 6.2 | hip 3.9 | 2 | timber |
-| S-0854 | House of Adam the parchmenter | shop | 984.7 | 1480.8 | 71.7 | 102° | 6.4 x 11.3 | 6.2 | hip 2.9 | 2 | timber |
-| S-0855 | Workshop of Adam the parchmenter | workshop | 971.7 | 1478.1 | 71.7 | 102° | 5.0 x 7.9 | 3.0 | gable 2.8 | 1 | timber |
-| S-0856 | House of Juliana the butcher | shop | 978.2 | 1571.7 | 71.7 | 73° | 6.1 x 9.6 | 9.3 | gable 3.4 | 3 | timber |
-| S-0857 | House of Joan the butcher | house | 979.5 | 1586.0 | 71.7 | 78° | 9.5 x 14.4 | 6.2 | gable 5.2 | 2 | timber |
-| S-0858 | Workshop of Joan the butcher | workshop | 968.2 | 1588.4 | 71.7 | 78° | 7.4 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| S-0859 | House of Odo the pie-seller | house | 991.3 | 1631.7 | 71.7 | 296° | 8.8 x 14.9 | 6.2 | gable 4.8 | 2 | timber |
-| S-0860 | House of Henry the herbalist | house | 965.4 | 1670.5 | 71.7 | 86° | 8.9 x 9.1 | 6.2 | gable 4.9 | 2 | timber |
-| S-0861 | House of Petronilla the stonecarver | house | 965.8 | 1678.8 | 71.7 | 87° | 7.3 x 9.4 | 9.3 | gable 4.0 | 3 | timber |
-| S-0862 | Workshop of Petronilla the stonecarver | workshop | 954.7 | 1679.4 | 71.7 | 87° | 6.5 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| S-0863 | House of Walter the stonecarver | house | 963.7 | 1726.2 | 71.7 | 98° | 8.0 x 10.2 | 9.3 | gable 4.4 | 3 | timber |
-| S-0864 | Workshop of Walter the stonecarver | workshop | 953.2 | 1724.8 | 71.7 | 98° | 7.4 x 5.8 | 6.0 | gable 3.2 | 1 | timber |
-| S-0865 | House of Stephen the limner | shop | 958.8 | 1743.4 | 71.7 | 99° | 6.6 x 14.8 | 6.2 | gable 3.6 | 2 | timber |
-| S-0866 | Workshop of Stephen the limner | workshop | 945.3 | 1741.2 | 71.7 | 99° | 5.6 x 7.8 | 3.0 | gable 3.1 | 1 | timber |
-| S-0867 | House of Rose the scribe | shop | 864.9 | 1520.8 | 71.7 | 122° | 7.6 x 12.9 | 6.2 | gable 4.2 | 2 | timber |
-| S-0868 | House of Geoffrey the draper | shop | 791.4 | 1456.0 | 71.7 | 115° | 7.2 x 13.2 | 9.3 | gable 4.0 | 3 | timber |
-| S-0869 | House of Osbert the clockmaker | shop | 790.1 | 1463.5 | 71.7 | 115° | 6.2 x 9.1 | 9.3 | hip 2.8 | 3 | timber |
-| S-0870 | House of Stephen the apothecary | house | 794.1 | 1499.3 | 71.7 | 294° | 6.4 x 15.0 | 9.3 | gable 3.5 | 3 | timber |
-| S-0871 | House of Ivetta the cheesemonger | house | 688.2 | 1620.9 | 71.7 | 123° | 7.2 x 10.2 | 6.2 | gable 4.0 | 2 | timber |
-| S-0872 | House of Cecily the apothecary | shop | 671.7 | 1658.8 | 71.7 | 107° | 9.2 x 11.4 | 6.2 | gable 5.1 | 2 | timber |
-| S-0873 | Workshop of Cecily the apothecary | workshop | 660.6 | 1655.4 | 71.7 | 107° | 5.4 x 7.8 | 6.0 | gable 3.0 | 1 | timber |
-| S-0874 | House of Godwin the weaver | shop | 716.0 | 1383.7 | 70.9 | 139° | 9.4 x 10.3 | 9.3 | gable 5.2 | 3 | timber |
-| S-0875 | House of Jordan the fuller | house | 649.4 | 1491.6 | 71.7 | 306° | 8.3 x 13.3 | 9.3 | gable 4.6 | 3 | timber |
-| S-0876 | Workshop of Jordan the fuller | workshop | 659.7 | 1499.0 | 71.7 | 306° | 5.5 x 6.4 | 6.0 | gable 3.0 | 1 | timber |
-| S-0877 | House of Margery the glazier | shop | 644.6 | 1499.4 | 71.7 | 306° | 8.9 x 14.6 | 9.3 | gable 4.9 | 3 | timber |
-| S-0878 | House of Godwin the pie-seller | shop | 596.3 | 1549.7 | 71.7 | 319° | 6.8 x 12.3 | 9.3 | gable 3.8 | 3 | timber |
-| S-0879 | Workshop of Godwin the pie-seller | workshop | 604.8 | 1559.5 | 71.7 | 319° | 4.5 x 6.5 | 3.0 | gable 2.5 | 1 | timber |
-| S-0880 | House of Joan the fishmonger | house | 590.5 | 1553.9 | 71.7 | 319° | 6.1 x 10.9 | 6.2 | gable 3.4 | 2 | timber |
-| S-0881 | House of Avice the limner | house | 557.5 | 1585.5 | 71.7 | 314° | 7.9 x 10.8 | 6.2 | gable 4.3 | 2 | timber |
-| S-0882 | House of Hob the ropemaker | house | 546.1 | 1597.8 | 71.7 | 313° | 9.2 x 11.2 | 6.2 | gable 5.1 | 2 | timber |
-| S-0883 | Workshop of Hob the ropemaker | workshop | 555.0 | 1606.1 | 71.8 | 313° | 5.4 x 6.5 | 3.0 | gable 3.0 | 1 | timber |
-| S-0884 | House of Agnes the money-changer | shop | 374.1 | 1368.0 | 71.3 | 326° | 6.6 x 12.0 | 9.3 | gable 3.6 | 3 | timber |
-| S-0885 | Workshop of Agnes the money-changer | workshop | 380.0 | 1376.7 | 71.4 | 326° | 6.0 x 6.5 | 6.0 | gable 3.3 | 1 | timber |
-| S-0886 | Tenement of Amice the glazier | tenement | 436.1 | 1360.3 | 71.1 | 151° | 7.8 x 7.1 | 6.0 | gable 3.9 | 2 | timber |
-| S-0887 | Tenement of Matilda the spicer | tenement | 446.6 | 1360.5 | 71.1 | 247° | 4.9 x 4.9 | 6.0 | gable 2.7 | 2 | timber |
-| S-0888 | Tenement of Amice the herbalist | tenement | 328.6 | 1365.7 | 71.5 | 160° | 6.1 x 6.3 | 9.0 | gable 3.3 | 3 | timber |
-| S-0889 | Workshop of Adam the spicer | workshop | 583.0 | 1365.2 | 70.9 | 238° | 5.2 x 4.8 | 3.6 | gable 2.7 | 1 | timber |
-| S-0890 | Tenement of Juliana the vintner | tenement | 1397.5 | 1366.5 | 70.9 | 127° | 4.1 x 4.8 | 6.0 | gable 2.3 | 2 | timber |
-| S-0891 | Tenement of Geoffrey the glazier | tenement | 1408.8 | 1365.7 | 70.9 | 35° | 4.9 x 4.9 | 6.0 | gable 2.7 | 2 | timber |
-| S-0892 | Storehouse of Matilda the brewer | storehouse | 1560.9 | 1366.8 | 70.9 | 25° | 7.7 x 7.5 | 3.6 | gable 4.1 | 1 | timber |
-| S-0893 | Tenement of Henry the pewterer | tenement | 1600.7 | 1368.7 | 70.9 | 24° | 8.5 x 8.2 | 9.0 | gable 4.5 | 3 | timber |
-| S-0894 | Tenement of Piers the mason | tenement | 362.1 | 1375.5 | 71.4 | 155° | 6.1 x 6.8 | 6.0 | gable 3.4 | 2 | timber |
-| S-0895 | Storehouse of Matilda the spicer | storehouse | 589.1 | 1373.9 | 70.9 | 149° | 6.0 x 8.9 | 3.6 | gable 3.3 | 1 | timber |
-| S-0896 | Tenement of Nicholas the pewterer | tenement | 600.2 | 1375.8 | 71.0 | 231° | 4.9 x 5.2 | 6.0 | gable 2.7 | 2 | timber |
-| S-0897 | Tenement of Ida the chandler | tenement | 699.8 | 1377.4 | 70.9 | 225° | 4.5 x 5.2 | 6.0 | gable 2.5 | 2 | timber |
-| S-0898 | Tenement of Hob the glazier | tenement | 727.5 | 1376.7 | 70.9 | 226° | 4.8 x 5.0 | 9.0 | gable 2.6 | 3 | timber |
-| S-0899 | Tenement of Odo the fuller | tenement | 1374.3 | 1375.9 | 71.0 | 41° | 7.5 x 6.9 | 3.0 | gable 3.8 | 1 | timber |
-| S-0900 | Tenement of Avice the dyer | tenement | 1389.4 | 1374.5 | 71.0 | 130° | 7.7 x 7.0 | 3.0 | gable 3.8 | 1 | timber |
-| S-0901 | Tenement of Richard the carpenter | tenement | 1612.7 | 1376.8 | 71.0 | 25° | 7.0 x 6.4 | 3.0 | gable 3.5 | 1 | timber |
-| S-0902 | Storehouse of Rose the chandler | storehouse | 1626.0 | 1374.7 | 71.0 | 28° | 4.6 x 5.3 | 3.6 | gable 2.5 | 1 | timber |
-| S-0903 | Storehouse of Joan the dyer | storehouse | 1637.2 | 1376.9 | 70.9 | 116° | 6.5 x 8.6 | 3.6 | gable 3.6 | 1 | timber |
-| S-0904 | Workshop of Hob the fuller | workshop | 387.0 | 1384.6 | 71.5 | 153° | 8.7 x 6.8 | 3.6 | gable 3.8 | 1 | timber |
-| S-0905 | Workshop of Geoffrey the mason | workshop | 592.3 | 1384.7 | 71.1 | 146° | 8.4 x 7.3 | 3.6 | gable 4.0 | 1 | timber |
-| S-0906 | Storehouse of Joan the locksmith | storehouse | 1271.5 | 1383.6 | 70.9 | 49° | 4.7 x 5.5 | 3.6 | gable 2.6 | 1 | timber |
-| S-0907 | Storehouse of Mabel the clockmaker | storehouse | 1380.7 | 1385.7 | 71.1 | 44° | 4.2 x 5.3 | 3.6 | gable 2.3 | 1 | timber |
-| S-0908 | Tenement of Edith the bookbinder | tenement | 1508.5 | 1383.2 | 71.2 | 126° | 7.1 x 6.7 | 3.0 | gable 3.7 | 1 | timber |
-| S-0909 | Stable of Ivetta the glover | stable | 1551.2 | 1382.1 | 71.1 | 28° | 4.3 x 5.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-0910 | Storehouse of Odo the brewer | storehouse | 1594.6 | 1384.9 | 71.1 | 117° | 6.7 x 6.7 | 3.6 | gable 3.7 | 1 | timber |
-| S-0911 | Tenement of Ivetta the cooper | tenement | 1677.4 | 1383.4 | 70.9 | 113° | 8.3 x 7.8 | 3.0 | gable 4.3 | 1 | timber |
-| S-0912 | Stable of Petronilla the barber-surgeon | stable | 368.7 | 1392.4 | 71.6 | 156° | 4.3 x 4.9 | 3.6 | gable 2.4 | 1 | timber |
-| S-0913 | Storehouse of Hob the notary | storehouse | 380.2 | 1392.9 | 71.6 | 244° | 4.2 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-0914 | Tenement of Rose the weaver | tenement | 394.4 | 1392.6 | 71.6 | 153° | 5.5 x 5.4 | 9.0 | gable 3.0 | 3 | timber |
-| S-0915 | Stable of Walter the potter | stable | 601.0 | 1394.4 | 71.2 | 230° | 6.7 x 8.0 | 3.6 | gable 3.7 | 1 | timber |
-| S-0916 | Tenement of Sybil the furrier | tenement | 634.7 | 1393.1 | 71.2 | 228° | 4.8 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| S-0917 | Stable of Cecily the furrier | stable | 777.5 | 1390.9 | 71.0 | 128° | 4.1 x 5.5 | 3.6 | gable 2.3 | 1 | timber |
-| S-0918 | Stable of Hawise the armourer | stable | 836.2 | 1393.8 | 70.9 | 213° | 8.0 x 8.6 | 3.6 | gable 4.4 | 1 | timber |
-| S-0919 | Tenement of Simon the cobbler | tenement | 889.2 | 1390.9 | 70.9 | 110° | 5.5 x 5.1 | 3.0 | gable 2.8 | 1 | timber |
-| S-0920 | Storehouse of Beatrice the butcher | storehouse | 904.4 | 1394.3 | 70.9 | 197° | 7.4 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| S-0921 | Tenement of Avice the pie-seller | tenement | 915.6 | 1393.5 | 70.9 | 107° | 7.6 x 6.3 | 6.0 | gable 3.5 | 2 | timber |
-| S-0922 | Workshop of Henry the furrier | workshop | 932.2 | 1394.2 | 70.9 | 104° | 7.5 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| S-0923 | Tenement of Roger the bellfounder | tenement | 966.4 | 1392.6 | 70.9 | 192° | 4.3 x 5.2 | 3.0 | gable 2.4 | 1 | timber |
-| S-0924 | Workshop of Wat the carpenter | workshop | 999.5 | 1393.8 | 70.9 | 94° | 6.7 x 7.9 | 3.6 | gable 3.7 | 1 | timber |
-| S-0925 | Stable of Maud the money-changer | stable | 1050.7 | 1392.0 | 70.9 | 177° | 4.1 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| S-0926 | Tenement of Ralph the dyer | tenement | 1074.2 | 1393.4 | 70.9 | 78° | 5.5 x 4.4 | 3.0 | gable 2.4 | 1 | timber |
-| S-0927 | Workshop of Beatrice the cheesemonger | workshop | 1093.6 | 1394.2 | 70.9 | 82° | 6.5 x 7.8 | 3.6 | gable 3.6 | 1 | timber |
-| S-0928 | Stable of Cecily the vintner | stable | 1135.6 | 1393.4 | 70.9 | 68° | 6.7 x 8.8 | 3.6 | gable 3.7 | 1 | timber |
-| S-0929 | Workshop of Ralph the herbalist | workshop | 1160.1 | 1393.9 | 70.9 | 156° | 7.4 x 8.2 | 3.6 | gable 4.1 | 1 | timber |
-| S-0930 | Storehouse of Ivetta the bookbinder | storehouse | 1169.0 | 1392.1 | 70.9 | 64° | 5.4 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| S-0931 | Tenement of Matilda the armourer | tenement | 1176.5 | 1391.2 | 70.9 | 153° | 4.7 x 5.2 | 6.0 | gable 2.6 | 2 | timber |
-| S-0932 | Workshop of Piers the limner | workshop | 1433.4 | 1391.0 | 71.2 | 41° | 7.2 x 8.0 | 3.6 | gable 3.9 | 1 | timber |
-| S-0933 | Workshop of Simon the tanner | workshop | 1500.9 | 1390.8 | 71.3 | 122° | 5.5 x 5.3 | 3.6 | gable 2.9 | 1 | timber |
-| S-0934 | Storehouse of Wat the cheesemonger | storehouse | 1524.5 | 1393.8 | 71.3 | 36° | 4.9 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-0935 | Tenement of Richard the hatter | tenement | 1655.1 | 1392.9 | 71.1 | 29° | 4.9 x 5.0 | 3.0 | gable 2.7 | 1 | timber |
-| S-0936 | Storehouse of Joan the cobbler | storehouse | 1688.2 | 1393.3 | 71.0 | 25° | 8.2 x 8.2 | 3.6 | gable 4.5 | 1 | timber |
-| S-0937 | Workshop of Odo the mason | workshop | 380.4 | 1402.1 | 71.7 | 242° | 7.2 x 8.3 | 3.6 | gable 4.0 | 1 | timber |
-| S-0938 | Tenement of Isabel the furrier | tenement | 393.9 | 1401.6 | 71.7 | 150° | 5.4 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| S-0939 | Tenement of Isabel the money-changer | tenement | 804.4 | 1401.3 | 71.1 | 211° | 5.2 x 5.2 | 6.0 | gable 2.9 | 2 | timber |
-| S-0940 | Storehouse of Isabel the cooper | storehouse | 922.0 | 1401.2 | 71.0 | 110° | 4.6 x 5.1 | 3.6 | gable 2.5 | 1 | timber |
-| S-0941 | Tenement of Margery the bowyer | tenement | 939.3 | 1400.1 | 71.0 | 103° | 4.3 x 4.2 | 3.0 | gable 2.3 | 1 | timber |
-| S-0942 | Storehouse of Emma the wheelwright | storehouse | 964.0 | 1402.0 | 71.0 | 189° | 6.4 x 7.6 | 3.6 | gable 3.5 | 1 | timber |
-| S-0943 | Storehouse of Baldwin the parchmenter | storehouse | 973.3 | 1402.6 | 71.0 | 101° | 4.7 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| S-0944 | Stable of Wat the scribe | stable | 981.7 | 1401.1 | 71.0 | 97° | 4.9 x 5.4 | 3.6 | gable 2.7 | 1 | timber |
-| S-0945 | Workshop of Jordan the locksmith | workshop | 990.4 | 1399.1 | 70.9 | 95° | 4.4 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-0946 | Tenement of Cecily the lute-maker | tenement | 1050.3 | 1402.4 | 70.9 | 178° | 7.4 x 7.3 | 9.0 | gable 4.0 | 3 | timber |
-| S-0947 | Stable of Petronilla the baker | stable | 1059.5 | 1400.7 | 70.9 | 84° | 4.3 x 5.2 | 3.6 | gable 2.4 | 1 | timber |
-| S-0948 | Storehouse of Baldwin the ropemaker | storehouse | 1067.4 | 1399.8 | 70.9 | 79° | 4.9 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| S-0949 | Tenement of Felice the locksmith | tenement | 1077.5 | 1402.4 | 71.0 | 80° | 7.5 x 6.7 | 9.0 | gable 3.7 | 3 | timber |
-| S-0950 | Tenement of Avice the dyer | tenement | 1102.2 | 1401.6 | 71.0 | 75° | 5.3 x 4.7 | 6.0 | gable 2.6 | 2 | timber |
-| S-0951 | Storehouse of Wat the glover | storehouse | 1170.2 | 1402.3 | 71.1 | 153° | 5.1 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-0952 | Storehouse of Baldwin the ropemaker | storehouse | 1178.5 | 1400.8 | 71.0 | 153° | 4.1 x 4.4 | 3.6 | gable 2.3 | 1 | timber |
-| S-0953 | Tenement of Piers the carpenter | tenement | 1425.6 | 1402.1 | 71.4 | 37° | 4.8 x 4.5 | 3.0 | gable 2.5 | 1 | timber |
-| S-0954 | Tenement of Nicholas the cheesemonger | tenement | 1653.6 | 1402.5 | 71.2 | 114° | 4.2 x 4.4 | 6.0 | gable 2.3 | 2 | timber |
-| S-0955 | Storehouse of Mabel the draper | storehouse | 386.3 | 1409.6 | 71.7 | 239° | 6.2 x 7.1 | 3.6 | gable 3.4 | 1 | timber |
-| S-0956 | Workshop of Thomas the pewterer | workshop | 650.4 | 1410.4 | 71.4 | 136° | 5.0 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-0957 | Stable of Thomas the weaver | stable | 711.1 | 1409.4 | 71.3 | 224° | 5.0 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| S-0958 | Stable of Petronilla the mason | stable | 776.1 | 1410.8 | 71.2 | 219° | 4.7 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-0959 | Tenement of Adam the jeweller | tenement | 786.9 | 1409.8 | 71.2 | 127° | 4.2 x 4.2 | 6.0 | gable 2.3 | 2 | timber |
-| S-0960 | Tenement of Beatrice the bowyer | tenement | 907.1 | 1411.4 | 71.0 | 202° | 6.3 x 8.0 | 6.0 | gable 3.5 | 2 | timber |
-| S-0961 | Workshop of Laurence the furrier | workshop | 921.3 | 1410.4 | 71.1 | 197° | 6.1 x 7.9 | 3.6 | gable 3.4 | 1 | timber |
-| S-0962 | Workshop of Emma the armourer | workshop | 975.2 | 1411.2 | 71.2 | 185° | 5.1 x 5.0 | 3.6 | gable 2.7 | 1 | timber |
-| S-0963 | Storehouse of Edith the limner | storehouse | 1000.9 | 1408.7 | 71.0 | 180° | 6.1 x 8.4 | 3.6 | gable 3.4 | 1 | timber |
-| S-0964 | Tenement of Alan the bellfounder | tenement | 1067.0 | 1409.3 | 71.0 | 172° | 8.7 x 8.3 | 6.0 | gable 4.6 | 2 | timber |
-| S-0965 | Tenement of Margery the bowyer | tenement | 1349.3 | 1410.3 | 71.4 | 138° | 4.6 x 5.4 | 3.0 | gable 2.5 | 1 | timber |
-| S-0966 | Stable of Nicholas the glover | stable | 1447.8 | 1410.7 | 71.5 | 126° | 6.4 x 8.3 | 3.6 | gable 3.5 | 1 | timber |
-| S-0967 | Tenement of Matilda the mercer | tenement | 1491.5 | 1411.4 | 71.5 | 124° | 6.5 x 6.6 | 6.0 | gable 3.6 | 2 | timber |
-| S-0968 | Tenement of Alys the carpenter | tenement | 1527.0 | 1409.6 | 71.5 | 37° | 7.9 x 6.7 | 3.0 | gable 3.7 | 1 | timber |
-| S-0969 | Stable of Petronilla the wheelwright | stable | 1542.6 | 1408.4 | 71.5 | 123° | 5.5 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-0970 | Storehouse of Stephen the pie-seller | storehouse | 1612.1 | 1408.1 | 71.5 | 122° | 5.4 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-0971 | Storehouse of Odo the candlemaker | storehouse | 1644.0 | 1408.5 | 71.4 | 26° | 4.3 x 4.6 | 3.6 | gable 2.4 | 1 | timber |
-| S-0972 | Stable of Henry the spicer | stable | 395.1 | 1417.0 | 71.7 | 150° | 4.0 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-0973 | Tenement of Rose the draper | tenement | 641.1 | 1419.8 | 71.5 | 140° | 4.7 x 5.2 | 3.0 | gable 2.6 | 1 | timber |
-| S-0974 | Tenement of Hugh the mercer | tenement | 760.2 | 1417.7 | 71.3 | 126° | 4.6 x 5.1 | 9.0 | gable 2.5 | 3 | timber |
-| S-0975 | Tenement of Joan the wheelwright | tenement | 889.3 | 1419.3 | 71.3 | 114° | 6.3 x 6.1 | 9.0 | gable 3.4 | 3 | timber |
-| S-0976 | Tenement of Jordan the herbalist | tenement | 915.3 | 1419.5 | 71.2 | 104° | 4.4 x 5.4 | 3.0 | gable 2.4 | 1 | timber |
-| S-0977 | Tenement of Amice the cobbler | tenement | 932.1 | 1419.8 | 71.2 | 107° | 4.8 x 4.1 | 6.0 | gable 2.3 | 2 | timber |
-| S-0978 | Tenement of Alan the bellfounder | tenement | 973.4 | 1419.8 | 71.2 | 101° | 6.5 x 7.6 | 9.0 | gable 3.6 | 3 | timber |
-| S-0979 | Workshop of Laurence the goldsmith | workshop | 989.0 | 1417.9 | 71.2 | 98° | 8.5 x 6.3 | 3.6 | gable 3.4 | 1 | timber |
-| S-0980 | Storehouse of Juliana the hatter | storehouse | 1005.7 | 1420.0 | 71.2 | 186° | 5.3 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-0981 | Storehouse of Stephen the pie-seller | storehouse | 1048.3 | 1416.9 | 71.1 | 83° | 5.1 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| S-0982 | Storehouse of Emma the apothecary | storehouse | 1057.5 | 1418.9 | 71.2 | 85° | 5.4 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| S-0983 | Storehouse of Ivetta the locksmith | storehouse | 1068.9 | 1419.5 | 71.2 | 172° | 8.8 x 7.0 | 3.6 | gable 3.9 | 1 | timber |
-| S-0984 | Tenement of Amice the pewterer | tenement | 1083.4 | 1417.0 | 71.2 | 78° | 6.5 x 6.2 | 9.0 | gable 3.4 | 3 | timber |
-| S-0985 | Stable of Isabel the potter | stable | 1099.3 | 1418.0 | 71.2 | 75° | 6.8 x 7.3 | 3.6 | gable 3.8 | 1 | timber |
-| S-0986 | Tenement of Laurence the pie-seller | tenement | 1339.9 | 1417.5 | 71.4 | 46° | 8.1 x 6.7 | 6.0 | gable 3.7 | 2 | timber |
-| S-0987 | Stable of Juliana the furrier | stable | 1417.3 | 1418.8 | 71.6 | 43° | 4.9 x 5.2 | 3.6 | gable 2.7 | 1 | timber |
-| S-0988 | Tenement of Agnes the baker | tenement | 1432.6 | 1417.5 | 71.6 | 133° | 5.1 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-0989 | Tenement of Rose the bookbinder | tenement | 1517.9 | 1417.8 | 71.7 | 32° | 4.2 x 5.1 | 3.0 | gable 2.3 | 1 | timber |
-| S-0990 | Tenement of Juliana the pie-seller | tenement | 1533.3 | 1417.8 | 71.7 | 124° | 4.0 x 5.0 | 9.0 | gable 2.2 | 3 | timber |
-| S-0991 | Workshop of Gilbert the lute-maker | workshop | 1584.1 | 1417.2 | 71.6 | 118° | 5.3 x 5.4 | 3.6 | gable 2.9 | 1 | timber |
-| S-0992 | Tenement of Juliana the cooper | tenement | 769.3 | 1426.5 | 71.5 | 215° | 4.8 x 4.9 | 6.0 | gable 2.6 | 2 | timber |
-| S-0993 | Tenement of Osbert the fuller | tenement | 804.6 | 1425.2 | 71.4 | 213° | 5.0 x 4.7 | 6.0 | gable 2.6 | 2 | timber |
-| S-0994 | Tenement of Joan the wheelwright | tenement | 827.9 | 1428.4 | 71.5 | 117° | 4.6 x 5.5 | 6.0 | gable 2.5 | 2 | timber |
-| S-0995 | Stable of Rose the fuller | stable | 972.5 | 1427.9 | 71.3 | 99° | 4.5 x 5.2 | 3.6 | gable 2.5 | 1 | timber |
-| S-0996 | Workshop of Margery the furrier | workshop | 1049.3 | 1425.0 | 71.2 | 89° | 5.2 x 5.1 | 3.6 | gable 2.8 | 1 | timber |
-| S-0997 | Stable of Elena the locksmith | stable | 1060.2 | 1427.8 | 71.3 | 173° | 4.6 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-0998 | Tenement of Elena the goldsmith | tenement | 1075.0 | 1428.1 | 71.3 | 168° | 5.3 x 4.7 | 6.0 | gable 2.6 | 2 | timber |
-| S-0999 | Workshop of Nicholas the fishmonger | workshop | 1177.7 | 1428.4 | 71.4 | 159° | 5.2 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| S-1000 | Storehouse of Geoffrey the locksmith | storehouse | 1541.3 | 1427.7 | 71.7 | 33° | 4.8 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| S-1001 | Tenement of Alan the cobbler | tenement | 1646.1 | 1425.7 | 71.5 | 30° | 6.2 x 6.1 | 6.0 | gable 3.3 | 2 | timber |
-| S-1002 | Stable of Gilbert the tinker | stable | 387.0 | 1433.3 | 71.7 | 240° | 7.0 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| S-1003 | Tenement of Alys the cheesemonger | tenement | 794.3 | 1433.3 | 71.5 | 119° | 8.8 x 6.6 | 3.0 | gable 3.6 | 1 | timber |
-| S-1004 | Storehouse of Stephen the notary | storehouse | 822.4 | 1433.8 | 71.5 | 117° | 4.8 x 5.4 | 3.6 | gable 2.6 | 1 | timber |
-| S-1005 | Storehouse of Sybil the pie-seller | storehouse | 839.3 | 1434.6 | 71.5 | 115° | 5.0 x 5.2 | 3.6 | gable 2.7 | 1 | timber |
-| S-1006 | Tenement of Sybil the hatter | tenement | 982.1 | 1433.3 | 71.4 | 98° | 6.4 x 8.6 | 9.0 | gable 3.5 | 3 | timber |
-| S-1007 | Storehouse of Ralph the vintner | storehouse | 1201.5 | 1433.9 | 71.5 | 151° | 5.0 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
-| S-1008 | Stable of Jordan the saddler | stable | 1400.3 | 1434.0 | 71.7 | 138° | 4.3 x 4.7 | 3.6 | gable 2.3 | 1 | timber |
-| S-1009 | Tenement of Matilda the cheesemonger | tenement | 1485.1 | 1434.0 | 71.7 | 130° | 6.6 x 6.1 | 6.0 | gable 3.4 | 2 | timber |
-| S-1010 | Tenement of Piers the dyer | tenement | 1646.7 | 1436.6 | 71.7 | 27° | 7.5 x 7.3 | 3.0 | gable 4.0 | 1 | timber |
-| S-1011 | Storehouse of Hugh the pewterer | storehouse | 1661.5 | 1436.4 | 71.6 | 123° | 7.8 x 7.0 | 3.6 | gable 3.9 | 1 | timber |
-| S-1012 | Stable of Juliana the mercer | stable | 378.9 | 1441.9 | 71.7 | 152° | 6.3 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| S-1013 | Storehouse of Wat the bellfounder | storehouse | 719.3 | 1443.7 | 71.7 | 220° | 4.6 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-1014 | Workshop of Osbert the goldsmith | workshop | 818.6 | 1442.0 | 71.6 | 121° | 4.9 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| S-1015 | Tenement of Felice the weaver | tenement | 1187.6 | 1443.5 | 71.6 | 155° | 5.0 x 4.4 | 6.0 | gable 2.4 | 2 | timber |
-| S-1016 | Tenement of Wat the stonecarver | tenement | 1303.4 | 1442.2 | 71.7 | 52° | 8.1 x 6.4 | 6.0 | gable 3.5 | 2 | timber |
-| S-1017 | Workshop of Maud the draper | workshop | 1474.5 | 1441.7 | 71.7 | 39° | 4.1 x 4.4 | 3.6 | gable 2.2 | 1 | timber |
-| S-1018 | Storehouse of Jordan the butcher | storehouse | 1493.8 | 1441.7 | 71.7 | 42° | 6.7 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| S-1019 | Stable of Godwin the hatter | stable | 1566.5 | 1445.5 | 71.7 | 32° | 6.2 x 7.3 | 3.6 | gable 3.4 | 1 | timber |
-| S-1020 | Stable of Avice the lute-maker | stable | 751.2 | 1451.0 | 71.7 | 123° | 5.2 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| S-1021 | Workshop of Ivetta the hatter | workshop | 760.4 | 1450.8 | 71.7 | 212° | 4.5 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| S-1022 | Tenement of Godwin the limner | tenement | 1347.8 | 1453.9 | 71.7 | 51° | 5.4 x 4.2 | 3.0 | gable 2.3 | 1 | timber |
-| S-1023 | Tenement of Petronilla the tinker | tenement | 1396.8 | 1451.2 | 71.6 | 133° | 8.0 x 6.3 | 6.0 | gable 3.5 | 2 | timber |
-| S-1024 | Tenement of Ivetta the glazier | tenement | 1466.8 | 1452.6 | 71.7 | 41° | 8.7 x 7.2 | 9.0 | gable 4.0 | 3 | timber |
-| S-1025 | Workshop of Wat the pewterer | workshop | 1485.3 | 1450.3 | 71.7 | 38° | 6.8 x 7.5 | 3.6 | gable 3.7 | 1 | timber |
-| S-1026 | Tenement of Richard the dyer | tenement | 1577.6 | 1452.1 | 71.7 | 35° | 8.3 x 6.2 | 6.0 | gable 3.4 | 2 | timber |
-| S-1027 | Stable of Beatrice the mason | stable | 1611.5 | 1451.2 | 71.7 | 32° | 6.1 x 8.3 | 3.6 | gable 3.4 | 1 | timber |
-| S-1028 | Stable of Edith the ropemaker | stable | 623.4 | 1461.2 | 71.7 | 227° | 4.3 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-1029 | Workshop of Sybil the saddler | workshop | 743.5 | 1459.6 | 71.7 | 218° | 4.1 x 4.2 | 3.6 | gable 2.2 | 1 | timber |
-| S-1030 | Tenement of Geoffrey the clockmaker | tenement | 762.7 | 1461.6 | 71.7 | 126° | 4.2 x 4.3 | 9.0 | gable 2.3 | 3 | timber |
-| S-1031 | Workshop of Matilda the vintner | workshop | 864.3 | 1459.1 | 71.7 | 204° | 7.7 x 8.5 | 3.6 | gable 4.2 | 1 | timber |
-| S-1032 | Tenement of Wat the fishmonger | tenement | 879.0 | 1458.6 | 71.7 | 204° | 8.9 x 7.5 | 6.0 | gable 4.2 | 2 | timber |
-| S-1033 | Tenement of Christiana the hatter | tenement | 913.4 | 1461.2 | 71.6 | 103° | 4.4 x 5.4 | 6.0 | gable 2.4 | 2 | timber |
-| S-1034 | Storehouse of Adam the butcher | storehouse | 1059.4 | 1461.0 | 71.6 | 177° | 4.1 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-1035 | Storehouse of Laurence the mason | storehouse | 1100.0 | 1461.8 | 71.7 | 170° | 6.8 x 6.7 | 3.6 | gable 3.7 | 1 | timber |
-| S-1036 | Storehouse of Hugh the stonecarver | storehouse | 1117.9 | 1459.7 | 71.7 | 72° | 8.4 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| S-1037 | Workshop of Simon the apothecary | workshop | 1150.0 | 1458.5 | 71.7 | 159° | 8.0 x 8.8 | 3.6 | gable 4.4 | 1 | timber |
-| S-1038 | Tenement of Elena the barber-surgeon | tenement | 1382.9 | 1462.0 | 71.7 | 140° | 6.2 x 6.3 | 3.0 | gable 3.4 | 1 | timber |
-| S-1039 | Tenement of Christiana the clockmaker | tenement | 1407.6 | 1461.3 | 71.7 | 42° | 4.4 x 5.2 | 6.0 | gable 2.4 | 2 | timber |
-| S-1040 | Workshop of Cecily the armourer | workshop | 1475.3 | 1461.6 | 71.7 | 128° | 6.0 x 6.3 | 3.6 | gable 3.3 | 1 | timber |
-| S-1041 | Workshop of Adam the pie-seller | workshop | 1604.3 | 1461.8 | 71.7 | 36° | 7.7 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| S-1042 | Tenement of Sybil the spicer | tenement | 1628.2 | 1458.9 | 71.7 | 120° | 4.3 x 4.7 | 6.0 | gable 2.4 | 2 | timber |
-| S-1043 | Storehouse of Ivetta the cutler | storehouse | 1638.2 | 1458.8 | 71.6 | 29° | 7.1 x 6.8 | 3.6 | gable 3.7 | 1 | timber |
-| S-1044 | Workshop of Godwin the bookbinder | workshop | 617.0 | 1468.4 | 71.7 | 136° | 5.1 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| S-1045 | Storehouse of Alys the armourer | storehouse | 691.8 | 1467.9 | 71.7 | 222° | 4.6 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| S-1046 | Workshop of Gilbert the apothecary | workshop | 762.1 | 1470.9 | 71.8 | 124° | 5.3 x 4.8 | 3.6 | gable 2.7 | 1 | timber |
-| S-1047 | Tenement of Amice the fishmonger | tenement | 776.4 | 1468.7 | 71.7 | 122° | 6.8 x 6.2 | 9.0 | gable 3.4 | 3 | timber |
-| S-1048 | Storehouse of Rose the draper | storehouse | 879.8 | 1469.6 | 71.7 | 109° | 5.4 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| S-1049 | Tenement of Piers the herbalist | tenement | 1229.7 | 1469.5 | 71.7 | 154° | 4.8 x 5.3 | 3.0 | gable 2.6 | 1 | timber |
-| S-1050 | Tenement of Baldwin the carpenter | tenement | 1253.5 | 1469.4 | 71.8 | 148° | 8.8 x 7.8 | 9.0 | gable 4.3 | 3 | timber |
-| S-1051 | Tenement of Gilbert the brewer | tenement | 1270.2 | 1469.9 | 71.7 | 57° | 7.5 x 6.5 | 6.0 | gable 3.6 | 2 | timber |
-| S-1052 | Tenement of Hugh the candlemaker | tenement | 1289.3 | 1469.0 | 71.7 | 148° | 7.8 x 8.6 | 6.0 | gable 4.3 | 2 | timber |
-| S-1053 | Tenement of Hob the lute-maker | tenement | 1337.0 | 1470.0 | 71.7 | 52° | 6.2 x 7.0 | 9.0 | gable 3.4 | 3 | timber |
-| S-1054 | Tenement of Sybil the goldsmith | tenement | 1413.7 | 1468.4 | 71.6 | 42° | 4.4 x 5.0 | 9.0 | gable 2.4 | 3 | timber |
-| S-1055 | Tenement of Geoffrey the clockmaker | tenement | 1467.6 | 1469.8 | 71.7 | 45° | 6.3 x 7.7 | 9.0 | gable 3.5 | 3 | timber |
-| S-1056 | Stable of Nicholas the bowyer | stable | 1501.7 | 1469.0 | 71.7 | 38° | 4.0 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-1057 | Tenement of Henry the herbalist | tenement | 1612.5 | 1470.1 | 71.7 | 122° | 6.8 x 8.3 | 9.0 | gable 3.7 | 3 | timber |
-| S-1058 | Stable of Isabel the clockmaker | stable | 1626.5 | 1467.5 | 71.7 | 120° | 4.2 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-1059 | Storehouse of Avice the tanner | storehouse | 1634.7 | 1469.1 | 71.6 | 125° | 5.1 x 5.2 | 3.6 | gable 2.8 | 1 | timber |
-| S-1060 | Storehouse of Ralph the fishmonger | storehouse | 589.9 | 1478.8 | 71.7 | 226° | 6.1 x 7.1 | 3.6 | gable 3.4 | 1 | timber |
-| S-1061 | Storehouse of Avice the money-changer | storehouse | 691.5 | 1479.5 | 71.7 | 129° | 5.3 x 5.0 | 3.6 | gable 2.7 | 1 | timber |
-| S-1062 | Tenement of Walter the chandler | tenement | 753.8 | 1475.9 | 71.7 | 210° | 5.4 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| S-1063 | Tenement of Simon the cobbler | tenement | 802.7 | 1475.6 | 71.7 | 120° | 8.7 x 6.7 | 9.0 | gable 3.7 | 3 | timber |
-| S-1064 | Tenement of Elena the spicer | tenement | 957.8 | 1477.1 | 71.7 | 189° | 8.8 x 8.3 | 3.0 | gable 4.6 | 1 | timber |
-| S-1065 | Stable of Jordan the spicer | stable | 1066.2 | 1476.8 | 71.7 | 88° | 5.1 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| S-1066 | Workshop of Sybil the glazier | workshop | 1107.5 | 1477.7 | 71.7 | 78° | 8.5 x 8.8 | 3.6 | gable 4.7 | 1 | timber |
-| S-1067 | Storehouse of Hob the stonecarver | storehouse | 1255.1 | 1478.5 | 71.8 | 63° | 4.2 x 4.4 | 3.6 | gable 2.3 | 1 | timber |
-| S-1068 | Stable of Christiana the dyer | stable | 1278.3 | 1476.5 | 71.7 | 58° | 6.2 x 7.7 | 3.6 | gable 3.4 | 1 | timber |
-| S-1069 | Tenement of Alan the potter | tenement | 1475.6 | 1477.1 | 71.7 | 43° | 4.3 x 4.7 | 6.0 | gable 2.3 | 2 | timber |
-| S-1070 | Tenement of Amice the bellfounder | tenement | 1604.3 | 1477.4 | 71.7 | 125° | 5.0 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| S-1071 | Tenement of Agnes the fishmonger | tenement | 1620.3 | 1476.8 | 71.7 | 36° | 4.6 x 5.0 | 3.0 | gable 2.5 | 1 | timber |
-| S-1072 | Storehouse of Alys the glover | storehouse | 597.8 | 1485.2 | 71.6 | 229° | 7.2 x 8.5 | 3.6 | gable 3.9 | 1 | timber |
-| S-1073 | Tenement of Odo the potter | tenement | 614.7 | 1484.3 | 71.7 | 222° | 4.2 x 4.4 | 6.0 | gable 2.3 | 2 | timber |
-| S-1074 | Storehouse of Henry the pie-seller | storehouse | 735.5 | 1487.1 | 71.7 | 218° | 5.1 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| S-1075 | Tenement of Hob the fletcher | tenement | 770.4 | 1484.1 | 71.7 | 122° | 8.5 x 6.7 | 3.0 | gable 3.7 | 1 | timber |
-| S-1076 | Stable of Osbert the pie-seller | stable | 810.4 | 1484.2 | 71.7 | 120° | 8.3 x 7.8 | 3.6 | gable 4.3 | 1 | timber |
-| S-1077 | Tenement of Alys the mason | tenement | 947.1 | 1486.2 | 71.7 | 192° | 4.1 x 4.2 | 6.0 | gable 2.3 | 2 | timber |
-| S-1078 | Storehouse of Joan the ropemaker | storehouse | 957.6 | 1487.5 | 71.7 | 190° | 5.2 x 5.4 | 3.6 | gable 2.8 | 1 | timber |
-| S-1079 | Stable of Henry the locksmith | stable | 999.3 | 1487.3 | 71.7 | 93° | 4.9 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| S-1080 | Tenement of Beatrice the mercer | tenement | 1050.5 | 1487.7 | 71.7 | 86° | 4.7 x 4.1 | 9.0 | gable 2.2 | 3 | timber |
-| S-1081 | Stable of Margery the dyer | stable | 1059.8 | 1484.7 | 71.7 | 83° | 4.4 x 4.5 | 3.6 | gable 2.4 | 1 | timber |
-| S-1082 | Tenement of Wat the fishmonger | tenement | 1210.9 | 1486.8 | 71.7 | 65° | 7.0 x 6.2 | 6.0 | gable 3.4 | 2 | timber |
-| S-1083 | Workshop of Emma the hatter | workshop | 1263.1 | 1484.7 | 71.7 | 154° | 8.1 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| S-1084 | Tenement of Godwin the pewterer | tenement | 1339.8 | 1485.8 | 71.7 | 146° | 8.3 x 6.6 | 6.0 | gable 3.6 | 2 | timber |
-| S-1085 | Workshop of Geoffrey the fletcher | workshop | 1363.2 | 1484.2 | 71.7 | 138° | 4.4 x 4.8 | 3.6 | gable 2.4 | 1 | timber |
-| S-1086 | Storehouse of Jordan the pewterer | storehouse | 1441.7 | 1485.3 | 71.7 | 134° | 4.6 x 5.5 | 3.6 | gable 2.5 | 1 | timber |
-| S-1087 | Workshop of Martin the tanner | workshop | 1507.0 | 1486.5 | 71.7 | 128° | 7.9 x 7.4 | 3.6 | gable 4.0 | 1 | timber |
-| S-1088 | Workshop of Agnes the cheesemonger | workshop | 1517.8 | 1486.6 | 71.7 | 130° | 4.5 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-1089 | Tenement of Isabel the fletcher | tenement | 1592.9 | 1484.4 | 71.7 | 127° | 5.5 x 5.4 | 3.0 | gable 3.0 | 1 | timber |
-| S-1090 | Storehouse of Ivetta the draper | storehouse | 1611.1 | 1486.2 | 71.7 | 125° | 6.5 x 6.1 | 3.6 | gable 3.3 | 1 | timber |
-| S-1091 | Workshop of Hob the apothecary | workshop | 592.1 | 1493.9 | 71.7 | 226° | 4.0 x 4.4 | 3.6 | gable 2.2 | 1 | timber |
-| S-1092 | Tenement of Roger the apothecary | tenement | 601.1 | 1494.0 | 71.7 | 222° | 4.1 x 4.5 | 9.0 | gable 2.3 | 3 | timber |
-| S-1093 | Tenement of Hugh the parchmenter | tenement | 666.5 | 1495.5 | 71.7 | 219° | 4.2 x 4.5 | 9.0 | gable 2.3 | 3 | timber |
-| S-1094 | Storehouse of Rose the candlemaker | storehouse | 1220.7 | 1492.6 | 71.7 | 62° | 4.4 x 4.9 | 3.6 | gable 2.4 | 1 | timber |
-| S-1095 | Workshop of Robin the herbalist | workshop | 1237.8 | 1493.3 | 71.7 | 66° | 7.2 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| S-1096 | Tenement of Martin the cobbler | tenement | 1323.0 | 1492.9 | 71.7 | 142° | 4.6 x 4.7 | 6.0 | gable 2.5 | 2 | timber |
-| S-1097 | Tenement of Godwin the glazier | tenement | 1451.2 | 1493.9 | 71.7 | 135° | 5.2 x 4.6 | 3.0 | gable 2.5 | 1 | timber |
-| S-1098 | Stable of Odo the baker | stable | 1526.0 | 1495.8 | 71.6 | 130° | 5.0 x 5.4 | 3.6 | gable 2.8 | 1 | timber |
-| S-1099 | Workshop of Martin the furrier | workshop | 728.6 | 1501.6 | 71.7 | 121° | 6.9 x 6.5 | 3.6 | gable 3.6 | 1 | timber |
-| S-1100 | Storehouse of Matilda the tailor | storehouse | 751.3 | 1503.4 | 71.7 | 213° | 4.5 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| S-1101 | Storehouse of Cecily the saddler | storehouse | 836.1 | 1503.5 | 71.7 | 110° | 7.0 x 7.2 | 3.6 | gable 3.9 | 1 | timber |
-| S-1102 | Workshop of Godwin the furrier | workshop | 846.6 | 1502.6 | 71.7 | 114° | 5.0 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-1103 | Stable of Agnes the notary | stable | 854.1 | 1503.7 | 71.7 | 112° | 4.8 x 5.1 | 3.6 | gable 2.6 | 1 | timber |
-| S-1104 | Stable of Thomas the fishmonger | stable | 1213.0 | 1502.0 | 71.7 | 68° | 5.3 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-1105 | Stable of Stephen the brewer | stable | 1229.1 | 1502.1 | 71.7 | 61° | 6.6 x 7.4 | 3.6 | gable 3.6 | 1 | timber |
-| S-1106 | Storehouse of Amice the candlemaker | storehouse | 1296.2 | 1501.5 | 71.7 | 58° | 6.4 x 6.5 | 3.6 | gable 3.5 | 1 | timber |
-| S-1107 | Stable of Alan the draper | stable | 1447.5 | 1504.2 | 71.7 | 136° | 5.2 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| S-1108 | Tenement of Laurence the clockmaker | tenement | 453.5 | 1511.8 | 71.8 | 230° | 4.6 x 5.3 | 6.0 | gable 2.5 | 2 | timber |
-| S-1109 | Tenement of Piers the tailor | tenement | 464.5 | 1510.7 | 71.8 | 232° | 4.3 x 4.5 | 6.0 | gable 2.4 | 2 | timber |
-| S-1110 | Tenement of Jordan the bowyer | tenement | 480.4 | 1510.0 | 71.7 | 234° | 7.1 x 6.4 | 6.0 | gable 3.5 | 2 | timber |
-| S-1111 | Tenement of Piers the baker | tenement | 550.4 | 1511.8 | 71.7 | 230° | 4.3 x 4.8 | 3.0 | gable 2.4 | 1 | timber |
-| S-1112 | Tenement of Edith the locksmith | tenement | 633.8 | 1511.4 | 71.6 | 221° | 5.5 x 5.3 | 3.0 | gable 2.9 | 1 | timber |
-| S-1113 | Workshop of Petronilla the candlemaker | workshop | 650.5 | 1512.4 | 71.7 | 132° | 8.9 x 6.9 | 3.6 | gable 3.8 | 1 | timber |
-| S-1114 | Tenement of Mabel the mason | tenement | 666.0 | 1511.3 | 71.7 | 223° | 6.9 x 7.8 | 9.0 | gable 3.8 | 3 | timber |
-| S-1115 | Tenement of Avice the pie-seller | tenement | 702.7 | 1512.6 | 71.7 | 216° | 5.4 x 4.3 | 3.0 | gable 2.4 | 1 | timber |
-| S-1116 | Workshop of Walter the barber-surgeon | workshop | 855.8 | 1512.7 | 71.7 | 110° | 4.8 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| S-1117 | Stable of Amice the notary | stable | 895.4 | 1512.1 | 71.7 | 193° | 7.2 x 7.2 | 3.6 | gable 3.9 | 1 | timber |
-| S-1118 | Tenement of Osbert the dyer | tenement | 915.5 | 1510.6 | 71.7 | 196° | 4.3 x 4.6 | 9.0 | gable 2.3 | 3 | timber |
-| S-1119 | Storehouse of Avice the armourer | storehouse | 1076.0 | 1510.6 | 71.7 | 87° | 7.3 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| S-1120 | Tenement of Henry the fishmonger | tenement | 1161.8 | 1513.5 | 71.7 | 70° | 4.1 x 4.8 | 3.0 | gable 2.2 | 1 | timber |
-| S-1121 | Stable of Adam the cobbler | stable | 1474.6 | 1512.0 | 71.7 | 48° | 4.1 x 4.5 | 3.6 | gable 2.3 | 1 | timber |
-| S-1122 | Stable of Godwin the tinker | stable | 473.8 | 1521.6 | 71.7 | 228° | 6.3 x 7.8 | 3.6 | gable 3.5 | 1 | timber |
-| S-1123 | Workshop of Matilda the parchmenter | workshop | 557.5 | 1519.9 | 71.7 | 225° | 4.1 x 5.4 | 3.6 | gable 2.3 | 1 | timber |
-| S-1124 | Tenement of Jordan the wheelwright | tenement | 642.5 | 1518.3 | 71.7 | 220° | 5.5 x 4.7 | 6.0 | gable 2.6 | 2 | timber |
-| S-1125 | Stable of Amice the stonecarver | stable | 751.7 | 1519.3 | 71.7 | 210° | 6.8 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| S-1126 | Tenement of Laurence the jeweller | tenement | 836.5 | 1518.5 | 71.7 | 200° | 4.0 x 4.2 | 6.0 | gable 2.2 | 2 | timber |
-| S-1127 | Storehouse of Odo the bookbinder | storehouse | 847.7 | 1520.0 | 71.7 | 204° | 7.2 x 7.2 | 3.6 | gable 3.9 | 1 | timber |
-| S-1128 | Tenement of Christiana the parchmenter | tenement | 887.7 | 1520.4 | 71.7 | 104° | 5.3 x 4.1 | 9.0 | gable 2.2 | 3 | timber |
-| S-1129 | Tenement of Emma the cheesemonger | tenement | 905.9 | 1521.6 | 71.7 | 196° | 7.2 x 7.3 | 9.0 | gable 4.0 | 3 | timber |
-| S-1130 | Storehouse of Nicholas the herbalist | storehouse | 948.7 | 1520.0 | 71.7 | 187° | 7.0 x 7.4 | 3.6 | gable 3.9 | 1 | timber |
-| S-1131 | Tenement of Ralph the cutler | tenement | 1374.7 | 1518.0 | 71.7 | 139° | 4.7 x 4.9 | 6.0 | gable 2.6 | 2 | timber |
-| S-1132 | Workshop of Simon the mercer | workshop | 1465.5 | 1519.8 | 71.7 | 139° | 4.5 x 5.0 | 3.6 | gable 2.5 | 1 | timber |
-| S-1133 | Tenement of Maud the armourer | tenement | 1578.1 | 1519.5 | 71.7 | 36° | 7.2 x 6.0 | 6.0 | gable 3.3 | 2 | timber |
-| S-1134 | Stable of Hob the cheesemonger | stable | 651.6 | 1528.8 | 71.7 | 220° | 6.6 x 7.9 | 3.6 | gable 3.6 | 1 | timber |
-| S-1135 | Stable of Ida the chandler | stable | 665.5 | 1528.1 | 71.7 | 217° | 6.0 x 7.5 | 3.6 | gable 3.3 | 1 | timber |
-| S-1136 | Storehouse of Maud the tailor | storehouse | 676.8 | 1529.0 | 71.7 | 216° | 6.3 x 9.0 | 3.6 | gable 3.5 | 1 | timber |
-| S-1137 | Tenement of Elena the limner | tenement | 895.2 | 1528.3 | 71.7 | 197° | 4.4 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| S-1138 | Stable of Robin the spicer | stable | 973.2 | 1529.3 | 71.7 | 190° | 5.0 x 5.3 | 3.6 | gable 2.8 | 1 | timber |
-| S-1139 | Tenement of Felice the notary | tenement | 1500.3 | 1530.2 | 71.7 | 130° | 5.1 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| S-1140 | Stable of Walter the tanner | stable | 1560.9 | 1530.2 | 71.7 | 42° | 6.2 x 7.6 | 3.6 | gable 3.4 | 1 | timber |
-| S-1141 | Tenement of Piers the ropemaker | tenement | 1575.6 | 1528.4 | 71.7 | 128° | 4.3 x 5.5 | 3.0 | gable 2.4 | 1 | timber |
-| S-1142 | Stable of Amice the vintner | stable | 1584.9 | 1530.1 | 71.7 | 130° | 5.4 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| S-1143 | Storehouse of Piers the armourer | storehouse | 506.3 | 1538.9 | 71.7 | 224° | 4.2 x 5.4 | 3.6 | gable 2.3 | 1 | timber |
-| S-1144 | Tenement of Walter the tailor | tenement | 966.4 | 1538.8 | 71.7 | 190° | 8.6 x 9.0 | 9.0 | gable 4.7 | 3 | timber |
-| S-1145 | Tenement of Geoffrey the clockmaker | tenement | 1117.1 | 1538.9 | 71.7 | 80° | 5.1 x 4.1 | 9.0 | gable 2.3 | 3 | timber |
-| S-1146 | Stable of Thomas the lute-maker | stable | 1279.1 | 1538.8 | 71.7 | 60° | 8.4 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| S-1147 | Stable of Joan the barber-surgeon | stable | 1568.9 | 1538.0 | 71.7 | 133° | 6.9 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| S-1148 | Storehouse of Henry the bowyer | storehouse | 563.7 | 1544.7 | 71.7 | 137° | 5.0 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| S-1149 | Storehouse of Rose the clockmaker | storehouse | 600.9 | 1543.9 | 71.7 | 135° | 4.6 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| S-1150 | Storehouse of Agnes the bowyer | storehouse | 615.2 | 1544.4 | 71.7 | 131° | 8.3 x 7.5 | 3.6 | gable 4.1 | 1 | timber |
-| S-1151 | Workshop of Hawise the glazier | workshop | 626.7 | 1546.1 | 71.7 | 218° | 4.2 x 5.0 | 3.6 | gable 2.3 | 1 | timber |
-| S-1152 | Workshop of Osbert the armourer | workshop | 640.7 | 1544.8 | 71.7 | 130° | 5.4 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-1153 | Stable of Joan the saddler | stable | 805.4 | 1547.0 | 71.7 | 206° | 4.4 x 5.3 | 3.6 | gable 2.4 | 1 | timber |
-| S-1154 | Stable of Isabel the scribe | stable | 1227.0 | 1545.7 | 71.7 | 64° | 8.3 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| S-1155 | Tenement of Felice the chandler | tenement | 1389.2 | 1545.7 | 71.7 | 52° | 5.0 x 4.2 | 9.0 | gable 2.3 | 3 | timber |
-| S-1156 | Stable of Christiana the pewterer | stable | 1518.0 | 1544.6 | 71.7 | 44° | 4.6 x 5.2 | 3.6 | gable 2.5 | 1 | timber |
-| S-1157 | Storehouse of Agnes the fuller | storehouse | 617.9 | 1555.2 | 71.7 | 216° | 5.2 x 5.3 | 3.6 | gable 2.8 | 1 | timber |
-| S-1158 | Workshop of Margery the bellfounder | workshop | 702.2 | 1552.0 | 71.7 | 121° | 7.9 x 7.8 | 3.6 | gable 4.3 | 1 | timber |
-| S-1159 | Tenement of Henry the spicer | tenement | 710.6 | 1555.4 | 71.7 | 123° | 5.3 x 4.2 | 9.0 | gable 2.3 | 3 | timber |
-| S-1160 | Storehouse of Maud the barber-surgeon | storehouse | 727.4 | 1553.1 | 71.7 | 210° | 5.5 x 5.3 | 3.6 | gable 2.9 | 1 | timber |
-| S-1161 | Workshop of Elena the mercer | workshop | 811.2 | 1552.2 | 71.7 | 116° | 5.3 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-1162 | Tenement of Alys the clockmaker | tenement | 821.1 | 1554.3 | 71.7 | 109° | 4.0 x 4.8 | 6.0 | gable 2.2 | 2 | timber |
-| S-1163 | Tenement of Elena the bookbinder | tenement | 1209.7 | 1556.0 | 71.7 | 66° | 5.2 x 4.8 | 9.0 | gable 2.7 | 3 | timber |
-| S-1164 | Stable of Petronilla the tailor | stable | 1329.4 | 1555.9 | 71.6 | 146° | 4.9 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-1165 | Workshop of Rose the draper | workshop | 1381.2 | 1553.3 | 71.7 | 52° | 4.2 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-1166 | Tenement of Hawise the vintner | tenement | 582.9 | 1561.4 | 71.7 | 136° | 6.2 x 8.3 | 6.0 | gable 3.4 | 2 | timber |
-| S-1167 | Storehouse of Cecily the glover | storehouse | 599.5 | 1564.1 | 71.7 | 130° | 4.5 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| S-1168 | Tenement of Baldwin the scribe | tenement | 1202.7 | 1563.3 | 71.7 | 70° | 6.8 x 7.1 | 3.0 | gable 3.8 | 1 | timber |
-| S-1169 | Stable of Ralph the saddler | stable | 1229.7 | 1560.9 | 71.7 | 156° | 4.2 x 4.5 | 3.6 | gable 2.3 | 1 | timber |
-| S-1170 | Stable of Felice the clockmaker | stable | 1238.9 | 1561.7 | 71.7 | 67° | 4.6 x 4.8 | 3.6 | gable 2.5 | 1 | timber |
-| S-1171 | Tenement of Stephen the locksmith | tenement | 1399.6 | 1561.9 | 71.7 | 139° | 8.2 x 6.8 | 6.0 | gable 3.7 | 2 | timber |
-| S-1172 | Tenement of Richard the glazier | tenement | 1457.3 | 1561.4 | 71.7 | 48° | 4.9 x 4.7 | 6.0 | gable 2.6 | 2 | timber |
-| S-1173 | Storehouse of Petronilla the armourer | storehouse | 548.9 | 1571.1 | 71.7 | 227° | 6.8 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| S-1174 | Storehouse of Piers the potter | storehouse | 606.3 | 1572.1 | 71.7 | 127° | 6.8 x 7.1 | 3.6 | gable 3.8 | 1 | timber |
-| S-1175 | Tenement of Godwin the bookbinder | tenement | 648.5 | 1572.2 | 71.7 | 215° | 4.6 x 4.7 | 6.0 | gable 2.5 | 2 | timber |
-| S-1176 | Tenement of Beatrice the money-changer | tenement | 658.2 | 1570.5 | 71.7 | 124° | 4.0 x 4.9 | 6.0 | gable 2.2 | 2 | timber |
-| S-1177 | Tenement of Odo the cooper | tenement | 939.7 | 1572.6 | 71.7 | 194° | 6.1 x 6.0 | 9.0 | gable 3.3 | 3 | timber |
-| S-1178 | Tenement of Elena the parchmenter | tenement | 949.1 | 1569.7 | 71.7 | 191° | 5.4 x 4.9 | 6.0 | gable 2.7 | 2 | timber |
-| S-1179 | Storehouse of Nicholas the weaver | storehouse | 1000.0 | 1572.9 | 71.7 | 91° | 9.0 x 8.2 | 3.6 | gable 4.5 | 1 | timber |
-| S-1180 | Stable of Cecily the glazier | stable | 1168.5 | 1571.9 | 71.7 | 167° | 6.7 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| S-1181 | Stable of Piers the bowyer | stable | 1179.2 | 1571.7 | 71.7 | 71° | 7.7 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| S-1182 | Tenement of Walter the mercer | tenement | 1391.1 | 1572.3 | 71.7 | 57° | 9.0 x 6.5 | 3.0 | gable 3.6 | 1 | timber |
-| S-1183 | Stable of Adam the fletcher | stable | 1406.7 | 1570.0 | 71.7 | 49° | 6.3 x 8.6 | 3.6 | gable 3.5 | 1 | timber |
-| S-1184 | Stable of Osbert the tailor | stable | 1491.8 | 1572.7 | 71.7 | 141° | 8.5 x 7.8 | 3.6 | gable 4.3 | 1 | timber |
-| S-1185 | Tenement of Piers the bookbinder | tenement | 676.9 | 1578.5 | 71.7 | 213° | 4.0 x 4.4 | 6.0 | gable 2.2 | 2 | timber |
-| S-1186 | Workshop of Hawise the tailor | workshop | 887.7 | 1578.1 | 71.7 | 198° | 6.4 x 6.5 | 3.6 | gable 3.5 | 1 | timber |
-| S-1187 | Stable of Martin the brewer | stable | 898.8 | 1580.2 | 71.7 | 105° | 7.5 x 8.1 | 3.6 | gable 4.1 | 1 | timber |
-| S-1188 | Tenement of Adam the spicer | tenement | 946.7 | 1578.2 | 71.7 | 102° | 4.9 x 4.6 | 9.0 | gable 2.5 | 3 | timber |
-| S-1189 | Storehouse of Isabel the weaver | storehouse | 954.5 | 1578.5 | 71.7 | 190° | 4.5 x 4.7 | 3.6 | gable 2.5 | 1 | timber |
-| S-1190 | Tenement of Ivetta the chandler | tenement | 966.1 | 1579.1 | 71.7 | 184° | 4.7 x 4.7 | 6.0 | gable 2.6 | 2 | timber |
-| S-1191 | Storehouse of Margery the tanner | storehouse | 1119.1 | 1580.8 | 71.7 | 83° | 7.4 x 6.9 | 3.6 | gable 3.8 | 1 | timber |
-| S-1192 | Storehouse of Baldwin the cooper | storehouse | 1159.1 | 1581.4 | 71.7 | 166° | 7.9 x 6.5 | 3.6 | gable 3.5 | 1 | timber |
-| S-1193 | Workshop of Martin the cutler | workshop | 1397.3 | 1581.0 | 71.7 | 147° | 4.4 x 4.8 | 3.6 | gable 2.4 | 1 | timber |
-| S-1194 | Stable of Cecily the hatter | stable | 1408.9 | 1578.6 | 71.7 | 143° | 4.6 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-1195 | Storehouse of Laurence the glover | storehouse | 1466.8 | 1581.5 | 71.7 | 140° | 4.3 x 5.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-1196 | Tenement of Richard the tailor | tenement | 1481.9 | 1578.3 | 71.7 | 50° | 8.3 x 8.5 | 6.0 | gable 4.6 | 2 | timber |
-| S-1197 | Workshop of Ida the bowyer | workshop | 1517.9 | 1580.1 | 71.7 | 137° | 7.4 x 8.7 | 3.6 | gable 4.1 | 1 | timber |
-| S-1198 | Tenement of Margery the fuller | tenement | 580.6 | 1588.0 | 71.7 | 218° | 4.5 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| S-1199 | Tenement of Ida the tinker | tenement | 693.2 | 1587.1 | 71.7 | 126° | 4.4 x 5.5 | 9.0 | gable 2.4 | 3 | timber |
-| S-1200 | Tenement of Beatrice the chandler | tenement | 938.4 | 1588.8 | 71.8 | 191° | 8.7 x 6.7 | 3.0 | gable 3.7 | 1 | timber |
-| S-1201 | Workshop of Walter the dyer | workshop | 958.4 | 1588.3 | 71.7 | 184° | 7.4 x 6.1 | 3.6 | gable 3.4 | 1 | timber |
-| S-1202 | Workshop of Amice the bookbinder | workshop | 999.5 | 1588.3 | 71.7 | 97° | 4.5 x 4.7 | 3.6 | gable 2.5 | 1 | timber |
-| S-1203 | Tenement of Godwin the bookbinder | tenement | 1041.3 | 1586.3 | 71.7 | 90° | 7.2 x 8.9 | 3.0 | gable 4.0 | 1 | timber |
-| S-1204 | Storehouse of Stephen the hatter | storehouse | 1051.0 | 1586.6 | 71.7 | 89° | 4.8 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| S-1205 | Tenement of Felice the cheesemonger | tenement | 1126.8 | 1588.4 | 71.7 | 78° | 4.9 x 5.3 | 9.0 | gable 2.7 | 3 | timber |
-| S-1206 | Storehouse of Joan the chandler | storehouse | 1473.2 | 1588.2 | 71.7 | 48° | 4.2 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-1207 | Workshop of Adam the armourer | workshop | 1484.8 | 1589.9 | 71.7 | 140° | 4.2 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| S-1208 | Tenement of Amice the cutler | tenement | 565.0 | 1598.3 | 71.7 | 131° | 4.9 x 4.4 | 3.0 | gable 2.4 | 1 | timber |
-| S-1209 | Workshop of Baldwin the cheesemonger | workshop | 574.9 | 1595.9 | 71.7 | 224° | 4.1 x 4.3 | 3.6 | gable 2.3 | 1 | timber |
-| S-1210 | Tenement of Nicholas the butcher | tenement | 600.1 | 1596.7 | 71.7 | 128° | 4.8 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| S-1211 | Stable of Geoffrey the locksmith | stable | 691.8 | 1595.6 | 71.7 | 126° | 4.7 x 5.3 | 3.6 | gable 2.6 | 1 | timber |
-| S-1212 | Stable of Margery the vintner | stable | 954.9 | 1597.1 | 71.7 | 94° | 4.7 x 5.1 | 3.6 | gable 2.6 | 1 | timber |
-| S-1213 | Workshop of Laurence the cheesemonger | workshop | 973.1 | 1597.2 | 71.7 | 92° | 4.8 x 4.8 | 3.6 | gable 2.6 | 1 | timber |
-| S-1214 | Tenement of Mabel the stonecarver | tenement | 982.7 | 1595.2 | 71.7 | 98° | 5.0 x 4.4 | 3.0 | gable 2.4 | 1 | timber |
-| S-1215 | Tenement of Mabel the limner | tenement | 1051.2 | 1596.2 | 71.6 | 179° | 4.2 x 5.1 | 6.0 | gable 2.3 | 2 | timber |
-| S-1216 | Workshop of Piers the hatter | workshop | 1065.6 | 1596.4 | 71.7 | 83° | 5.0 x 5.5 | 3.6 | gable 2.8 | 1 | timber |
-| S-1217 | Stable of Alan the goldsmith | stable | 1491.6 | 1595.9 | 71.7 | 49° | 7.6 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| S-1218 | Tenement of Robin the brewer | tenement | 1509.3 | 1598.1 | 71.6 | 140° | 4.6 x 4.7 | 6.0 | gable 2.5 | 2 | timber |
-| S-1219 | Tenement of Edith the chandler | tenement | 1517.1 | 1594.9 | 71.6 | 139° | 5.0 x 4.2 | 3.0 | gable 2.3 | 1 | timber |
-| S-1220 | Tenement of Simon the cutler | tenement | 574.6 | 1606.0 | 71.7 | 219° | 4.6 x 5.5 | 9.0 | gable 2.5 | 3 | timber |
-| S-1221 | Workshop of Elena the tailor | workshop | 683.5 | 1605.4 | 71.7 | 213° | 7.6 x 6.7 | 3.6 | gable 3.7 | 1 | timber |
-| S-1222 | Tenement of Roger the mercer | tenement | 1484.2 | 1603.8 | 71.7 | 47° | 5.0 x 5.2 | 6.0 | gable 2.8 | 2 | timber |
-| S-1223 | Stable of Hob the mason | stable | 580.9 | 1612.5 | 71.7 | 221° | 6.4 x 6.4 | 3.6 | gable 3.5 | 1 | timber |
-| S-1224 | Tenement of Matilda the stonecarver | tenement | 674.6 | 1613.3 | 71.7 | 214° | 7.2 x 8.7 | 6.0 | gable 4.0 | 2 | timber |
-| S-1225 | Stable of Stephen the cooper | stable | 886.9 | 1615.3 | 71.7 | 107° | 4.0 x 5.2 | 3.6 | gable 2.2 | 1 | timber |
-| S-1226 | Storehouse of Laurence the tailor | storehouse | 904.7 | 1614.4 | 71.6 | 196° | 4.2 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| S-1227 | Tenement of Christiana the apothecary | tenement | 1167.7 | 1613.7 | 71.7 | 77° | 5.3 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| S-1228 | Stable of Emma the hatter | stable | 1184.3 | 1615.3 | 71.7 | 160° | 5.0 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-1229 | Stable of Adam the cutler | stable | 1196.1 | 1612.3 | 71.7 | 160° | 4.0 x 4.2 | 3.6 | gable 2.2 | 1 | timber |
-| S-1230 | Workshop of Rose the scribe | workshop | 648.6 | 1623.5 | 71.7 | 128° | 4.4 x 5.0 | 3.6 | gable 2.4 | 1 | timber |
-| S-1231 | Workshop of Emma the locksmith | workshop | 1169.7 | 1623.0 | 71.7 | 79° | 4.9 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| S-1232 | Stable of Richard the herbalist | stable | 1186.9 | 1623.4 | 71.7 | 164° | 4.2 x 4.3 | 3.6 | gable 2.3 | 1 | timber |
-| S-1233 | Storehouse of Henry the bowyer | storehouse | 1194.3 | 1621.0 | 71.7 | 76° | 5.1 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-1234 | Tenement of Osbert the fletcher | tenement | 1432.9 | 1622.6 | 71.7 | 56° | 4.9 x 5.5 | 6.0 | gable 2.7 | 2 | timber |
-| S-1235 | Tenement of Wat the potter | tenement | 616.3 | 1632.4 | 71.7 | 217° | 8.4 x 6.5 | 9.0 | gable 3.5 | 3 | timber |
-| S-1236 | Tenement of Sybil the glazier | tenement | 631.9 | 1629.2 | 71.7 | 124° | 6.2 x 8.0 | 9.0 | gable 3.4 | 3 | timber |
-| S-1237 | Storehouse of Elena the herbalist | storehouse | 640.7 | 1632.1 | 71.7 | 211° | 4.5 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| S-1238 | Storehouse of Odo the lute-maker | storehouse | 1391.1 | 1631.0 | 71.7 | 60° | 4.8 x 5.3 | 3.6 | gable 2.7 | 1 | timber |
-| S-1239 | Storehouse of Felice the jeweller | storehouse | 600.2 | 1638.2 | 71.7 | 128° | 5.3 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-1240 | Tenement of Hob the cutler | tenement | 624.8 | 1640.2 | 71.6 | 125° | 7.4 x 6.1 | 6.0 | gable 3.4 | 2 | timber |
-| S-1241 | Workshop of Baldwin the tailor | workshop | 941.0 | 1637.9 | 71.7 | 102° | 4.4 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| S-1242 | Stable of Piers the ropemaker | stable | 949.9 | 1638.3 | 71.7 | 101° | 5.3 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| S-1243 | Workshop of Cecily the clockmaker | workshop | 966.1 | 1638.0 | 71.7 | 183° | 5.1 x 4.9 | 3.6 | gable 2.7 | 1 | timber |
-| S-1244 | Tenement of Mabel the fishmonger | tenement | 1008.7 | 1640.2 | 71.7 | 89° | 4.6 x 5.3 | 6.0 | gable 2.5 | 2 | timber |
-| S-1245 | Stable of Simon the furrier | stable | 1043.5 | 1639.2 | 71.7 | 178° | 8.5 x 7.5 | 3.6 | gable 4.1 | 1 | timber |
-| S-1246 | Stable of Stephen the money-changer | stable | 1066.2 | 1638.8 | 71.7 | 177° | 5.0 x 4.8 | 3.6 | gable 2.7 | 1 | timber |
-| S-1247 | Tenement of Matilda the scribe | tenement | 1084.5 | 1638.1 | 71.7 | 177° | 6.5 x 7.7 | 9.0 | gable 3.6 | 3 | timber |
-| S-1248 | Tenement of Matilda the baker | tenement | 1400.0 | 1637.1 | 71.6 | 149° | 8.7 x 6.5 | 6.0 | gable 3.6 | 2 | timber |
-| S-1249 | Tenement of Robin the tanner | tenement | 634.1 | 1647.1 | 71.7 | 214° | 6.2 x 7.5 | 9.0 | gable 3.4 | 3 | timber |
-| S-1250 | Workshop of Beatrice the ropemaker | workshop | 651.4 | 1648.0 | 71.7 | 124° | 7.3 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| S-1251 | Workshop of Baldwin the dyer | workshop | 1000.8 | 1646.5 | 71.7 | 179° | 4.0 x 5.2 | 3.6 | gable 2.2 | 1 | timber |
-| S-1252 | Storehouse of Simon the hatter | storehouse | 1049.7 | 1649.3 | 71.7 | 175° | 5.2 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-1253 | Tenement of Martin the cobbler | tenement | 1076.4 | 1645.5 | 71.7 | 174° | 5.2 x 4.4 | 3.0 | gable 2.4 | 1 | timber |
-| S-1254 | Tenement of Martin the cheesemonger | tenement | 1084.2 | 1647.3 | 71.7 | 84° | 5.1 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| S-1255 | Storehouse of Nicholas the stonecarver | storehouse | 1094.2 | 1646.7 | 71.7 | 87° | 6.8 x 6.6 | 3.6 | gable 3.6 | 1 | timber |
-| S-1256 | Storehouse of Martin the mason | storehouse | 1389.0 | 1649.3 | 71.7 | 148° | 9.0 x 7.2 | 3.6 | gable 4.0 | 1 | timber |
-| S-1257 | Stable of Wat the hatter | stable | 626.7 | 1654.8 | 71.7 | 126° | 4.7 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-1258 | Workshop of Jordan the chandler | workshop | 642.9 | 1655.8 | 71.7 | 127° | 7.8 x 6.2 | 3.6 | gable 3.4 | 1 | timber |
-| S-1259 | Tenement of Walter the cutler | tenement | 887.7 | 1656.2 | 71.7 | 193° | 5.3 x 5.5 | 6.0 | gable 2.9 | 2 | timber |
-| S-1260 | Stable of Martin the bowyer | stable | 1348.3 | 1656.3 | 71.8 | 63° | 4.2 x 4.7 | 3.6 | gable 2.3 | 1 | timber |
-| S-1261 | Workshop of Alys the dyer | workshop | 1372.6 | 1656.4 | 71.7 | 63° | 4.4 x 5.1 | 3.6 | gable 2.4 | 1 | timber |
-| S-1262 | Storehouse of Juliana the bowyer | storehouse | 1405.7 | 1656.4 | 71.7 | 61° | 5.0 x 5.1 | 3.6 | gable 2.8 | 1 | timber |
-| S-1263 | Storehouse of Hawise the limner | storehouse | 649.2 | 1662.9 | 71.7 | 210° | 5.1 x 4.3 | 3.6 | gable 2.4 | 1 | timber |
-| S-1264 | Tenement of Simon the brewer | tenement | 659.4 | 1664.2 | 71.7 | 122° | 4.1 x 5.1 | 3.0 | gable 2.2 | 1 | timber |
-| S-1265 | Tenement of Alan the barber-surgeon | tenement | 693.8 | 1663.0 | 71.7 | 211° | 4.9 x 4.8 | 3.0 | gable 2.6 | 1 | timber |
-| S-1266 | Tenement of Adam the pewterer | tenement | 982.0 | 1666.5 | 71.7 | 94° | 8.0 x 6.3 | 6.0 | gable 3.5 | 2 | timber |
-| S-1267 | Tenement of Geoffrey the baker | tenement | 1355.6 | 1662.6 | 71.7 | 65° | 6.7 x 7.8 | 6.0 | gable 3.7 | 2 | timber |
-| S-1268 | Tenement of Edith the tailor | tenement | 1374.2 | 1665.1 | 71.6 | 58° | 4.4 x 4.7 | 9.0 | gable 2.4 | 3 | timber |
-| S-1269 | Storehouse of Amice the fletcher | storehouse | 1425.1 | 1664.9 | 71.7 | 57° | 5.0 x 5.5 | 3.6 | gable 2.7 | 1 | timber |
-| S-1270 | Workshop of Stephen the cutler | workshop | 657.9 | 1672.1 | 71.7 | 209° | 4.8 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-1271 | Tenement of Felice the lute-maker | tenement | 691.9 | 1674.9 | 71.7 | 120° | 8.1 x 7.8 | 6.0 | gable 4.3 | 2 | timber |
-| S-1272 | Storehouse of Godwin the mason | storehouse | 929.5 | 1671.2 | 71.7 | 193° | 8.3 x 7.1 | 3.6 | gable 3.9 | 1 | timber |
-| S-1273 | Storehouse of Ralph the fishmonger | storehouse | 1057.8 | 1673.3 | 71.7 | 175° | 4.1 x 5.0 | 3.6 | gable 2.2 | 1 | timber |
-| S-1274 | Stable of Henry the goldsmith | stable | 1074.5 | 1672.0 | 71.7 | 86° | 5.2 x 4.0 | 3.6 | gable 2.2 | 1 | timber |
-| S-1275 | Tenement of Hugh the candlemaker | tenement | 1093.3 | 1674.3 | 71.7 | 85° | 4.4 x 4.6 | 3.0 | gable 2.4 | 1 | timber |
-| S-1276 | Tenement of Felice the goldsmith | tenement | 1349.2 | 1672.4 | 71.7 | 156° | 5.4 x 4.9 | 3.0 | gable 2.7 | 1 | timber |
-| S-1277 | Stable of Richard the fuller | stable | 683.8 | 1682.0 | 71.7 | 118° | 4.9 x 4.5 | 3.6 | gable 2.5 | 1 | timber |
-| S-1278 | Storehouse of Maud the fletcher | storehouse | 1009.0 | 1679.5 | 71.7 | 178° | 4.1 x 5.2 | 3.6 | gable 2.2 | 1 | timber |
-| S-1279 | Storehouse of Wat the tanner | storehouse | 1065.7 | 1682.5 | 71.7 | 84° | 6.4 x 6.3 | 3.6 | gable 3.5 | 1 | timber |
-| S-1280 | Tenement of Jordan the cutler | tenement | 1312.3 | 1688.1 | 71.7 | 152° | 4.1 x 4.5 | 6.0 | gable 2.2 | 2 | timber |
-| S-1281 | Tenement of Martin the potter | tenement | 915.1 | 1699.7 | 71.7 | 97° | 5.5 x 4.6 | 6.0 | gable 2.5 | 2 | timber |
-| S-1282 | Workshop of Hawise the fishmonger | workshop | 914.9 | 1715.0 | 71.7 | 100° | 6.8 x 8.9 | 3.6 | gable 3.8 | 1 | timber |
-| S-1283 | Tenement of Geoffrey the apothecary | tenement | 941.1 | 1715.4 | 71.8 | 186° | 7.5 x 6.4 | 9.0 | gable 3.5 | 3 | timber |
-| S-1284 | Tenement of Felice the pewterer | tenement | 964.4 | 1715.7 | 71.7 | 183° | 4.8 x 4.8 | 6.0 | gable 2.6 | 2 | timber |
-| S-1285 | Tenement of Edith the wheelwright | tenement | 982.7 | 1714.6 | 71.7 | 95° | 8.4 x 6.2 | 6.0 | gable 3.4 | 2 | timber |
-| S-1286 | Stable of Matilda the pewterer | stable | 1000.0 | 1716.6 | 71.6 | 182° | 7.2 x 8.9 | 3.6 | gable 4.0 | 1 | timber |
-| S-1287 | Storehouse of Elena the butcher | storehouse | 1060.0 | 1715.8 | 71.7 | 91° | 6.4 x 7.9 | 3.6 | gable 3.5 | 1 | timber |
-| S-1288 | Storehouse of Petronilla the armourer | storehouse | 785.2 | 1724.8 | 71.7 | 198° | 5.5 x 4.1 | 3.6 | gable 2.3 | 1 | timber |
-| S-1289 | Workshop of Nicholas the bellfounder | workshop | 795.4 | 1725.1 | 71.7 | 201° | 7.3 x 8.5 | 3.6 | gable 4.0 | 1 | timber |
-| S-1290 | Workshop of Jordan the fletcher | workshop | 811.4 | 1722.9 | 71.7 | 109° | 8.0 x 8.0 | 3.6 | gable 4.4 | 1 | timber |
-| S-1291 | Stable of Roger the candlemaker | stable | 846.8 | 1722.9 | 71.7 | 193° | 7.9 x 7.7 | 3.6 | gable 4.2 | 1 | timber |
-| S-1292 | Tenement of Wat the stonecarver | tenement | 862.0 | 1722.9 | 71.7 | 105° | 6.9 x 8.8 | 3.0 | gable 3.8 | 1 | timber |
-| S-1293 | Stable of Wat the vintner | stable | 879.9 | 1724.8 | 71.7 | 191° | 5.4 x 4.7 | 3.6 | gable 2.6 | 1 | timber |
-| S-1294 | Stable of Edith the scribe | stable | 913.4 | 1723.3 | 71.7 | 96° | 4.4 x 4.7 | 3.6 | gable 2.4 | 1 | timber |
-| S-1295 | Tenement of Petronilla the baker | tenement | 990.4 | 1722.3 | 71.7 | 92° | 4.4 x 4.2 | 6.0 | gable 2.3 | 2 | timber |
-| S-1296 | Tenement of Piers the cooper | tenement | 1033.4 | 1722.7 | 71.6 | 90° | 4.8 x 5.1 | 3.0 | gable 2.7 | 1 | timber |
-| S-1297 | Tenement of Odo the wheelwright | tenement | 1065.7 | 1723.6 | 71.7 | 172° | 4.9 x 4.3 | 6.0 | gable 2.4 | 2 | timber |
-| S-1298 | Tenement of Wat the brewer | tenement | 1094.3 | 1723.5 | 71.7 | 170° | 6.3 x 6.4 | 3.0 | gable 3.5 | 1 | timber |
-| S-1299 | Storehouse of Ralph the cobbler | storehouse | 862.1 | 1733.1 | 71.7 | 101° | 6.9 x 6.0 | 3.6 | gable 3.3 | 1 | timber |
-| S-1300 | Tenement of Hugh the saddler | tenement | 913.5 | 1734.2 | 71.6 | 102° | 6.7 x 8.6 | 3.0 | gable 3.7 | 1 | timber |
-| S-1301 | Storehouse of Walter the scribe | storehouse | 923.5 | 1734.5 | 71.7 | 190° | 4.3 x 5.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-1302 | Storehouse of Avice the butcher | storehouse | 932.7 | 1734.2 | 71.7 | 191° | 7.7 x 6.0 | 3.6 | gable 3.3 | 1 | timber |
-| S-1303 | Stable of Walter the tinker | stable | 982.6 | 1730.9 | 71.7 | 96° | 8.4 x 6.8 | 3.6 | gable 3.7 | 1 | timber |
-| S-1304 | Stable of Avice the bowyer | stable | 991.6 | 1730.7 | 71.7 | 184° | 5.5 x 4.1 | 3.6 | gable 2.2 | 1 | timber |
-| S-1305 | Tenement of Matilda the fishmonger | tenement | 999.5 | 1734.3 | 71.7 | 181° | 4.9 x 4.5 | 6.0 | gable 2.5 | 2 | timber |
-| S-1306 | Tenement of Rose the mason | tenement | 1058.8 | 1731.1 | 71.6 | 175° | 4.1 x 4.9 | 9.0 | gable 2.3 | 3 | timber |
-| S-1307 | Workshop of Isabel the notary | workshop | 1068.6 | 1731.2 | 71.6 | 83° | 4.6 x 4.8 | 3.6 | gable 2.5 | 1 | timber |
-| S-1308 | Tenement of Avice the tailor | tenement | 1082.9 | 1731.4 | 71.7 | 89° | 7.0 x 6.2 | 6.0 | gable 3.4 | 2 | timber |
-| S-1309 | Stable of Juliana the herbalist | stable | 1092.5 | 1734.5 | 71.7 | 177° | 5.0 x 4.2 | 3.6 | gable 2.3 | 1 | timber |
-| S-1310 | Tenement of Ivetta the furrier | tenement | 906.3 | 1742.2 | 71.6 | 96° | 4.8 x 4.2 | 9.0 | gable 2.3 | 3 | timber |
-| S-1311 | Tenement of Baldwin the cutler | tenement | 981.1 | 1741.1 | 71.7 | 93° | 6.2 x 6.3 | 9.0 | gable 3.4 | 3 | timber |
-| S-1312 | Storehouse of Cecily the bowyer | storehouse | 990.7 | 1739.9 | 71.7 | 186° | 4.5 x 5.4 | 3.6 | gable 2.5 | 1 | timber |
-| S-1313 | Tenement of Isabel the fletcher | tenement | 1009.3 | 1739.4 | 71.7 | 88° | 7.4 x 7.3 | 9.0 | gable 4.0 | 3 | timber |
-| S-1314 | Tenement of Ralph the parchmenter | tenement | 1039.7 | 1741.6 | 71.7 | 87° | 5.4 x 4.2 | 9.0 | gable 2.3 | 3 | timber |
-| S-1315 | Stable of Alan the wheelwright | stable | 1168.3 | 1740.9 | 71.6 | 168° | 6.9 x 6.9 | 3.6 | gable 3.8 | 1 | timber |
-| S-1316 | Stable of Adam the glover | stable | 1177.1 | 1740.5 | 71.7 | 74° | 4.8 x 5.1 | 3.6 | gable 2.7 | 1 | timber |
-| S-1317 | Tenement of Juliana the clockmaker | tenement | 1187.1 | 1741.3 | 71.7 | 76° | 8.0 x 7.3 | 6.0 | gable 4.0 | 2 | timber |
-| S-1318 | Storehouse of Felice the tinker | storehouse | 1203.3 | 1741.3 | 71.7 | 166° | 8.1 x 6.1 | 3.6 | gable 3.4 | 1 | timber |
-| S-1319 | Storehouse of Hawise the glover | storehouse | 1212.9 | 1742.2 | 71.7 | 74° | 4.8 x 4.4 | 3.6 | gable 2.4 | 1 | timber |
-| S-1320 | Workshop of Osbert the candlemaker | workshop | 1220.5 | 1742.1 | 71.7 | 166° | 4.6 x 5.0 | 3.6 | gable 2.5 | 1 | timber |
-| S-1321 | Stable of Juliana the potter | stable | 1228.8 | 1739.3 | 71.7 | 69° | 8.6 x 6.1 | 3.6 | gable 3.3 | 1 | timber |
-| S-1322 | Tenement of Walter the carpenter | tenement | 990.2 | 1766.7 | 71.6 | 93° | 4.6 x 4.3 | 3.0 | gable 2.4 | 1 | timber |
-| S-1323 | Workshop of Stephen the cutler | workshop | 1007.4 | 1766.8 | 71.7 | 179° | 5.3 x 4.6 | 3.6 | gable 2.5 | 1 | timber |
+| P-0001 | Palace of the Seven Gardens | palace | 2280.0 | 1095.0 | 36.1 | 180° | 170.0 x 22.0 | 20.0 | hip 9.9 | 3 | stone |
+| P-0002 | Palace of the Seven Gardens (wing) | palace | 2185.0 | 1125.0 | 36.7 | 180° | 22.0 x 70.0 | 18.0 | hip 9.9 | 3 | stone |
+| P-0003 | Palace of the Seven Gardens (wing) | palace | 2375.0 | 1125.0 | 35.9 | 180° | 22.0 x 70.0 | 18.0 | hip 9.9 | 3 | stone |
+| P-0004 | Animal house | shed | 2420.0 | 1171.0 | 35.8 | 180° | 10.0 x 6.0 | 4.0 | gable 3.3 | 1 | timber |
+| P-0005 | Animal house | shed | 2448.0 | 1171.0 | 35.6 | 180° | 10.0 x 6.0 | 4.0 | gable 3.3 | 1 | timber |
+| P-0006 | Animal house | shed | 2476.0 | 1171.0 | 35.5 | 180° | 10.0 x 6.0 | 4.0 | gable 3.3 | 1 | timber |
+| P-0007 | Animal house | shed | 2420.0 | 1205.0 | 35.8 | 180° | 10.0 x 6.0 | 4.0 | gable 3.3 | 1 | timber |
+| P-0008 | Animal house | shed | 2448.0 | 1205.0 | 35.6 | 180° | 10.0 x 6.0 | 4.0 | gable 3.3 | 1 | timber |
+| P-0009 | Animal house | shed | 2476.0 | 1205.0 | 35.4 | 180° | 10.0 x 6.0 | 4.0 | gable 3.3 | 1 | timber |
+| P-0010 | Townhouse of Lord Hob | mansion | 2200.0 | 1450.0 | 36.6 | 0° | 30.0 x 18.0 | 13.0 | hip 8.1 | 3 | stone |
+| P-0011 | Townhouse of Lord Petronilla | mansion | 2330.0 | 1440.0 | 35.5 | 180° | 30.0 x 18.0 | 13.0 | hip 8.1 | 3 | stone |
+| P-0012 | Townhouse of Lord Thomas | mansion | 2450.0 | 1460.0 | 34.2 | 180° | 30.0 x 18.0 | 13.0 | hip 8.1 | 3 | stone |
+| P-0013 | Townhouse of Lord Elena | mansion | 2560.0 | 1500.0 | 33.2 | 0° | 30.0 x 18.0 | 13.0 | hip 8.1 | 3 | stone |
+| P-0014 | Townhouse of Lord Ida | mansion | 2470.0 | 1560.0 | 34.3 | 180° | 30.0 x 18.0 | 13.0 | hip 8.1 | 3 | stone |
+| P-0015 | House of Alys the chandler | house | 2099.6 | 1372.5 | 39.1 | 357° | 10.8 x 12.0 | 9.3 | gable 6.0 | 3 | stone |
+| P-0016 | House of Hugh the furrier | house | 2112.4 | 1373.2 | 38.6 | 360° | 11.9 x 11.7 | 6.2 | hip 5.3 | 2 | stone |
+| P-0017 | House of Godwin the vintner | house | 2176.4 | 1378.2 | 36.8 | 7° | 13.1 x 13.3 | 6.2 | hip 5.9 | 2 | stone |
+| P-0018 | House of Matilda the dyer | house | 2210.6 | 1382.5 | 36.6 | 8° | 11.8 x 12.1 | 6.2 | gable 6.5 | 2 | stone |
+| P-0019 | House of Christiana the fuller | house | 2527.7 | 1382.0 | 33.3 | 310° | 10.8 x 13.2 | 6.2 | gable 6.0 | 2 | stone |
+| P-0020 | House of Henry the furrier | house | 2554.0 | 1341.6 | 33.0 | 304° | 10.0 x 9.1 | 9.3 | gable 5.0 | 3 | stone |
+| P-0021 | House of Stephen the hatter | house | 2564.9 | 1331.3 | 33.0 | 307° | 8.4 x 12.1 | 9.3 | gable 4.6 | 3 | stone |
+| P-0022 | House of Godwin the fisher | house | 2059.8 | 1353.6 | 42.3 | 170° | 11.5 x 9.1 | 9.3 | gable 5.0 | 3 | stone |
+| P-0023 | House of Alan the armourer | house | 2255.8 | 1360.0 | 36.3 | 188° | 10.2 x 13.3 | 6.2 | gable 5.6 | 2 | stone |
+| P-0024 | House of Odo the barber-surgeon | house | 2273.5 | 1363.7 | 36.3 | 187° | 8.4 x 10.2 | 9.3 | gable 4.6 | 3 | stone |
+| P-0025 | House of Joan the vintner | house | 2290.3 | 1364.7 | 36.2 | 187° | 11.9 x 12.4 | 6.2 | hip 5.4 | 2 | stone |
+| P-0026 | House of Petronilla the lute-maker | house | 2303.7 | 1365.0 | 36.1 | 186° | 9.2 x 11.8 | 9.3 | gable 5.1 | 3 | stone |
+| P-0027 | House of Juliana the scribe | house | 2339.1 | 1374.6 | 35.7 | 191° | 9.2 x 9.5 | 9.3 | hip 4.1 | 3 | stone |
+| P-0028 | House of Amice the mason | house | 2354.2 | 1375.5 | 35.5 | 191° | 8.8 x 10.4 | 9.3 | hip 4.0 | 3 | stone |
+| P-0029 | House of Hawise the net-mender | house | 2392.9 | 1382.3 | 35.0 | 191° | 10.8 x 11.8 | 9.3 | gable 5.9 | 3 | stone |
+| P-0030 | House of Jordan the fisher | house | 2537.1 | 1315.8 | 33.3 | 126° | 10.1 x 13.7 | 9.3 | gable 5.5 | 3 | stone |
+| P-0031 | House of Christiana the cobbler | house | 2047.5 | 1339.4 | 44.2 | 253° | 12.5 x 10.0 | 6.2 | hip 4.5 | 2 | stone |
+| P-0032 | House of Martin the candlemaker | house | 2034.2 | 1295.4 | 46.6 | 233° | 13.6 x 13.8 | 6.2 | gable 7.5 | 2 | stone |
+| P-0033 | House of Ivetta the hatter | house | 2021.7 | 1287.9 | 52.1 | 236° | 8.2 x 9.2 | 6.2 | hip 3.7 | 2 | stone |
+| P-0034 | House of Hugh the lute-maker | house | 2019.8 | 1327.4 | 48.8 | 81° | 13.3 x 9.3 | 9.3 | hip 4.2 | 3 | stone |
+| P-0035 | House of Sybil the shipwright | house | 2013.6 | 1315.0 | 52.0 | 53° | 8.4 x 14.6 | 6.2 | hip 3.8 | 2 | stone |
+| P-0036 | House of Margery the fuller | house | 2538.9 | 1360.5 | 33.1 | 220° | 11.9 x 11.6 | 6.2 | gable 6.4 | 2 | stone |
+| P-0037 | House of Martin the cheesemonger | house | 2232.0 | 1393.0 | 36.4 | 122° | 12.2 x 10.3 | 6.2 | gable 5.7 | 2 | stone |
+| P-0038 | House of Hawise the bookbinder | house | 2246.2 | 1414.8 | 36.3 | 292° | 9.8 x 12.7 | 9.3 | hip 4.4 | 3 | stone |
+| P-0039 | House of Gilbert the draper | house | 2381.8 | 1366.2 | 35.5 | 270° | 9.3 x 13.9 | 6.2 | hip 4.2 | 2 | stone |
+| P-0040 | House of Ivetta the tailor | house | 2355.1 | 1353.6 | 35.9 | 83° | 11.6 x 13.9 | 9.3 | gable 6.4 | 3 | stone |
+| P-0041 | House of Rose the chandler | house | 2352.1 | 1408.7 | 35.3 | 118° | 13.3 x 12.8 | 6.2 | gable 7.0 | 2 | stone |
+| P-0042 | House of Felice the jeweller | house | 2457.5 | 1354.2 | 34.3 | 98° | 11.1 x 11.1 | 9.3 | gable 6.1 | 3 | stone |
+| P-0043 | House of Jordan the carpenter | house | 2279.9 | 1424.0 | 36.2 | 15° | 9.6 x 9.9 | 9.3 | hip 4.3 | 3 | stone |
+| P-0044 | House of Nicholas the clockmaker | house | 2298.3 | 1428.8 | 35.9 | 14° | 12.3 x 9.9 | 6.2 | hip 4.4 | 2 | stone |
+| P-0045 | House of Petronilla the clockmaker | house | 2299.7 | 1403.9 | 35.9 | 196° | 12.0 x 13.0 | 9.3 | hip 5.4 | 3 | stone |
 
-## River, bridges & quays (44 buildings)
+## Merchant Quarter (645 buildings)
 
-28 shop, 12 warehouse, 3 watermill, 1 chapel
+292 shop, 170 workshop, 155 house, 16 mansion, 4 church, 4 institution, 3 hall, 1 exchange
 
 | ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
 |---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| R-0001 | Bridge house of Wat the bookbinder | shop | 1014.5 | 1290.0 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0002 | Bridge house of Martin the cooper | shop | 1033.5 | 1290.0 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0003 | Bridge house of Thomas the mercer | shop | 1014.5 | 1298.2 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0004 | Bridge house of Sybil the hatter | shop | 1033.5 | 1298.2 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0005 | Bridge house of Juliana the furrier | shop | 1014.5 | 1306.4 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0006 | Bridge house of Thomas the cooper | shop | 1033.5 | 1306.4 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0007 | Bridge house of Geoffrey the locksmith | shop | 1014.5 | 1314.6 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0008 | Bridge house of Cecily the fletcher | shop | 1033.5 | 1314.6 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0009 | Bridge house of Ida the tailor | shop | 1014.5 | 1322.8 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0010 | Bridge house of Amice the glazier | shop | 1033.5 | 1322.8 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0011 | Bridge house of Roger the tanner | shop | 1014.5 | 1331.0 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0012 | Bridge house of Sybil the clockmaker | shop | 1033.5 | 1331.0 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0013 | Bridge house of Piers the spicer | shop | 1014.5 | 1339.2 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0014 | Bridge house of Walter the pewterer | shop | 1033.5 | 1339.2 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0015 | Bridge house of Isabel the fishmonger | shop | 1014.5 | 1372.0 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0016 | Bridge house of Beatrice the glazier | shop | 1033.5 | 1372.0 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0017 | Bridge house of Matilda the cobbler | shop | 1014.5 | 1380.2 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0018 | Bridge house of Laurence the herbalist | shop | 1033.5 | 1380.2 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0019 | Bridge house of Stephen the tailor | shop | 1014.5 | 1388.4 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0020 | Bridge house of Ivetta the bookbinder | shop | 1033.5 | 1388.4 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0021 | Bridge house of Walter the fishmonger | shop | 1014.5 | 1396.6 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0022 | Bridge house of Hugh the glover | shop | 1033.5 | 1396.6 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0023 | Bridge house of Avice the bowyer | shop | 1014.5 | 1404.8 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0024 | Bridge house of Henry the pewterer | shop | 1033.5 | 1404.8 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0025 | Bridge house of Hob the goldsmith | shop | 1014.5 | 1413.0 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0026 | Bridge house of Felice the wheelwright | shop | 1033.5 | 1413.0 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0027 | Bridge house of Odo the fuller | shop | 1014.5 | 1421.2 | 74.5 | 90° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0028 | Bridge house of Osbert the goldsmith | shop | 1033.5 | 1421.2 | 74.5 | 270° | 8.0 x 7.5 | 9.0 | gable 4.1 | 3 | timber |
-| R-0029 | Bridge Chapel of St. Thomas | chapel | 1040.0 | 1352.0 | 74.5 | 90° | 10.0 x 16.0 | 9.0 | gable 5.5 | 1 | stone |
-| R-0030 | Bridge Mill 1 | watermill | 823.1 | 1327.0 | 74.5 | 115° | 10.0 x 9.0 | 7.0 | gable 5.0 | 1 | timber |
-| R-0031 | Bridge Mill 2 | watermill | 813.0 | 1348.8 | 74.5 | 115° | 10.0 x 9.0 | 7.0 | gable 5.0 | 1 | timber |
-| R-0032 | Bridge Mill 3 | watermill | 802.9 | 1370.5 | 74.5 | 115° | 10.0 x 9.0 | 7.0 | gable 5.0 | 1 | timber |
-| R-0033 | Warehouse 1 | warehouse | 1100.4 | 1299.2 | 70.9 | 179° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0034 | Warehouse 2 | warehouse | 1136.3 | 1298.2 | 71.0 | 178° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0035 | Warehouse 3 | warehouse | 1172.3 | 1296.7 | 71.0 | 177° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0036 | Warehouse 4 | warehouse | 1208.2 | 1294.6 | 71.0 | 176° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0037 | Warehouse 8 | warehouse | 1350.8 | 1276.2 | 70.9 | 172° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0038 | Warehouse 9 | warehouse | 1386.5 | 1271.4 | 70.9 | 174° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0039 | Warehouse 10 | warehouse | 1422.3 | 1268.3 | 71.0 | 177° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0040 | Warehouse 13 | warehouse | 1530.2 | 1268.4 | 71.0 | 182° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0041 | Warehouse 14 | warehouse | 1566.2 | 1270.4 | 70.9 | 184° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0042 | Warehouse 15 | warehouse | 1602.0 | 1273.5 | 71.0 | 186° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0043 | Warehouse 16 | warehouse | 1637.7 | 1277.7 | 70.9 | 188° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
-| R-0044 | Warehouse 17 | warehouse | 1673.2 | 1283.7 | 71.0 | 192° | 24.0 x 13.0 | 11.0 | gable 7.2 | 3 | timber |
+| M-0001 | Grain Exchange | exchange | 2410.0 | 1620.0 | 34.5 | 0° | 70.0 x 30.0 | 14.0 | hip 13.5 | 2 | stone |
+| M-0002 | Merchant palace of the Moneylenders (front range) | mansion | 2267.4 | 1545.2 | 36.3 | 350° | 44.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0003 | Merchant palace of the Moneylenders (back range) | mansion | 2272.6 | 1574.8 | 36.3 | 170° | 44.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0004 | Merchant palace of the Moneylenders (west range) | mansion | 2253.3 | 1563.0 | 36.5 | 260° | 20.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0005 | Merchant palace of the Moneylenders (east range) | mansion | 2286.7 | 1557.0 | 36.3 | 80° | 20.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0006 | Merchant palace of the Wine Merchants (front range) | mansion | 2327.4 | 1730.2 | 34.7 | 350° | 44.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0007 | Merchant palace of the Wine Merchants (back range) | mansion | 2332.6 | 1759.8 | 34.3 | 170° | 44.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0008 | Merchant palace of the Wine Merchants (west range) | mansion | 2313.3 | 1748.0 | 34.8 | 260° | 20.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0009 | Merchant palace of the Wine Merchants (east range) | mansion | 2346.7 | 1742.0 | 34.5 | 80° | 20.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0010 | Merchant palace of the Spice Merchants (front range) | mansion | 2557.4 | 1625.2 | 32.9 | 350° | 44.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0011 | Merchant palace of the Spice Merchants (back range) | mansion | 2562.6 | 1654.8 | 32.5 | 170° | 44.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0012 | Merchant palace of the Spice Merchants (west range) | mansion | 2543.3 | 1643.0 | 32.9 | 260° | 20.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0013 | Merchant palace of the Spice Merchants (east range) | mansion | 2576.7 | 1637.0 | 32.6 | 80° | 20.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0014 | Merchant palace of the Silk Traders (front range) | mansion | 2192.6 | 1685.2 | 36.4 | 10° | 44.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0015 | Merchant palace of the Silk Traders (back range) | mansion | 2187.4 | 1714.8 | 36.2 | 190° | 44.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0016 | Merchant palace of the Silk Traders (west range) | mansion | 2173.3 | 1697.0 | 36.5 | 280° | 20.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0017 | Merchant palace of the Silk Traders (east range) | mansion | 2206.7 | 1703.0 | 36.3 | 100° | 20.0 x 10.0 | 13.0 | hip 4.5 | 3 | stone |
+| M-0018 | Money-changers' Hall | hall | 2300.0 | 1480.0 | 36.0 | 0° | 30.0 x 16.0 | 11.0 | hip 7.2 | 2 | stone |
+| M-0019 | Church of St. Dunstan | church | 2508.0 | 1550.0 | 33.9 | 90° | 36.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| M-0020 | Church of St. Dunstan (tower) | church | 2508.0 | 1528.0 | 34.0 | 90° | 8.0 x 8.0 | 30.0 | spire 14.0 | 4 | stone |
+| M-0021 | Church of St. Quentin | church | 2366.0 | 1450.0 | 35.4 | 90° | 36.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| M-0022 | Church of St. Quentin (tower) | church | 2366.0 | 1428.0 | 35.3 | 90° | 8.0 x 8.0 | 30.0 | crenel 14.0 | 4 | stone |
+| M-0023 | Blackfriars (front range) | institution | 2580.4 | 1784.0 | 30.2 | 90° | 46.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| M-0024 | Blackfriars (back range) | institution | 2553.4 | 1784.0 | 30.6 | 270° | 46.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| M-0025 | Blackfriars (west range) | institution | 2566.9 | 1765.5 | 31.1 | 0° | 18.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| M-0026 | Blackfriars (east range) | institution | 2566.9 | 1802.5 | 30.3 | 180° | 18.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| M-0027 | Hall of the Mercers | hall | 2248.0 | 1630.0 | 36.4 | 90° | 26.0 x 16.0 | 11.0 | hip 7.2 | 2 | stone |
+| M-0028 | Hall of the Vintners | hall | 2456.9 | 1724.0 | 33.3 | 0° | 24.0 x 15.0 | 11.0 | hip 6.8 | 2 | stone |
+| M-0029 | House of Sybil the apothecary | shop | 2236.4 | 1668.3 | 36.3 | 26° | 7.8 x 13.6 | 9.3 | hip 3.5 | 3 | stone |
+| M-0030 | House of Beatrice the wheelwright | shop | 2265.5 | 1682.3 | 36.0 | 28° | 7.5 x 11.9 | 9.3 | gable 4.1 | 3 | timber |
+| M-0031 | House of Henry the astrologer | shop | 2272.4 | 1686.4 | 35.9 | 29° | 8.0 x 12.5 | 9.3 | hip 3.6 | 3 | stone |
+| M-0032 | Workshop of Henry the astrologer | workshop | 2266.7 | 1696.7 | 35.9 | 29° | 7.9 x 6.7 | 3.2 | gable 3.7 | 1 | timber |
+| M-0033 | House of Felice the carpenter | shop | 2301.6 | 1701.9 | 35.5 | 31° | 9.3 x 10.3 | 9.3 | hip 4.2 | 3 | stone |
+| M-0034 | Workshop of Felice the carpenter | workshop | 2297.1 | 1709.6 | 35.5 | 31° | 5.7 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| M-0035 | House of Alys the scribe | shop | 2367.9 | 1750.4 | 34.2 | 42° | 6.4 x 14.6 | 12.4 | gable 3.5 | 4 | stone |
+| M-0036 | House of Sybil the potter | house | 2396.6 | 1776.0 | 33.6 | 46° | 9.3 x 11.3 | 12.4 | hip 4.2 | 4 | stone |
+| M-0037 | Workshop of Sybil the potter | workshop | 2388.4 | 1783.8 | 33.6 | 46° | 8.2 x 6.0 | 3.2 | gable 3.3 | 1 | timber |
+| M-0038 | House of Edith the glazier | house | 2401.0 | 1783.3 | 33.4 | 47° | 6.7 x 15.0 | 12.4 | gable 3.7 | 4 | timber |
+| M-0039 | House of Henry the salter | house | 2407.6 | 1787.0 | 33.2 | 47° | 6.9 x 10.3 | 12.4 | gable 3.8 | 4 | timber |
+| M-0040 | House of Robin the dyer | house | 2411.4 | 1794.2 | 33.0 | 48° | 8.2 x 14.6 | 12.4 | hip 3.7 | 4 | stone |
+| M-0041 | Workshop of Robin the dyer | workshop | 2402.3 | 1802.6 | 33.1 | 48° | 7.0 x 6.1 | 3.2 | gable 3.3 | 1 | timber |
+| M-0042 | House of Richard the carpenter | shop | 2418.2 | 1800.2 | 32.8 | 48° | 8.9 x 12.7 | 9.3 | gable 4.9 | 3 | timber |
+| M-0043 | House of Hawise the hatter | shop | 2423.8 | 1805.5 | 32.7 | 47° | 5.6 x 11.6 | 12.4 | hip 2.5 | 4 | timber |
+| M-0044 | House of Roger the barber-surgeon | house | 2428.7 | 1810.4 | 32.5 | 47° | 7.3 x 11.0 | 9.3 | gable 4.0 | 3 | timber |
+| M-0045 | Workshop of Roger the barber-surgeon | workshop | 2421.2 | 1817.4 | 32.5 | 47° | 6.0 x 5.0 | 3.2 | gable 2.7 | 1 | timber |
+| M-0046 | House of Avice the cartographer | house | 2433.1 | 1817.2 | 32.3 | 47° | 7.5 x 13.8 | 12.4 | hip 3.4 | 4 | timber |
+| M-0047 | House of Thomas the herbalist | shop | 2438.1 | 1822.8 | 32.2 | 46° | 6.5 x 14.2 | 9.3 | gable 3.6 | 3 | timber |
+| M-0048 | Workshop of Thomas the herbalist | workshop | 2429.8 | 1830.8 | 32.2 | 46° | 4.9 x 5.6 | 3.2 | gable 2.7 | 1 | timber |
+| M-0049 | House of Laurence the sailmaker | house | 2480.9 | 1860.4 | 30.8 | 38° | 9.5 x 11.9 | 12.4 | hip 4.3 | 4 | timber |
+| M-0050 | House of Godwin the butcher | shop | 2487.9 | 1866.6 | 30.6 | 36° | 7.3 x 13.5 | 9.3 | hip 3.3 | 3 | timber |
+| M-0051 | House of Odo the mercer | shop | 2137.7 | 1604.9 | 37.3 | 192° | 9.2 x 12.0 | 12.4 | hip 4.1 | 4 | timber |
+| M-0052 | Workshop of Odo the mercer | workshop | 2140.0 | 1594.5 | 37.3 | 192° | 6.1 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0053 | House of Sybil the tanner | shop | 2146.1 | 1606.7 | 37.2 | 194° | 6.7 x 12.4 | 12.4 | hip 3.0 | 4 | timber |
+| M-0054 | Workshop of Sybil the tanner | workshop | 2148.8 | 1596.1 | 37.3 | 194° | 5.5 x 6.0 | 3.2 | gable 3.0 | 1 | timber |
+| M-0055 | House of Amice the hatter | house | 2160.6 | 1612.1 | 37.1 | 198° | 6.6 x 10.2 | 9.3 | gable 3.6 | 3 | timber |
+| M-0056 | Workshop of Amice the hatter | workshop | 2163.5 | 1603.2 | 37.1 | 198° | 5.1 x 5.8 | 3.2 | gable 2.8 | 1 | timber |
+| M-0057 | House of Amice the chandler | shop | 2167.7 | 1612.0 | 37.0 | 199° | 5.6 x 14.8 | 12.4 | gable 3.1 | 4 | timber |
+| M-0058 | House of Ida the spicer | house | 2183.4 | 1618.9 | 37.0 | 200° | 8.7 x 12.4 | 9.3 | gable 4.8 | 3 | timber |
+| M-0059 | House of Piers the ropemaker | shop | 2192.8 | 1621.2 | 36.9 | 202° | 9.3 x 14.7 | 12.4 | gable 5.1 | 4 | timber |
+| M-0060 | Workshop of Piers the ropemaker | workshop | 2197.3 | 1609.8 | 37.0 | 202° | 7.1 x 6.5 | 3.2 | gable 3.6 | 1 | timber |
+| M-0061 | House of Osbert the ropemaker | house | 2200.3 | 1624.9 | 36.9 | 202° | 6.4 x 13.6 | 9.3 | hip 2.9 | 3 | timber |
+| M-0062 | Workshop of Osbert the ropemaker | workshop | 2204.8 | 1614.0 | 36.9 | 202° | 5.5 x 5.4 | 3.2 | gable 3.0 | 1 | timber |
+| M-0063 | House of Alan the dyer | shop | 2211.3 | 1631.3 | 36.8 | 204° | 5.5 x 10.3 | 9.3 | gable 3.0 | 3 | timber |
+| M-0064 | Workshop of Alan the dyer | workshop | 2215.6 | 1621.4 | 36.8 | 204° | 5.1 x 6.7 | 3.2 | gable 2.8 | 1 | timber |
+| M-0065 | House of Godwin the chandler | shop | 2276.8 | 1662.6 | 36.0 | 208° | 6.9 x 11.2 | 9.3 | gable 3.8 | 3 | timber |
+| M-0066 | Workshop of Godwin the chandler | workshop | 2281.9 | 1653.3 | 36.1 | 208° | 6.8 x 5.0 | 3.2 | gable 2.8 | 1 | timber |
+| M-0067 | House of Mabel the glazier | shop | 2283.2 | 1665.4 | 35.9 | 209° | 6.2 x 12.4 | 12.4 | hip 2.8 | 4 | stone |
+| M-0068 | House of Margery the tanner | shop | 2290.5 | 1668.3 | 35.9 | 209° | 8.2 x 14.4 | 12.4 | hip 3.7 | 4 | stone |
+| M-0069 | Workshop of Margery the tanner | workshop | 2296.1 | 1658.4 | 35.9 | 209° | 6.9 x 5.6 | 3.2 | gable 3.1 | 1 | timber |
+| M-0070 | House of Richard the hatter | house | 2309.1 | 1678.6 | 35.6 | 211° | 7.6 x 15.0 | 9.3 | hip 3.4 | 3 | timber |
+| M-0071 | House of Godwin the wheelwright | shop | 2314.9 | 1683.0 | 35.5 | 211° | 6.0 x 13.3 | 9.3 | gable 3.3 | 3 | timber |
+| M-0072 | House of Geoffrey the ropemaker | house | 2320.4 | 1687.7 | 35.4 | 211° | 7.4 x 10.9 | 12.4 | gable 4.1 | 4 | timber |
+| M-0073 | Workshop of Geoffrey the ropemaker | workshop | 2325.6 | 1679.2 | 35.5 | 211° | 6.3 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0074 | House of Avice the pie-seller | shop | 2328.2 | 1691.3 | 35.3 | 212° | 8.4 x 13.0 | 12.4 | gable 4.6 | 4 | stone |
+| M-0075 | House of Walter the carpenter | shop | 2334.5 | 1697.3 | 35.2 | 213° | 7.5 x 9.6 | 9.3 | gable 4.2 | 3 | timber |
+| M-0076 | House of Amice the draper | shop | 2341.3 | 1701.0 | 35.1 | 213° | 6.9 x 10.8 | 12.4 | gable 3.8 | 4 | timber |
+| M-0077 | House of Ralph the dyer | shop | 2359.1 | 1713.6 | 34.9 | 215° | 6.0 x 9.8 | 9.3 | hip 2.7 | 3 | stone |
+| M-0078 | Workshop of Ralph the dyer | workshop | 2365.0 | 1705.1 | 34.9 | 215° | 6.0 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| M-0079 | House of Nicholas the glazier | house | 2366.9 | 1716.3 | 34.6 | 217° | 8.5 x 14.5 | 9.3 | gable 4.7 | 3 | timber |
+| M-0080 | House of Martin the fisher | shop | 2372.3 | 1722.7 | 34.5 | 219° | 6.2 x 11.2 | 9.3 | gable 3.4 | 3 | timber |
+| M-0081 | House of Petronilla the sailmaker | shop | 2378.8 | 1727.5 | 34.3 | 220° | 8.6 x 11.9 | 12.4 | gable 4.8 | 4 | stone |
+| M-0082 | Workshop of Petronilla the sailmaker | workshop | 2385.9 | 1719.0 | 34.4 | 220° | 6.7 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| M-0083 | House of Christiana the ropemaker | house | 2392.2 | 1738.7 | 34.1 | 223° | 9.1 x 12.9 | 12.4 | hip 4.1 | 4 | timber |
+| M-0084 | Workshop of Christiana the ropemaker | workshop | 2400.1 | 1730.1 | 34.1 | 223° | 8.2 x 6.4 | 3.2 | gable 3.5 | 1 | timber |
+| M-0085 | House of Amice the weaver | shop | 2398.4 | 1745.8 | 33.9 | 224° | 8.3 x 11.2 | 12.4 | gable 4.6 | 4 | timber |
+| M-0086 | House of Osbert the furrier | shop | 2406.2 | 1751.0 | 33.7 | 225° | 9.0 x 14.9 | 12.4 | gable 5.0 | 4 | stone |
+| M-0087 | Workshop of Osbert the furrier | workshop | 2414.2 | 1743.2 | 33.7 | 225° | 5.5 x 4.7 | 3.2 | gable 2.6 | 1 | timber |
+| M-0088 | House of Godwin the mercer | shop | 2416.1 | 1765.4 | 33.5 | 227° | 7.3 x 9.2 | 12.4 | hip 3.3 | 4 | timber |
+| M-0089 | Workshop of Godwin the mercer | workshop | 2423.3 | 1758.6 | 33.5 | 227° | 5.2 x 6.3 | 3.2 | gable 2.8 | 1 | timber |
+| M-0090 | House of Odo the armourer | shop | 2421.4 | 1770.8 | 33.4 | 227° | 7.0 x 9.5 | 9.3 | gable 3.9 | 3 | stone |
+| M-0091 | Workshop of Odo the armourer | workshop | 2427.7 | 1765.0 | 33.4 | 227° | 5.0 x 5.4 | 3.2 | gable 2.7 | 1 | timber |
+| M-0092 | House of Hawise the fishmonger | shop | 2427.2 | 1777.0 | 33.1 | 227° | 9.1 x 9.6 | 9.3 | gable 5.0 | 3 | timber |
+| M-0093 | Workshop of Hawise the fishmonger | workshop | 2434.0 | 1770.8 | 33.1 | 227° | 8.6 x 5.0 | 3.2 | gable 2.7 | 1 | timber |
+| M-0094 | House of Hugh the juggler | shop | 2453.3 | 1803.4 | 32.3 | 226° | 9.2 x 12.0 | 9.3 | hip 4.1 | 3 | timber |
+| M-0095 | House of Adam the chandler | shop | 2442.3 | 1414.3 | 34.5 | 3° | 7.4 x 10.5 | 12.4 | gable 4.1 | 4 | timber |
+| M-0096 | House of Alan the herbalist | shop | 2451.0 | 1414.8 | 34.4 | 0° | 8.2 x 11.2 | 9.3 | hip 3.7 | 3 | timber |
+| M-0097 | House of Ida the bowyer | shop | 2484.3 | 1409.4 | 34.0 | 343° | 8.4 x 9.5 | 9.3 | gable 4.7 | 3 | stone |
+| M-0098 | Workshop of Ida the bowyer | workshop | 2487.2 | 1418.9 | 34.1 | 343° | 6.9 x 4.7 | 3.2 | gable 2.6 | 1 | timber |
+| M-0099 | House of Mabel the vintner | shop | 2513.3 | 1394.0 | 33.5 | 318° | 9.1 x 11.9 | 12.4 | gable 5.0 | 4 | timber |
+| M-0100 | Workshop of Mabel the vintner | workshop | 2519.9 | 1401.4 | 33.5 | 318° | 8.5 x 5.0 | 3.2 | gable 2.7 | 1 | timber |
+| M-0101 | House of Joan the carpenter | shop | 2518.9 | 1387.3 | 33.5 | 314° | 6.1 x 10.0 | 12.4 | gable 3.4 | 4 | timber |
+| M-0102 | Workshop of Joan the carpenter | workshop | 2525.1 | 1393.3 | 33.4 | 314° | 5.1 x 4.7 | 3.2 | gable 2.6 | 1 | timber |
+| M-0103 | House of Nicholas the goldsmith | shop | 2426.6 | 1389.9 | 34.6 | 187° | 7.8 x 13.2 | 9.3 | hip 3.5 | 3 | timber |
+| M-0104 | House of Edith the candlemaker | house | 2441.8 | 1391.0 | 34.5 | 183° | 6.1 x 13.7 | 12.4 | gable 3.4 | 4 | timber |
+| M-0105 | House of Richard the tanner | house | 2470.7 | 1391.7 | 34.2 | 170° | 5.7 x 9.2 | 9.3 | hip 2.6 | 3 | timber |
+| M-0106 | House of Hob the salter | house | 2480.5 | 1386.8 | 34.0 | 158° | 6.7 x 13.6 | 9.3 | gable 3.7 | 3 | timber |
+| M-0107 | Workshop of Hob the salter | workshop | 2476.2 | 1376.5 | 34.1 | 158° | 6.1 x 5.9 | 3.2 | gable 3.2 | 1 | timber |
+| M-0108 | House of Sybil the clockmaker | shop | 2492.8 | 1379.6 | 33.8 | 145° | 8.5 x 14.1 | 9.3 | gable 4.7 | 3 | stone |
+| M-0109 | House of Emma the fisher | house | 2503.8 | 1368.9 | 33.7 | 132° | 7.6 x 14.8 | 9.3 | gable 4.2 | 3 | timber |
+| M-0110 | House of Christiana the jeweller | house | 2112.4 | 1627.8 | 37.4 | 94° | 7.0 x 14.7 | 12.4 | hip 3.1 | 4 | timber |
+| M-0111 | House of Jordan the shipwright | shop | 2114.5 | 1648.8 | 37.3 | 108° | 8.5 x 9.5 | 9.3 | hip 3.8 | 3 | stone |
+| M-0112 | House of Piers the jeweller | shop | 2112.0 | 1656.1 | 37.3 | 106° | 5.5 x 10.0 | 9.3 | gable 3.0 | 3 | timber |
+| M-0113 | House of Osbert the carpenter | shop | 2134.7 | 1629.7 | 37.3 | 274° | 8.7 x 13.7 | 12.4 | gable 4.8 | 4 | timber |
+| M-0114 | House of Roger the cooper | shop | 2132.1 | 1646.3 | 37.2 | 270° | 6.0 x 9.3 | 9.3 | hip 2.7 | 3 | timber |
+| M-0115 | Workshop of Roger the cooper | workshop | 2141.4 | 1646.3 | 37.2 | 270° | 4.8 x 5.8 | 3.2 | gable 2.6 | 1 | timber |
+| M-0116 | House of Maud the cobbler | shop | 2133.6 | 1656.0 | 37.1 | 288° | 5.9 x 14.8 | 9.3 | gable 3.2 | 3 | stone |
+| M-0117 | Workshop of Maud the cobbler | workshop | 2146.1 | 1660.0 | 37.0 | 288° | 5.2 x 5.7 | 3.2 | gable 2.9 | 1 | timber |
+| M-0118 | House of Hob the dyer | shop | 2129.3 | 1676.7 | 37.0 | 275° | 9.0 x 11.1 | 9.3 | hip 4.0 | 3 | stone |
+| M-0119 | Workshop of Hob the dyer | workshop | 2139.3 | 1677.6 | 37.0 | 275° | 7.1 x 6.8 | 3.2 | gable 3.7 | 1 | timber |
+| M-0120 | House of Petronilla the fuller | shop | 2126.3 | 1685.9 | 37.0 | 286° | 6.3 x 9.4 | 12.4 | gable 3.5 | 4 | timber |
+| M-0121 | House of Geoffrey the shipwright | shop | 2472.5 | 1888.1 | 30.6 | 142° | 7.3 x 14.7 | 12.4 | hip 3.3 | 4 | timber |
+| M-0122 | Workshop of Geoffrey the shipwright | workshop | 2466.0 | 1879.7 | 30.9 | 142° | 5.9 x 4.5 | 3.2 | gable 2.5 | 1 | timber |
+| M-0123 | House of Gilbert the wheelwright | house | 2455.4 | 1911.0 | 30.5 | 128° | 9.4 x 10.8 | 9.3 | gable 5.2 | 3 | timber |
+| M-0124 | House of Hob the fuller | shop | 2428.8 | 1928.2 | 30.3 | 144° | 8.6 x 11.1 | 9.3 | gable 4.8 | 3 | timber |
+| M-0125 | Workshop of Hob the fuller | workshop | 2423.1 | 1920.5 | 30.7 | 144° | 6.4 x 4.8 | 3.2 | gable 2.6 | 1 | timber |
+| M-0126 | House of Juliana the notary | shop | 2497.9 | 1895.1 | 30.1 | 315° | 8.8 x 12.8 | 12.4 | hip 4.0 | 4 | timber |
+| M-0127 | House of Ralph the cooper | shop | 2480.4 | 1910.3 | 30.1 | 316° | 6.6 x 12.4 | 12.4 | hip 3.0 | 4 | timber |
+| M-0128 | Workshop of Ralph the cooper | workshop | 2488.8 | 1919.2 | 29.9 | 316° | 6.3 x 6.3 | 3.2 | gable 3.5 | 1 | timber |
+| M-0129 | House of Roger the pie-seller | house | 2541.3 | 1385.1 | 33.1 | 28° | 8.8 x 9.1 | 12.4 | gable 4.8 | 4 | timber |
+| M-0130 | Workshop of Roger the pie-seller | workshop | 2536.5 | 1394.1 | 33.2 | 28° | 5.9 x 6.7 | 3.2 | gable 3.2 | 1 | timber |
+| M-0131 | House of Agnes the lute-maker | shop | 2553.4 | 1393.6 | 32.9 | 27° | 5.6 x 11.4 | 9.3 | gable 3.1 | 3 | timber |
+| M-0132 | Workshop of Agnes the lute-maker | workshop | 2548.8 | 1402.6 | 33.0 | 27° | 5.0 x 6.4 | 3.2 | gable 2.7 | 1 | timber |
+| M-0133 | House of Agnes the bowyer | shop | 2566.0 | 1399.3 | 32.7 | 25° | 7.5 x 10.6 | 12.4 | hip 3.4 | 4 | stone |
+| M-0134 | House of Emma the money-changer | house | 2550.6 | 1367.7 | 33.0 | 208° | 7.5 x 13.8 | 12.4 | gable 4.1 | 4 | timber |
+| M-0135 | House of Hob the vintner | house | 2557.6 | 1374.2 | 32.9 | 213° | 8.6 x 10.2 | 12.4 | gable 4.7 | 4 | timber |
+| M-0136 | Workshop of Hob the vintner | workshop | 2563.6 | 1364.9 | 32.8 | 213° | 7.5 x 6.0 | 3.2 | gable 3.3 | 1 | timber |
+| M-0137 | House of Matilda the hatter | shop | 2270.1 | 1853.9 | 33.3 | 27° | 7.7 x 13.2 | 9.3 | gable 4.2 | 3 | stone |
+| M-0138 | Workshop of Matilda the hatter | workshop | 2264.5 | 1864.6 | 33.1 | 27° | 4.7 x 5.6 | 3.2 | gable 2.6 | 1 | timber |
+| M-0139 | House of Agnes the cutler | shop | 2300.2 | 1860.8 | 32.9 | 10° | 6.3 x 12.0 | 12.4 | gable 3.5 | 4 | timber |
+| M-0140 | House of Margery the vintner | shop | 2314.5 | 1864.9 | 32.8 | 18° | 7.2 x 12.3 | 12.4 | hip 3.3 | 4 | timber |
+| M-0141 | Workshop of Margery the vintner | workshop | 2311.0 | 1875.5 | 32.6 | 18° | 4.7 x 5.2 | 3.2 | gable 2.6 | 1 | timber |
+| M-0142 | House of Jordan the limner | shop | 2287.8 | 1837.6 | 33.7 | 185° | 6.6 x 14.3 | 12.4 | gable 3.6 | 4 | timber |
+| M-0143 | Workshop of Jordan the limner | workshop | 2288.7 | 1826.6 | 34.1 | 185° | 6.3 x 4.5 | 3.2 | gable 2.5 | 1 | timber |
+| M-0144 | House of Agnes the glazier | house | 2294.6 | 1839.2 | 33.6 | 185° | 6.5 x 12.3 | 9.3 | hip 2.9 | 3 | stone |
+| M-0145 | House of Ida the net-mender | shop | 2303.8 | 1840.2 | 33.5 | 190° | 9.3 x 13.4 | 12.4 | hip 4.2 | 4 | stone |
+| M-0146 | Workshop of Ida the net-mender | workshop | 2306.1 | 1827.6 | 34.0 | 190° | 7.4 x 6.9 | 3.2 | gable 3.8 | 1 | timber |
+| M-0147 | House of Geoffrey the fisher | house | 2340.7 | 1856.6 | 32.9 | 214° | 6.4 x 14.4 | 9.3 | gable 3.5 | 3 | stone |
+| M-0148 | House of Edith the fletcher | shop | 2352.0 | 1865.9 | 32.6 | 211° | 8.9 x 9.3 | 9.3 | hip 4.0 | 3 | stone |
+| M-0149 | House of Laurence the clockmaker | house | 2361.8 | 1869.6 | 32.4 | 218° | 8.0 x 14.5 | 9.3 | gable 4.4 | 3 | timber |
+| M-0150 | Workshop of Laurence the clockmaker | workshop | 2369.9 | 1859.2 | 32.6 | 218° | 5.9 x 6.2 | 3.2 | gable 3.2 | 1 | timber |
+| M-0151 | House of Edith the money-changer | house | 2367.5 | 1875.7 | 32.2 | 219° | 7.5 x 12.1 | 12.4 | hip 3.4 | 4 | stone |
+| M-0152 | Workshop of Edith the money-changer | workshop | 2374.2 | 1867.3 | 32.4 | 219° | 6.3 x 5.4 | 3.2 | gable 3.0 | 1 | timber |
+| M-0153 | House of Laurence the lute-maker | shop | 2471.4 | 1814.6 | 31.6 | 295° | 7.7 x 12.0 | 9.3 | gable 4.2 | 3 | timber |
+| M-0154 | Workshop of Laurence the lute-maker | workshop | 2480.9 | 1819.1 | 31.5 | 295° | 5.3 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| M-0155 | House of Walter the bellfounder | house | 2485.0 | 1787.4 | 32.0 | 297° | 8.9 x 13.9 | 12.4 | gable 4.9 | 4 | stone |
+| M-0156 | Workshop of Walter the bellfounder | workshop | 2496.4 | 1793.3 | 31.9 | 297° | 6.5 x 7.0 | 3.2 | gable 3.6 | 1 | timber |
+| M-0157 | House of Henry the glazier | shop | 2490.4 | 1774.6 | 32.1 | 302° | 7.8 x 10.5 | 12.4 | hip 3.5 | 4 | stone |
+| M-0158 | Workshop of Henry the glazier | workshop | 2498.8 | 1779.9 | 32.0 | 302° | 4.8 x 5.4 | 3.2 | gable 2.6 | 1 | timber |
+| M-0159 | House of Cecily the chandler | house | 2466.4 | 1779.6 | 32.4 | 113° | 5.6 x 10.1 | 12.4 | gable 3.1 | 4 | timber |
+| M-0160 | House of Adam the bellfounder | shop | 2448.3 | 1871.4 | 31.3 | 115° | 9.4 x 10.3 | 9.3 | gable 5.2 | 3 | stone |
+| M-0161 | House of Matilda the fuller | shop | 2460.5 | 1890.0 | 30.9 | 292° | 5.8 x 10.5 | 12.4 | gable 3.2 | 4 | stone |
+| M-0162 | House of Agnes the bellfounder | house | 2412.3 | 1699.1 | 34.2 | 79° | 8.8 x 14.7 | 12.4 | gable 4.9 | 4 | stone |
+| M-0163 | House of Amice the stonecarver | shop | 2419.6 | 1714.2 | 34.0 | 72° | 6.5 x 9.5 | 12.4 | gable 3.6 | 4 | timber |
+| M-0164 | Workshop of Amice the stonecarver | workshop | 2410.2 | 1717.4 | 34.1 | 72° | 5.5 x 5.1 | 3.2 | gable 2.8 | 1 | timber |
+| M-0165 | House of Henry the scribe | shop | 2421.5 | 1720.7 | 33.9 | 71° | 5.9 x 9.9 | 9.3 | hip 2.7 | 3 | stone |
+| M-0166 | House of Beatrice the minstrel | shop | 2422.7 | 1727.2 | 33.8 | 70° | 6.0 x 12.1 | 9.3 | gable 3.3 | 3 | timber |
+| M-0167 | House of Margery the apothecary | shop | 2276.3 | 1642.0 | 36.2 | 297° | 8.3 x 9.1 | 9.3 | gable 4.5 | 3 | timber |
+| M-0168 | House of Petronilla the pewterer | shop | 2282.6 | 1635.8 | 36.2 | 297° | 7.9 x 14.4 | 9.3 | gable 4.3 | 3 | timber |
+| M-0169 | Workshop of Petronilla the pewterer | workshop | 2292.6 | 1641.0 | 36.0 | 297° | 5.5 x 5.4 | 3.2 | gable 3.0 | 1 | timber |
+| M-0170 | House of Wat the cartographer | shop | 2288.3 | 1620.0 | 36.1 | 302° | 7.5 x 9.3 | 9.3 | gable 4.1 | 3 | timber |
+| M-0171 | House of Ida the notary | shop | 2309.0 | 1596.6 | 36.0 | 318° | 6.9 x 11.1 | 12.4 | gable 3.8 | 4 | stone |
+| M-0172 | House of Baldwin the limner | shop | 2314.7 | 1590.0 | 36.0 | 309° | 6.8 x 11.1 | 12.4 | gable 3.7 | 4 | stone |
+| M-0173 | House of Thomas the mason | shop | 2330.9 | 1574.5 | 35.8 | 321° | 8.6 x 9.4 | 12.4 | gable 4.7 | 4 | timber |
+| M-0174 | Workshop of Thomas the mason | workshop | 2336.5 | 1581.4 | 35.9 | 321° | 8.5 x 6.1 | 3.2 | gable 3.4 | 1 | timber |
+| M-0175 | House of Simon the chandler | shop | 2342.0 | 1568.9 | 35.8 | 350° | 6.7 x 10.8 | 12.4 | hip 3.0 | 4 | timber |
+| M-0176 | House of Felice the net-mender | house | 2268.6 | 1617.2 | 36.3 | 120° | 5.9 x 11.2 | 9.3 | gable 3.2 | 3 | timber |
+| M-0177 | Workshop of Felice the net-mender | workshop | 2260.1 | 1612.4 | 36.5 | 120° | 4.7 x 5.3 | 3.2 | gable 2.5 | 1 | timber |
+| M-0178 | House of Isabel the parchmenter | shop | 2273.0 | 1610.7 | 36.3 | 122° | 8.1 x 10.1 | 12.4 | gable 4.5 | 4 | timber |
+| M-0179 | Workshop of Isabel the parchmenter | workshop | 2264.7 | 1605.5 | 36.5 | 122° | 5.8 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0180 | House of Alys the cooper | house | 2276.1 | 1603.0 | 36.3 | 122° | 7.4 x 13.1 | 9.3 | gable 4.1 | 3 | stone |
+| M-0181 | House of Sybil the lute-maker | shop | 2282.5 | 1596.3 | 36.3 | 130° | 7.5 x 11.7 | 12.4 | gable 4.1 | 4 | timber |
+| M-0182 | House of Petronilla the furrier | house | 2304.2 | 1570.0 | 36.1 | 134° | 6.3 x 14.8 | 12.4 | hip 2.8 | 4 | stone |
+| M-0183 | House of Margery the spicer | shop | 2329.4 | 1551.3 | 35.8 | 152° | 6.6 x 14.8 | 9.3 | hip 3.0 | 3 | stone |
+| M-0184 | House of Roger the armourer | house | 2340.5 | 1550.1 | 35.8 | 170° | 8.0 x 10.4 | 9.3 | gable 4.4 | 3 | timber |
+| M-0185 | House of Richard the fisher | house | 2350.4 | 1548.2 | 35.6 | 177° | 8.9 x 12.1 | 9.3 | gable 4.9 | 3 | timber |
+| M-0186 | House of Matilda the draper | shop | 2360.3 | 1548.5 | 35.5 | 186° | 7.0 x 12.0 | 9.3 | hip 3.1 | 3 | timber |
+| M-0187 | House of Amice the net-mender | house | 2273.2 | 1869.8 | 32.8 | 105° | 8.7 x 11.7 | 12.4 | hip 3.9 | 4 | timber |
+| M-0188 | House of Ralph the bellfounder | shop | 2269.7 | 1881.3 | 32.5 | 118° | 5.8 x 9.7 | 12.4 | hip 2.6 | 4 | timber |
+| M-0189 | House of Edith the herbalist | house | 2262.7 | 1893.0 | 32.3 | 118° | 7.7 x 10.7 | 12.4 | gable 4.2 | 4 | timber |
+| M-0190 | Workshop of Edith the herbalist | workshop | 2253.7 | 1888.1 | 32.5 | 118° | 5.5 x 6.3 | 3.2 | gable 3.0 | 1 | timber |
+| M-0191 | House of Alys the cooper | house | 2287.7 | 1890.4 | 32.2 | 298° | 9.3 x 14.3 | 9.3 | gable 5.1 | 3 | timber |
+| M-0192 | Workshop of Alys the cooper | workshop | 2299.0 | 1896.5 | 32.1 | 298° | 5.4 x 5.6 | 3.2 | gable 3.0 | 1 | timber |
+| M-0193 | House of Ida the cooper | shop | 2282.2 | 1896.7 | 32.1 | 298° | 6.0 x 10.6 | 12.4 | hip 2.7 | 4 | timber |
+| M-0194 | House of Avice the vintner | shop | 2279.3 | 1903.8 | 32.0 | 298° | 8.8 x 12.2 | 9.3 | gable 4.8 | 3 | timber |
+| M-0195 | Workshop of Avice the vintner | workshop | 2289.2 | 1909.0 | 31.9 | 298° | 4.7 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| M-0196 | House of Simon the ropemaker | shop | 2274.1 | 1910.5 | 31.9 | 298° | 7.1 x 9.4 | 12.4 | gable 3.9 | 4 | timber |
+| M-0197 | Workshop of Simon the ropemaker | workshop | 2281.5 | 1914.4 | 31.8 | 298° | 5.2 x 5.1 | 3.2 | gable 2.8 | 1 | timber |
+| M-0198 | House of Isabel the wheelwright | shop | 2256.9 | 1916.9 | 32.0 | 10° | 8.0 x 14.4 | 12.4 | hip 3.6 | 4 | timber |
+| M-0199 | House of Ivetta the notary | shop | 2166.3 | 1574.4 | 37.3 | 229° | 7.4 x 11.7 | 12.4 | gable 4.1 | 4 | timber |
+| M-0200 | House of Elena the cheesemonger | house | 2145.6 | 1581.8 | 37.4 | 51° | 7.8 x 13.1 | 9.3 | gable 4.3 | 3 | stone |
+| M-0201 | House of Odo the fletcher | shop | 2185.1 | 1581.2 | 37.1 | 292° | 6.2 x 12.2 | 9.3 | gable 3.4 | 3 | timber |
+| M-0202 | House of Godwin the goldsmith | shop | 2186.9 | 1573.7 | 37.1 | 284° | 5.6 x 10.7 | 9.3 | gable 3.1 | 3 | timber |
+| M-0203 | House of Amice the furrier | shop | 2191.5 | 1547.4 | 37.0 | 265° | 8.5 x 14.4 | 12.4 | hip 3.8 | 4 | stone |
+| M-0204 | House of Piers the spicer | shop | 2185.8 | 1536.8 | 37.2 | 246° | 7.8 x 10.7 | 12.4 | gable 4.3 | 4 | timber |
+| M-0205 | House of Hob the cooper | shop | 2177.4 | 1515.5 | 37.1 | 250° | 7.6 x 12.4 | 12.4 | gable 4.2 | 4 | stone |
+| M-0206 | Workshop of Hob the cooper | workshop | 2187.7 | 1511.7 | 37.1 | 250° | 4.6 x 6.7 | 3.2 | gable 2.5 | 1 | timber |
+| M-0207 | House of Ida the barber-surgeon | shop | 2173.5 | 1507.1 | 37.1 | 247° | 9.2 x 11.3 | 12.4 | gable 5.1 | 4 | timber |
+| M-0208 | House of Stephen the bookbinder | shop | 2167.5 | 1485.8 | 37.2 | 254° | 6.7 x 10.5 | 9.3 | hip 3.0 | 3 | stone |
+| M-0209 | House of Osbert the limner | shop | 2149.3 | 1473.5 | 37.3 | 137° | 9.3 x 11.5 | 12.4 | gable 5.1 | 4 | timber |
+| M-0210 | Workshop of Osbert the limner | workshop | 2141.9 | 1465.5 | 37.4 | 137° | 8.4 x 5.6 | 3.2 | gable 3.1 | 1 | timber |
+| M-0211 | House of Martin the stonecarver | shop | 2170.4 | 1563.5 | 37.3 | 103° | 7.7 x 9.6 | 9.3 | hip 3.5 | 3 | timber |
+| M-0212 | Workshop of Martin the stonecarver | workshop | 2161.2 | 1561.3 | 37.3 | 103° | 6.2 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0213 | House of Walter the fishmonger | shop | 2170.3 | 1550.5 | 37.3 | 85° | 8.7 x 11.9 | 9.3 | hip 3.9 | 3 | stone |
+| M-0214 | House of Matilda the fishmonger | shop | 2166.4 | 1539.7 | 37.3 | 68° | 5.8 x 10.9 | 12.4 | gable 3.2 | 4 | stone |
+| M-0215 | House of Richard the cartographer | shop | 2159.2 | 1523.5 | 37.2 | 70° | 8.7 x 10.9 | 12.4 | gable 4.8 | 4 | timber |
+| M-0216 | House of Adam the vintner | house | 2151.3 | 1499.9 | 37.3 | 77° | 7.0 x 11.2 | 12.4 | hip 3.1 | 4 | timber |
+| M-0217 | Workshop of Adam the vintner | workshop | 2141.4 | 1502.2 | 37.4 | 77° | 5.8 x 7.0 | 3.2 | gable 3.2 | 1 | timber |
+| M-0218 | House of Mabel the candlemaker | shop | 2635.8 | 1657.5 | 31.5 | 253° | 6.1 x 13.8 | 12.4 | gable 3.4 | 4 | timber |
+| M-0219 | House of Christiana the fisher | shop | 2633.4 | 1651.7 | 31.6 | 253° | 5.6 x 12.6 | 9.3 | gable 3.1 | 3 | timber |
+| M-0220 | House of Robin the fishmonger | house | 2631.6 | 1640.6 | 31.7 | 273° | 6.4 x 13.2 | 12.4 | gable 3.5 | 4 | timber |
+| M-0221 | House of Simon the barber-surgeon | shop | 2629.9 | 1634.0 | 31.8 | 272° | 5.8 x 9.3 | 9.3 | gable 3.2 | 3 | timber |
+| M-0222 | Workshop of Simon the barber-surgeon | workshop | 2639.5 | 1634.3 | 31.7 | 272° | 5.2 x 4.7 | 3.2 | gable 2.6 | 1 | timber |
+| M-0223 | House of Adam the glover | house | 2632.4 | 1621.0 | 31.9 | 281° | 7.3 x 10.9 | 9.3 | gable 4.0 | 3 | stone |
+| M-0224 | Workshop of Adam the glover | workshop | 2643.0 | 1623.2 | 31.8 | 281° | 5.7 x 5.9 | 3.2 | gable 3.1 | 1 | timber |
+| M-0225 | House of Felice the barber-surgeon | house | 2632.9 | 1612.4 | 32.0 | 278° | 8.0 x 9.3 | 9.3 | hip 3.6 | 3 | timber |
+| M-0226 | Workshop of Felice the barber-surgeon | workshop | 2643.3 | 1613.8 | 31.9 | 278° | 4.9 x 5.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0227 | House of Odo the shipwright | house | 2642.2 | 1600.8 | 31.9 | 299° | 7.4 x 14.7 | 9.3 | hip 3.3 | 3 | timber |
+| M-0228 | House of Ida the chandler | house | 2644.9 | 1592.8 | 31.9 | 298° | 8.3 x 11.9 | 12.4 | gable 4.6 | 4 | timber |
+| M-0229 | Workshop of Ida the chandler | workshop | 2654.9 | 1598.2 | 31.8 | 298° | 6.9 x 5.3 | 3.2 | gable 2.9 | 1 | timber |
+| M-0230 | House of Emma the minstrel | shop | 2648.1 | 1584.2 | 31.9 | 293° | 7.3 x 10.6 | 9.3 | gable 4.0 | 3 | timber |
+| M-0231 | Workshop of Emma the minstrel | workshop | 2657.5 | 1588.1 | 31.8 | 293° | 5.9 x 6.1 | 3.2 | gable 3.2 | 1 | timber |
+| M-0232 | House of Jordan the carpenter | shop | 2656.8 | 1570.1 | 31.9 | 299° | 9.3 x 13.0 | 9.3 | gable 5.1 | 3 | timber |
+| M-0233 | Workshop of Jordan the carpenter | workshop | 2667.5 | 1576.0 | 31.8 | 299° | 9.2 x 6.0 | 3.2 | gable 3.3 | 1 | timber |
+| M-0234 | House of Stephen the wheelwright | house | 2666.9 | 1548.0 | 31.8 | 294° | 5.6 x 11.2 | 12.4 | gable 3.1 | 4 | timber |
+| M-0235 | House of Juliana the cartographer | house | 2674.4 | 1527.8 | 32.0 | 291° | 5.8 x 9.4 | 9.3 | hip 2.6 | 3 | timber |
+| M-0236 | House of Osbert the parchmenter | shop | 2613.4 | 1659.3 | 31.8 | 73° | 8.8 x 13.8 | 12.4 | gable 4.8 | 4 | timber |
+| M-0237 | House of Gilbert the dyer | shop | 2612.3 | 1640.0 | 31.9 | 93° | 9.3 x 9.1 | 12.4 | gable 5.0 | 4 | timber |
+| M-0238 | House of Hawise the fisher | house | 2611.8 | 1631.7 | 32.1 | 92° | 6.6 x 10.7 | 9.3 | gable 3.6 | 3 | timber |
+| M-0239 | Workshop of Hawise the fisher | workshop | 2602.1 | 1631.3 | 32.4 | 92° | 6.3 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| M-0240 | House of Walter the bowyer | shop | 2611.1 | 1622.3 | 32.2 | 101° | 7.9 x 14.0 | 9.3 | hip 3.5 | 3 | stone |
+| M-0241 | House of Emma the ropemaker | shop | 2613.2 | 1609.2 | 32.3 | 98° | 6.7 x 14.2 | 12.4 | hip 3.0 | 4 | stone |
+| M-0242 | Workshop of Emma the ropemaker | workshop | 2600.5 | 1607.5 | 32.5 | 98° | 5.2 x 5.7 | 3.2 | gable 2.9 | 1 | timber |
+| M-0243 | House of Richard the cobbler | house | 2619.7 | 1599.9 | 32.4 | 118° | 7.5 x 9.4 | 12.4 | gable 4.1 | 4 | stone |
+| M-0244 | House of Martin the cartographer | house | 2635.2 | 1564.6 | 32.2 | 118° | 5.9 x 13.7 | 12.4 | gable 3.2 | 4 | timber |
+| M-0245 | Workshop of Martin the cartographer | workshop | 2624.6 | 1558.9 | 32.4 | 118° | 5.3 x 5.8 | 3.2 | gable 2.9 | 1 | timber |
+| M-0246 | House of Piers the bowyer | house | 2639.6 | 1559.8 | 32.2 | 119° | 5.7 x 10.6 | 12.4 | hip 2.5 | 4 | timber |
+| M-0247 | House of Nicholas the carpenter | house | 2645.3 | 1547.7 | 32.2 | 118° | 7.5 x 11.2 | 12.4 | hip 3.4 | 4 | timber |
+| M-0248 | House of Simon the pewterer | house | 2656.8 | 1517.0 | 32.2 | 111° | 8.7 x 14.7 | 9.3 | gable 4.8 | 3 | timber |
+| M-0249 | House of Isabel the hatter | shop | 2661.3 | 1509.2 | 32.2 | 113° | 7.6 x 12.6 | 12.4 | hip 3.4 | 4 | stone |
+| M-0250 | House of Simon the juggler | shop | 2367.9 | 1691.1 | 34.9 | 304° | 9.3 x 13.1 | 12.4 | gable 5.1 | 4 | stone |
+| M-0251 | House of Emma the armourer | house | 2372.7 | 1681.3 | 34.8 | 292° | 7.2 x 13.6 | 9.3 | hip 3.2 | 3 | stone |
+| M-0252 | Workshop of Emma the armourer | workshop | 2383.7 | 1685.8 | 34.8 | 292° | 5.1 x 6.7 | 3.2 | gable 2.8 | 1 | timber |
+| M-0253 | House of Hawise the shipwright | house | 2375.4 | 1672.1 | 34.9 | 281° | 7.2 x 14.3 | 12.4 | gable 4.0 | 4 | timber |
+| M-0254 | House of Elena the scribe | shop | 2376.1 | 1664.1 | 34.9 | 278° | 7.1 x 13.3 | 12.4 | hip 3.2 | 4 | timber |
+| M-0255 | Workshop of Elena the scribe | workshop | 2386.9 | 1665.6 | 34.9 | 278° | 5.1 x 5.7 | 3.2 | gable 2.8 | 1 | timber |
+| M-0256 | House of Petronilla the glover | shop | 2377.6 | 1646.2 | 35.0 | 272° | 8.5 x 14.9 | 12.4 | gable 4.7 | 4 | timber |
+| M-0257 | House of Walter the tanner | shop | 2349.3 | 1681.5 | 35.2 | 124° | 9.1 x 14.0 | 9.3 | gable 5.0 | 3 | timber |
+| M-0258 | Workshop of Walter the tanner | workshop | 2340.1 | 1675.3 | 35.5 | 124° | 5.8 x 5.2 | 3.2 | gable 2.9 | 1 | timber |
+| M-0259 | House of Godwin the shipwright | shop | 2357.6 | 1633.8 | 35.4 | 89° | 8.7 x 10.9 | 9.3 | gable 4.8 | 3 | timber |
+| M-0260 | House of Baldwin the notary | shop | 2115.6 | 1742.6 | 36.4 | 326° | 6.8 x 14.5 | 9.3 | hip 3.1 | 3 | stone |
+| M-0261 | House of Stephen the baker | house | 2105.7 | 1746.9 | 36.3 | 342° | 8.0 x 13.2 | 9.3 | gable 4.4 | 3 | timber |
+| M-0262 | House of Agnes the barber-surgeon | shop | 2457.7 | 1430.9 | 34.3 | 69° | 8.9 x 13.0 | 12.4 | gable 4.9 | 4 | timber |
+| M-0263 | House of Richard the locksmith | house | 2486.0 | 1466.0 | 34.1 | 37° | 6.5 x 10.2 | 12.4 | hip 2.9 | 4 | timber |
+| M-0264 | Workshop of Richard the locksmith | workshop | 2479.7 | 1474.3 | 34.2 | 37° | 5.4 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0265 | House of Mabel the candlemaker | shop | 2491.9 | 1472.1 | 34.0 | 32° | 7.9 x 12.9 | 12.4 | hip 3.5 | 4 | timber |
+| M-0266 | House of Isabel the locksmith | shop | 2498.9 | 1475.7 | 34.0 | 32° | 6.9 x 11.5 | 9.3 | gable 3.8 | 3 | stone |
+| M-0267 | House of Laurence the glazier | house | 2508.1 | 1479.6 | 34.0 | 22° | 8.8 x 11.4 | 12.4 | hip 4.0 | 4 | timber |
+| M-0268 | Workshop of Laurence the glazier | workshop | 2504.5 | 1488.8 | 34.0 | 22° | 5.4 x 6.2 | 3.2 | gable 3.0 | 1 | timber |
+| M-0269 | House of Wat the weaver | shop | 2519.9 | 1487.0 | 33.8 | 29° | 7.6 x 14.1 | 12.4 | gable 4.2 | 4 | timber |
+| M-0270 | Workshop of Wat the weaver | workshop | 2514.3 | 1497.0 | 33.9 | 29° | 5.7 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| M-0271 | House of Ralph the dyer | shop | 2529.2 | 1488.8 | 33.7 | 19° | 6.7 x 9.5 | 9.3 | hip 3.0 | 3 | timber |
+| M-0272 | House of Alys the money-changer | house | 2474.2 | 1420.2 | 34.1 | 249° | 7.0 x 11.0 | 12.4 | hip 3.2 | 4 | timber |
+| M-0273 | House of Jordan the salter | house | 2479.7 | 1430.6 | 34.0 | 239° | 5.8 x 11.7 | 12.4 | gable 3.2 | 4 | timber |
+| M-0274 | House of Jordan the dyer | house | 2488.6 | 1442.0 | 33.9 | 230° | 9.4 x 12.5 | 12.4 | hip 4.2 | 4 | stone |
+| M-0275 | House of Nicholas the draper | house | 2499.1 | 1453.0 | 33.9 | 217° | 9.4 x 12.0 | 12.4 | hip 4.2 | 4 | stone |
+| M-0276 | Workshop of Nicholas the draper | workshop | 2505.4 | 1444.5 | 33.8 | 217° | 5.0 x 5.1 | 3.2 | gable 2.8 | 1 | timber |
+| M-0277 | House of Beatrice the furrier | house | 2513.6 | 1460.6 | 33.8 | 202° | 9.4 x 13.5 | 9.3 | hip 4.2 | 3 | timber |
+| M-0278 | House of Emma the minstrel | house | 2521.6 | 1466.1 | 33.7 | 206° | 7.4 x 10.1 | 9.3 | hip 3.3 | 3 | stone |
+| M-0279 | House of Mabel the sailmaker | shop | 2529.2 | 1468.8 | 33.6 | 209° | 6.8 x 12.4 | 12.4 | gable 3.7 | 4 | timber |
+| M-0280 | Workshop of Mabel the sailmaker | workshop | 2535.0 | 1458.5 | 33.5 | 209° | 6.0 x 6.4 | 3.2 | gable 3.3 | 1 | timber |
+| M-0281 | House of Edith the stonecarver | house | 2310.2 | 1654.4 | 35.8 | 147° | 8.8 x 11.2 | 9.3 | hip 4.0 | 3 | timber |
+| M-0282 | House of Christiana the stonecarver | shop | 2321.8 | 1646.7 | 35.8 | 135° | 7.5 x 9.7 | 9.3 | hip 3.4 | 3 | timber |
+| M-0283 | House of Martin the pie-seller | shop | 2329.2 | 1635.3 | 35.7 | 115° | 6.2 x 14.0 | 12.4 | gable 3.4 | 4 | timber |
+| M-0284 | House of Stephen the brewer | shop | 2357.8 | 1609.0 | 35.5 | 193° | 6.1 x 13.9 | 12.4 | gable 3.3 | 4 | timber |
+| M-0285 | Workshop of Stephen the brewer | workshop | 2360.5 | 1597.0 | 35.5 | 193° | 5.2 x 6.7 | 3.2 | gable 2.9 | 1 | timber |
+| M-0286 | House of Sybil the cutler | house | 2364.0 | 1610.4 | 35.4 | 193° | 6.0 x 13.9 | 12.4 | gable 3.3 | 4 | stone |
+| M-0287 | Workshop of Sybil the cutler | workshop | 2366.6 | 1599.0 | 35.4 | 193° | 5.7 x 5.2 | 3.2 | gable 2.8 | 1 | timber |
+| M-0288 | House of Thomas the sailmaker | house | 2426.5 | 1887.0 | 31.3 | 78° | 6.8 x 10.6 | 12.4 | gable 3.8 | 4 | timber |
+| M-0289 | Workshop of Thomas the sailmaker | workshop | 2416.7 | 1889.1 | 31.5 | 78° | 6.7 x 5.4 | 3.2 | gable 3.0 | 1 | timber |
+| M-0290 | House of Walter the fuller | house | 2426.7 | 1899.0 | 31.1 | 88° | 5.8 x 12.8 | 12.4 | gable 3.2 | 4 | timber |
+| M-0291 | House of Cecily the chandler | house | 2428.6 | 1907.1 | 30.9 | 77° | 6.1 x 11.8 | 9.3 | hip 2.7 | 3 | timber |
+| M-0292 | House of Emma the goldsmith | shop | 2440.2 | 1852.9 | 31.6 | 280° | 6.4 x 10.4 | 12.4 | gable 3.5 | 4 | timber |
+| M-0293 | House of Juliana the fletcher | house | 2338.0 | 1620.2 | 35.7 | 221° | 7.0 x 13.8 | 9.3 | hip 3.1 | 3 | stone |
+| M-0294 | House of Adam the bellfounder | shop | 2330.5 | 1615.8 | 35.8 | 220° | 8.8 x 10.7 | 12.4 | gable 4.9 | 4 | timber |
+| M-0295 | Workshop of Adam the bellfounder | workshop | 2337.6 | 1607.2 | 35.8 | 220° | 5.2 x 6.6 | 3.2 | gable 2.9 | 1 | timber |
+| M-0296 | House of Rose the potter | shop | 2358.4 | 1655.7 | 35.4 | 5° | 8.5 x 11.4 | 12.4 | gable 4.7 | 4 | timber |
+| M-0297 | House of Geoffrey the armourer | house | 2346.2 | 1651.8 | 35.4 | 31° | 8.3 x 13.8 | 9.3 | hip 3.7 | 3 | timber |
+| M-0298 | House of Richard the dyer | house | 2307.3 | 1621.5 | 35.9 | 29° | 8.7 x 9.6 | 12.4 | gable 4.8 | 4 | stone |
+| M-0299 | House of Elena the juggler | shop | 2300.0 | 1618.5 | 36.0 | 31° | 5.6 x 11.8 | 9.3 | gable 3.1 | 3 | timber |
+| M-0300 | House of Alys the fishmonger | house | 2279.8 | 1465.7 | 36.2 | 229° | 7.0 x 14.1 | 9.3 | gable 3.9 | 3 | timber |
+| M-0301 | Workshop of Alys the fishmonger | workshop | 2288.3 | 1458.3 | 36.1 | 229° | 4.6 x 5.9 | 3.2 | gable 2.5 | 1 | timber |
+| M-0302 | House of Richard the bookbinder | shop | 2265.3 | 1450.7 | 36.2 | 232° | 6.8 x 9.8 | 9.3 | gable 3.7 | 3 | timber |
+| M-0303 | House of Felice the locksmith | house | 2262.7 | 1443.8 | 36.3 | 231° | 6.1 x 14.1 | 9.3 | hip 2.8 | 3 | timber |
+| M-0304 | Workshop of Felice the locksmith | workshop | 2271.7 | 1436.6 | 36.2 | 231° | 5.6 x 6.7 | 3.2 | gable 3.1 | 1 | timber |
+| M-0305 | House of Agnes the stonecarver | house | 2254.0 | 1438.5 | 36.4 | 214° | 7.4 x 9.9 | 9.3 | gable 4.1 | 3 | timber |
+| M-0306 | Workshop of Agnes the stonecarver | workshop | 2259.6 | 1430.2 | 36.3 | 214° | 6.2 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| M-0307 | House of Walter the cooper | shop | 2275.9 | 1497.9 | 36.2 | 56° | 8.7 x 14.7 | 12.4 | gable 4.8 | 4 | stone |
+| M-0308 | House of Matilda the brewer | house | 2270.8 | 1490.0 | 36.2 | 58° | 8.6 x 14.9 | 9.3 | hip 3.9 | 3 | timber |
+| M-0309 | Workshop of Matilda the brewer | workshop | 2260.4 | 1496.5 | 36.5 | 58° | 7.5 x 5.3 | 3.2 | gable 2.9 | 1 | timber |
+| M-0310 | House of Sybil the ropemaker | house | 2258.7 | 1469.4 | 36.3 | 54° | 7.5 x 9.1 | 9.3 | gable 4.2 | 3 | timber |
+| M-0311 | Workshop of Sybil the ropemaker | workshop | 2252.1 | 1474.2 | 36.4 | 54° | 6.2 x 4.7 | 3.2 | gable 2.6 | 1 | timber |
+| M-0312 | House of Edith the fisher | shop | 2248.9 | 1458.0 | 36.5 | 51° | 6.6 x 10.8 | 9.3 | hip 3.0 | 3 | timber |
+| M-0313 | Workshop of Edith the fisher | workshop | 2240.6 | 1464.7 | 36.5 | 51° | 5.3 x 4.8 | 3.2 | gable 2.6 | 1 | timber |
+| M-0314 | House of Robin the carpenter | shop | 2238.0 | 1447.8 | 36.5 | 34° | 9.0 x 9.0 | 12.4 | gable 5.0 | 4 | stone |
+| M-0315 | House of Alys the mason | shop | 2305.6 | 1462.7 | 35.9 | 159° | 5.9 x 12.6 | 9.3 | gable 3.2 | 3 | timber |
+| M-0316 | Workshop of Alys the mason | workshop | 2301.6 | 1452.5 | 36.0 | 159° | 5.5 x 4.5 | 3.2 | gable 2.5 | 1 | timber |
+| M-0317 | House of Osbert the brewer | shop | 2508.6 | 1720.4 | 32.6 | 310° | 5.8 x 14.2 | 9.3 | gable 3.2 | 3 | timber |
+| M-0318 | House of Simon the fisher | house | 2455.4 | 1766.5 | 32.7 | 124° | 7.2 x 10.3 | 12.4 | hip 3.2 | 4 | stone |
+| M-0319 | House of Petronilla the locksmith | shop | 2460.0 | 1755.9 | 32.8 | 107° | 6.7 x 13.8 | 9.3 | hip 3.0 | 3 | timber |
+| M-0320 | Workshop of Petronilla the locksmith | workshop | 2449.2 | 1752.7 | 33.1 | 107° | 6.1 x 5.0 | 3.2 | gable 2.8 | 1 | timber |
+| M-0321 | House of Robin the shipwright | shop | 2461.9 | 1749.3 | 32.9 | 107° | 6.2 x 13.8 | 12.4 | gable 3.4 | 4 | timber |
+| M-0322 | House of Rose the herbalist | house | 2464.8 | 1741.2 | 33.0 | 109° | 9.5 x 13.6 | 9.3 | gable 5.2 | 3 | stone |
+| M-0323 | House of Christiana the cobbler | house | 2480.9 | 1719.9 | 33.0 | 131° | 6.6 x 14.4 | 9.3 | gable 3.6 | 3 | timber |
+| M-0324 | House of Godwin the sailmaker | shop | 2486.5 | 1713.6 | 33.0 | 136° | 7.5 x 14.5 | 9.3 | gable 4.1 | 3 | timber |
+| M-0325 | Workshop of Godwin the sailmaker | workshop | 2478.8 | 1705.6 | 33.4 | 136° | 5.6 x 5.1 | 3.2 | gable 2.8 | 1 | timber |
+| M-0326 | House of Walter the mercer | shop | 2496.9 | 1704.5 | 33.1 | 130° | 7.6 x 11.6 | 12.4 | gable 4.2 | 4 | stone |
+| M-0327 | House of Hob the brewer | shop | 2328.9 | 1781.5 | 34.3 | 166° | 5.6 x 13.6 | 12.4 | gable 3.1 | 4 | timber |
+| M-0328 | House of Felice the jeweller | shop | 2318.0 | 1785.2 | 34.3 | 170° | 6.0 x 10.8 | 9.3 | gable 3.3 | 3 | stone |
+| M-0329 | Workshop of Felice the jeweller | workshop | 2316.1 | 1774.9 | 34.5 | 170° | 5.0 x 6.1 | 3.2 | gable 2.7 | 1 | timber |
+| M-0330 | House of Ralph the barber-surgeon | shop | 2306.0 | 1784.7 | 34.5 | 179° | 7.9 x 14.7 | 9.3 | gable 4.3 | 3 | stone |
+| M-0331 | House of Matilda the goldsmith | house | 2288.6 | 1787.0 | 34.7 | 171° | 8.3 x 13.8 | 9.3 | gable 4.6 | 3 | timber |
+| M-0332 | House of Adam the cooper | house | 2380.3 | 1764.5 | 33.9 | 307° | 8.4 x 14.7 | 12.4 | hip 3.8 | 4 | timber |
+| M-0333 | House of Richard the limner | house | 2352.0 | 1792.7 | 33.9 | 320° | 7.7 x 14.9 | 9.3 | gable 4.3 | 3 | timber |
+| M-0334 | Workshop of Richard the limner | workshop | 2359.5 | 1801.8 | 33.8 | 320° | 7.3 x 6.7 | 3.2 | gable 3.7 | 1 | timber |
+| M-0335 | House of Amice the weaver | shop | 2318.8 | 1802.6 | 34.1 | 350° | 9.4 x 11.3 | 9.3 | gable 5.2 | 3 | timber |
+| M-0336 | House of Ida the sailmaker | shop | 2301.9 | 1805.5 | 34.3 | 353° | 7.5 x 14.2 | 12.4 | gable 4.1 | 4 | timber |
+| M-0337 | Workshop of Ida the sailmaker | workshop | 2303.3 | 1816.9 | 34.2 | 353° | 6.0 x 4.8 | 3.2 | gable 2.6 | 1 | timber |
+| M-0338 | House of Petronilla the fishmonger | shop | 2294.5 | 1803.9 | 34.4 | 353° | 6.0 x 9.1 | 12.4 | gable 3.3 | 4 | timber |
+| M-0339 | House of Alan the money-changer | shop | 2415.4 | 1830.9 | 32.4 | 170° | 8.5 x 14.4 | 9.3 | gable 4.7 | 3 | timber |
+| M-0340 | Workshop of Alan the money-changer | workshop | 2413.3 | 1819.6 | 32.7 | 170° | 5.1 x 6.0 | 3.2 | gable 2.8 | 1 | timber |
+| M-0341 | House of Wat the furrier | shop | 2403.9 | 1831.5 | 32.6 | 190° | 6.4 x 13.4 | 12.4 | hip 2.9 | 4 | stone |
+| M-0342 | House of Maud the cheesemonger | shop | 2395.5 | 1829.7 | 32.7 | 187° | 8.9 x 14.4 | 12.4 | gable 4.9 | 4 | timber |
+| M-0343 | Workshop of Maud the cheesemonger | workshop | 2396.9 | 1818.3 | 33.0 | 187° | 8.3 x 5.4 | 3.2 | gable 3.0 | 1 | timber |
+| M-0344 | House of Felice the fisher | shop | 2385.7 | 1831.4 | 32.8 | 175° | 5.9 x 10.3 | 12.4 | gable 3.2 | 4 | timber |
+| M-0345 | Workshop of Felice the fisher | workshop | 2384.8 | 1822.5 | 33.1 | 175° | 5.2 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0346 | House of Wat the glazier | shop | 2371.3 | 1831.7 | 33.0 | 181° | 7.1 x 14.2 | 9.3 | hip 3.2 | 3 | timber |
+| M-0347 | Workshop of Wat the glazier | workshop | 2371.4 | 1820.2 | 33.3 | 181° | 5.5 x 4.7 | 3.2 | gable 2.6 | 1 | timber |
+| M-0348 | House of Roger the stonecarver | house | 2359.4 | 1832.2 | 33.3 | 199° | 6.6 x 10.1 | 9.3 | gable 3.6 | 3 | timber |
+| M-0349 | Workshop of Roger the stonecarver | workshop | 2362.6 | 1822.8 | 33.4 | 199° | 4.9 x 6.1 | 3.2 | gable 2.7 | 1 | timber |
+| M-0350 | House of Beatrice the fishmonger | house | 2422.6 | 1850.4 | 32.0 | 350° | 5.8 x 14.1 | 12.4 | gable 3.2 | 4 | timber |
+| M-0351 | House of Ralph the fisher | shop | 2415.5 | 1851.5 | 32.1 | 355° | 5.9 x 14.1 | 12.4 | gable 3.2 | 4 | stone |
+| M-0352 | House of Matilda the fisher | shop | 2408.1 | 1850.9 | 32.2 | 355° | 8.1 x 11.7 | 9.3 | hip 3.6 | 3 | timber |
+| M-0353 | House of Sybil the baker | shop | 2397.9 | 1850.8 | 32.4 | 10° | 6.5 x 14.3 | 12.4 | gable 3.6 | 4 | stone |
+| M-0354 | Workshop of Sybil the baker | workshop | 2395.7 | 1862.5 | 32.3 | 10° | 5.4 x 6.9 | 3.2 | gable 3.0 | 1 | timber |
+| M-0355 | House of Maud the wheelwright | house | 2383.4 | 1848.3 | 32.6 | 355° | 8.5 x 10.6 | 12.4 | hip 3.8 | 4 | timber |
+| M-0356 | House of Adam the cutler | shop | 2150.8 | 1754.9 | 36.3 | 50° | 8.3 x 10.3 | 9.3 | gable 4.6 | 3 | timber |
+| M-0357 | House of Ida the furrier | house | 2158.2 | 1761.9 | 36.2 | 33° | 5.9 x 12.7 | 9.3 | gable 3.3 | 3 | timber |
+| M-0358 | House of Martin the pie-seller | house | 2196.7 | 1648.4 | 36.7 | 131° | 5.9 x 13.6 | 12.4 | gable 3.2 | 4 | timber |
+| M-0359 | House of Osbert the scribe | shop | 2193.0 | 1654.5 | 36.7 | 128° | 6.5 x 11.5 | 12.4 | gable 3.6 | 4 | timber |
+| M-0360 | House of Thomas the scribe | house | 2184.3 | 1662.2 | 36.7 | 144° | 6.4 x 11.9 | 12.4 | gable 3.5 | 4 | stone |
+| M-0361 | Workshop of Thomas the scribe | workshop | 2178.7 | 1654.5 | 36.9 | 144° | 6.0 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0362 | House of Godwin the cobbler | shop | 2178.1 | 1667.2 | 36.7 | 142° | 8.1 x 11.8 | 12.4 | hip 3.6 | 4 | stone |
+| M-0363 | Workshop of Godwin the cobbler | workshop | 2171.7 | 1659.0 | 36.9 | 142° | 5.1 x 6.5 | 3.2 | gable 2.8 | 1 | timber |
+| M-0364 | House of Sybil the minstrel | house | 2209.8 | 1660.1 | 36.5 | 311° | 8.4 x 9.0 | 9.3 | hip 3.8 | 3 | timber |
+| M-0365 | House of Osbert the shipwright | shop | 2454.6 | 1384.7 | 34.3 | 108° | 9.1 x 14.1 | 9.3 | gable 5.0 | 3 | stone |
+| M-0366 | House of Isabel the baker | house | 2513.0 | 1418.8 | 33.6 | 32° | 8.4 x 9.7 | 12.4 | gable 4.6 | 4 | timber |
+| M-0367 | Workshop of Isabel the baker | workshop | 2508.3 | 1426.2 | 33.7 | 32° | 5.2 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0368 | House of Agnes the chandler | shop | 2524.2 | 1427.6 | 33.5 | 38° | 6.4 x 11.2 | 9.3 | gable 3.5 | 3 | timber |
+| M-0369 | House of Christiana the pewterer | house | 2541.0 | 1435.1 | 33.3 | 27° | 9.2 x 9.6 | 9.3 | hip 4.1 | 3 | timber |
+| M-0370 | House of Ivetta the limner | shop | 2550.6 | 1444.0 | 33.3 | 35° | 5.8 x 11.7 | 9.3 | hip 2.6 | 3 | stone |
+| M-0371 | House of Alan the furrier | shop | 2555.9 | 1447.4 | 33.3 | 35° | 6.0 x 11.3 | 9.3 | gable 3.3 | 3 | timber |
+| M-0372 | House of Maud the parchmenter | shop | 2561.8 | 1451.1 | 33.2 | 32° | 6.0 x 11.3 | 12.4 | gable 3.3 | 4 | stone |
+| M-0373 | Workshop of Maud the parchmenter | workshop | 2556.4 | 1459.9 | 33.4 | 32° | 6.0 x 5.1 | 3.2 | gable 2.8 | 1 | timber |
+| M-0374 | House of Geoffrey the fuller | shop | 2586.3 | 1464.5 | 33.1 | 23° | 7.6 x 14.1 | 12.4 | gable 4.2 | 4 | timber |
+| M-0375 | House of Ida the glover | house | 2595.3 | 1466.9 | 33.0 | 14° | 7.1 x 13.2 | 9.3 | gable 3.9 | 3 | timber |
+| M-0376 | Workshop of Ida the glover | workshop | 2592.5 | 1477.8 | 33.1 | 14° | 5.6 x 4.5 | 3.2 | gable 2.5 | 1 | timber |
+| M-0377 | House of Amice the candlemaker | shop | 2621.5 | 1473.7 | 32.6 | 12° | 8.5 x 12.4 | 12.4 | hip 3.8 | 4 | timber |
+| M-0378 | Workshop of Amice the candlemaker | workshop | 2619.0 | 1485.2 | 32.6 | 12° | 5.0 x 6.5 | 3.2 | gable 2.8 | 1 | timber |
+| M-0379 | House of Elena the cooper | house | 2530.9 | 1410.0 | 33.4 | 218° | 7.0 x 12.4 | 9.3 | gable 3.9 | 3 | timber |
+| M-0380 | House of Richard the vintner | shop | 2579.7 | 1441.1 | 33.1 | 204° | 8.2 x 9.9 | 9.3 | hip 3.7 | 3 | timber |
+| M-0381 | House of Jordan the glover | house | 2588.0 | 1443.0 | 32.9 | 208° | 6.5 x 14.1 | 12.4 | hip 2.9 | 4 | timber |
+| M-0382 | Workshop of Jordan the glover | workshop | 2593.4 | 1432.7 | 32.7 | 208° | 6.0 x 4.8 | 3.2 | gable 2.6 | 1 | timber |
+| M-0383 | House of Henry the lute-maker | house | 2608.0 | 1449.8 | 32.6 | 193° | 9.2 x 13.6 | 12.4 | hip 4.1 | 4 | timber |
+| M-0384 | House of Beatrice the baker | house | 2121.1 | 1484.3 | 37.5 | 98° | 8.3 x 13.7 | 12.4 | gable 4.6 | 4 | timber |
+| M-0385 | House of Mabel the pewterer | shop | 2239.8 | 1864.8 | 33.1 | 218° | 7.8 x 10.8 | 12.4 | gable 4.3 | 4 | timber |
+| M-0386 | House of Agnes the fisher | house | 2218.8 | 1852.5 | 33.6 | 204° | 8.1 x 9.4 | 9.3 | gable 4.5 | 3 | timber |
+| M-0387 | Workshop of Agnes the fisher | workshop | 2222.8 | 1843.4 | 33.9 | 204° | 7.1 x 5.4 | 3.2 | gable 3.0 | 1 | timber |
+| M-0388 | House of Mabel the cooper | shop | 2204.5 | 1842.1 | 33.9 | 203° | 8.2 x 15.0 | 9.3 | gable 4.5 | 3 | timber |
+| M-0389 | House of Alys the mason | shop | 2186.3 | 1833.2 | 34.2 | 212° | 5.7 x 15.0 | 9.3 | hip 2.6 | 3 | timber |
+| M-0390 | Workshop of Alys the mason | workshop | 2192.6 | 1823.0 | 34.6 | 212° | 4.9 x 6.6 | 3.2 | gable 2.7 | 1 | timber |
+| M-0391 | House of Cecily the spicer | shop | 2178.2 | 1830.8 | 34.2 | 208° | 8.7 x 11.4 | 12.4 | hip 3.9 | 4 | timber |
+| M-0392 | House of Thomas the minstrel | shop | 2154.7 | 1794.7 | 35.4 | 243° | 8.5 x 14.6 | 12.4 | gable 4.7 | 4 | stone |
+| M-0393 | House of Henry the pie-seller | shop | 2146.9 | 1780.0 | 35.9 | 247° | 6.6 x 10.1 | 9.3 | gable 3.6 | 3 | timber |
+| M-0394 | House of Stephen the fletcher | shop | 2236.6 | 1884.0 | 32.6 | 34° | 8.8 x 11.2 | 9.3 | gable 4.8 | 3 | timber |
+| M-0395 | House of Christiana the bellfounder | shop | 2228.2 | 1879.0 | 32.8 | 38° | 8.8 x 13.2 | 9.3 | gable 4.8 | 3 | timber |
+| M-0396 | Workshop of Christiana the bellfounder | workshop | 2221.9 | 1887.1 | 32.8 | 38° | 5.7 x 5.2 | 3.2 | gable 2.8 | 1 | timber |
+| M-0397 | House of Henry the pie-seller | shop | 2221.4 | 1874.3 | 33.0 | 40° | 6.0 x 14.8 | 12.4 | hip 2.7 | 4 | stone |
+| M-0398 | House of Stephen the herbalist | shop | 2209.8 | 1868.5 | 33.2 | 24° | 5.8 x 14.8 | 9.3 | gable 3.2 | 3 | timber |
+| M-0399 | Workshop of Stephen the herbalist | workshop | 2204.6 | 1880.3 | 33.0 | 24° | 4.7 x 6.6 | 3.2 | gable 2.6 | 1 | timber |
+| M-0400 | House of Ralph the net-mender | shop | 2198.4 | 1859.9 | 33.5 | 23° | 5.7 x 10.2 | 12.4 | gable 3.1 | 4 | timber |
+| M-0401 | Workshop of Ralph the net-mender | workshop | 2194.9 | 1868.2 | 33.4 | 23° | 5.0 x 5.3 | 3.2 | gable 2.7 | 1 | timber |
+| M-0402 | House of Agnes the pie-seller | house | 2192.5 | 1857.5 | 33.6 | 23° | 6.1 x 10.4 | 9.3 | gable 3.4 | 3 | timber |
+| M-0403 | Workshop of Agnes the pie-seller | workshop | 2188.6 | 1866.8 | 33.4 | 23° | 5.3 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| M-0404 | House of Petronilla the butcher | shop | 2185.1 | 1855.2 | 33.6 | 25° | 7.8 x 12.4 | 9.3 | gable 4.3 | 3 | timber |
+| M-0405 | Workshop of Petronilla the butcher | workshop | 2180.8 | 1864.2 | 33.5 | 25° | 6.2 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| M-0406 | House of Hawise the wheelwright | shop | 2172.1 | 1847.0 | 33.8 | 28° | 6.1 x 10.7 | 9.3 | gable 3.4 | 3 | timber |
+| M-0407 | House of Thomas the cooper | house | 2153.0 | 1832.2 | 34.4 | 56° | 7.5 x 14.2 | 12.4 | hip 3.4 | 4 | timber |
+| M-0408 | House of Edith the juggler | shop | 2148.9 | 1825.1 | 34.6 | 62° | 6.5 x 13.8 | 9.3 | gable 3.6 | 3 | stone |
+| M-0409 | House of Maud the jeweller | shop | 2139.0 | 1805.7 | 35.2 | 63° | 5.6 x 11.1 | 9.3 | gable 3.1 | 3 | timber |
+| M-0410 | Workshop of Maud the jeweller | workshop | 2129.3 | 1810.7 | 35.2 | 63° | 4.9 x 5.8 | 3.2 | gable 2.7 | 1 | timber |
+| M-0411 | House of Hawise the lute-maker | shop | 2134.4 | 1799.4 | 35.5 | 72° | 5.9 x 14.8 | 12.4 | gable 3.2 | 4 | timber |
+| M-0412 | Workshop of Hawise the lute-maker | workshop | 2121.3 | 1803.7 | 35.5 | 72° | 5.1 x 6.8 | 3.2 | gable 2.8 | 1 | timber |
+| M-0413 | House of Isabel the clockmaker | house | 2159.4 | 1638.5 | 37.0 | 101° | 8.0 x 10.8 | 12.4 | gable 4.4 | 4 | timber |
+| M-0414 | House of Wat the wheelwright | shop | 2158.7 | 1647.5 | 37.0 | 99° | 8.7 x 9.1 | 9.3 | gable 4.8 | 3 | timber |
+| M-0415 | Workshop of Wat the wheelwright | workshop | 2150.7 | 1646.2 | 37.2 | 99° | 6.5 x 5.1 | 3.2 | gable 2.8 | 1 | timber |
+| M-0416 | House of Rose the lute-maker | shop | 2155.4 | 1662.0 | 36.9 | 114° | 9.0 x 9.1 | 9.3 | gable 4.9 | 3 | timber |
+| M-0417 | House of Amice the tailor | house | 2150.3 | 1669.3 | 36.9 | 108° | 5.5 x 13.1 | 12.4 | gable 3.0 | 4 | stone |
+| M-0418 | Workshop of Amice the tailor | workshop | 2138.8 | 1665.7 | 37.0 | 108° | 4.9 x 6.8 | 3.2 | gable 2.7 | 1 | timber |
+| M-0419 | House of Elena the brewer | shop | 2177.8 | 1642.4 | 36.9 | 281° | 9.2 x 14.3 | 12.4 | gable 5.1 | 4 | stone |
+| M-0420 | House of Alan the saddler | shop | 2455.7 | 1940.1 | 29.8 | 60° | 8.1 x 14.9 | 12.4 | hip 3.6 | 4 | timber |
+| M-0421 | House of Ralph the notary | shop | 2468.8 | 1924.3 | 30.0 | 245° | 8.7 x 11.0 | 12.4 | gable 4.8 | 4 | timber |
+| M-0422 | House of Avice the pewterer | shop | 2132.2 | 1743.7 | 36.5 | 100° | 8.2 x 10.1 | 12.4 | gable 4.5 | 4 | timber |
+| M-0423 | House of Richard the fisher | shop | 2127.2 | 1756.9 | 36.3 | 105° | 7.6 x 12.2 | 12.4 | gable 4.2 | 4 | stone |
+| M-0424 | House of Laurence the clockmaker | house | 2123.2 | 1781.3 | 35.9 | 97° | 5.6 x 14.5 | 9.3 | gable 3.1 | 3 | stone |
+| M-0425 | Workshop of Laurence the clockmaker | workshop | 2110.6 | 1779.8 | 35.9 | 97° | 5.2 x 6.6 | 3.2 | gable 2.9 | 1 | timber |
+| M-0426 | House of Martin the tailor | shop | 2123.1 | 1790.6 | 35.7 | 84° | 7.6 x 14.3 | 9.3 | gable 4.2 | 3 | timber |
+| M-0427 | Workshop of Martin the tailor | workshop | 2110.6 | 1791.9 | 35.7 | 84° | 4.6 x 5.5 | 3.2 | gable 2.5 | 1 | timber |
+| M-0428 | House of Alan the locksmith | shop | 2144.2 | 1767.0 | 36.1 | 270° | 6.7 x 12.7 | 9.3 | gable 3.7 | 3 | timber |
+| M-0429 | House of Piers the apothecary | house | 2436.0 | 1738.8 | 33.5 | 315° | 8.6 x 10.9 | 12.4 | gable 4.7 | 4 | timber |
+| M-0430 | House of Hugh the furrier | house | 2527.3 | 1687.6 | 32.7 | 332° | 5.7 x 10.7 | 9.3 | hip 2.6 | 3 | timber |
+| M-0431 | Workshop of Hugh the furrier | workshop | 2532.1 | 1696.8 | 32.5 | 332° | 4.6 x 5.7 | 3.2 | gable 2.5 | 1 | timber |
+| M-0432 | House of Alys the herbalist | shop | 2544.4 | 1681.7 | 32.6 | 343° | 7.8 x 14.2 | 12.4 | gable 4.3 | 4 | timber |
+| M-0433 | House of Margery the glazier | house | 2550.9 | 1677.3 | 32.5 | 343° | 6.4 x 9.7 | 12.4 | gable 3.5 | 4 | stone |
+| M-0434 | House of Odo the wheelwright | shop | 2557.7 | 1676.1 | 32.4 | 343° | 6.5 x 11.2 | 9.3 | gable 3.6 | 3 | stone |
+| M-0435 | Workshop of Odo the wheelwright | workshop | 2560.7 | 1686.1 | 32.3 | 343° | 5.3 x 5.7 | 3.2 | gable 2.9 | 1 | timber |
+| M-0436 | House of Laurence the cooper | shop | 2489.6 | 1683.5 | 33.5 | 158° | 8.5 x 12.9 | 12.4 | gable 4.7 | 4 | stone |
+| M-0437 | House of Gilbert the cutler | house | 2499.2 | 1681.8 | 33.4 | 160° | 9.4 x 9.1 | 12.4 | gable 5.0 | 4 | timber |
+| M-0438 | Workshop of Gilbert the cutler | workshop | 2496.0 | 1672.7 | 33.5 | 160° | 8.9 x 6.8 | 3.2 | gable 3.7 | 1 | timber |
+| M-0439 | House of Roger the potter | shop | 2506.6 | 1676.8 | 33.2 | 160° | 7.1 x 13.8 | 9.3 | gable 3.9 | 3 | timber |
+| M-0440 | Workshop of Roger the potter | workshop | 2502.4 | 1665.0 | 33.4 | 160° | 5.0 x 5.6 | 3.2 | gable 2.7 | 1 | timber |
+| M-0441 | House of Emma the cobbler | shop | 2519.7 | 1670.8 | 33.1 | 152° | 9.2 x 13.6 | 12.4 | gable 5.1 | 4 | timber |
+| M-0442 | Workshop of Emma the cobbler | workshop | 2514.5 | 1661.3 | 33.3 | 152° | 8.9 x 4.6 | 3.2 | gable 2.5 | 1 | timber |
+| M-0443 | House of Geoffrey the tailor | shop | 2513.6 | 1699.1 | 32.9 | 68° | 7.4 x 13.9 | 9.3 | gable 4.0 | 3 | timber |
+| M-0444 | House of Roger the money-changer | shop | 2518.5 | 1712.5 | 32.6 | 75° | 7.3 x 12.5 | 9.3 | hip 3.3 | 3 | timber |
+| M-0445 | House of Matilda the astrologer | house | 2522.9 | 1722.0 | 32.4 | 58° | 7.9 x 10.1 | 9.3 | hip 3.5 | 3 | timber |
+| M-0446 | House of Gilbert the hatter | shop | 2532.1 | 1736.6 | 32.1 | 61° | 9.3 x 10.5 | 12.4 | hip 4.2 | 4 | timber |
+| M-0447 | Workshop of Gilbert the hatter | workshop | 2522.5 | 1742.0 | 32.1 | 61° | 9.0 x 6.7 | 3.2 | gable 3.7 | 1 | timber |
+| M-0448 | House of Ivetta the cooper | shop | 2538.5 | 1749.5 | 31.8 | 65° | 7.8 x 10.9 | 12.4 | hip 3.5 | 4 | stone |
+| M-0449 | House of Stephen the cutler | shop | 2542.3 | 1757.8 | 31.6 | 58° | 7.5 x 12.6 | 9.3 | hip 3.4 | 3 | timber |
+| M-0450 | House of Piers the bowyer | shop | 2539.3 | 1715.4 | 32.2 | 238° | 8.6 x 12.3 | 9.3 | gable 4.7 | 3 | stone |
+| M-0451 | House of Emma the goldsmith | shop | 2553.2 | 1736.7 | 31.7 | 245° | 8.3 x 13.9 | 12.4 | gable 4.5 | 4 | stone |
+| M-0452 | House of Beatrice the herbalist | house | 2364.6 | 1915.0 | 31.2 | 310° | 5.8 x 9.6 | 9.3 | gable 3.2 | 3 | stone |
+| M-0453 | House of Baldwin the mason | shop | 2371.2 | 1909.8 | 31.3 | 306° | 8.4 x 13.8 | 12.4 | hip 3.8 | 4 | timber |
+| M-0454 | House of Margery the notary | shop | 2375.5 | 1901.6 | 31.5 | 300° | 7.2 x 12.1 | 9.3 | gable 4.0 | 3 | timber |
+| M-0455 | Workshop of Margery the notary | workshop | 2385.1 | 1907.2 | 31.3 | 300° | 5.6 x 5.6 | 3.2 | gable 3.1 | 1 | timber |
+| M-0456 | House of Simon the saddler | shop | 2381.4 | 1890.3 | 31.8 | 318° | 7.9 x 9.5 | 12.4 | hip 3.6 | 4 | stone |
+| M-0457 | Workshop of Simon the saddler | workshop | 2387.5 | 1896.9 | 31.6 | 318° | 4.8 x 5.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0458 | House of Cecily the barber-surgeon | shop | 2407.1 | 1876.4 | 31.8 | 343° | 9.3 x 12.7 | 9.3 | gable 5.1 | 3 | timber |
+| M-0459 | House of Godwin the tinker | house | 2423.8 | 1873.3 | 31.6 | 351° | 8.7 x 12.4 | 12.4 | hip 3.9 | 4 | timber |
+| M-0460 | House of Edith the minstrel | shop | 2453.1 | 1845.3 | 31.5 | 134° | 8.0 x 13.4 | 9.3 | hip 3.6 | 3 | timber |
+| M-0461 | House of Rose the baker | shop | 2341.5 | 1837.3 | 33.5 | 285° | 6.8 x 11.6 | 12.4 | gable 3.7 | 4 | timber |
+| M-0462 | House of Alan the pie-seller | house | 2344.3 | 1829.7 | 33.5 | 285° | 8.6 x 13.0 | 12.4 | gable 4.7 | 4 | timber |
+| M-0463 | House of Wat the pewterer | shop | 2346.1 | 1821.8 | 33.6 | 282° | 5.7 x 12.8 | 12.4 | gable 3.1 | 4 | timber |
+| M-0464 | House of Edith the tinker | shop | 2320.1 | 1847.3 | 33.4 | 132° | 6.3 x 10.1 | 12.4 | gable 3.5 | 4 | timber |
+| M-0465 | Workshop of Edith the tinker | workshop | 2312.6 | 1840.7 | 33.6 | 132° | 6.2 x 5.2 | 3.2 | gable 2.9 | 1 | timber |
+| M-0466 | House of Hawise the glazier | shop | 2324.1 | 1837.4 | 33.6 | 105° | 8.4 x 9.6 | 12.4 | gable 4.6 | 4 | timber |
+| M-0467 | House of Henry the potter | shop | 2324.5 | 1827.9 | 33.8 | 105° | 9.2 x 13.8 | 9.3 | gable 5.0 | 3 | stone |
+| M-0468 | House of Adam the weaver | shop | 2329.9 | 1812.5 | 33.8 | 104° | 8.2 x 10.3 | 12.4 | hip 3.7 | 4 | timber |
+| M-0469 | House of Elena the juggler | shop | 2410.9 | 1671.6 | 34.6 | 291° | 5.5 x 9.9 | 12.4 | gable 3.0 | 4 | stone |
+| M-0470 | Workshop of Elena the juggler | workshop | 2420.9 | 1675.5 | 34.4 | 291° | 5.4 x 6.4 | 3.2 | gable 3.0 | 1 | timber |
+| M-0471 | House of Agnes the jeweller | house | 2419.7 | 1659.9 | 34.6 | 302° | 9.4 x 13.4 | 9.3 | hip 4.2 | 3 | timber |
+| M-0472 | Workshop of Agnes the jeweller | workshop | 2429.4 | 1665.9 | 34.4 | 302° | 9.4 x 6.1 | 3.2 | gable 3.4 | 1 | timber |
+| M-0473 | House of Cecily the wheelwright | shop | 2386.5 | 1710.8 | 34.5 | 116° | 7.4 x 13.9 | 12.4 | gable 4.0 | 4 | timber |
+| M-0474 | House of Sybil the wheelwright | house | 2388.2 | 1700.1 | 34.6 | 88° | 7.0 x 14.5 | 9.3 | gable 3.9 | 3 | timber |
+| M-0475 | House of Hob the fletcher | shop | 2391.8 | 1675.8 | 34.8 | 99° | 7.9 x 10.9 | 9.3 | gable 4.3 | 3 | timber |
+| M-0476 | House of Adam the cobbler | house | 2405.0 | 1649.5 | 34.8 | 122° | 6.4 x 10.3 | 9.3 | gable 3.5 | 3 | stone |
+| M-0477 | House of Osbert the lute-maker | house | 2129.1 | 1821.9 | 34.8 | 116° | 5.7 x 13.9 | 12.4 | gable 3.1 | 4 | timber |
+| M-0478 | Workshop of Osbert the lute-maker | workshop | 2118.5 | 1816.7 | 35.1 | 116° | 5.1 x 5.7 | 3.2 | gable 2.8 | 1 | timber |
+| M-0479 | House of Martin the draper | shop | 2587.3 | 1422.6 | 32.6 | 305° | 8.7 x 10.0 | 12.4 | hip 3.9 | 4 | timber |
+| M-0480 | House of Odo the cobbler | shop | 2561.5 | 1431.0 | 33.2 | 130° | 7.7 x 14.0 | 9.3 | hip 3.5 | 3 | stone |
+| M-0481 | Workshop of Odo the cobbler | workshop | 2551.3 | 1422.6 | 33.2 | 130° | 6.0 x 6.6 | 3.2 | gable 3.3 | 1 | timber |
+| M-0482 | House of Gilbert the fletcher | shop | 2568.8 | 1419.7 | 32.9 | 110° | 8.2 x 13.5 | 12.4 | hip 3.7 | 4 | timber |
+| M-0483 | Workshop of Gilbert the fletcher | workshop | 2559.3 | 1416.3 | 33.0 | 110° | 7.2 x 4.7 | 3.2 | gable 2.6 | 1 | timber |
+| M-0484 | House of Juliana the goldsmith | shop | 2247.3 | 1599.2 | 36.7 | 138° | 5.6 x 12.0 | 12.4 | hip 2.5 | 4 | timber |
+| M-0485 | House of Piers the minstrel | shop | 2252.6 | 1594.7 | 36.6 | 138° | 7.6 x 11.7 | 9.3 | gable 4.2 | 3 | stone |
+| M-0486 | House of Hob the draper | shop | 2536.0 | 1801.1 | 30.9 | 129° | 7.7 x 11.0 | 12.4 | gable 4.2 | 4 | timber |
+| M-0487 | House of Nicholas the scribe | house | 2520.6 | 1819.5 | 30.8 | 126° | 7.3 x 9.8 | 9.3 | hip 3.3 | 3 | stone |
+| M-0488 | House of Agnes the goldsmith | house | 2544.9 | 1816.4 | 30.5 | 310° | 7.2 x 9.7 | 9.3 | gable 3.9 | 3 | timber |
+| M-0489 | Workshop of Agnes the goldsmith | workshop | 2552.1 | 1822.4 | 30.3 | 310° | 4.5 x 5.8 | 3.2 | gable 2.5 | 1 | timber |
+| M-0490 | House of Joan the goldsmith | house | 2538.4 | 1822.5 | 30.5 | 318° | 7.6 x 9.8 | 12.4 | gable 4.2 | 4 | timber |
+| M-0491 | Workshop of Joan the goldsmith | workshop | 2544.0 | 1828.8 | 30.4 | 318° | 5.8 x 5.0 | 3.2 | gable 2.8 | 1 | timber |
+| M-0492 | House of Jordan the brewer | house | 2284.3 | 1718.4 | 35.5 | 146° | 8.7 x 14.5 | 12.4 | hip 3.9 | 4 | timber |
+| M-0493 | House of Thomas the sailmaker | house | 2277.8 | 1723.2 | 35.5 | 144° | 5.9 x 13.8 | 12.4 | gable 3.2 | 4 | timber |
+| M-0494 | House of Richard the cobbler | shop | 2272.0 | 1727.3 | 35.6 | 144° | 7.5 x 13.9 | 9.3 | hip 3.4 | 3 | stone |
+| M-0495 | House of Christiana the net-mender | shop | 2248.2 | 1746.4 | 35.6 | 144° | 5.7 x 13.9 | 9.3 | gable 3.1 | 3 | timber |
+| M-0496 | Workshop of Christiana the net-mender | workshop | 2241.3 | 1736.9 | 35.8 | 144° | 5.5 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| M-0497 | House of Felice the stonecarver | shop | 2237.6 | 1755.7 | 35.5 | 146° | 9.3 x 10.7 | 12.4 | gable 5.1 | 4 | timber |
+| M-0498 | Workshop of Felice the stonecarver | workshop | 2231.7 | 1747.0 | 35.7 | 146° | 8.6 x 5.6 | 3.2 | gable 3.1 | 1 | timber |
+| M-0499 | House of Juliana the wheelwright | shop | 2230.5 | 1760.9 | 35.5 | 146° | 7.5 x 10.0 | 12.4 | gable 4.2 | 4 | stone |
+| M-0500 | Workshop of Juliana the wheelwright | workshop | 2224.9 | 1752.5 | 35.7 | 146° | 6.6 x 5.2 | 3.2 | gable 2.9 | 1 | timber |
+| M-0501 | House of Mabel the notary | shop | 2224.1 | 1764.7 | 35.6 | 147° | 6.7 x 10.6 | 12.4 | hip 3.0 | 4 | timber |
+| M-0502 | House of Henry the mercer | house | 2217.1 | 1768.7 | 35.6 | 138° | 5.5 x 13.4 | 12.4 | gable 3.0 | 4 | stone |
+| M-0503 | House of Joan the lute-maker | shop | 2205.4 | 1780.1 | 35.5 | 144° | 8.6 x 9.3 | 12.4 | gable 4.7 | 4 | timber |
+| M-0504 | House of Laurence the fishmonger | shop | 2194.2 | 1783.9 | 35.6 | 167° | 9.4 x 11.7 | 12.4 | gable 5.2 | 4 | stone |
+| M-0505 | Workshop of Laurence the fishmonger | workshop | 2191.7 | 1773.0 | 35.8 | 167° | 6.5 x 6.7 | 3.2 | gable 3.6 | 1 | timber |
+| M-0506 | House of Odo the net-mender | house | 2168.1 | 1790.3 | 35.6 | 169° | 7.1 x 10.0 | 9.3 | gable 3.9 | 3 | timber |
+| M-0507 | House of Henry the pewterer | house | 2313.6 | 1714.1 | 35.3 | 306° | 7.7 x 10.3 | 12.4 | hip 3.4 | 4 | timber |
+| M-0508 | House of Hugh the bowyer | shop | 2295.7 | 1732.9 | 35.2 | 326° | 7.4 x 9.9 | 9.3 | gable 4.0 | 3 | stone |
+| M-0509 | House of Alys the mercer | house | 2281.4 | 1743.3 | 35.3 | 327° | 7.2 x 10.7 | 12.4 | gable 4.0 | 4 | stone |
+| M-0510 | House of Henry the pie-seller | shop | 2271.9 | 1751.2 | 35.3 | 315° | 7.5 x 11.4 | 12.4 | gable 4.2 | 4 | stone |
+| M-0511 | House of Richard the bellfounder | shop | 2253.2 | 1766.2 | 35.3 | 326° | 7.2 x 11.8 | 9.3 | hip 3.3 | 3 | timber |
+| M-0512 | Workshop of Richard the bellfounder | workshop | 2260.0 | 1776.2 | 35.1 | 326° | 5.3 x 6.7 | 3.2 | gable 2.9 | 1 | timber |
+| M-0513 | House of Wat the stonecarver | shop | 2248.0 | 1770.9 | 35.2 | 326° | 5.8 x 13.8 | 12.4 | hip 2.6 | 4 | stone |
+| M-0514 | House of Ida the cartographer | house | 2241.7 | 1772.8 | 35.3 | 326° | 5.7 x 9.8 | 9.3 | hip 2.6 | 3 | stone |
+| M-0515 | House of Robin the wheelwright | shop | 2219.3 | 1790.5 | 35.4 | 324° | 6.7 x 11.6 | 9.3 | gable 3.7 | 3 | timber |
+| M-0516 | House of Rose the glazier | shop | 2204.1 | 1798.3 | 35.2 | 340° | 6.6 x 9.4 | 12.4 | hip 3.0 | 4 | stone |
+| M-0517 | House of Elena the parchmenter | shop | 2197.2 | 1801.6 | 35.2 | 347° | 5.8 x 11.8 | 12.4 | hip 2.6 | 4 | timber |
+| M-0518 | Workshop of Elena the parchmenter | workshop | 2199.6 | 1812.0 | 35.0 | 347° | 5.5 x 6.0 | 3.2 | gable 3.0 | 1 | timber |
+| M-0519 | House of Simon the candlemaker | shop | 2173.5 | 1808.1 | 35.1 | 351° | 7.3 x 14.6 | 12.4 | hip 3.3 | 4 | timber |
+| M-0520 | Workshop of Simon the candlemaker | workshop | 2175.3 | 1819.6 | 34.8 | 351° | 7.0 x 5.8 | 3.2 | gable 3.2 | 1 | timber |
+| M-0521 | House of Osbert the pie-seller | house | 2188.5 | 1882.6 | 33.0 | 190° | 8.9 x 11.5 | 9.3 | gable 4.9 | 3 | stone |
+| M-0522 | House of Sybil the money-changer | shop | 2179.7 | 1880.2 | 33.1 | 185° | 6.9 x 13.6 | 9.3 | gable 3.8 | 3 | stone |
+| M-0523 | House of Elena the pewterer | house | 2238.6 | 1908.1 | 32.2 | 5° | 7.8 x 12.9 | 12.4 | hip 3.5 | 4 | timber |
+| M-0524 | House of Hawise the shipwright | house | 2203.7 | 1903.5 | 32.1 | 13° | 8.6 x 10.1 | 9.3 | hip 3.9 | 3 | timber |
+| M-0525 | House of Martin the locksmith | shop | 2201.8 | 1563.3 | 37.0 | 147° | 7.8 x 9.5 | 12.4 | gable 4.3 | 4 | timber |
+| M-0526 | House of Juliana the scribe | shop | 2221.2 | 1554.8 | 36.9 | 173° | 9.4 x 9.5 | 9.3 | gable 5.2 | 3 | timber |
+| M-0527 | Workshop of Juliana the scribe | workshop | 2219.9 | 1544.7 | 36.9 | 173° | 7.1 x 6.0 | 3.2 | gable 3.3 | 1 | timber |
+| M-0528 | House of Alys the scribe | shop | 2246.8 | 1713.4 | 36.0 | 241° | 8.9 x 9.9 | 12.4 | gable 4.9 | 4 | timber |
+| M-0529 | House of Alys the baker | shop | 2238.5 | 1687.1 | 36.2 | 258° | 6.0 x 13.8 | 9.3 | hip 2.7 | 3 | timber |
+| M-0530 | House of Laurence the sailmaker | shop | 2235.8 | 1728.3 | 35.8 | 56° | 6.8 x 12.3 | 9.3 | hip 3.1 | 3 | timber |
+| M-0531 | House of Elena the spicer | shop | 2231.0 | 1720.7 | 35.9 | 62° | 8.3 x 12.4 | 9.3 | hip 3.7 | 3 | timber |
+| M-0532 | House of Rose the hatter | house | 2227.8 | 1711.8 | 36.1 | 64° | 9.2 x 10.0 | 9.3 | gable 5.1 | 3 | stone |
+| M-0533 | House of Felice the limner | shop | 2221.6 | 1662.4 | 36.4 | 108° | 6.9 x 10.5 | 9.3 | hip 3.1 | 3 | stone |
+| M-0534 | House of Gilbert the hatter | shop | 2113.9 | 1760.2 | 36.2 | 173° | 6.0 x 12.8 | 12.4 | hip 2.7 | 4 | stone |
+| M-0535 | House of Henry the ropemaker | shop | 2107.9 | 1761.7 | 36.2 | 173° | 5.6 x 11.3 | 12.4 | gable 3.1 | 4 | timber |
+| M-0536 | House of Odo the juggler | shop | 2567.3 | 1721.4 | 31.7 | 320° | 7.3 x 14.6 | 12.4 | gable 4.0 | 4 | timber |
+| M-0537 | House of Felice the herbalist | shop | 2584.6 | 1709.2 | 31.6 | 336° | 6.8 x 13.7 | 9.3 | hip 3.0 | 3 | timber |
+| M-0538 | Workshop of Felice the herbalist | workshop | 2589.7 | 1720.4 | 31.4 | 336° | 5.4 x 5.9 | 3.2 | gable 3.0 | 1 | timber |
+| M-0539 | House of Petronilla the fisher | shop | 2599.5 | 1701.1 | 31.4 | 329° | 9.0 x 12.3 | 9.3 | hip 4.1 | 3 | timber |
+| M-0540 | House of Godwin the saddler | shop | 2552.0 | 1711.2 | 32.1 | 133° | 6.0 x 9.2 | 12.4 | hip 2.7 | 4 | timber |
+| M-0541 | House of Isabel the minstrel | house | 2557.6 | 1705.1 | 32.0 | 140° | 7.6 x 10.6 | 9.3 | hip 3.4 | 3 | timber |
+| M-0542 | House of Hawise the baker | shop | 2562.1 | 1698.8 | 32.0 | 142° | 5.8 x 14.6 | 9.3 | gable 3.2 | 3 | stone |
+| M-0543 | House of Wat the scribe | shop | 2570.3 | 1694.6 | 31.9 | 156° | 7.3 x 12.2 | 9.3 | gable 4.0 | 3 | stone |
+| M-0544 | House of Alys the glazier | house | 2577.4 | 1691.5 | 31.8 | 156° | 7.4 x 11.9 | 12.4 | gable 4.1 | 4 | timber |
+| M-0545 | Workshop of Alys the glazier | workshop | 2572.8 | 1681.3 | 32.1 | 156° | 6.1 x 6.2 | 3.2 | gable 3.4 | 1 | timber |
+| M-0546 | House of Felice the barber-surgeon | shop | 2583.6 | 1687.6 | 31.8 | 157° | 5.7 x 14.3 | 9.3 | hip 2.6 | 3 | timber |
+| M-0547 | Workshop of Felice the barber-surgeon | workshop | 2578.8 | 1676.2 | 32.1 | 157° | 5.3 x 6.8 | 3.2 | gable 2.9 | 1 | timber |
+| M-0548 | House of Rose the fisher | shop | 2598.2 | 1681.3 | 31.7 | 174° | 6.2 x 14.0 | 12.4 | hip 2.8 | 4 | stone |
+| M-0549 | Workshop of Rose the fisher | workshop | 2597.1 | 1669.5 | 32.0 | 174° | 5.2 x 5.4 | 3.2 | gable 2.8 | 1 | timber |
+| M-0550 | House of Emma the tinker | house | 2605.3 | 1680.6 | 31.6 | 174° | 7.3 x 14.1 | 12.4 | hip 3.3 | 4 | timber |
+| M-0551 | House of Cecily the bowyer | house | 2144.8 | 1520.6 | 37.3 | 344° | 6.8 x 9.2 | 12.4 | hip 3.0 | 4 | timber |
+| M-0552 | House of Geoffrey the minstrel | shop | 2215.3 | 1826.1 | 34.5 | 304° | 7.2 x 12.2 | 12.4 | hip 3.2 | 4 | timber |
+| M-0553 | Workshop of Geoffrey the minstrel | workshop | 2225.0 | 1832.5 | 34.4 | 304° | 7.1 x 6.9 | 3.2 | gable 3.8 | 1 | timber |
+| M-0554 | House of Maud the pie-seller | house | 2220.1 | 1817.3 | 34.7 | 293° | 8.6 x 12.7 | 12.4 | gable 4.7 | 4 | timber |
+| M-0555 | Workshop of Maud the pie-seller | workshop | 2230.2 | 1821.5 | 34.6 | 293° | 8.0 x 5.7 | 3.2 | gable 3.1 | 1 | timber |
+| M-0556 | House of Godwin the furrier | shop | 2222.1 | 1808.2 | 35.0 | 285° | 6.8 x 10.5 | 9.3 | gable 3.8 | 3 | stone |
+| M-0557 | House of Alan the scribe | house | 2681.5 | 1576.3 | 31.5 | 23° | 7.6 x 9.5 | 9.3 | gable 4.2 | 3 | timber |
+| M-0558 | House of Odo the carpenter | house | 2693.9 | 1584.6 | 31.2 | 32° | 7.7 x 11.1 | 12.4 | gable 4.2 | 4 | timber |
+| M-0559 | House of Isabel the sailmaker | house | 2691.9 | 1562.6 | 31.4 | 210° | 5.6 x 12.3 | 9.3 | gable 3.1 | 3 | stone |
+| M-0560 | House of Martin the tailor | house | 2697.6 | 1567.4 | 31.2 | 212° | 7.6 x 9.6 | 12.4 | gable 4.2 | 4 | timber |
+| M-0561 | Workshop of Martin the tailor | workshop | 2702.5 | 1559.5 | 31.1 | 212° | 5.3 x 5.7 | 3.2 | gable 2.9 | 1 | timber |
+| M-0562 | House of Robin the money-changer | house | 2207.6 | 1586.6 | 37.0 | 44° | 7.9 x 9.8 | 9.3 | hip 3.5 | 3 | stone |
+| M-0563 | Workshop of Robin the money-changer | workshop | 2200.7 | 1593.6 | 37.0 | 44° | 6.4 x 5.4 | 3.2 | gable 3.0 | 1 | timber |
+| M-0564 | House of Nicholas the juggler | shop | 2214.4 | 1594.2 | 36.9 | 33° | 8.4 x 12.3 | 9.3 | gable 4.6 | 3 | stone |
+| M-0565 | Workshop of Nicholas the juggler | workshop | 2208.2 | 1603.7 | 36.9 | 33° | 4.9 x 6.8 | 3.2 | gable 2.7 | 1 | timber |
+| M-0566 | House of Henry the fisher | house | 2298.7 | 1494.4 | 36.2 | 89° | 5.8 x 9.5 | 12.4 | gable 3.2 | 4 | stone |
+| M-0567 | House of Laurence the furrier | house | 2299.1 | 1512.2 | 36.2 | 80° | 8.0 x 9.3 | 9.3 | gable 4.4 | 3 | timber |
+| M-0568 | House of Margery the notary | shop | 2317.4 | 1517.0 | 35.9 | 263° | 7.3 x 12.9 | 12.4 | hip 3.3 | 4 | timber |
+| M-0569 | Workshop of Margery the notary | workshop | 2328.7 | 1515.6 | 35.8 | 263° | 5.9 x 7.0 | 3.2 | gable 3.3 | 1 | timber |
+| M-0570 | House of Alys the clockmaker | shop | 2315.8 | 1526.0 | 36.0 | 271° | 7.3 x 10.4 | 9.3 | gable 4.0 | 3 | stone |
+| M-0571 | House of Baldwin the cooper | shop | 2689.8 | 1548.4 | 31.5 | 304° | 8.9 x 10.1 | 9.3 | gable 4.9 | 3 | timber |
+| M-0572 | House of Simon the lute-maker | house | 2681.3 | 1535.6 | 31.9 | 217° | 6.8 x 10.3 | 12.4 | hip 3.1 | 4 | timber |
+| M-0573 | House of Osbert the baker | shop | 2647.0 | 1508.2 | 32.3 | 230° | 7.2 x 11.8 | 12.4 | hip 3.2 | 4 | stone |
+| M-0574 | House of Ida the brewer | house | 2640.8 | 1502.1 | 32.4 | 230° | 8.9 x 10.2 | 12.4 | gable 4.9 | 4 | stone |
+| M-0575 | House of Simon the apothecary | shop | 2633.1 | 1494.8 | 32.5 | 217° | 7.9 x 11.6 | 12.4 | gable 4.4 | 4 | timber |
+| M-0576 | Workshop of Simon the apothecary | workshop | 2639.3 | 1486.5 | 32.5 | 217° | 7.2 x 5.5 | 3.2 | gable 3.0 | 1 | timber |
+| M-0577 | House of Laurence the herbalist | house | 2627.3 | 1489.2 | 32.5 | 217° | 7.3 x 13.5 | 9.3 | hip 3.3 | 3 | timber |
+| M-0578 | House of Petronilla the carpenter | shop | 2651.9 | 1536.9 | 32.1 | 35° | 6.5 x 10.5 | 9.3 | gable 3.6 | 3 | stone |
+| M-0579 | House of Alan the fletcher | shop | 2644.8 | 1531.7 | 32.2 | 45° | 7.6 x 10.8 | 12.4 | gable 4.2 | 4 | timber |
+| M-0580 | Workshop of Alan the fletcher | workshop | 2638.1 | 1538.4 | 32.3 | 45° | 5.6 x 5.3 | 3.2 | gable 2.9 | 1 | timber |
+| M-0581 | House of Hawise the money-changer | shop | 2638.6 | 1524.8 | 32.4 | 50° | 8.6 x 10.0 | 9.3 | gable 4.7 | 3 | stone |
+| M-0582 | Workshop of Hawise the money-changer | workshop | 2630.5 | 1531.5 | 32.6 | 50° | 4.7 x 5.2 | 3.2 | gable 2.6 | 1 | timber |
+| M-0583 | House of Godwin the fisher | shop | 2620.5 | 1507.4 | 32.6 | 37° | 8.9 x 11.3 | 9.3 | gable 4.9 | 3 | timber |
+| M-0584 | Workshop of Godwin the fisher | workshop | 2614.5 | 1515.4 | 32.7 | 37° | 6.6 x 5.0 | 3.2 | gable 2.8 | 1 | timber |
+| M-0585 | House of Felice the notary | house | 2613.2 | 1501.3 | 32.7 | 42° | 7.7 x 10.4 | 12.4 | hip 3.5 | 4 | stone |
+| M-0586 | Workshop of Felice the notary | workshop | 2606.3 | 1508.9 | 32.8 | 42° | 7.0 x 4.7 | 3.2 | gable 2.6 | 1 | timber |
+| M-0587 | House of Baldwin the saddler | shop | 2599.4 | 1491.6 | 33.0 | 40° | 7.6 x 14.0 | 9.3 | hip 3.4 | 3 | stone |
+| M-0588 | Workshop of Baldwin the saddler | workshop | 2591.9 | 1500.7 | 33.0 | 40° | 6.7 x 6.5 | 3.2 | gable 3.6 | 1 | timber |
+| M-0589 | House of Roger the cobbler | house | 2266.1 | 1831.6 | 34.1 | 118° | 5.6 x 9.5 | 9.3 | hip 2.5 | 3 | stone |
+| M-0590 | House of Alys the brewer | shop | 2256.5 | 1845.4 | 33.7 | 118° | 7.7 x 11.4 | 9.3 | hip 3.5 | 3 | stone |
+| M-0591 | House of Juliana the armourer | house | 2320.6 | 1906.2 | 31.6 | 122° | 6.5 x 11.6 | 9.3 | gable 3.5 | 3 | timber |
+| M-0592 | House of Avice the lute-maker | shop | 2306.3 | 1924.8 | 31.4 | 117° | 7.5 x 12.8 | 12.4 | hip 3.4 | 4 | timber |
+| M-0593 | House of Wat the parchmenter | shop | 2303.0 | 1933.5 | 31.3 | 108° | 8.0 x 11.4 | 12.4 | hip 3.6 | 4 | timber |
+| M-0594 | House of Matilda the weaver | shop | 2301.5 | 1940.7 | 31.3 | 108° | 5.8 x 9.7 | 12.4 | gable 3.2 | 4 | stone |
+| M-0595 | Workshop of Matilda the weaver | workshop | 2292.1 | 1937.6 | 31.4 | 108° | 4.9 x 5.3 | 3.2 | gable 2.7 | 1 | timber |
+| M-0596 | House of Osbert the vintner | shop | 2337.6 | 1911.7 | 31.4 | 302° | 6.7 x 12.6 | 12.4 | gable 3.7 | 4 | stone |
+| M-0597 | House of Richard the spicer | shop | 2327.0 | 1924.1 | 31.2 | 307° | 8.8 x 9.6 | 12.4 | gable 4.8 | 4 | timber |
+| M-0598 | Workshop of Richard the spicer | workshop | 2335.3 | 1930.4 | 31.1 | 307° | 8.6 x 5.7 | 3.2 | gable 3.1 | 1 | timber |
+| M-0599 | House of Robin the fuller | shop | 2320.5 | 1936.4 | 31.1 | 297° | 6.3 x 12.7 | 12.4 | hip 2.8 | 4 | timber |
+| M-0600 | Workshop of Robin the fuller | workshop | 2330.5 | 1941.5 | 31.0 | 297° | 5.5 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0601 | House of Hawise the cheesemonger | shop | 2352.6 | 1923.6 | 31.1 | 43° | 7.5 x 10.6 | 9.3 | gable 4.2 | 3 | stone |
+| M-0602 | Workshop of Hawise the cheesemonger | workshop | 2345.2 | 1931.4 | 31.1 | 43° | 6.8 x 6.7 | 3.2 | gable 3.7 | 1 | timber |
+| M-0603 | House of Alys the carpenter | house | 2362.2 | 1938.8 | 30.8 | 72° | 6.1 x 11.8 | 9.3 | gable 3.4 | 3 | timber |
+| M-0604 | House of Hugh the bellfounder | shop | 2378.3 | 1929.0 | 30.8 | 252° | 7.7 x 14.7 | 12.4 | hip 3.5 | 4 | timber |
+| M-0605 | Workshop of Hugh the bellfounder | workshop | 2389.3 | 1925.4 | 30.8 | 252° | 7.0 x 4.9 | 3.2 | gable 2.7 | 1 | timber |
+| M-0606 | House of Amice the limner | house | 2379.6 | 1936.3 | 30.7 | 251° | 6.2 x 12.5 | 12.4 | gable 3.4 | 4 | stone |
+| M-0607 | House of Christiana the cobbler | shop | 2507.1 | 1814.8 | 31.2 | 200° | 7.4 x 14.8 | 9.3 | hip 3.3 | 3 | timber |
+| M-0608 | House of Edith the notary | shop | 2444.2 | 1682.7 | 34.1 | 206° | 6.9 x 10.7 | 9.3 | gable 3.8 | 3 | timber |
+| M-0609 | Workshop of Edith the notary | workshop | 2449.0 | 1672.7 | 34.1 | 206° | 6.5 x 5.7 | 3.2 | gable 3.1 | 1 | timber |
+| M-0610 | House of Alys the locksmith | house | 2477.5 | 1671.6 | 33.8 | 248° | 8.6 x 10.6 | 12.4 | gable 4.7 | 4 | timber |
+| M-0611 | House of Edith the glover | shop | 2461.9 | 1645.9 | 34.2 | 235° | 6.8 x 9.9 | 12.4 | gable 3.8 | 4 | stone |
+| M-0612 | Workshop of Edith the glover | workshop | 2470.1 | 1640.2 | 34.2 | 235° | 5.7 x 6.2 | 3.2 | gable 3.1 | 1 | timber |
+| M-0613 | House of Hugh the fuller | shop | 2466.1 | 1688.0 | 33.8 | 66° | 6.0 x 12.9 | 9.3 | gable 3.3 | 3 | timber |
+| M-0614 | House of Mabel the salter | shop | 2326.1 | 1884.2 | 32.2 | 25° | 5.8 x 11.4 | 12.4 | gable 3.2 | 4 | stone |
+| M-0615 | House of Stephen the limner | shop | 2187.0 | 1757.0 | 35.9 | 267° | 7.8 x 11.7 | 9.3 | gable 4.3 | 3 | timber |
+| M-0616 | House of Richard the astrologer | shop | 2171.3 | 1775.6 | 35.9 | 90° | 6.3 x 9.6 | 9.3 | gable 3.5 | 3 | timber |
+| M-0617 | Workshop of Richard the astrologer | workshop | 2162.4 | 1775.6 | 36.0 | 90° | 5.3 x 6.0 | 3.2 | gable 2.9 | 1 | timber |
+| M-0618 | House of Petronilla the carpenter | house | 2483.8 | 1756.9 | 32.5 | 23° | 7.6 x 10.0 | 12.4 | hip 3.4 | 4 | stone |
+| M-0619 | House of Walter the net-mender | shop | 2503.0 | 1767.8 | 32.0 | 27° | 7.8 x 11.5 | 12.4 | gable 4.3 | 4 | timber |
+| M-0620 | House of Geoffrey the scribe | shop | 2499.7 | 1744.4 | 32.5 | 198° | 8.9 x 14.1 | 9.3 | gable 4.9 | 3 | timber |
+| M-0621 | House of Adam the tanner | shop | 2509.7 | 1750.7 | 32.2 | 220° | 7.0 x 13.7 | 12.4 | gable 3.9 | 4 | timber |
+| M-0622 | House of Henry the weaver | shop | 2534.7 | 1772.4 | 31.5 | 219° | 8.2 x 11.3 | 12.4 | gable 4.5 | 4 | timber |
+| M-0623 | House of Margery the astrologer | shop | 2236.7 | 1832.4 | 34.3 | 93° | 7.8 x 10.1 | 12.4 | hip 3.5 | 4 | timber |
+| M-0624 | House of Hawise the fletcher | shop | 2252.3 | 1829.1 | 34.3 | 270° | 6.4 x 10.5 | 12.4 | gable 3.5 | 4 | timber |
+| M-0625 | House of Ivetta the fishmonger | house | 2218.4 | 1525.1 | 36.9 | 356° | 6.6 x 14.5 | 12.4 | hip 3.0 | 4 | timber |
+| M-0626 | House of Hawise the jeweller | shop | 2225.5 | 1524.7 | 36.8 | 354° | 5.8 x 14.5 | 12.4 | gable 3.2 | 4 | timber |
+| M-0627 | Workshop of Hawise the jeweller | workshop | 2226.9 | 1537.2 | 36.9 | 354° | 5.8 x 6.9 | 3.2 | gable 3.2 | 1 | timber |
+| M-0628 | House of Sybil the dyer | shop | 2239.0 | 1521.6 | 36.7 | 345° | 6.3 x 12.6 | 9.3 | gable 3.5 | 3 | stone |
+| M-0629 | House of Agnes the mercer | shop | 2251.8 | 1519.5 | 36.5 | 358° | 6.7 x 12.7 | 9.3 | hip 3.0 | 3 | timber |
+| M-0630 | House of Margery the astrologer | shop | 2259.5 | 1518.0 | 36.4 | 358° | 8.0 x 10.4 | 12.4 | gable 4.4 | 4 | stone |
+| M-0631 | House of Ralph the bookbinder | shop | 2268.1 | 1517.3 | 36.4 | 355° | 7.5 x 10.3 | 12.4 | gable 4.1 | 4 | stone |
+| M-0632 | Workshop of Ralph the bookbinder | workshop | 2269.0 | 1527.6 | 36.4 | 355° | 5.8 x 5.4 | 3.2 | gable 3.0 | 1 | timber |
+| M-0633 | House of Thomas the chandler | house | 2277.3 | 1517.5 | 36.3 | 350° | 8.3 x 13.6 | 12.4 | hip 3.7 | 4 | timber |
+| M-0634 | House of Christiana the armourer | shop | 2198.6 | 1511.9 | 37.0 | 154° | 8.4 x 13.1 | 9.3 | gable 4.6 | 3 | timber |
+| M-0635 | House of Joan the astrologer | house | 2217.9 | 1505.7 | 36.8 | 176° | 8.5 x 14.0 | 12.4 | gable 4.7 | 4 | timber |
+| M-0636 | House of Avice the pie-seller | shop | 2237.8 | 1504.9 | 36.7 | 165° | 7.0 x 9.7 | 9.3 | hip 3.2 | 3 | timber |
+| M-0637 | Workshop of Avice the pie-seller | workshop | 2235.4 | 1496.0 | 36.6 | 165° | 5.3 x 5.9 | 3.2 | gable 2.9 | 1 | timber |
+| M-0638 | House of Odo the spicer | shop | 2246.6 | 1502.7 | 36.6 | 174° | 7.8 x 11.3 | 9.3 | gable 4.3 | 3 | timber |
+| M-0639 | House of Margery the potter | house | 2127.8 | 1701.8 | 36.8 | 20° | 6.0 x 9.5 | 9.3 | gable 3.3 | 3 | stone |
+| M-0640 | House of Joan the bookbinder | shop | 2140.4 | 1708.7 | 36.7 | 21° | 9.0 x 12.2 | 9.3 | gable 5.0 | 3 | stone |
+| M-0641 | Workshop of Joan the bookbinder | workshop | 2136.5 | 1718.8 | 36.6 | 21° | 5.4 x 6.5 | 3.2 | gable 3.0 | 1 | timber |
+| M-0642 | House of Cecily the goldsmith | shop | 2150.7 | 1710.7 | 36.6 | 4° | 6.7 x 10.5 | 9.3 | hip 3.0 | 3 | timber |
+| M-0643 | Workshop of Cecily the goldsmith | workshop | 2149.9 | 1721.3 | 36.6 | 4° | 6.4 x 4.8 | 3.2 | gable 2.7 | 1 | timber |
+| M-0644 | House of Henry the bookbinder | shop | 2141.5 | 1691.4 | 36.8 | 205° | 8.0 x 11.1 | 9.3 | gable 4.4 | 3 | stone |
+| M-0645 | Workshop of Henry the bookbinder | workshop | 2145.5 | 1682.5 | 36.9 | 205° | 5.1 x 4.8 | 3.2 | gable 2.6 | 1 | timber |
 
-## Gardens & King's Park (4 buildings)
+## Harbour (258 buildings)
 
-2 pavilion, 1 palace, 1 lodge
+165 shop, 65 house, 19 warehouse, 2 church, 2 inn, 1 customs, 1 chapel, 1 ropewalk, 1 tower, 1 hall
 
 | ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
 |---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| G-0001 | Summer Palace & Orangery | palace | 1375.0 | 432.0 | 84.5 | 180° | 90.0 x 18.0 | 14.0 | hip 8.1 | 2 | stone |
-| G-0002 | Garden pavilion | pavilion | 1255.0 | 450.0 | 93.5 | 0° | round, 10.0 across | 6.0 | cone 5.0 | 1 | stone |
-| G-0003 | Garden pavilion | pavilion | 1495.0 | 450.0 | 83.9 | 0° | round, 10.0 across | 6.0 | cone 5.0 | 1 | stone |
-| G-0004 | Park Keeper's Lodge | lodge | 640.0 | 860.0 | 71.7 | 200° | 14.0 x 8.0 | 6.0 | gable 4.4 | 1 | timber |
+| H-0001 | Harbour warehouse | warehouse | 2443.7 | 1982.8 | 28.8 | 203° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0002 | Harbour warehouse | warehouse | 2470.9 | 1993.8 | 28.2 | 200° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0003 | Harbour warehouse | warehouse | 2499.4 | 2003.9 | 27.7 | 199° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0004 | Harbour warehouse | warehouse | 2528.4 | 2013.4 | 27.0 | 197° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0005 | Harbour warehouse | warehouse | 2558.0 | 2022.3 | 26.5 | 196° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0006 | Harbour warehouse | warehouse | 2588.0 | 2030.9 | 25.9 | 196° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0007 | Harbour warehouse | warehouse | 2618.5 | 2039.3 | 25.5 | 195° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0008 | Harbour warehouse | warehouse | 2649.4 | 2047.7 | 25.1 | 195° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0009 | Harbour warehouse | warehouse | 2680.2 | 2056.1 | 24.6 | 195° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0010 | Harbour warehouse | warehouse | 2710.7 | 2064.2 | 24.2 | 195° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0011 | Harbour warehouse | warehouse | 2741.3 | 2072.1 | 23.9 | 194° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0012 | Harbour warehouse | warehouse | 2771.9 | 2079.9 | 23.7 | 194° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0013 | Harbour warehouse | warehouse | 2802.6 | 2087.4 | 23.4 | 194° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0014 | Harbour warehouse | warehouse | 2833.2 | 2094.7 | 23.0 | 193° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0015 | Harbour warehouse | warehouse | 2863.7 | 2101.6 | 22.6 | 192° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0016 | Harbour warehouse | warehouse | 2893.8 | 2107.9 | 22.3 | 191° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0017 | Harbour warehouse | warehouse | 2924.1 | 2113.6 | 22.3 | 190° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0018 | Harbour warehouse | warehouse | 2954.7 | 2118.8 | 22.2 | 189° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0019 | Harbour warehouse | warehouse | 2985.8 | 2123.7 | 21.9 | 189° | 26.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| H-0020 | Custom House | customs | 2580.0 | 1975.0 | 27.3 | 0° | 34.0 x 14.0 | 12.0 | hip 6.3 | 2 | stone |
+| H-0021 | Sailors' Chapel of St. Nicholas | chapel | 2860.0 | 2005.0 | 24.1 | 0° | 22.0 x 10.0 | 10.0 | gable 5.5 | 2 | stone |
+| H-0022 | The Ropewalk | ropewalk | 2600.0 | 1875.0 | 26.4 | 18° | 300.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| H-0023 | Harbour Light | tower | 3215.0 | 2042.0 | 14.3 | 0° | round, 12.0 across | 30.0 | crenel 0.0 | 1 | stone |
+| H-0024 | Church of St. Edith | church | 2750.0 | 1850.0 | 26.9 | 0° | 24.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| H-0025 | Church of St. Edith (tower) | church | 2734.0 | 1850.0 | 27.3 | 0° | 8.0 x 8.0 | 30.0 | spire 14.0 | 4 | stone |
+| H-0026 | Hall of the Fishmongers | hall | 2616.0 | 1936.9 | 27.6 | 120° | 26.0 x 16.0 | 11.0 | hip 7.2 | 2 | stone |
+| H-0027 | Tavern of the Drowned Rat | inn | 2858.0 | 1960.0 | 24.4 | 30° | 18.0 x 12.0 | 9.0 | hip 5.4 | 2 | timber |
+| H-0028 | The Mermaid | inn | 2756.9 | 1904.0 | 26.4 | 120° | 18.0 x 12.0 | 9.0 | hip 5.4 | 2 | timber |
+| H-0029 | House of Amice the cooper | shop | 2510.4 | 1884.9 | 30.1 | 33° | 6.3 x 13.2 | 6.2 | hip 2.9 | 2 | timber |
+| H-0030 | House of Amice the astrologer | shop | 2520.2 | 1889.7 | 29.8 | 32° | 5.9 x 12.3 | 9.3 | gable 3.2 | 3 | timber |
+| H-0031 | House of Jordan the fletcher | house | 2544.9 | 1901.1 | 29.2 | 30° | 8.3 x 9.8 | 6.2 | gable 4.6 | 2 | timber |
+| H-0032 | House of Isabel the notary | shop | 2553.9 | 1907.5 | 29.0 | 30° | 6.4 x 12.0 | 6.2 | hip 2.9 | 2 | timber |
+| H-0033 | House of Maud the shipwright | shop | 2561.1 | 1915.5 | 28.7 | 29° | 9.5 x 14.8 | 6.2 | gable 5.2 | 2 | timber |
+| H-0034 | House of Odo the dyer | shop | 2578.3 | 1922.2 | 28.4 | 27° | 8.9 x 11.5 | 9.3 | gable 4.9 | 3 | timber |
+| H-0035 | House of Gilbert the pie-seller | house | 2589.5 | 1926.8 | 28.2 | 27° | 7.8 x 12.8 | 9.3 | gable 4.3 | 3 | timber |
+| H-0036 | House of Isabel the dyer | shop | 2598.8 | 1931.8 | 28.0 | 26° | 7.2 x 13.2 | 9.3 | gable 4.0 | 3 | timber |
+| H-0037 | House of Martin the lute-maker | shop | 2627.1 | 1948.8 | 27.4 | 24° | 7.9 x 13.3 | 9.3 | gable 4.3 | 3 | timber |
+| H-0038 | House of Joan the stonecarver | shop | 2638.8 | 1950.2 | 27.4 | 23° | 7.7 x 13.8 | 9.3 | hip 3.5 | 3 | timber |
+| H-0039 | House of Joan the limner | house | 2726.7 | 1983.2 | 25.9 | 14° | 6.2 x 12.6 | 9.3 | gable 3.4 | 3 | timber |
+| H-0040 | House of Hawise the barber-surgeon | shop | 2740.8 | 1984.1 | 25.8 | 12° | 5.7 x 14.0 | 6.2 | gable 3.1 | 2 | timber |
+| H-0041 | House of Emma the tailor | shop | 2755.5 | 1988.4 | 25.6 | 11° | 7.8 x 14.2 | 6.2 | hip 3.5 | 2 | timber |
+| H-0042 | House of Alys the cartographer | shop | 2772.6 | 1993.8 | 25.5 | 9° | 7.5 x 14.8 | 9.3 | gable 4.1 | 3 | timber |
+| H-0043 | House of Hawise the draper | shop | 2787.7 | 1994.5 | 25.3 | 8° | 5.7 x 10.9 | 9.3 | gable 3.1 | 3 | timber |
+| H-0044 | House of Cecily the saddler | shop | 2810.4 | 1998.1 | 24.9 | 7° | 8.9 x 14.7 | 9.3 | hip 4.0 | 3 | timber |
+| H-0045 | House of Baldwin the mason | shop | 2894.7 | 2005.0 | 23.8 | 3° | 6.9 x 12.2 | 6.2 | hip 3.1 | 2 | timber |
+| H-0046 | House of Agnes the dyer | shop | 2558.5 | 1883.7 | 29.2 | 210° | 7.5 x 9.9 | 6.2 | hip 3.4 | 2 | timber |
+| H-0047 | House of Joan the cutler | house | 2608.2 | 1907.3 | 28.1 | 206° | 9.3 x 12.3 | 9.3 | gable 5.1 | 3 | timber |
+| H-0048 | House of Jordan the saddler | shop | 2646.3 | 1925.0 | 27.5 | 203° | 8.2 x 15.0 | 9.3 | gable 4.5 | 3 | timber |
+| H-0049 | House of Hugh the chandler | shop | 2663.0 | 1931.4 | 27.2 | 202° | 8.6 x 14.5 | 6.2 | gable 4.7 | 2 | timber |
+| H-0050 | House of Geoffrey the fuller | house | 2690.9 | 1943.5 | 26.8 | 200° | 8.4 x 12.8 | 6.2 | hip 3.8 | 2 | timber |
+| H-0051 | House of Piers the clockmaker | shop | 2707.0 | 1947.9 | 26.5 | 198° | 6.2 x 10.2 | 9.3 | gable 3.4 | 3 | timber |
+| H-0052 | House of Juliana the herbalist | shop | 2773.7 | 1964.5 | 25.6 | 190° | 7.2 x 10.3 | 9.3 | gable 4.0 | 3 | timber |
+| H-0053 | House of Felice the shipwright | house | 2786.2 | 1965.0 | 25.5 | 189° | 9.0 x 12.6 | 6.2 | gable 5.0 | 2 | timber |
+| H-0054 | House of Godwin the wheelwright | shop | 2872.5 | 1975.1 | 24.2 | 184° | 9.1 x 12.7 | 9.3 | hip 4.1 | 3 | timber |
+| H-0055 | House of Robin the tailor | shop | 2884.2 | 1975.7 | 24.1 | 183° | 5.7 x 14.1 | 6.2 | gable 3.1 | 2 | timber |
+| H-0056 | House of Thomas the hatter | house | 2897.9 | 1974.0 | 23.8 | 183° | 8.8 x 13.4 | 6.2 | gable 4.8 | 2 | timber |
+| H-0057 | House of Avice the carpenter | shop | 2909.6 | 1975.9 | 23.4 | 181° | 8.4 x 11.7 | 6.2 | gable 4.6 | 2 | timber |
+| H-0058 | House of Richard the goldsmith | house | 2932.5 | 1975.9 | 23.0 | 175° | 6.8 x 12.2 | 9.3 | gable 3.7 | 3 | timber |
+| H-0059 | House of Thomas the money-changer | shop | 2942.4 | 1973.1 | 22.8 | 173° | 6.4 x 11.3 | 6.2 | gable 3.5 | 2 | timber |
+| H-0060 | House of Ida the cartographer | house | 2952.7 | 1973.8 | 22.6 | 171° | 8.2 x 12.1 | 6.2 | gable 4.5 | 2 | timber |
+| H-0061 | House of Henry the glover | shop | 2983.1 | 1966.4 | 18.8 | 167° | 7.9 x 14.2 | 6.2 | hip 3.6 | 2 | timber |
+| H-0062 | House of Wat the draper | shop | 2727.5 | 1941.2 | 26.3 | 272° | 8.0 x 10.9 | 6.2 | gable 4.4 | 2 | timber |
+| H-0063 | House of Mabel the tailor | house | 2730.9 | 1932.9 | 26.4 | 287° | 5.6 x 10.5 | 9.3 | gable 3.1 | 3 | timber |
+| H-0064 | House of Jordan the cobbler | shop | 2920.4 | 2010.9 | 23.1 | 58° | 8.7 x 9.9 | 6.2 | gable 4.8 | 2 | timber |
+| H-0065 | House of Gilbert the vintner | shop | 2936.9 | 2046.7 | 22.6 | 62° | 7.3 x 9.4 | 6.2 | gable 4.0 | 2 | timber |
+| H-0066 | House of Stephen the parchmenter | house | 2952.6 | 2066.1 | 22.1 | 52° | 8.2 x 10.0 | 9.3 | gable 4.5 | 3 | timber |
+| H-0067 | House of Ralph the bowyer | house | 2953.5 | 2090.9 | 22.2 | 81° | 9.5 x 12.1 | 6.2 | gable 5.2 | 2 | timber |
+| H-0068 | House of Adam the mercer | shop | 2947.9 | 2015.4 | 22.6 | 248° | 6.4 x 9.2 | 6.2 | gable 3.5 | 2 | timber |
+| H-0069 | House of Simon the bookbinder | house | 2951.9 | 2023.9 | 22.4 | 243° | 6.2 x 11.4 | 9.3 | gable 3.4 | 3 | timber |
+| H-0070 | House of Osbert the tailor | shop | 2975.3 | 2058.1 | 21.8 | 245° | 9.0 x 12.3 | 6.2 | gable 5.0 | 2 | timber |
+| H-0071 | House of Alys the jeweller | shop | 2982.2 | 2078.7 | 21.7 | 269° | 8.3 x 14.6 | 9.3 | gable 4.6 | 3 | timber |
+| H-0072 | House of Jordan the pewterer | shop | 2979.2 | 2089.2 | 21.7 | 261° | 9.0 x 13.8 | 6.2 | gable 5.0 | 2 | timber |
+| H-0073 | House of Odo the goldsmith | shop | 2824.6 | 2010.9 | 24.8 | 80° | 6.2 x 13.5 | 9.3 | gable 3.4 | 3 | timber |
+| H-0074 | House of Baldwin the limner | shop | 2825.6 | 2019.4 | 24.7 | 84° | 7.9 x 11.3 | 6.2 | gable 4.3 | 2 | timber |
+| H-0075 | House of Mabel the armourer | shop | 2826.1 | 2032.0 | 24.4 | 80° | 7.6 x 13.8 | 6.2 | gable 4.2 | 2 | timber |
+| H-0076 | House of Baldwin the tailor | shop | 2829.7 | 2048.5 | 24.1 | 80° | 7.8 x 12.9 | 6.2 | gable 4.3 | 2 | timber |
+| H-0077 | House of Felice the fletcher | house | 2838.7 | 2080.0 | 23.4 | 76° | 9.2 x 13.9 | 6.2 | hip 4.1 | 2 | timber |
+| H-0078 | House of Walter the fuller | house | 2850.5 | 2018.9 | 24.3 | 262° | 6.2 x 12.0 | 6.2 | hip 2.8 | 2 | timber |
+| H-0079 | House of Joan the armourer | shop | 2852.6 | 2032.8 | 24.1 | 260° | 7.6 x 13.6 | 9.3 | gable 4.2 | 3 | timber |
+| H-0080 | House of Mabel the jeweller | shop | 2857.4 | 2056.4 | 23.7 | 257° | 7.2 x 13.3 | 9.3 | hip 3.3 | 3 | timber |
+| H-0081 | House of Laurence the spicer | shop | 2860.7 | 2064.3 | 23.6 | 249° | 7.1 x 14.2 | 9.3 | hip 3.2 | 3 | timber |
+| H-0082 | House of Emma the chandler | house | 2862.3 | 2078.7 | 23.3 | 256° | 7.2 x 12.7 | 9.3 | gable 4.0 | 3 | timber |
+| H-0083 | House of Gilbert the minstrel | shop | 2947.8 | 1924.0 | 22.9 | 327° | 6.2 x 13.4 | 6.2 | gable 3.4 | 2 | timber |
+| H-0084 | House of Matilda the juggler | shop | 2954.7 | 1914.9 | 22.9 | 324° | 6.9 x 10.5 | 9.3 | gable 3.8 | 3 | timber |
+| H-0085 | House of Mabel the herbalist | shop | 2968.9 | 1899.3 | 22.9 | 296° | 7.0 x 14.0 | 6.2 | gable 3.8 | 2 | timber |
+| H-0086 | House of Osbert the juggler | house | 2943.3 | 1895.6 | 23.3 | 130° | 8.0 x 14.8 | 9.3 | gable 4.4 | 3 | timber |
+| H-0087 | House of Hob the tailor | house | 2650.4 | 1906.0 | 27.5 | 303° | 7.6 x 13.8 | 6.2 | gable 4.2 | 2 | timber |
+| H-0088 | House of Mabel the fisher | shop | 2620.3 | 1910.4 | 27.9 | 111° | 7.5 x 9.7 | 9.3 | gable 4.2 | 3 | timber |
+| H-0089 | House of Agnes the bookbinder | shop | 2958.5 | 2003.4 | 22.7 | 83° | 7.3 x 10.6 | 6.2 | gable 4.0 | 2 | timber |
+| H-0090 | House of Emma the fletcher | house | 2984.9 | 2031.5 | 17.5 | 276° | 9.0 x 13.6 | 9.3 | gable 5.0 | 3 | timber |
+| H-0091 | House of Maud the juggler | shop | 2743.7 | 2022.1 | 25.2 | 274° | 8.2 x 11.2 | 6.2 | hip 3.7 | 2 | timber |
+| H-0092 | House of Christiana the cooper | house | 2719.9 | 2029.7 | 25.1 | 102° | 9.3 x 9.2 | 6.2 | gable 5.1 | 2 | timber |
+| H-0093 | House of Godwin the potter | shop | 2720.8 | 2004.5 | 25.6 | 82° | 7.7 x 13.0 | 6.2 | hip 3.5 | 2 | timber |
+| H-0094 | House of Robin the money-changer | house | 2529.1 | 1947.1 | 28.7 | 2° | 6.5 x 12.3 | 6.2 | gable 3.6 | 2 | timber |
+| H-0095 | House of Matilda the tinker | house | 2569.3 | 1954.0 | 28.1 | 6° | 7.5 x 11.0 | 9.3 | hip 3.4 | 3 | timber |
+| H-0096 | House of Simon the ropemaker | shop | 2529.1 | 1921.9 | 29.2 | 190° | 8.2 x 13.6 | 6.2 | gable 4.5 | 2 | timber |
+| H-0097 | House of Avice the limner | shop | 2536.8 | 1924.3 | 29.1 | 183° | 5.8 x 9.6 | 9.3 | gable 3.2 | 3 | timber |
+| H-0098 | House of Nicholas the spicer | shop | 2551.7 | 1929.1 | 28.7 | 196° | 6.3 x 10.2 | 9.3 | gable 3.5 | 3 | timber |
+| H-0099 | House of Laurence the fletcher | shop | 2565.4 | 1930.2 | 28.5 | 188° | 6.0 x 12.2 | 9.3 | hip 2.7 | 3 | timber |
+| H-0100 | House of Piers the clockmaker | shop | 2776.4 | 1917.0 | 25.9 | 180° | 9.2 x 13.3 | 6.2 | hip 4.1 | 2 | timber |
+| H-0101 | House of Walter the furrier | shop | 2717.6 | 1832.6 | 27.7 | 224° | 6.7 x 11.5 | 6.2 | gable 3.7 | 2 | timber |
+| H-0102 | House of Godwin the juggler | shop | 2705.1 | 1821.4 | 27.9 | 222° | 6.8 x 14.4 | 9.3 | gable 3.8 | 3 | timber |
+| H-0103 | House of Edith the pewterer | shop | 2720.7 | 1877.5 | 27.0 | 68° | 8.5 x 9.6 | 6.2 | gable 4.7 | 2 | timber |
+| H-0104 | House of Richard the barber-surgeon | house | 2715.1 | 1865.4 | 27.3 | 69° | 9.4 x 11.5 | 6.2 | hip 4.2 | 2 | timber |
+| H-0105 | House of Rose the astrologer | house | 2702.1 | 1850.0 | 27.7 | 44° | 8.8 x 9.8 | 6.2 | gable 4.8 | 2 | timber |
+| H-0106 | House of Stephen the dyer | shop | 2691.2 | 1842.5 | 28.0 | 42° | 5.9 x 9.7 | 6.2 | gable 3.2 | 2 | timber |
+| H-0107 | House of Osbert the cobbler | shop | 2929.2 | 1954.7 | 23.1 | 250° | 8.8 x 12.6 | 6.2 | hip 4.0 | 2 | timber |
+| H-0108 | House of Maud the juggler | shop | 2921.0 | 1938.5 | 23.4 | 245° | 7.8 x 11.4 | 9.3 | hip 3.5 | 3 | timber |
+| H-0109 | House of Agnes the weaver | shop | 2912.1 | 1911.8 | 23.8 | 243° | 5.8 x 14.7 | 9.3 | hip 2.6 | 3 | timber |
+| H-0110 | House of Elena the cheesemonger | shop | 2907.5 | 1901.1 | 24.0 | 242° | 5.9 x 13.3 | 9.3 | hip 2.7 | 3 | timber |
+| H-0111 | House of Edith the weaver | shop | 2900.1 | 1890.8 | 24.2 | 240° | 6.2 x 12.8 | 9.3 | hip 2.8 | 3 | timber |
+| H-0112 | House of Martin the money-changer | shop | 2892.0 | 1880.2 | 24.6 | 225° | 7.3 x 12.3 | 6.2 | gable 4.0 | 2 | timber |
+| H-0113 | House of Piers the cutler | shop | 2879.6 | 1869.3 | 24.9 | 216° | 6.2 x 14.6 | 6.2 | gable 3.4 | 2 | timber |
+| H-0114 | House of Mabel the clockmaker | house | 2870.0 | 1861.3 | 25.1 | 215° | 8.4 x 13.5 | 9.3 | gable 4.7 | 3 | timber |
+| H-0115 | House of Henry the cobbler | shop | 2858.8 | 1854.9 | 25.4 | 214° | 5.6 x 13.5 | 6.2 | gable 3.1 | 2 | timber |
+| H-0116 | House of Joan the mercer | shop | 2849.0 | 1851.6 | 25.6 | 206° | 6.6 x 9.2 | 9.3 | hip 3.0 | 3 | timber |
+| H-0117 | House of Odo the tanner | shop | 2840.5 | 1848.5 | 25.8 | 208° | 5.8 x 9.2 | 9.3 | gable 3.2 | 3 | timber |
+| H-0118 | House of Amice the notary | shop | 2813.5 | 1843.4 | 26.2 | 182° | 6.3 x 9.1 | 9.3 | gable 3.5 | 3 | timber |
+| H-0119 | House of Isabel the salter | shop | 2898.3 | 1935.2 | 23.9 | 79° | 6.9 x 11.9 | 6.2 | gable 3.8 | 2 | timber |
+| H-0120 | House of Jordan the glazier | shop | 2889.6 | 1916.9 | 24.3 | 62° | 8.8 x 12.8 | 6.2 | gable 4.8 | 2 | timber |
+| H-0121 | House of Henry the sailmaker | shop | 2885.9 | 1909.2 | 24.5 | 54° | 6.3 x 9.9 | 6.2 | hip 2.8 | 2 | timber |
+| H-0122 | House of Agnes the apothecary | shop | 2878.7 | 1896.6 | 24.7 | 60° | 9.2 x 9.1 | 6.2 | hip 4.1 | 2 | timber |
+| H-0123 | House of Baldwin the vintner | shop | 2851.1 | 1882.0 | 25.2 | 35° | 8.1 x 14.5 | 9.3 | gable 4.5 | 3 | timber |
+| H-0124 | House of Ralph the tanner | shop | 2842.0 | 1870.6 | 25.5 | 26° | 7.5 x 9.6 | 6.2 | gable 4.1 | 2 | timber |
+| H-0125 | House of Simon the brewer | house | 2828.0 | 1867.3 | 25.7 | 28° | 9.0 x 10.5 | 9.3 | gable 5.0 | 3 | timber |
+| H-0126 | House of Alan the pie-seller | shop | 2782.1 | 2006.6 | 25.2 | 128° | 8.4 x 9.0 | 6.2 | gable 4.6 | 2 | timber |
+| H-0127 | House of Amice the hatter | shop | 2773.1 | 2011.4 | 25.2 | 147° | 8.1 x 12.4 | 6.2 | gable 4.4 | 2 | timber |
+| H-0128 | House of Ivetta the limner | shop | 2761.5 | 2020.4 | 25.0 | 156° | 6.1 x 10.6 | 9.3 | hip 2.7 | 3 | timber |
+| H-0129 | House of Emma the scribe | shop | 2686.6 | 2036.8 | 25.1 | 156° | 8.6 x 13.1 | 6.2 | gable 4.7 | 2 | timber |
+| H-0130 | House of Margery the sailmaker | shop | 2802.9 | 2016.2 | 24.9 | 308° | 9.2 x 12.4 | 9.3 | hip 4.1 | 3 | timber |
+| H-0131 | House of Simon the vintner | house | 2793.3 | 2025.3 | 24.8 | 322° | 5.7 x 14.0 | 9.3 | gable 3.1 | 3 | timber |
+| H-0132 | House of Ida the vintner | house | 2781.1 | 2030.3 | 24.7 | 327° | 7.9 x 9.1 | 6.2 | gable 4.3 | 2 | timber |
+| H-0133 | House of Avice the vintner | shop | 2767.1 | 2043.2 | 24.5 | 336° | 6.4 x 14.4 | 6.2 | gable 3.5 | 2 | timber |
+| H-0134 | House of Elena the jeweller | shop | 2758.4 | 2047.3 | 24.4 | 338° | 6.7 x 13.1 | 6.2 | gable 3.7 | 2 | timber |
+| H-0135 | House of Elena the furrier | shop | 2743.6 | 2051.9 | 24.4 | 347° | 9.1 x 14.9 | 9.3 | gable 5.0 | 3 | timber |
+| H-0136 | House of Emma the apothecary | shop | 2723.4 | 2050.7 | 24.6 | 359° | 7.4 x 10.0 | 9.3 | gable 4.1 | 3 | timber |
+| H-0137 | House of Agnes the fletcher | shop | 2907.7 | 2012.9 | 23.3 | 143° | 7.7 x 13.2 | 9.3 | hip 3.5 | 3 | timber |
+| H-0138 | House of Hob the notary | house | 2901.6 | 2022.6 | 23.4 | 144° | 8.4 x 10.8 | 6.2 | gable 4.6 | 2 | timber |
+| H-0139 | House of Alan the herbalist | shop | 2892.4 | 2027.2 | 23.6 | 142° | 6.7 x 11.8 | 6.2 | gable 3.7 | 2 | timber |
+| H-0140 | House of Alan the baker | house | 2926.4 | 2032.5 | 22.9 | 331° | 7.4 x 14.9 | 9.3 | gable 4.1 | 3 | timber |
+| H-0141 | House of Piers the fletcher | house | 2896.4 | 2052.2 | 23.2 | 346° | 5.9 x 12.6 | 6.2 | gable 3.2 | 2 | timber |
+| H-0142 | House of Petronilla the ropemaker | house | 2510.9 | 1908.8 | 29.7 | 110° | 8.2 x 9.7 | 6.2 | gable 4.5 | 2 | timber |
+| H-0143 | House of Hugh the astrologer | house | 2490.7 | 1946.3 | 29.1 | 104° | 6.6 x 14.8 | 9.3 | gable 3.6 | 3 | timber |
+| H-0144 | House of Ivetta the saddler | shop | 2534.2 | 1910.5 | 29.2 | 293° | 6.2 x 12.8 | 6.2 | gable 3.4 | 2 | timber |
+| H-0145 | House of Simon the saddler | shop | 2514.5 | 1946.1 | 28.9 | 291° | 5.7 x 9.2 | 9.3 | hip 2.5 | 3 | timber |
+| H-0146 | House of Gilbert the cutler | shop | 2513.1 | 1954.3 | 28.6 | 283° | 7.0 x 14.4 | 9.3 | gable 3.9 | 3 | timber |
+| H-0147 | House of Alys the carpenter | house | 2623.0 | 1993.4 | 26.5 | 24° | 6.9 x 14.6 | 9.3 | hip 3.1 | 3 | timber |
+| H-0148 | House of Cecily the sailmaker | shop | 2611.5 | 1961.2 | 27.4 | 228° | 6.3 x 11.3 | 9.3 | hip 2.9 | 3 | timber |
+| H-0149 | House of Piers the sailmaker | house | 2669.0 | 1653.9 | 31.0 | 167° | 9.0 x 11.3 | 9.3 | hip 4.0 | 3 | timber |
+| H-0150 | House of Hugh the minstrel | shop | 2787.1 | 1836.5 | 26.6 | 237° | 7.2 x 10.1 | 9.3 | hip 3.2 | 3 | timber |
+| H-0151 | House of Laurence the apothecary | shop | 2775.4 | 1826.3 | 27.0 | 217° | 5.9 x 10.6 | 6.2 | hip 2.6 | 2 | timber |
+| H-0152 | House of Geoffrey the net-mender | shop | 2772.1 | 1817.6 | 27.1 | 225° | 8.4 x 13.5 | 6.2 | gable 4.6 | 2 | timber |
+| H-0153 | House of Thomas the cooper | house | 2738.2 | 1804.7 | 27.8 | 198° | 7.5 x 9.8 | 9.3 | gable 4.1 | 3 | timber |
+| H-0154 | House of Elena the limner | shop | 2778.2 | 1861.5 | 26.5 | 57° | 5.8 x 11.1 | 9.3 | gable 3.2 | 3 | timber |
+| H-0155 | House of Henry the locksmith | shop | 2751.0 | 1831.7 | 27.3 | 32° | 6.0 x 10.4 | 9.3 | gable 3.3 | 3 | timber |
+| H-0156 | House of Hawise the tanner | shop | 2740.3 | 1829.0 | 27.4 | 21° | 6.4 x 14.3 | 9.3 | gable 3.5 | 3 | timber |
+| H-0157 | House of Jordan the limner | house | 2723.8 | 1822.4 | 27.7 | 23° | 8.8 x 9.0 | 6.2 | hip 3.9 | 2 | timber |
+| H-0158 | House of Sybil the hatter | house | 2971.8 | 1964.0 | 22.6 | 242° | 6.5 x 10.7 | 6.2 | gable 3.6 | 2 | timber |
+| H-0159 | House of Roger the tinker | shop | 2959.1 | 1933.0 | 22.6 | 244° | 9.0 x 13.7 | 9.3 | gable 5.0 | 3 | timber |
+| H-0160 | House of Walter the wheelwright | house | 2930.9 | 1873.7 | 23.9 | 230° | 8.9 x 12.8 | 9.3 | gable 4.9 | 3 | timber |
+| H-0161 | House of Osbert the weaver | house | 2900.6 | 1842.5 | 24.7 | 223° | 6.3 x 14.5 | 9.3 | hip 2.9 | 3 | timber |
+| H-0162 | House of Alys the tailor | shop | 2888.9 | 1836.8 | 25.0 | 223° | 5.9 x 10.8 | 6.2 | hip 2.6 | 2 | timber |
+| H-0163 | House of Isabel the pie-seller | house | 2880.3 | 1825.2 | 25.2 | 212° | 7.4 x 11.9 | 6.2 | gable 4.0 | 2 | timber |
+| H-0164 | House of Wat the tinker | shop | 2869.6 | 1820.6 | 25.5 | 214° | 7.0 x 13.9 | 6.2 | hip 3.2 | 2 | timber |
+| H-0165 | House of Hob the stonecarver | shop | 2950.5 | 1961.2 | 22.7 | 58° | 7.5 x 9.1 | 9.3 | gable 4.1 | 3 | timber |
+| H-0166 | House of Ida the money-changer | shop | 2942.3 | 1950.0 | 22.9 | 60° | 9.3 x 12.2 | 9.3 | gable 5.1 | 3 | timber |
+| H-0167 | House of Godwin the scribe | shop | 2925.2 | 1923.5 | 23.4 | 67° | 9.1 x 11.8 | 6.2 | gable 5.0 | 2 | timber |
+| H-0168 | House of Robin the butcher | shop | 2862.0 | 1839.8 | 25.4 | 32° | 6.6 x 10.3 | 6.2 | hip 3.0 | 2 | timber |
+| H-0169 | House of Osbert the scribe | house | 2912.8 | 1864.0 | 24.3 | 130° | 9.1 x 11.4 | 6.2 | gable 5.0 | 2 | timber |
+| H-0170 | House of Geoffrey the vintner | shop | 2921.6 | 1837.6 | 24.2 | 113° | 9.3 x 13.6 | 9.3 | gable 5.1 | 3 | timber |
+| H-0171 | House of Rose the saddler | shop | 2846.5 | 1970.1 | 24.6 | 278° | 6.5 x 10.2 | 9.3 | gable 3.6 | 3 | timber |
+| H-0172 | House of Laurence the furrier | shop | 2866.1 | 1925.5 | 24.5 | 298° | 8.6 x 13.0 | 6.2 | gable 4.7 | 2 | timber |
+| H-0173 | House of Matilda the tinker | house | 2871.9 | 1911.5 | 24.6 | 287° | 8.5 x 12.0 | 9.3 | gable 4.7 | 3 | timber |
+| H-0174 | House of Robin the tailor | house | 2823.5 | 1976.2 | 25.0 | 107° | 6.5 x 13.4 | 6.2 | gable 3.6 | 2 | timber |
+| H-0175 | House of Maud the ropemaker | shop | 2827.7 | 1951.1 | 25.1 | 113° | 7.5 x 13.8 | 9.3 | hip 3.4 | 3 | timber |
+| H-0176 | House of Alys the furrier | shop | 2834.1 | 1939.3 | 25.1 | 110° | 6.9 x 9.0 | 9.3 | gable 3.8 | 3 | timber |
+| H-0177 | House of Elena the candlemaker | house | 2840.6 | 1925.1 | 25.0 | 119° | 6.4 x 10.8 | 6.2 | gable 3.5 | 2 | timber |
+| H-0178 | House of Baldwin the apothecary | shop | 2842.6 | 1916.7 | 25.0 | 118° | 5.6 x 13.9 | 6.2 | gable 3.1 | 2 | timber |
+| H-0179 | House of Robin the bookbinder | shop | 2848.9 | 1907.9 | 25.0 | 118° | 7.2 x 9.5 | 9.3 | gable 3.9 | 3 | timber |
+| H-0180 | House of Walter the parchmenter | house | 2911.0 | 1959.2 | 23.6 | 336° | 7.2 x 11.5 | 9.3 | hip 3.2 | 3 | timber |
+| H-0181 | House of Nicholas the tanner | shop | 2874.6 | 1938.0 | 24.4 | 202° | 7.2 x 12.0 | 6.2 | gable 4.0 | 2 | timber |
+| H-0182 | House of Jordan the saddler | shop | 2895.2 | 1944.9 | 24.0 | 175° | 7.1 x 10.0 | 6.2 | gable 3.9 | 2 | timber |
+| H-0183 | House of Amice the fishmonger | house | 2594.7 | 1807.8 | 29.9 | 29° | 7.6 x 12.0 | 6.2 | gable 4.2 | 2 | timber |
+| H-0184 | House of Henry the cobbler | shop | 2620.2 | 1814.4 | 29.4 | 29° | 8.2 x 10.7 | 9.3 | gable 4.5 | 3 | timber |
+| H-0185 | House of Agnes the mason | shop | 2633.7 | 1825.3 | 28.9 | 25° | 7.2 x 9.5 | 9.3 | gable 4.0 | 3 | timber |
+| H-0186 | House of Odo the wheelwright | house | 2647.2 | 1831.5 | 28.6 | 18° | 6.1 x 11.2 | 9.3 | gable 3.4 | 3 | timber |
+| H-0187 | House of Piers the pewterer | shop | 2656.9 | 1831.2 | 28.5 | 13° | 6.1 x 10.4 | 6.2 | hip 2.7 | 2 | timber |
+| H-0188 | House of Alan the spicer | shop | 2616.8 | 1795.0 | 29.8 | 206° | 7.7 x 10.3 | 6.2 | gable 4.2 | 2 | timber |
+| H-0189 | House of Henry the draper | shop | 2627.9 | 1797.5 | 29.6 | 209° | 6.6 x 9.6 | 9.3 | gable 3.6 | 3 | timber |
+| H-0190 | House of Ivetta the scribe | shop | 2643.7 | 1805.7 | 29.1 | 218° | 8.4 x 9.8 | 6.2 | gable 4.6 | 2 | timber |
+| H-0191 | House of Alys the fishmonger | shop | 2663.8 | 1811.0 | 28.6 | 193° | 6.2 x 13.4 | 6.2 | gable 3.4 | 2 | timber |
+| H-0192 | House of Edith the wheelwright | shop | 2673.8 | 1813.8 | 28.5 | 186° | 5.7 x 12.1 | 6.2 | hip 2.5 | 2 | timber |
+| H-0193 | House of Sybil the salter | shop | 2683.2 | 1817.5 | 28.4 | 177° | 7.1 x 9.2 | 6.2 | hip 3.2 | 2 | timber |
+| H-0194 | House of Beatrice the tinker | shop | 2814.9 | 1890.9 | 25.7 | 300° | 6.3 x 10.5 | 9.3 | gable 3.5 | 3 | timber |
+| H-0195 | House of Walter the tinker | shop | 2755.7 | 1951.7 | 25.9 | 124° | 8.3 x 14.7 | 6.2 | hip 3.7 | 2 | timber |
+| H-0196 | House of Margery the scribe | house | 2765.1 | 1939.3 | 25.9 | 125° | 9.4 x 13.7 | 6.2 | hip 4.2 | 2 | timber |
+| H-0197 | House of Petronilla the chandler | house | 2782.8 | 1903.2 | 26.0 | 120° | 8.0 x 14.6 | 9.3 | gable 4.4 | 3 | timber |
+| H-0198 | House of Alys the locksmith | shop | 2789.3 | 1895.2 | 26.1 | 115° | 5.6 x 14.7 | 6.2 | hip 2.5 | 2 | timber |
+| H-0199 | House of Beatrice the cartographer | shop | 2794.7 | 1884.7 | 26.1 | 114° | 8.1 x 9.3 | 6.2 | hip 3.7 | 2 | timber |
+| H-0200 | House of Henry the mercer | shop | 2803.8 | 1873.2 | 26.0 | 121° | 6.8 x 10.0 | 6.2 | gable 3.8 | 2 | timber |
+| H-0201 | House of Laurence the cartographer | shop | 2616.8 | 1777.1 | 29.9 | 276° | 6.7 x 10.5 | 6.2 | hip 3.0 | 2 | timber |
+| H-0202 | House of Edith the furrier | house | 2619.7 | 1766.9 | 30.0 | 300° | 8.9 x 13.5 | 9.3 | hip 4.0 | 3 | timber |
+| H-0203 | House of Amice the saddler | shop | 2638.1 | 1696.0 | 30.9 | 268° | 9.1 x 10.3 | 6.2 | hip 4.1 | 2 | timber |
+| H-0204 | House of Alys the saddler | shop | 2594.5 | 1776.5 | 30.4 | 96° | 8.2 x 13.6 | 9.3 | gable 4.5 | 3 | timber |
+| H-0205 | House of Emma the locksmith | shop | 2598.1 | 1765.1 | 30.4 | 100° | 8.0 x 12.8 | 9.3 | gable 4.4 | 3 | timber |
+| H-0206 | House of Juliana the chandler | shop | 2614.7 | 1735.2 | 30.6 | 118° | 9.5 x 12.6 | 9.3 | gable 5.2 | 3 | timber |
+| H-0207 | House of Piers the brewer | house | 2617.7 | 1724.7 | 30.7 | 103° | 7.9 x 12.8 | 6.2 | gable 4.4 | 2 | timber |
+| H-0208 | House of Hugh the cartographer | shop | 2616.3 | 1713.5 | 30.9 | 93° | 7.5 x 13.5 | 6.2 | hip 3.4 | 2 | timber |
+| H-0209 | House of Geoffrey the notary | house | 2617.2 | 1700.6 | 31.1 | 88° | 8.6 x 10.8 | 6.2 | hip 3.9 | 2 | timber |
+| H-0210 | House of Osbert the cooper | shop | 2659.0 | 1849.9 | 28.2 | 76° | 8.3 x 10.8 | 6.2 | hip 3.7 | 2 | timber |
+| H-0211 | House of Maud the butcher | shop | 2655.4 | 1860.5 | 28.1 | 81° | 6.2 x 14.6 | 9.3 | gable 3.4 | 3 | timber |
+| H-0212 | House of Osbert the parchmenter | shop | 2663.9 | 1876.9 | 27.8 | 75° | 7.1 x 9.3 | 9.3 | hip 3.2 | 3 | timber |
+| H-0213 | House of Hugh the saddler | shop | 2680.8 | 1850.7 | 28.0 | 261° | 7.2 x 12.0 | 9.3 | hip 3.3 | 3 | timber |
+| H-0214 | House of Wat the sailmaker | house | 2680.4 | 1859.4 | 27.8 | 252° | 6.6 x 14.4 | 9.3 | gable 3.6 | 3 | timber |
+| H-0215 | House of Odo the hatter | shop | 2683.8 | 1871.3 | 27.6 | 255° | 9.0 x 11.7 | 9.3 | gable 5.0 | 3 | timber |
+| H-0216 | House of Henry the bellfounder | shop | 2690.3 | 1882.6 | 27.4 | 250° | 5.8 x 10.8 | 9.3 | gable 3.2 | 3 | timber |
+| H-0217 | House of Walter the salter | shop | 2822.4 | 1934.5 | 25.3 | 277° | 8.1 x 14.2 | 9.3 | hip 3.6 | 3 | timber |
+| H-0218 | House of Simon the fuller | shop | 2802.5 | 1916.8 | 25.6 | 200° | 8.8 x 9.3 | 6.2 | hip 3.9 | 2 | timber |
+| H-0219 | House of Amice the baker | shop | 2771.0 | 1887.0 | 26.3 | 346° | 6.3 x 13.4 | 6.2 | hip 2.8 | 2 | timber |
+| H-0220 | House of Juliana the cutler | shop | 2782.1 | 1880.1 | 26.2 | 329° | 5.9 x 11.7 | 6.2 | gable 3.2 | 2 | timber |
+| H-0221 | House of Rose the baker | house | 2765.9 | 1864.3 | 26.6 | 166° | 7.4 x 9.9 | 9.3 | gable 4.0 | 3 | timber |
+| H-0222 | House of Agnes the locksmith | shop | 2667.8 | 1687.3 | 30.6 | 343° | 7.8 x 10.0 | 6.2 | hip 3.5 | 2 | timber |
+| H-0223 | House of Joan the bellfounder | shop | 2708.9 | 1596.5 | 31.0 | 21° | 6.7 x 9.2 | 9.3 | gable 3.7 | 3 | timber |
+| H-0224 | House of Piers the hatter | shop | 2721.4 | 1600.1 | 30.6 | 25° | 8.6 x 10.6 | 9.3 | hip 3.9 | 3 | timber |
+| H-0225 | House of Rose the ropemaker | house | 2732.7 | 1607.4 | 30.3 | 32° | 9.3 x 9.7 | 9.3 | gable 5.1 | 3 | timber |
+| H-0226 | House of Henry the weaver | house | 2714.3 | 1574.3 | 30.9 | 217° | 7.1 x 11.2 | 9.3 | gable 3.9 | 3 | timber |
+| H-0227 | House of Amice the furrier | shop | 2670.2 | 1698.6 | 30.4 | 61° | 9.0 x 9.4 | 9.3 | gable 5.0 | 3 | timber |
+| H-0228 | House of Gilbert the fishmonger | shop | 2690.4 | 1745.5 | 29.3 | 80° | 7.2 x 10.3 | 9.3 | hip 3.2 | 3 | timber |
+| H-0229 | House of Petronilla the lute-maker | shop | 2690.7 | 1757.5 | 29.0 | 83° | 8.2 x 13.6 | 9.3 | gable 4.5 | 3 | timber |
+| H-0230 | House of Isabel the brewer | shop | 2692.2 | 1768.5 | 28.9 | 90° | 7.2 x 9.1 | 9.3 | gable 4.0 | 3 | timber |
+| H-0231 | House of Avice the bellfounder | shop | 2692.1 | 1780.8 | 28.8 | 111° | 7.2 x 9.5 | 9.3 | gable 4.0 | 3 | timber |
+| H-0232 | House of Walter the armourer | shop | 2692.7 | 1700.7 | 29.9 | 243° | 8.6 x 10.8 | 9.3 | gable 4.7 | 3 | timber |
+| H-0233 | House of Roger the potter | house | 2698.6 | 1714.9 | 29.6 | 254° | 6.5 x 12.1 | 9.3 | hip 2.9 | 3 | timber |
+| H-0234 | House of Jordan the potter | shop | 2703.7 | 1723.2 | 29.4 | 246° | 7.6 x 14.5 | 6.2 | gable 4.2 | 2 | timber |
+| H-0235 | House of Martin the cartographer | shop | 2709.2 | 1739.4 | 29.0 | 255° | 8.6 x 10.7 | 6.2 | gable 4.7 | 2 | timber |
+| H-0236 | House of Margery the pie-seller | shop | 2712.1 | 1754.5 | 28.8 | 263° | 6.2 x 11.8 | 6.2 | gable 3.4 | 2 | timber |
+| H-0237 | House of Geoffrey the mercer | house | 2646.3 | 1723.4 | 30.4 | 141° | 7.1 x 10.2 | 6.2 | gable 3.9 | 2 | timber |
+| H-0238 | House of Thomas the cutler | shop | 2663.3 | 1733.5 | 29.9 | 320° | 9.2 x 9.7 | 9.3 | gable 5.1 | 3 | timber |
+| H-0239 | House of Geoffrey the jeweller | house | 2649.3 | 1742.1 | 30.0 | 336° | 9.1 x 9.9 | 6.2 | gable 5.0 | 2 | timber |
+| H-0240 | House of Thomas the fuller | shop | 2959.2 | 1947.6 | 22.7 | 146° | 5.9 x 10.2 | 6.2 | gable 3.2 | 2 | timber |
+| H-0241 | House of Isabel the fletcher | shop | 2985.8 | 1929.9 | 22.6 | 159° | 8.0 x 13.4 | 6.2 | gable 4.4 | 2 | timber |
+| H-0242 | House of Avice the bowyer | shop | 2909.8 | 2078.6 | 22.7 | 130° | 6.5 x 10.3 | 9.3 | gable 3.6 | 3 | timber |
+| H-0243 | House of Alan the lute-maker | house | 2938.1 | 2074.7 | 22.4 | 310° | 9.2 x 11.8 | 9.3 | gable 5.0 | 3 | timber |
+| H-0244 | House of Sybil the fletcher | house | 2929.1 | 2083.2 | 22.5 | 316° | 7.1 x 9.3 | 9.3 | gable 3.9 | 3 | timber |
+| H-0245 | House of Hob the mason | house | 2865.8 | 2023.6 | 24.0 | 88° | 7.7 x 13.3 | 6.2 | gable 4.2 | 2 | timber |
+| H-0246 | House of Hawise the salter | shop | 2870.3 | 2038.1 | 23.8 | 68° | 6.4 x 14.9 | 6.2 | hip 2.9 | 2 | timber |
+| H-0247 | House of Walter the fletcher | shop | 2872.0 | 2048.5 | 23.6 | 65° | 7.7 x 13.8 | 6.2 | hip 3.5 | 2 | timber |
+| H-0248 | House of Jordan the vintner | shop | 2880.4 | 2062.2 | 23.4 | 54° | 5.8 x 12.6 | 9.3 | hip 2.6 | 3 | timber |
+| H-0249 | House of Cecily the glazier | shop | 2885.1 | 2069.7 | 23.1 | 79° | 6.0 x 10.2 | 6.2 | gable 3.3 | 2 | timber |
+| H-0250 | House of Avice the pie-seller | shop | 2640.9 | 1773.0 | 29.8 | 44° | 8.5 x 10.0 | 9.3 | hip 3.8 | 3 | timber |
+| H-0251 | House of Odo the lute-maker | shop | 2651.1 | 1786.2 | 29.4 | 36° | 6.9 x 11.4 | 9.3 | hip 3.1 | 3 | timber |
+| H-0252 | House of Osbert the mason | shop | 2666.8 | 1792.2 | 28.9 | 18° | 6.0 x 11.0 | 9.3 | hip 2.7 | 3 | timber |
+| H-0253 | House of Baldwin the chandler | shop | 2680.3 | 1797.3 | 28.7 | 22° | 8.2 x 11.3 | 6.2 | gable 4.5 | 2 | timber |
+| H-0254 | House of Robin the carpenter | shop | 2690.1 | 1799.4 | 28.5 | 27° | 7.3 x 12.0 | 9.3 | hip 3.3 | 3 | timber |
+| H-0255 | House of Maud the bookbinder | shop | 2655.4 | 1760.7 | 29.7 | 224° | 7.7 x 9.0 | 9.3 | hip 3.5 | 3 | timber |
+| H-0256 | House of Amice the armourer | shop | 2665.5 | 1771.0 | 29.4 | 216° | 7.7 x 9.6 | 9.3 | hip 3.5 | 3 | timber |
+| H-0257 | House of Joan the clockmaker | house | 2674.2 | 1773.3 | 29.2 | 198° | 6.2 x 9.8 | 6.2 | hip 2.8 | 2 | timber |
+| H-0258 | House of Christiana the spicer | house | 2708.9 | 1787.0 | 28.4 | 198° | 8.8 x 10.9 | 6.2 | gable 4.8 | 2 | timber |
 
-## University (9 buildings)
+## Shipwrights' Reach (10 buildings)
 
-6 college, 2 chapel, 1 library
+4 shed, 4 house, 1 sail loft, 1 arsenal
 
 | ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
 |---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| U-0001 | Starlight College (north range) | college | 442.5 | 1376.0 | 71.2 | 0° | 85.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| U-0002 | Starlight College (south range) | college | 442.5 | 1434.0 | 71.7 | 180° | 85.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| U-0003 | Starlight College (west range) | college | 406.0 | 1405.0 | 71.5 | 270° | 46.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| U-0004 | Starlight College (chapel) | chapel | 479.0 | 1405.0 | 71.3 | 90° | 46.0 x 11.0 | 14.0 | gable 6.0 | 1 | stone |
-| U-0005 | Henge College (north range) | college | 537.5 | 1376.0 | 71.0 | 0° | 85.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| U-0006 | Henge College (south range) | college | 537.5 | 1434.0 | 71.7 | 180° | 85.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| U-0007 | Henge College (west range) | college | 501.0 | 1405.0 | 71.3 | 270° | 46.0 x 11.0 | 11.0 | gable 6.0 | 3 | stone |
-| U-0008 | Henge College (chapel) | chapel | 574.0 | 1405.0 | 71.1 | 90° | 46.0 x 11.0 | 14.0 | gable 6.0 | 1 | stone |
-| U-0009 | University Library | library | 490.0 | 1462.0 | 71.7 | 0° | 60.0 x 16.0 | 14.0 | hip 7.2 | 3 | stone |
+| Y-0001 | Slipway shed 1 | shed | 2690.0 | 2295.0 | 23.9 | 165° | 22.0 x 14.0 | 10.0 | gable 7.7 | 1 | timber |
+| Y-0002 | Slipway shed 2 | shed | 2750.0 | 2295.0 | 23.7 | 165° | 22.0 x 14.0 | 10.0 | gable 7.7 | 1 | timber |
+| Y-0003 | Slipway shed 3 | shed | 2810.0 | 2295.0 | 23.3 | 165° | 22.0 x 14.0 | 10.0 | gable 7.7 | 1 | timber |
+| Y-0004 | Slipway shed 4 | shed | 2870.0 | 2295.0 | 22.4 | 165° | 22.0 x 14.0 | 10.0 | gable 7.7 | 1 | timber |
+| Y-0005 | Sail loft | sail loft | 2700.0 | 2350.0 | 23.6 | 0° | 50.0 x 14.0 | 12.0 | gable 7.7 | 3 | timber |
+| Y-0006 | Naval arsenal | arsenal | 2800.0 | 2360.0 | 23.0 | 0° | 60.0 x 18.0 | 12.0 | gable 9.9 | 2 | stone |
+| Y-0007 | House of Joan the glover | house | 2708.2 | 2207.7 | 24.1 | 190° | 8.4 x 11.1 | 3.1 | gable 4.6 | 1 | timber |
+| Y-0008 | House of Beatrice the draper | house | 2712.6 | 2191.8 | 24.1 | 346° | 9.9 x 10.4 | 3.1 | hip 4.5 | 1 | timber |
+| Y-0009 | House of Geoffrey the weaver | house | 2740.0 | 2188.3 | 23.7 | 2° | 13.7 x 14.1 | 6.2 | gable 7.5 | 2 | timber |
+| Y-0010 | House of Emma the scribe | house | 2698.9 | 2174.9 | 24.1 | 163° | 9.7 x 10.9 | 6.2 | gable 5.3 | 2 | timber |
 
-## City wall & gates (71 buildings)
+## Tanners' Reach (122 buildings)
 
-64 tower, 7 gatehouse
-
-| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
-|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| T-0001 | City wall tower 1 | tower | 1848.2 | 1158.2 | 71.6 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0002 | City wall tower 2 | tower | 1831.1 | 1245.1 | 71.6 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0003 | City wall tower 3 | tower | 1763.5 | 1410.5 | 70.9 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0004 | City wall tower 4 | tower | 1714.1 | 1486.7 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0005 | City wall tower 5 | tower | 1655.1 | 1557.1 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0006 | City wall tower 6 | tower | 1587.4 | 1620.7 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0007 | City wall tower 7 | tower | 1511.9 | 1676.8 | 71.6 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0008 | City wall tower 8 | tower | 1429.6 | 1724.4 | 71.6 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0009 | City wall tower 9 | tower | 1341.6 | 1762.9 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0010 | City wall tower 10 | tower | 1249.3 | 1791.8 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0011 | City wall tower 11 | tower | 1153.8 | 1810.8 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0012 | City wall tower 12 | tower | 1056.6 | 1819.4 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0013 | City wall tower 13 | tower | 958.9 | 1817.7 | 71.6 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0014 | City wall tower 14 | tower | 862.1 | 1805.6 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0015 | City wall tower 15 | tower | 767.5 | 1783.3 | 71.6 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0016 | City wall tower 16 | tower | 676.5 | 1751.1 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0017 | City wall tower 17 | tower | 590.3 | 1709.5 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0018 | City wall tower 18 | tower | 510.1 | 1659.0 | 71.8 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0019 | City wall tower 19 | tower | 414.5 | 1579.1 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0020 | City wall tower 20 | tower | 352.5 | 1510.8 | 71.6 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0021 | City wall tower 21 | tower | 299.8 | 1436.5 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0022 | City wall tower 22 | tower | 257.2 | 1357.0 | 71.6 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0023 | City wall tower 23 | tower | 209.9 | 1216.3 | 70.6 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0024 | City wall tower 24 | tower | 196.6 | 1128.8 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0025 | City wall tower 25 | tower | 196.6 | 1011.2 | 71.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0026 | City wall tower 26 | tower | 209.9 | 923.7 | 74.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0027 | City wall tower 27 | tower | 234.6 | 838.2 | 75.9 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0028 | City wall tower 28 | tower | 270.2 | 756.0 | 74.8 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0029 | City wall tower 29 | tower | 316.3 | 678.1 | 73.6 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0030 | City wall tower 30 | tower | 372.2 | 605.7 | 73.3 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0031 | City wall tower 31 | tower | 460.6 | 519.3 | 76.1 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0032 | City wall tower 32 | tower | 536.1 | 463.2 | 81.4 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0033 | City wall tower 33 | tower | 618.4 | 415.6 | 89.5 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0034 | City wall tower 34 | tower | 706.4 | 377.1 | 98.5 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0035 | City wall tower 35 | tower | 798.7 | 348.2 | 112.9 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0036 | City wall tower 36 | tower | 1217.8 | 340.7 | 118.0 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0037 | City wall tower 37 | tower | 1311.3 | 366.4 | 98.2 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0038 | City wall tower 38 | tower | 1400.8 | 401.8 | 86.2 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0039 | City wall tower 39 | tower | 1485.1 | 446.4 | 84.1 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0040 | City wall tower 40 | tower | 1563.0 | 499.7 | 80.7 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0041 | City wall tower 41 | tower | 1633.5 | 560.9 | 75.8 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0042 | City wall tower 42 | tower | 1695.5 | 629.2 | 74.0 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0043 | City wall tower 43 | tower | 1748.2 | 703.5 | 74.8 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0044 | City wall tower 44 | tower | 1790.8 | 783.0 | 76.5 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0045 | City wall tower 45 | tower | 1822.8 | 866.4 | 77.1 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0046 | City wall tower 46 | tower | 1843.8 | 952.7 | 75.1 | 0° | round, 12.0 across | 18.0 | cone 10.8 | 1 | stone |
-| T-0047 | East Gate | gatehouse | 1854.0 | 1070.0 | 71.5 | 90° | 22.0 x 16.0 | 20.0 | crenel 0.0 | 1 | stone |
-| T-0048 | East Gate drum | tower | 1854.0 | 1058.0 | 71.6 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0049 | East Gate drum | tower | 1854.0 | 1082.0 | 71.6 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0050 | South Gate | gatehouse | 1024.0 | 1820.0 | 71.5 | 180° | 22.0 x 16.0 | 20.0 | crenel 0.0 | 1 | stone |
-| T-0051 | South Gate drum | tower | 1036.0 | 1820.0 | 71.5 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0052 | South Gate drum | tower | 1012.0 | 1820.0 | 71.5 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0053 | West Gate | gatehouse | 194.0 | 1070.0 | 71.6 | 270° | 22.0 x 16.0 | 20.0 | crenel 0.0 | 1 | stone |
-| T-0054 | West Gate drum | tower | 194.0 | 1082.0 | 71.7 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0055 | West Gate drum | tower | 194.0 | 1058.0 | 71.6 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0056 | North-East Gate | gatehouse | 1610.9 | 539.7 | 76.4 | 45° | 22.0 x 16.0 | 20.0 | crenel 0.0 | 1 | stone |
-| T-0057 | North-East Gate drum | tower | 1602.4 | 531.2 | 77.4 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0058 | North-East Gate drum | tower | 1619.4 | 548.2 | 76.2 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0059 | South-West Gate | gatehouse | 437.1 | 1600.3 | 71.5 | 225° | 22.0 x 16.0 | 20.0 | crenel 0.0 | 1 | stone |
-| T-0060 | South-West Gate drum | tower | 445.6 | 1608.8 | 71.6 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0061 | South-West Gate drum | tower | 428.6 | 1591.8 | 71.5 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0062 | North-West Gate | gatehouse | 437.1 | 539.7 | 74.7 | 315° | 22.0 x 16.0 | 20.0 | crenel 0.0 | 1 | stone |
-| T-0063 | North-West Gate drum | tower | 428.6 | 548.2 | 74.7 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0064 | North-West Gate drum | tower | 445.6 | 531.2 | 75.5 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0065 | South-East Gate | gatehouse | 1610.9 | 1600.3 | 71.6 | 135° | 22.0 x 16.0 | 20.0 | crenel 0.0 | 1 | stone |
-| T-0066 | South-East Gate drum | tower | 1619.4 | 1591.8 | 71.6 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0067 | South-East Gate drum | tower | 1602.4 | 1608.8 | 71.5 | 0° | round, 14.0 across | 22.0 | cone 12.6 | 1 | stone |
-| T-0068 | East Water Gate tower | tower | 1790.8 | 1321.0 | 70.9 | 0° | round, 16.0 across | 22.0 | crenel 0.0 | 1 | stone |
-| T-0069 | East Water Gate tower | tower | 1790.8 | 1393.0 | 66.8 | 0° | round, 16.0 across | 22.0 | crenel 0.0 | 1 | stone |
-| T-0070 | West Water Gate tower | tower | 225.2 | 1237.6 | 65.8 | 0° | round, 16.0 across | 22.0 | crenel 0.0 | 1 | stone |
-| T-0071 | West Water Gate tower | tower | 225.2 | 1309.6 | 70.7 | 0° | round, 16.0 across | 22.0 | crenel 0.0 | 1 | stone |
-
-## Outside the walls (197 buildings)
-
-194 house, 3 windmill
+63 house, 38 tower, 6 gatehouse, 4 tannery, 3 dyeworks, 3 kiln, 2 church, 1 foundry, 1 glassworks, 1 brewery
 
 | ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
 |---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
-| X-0001 | Cottage of Martin the apothecary | house | 1012.1 | 1875.1 | 71.7 | 90° | 9.2 x 8.6 | 3.4 | gable 4.7 | 1 | timber |
-| X-0002 | Cottage of Hob the furrier | house | 1011.7 | 1892.1 | 71.7 | 90° | 10.2 x 9.4 | 3.4 | gable 5.2 | 1 | timber |
-| X-0003 | Cottage of Matilda the potter | house | 1011.8 | 1909.3 | 71.5 | 90° | 11.2 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
-| X-0004 | Cottage of Felice the butcher | house | 1012.4 | 1927.9 | 71.6 | 90° | 8.2 x 7.3 | 3.4 | gable 4.0 | 1 | timber |
-| X-0005 | Cottage of Emma the tailor | house | 1037.3 | 1877.4 | 71.6 | 270° | 9.8 x 9.8 | 3.4 | gable 5.4 | 1 | timber |
-| X-0006 | Cottage of Odo the fuller | house | 1036.6 | 1895.0 | 71.6 | 270° | 9.9 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
-| X-0007 | Cottage of Edith the mason | house | 1037.0 | 1908.4 | 71.7 | 270° | 9.7 x 9.5 | 3.4 | gable 5.2 | 1 | timber |
-| X-0008 | Cottage of Maud the glazier | house | 1036.0 | 1920.4 | 71.6 | 270° | 11.4 x 7.6 | 3.4 | gable 4.2 | 1 | timber |
-| X-0009 | Cottage of Simon the draper | house | 1913.8 | 1087.8 | 71.6 | 1° | 10.9 x 8.0 | 3.4 | gable 4.4 | 1 | timber |
-| X-0010 | Cottage of Mabel the parchmenter | house | 1932.2 | 1087.4 | 71.7 | 360° | 12.0 x 7.0 | 3.4 | gable 3.9 | 1 | timber |
-| X-0011 | Cottage of Edith the bellfounder | house | 1952.5 | 1087.2 | 71.5 | 358° | 9.4 x 7.4 | 3.4 | gable 4.1 | 1 | timber |
-| X-0012 | Cottage of Martin the tanner | house | 1969.8 | 1087.2 | 71.6 | 358° | 11.0 x 8.5 | 3.4 | gable 4.7 | 1 | timber |
-| X-0013 | Cottage of Mabel the barber-surgeon | house | 1985.4 | 1086.3 | 71.8 | 357° | 9.3 x 8.3 | 3.4 | gable 4.6 | 1 | timber |
-| X-0014 | Cottage of Odo the goldsmith | house | 1997.2 | 1085.5 | 71.8 | 357° | 10.1 x 7.9 | 3.4 | gable 4.4 | 1 | timber |
-| X-0015 | Cottage of Piers the clockmaker | house | 2016.3 | 1085.0 | 71.7 | 356° | 8.3 x 9.5 | 3.4 | gable 4.6 | 1 | timber |
-| X-0016 | Cottage of Godwin the hatter | house | 2027.8 | 1083.1 | 71.7 | 356° | 9.5 x 7.0 | 3.4 | gable 3.9 | 1 | timber |
-| X-0017 | Cottage of Matilda the weaver | house | 2041.8 | 1083.7 | 71.7 | 357° | 10.4 x 10.0 | 3.4 | gable 5.5 | 1 | timber |
-| X-0018 | Cottage of Joan the fuller | house | 1913.4 | 1062.9 | 71.7 | 181° | 11.5 x 9.8 | 3.4 | gable 5.4 | 1 | timber |
-| X-0019 | Cottage of Christiana the saddler | house | 1928.0 | 1063.2 | 71.9 | 180° | 10.6 x 9.5 | 3.4 | gable 5.2 | 1 | timber |
-| X-0020 | Cottage of Emma the cooper | house | 1945.2 | 1063.4 | 72.4 | 179° | 8.1 x 8.7 | 3.4 | gable 4.5 | 1 | timber |
-| X-0021 | Cottage of Amice the notary | house | 1960.8 | 1062.8 | 72.8 | 178° | 12.6 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
-| X-0022 | Cottage of Martin the cooper | house | 1980.7 | 1062.5 | 73.7 | 177° | 9.9 x 7.6 | 3.4 | gable 4.2 | 1 | timber |
-| X-0023 | Cottage of Thomas the herbalist | house | 1997.9 | 1060.7 | 74.2 | 177° | 12.9 x 9.5 | 3.4 | gable 5.2 | 1 | timber |
-| X-0024 | Cottage of Geoffrey the tinker | house | 2012.8 | 1059.5 | 74.5 | 176° | 10.0 x 9.9 | 3.4 | gable 5.5 | 1 | timber |
-| X-0025 | Cottage of Alan the butcher | house | 2027.4 | 1059.3 | 74.7 | 176° | 9.7 x 8.6 | 3.4 | gable 4.7 | 1 | timber |
-| X-0026 | Cottage of Amice the dyer | house | 2041.2 | 1057.8 | 74.7 | 177° | 10.1 x 9.8 | 3.4 | gable 5.4 | 1 | timber |
-| X-0027 | Cottage of Maud the wheelwright | house | 127.1 | 1062.9 | 71.5 | 179° | 11.3 x 9.8 | 3.4 | gable 5.4 | 1 | timber |
-| X-0028 | Cottage of Petronilla the apothecary | house | 110.2 | 1062.9 | 71.8 | 180° | 9.8 x 10.0 | 3.4 | gable 5.4 | 1 | timber |
-| X-0029 | Cottage of Thomas the potter | house | 93.7 | 1062.9 | 72.1 | 182° | 12.7 x 9.4 | 3.4 | gable 5.2 | 1 | timber |
-| X-0030 | Cottage of Nicholas the notary | house | 76.7 | 1063.5 | 72.7 | 183° | 8.9 x 7.1 | 3.4 | gable 3.9 | 1 | timber |
-| X-0031 | Cottage of Jordan the tailor | house | 64.1 | 1062.0 | 73.1 | 183° | 10.8 x 8.7 | 3.4 | gable 4.8 | 1 | timber |
-| X-0032 | Cottage of Felice the parchmenter | house | 44.6 | 1060.5 | 73.8 | 184° | 10.3 x 9.6 | 3.4 | gable 5.3 | 1 | timber |
-| X-0033 | Cottage of Martin the potter | house | 26.5 | 1060.1 | 74.0 | 184° | 8.6 x 8.0 | 3.4 | gable 4.4 | 1 | timber |
-| X-0034 | Cottage of Odo the furrier | house | 9.3 | 1059.3 | 74.1 | 184° | 10.5 x 7.2 | 3.4 | gable 4.0 | 1 | timber |
-| X-0035 | Cottage of Henry the cutler | house | -4.8 | 1058.2 | 74.2 | 182° | 11.8 x 8.0 | 3.4 | gable 4.4 | 1 | timber |
-| X-0036 | Cottage of Edith the bookbinder | house | 127.3 | 1087.6 | 71.6 | 359° | 11.9 x 7.6 | 3.4 | gable 4.2 | 1 | timber |
-| X-0037 | Cottage of Godwin the mercer | house | 111.7 | 1088.3 | 71.6 | 0° | 9.2 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
-| X-0038 | Cottage of Hugh the brewer | house | 96.6 | 1088.5 | 71.8 | 2° | 8.8 x 9.7 | 3.4 | gable 4.8 | 1 | timber |
-| X-0039 | Cottage of Walter the mason | house | 85.2 | 1087.5 | 71.7 | 2° | 8.8 x 8.3 | 3.4 | gable 4.6 | 1 | timber |
-| X-0040 | Cottage of Felice the mason | house | 73.1 | 1087.1 | 71.7 | 3° | 11.8 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
-| X-0041 | Cottage of Emma the apothecary | house | 57.9 | 1086.5 | 71.8 | 3° | 11.5 x 8.8 | 3.4 | gable 4.8 | 1 | timber |
-| X-0042 | Cottage of Mabel the vintner | house | 38.9 | 1085.1 | 71.7 | 4° | 9.3 x 8.3 | 3.4 | gable 4.6 | 1 | timber |
-| X-0043 | Cottage of Mabel the carpenter | house | 26.8 | 1084.5 | 71.6 | 4° | 11.1 x 8.7 | 3.4 | gable 4.8 | 1 | timber |
-| X-0044 | Cottage of Isabel the saddler | house | 11.1 | 1083.7 | 71.5 | 4° | 10.2 x 9.3 | 3.4 | gable 5.1 | 1 | timber |
-| X-0045 | Cottage of Hawise the chandler | house | -5.1 | 1082.8 | 71.6 | 2° | 8.3 x 9.3 | 3.4 | gable 4.6 | 1 | timber |
-| X-0046 | Cottage of Robin the fletcher | house | 1671.6 | 506.6 | 80.2 | 316° | 11.6 x 8.5 | 3.4 | gable 4.7 | 1 | timber |
-| X-0047 | Cottage of Stephen the bellfounder | house | 1681.2 | 496.1 | 81.1 | 315° | 8.2 x 7.0 | 3.4 | gable 3.9 | 1 | timber |
-| X-0048 | Cottage of Nicholas the ropemaker | house | 1691.8 | 487.0 | 82.0 | 313° | 8.2 x 9.7 | 3.4 | gable 4.5 | 1 | timber |
-| X-0049 | Cottage of Edith the mason | house | 1699.7 | 477.6 | 83.0 | 313° | 10.3 x 8.5 | 3.4 | gable 4.7 | 1 | timber |
-| X-0050 | Cottage of Hugh the jeweller | house | 1654.9 | 488.5 | 81.7 | 136° | 8.1 x 8.8 | 3.4 | gable 4.5 | 1 | timber |
-| X-0051 | Cottage of Maud the bellfounder | house | 1665.2 | 478.2 | 82.5 | 134° | 11.8 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
-| X-0052 | Cottage of Joan the ropemaker | house | 1676.8 | 466.7 | 83.9 | 133° | 9.8 x 7.9 | 3.4 | gable 4.4 | 1 | timber |
-| X-0053 | Cottage of Edith the bookbinder | house | 1688.7 | 454.3 | 85.2 | 134° | 11.7 x 7.5 | 3.4 | gable 4.1 | 1 | timber |
-| X-0054 | Cottage of Matilda the pie-seller | house | 399.7 | 493.4 | 79.1 | 223° | 10.9 x 7.9 | 3.4 | gable 4.4 | 1 | timber |
-| X-0055 | Cottage of Isabel the stonecarver | house | 388.1 | 481.3 | 80.4 | 224° | 12.2 x 9.4 | 3.4 | gable 5.2 | 1 | timber |
-| X-0056 | Cottage of Geoffrey the lute-maker | house | 377.6 | 470.8 | 81.5 | 225° | 9.9 x 9.5 | 3.4 | gable 5.2 | 1 | timber |
-| X-0057 | Cottage of Baldwin the glazier | house | 367.0 | 460.5 | 82.6 | 225° | 10.6 x 9.1 | 3.4 | gable 5.0 | 1 | timber |
-| X-0058 | Cottage of Adam the pewterer | house | 357.6 | 451.2 | 83.8 | 224° | 9.4 x 9.0 | 3.4 | gable 4.9 | 1 | timber |
-| X-0059 | Cottage of Wat the chandler | house | 373.2 | 500.8 | 79.3 | 44° | 9.3 x 7.5 | 3.4 | gable 4.1 | 1 | timber |
-| X-0060 | Cottage of Richard the apothecary | house | 359.5 | 488.4 | 80.2 | 45° | 9.8 x 9.0 | 3.4 | gable 5.0 | 1 | timber |
-| X-0061 | Cottage of Cecily the weaver | house | 348.3 | 476.7 | 81.2 | 45° | 11.3 x 8.2 | 3.4 | gable 4.5 | 1 | timber |
-| X-0062 | Cottage of Sybil the limner | house | 383.1 | 1627.4 | 71.7 | 137° | 11.2 x 9.3 | 3.4 | gable 5.1 | 1 | timber |
-| X-0063 | Cottage of Piers the glazier | house | 371.1 | 1640.0 | 71.5 | 136° | 9.3 x 7.6 | 3.4 | gable 4.2 | 1 | timber |
-| X-0064 | Cottage of Hugh the fuller | house | 359.2 | 1651.0 | 71.5 | 134° | 8.4 x 9.1 | 3.4 | gable 4.6 | 1 | timber |
-| X-0065 | Cottage of Henry the stonecarver | house | 349.9 | 1660.5 | 71.5 | 134° | 10.3 x 9.2 | 3.4 | gable 5.1 | 1 | timber |
-| X-0066 | Cottage of Sybil the apothecary | house | 339.3 | 1672.5 | 71.7 | 135° | 8.9 x 7.7 | 3.4 | gable 4.2 | 1 | timber |
-| X-0067 | Cottage of Beatrice the carpenter | house | 398.2 | 1647.0 | 71.8 | 317° | 10.5 x 7.9 | 3.4 | gable 4.3 | 1 | timber |
-| X-0068 | Cottage of Baldwin the limner | house | 388.3 | 1656.4 | 71.8 | 316° | 10.0 x 7.9 | 3.4 | gable 4.3 | 1 | timber |
-| X-0069 | Cottage of Godwin the armourer | house | 379.4 | 1664.8 | 71.7 | 314° | 10.9 x 7.3 | 3.4 | gable 4.0 | 1 | timber |
-| X-0070 | Cottage of Ralph the tanner | house | 370.0 | 1674.4 | 71.7 | 314° | 12.3 x 7.2 | 3.4 | gable 3.9 | 1 | timber |
-| X-0071 | Cottage of Christiana the chandler | house | 356.3 | 1688.9 | 71.7 | 315° | 9.9 x 7.5 | 3.4 | gable 4.2 | 1 | timber |
-| X-0072 | Cottage of Avice the goldsmith | house | 1655.0 | 1652.2 | 71.7 | 44° | 8.4 x 7.5 | 3.4 | gable 4.1 | 1 | timber |
-| X-0073 | Cottage of Margery the stonecarver | house | 1665.6 | 1662.5 | 71.6 | 45° | 9.8 x 7.4 | 3.4 | gable 4.0 | 1 | timber |
-| X-0074 | Cottage of Alys the pie-seller | house | 1676.1 | 1674.4 | 71.7 | 46° | 11.3 x 9.2 | 3.4 | gable 5.1 | 1 | timber |
-| X-0075 | Cottage of Alan the pie-seller | house | 1690.1 | 1687.8 | 71.6 | 44° | 11.6 x 8.2 | 3.4 | gable 4.5 | 1 | timber |
-| X-0076 | Cottage of Walter the lute-maker | house | 1667.0 | 1630.3 | 71.6 | 224° | 12.4 x 8.6 | 3.4 | gable 4.7 | 1 | timber |
-| X-0077 | Cottage of Alan the mercer | house | 1679.7 | 1643.1 | 71.6 | 225° | 9.7 x 8.0 | 3.4 | gable 4.4 | 1 | timber |
-| X-0078 | Cottage of Amice the cooper | house | 1688.5 | 1651.3 | 71.6 | 225° | 10.1 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
-| X-0079 | Cottage of Ida the jeweller | house | 1698.7 | 1661.5 | 71.6 | 226° | 11.6 x 9.3 | 3.4 | gable 5.1 | 1 | timber |
-| X-0080 | Cottage of Hob the clockmaker | house | 2072.3 | 1090.4 | 71.6 | 273° | 10.3 x 9.6 | 3.4 | gable 5.3 | 1 | timber |
-| X-0081 | Cottage of Isabel the glazier | house | 343.3 | 442.7 | 85.1 | 205° | 11.0 x 9.0 | 3.4 | gable 5.0 | 1 | timber |
-| X-0082 | Cottage of Nicholas the cooper | house | 328.0 | 435.6 | 86.2 | 205° | 12.1 x 9.1 | 3.4 | gable 5.0 | 1 | timber |
-| X-0083 | Cottage of Juliana the ropemaker | house | 311.4 | 428.0 | 87.5 | 205° | 10.2 x 8.7 | 3.4 | gable 4.8 | 1 | timber |
-| X-0084 | Cottage of Avice the cobbler | house | 294.8 | 420.6 | 88.8 | 205° | 10.9 x 8.3 | 3.4 | gable 4.6 | 1 | timber |
-| X-0085 | Cottage of Amice the butcher | house | 281.1 | 413.7 | 90.4 | 205° | 9.2 x 9.3 | 3.4 | gable 5.1 | 1 | timber |
-| X-0086 | Cottage of Petronilla the herbalist | house | 268.9 | 408.2 | 91.7 | 205° | 10.1 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
-| X-0087 | Cottage of Stephen the barber-surgeon | house | 257.1 | 403.1 | 92.9 | 205° | 10.4 x 8.3 | 3.4 | gable 4.5 | 1 | timber |
-| X-0088 | Cottage of Laurence the butcher | house | 243.7 | 397.6 | 94.3 | 205° | 12.2 x 7.1 | 3.4 | gable 3.9 | 1 | timber |
-| X-0089 | Cottage of Odo the fuller | house | 230.1 | 389.9 | 96.1 | 204° | 10.8 x 10.0 | 3.4 | gable 5.5 | 1 | timber |
-| X-0090 | Cottage of Jordan the cheesemonger | house | 213.1 | 383.2 | 99.0 | 204° | 8.3 x 8.1 | 3.4 | gable 4.4 | 1 | timber |
-| X-0091 | Cottage of Margery the bellfounder | house | 199.9 | 377.5 | 101.5 | 204° | 8.9 x 7.7 | 3.4 | gable 4.2 | 1 | timber |
-| X-0092 | Cottage of Godwin the carpenter | house | 189.6 | 372.1 | 103.9 | 204° | 8.2 x 9.2 | 3.4 | gable 4.5 | 1 | timber |
-| X-0093 | Cottage of Matilda the tanner | house | 179.4 | 368.7 | 106.3 | 204° | 8.7 x 7.2 | 3.4 | gable 4.0 | 1 | timber |
-| X-0094 | Cottage of Rose the potter | house | 168.9 | 363.8 | 109.4 | 203° | 8.5 x 7.9 | 3.4 | gable 4.3 | 1 | timber |
-| X-0095 | Cottage of Walter the parchmenter | house | 334.3 | 462.1 | 83.1 | 25° | 8.5 x 7.7 | 3.4 | gable 4.2 | 1 | timber |
-| X-0096 | Cottage of Simon the chandler | house | 321.5 | 456.0 | 83.9 | 25° | 9.9 x 7.4 | 3.4 | gable 4.1 | 1 | timber |
-| X-0097 | Cottage of Wat the cutler | house | 305.8 | 449.8 | 84.7 | 25° | 12.1 x 9.4 | 3.4 | gable 5.2 | 1 | timber |
-| X-0098 | Cottage of Ivetta the spicer | house | 287.0 | 440.5 | 86.5 | 25° | 12.8 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
-| X-0099 | Cottage of Agnes the scribe | house | 273.1 | 434.6 | 87.5 | 25° | 10.2 x 9.5 | 3.4 | gable 5.2 | 1 | timber |
-| X-0100 | Cottage of Avice the armourer | house | 260.2 | 427.5 | 89.1 | 25° | 12.2 x 7.4 | 3.4 | gable 4.1 | 1 | timber |
-| X-0101 | Cottage of Piers the cutler | house | 241.6 | 419.6 | 90.5 | 25° | 11.2 x 8.6 | 3.4 | gable 4.7 | 1 | timber |
-| X-0102 | Cottage of Hugh the cheesemonger | house | 225.5 | 412.6 | 92.4 | 24° | 8.0 x 9.4 | 3.4 | gable 4.4 | 1 | timber |
-| X-0103 | Cottage of Sybil the spicer | house | 212.7 | 406.0 | 94.0 | 24° | 12.2 x 7.9 | 3.4 | gable 4.3 | 1 | timber |
-| X-0104 | Cottage of Joan the hatter | house | 194.2 | 398.1 | 97.3 | 24° | 12.4 x 8.6 | 3.4 | gable 4.8 | 1 | timber |
-| X-0105 | Cottage of Matilda the carpenter | house | 178.2 | 391.1 | 100.6 | 24° | 8.4 x 8.7 | 3.4 | gable 4.6 | 1 | timber |
-| X-0106 | Cottage of Stephen the stonecarver | house | 163.2 | 384.3 | 103.9 | 23° | 10.9 x 8.3 | 3.4 | gable 4.6 | 1 | timber |
-| X-0107 | Cottage of Richard the draper | house | 1715.2 | 461.3 | 84.5 | 326° | 9.2 x 9.2 | 3.4 | gable 5.1 | 1 | timber |
-| X-0108 | Cottage of Geoffrey the clockmaker | house | 1728.1 | 452.4 | 85.5 | 326° | 8.2 x 9.0 | 3.4 | gable 4.5 | 1 | timber |
-| X-0109 | Cottage of Robin the herbalist | house | 1741.9 | 442.6 | 86.9 | 325° | 10.7 x 8.7 | 3.4 | gable 4.8 | 1 | timber |
-| X-0110 | Cottage of Hob the money-changer | house | 1755.0 | 433.3 | 88.1 | 325° | 10.7 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
-| X-0111 | Cottage of Osbert the cooper | house | 1769.9 | 423.2 | 90.0 | 326° | 8.9 x 8.7 | 3.4 | gable 4.8 | 1 | timber |
-| X-0112 | Cottage of Simon the lute-maker | house | 1781.1 | 416.3 | 90.8 | 326° | 10.0 x 9.8 | 3.4 | gable 5.4 | 1 | timber |
-| X-0113 | Cottage of Emma the cheesemonger | house | 1792.5 | 408.3 | 92.9 | 326° | 9.1 x 9.5 | 3.4 | gable 5.0 | 1 | timber |
-| X-0114 | Cottage of Edith the bellfounder | house | 1803.6 | 399.4 | 94.9 | 326° | 12.0 x 7.1 | 3.4 | gable 3.9 | 1 | timber |
-| X-0115 | Cottage of Hawise the vintner | house | 1817.6 | 390.6 | 97.1 | 327° | 10.3 x 7.9 | 3.4 | gable 4.3 | 1 | timber |
-| X-0116 | Cottage of Nicholas the fletcher | house | 1828.4 | 383.3 | 99.3 | 327° | 12.3 x 7.4 | 3.4 | gable 4.1 | 1 | timber |
-| X-0117 | Cottage of Avice the limner | house | 1845.6 | 373.3 | 103.2 | 328° | 10.4 x 9.2 | 3.4 | gable 5.1 | 1 | timber |
-| X-0118 | Cottage of Felice the potter | house | 1858.8 | 364.0 | 107.8 | 329° | 12.2 x 7.2 | 3.4 | gable 4.0 | 1 | timber |
-| X-0119 | Cottage of Gilbert the carpenter | house | 1874.8 | 355.9 | 113.8 | 330° | 8.3 x 9.5 | 3.4 | gable 4.6 | 1 | timber |
-| X-0120 | Cottage of Odo the apothecary | house | 1703.3 | 443.6 | 86.6 | 146° | 10.0 x 7.3 | 3.4 | gable 4.0 | 1 | timber |
-| X-0121 | Cottage of Jordan the draper | house | 1715.5 | 434.9 | 87.7 | 146° | 9.4 x 8.1 | 3.4 | gable 4.5 | 1 | timber |
-| X-0122 | Cottage of Agnes the brewer | house | 1725.3 | 427.4 | 88.7 | 145° | 10.0 x 9.2 | 3.4 | gable 5.1 | 1 | timber |
-| X-0123 | Cottage of Rose the tanner | house | 1738.3 | 419.7 | 90.2 | 145° | 9.2 x 7.0 | 3.4 | gable 3.9 | 1 | timber |
-| X-0124 | Cottage of Christiana the jeweller | house | 1751.1 | 410.3 | 91.7 | 145° | 12.5 x 7.9 | 3.4 | gable 4.3 | 1 | timber |
-| X-0125 | Cottage of Richard the fletcher | house | 1767.0 | 399.5 | 94.1 | 146° | 9.1 x 7.7 | 3.4 | gable 4.2 | 1 | timber |
-| X-0126 | Cottage of Gilbert the bookbinder | house | 1779.1 | 390.6 | 96.0 | 146° | 8.5 x 8.9 | 3.4 | gable 4.7 | 1 | timber |
-| X-0127 | Cottage of Baldwin the chandler | house | 1790.0 | 383.7 | 97.7 | 146° | 9.4 x 8.2 | 3.4 | gable 4.5 | 1 | timber |
-| X-0128 | Cottage of Emma the tanner | house | 1800.2 | 376.2 | 99.8 | 147° | 9.7 x 9.2 | 3.4 | gable 5.1 | 1 | timber |
-| X-0129 | Cottage of Laurence the parchmenter | house | 1813.4 | 367.3 | 102.9 | 147° | 9.0 x 9.7 | 3.4 | gable 5.0 | 1 | timber |
-| X-0130 | Cottage of Juliana the tailor | house | 1826.7 | 359.3 | 105.8 | 148° | 12.9 x 8.8 | 3.4 | gable 4.8 | 1 | timber |
-| X-0131 | Cottage of Stephen the stonecarver | house | 1840.3 | 350.5 | 110.2 | 148° | 11.1 x 9.2 | 3.4 | gable 5.0 | 1 | timber |
-| X-0132 | Cottage of Martin the pie-seller | house | 1852.7 | 342.5 | 114.6 | 149° | 11.3 x 9.8 | 3.4 | gable 5.4 | 1 | timber |
-| X-0133 | Cottage of Martin the chandler | house | 1013.1 | 1945.0 | 71.5 | 90° | 9.9 x 7.9 | 3.4 | gable 4.3 | 1 | timber |
-| X-0134 | Cottage of Amice the chandler | house | 1012.0 | 1957.3 | 71.5 | 90° | 9.6 x 10.0 | 3.4 | gable 5.3 | 1 | timber |
-| X-0135 | Cottage of Osbert the mercer | house | 1012.7 | 1975.0 | 71.5 | 90° | 8.7 x 8.6 | 3.4 | gable 4.7 | 1 | timber |
-| X-0136 | Cottage of Maud the limner | house | 1013.1 | 1990.5 | 71.6 | 90° | 12.4 x 7.8 | 3.4 | gable 4.3 | 1 | timber |
-| X-0137 | Cottage of Stephen the draper | house | 1012.6 | 2011.0 | 71.5 | 90° | 11.5 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
-| X-0138 | Cottage of Alys the vintner | house | 1013.1 | 2025.5 | 71.5 | 90° | 9.7 x 7.9 | 3.4 | gable 4.3 | 1 | timber |
-| X-0139 | Cottage of Joan the butcher | house | 1012.9 | 2039.5 | 71.5 | 90° | 11.6 x 8.2 | 3.4 | gable 4.5 | 1 | timber |
-| X-0140 | Cottage of Robin the hatter | house | 1035.2 | 1945.0 | 71.5 | 270° | 10.5 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
-| X-0141 | Cottage of Rose the furrier | house | 1035.7 | 1964.4 | 71.6 | 270° | 12.8 x 9.5 | 3.4 | gable 5.2 | 1 | timber |
-| X-0142 | Cottage of Maud the cheesemonger | house | 1035.5 | 1981.8 | 71.8 | 270° | 12.1 x 9.1 | 3.4 | gable 5.0 | 1 | timber |
-| X-0143 | Cottage of Ralph the money-changer | house | 1035.0 | 1996.8 | 71.6 | 270° | 10.1 x 8.1 | 3.4 | gable 4.5 | 1 | timber |
-| X-0144 | Cottage of Geoffrey the mercer | house | 1035.2 | 2009.3 | 71.6 | 270° | 12.2 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
-| X-0145 | Cottage of Laurence the tailor | house | 1035.7 | 2025.8 | 71.4 | 270° | 11.9 x 9.5 | 3.4 | gable 5.2 | 1 | timber |
-| X-0146 | Cottage of Amice the furrier | house | 1035.8 | 2045.7 | 71.7 | 270° | 11.0 x 9.6 | 3.4 | gable 5.3 | 1 | timber |
-| X-0147 | Cottage of Petronilla the cutler | house | 331.2 | 1681.5 | 71.8 | 131° | 12.7 x 9.8 | 3.4 | gable 5.4 | 1 | timber |
-| X-0148 | Cottage of Odo the cooper | house | 319.8 | 1697.6 | 71.8 | 128° | 10.1 x 7.5 | 3.4 | gable 4.1 | 1 | timber |
-| X-0149 | Cottage of Robin the weaver | house | 309.8 | 1709.2 | 71.8 | 128° | 12.0 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
-| X-0150 | Cottage of Matilda the apothecary | house | 301.1 | 1720.3 | 71.8 | 128° | 12.7 x 9.2 | 3.4 | gable 5.0 | 1 | timber |
-| X-0151 | Cottage of Cecily the cooper | house | 290.3 | 1735.8 | 71.8 | 128° | 9.9 x 7.2 | 3.4 | gable 4.0 | 1 | timber |
-| X-0152 | Cottage of Hugh the tinker | house | 278.7 | 1748.4 | 71.7 | 129° | 8.4 x 9.6 | 3.4 | gable 4.6 | 1 | timber |
-| X-0153 | Cottage of Sybil the fuller | house | 272.1 | 1756.8 | 71.3 | 130° | 10.5 x 9.1 | 3.4 | gable 5.0 | 1 | timber |
-| X-0154 | Cottage of Laurence the cobbler | house | 260.7 | 1771.1 | 71.3 | 131° | 12.5 x 7.8 | 3.4 | gable 4.3 | 1 | timber |
-| X-0155 | Cottage of Henry the limner | house | 250.4 | 1782.9 | 71.7 | 133° | 9.2 x 7.3 | 3.4 | gable 4.0 | 1 | timber |
-| X-0156 | Cottage of Adam the ropemaker | house | 241.7 | 1790.9 | 71.7 | 134° | 12.8 x 9.0 | 3.4 | gable 5.0 | 1 | timber |
-| X-0157 | Cottage of Ivetta the saddler | house | 228.4 | 1803.4 | 71.7 | 137° | 12.4 x 9.8 | 3.4 | gable 5.4 | 1 | timber |
-| X-0158 | Cottage of Amice the ropemaker | house | 218.0 | 1813.5 | 71.7 | 140° | 8.5 x 8.6 | 3.4 | gable 4.7 | 1 | timber |
-| X-0159 | Cottage of Rose the pie-seller | house | 341.0 | 1705.5 | 71.5 | 309° | 9.9 x 9.7 | 3.4 | gable 5.4 | 1 | timber |
-| X-0160 | Cottage of Petronilla the butcher | house | 332.7 | 1714.4 | 71.6 | 308° | 9.2 x 7.6 | 3.4 | gable 4.2 | 1 | timber |
-| X-0161 | Cottage of Sybil the chandler | house | 323.5 | 1725.9 | 71.7 | 308° | 10.3 x 7.1 | 3.4 | gable 3.9 | 1 | timber |
-| X-0162 | Cottage of Roger the parchmenter | house | 314.6 | 1738.1 | 71.7 | 308° | 11.2 x 7.9 | 3.4 | gable 4.4 | 1 | timber |
-| X-0163 | Cottage of Baldwin the chandler | house | 306.8 | 1748.9 | 71.7 | 308° | 11.0 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
-| X-0164 | Cottage of Sybil the fishmonger | house | 295.8 | 1761.7 | 71.7 | 309° | 8.8 x 7.6 | 3.4 | gable 4.2 | 1 | timber |
-| X-0165 | Cottage of Ivetta the money-changer | house | 285.1 | 1776.1 | 71.7 | 310° | 11.3 x 9.7 | 3.4 | gable 5.3 | 1 | timber |
-| X-0166 | Cottage of Piers the mason | house | 273.1 | 1788.5 | 71.8 | 312° | 9.3 x 7.7 | 3.4 | gable 4.2 | 1 | timber |
-| X-0167 | Cottage of Joan the butcher | house | 262.1 | 1800.5 | 71.6 | 313° | 11.5 x 7.9 | 3.4 | gable 4.3 | 1 | timber |
-| X-0168 | Cottage of Osbert the saddler | house | 247.8 | 1815.8 | 71.5 | 316° | 11.1 x 9.0 | 3.4 | gable 5.0 | 1 | timber |
-| X-0169 | Cottage of Richard the wheelwright | house | 237.2 | 1824.8 | 71.4 | 318° | 8.4 x 7.8 | 3.4 | gable 4.3 | 1 | timber |
-| X-0170 | Cottage of Agnes the vintner | house | 1700.6 | 1696.3 | 71.6 | 46° | 8.5 x 8.7 | 3.4 | gable 4.7 | 1 | timber |
-| X-0171 | Cottage of Avice the limner | house | 1709.7 | 1705.7 | 71.6 | 47° | 11.6 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
-| X-0172 | Cottage of Ivetta the barber-surgeon | house | 1720.1 | 1716.7 | 71.5 | 47° | 12.5 x 8.3 | 3.4 | gable 4.6 | 1 | timber |
-| X-0173 | Cottage of Jordan the bowyer | house | 1734.8 | 1731.8 | 71.7 | 47° | 8.0 x 7.3 | 3.4 | gable 4.0 | 1 | timber |
-| X-0174 | Cottage of Baldwin the chandler | house | 1742.7 | 1741.6 | 71.6 | 47° | 9.0 x 9.1 | 3.4 | gable 4.9 | 1 | timber |
-| X-0175 | Cottage of Isabel the fuller | house | 1750.3 | 1749.5 | 71.6 | 47° | 11.8 x 8.7 | 3.4 | gable 4.8 | 1 | timber |
-| X-0176 | Cottage of Juliana the potter | house | 1761.7 | 1761.3 | 71.3 | 47° | 11.4 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
-| X-0177 | Cottage of Christiana the tinker | house | 1775.8 | 1776.0 | 71.6 | 46° | 8.9 x 8.2 | 3.4 | gable 4.5 | 1 | timber |
-| X-0178 | Cottage of Alys the spicer | house | 1783.7 | 1785.5 | 71.7 | 46° | 12.1 x 9.8 | 3.4 | gable 5.4 | 1 | timber |
-| X-0179 | Cottage of Avice the wheelwright | house | 1795.5 | 1797.3 | 71.6 | 46° | 8.8 x 9.4 | 3.4 | gable 4.8 | 1 | timber |
-| X-0180 | Cottage of Martin the mason | house | 1804.4 | 1804.8 | 71.3 | 45° | 8.1 x 7.3 | 3.4 | gable 4.0 | 1 | timber |
-| X-0181 | Cottage of Beatrice the armourer | house | 1815.8 | 1816.9 | 71.6 | 44° | 12.4 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
-| X-0182 | Cottage of Hugh the potter | house | 1826.2 | 1827.4 | 71.7 | 44° | 12.0 x 9.0 | 3.4 | gable 5.0 | 1 | timber |
-| X-0183 | Cottage of Maud the chandler | house | 1716.0 | 1681.3 | 71.8 | 226° | 12.0 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
-| X-0184 | Cottage of Ivetta the chandler | house | 1729.4 | 1696.5 | 71.7 | 227° | 11.2 x 7.0 | 3.4 | gable 3.9 | 1 | timber |
-| X-0185 | Cottage of Baldwin the parchmenter | house | 1738.9 | 1705.9 | 71.4 | 227° | 12.0 x 8.0 | 3.4 | gable 4.4 | 1 | timber |
-| X-0186 | Cottage of Joan the limner | house | 1749.7 | 1716.9 | 71.5 | 227° | 10.2 x 8.8 | 3.4 | gable 4.8 | 1 | timber |
-| X-0187 | Cottage of Wat the parchmenter | house | 1761.0 | 1728.7 | 71.6 | 227° | 12.2 x 9.4 | 3.4 | gable 5.2 | 1 | timber |
-| X-0188 | Cottage of Baldwin the goldsmith | house | 1771.3 | 1740.7 | 71.7 | 227° | 10.8 x 8.0 | 3.4 | gable 4.4 | 1 | timber |
-| X-0189 | Cottage of Adam the apothecary | house | 1782.3 | 1753.0 | 71.6 | 226° | 8.5 x 7.0 | 3.4 | gable 3.9 | 1 | timber |
-| X-0190 | Cottage of Christiana the pie-seller | house | 1791.2 | 1761.5 | 71.6 | 226° | 11.4 x 8.3 | 3.4 | gable 4.5 | 1 | timber |
-| X-0191 | Cottage of Christiana the limner | house | 1803.4 | 1773.0 | 71.8 | 226° | 12.7 x 9.9 | 3.4 | gable 5.4 | 1 | timber |
-| X-0192 | Cottage of Juliana the pie-seller | house | 1816.8 | 1787.0 | 71.7 | 225° | 12.0 x 9.3 | 3.4 | gable 5.1 | 1 | timber |
-| X-0193 | Cottage of Geoffrey the apothecary | house | 1828.2 | 1798.7 | 71.5 | 224° | 10.5 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
-| X-0194 | Cottage of Hugh the lute-maker | house | 1841.9 | 1811.4 | 71.5 | 224° | 8.3 x 9.8 | 3.4 | gable 4.6 | 1 | timber |
-| X-0195 | Windmill 1 | windmill | 430.0 | 230.0 | 177.8 | 180° | 7.0 x 7.0 | 10.0 | gable 3.9 | 1 | timber |
-| X-0196 | Windmill 2 | windmill | 600.0 | 205.0 | 184.1 | 180° | 7.0 x 7.0 | 10.0 | gable 3.9 | 1 | timber |
-| X-0197 | Windmill 3 | windmill | 1650.0 | 190.0 | 194.0 | 180° | 7.0 x 7.0 | 10.0 | gable 3.9 | 1 | timber |
+| T-0001 | Wall tower | tower | 1269.6 | 1388.5 | 49.8 | 0° | round, 13.0 across | 19.0 | cone 11.7 | 1 | stone |
+| T-0002 | Wall tower | tower | 1120.0 | 1720.0 | 49.8 | 0° | round, 13.0 across | 19.0 | cone 11.7 | 1 | stone |
+| T-0003 | Wall tower | tower | 1110.0 | 1880.0 | 48.9 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0004 | Wall tower | tower | 1150.0 | 2050.0 | 45.7 | 0° | round, 13.0 across | 19.0 | cone 11.7 | 1 | stone |
+| T-0005 | Wall tower | tower | 1190.0 | 2230.0 | 44.7 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0006 | Wall tower | tower | 1420.0 | 2520.0 | 41.1 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0007 | Wall tower | tower | 1600.0 | 2560.0 | 39.1 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0008 | Wall tower | tower | 1800.0 | 2590.0 | 36.5 | 0° | round, 13.0 across | 19.0 | cone 11.7 | 1 | stone |
+| T-0009 | Wall tower | tower | 2000.0 | 2560.0 | 32.2 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0010 | Wall tower | tower | 2200.0 | 2500.0 | 29.8 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0011 | Wall tower | tower | 2350.1 | 2481.8 | 28.8 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0012 | Wall tower | tower | 2521.2 | 2447.3 | 26.3 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0013 | Wall tower | tower | 2710.0 | 2439.8 | 23.3 | 0° | round, 13.0 across | 19.0 | cone 11.7 | 1 | stone |
+| T-0014 | Wall tower | tower | 2894.2 | 2420.6 | 22.6 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0015 | Wall tower | tower | 2990.2 | 1876.3 | 23.1 | 0° | round, 13.0 across | 19.0 | cone 11.7 | 1 | stone |
+| T-0016 | Wall tower | tower | 2890.1 | 1729.6 | 25.6 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0017 | Wall tower | tower | 2759.8 | 1580.2 | 30.2 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0018 | Wall tower | tower | 2641.6 | 1447.7 | 31.9 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0019 | Wall tower | tower | 2565.0 | 1180.0 | 33.3 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0020 | Wall tower | tower | 2327.3 | 970.7 | 36.1 | 0° | round, 13.0 across | 19.0 | cone 11.7 | 1 | stone |
+| T-0021 | Wall tower | tower | 2146.8 | 968.9 | 37.1 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0022 | Wall tower | tower | 1951.7 | 1009.1 | 48.0 | 0° | round, 13.0 across | 19.0 | crenel 0.0 | 1 | stone |
+| T-0023 | North Gate | gatehouse | 1417.0 | 1302.2 | 103.8 | 160° | 24.0 x 18.0 | 22.0 | crenel 0.0 | 1 | stone |
+| T-0024 | North Gate drum | tower | 1430.2 | 1297.4 | 111.9 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0025 | North Gate drum | tower | 1403.8 | 1307.0 | 102.0 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0026 | West Gate | gatehouse | 1205.3 | 1516.4 | 49.0 | 92° | 24.0 x 18.0 | 22.0 | crenel 0.0 | 1 | stone |
+| T-0027 | West Gate drum | tower | 1205.7 | 1502.4 | 49.9 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0028 | West Gate drum | tower | 1205.0 | 1530.4 | 49.0 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0029 | South Gate | gatehouse | 1832.0 | 2582.9 | 35.5 | 180° | 24.0 x 18.0 | 22.0 | crenel 0.0 | 1 | stone |
+| T-0030 | South Gate drum | tower | 1846.0 | 2582.9 | 35.3 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0031 | South Gate drum | tower | 1818.0 | 2582.8 | 36.0 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0032 | Scholars' Gate | gatehouse | 1259.7 | 2420.1 | 43.6 | 251° | 24.0 x 18.0 | 22.0 | crenel 0.0 | 1 | stone |
+| T-0033 | Scholars' Gate drum | tower | 1264.3 | 2433.3 | 43.6 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0034 | Scholars' Gate drum | tower | 1255.1 | 2406.9 | 43.7 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0035 | Sea Gate | gatehouse | 2574.5 | 1300.4 | 33.0 | 54° | 24.0 x 18.0 | 22.0 | crenel 0.0 | 1 | stone |
+| T-0036 | Sea Gate drum | tower | 2566.4 | 1289.0 | 33.1 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0037 | Sea Gate drum | tower | 2582.7 | 1311.8 | 32.8 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0038 | Vine Gate | gatehouse | 2470.0 | 1020.0 | 34.6 | 338° | 24.0 x 18.0 | 22.0 | crenel 0.0 | 1 | stone |
+| T-0039 | Vine Gate drum | tower | 2457.1 | 1025.3 | 35.0 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0040 | Vine Gate drum | tower | 2482.9 | 1014.7 | 34.5 | 0° | round, 16.0 across | 25.0 | cone 14.4 | 1 | stone |
+| T-0041 | Water-gate tower | tower | 1121.5 | 1760.4 | 43.6 | 0° | round, 18.0 across | 24.0 | crenel 0.0 | 1 | stone |
+| T-0042 | Water-gate tower | tower | 1121.5 | 1840.4 | 49.1 | 0° | round, 18.0 across | 24.0 | crenel 0.0 | 1 | stone |
+| T-0043 | Sea tower | tower | 3015.0 | 1955.0 | 17.2 | 0° | round, 24.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| T-0044 | Sea tower | tower | 2985.0 | 2395.0 | 16.4 | 0° | round, 24.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| T-0045 | Tannery 1 | tannery | 2440.0 | 2165.0 | 28.2 | 0° | 30.0 x 14.0 | 7.0 | gable 7.7 | 1 | timber |
+| T-0046 | Tannery 2 | tannery | 2485.0 | 2165.0 | 27.3 | 0° | 30.0 x 14.0 | 7.0 | gable 7.7 | 1 | timber |
+| T-0047 | Tannery 3 | tannery | 2530.0 | 2165.0 | 26.4 | 0° | 30.0 x 14.0 | 7.0 | gable 7.7 | 1 | timber |
+| T-0048 | Tannery 4 | tannery | 2575.0 | 2165.0 | 25.6 | 0° | 30.0 x 14.0 | 7.0 | gable 7.7 | 1 | timber |
+| T-0049 | Dye works 1 | dyeworks | 2450.0 | 2225.0 | 27.9 | 0° | 34.0 x 14.0 | 7.0 | gable 7.7 | 1 | timber |
+| T-0050 | Dye works 2 | dyeworks | 2505.0 | 2225.0 | 26.9 | 0° | 34.0 x 14.0 | 7.0 | gable 7.7 | 1 | timber |
+| T-0051 | Dye works 3 | dyeworks | 2560.0 | 2225.0 | 25.9 | 0° | 34.0 x 14.0 | 7.0 | gable 7.7 | 1 | timber |
+| T-0052 | Brick kiln | kiln | 2450.0 | 2290.0 | 28.1 | 0° | round, 12.0 across | 7.0 | cone 8.0 | 1 | stone |
+| T-0053 | Brick kiln | kiln | 2476.0 | 2290.0 | 27.4 | 0° | round, 12.0 across | 7.0 | cone 8.0 | 1 | stone |
+| T-0054 | Brick kiln | kiln | 2502.0 | 2290.0 | 27.1 | 0° | round, 12.0 across | 7.0 | cone 8.0 | 1 | stone |
+| T-0055 | Bell foundry | foundry | 2560.0 | 2290.0 | 25.6 | 0° | 26.0 x 18.0 | 10.0 | gable 9.9 | 1 | stone |
+| T-0056 | Glassworks | glassworks | 2610.0 | 2290.0 | 24.9 | 0° | round, 18.0 across | 9.0 | cone 10.0 | 1 | stone |
+| T-0057 | Brewery of the Three Barrels | brewery | 2610.0 | 2180.0 | 25.2 | 180° | 30.0 x 16.0 | 10.0 | gable 8.8 | 2 | timber |
+| T-0058 | Church of St. Martin | church | 2655.4 | 2168.0 | 24.5 | 0° | 24.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| T-0059 | Church of St. Martin (tower) | church | 2639.4 | 2168.0 | 24.9 | 0° | 8.0 x 8.0 | 30.0 | spire 14.0 | 4 | stone |
+| T-0060 | House of Martin the armourer | house | 2236.8 | 2141.4 | 31.4 | 7° | 8.1 x 10.6 | 6.2 | hip 3.6 | 2 | timber |
+| T-0061 | House of Adam the glazier | house | 2276.9 | 2147.5 | 30.9 | 11° | 13.6 x 13.2 | 3.1 | gable 7.3 | 1 | timber |
+| T-0062 | House of Matilda the net-mender | house | 2291.2 | 2151.7 | 30.8 | 12° | 8.5 x 12.0 | 6.2 | gable 4.7 | 2 | timber |
+| T-0063 | House of Juliana the ropemaker | house | 2336.1 | 2163.4 | 30.3 | 14° | 8.2 x 14.6 | 6.2 | gable 4.5 | 2 | timber |
+| T-0064 | House of Piers the cooper | house | 2369.7 | 2170.3 | 29.8 | 15° | 10.7 x 10.3 | 3.1 | gable 5.7 | 1 | timber |
+| T-0065 | House of Godwin the fishmonger | house | 2383.1 | 2174.9 | 29.5 | 16° | 12.4 x 14.1 | 6.2 | gable 6.8 | 2 | timber |
+| T-0066 | House of Henry the chandler | house | 2642.9 | 2225.6 | 24.9 | 8° | 9.3 x 10.5 | 6.2 | gable 5.1 | 2 | timber |
+| T-0067 | House of Juliana the barber-surgeon | house | 2243.3 | 2115.4 | 31.5 | 187° | 11.6 x 9.2 | 3.1 | hip 4.1 | 1 | timber |
+| T-0068 | House of Adam the chandler | house | 2291.4 | 2121.7 | 31.0 | 192° | 8.9 x 12.4 | 6.2 | gable 4.9 | 2 | timber |
+| T-0069 | House of Geoffrey the minstrel | house | 2310.6 | 2128.1 | 30.6 | 193° | 12.7 x 14.7 | 3.1 | hip 5.7 | 1 | timber |
+| T-0070 | House of Geoffrey the potter | house | 2330.1 | 2134.9 | 30.4 | 194° | 8.4 x 10.0 | 3.1 | gable 4.6 | 1 | timber |
+| T-0071 | House of Ivetta the saddler | house | 2345.6 | 2137.4 | 30.2 | 194° | 12.5 x 10.7 | 3.1 | hip 4.8 | 1 | timber |
+| T-0072 | House of Christiana the minstrel | house | 2386.0 | 2146.0 | 29.4 | 195° | 13.3 x 10.8 | 6.2 | hip 4.9 | 2 | timber |
+| T-0073 | House of Piers the cobbler | house | 2311.8 | 2089.4 | 30.6 | 46° | 9.3 x 15.0 | 6.2 | hip 4.2 | 2 | timber |
+| T-0074 | House of Matilda the cobbler | house | 2308.4 | 2041.1 | 30.6 | 226° | 10.5 x 14.6 | 6.2 | gable 5.8 | 2 | timber |
+| T-0075 | House of Odo the draper | house | 2325.1 | 2067.2 | 30.3 | 228° | 10.5 x 10.8 | 6.2 | gable 5.8 | 2 | timber |
+| T-0076 | House of Ralph the herbalist | house | 2338.0 | 2076.2 | 30.1 | 224° | 11.6 x 10.8 | 3.1 | gable 5.9 | 1 | timber |
+| T-0077 | House of Osbert the mercer | house | 2379.3 | 2128.8 | 29.5 | 292° | 10.6 x 14.3 | 3.1 | hip 4.8 | 1 | timber |
+| T-0078 | House of Rose the scribe | house | 2384.6 | 2105.6 | 29.2 | 265° | 12.9 x 14.3 | 6.2 | gable 7.1 | 2 | timber |
+| T-0079 | House of Rose the minstrel | house | 2374.1 | 2086.5 | 29.4 | 250° | 11.5 x 10.0 | 3.1 | gable 5.5 | 1 | timber |
+| T-0080 | House of Avice the parchmenter | house | 2355.9 | 2100.4 | 29.9 | 70° | 13.0 x 14.0 | 3.1 | gable 7.1 | 1 | timber |
+| T-0081 | House of Jordan the minstrel | house | 2272.2 | 2106.7 | 31.2 | 291° | 10.8 x 13.1 | 3.1 | gable 6.0 | 1 | timber |
+| T-0082 | House of Laurence the candlemaker | house | 2277.1 | 2090.6 | 31.2 | 284° | 8.9 x 9.8 | 6.2 | gable 4.9 | 2 | timber |
+| T-0083 | House of Gilbert the jeweller | house | 2287.7 | 2076.3 | 30.9 | 295° | 13.8 x 14.8 | 3.1 | gable 7.6 | 1 | timber |
+| T-0084 | House of Baldwin the lute-maker | house | 2293.1 | 2062.8 | 30.8 | 305° | 8.5 x 12.6 | 3.1 | hip 3.8 | 1 | timber |
+| T-0085 | House of Rose the chandler | house | 2247.6 | 2103.1 | 31.5 | 103° | 8.6 x 12.6 | 6.2 | gable 4.7 | 2 | timber |
+| T-0086 | House of Margery the astrologer | house | 2280.8 | 2040.7 | 31.0 | 133° | 13.4 x 14.8 | 3.1 | gable 7.4 | 1 | timber |
+| T-0087 | House of Nicholas the spicer | house | 2379.7 | 2196.5 | 29.5 | 122° | 13.7 x 12.8 | 3.1 | gable 7.1 | 1 | timber |
+| T-0088 | House of Baldwin the salter | house | 2370.4 | 2211.9 | 29.6 | 132° | 10.1 x 10.0 | 6.2 | gable 5.5 | 2 | timber |
+| T-0089 | House of Walter the vintner | house | 2345.8 | 2228.7 | 29.9 | 157° | 8.4 x 15.0 | 6.2 | gable 4.6 | 2 | timber |
+| T-0090 | House of Walter the bowyer | house | 2402.0 | 2205.5 | 29.1 | 302° | 13.4 x 13.0 | 6.2 | hip 5.9 | 2 | timber |
+| T-0091 | House of Ralph the juggler | house | 2391.3 | 2219.7 | 29.2 | 304° | 9.1 x 9.7 | 6.2 | hip 4.1 | 2 | timber |
+| T-0092 | House of Ivetta the spicer | house | 2320.7 | 2182.7 | 30.3 | 134° | 11.1 x 12.3 | 6.2 | gable 6.1 | 2 | timber |
+| T-0093 | House of Cecily the lute-maker | house | 2298.0 | 2206.9 | 30.4 | 133° | 11.8 x 12.0 | 6.2 | gable 6.5 | 2 | timber |
+| T-0094 | House of Sybil the fishmonger | house | 2289.8 | 2222.3 | 30.4 | 127° | 13.3 x 10.2 | 6.2 | gable 5.6 | 2 | timber |
+| T-0095 | House of Maud the notary | house | 2351.9 | 2179.2 | 30.0 | 315° | 13.5 x 14.2 | 3.1 | gable 7.4 | 1 | timber |
+| T-0096 | House of Beatrice the glover | house | 2341.4 | 2196.4 | 30.0 | 308° | 13.2 x 11.4 | 6.2 | hip 5.1 | 2 | timber |
+| T-0097 | House of Nicholas the ropemaker | house | 2326.0 | 2210.5 | 30.1 | 320° | 8.1 x 13.0 | 3.1 | gable 4.4 | 1 | timber |
+| T-0098 | House of Robin the ropemaker | house | 2317.0 | 2222.0 | 30.1 | 313° | 9.3 x 13.5 | 6.2 | gable 5.1 | 2 | timber |
+| T-0099 | House of Rose the scribe | house | 2308.4 | 2228.9 | 30.2 | 307° | 10.1 x 11.4 | 6.2 | gable 5.5 | 2 | timber |
+| T-0100 | House of Richard the locksmith | house | 2518.9 | 1982.5 | 27.9 | 18° | 8.1 x 13.6 | 6.2 | gable 4.5 | 2 | timber |
+| T-0101 | House of Hawise the pie-seller | house | 2537.0 | 1985.8 | 27.6 | 2° | 12.3 x 10.1 | 6.2 | gable 5.6 | 2 | timber |
+| T-0102 | House of Cecily the tinker | house | 2254.9 | 2058.0 | 31.5 | 18° | 13.4 x 10.5 | 6.2 | gable 5.8 | 2 | timber |
+| T-0103 | House of Laurence the brewer | house | 2672.9 | 2200.4 | 24.5 | 346° | 13.0 x 11.6 | 3.1 | gable 6.4 | 1 | timber |
+| T-0104 | House of Rose the tinker | house | 2695.3 | 2198.8 | 24.2 | 339° | 11.3 x 14.9 | 6.2 | gable 6.2 | 2 | timber |
+| T-0105 | House of Felice the bowyer | house | 2669.0 | 2184.0 | 24.4 | 166° | 13.7 x 9.5 | 3.1 | hip 4.3 | 1 | timber |
+| T-0106 | House of Baldwin the money-changer | house | 2686.4 | 2179.2 | 24.2 | 177° | 8.1 x 12.7 | 6.2 | gable 4.5 | 2 | timber |
+| T-0107 | House of Ralph the limner | house | 2448.1 | 1959.8 | 29.5 | 57° | 9.1 x 9.5 | 6.2 | hip 4.1 | 2 | timber |
+| T-0108 | House of Ralph the draper | house | 2270.2 | 2171.3 | 30.8 | 154° | 8.7 x 12.2 | 3.1 | gable 4.8 | 1 | timber |
+| T-0109 | House of Petronilla the mason | house | 2237.2 | 2185.7 | 31.0 | 155° | 12.2 x 11.6 | 3.1 | hip 5.2 | 1 | timber |
+| T-0110 | House of Osbert the barber-surgeon | house | 2289.1 | 2186.8 | 30.6 | 328° | 12.3 x 13.1 | 6.2 | gable 6.8 | 2 | timber |
+| T-0111 | House of Matilda the parchmenter | house | 2249.7 | 2200.4 | 30.9 | 335° | 8.1 x 10.7 | 6.2 | hip 3.6 | 2 | timber |
+| T-0112 | House of Alan the scribe | house | 2238.5 | 2212.6 | 30.9 | 318° | 13.5 x 13.8 | 6.2 | gable 7.5 | 2 | timber |
+| T-0113 | House of Joan the hatter | house | 2384.9 | 2078.7 | 29.2 | 335° | 9.9 x 13.6 | 6.2 | gable 5.5 | 2 | timber |
+| T-0114 | House of Thomas the cartographer | house | 2314.7 | 2113.1 | 30.5 | 107° | 14.0 x 14.6 | 6.2 | gable 7.7 | 2 | timber |
+| T-0115 | House of Robin the fuller | house | 2353.9 | 2070.6 | 29.8 | 150° | 9.7 x 14.9 | 6.2 | hip 4.4 | 2 | timber |
+| T-0116 | House of Amice the notary | house | 2366.3 | 2061.8 | 29.6 | 142° | 9.1 x 12.5 | 3.1 | gable 5.0 | 1 | timber |
+| T-0117 | House of Gilbert the carpenter | house | 2374.1 | 1966.6 | 30.2 | 53° | 12.3 x 10.9 | 6.2 | hip 4.9 | 2 | timber |
+| T-0118 | House of Rose the parchmenter | house | 2386.4 | 1978.4 | 29.7 | 48° | 13.5 x 11.4 | 6.2 | gable 6.3 | 2 | timber |
+| T-0119 | House of Maud the butcher | house | 2436.0 | 2105.4 | 28.2 | 273° | 8.9 x 14.7 | 3.1 | hip 4.0 | 1 | timber |
+| T-0120 | House of Hob the cartographer | house | 2435.6 | 2088.5 | 28.1 | 266° | 9.4 x 11.1 | 6.2 | gable 5.2 | 2 | timber |
+| T-0121 | House of Stephen the salter | house | 2254.3 | 2013.8 | 31.5 | 122° | 12.7 x 11.6 | 6.2 | gable 6.4 | 2 | timber |
+| T-0122 | House of Joan the stonecarver | house | 2648.5 | 2195.7 | 24.7 | 78° | 10.9 x 14.8 | 3.1 | hip 4.9 | 1 | timber |
+
+## Southbank (383 buildings)
+
+206 shop, 125 house, 31 theatre, 8 bathhouse, 5 institution, 4 church, 1 stage, 1 pavilion, 1 hall, 1 inn
+
+| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
+|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
+| S-0001 | The Lantern Playhouse | theatre | 2016.2 | 2248.4 | 33.1 | 279° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0002 | The Lantern Playhouse | theatre | 2014.2 | 2254.8 | 33.0 | 297° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0003 | The Lantern Playhouse | theatre | 2010.2 | 2260.2 | 33.0 | 315° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0004 | The Lantern Playhouse | theatre | 2004.8 | 2264.2 | 33.0 | 333° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0005 | The Lantern Playhouse | theatre | 1998.4 | 2266.2 | 33.1 | 351° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0006 | The Lantern Playhouse | theatre | 1991.6 | 2266.2 | 33.1 | 9° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0007 | The Lantern Playhouse | theatre | 1985.2 | 2264.2 | 33.2 | 27° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0008 | The Lantern Playhouse | theatre | 1979.8 | 2260.2 | 33.3 | 45° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0009 | The Lantern Playhouse | theatre | 1975.8 | 2254.8 | 33.4 | 63° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0010 | The Lantern Playhouse | theatre | 1973.8 | 2248.4 | 33.4 | 81° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0011 | The Lantern Playhouse | theatre | 1973.8 | 2241.6 | 33.4 | 99° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0012 | The Lantern Playhouse | theatre | 1975.8 | 2235.2 | 33.5 | 117° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0013 | The Lantern Playhouse | theatre | 1979.8 | 2229.8 | 33.5 | 135° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0014 | The Lantern Playhouse | theatre | 1985.2 | 2225.8 | 33.4 | 153° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0015 | The Lantern Playhouse | theatre | 2004.8 | 2225.8 | 33.3 | 207° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0016 | The Lantern Playhouse | theatre | 2010.2 | 2229.8 | 33.2 | 225° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0017 | The Lantern Playhouse | theatre | 2014.2 | 2235.2 | 33.2 | 243° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0018 | The Lantern Playhouse | theatre | 2016.2 | 2241.6 | 33.1 | 261° | 7.3 x 9.0 | 11.0 | gable 4.0 | 1 | timber |
+| S-0019 | Playhouse stage | stage | 1995.0 | 2232.0 | 33.4 | 180° | 14.0 x 9.0 | 4.0 | gable 5.0 | 1 | timber |
+| S-0020 | Bear Garden | theatre | 2093.7 | 2303.1 | 32.0 | 283° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0021 | Bear Garden | theatre | 2090.9 | 2308.7 | 31.9 | 309° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0022 | Bear Garden | theatre | 2086.1 | 2312.6 | 31.9 | 334° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0023 | Bear Garden | theatre | 2073.9 | 2312.6 | 32.1 | 26° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0024 | Bear Garden | theatre | 2069.1 | 2308.7 | 32.2 | 51° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0025 | Bear Garden | theatre | 2066.3 | 2303.1 | 32.2 | 77° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0026 | Bear Garden | theatre | 2066.3 | 2296.9 | 32.3 | 103° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0027 | Bear Garden | theatre | 2069.1 | 2291.3 | 32.3 | 129° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0028 | Bear Garden | theatre | 2073.9 | 2287.4 | 32.3 | 154° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0029 | Bear Garden | theatre | 2080.0 | 2286.0 | 32.2 | 180° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0030 | Bear Garden | theatre | 2086.1 | 2287.4 | 32.1 | 206° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0031 | Bear Garden | theatre | 2090.9 | 2291.3 | 32.0 | 231° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0032 | Bear Garden | theatre | 2093.7 | 2296.9 | 32.0 | 257° | 6.9 x 6.0 | 7.0 | gable 3.3 | 1 | timber |
+| S-0033 | Bathhouse of the Swan (front range) | bathhouse | 2130.0 | 2173.5 | 32.1 | 0° | 40.0 x 9.0 | 8.0 | gable 5.0 | 2 | stone |
+| S-0034 | Bathhouse of the Swan (back range) | bathhouse | 2130.0 | 2196.5 | 32.0 | 180° | 40.0 x 9.0 | 8.0 | gable 5.0 | 2 | stone |
+| S-0035 | Bathhouse of the Swan (west range) | bathhouse | 2114.5 | 2185.0 | 32.4 | 270° | 14.0 x 9.0 | 8.0 | gable 5.0 | 2 | stone |
+| S-0036 | Bathhouse of the Swan (east range) | bathhouse | 2145.5 | 2185.0 | 32.1 | 90° | 14.0 x 9.0 | 8.0 | gable 5.0 | 2 | stone |
+| S-0037 | Bathhouse of the Mermaid (front range) | bathhouse | 1780.0 | 2278.5 | 35.5 | 0° | 40.0 x 9.0 | 8.0 | gable 5.0 | 2 | stone |
+| S-0038 | Bathhouse of the Mermaid (back range) | bathhouse | 1780.0 | 2301.5 | 35.4 | 180° | 40.0 x 9.0 | 8.0 | gable 5.0 | 2 | stone |
+| S-0039 | Bathhouse of the Mermaid (west range) | bathhouse | 1764.5 | 2290.0 | 36.0 | 270° | 14.0 x 9.0 | 8.0 | gable 5.0 | 2 | stone |
+| S-0040 | Bathhouse of the Mermaid (east range) | bathhouse | 1795.5 | 2290.0 | 35.4 | 90° | 14.0 x 9.0 | 8.0 | gable 5.0 | 2 | stone |
+| S-0041 | Music pavilion | pavilion | 2250.0 | 2330.0 | 30.5 | 0° | round, 14.0 across | 6.0 | cone 6.0 | 1 | timber |
+| S-0042 | Church of St. Jude | church | 2050.0 | 2400.0 | 31.5 | 0° | 36.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| S-0043 | Church of St. Jude (tower) | church | 2028.0 | 2400.0 | 31.8 | 0° | 8.0 x 8.0 | 22.0 | spire 14.0 | 4 | stone |
+| S-0044 | Church of St. Lucy | church | 2204.0 | 2056.9 | 32.3 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| S-0045 | Church of St. Lucy (tower) | church | 2185.0 | 2056.9 | 32.8 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
+| S-0046 | Hospital of St. Brigid (front range) | institution | 1640.0 | 2146.5 | 38.1 | 0° | 50.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| S-0047 | Hospital of St. Brigid (back range) | institution | 1640.0 | 2173.5 | 37.8 | 180° | 50.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| S-0048 | Hospital of St. Brigid (west range) | institution | 1619.5 | 2160.0 | 38.5 | 270° | 18.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| S-0049 | Hospital of St. Brigid (east range) | institution | 1660.5 | 2160.0 | 37.9 | 90° | 18.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| S-0050 | Hall of the Weavers | hall | 2093.1 | 2164.0 | 32.8 | 90° | 26.0 x 16.0 | 11.0 | hip 7.2 | 2 | stone |
+| S-0051 | The Crooked Cup | inn | 1884.0 | 2086.9 | 35.8 | 30° | 16.0 x 12.0 | 9.0 | hip 5.4 | 2 | timber |
+| S-0052 | Debtors' Prison | institution | 2208.0 | 2200.0 | 31.2 | 0° | 30.0 x 22.0 | 9.0 | hip 9.9 | 2 | stone |
+| S-0053 | House of Martin the bowyer | shop | 1751.1 | 2137.9 | 37.0 | 73° | 8.4 x 14.2 | 12.4 | gable 4.6 | 4 | timber |
+| S-0054 | House of Isabel the tailor | house | 1759.7 | 2163.3 | 36.6 | 73° | 7.5 x 12.7 | 6.2 | hip 3.4 | 2 | timber |
+| S-0055 | House of Edith the pie-seller | shop | 1764.6 | 2178.0 | 36.4 | 73° | 6.7 x 11.9 | 6.2 | gable 3.6 | 2 | timber |
+| S-0056 | House of Laurence the tinker | shop | 1774.7 | 2209.0 | 36.1 | 74° | 5.9 x 10.2 | 6.2 | hip 2.6 | 2 | timber |
+| S-0057 | House of Osbert the notary | shop | 1778.9 | 2223.8 | 35.9 | 74° | 9.0 x 10.3 | 12.4 | gable 4.9 | 4 | timber |
+| S-0058 | House of Hugh the goldsmith | house | 1780.9 | 2231.8 | 35.8 | 74° | 7.0 x 10.8 | 12.4 | gable 3.8 | 4 | timber |
+| S-0059 | House of Emma the fuller | shop | 1786.0 | 2253.3 | 35.6 | 75° | 6.3 x 12.2 | 6.2 | hip 2.9 | 2 | timber |
+| S-0060 | House of Agnes the potter | house | 1788.5 | 2260.0 | 35.6 | 76° | 7.1 x 10.7 | 9.3 | hip 3.2 | 3 | timber |
+| S-0061 | House of Amice the potter | house | 1788.9 | 2266.7 | 35.5 | 76° | 5.6 x 13.2 | 6.2 | gable 3.1 | 2 | timber |
+| S-0062 | House of Richard the sailmaker | shop | 1799.2 | 2318.6 | 35.4 | 80° | 6.3 x 14.9 | 9.3 | hip 2.8 | 3 | timber |
+| S-0063 | House of Ralph the pie-seller | shop | 1779.6 | 2139.2 | 36.7 | 253° | 6.2 x 13.0 | 12.4 | gable 3.4 | 4 | timber |
+| S-0064 | House of Martin the tailor | house | 1782.5 | 2146.8 | 36.5 | 253° | 9.1 x 14.2 | 6.2 | gable 5.0 | 2 | timber |
+| S-0065 | House of Margery the mercer | house | 1783.9 | 2156.5 | 36.4 | 253° | 9.5 x 11.1 | 12.4 | gable 5.2 | 4 | timber |
+| S-0066 | House of Matilda the bellfounder | house | 1787.8 | 2164.0 | 36.3 | 253° | 6.4 x 14.3 | 9.3 | gable 3.5 | 3 | timber |
+| S-0067 | House of Beatrice the draper | shop | 1790.1 | 2170.6 | 36.2 | 253° | 6.7 x 14.7 | 12.4 | hip 3.0 | 4 | timber |
+| S-0068 | House of Baldwin the vintner | shop | 1792.4 | 2178.6 | 36.0 | 253° | 9.0 x 14.5 | 9.3 | hip 4.0 | 3 | timber |
+| S-0069 | House of Sybil the goldsmith | shop | 1792.7 | 2187.1 | 35.9 | 253° | 6.5 x 10.2 | 9.3 | gable 3.6 | 3 | timber |
+| S-0070 | House of Emma the tailor | shop | 1794.7 | 2194.6 | 35.8 | 254° | 8.3 x 9.8 | 9.3 | gable 4.5 | 3 | timber |
+| S-0071 | House of Cecily the stonecarver | shop | 1803.9 | 2224.8 | 35.5 | 254° | 5.8 x 10.9 | 9.3 | hip 2.6 | 3 | timber |
+| S-0072 | House of Wat the cooper | house | 1807.9 | 2231.8 | 35.4 | 255° | 8.8 x 14.8 | 9.3 | hip 4.0 | 3 | timber |
+| S-0073 | House of Robin the pie-seller | shop | 1810.5 | 2252.8 | 35.3 | 256° | 5.8 x 9.1 | 6.2 | gable 3.2 | 2 | timber |
+| S-0074 | House of Richard the minstrel | house | 1815.1 | 2260.0 | 35.2 | 256° | 9.4 x 14.4 | 9.3 | hip 4.2 | 3 | timber |
+| S-0075 | House of Elena the chandler | shop | 1816.2 | 2269.4 | 35.2 | 256° | 8.3 x 12.2 | 9.3 | gable 4.5 | 3 | timber |
+| S-0076 | House of Osbert the furrier | shop | 1820.1 | 2283.7 | 35.0 | 258° | 7.6 x 13.3 | 9.3 | gable 4.2 | 3 | timber |
+| S-0077 | House of Edith the furrier | shop | 1826.0 | 2314.0 | 34.9 | 260° | 6.4 x 13.0 | 6.2 | gable 3.5 | 2 | timber |
+| S-0078 | House of Ida the herbalist | house | 1800.8 | 2135.8 | 36.3 | 2° | 5.9 x 13.8 | 9.3 | gable 3.2 | 3 | timber |
+| S-0079 | House of Avice the cutler | shop | 1807.9 | 2136.0 | 36.2 | 2° | 7.2 x 13.6 | 9.3 | hip 3.2 | 3 | timber |
+| S-0080 | House of Isabel the pie-seller | house | 1816.1 | 2134.5 | 36.1 | 1° | 8.1 x 10.0 | 12.4 | hip 3.7 | 4 | timber |
+| S-0081 | House of Hawise the money-changer | shop | 1854.1 | 2134.2 | 35.7 | 359° | 6.9 x 9.3 | 6.2 | hip 3.1 | 2 | timber |
+| S-0082 | House of Avice the cheesemonger | shop | 1923.0 | 2131.9 | 35.0 | 358° | 8.3 x 9.9 | 9.3 | gable 4.5 | 3 | timber |
+| S-0083 | House of Hawise the mason | house | 1986.3 | 2132.0 | 34.4 | 0° | 6.1 x 13.2 | 12.4 | gable 3.4 | 4 | timber |
+| S-0084 | House of Jordan the astrologer | house | 2119.1 | 2134.0 | 32.8 | 1° | 7.5 x 14.4 | 9.3 | hip 3.4 | 3 | timber |
+| S-0085 | House of Agnes the barber-surgeon | shop | 2127.1 | 2132.1 | 32.7 | 1° | 7.7 x 10.3 | 9.3 | hip 3.5 | 3 | timber |
+| S-0086 | House of Felice the herbalist | house | 2134.7 | 2132.5 | 32.6 | 2° | 6.9 x 10.9 | 6.2 | gable 3.8 | 2 | timber |
+| S-0087 | House of Emma the clockmaker | house | 2179.6 | 2134.5 | 32.0 | 3° | 8.8 x 11.3 | 6.2 | gable 4.8 | 2 | timber |
+| S-0088 | House of Thomas the fletcher | shop | 2228.7 | 2140.2 | 31.4 | 6° | 7.8 x 14.3 | 6.2 | gable 4.3 | 2 | timber |
+| S-0089 | House of Nicholas the tailor | shop | 1776.8 | 2109.8 | 36.9 | 185° | 9.4 x 12.6 | 6.2 | gable 5.2 | 2 | timber |
+| S-0090 | House of Joan the astrologer | shop | 1794.0 | 2112.2 | 36.7 | 183° | 9.2 x 10.3 | 9.3 | hip 4.2 | 3 | timber |
+| S-0091 | House of Edith the pewterer | shop | 1802.9 | 2112.9 | 36.5 | 182° | 8.1 x 9.9 | 6.2 | gable 4.5 | 2 | timber |
+| S-0092 | House of Hugh the parchmenter | shop | 1811.8 | 2111.5 | 36.4 | 182° | 9.2 x 13.2 | 6.2 | gable 5.1 | 2 | timber |
+| S-0093 | House of Ivetta the bowyer | house | 1819.8 | 2111.6 | 36.3 | 181° | 6.1 x 13.6 | 6.2 | hip 2.8 | 2 | timber |
+| S-0094 | House of Nicholas the spicer | shop | 1845.2 | 2113.3 | 36.0 | 179° | 7.9 x 10.3 | 9.3 | gable 4.3 | 3 | timber |
+| S-0095 | House of Edith the minstrel | house | 1859.7 | 2110.8 | 35.8 | 179° | 7.8 x 14.8 | 6.2 | hip 3.5 | 2 | timber |
+| S-0096 | House of Ralph the juggler | shop | 1866.7 | 2111.4 | 35.8 | 178° | 5.8 x 13.2 | 9.3 | gable 3.2 | 3 | timber |
+| S-0097 | House of Amice the butcher | shop | 1892.5 | 2112.4 | 35.4 | 178° | 8.4 x 9.3 | 12.4 | gable 4.6 | 4 | timber |
+| S-0098 | House of Richard the parchmenter | shop | 1900.7 | 2111.3 | 35.3 | 178° | 7.3 x 10.8 | 9.3 | gable 4.0 | 3 | timber |
+| S-0099 | House of Godwin the juggler | shop | 1908.7 | 2109.9 | 35.3 | 178° | 8.0 x 12.8 | 6.2 | gable 4.4 | 2 | timber |
+| S-0100 | House of Maud the barber-surgeon | house | 1926.4 | 2110.3 | 35.1 | 178° | 7.6 x 10.6 | 6.2 | gable 4.2 | 2 | timber |
+| S-0101 | House of Avice the pewterer | house | 1934.6 | 2110.7 | 35.1 | 178° | 8.0 x 9.1 | 9.3 | gable 4.4 | 3 | timber |
+| S-0102 | House of Godwin the astrologer | shop | 1950.6 | 2109.9 | 34.9 | 178° | 6.3 x 9.6 | 6.2 | gable 3.5 | 2 | timber |
+| S-0103 | House of Richard the fuller | house | 1958.8 | 2108.3 | 34.8 | 179° | 9.1 x 12.4 | 6.2 | hip 4.1 | 2 | timber |
+| S-0104 | House of Alys the bookbinder | shop | 1967.6 | 2108.8 | 34.7 | 179° | 7.7 x 11.1 | 6.2 | gable 4.2 | 2 | timber |
+| S-0105 | House of Amice the juggler | shop | 1976.1 | 2107.2 | 34.6 | 179° | 8.4 x 14.1 | 12.4 | gable 4.6 | 4 | timber |
+| S-0106 | House of Piers the parchmenter | shop | 1985.2 | 2107.3 | 34.5 | 180° | 8.6 x 14.0 | 6.2 | gable 4.7 | 2 | timber |
+| S-0107 | House of Stephen the potter | house | 1993.0 | 2108.3 | 34.4 | 181° | 5.9 x 11.9 | 6.2 | gable 3.2 | 2 | timber |
+| S-0108 | House of Walter the shipwright | house | 1999.3 | 2109.2 | 34.4 | 181° | 6.1 x 10.4 | 9.3 | gable 3.3 | 3 | timber |
+| S-0109 | House of Maud the salter | house | 2005.8 | 2109.8 | 34.3 | 181° | 6.1 x 9.5 | 9.3 | gable 3.4 | 3 | timber |
+| S-0110 | House of Matilda the barber-surgeon | house | 2013.0 | 2109.9 | 34.3 | 181° | 7.4 x 9.4 | 9.3 | gable 4.1 | 3 | timber |
+| S-0111 | House of Thomas the candlemaker | shop | 2021.3 | 2108.7 | 34.2 | 181° | 8.5 x 12.0 | 6.2 | gable 4.7 | 2 | timber |
+| S-0112 | House of Hawise the lute-maker | shop | 2029.3 | 2109.0 | 34.1 | 181° | 6.8 x 11.7 | 12.4 | hip 3.1 | 4 | timber |
+| S-0113 | House of Stephen the notary | house | 2036.8 | 2109.3 | 34.0 | 180° | 7.3 x 11.2 | 6.2 | gable 4.0 | 2 | timber |
+| S-0114 | House of Rose the candlemaker | shop | 2052.1 | 2109.4 | 33.8 | 180° | 9.1 x 11.1 | 12.4 | gable 5.0 | 4 | timber |
+| S-0115 | House of Cecily the limner | house | 2060.5 | 2108.1 | 33.7 | 180° | 6.9 x 13.8 | 9.3 | gable 3.8 | 3 | timber |
+| S-0116 | House of Mabel the mason | shop | 2068.0 | 2108.8 | 33.6 | 180° | 7.5 x 12.6 | 12.4 | hip 3.4 | 4 | timber |
+| S-0117 | House of Piers the pewterer | shop | 2075.4 | 2108.8 | 33.5 | 180° | 6.5 x 12.5 | 6.2 | hip 2.9 | 2 | timber |
+| S-0118 | House of Felice the vintner | shop | 2083.3 | 2109.7 | 33.4 | 180° | 8.6 x 10.9 | 9.3 | hip 3.9 | 3 | timber |
+| S-0119 | House of Isabel the ropemaker | shop | 2090.9 | 2108.7 | 33.3 | 180° | 5.7 x 13.0 | 6.2 | gable 3.1 | 2 | timber |
+| S-0120 | House of Juliana the butcher | shop | 2098.9 | 2107.8 | 33.2 | 181° | 9.4 x 14.8 | 6.2 | gable 5.2 | 2 | timber |
+| S-0121 | House of Mabel the herbalist | shop | 2108.4 | 2110.4 | 33.2 | 181° | 8.7 x 9.9 | 9.3 | hip 3.9 | 3 | timber |
+| S-0122 | House of Martin the stonecarver | house | 2141.4 | 2110.3 | 32.8 | 182° | 6.1 x 11.4 | 9.3 | gable 3.3 | 3 | timber |
+| S-0123 | House of Christiana the weaver | house | 2149.2 | 2111.8 | 32.7 | 182° | 8.8 x 9.0 | 12.4 | gable 4.9 | 4 | timber |
+| S-0124 | House of Hugh the minstrel | shop | 2157.5 | 2110.1 | 32.5 | 182° | 6.7 x 13.1 | 12.4 | gable 3.7 | 4 | timber |
+| S-0125 | House of Hawise the money-changer | house | 2173.3 | 2111.3 | 32.3 | 183° | 9.3 x 12.0 | 6.2 | gable 5.1 | 2 | timber |
+| S-0126 | House of Gilbert the cheesemonger | shop | 2183.0 | 2111.9 | 32.2 | 184° | 9.1 x 11.9 | 6.2 | gable 5.0 | 2 | timber |
+| S-0127 | House of Maud the tinker | house | 2227.1 | 2114.8 | 31.7 | 186° | 6.6 x 13.4 | 12.4 | hip 3.0 | 4 | timber |
+| S-0128 | House of Rose the furrier | shop | 2233.6 | 2117.5 | 31.6 | 186° | 6.0 x 9.6 | 12.4 | gable 3.3 | 4 | timber |
+| S-0129 | House of Rose the weaver | shop | 2133.5 | 2096.9 | 33.0 | 300° | 5.8 x 10.6 | 6.2 | hip 2.6 | 2 | timber |
+| S-0130 | House of Ivetta the candlemaker | shop | 2138.2 | 2089.9 | 33.0 | 291° | 7.0 x 12.2 | 6.2 | gable 3.8 | 2 | timber |
+| S-0131 | House of Osbert the fishmonger | shop | 2139.7 | 2083.1 | 33.0 | 291° | 6.0 x 10.2 | 9.3 | gable 3.3 | 3 | timber |
+| S-0132 | House of Agnes the goldsmith | shop | 2157.3 | 2060.3 | 33.1 | 314° | 8.6 x 9.7 | 9.3 | gable 4.8 | 3 | timber |
+| S-0133 | House of Amice the jeweller | shop | 2168.5 | 2053.5 | 32.9 | 328° | 6.2 x 14.5 | 9.3 | gable 3.4 | 3 | timber |
+| S-0134 | House of Amice the saddler | shop | 2114.1 | 2096.2 | 33.2 | 97° | 8.0 x 11.2 | 12.4 | gable 4.4 | 4 | timber |
+| S-0135 | House of Isabel the herbalist | house | 2126.0 | 2069.3 | 33.4 | 122° | 6.8 x 10.8 | 6.2 | gable 3.7 | 2 | timber |
+| S-0136 | House of Agnes the bellfounder | shop | 2130.3 | 2062.5 | 33.4 | 128° | 6.4 x 11.2 | 6.2 | hip 2.9 | 2 | timber |
+| S-0137 | House of Alys the minstrel | shop | 2134.6 | 2056.4 | 33.4 | 134° | 5.5 x 11.9 | 6.2 | hip 2.5 | 2 | timber |
+| S-0138 | House of Geoffrey the mason | house | 2138.6 | 2050.5 | 33.4 | 134° | 7.8 x 14.3 | 9.3 | gable 4.3 | 3 | timber |
+| S-0139 | House of Emma the barber-surgeon | house | 2144.2 | 2045.6 | 33.3 | 134° | 6.1 x 13.1 | 6.2 | hip 2.7 | 2 | timber |
+| S-0140 | House of Juliana the glazier | house | 2151.2 | 2040.8 | 33.3 | 140° | 7.7 x 10.6 | 12.4 | gable 4.2 | 4 | timber |
+| S-0141 | House of Avice the tanner | house | 2159.0 | 2034.4 | 33.1 | 148° | 9.2 x 11.6 | 12.4 | gable 5.1 | 4 | timber |
+| S-0142 | House of Rose the mason | house | 2171.2 | 2025.7 | 32.9 | 137° | 6.5 x 12.3 | 12.4 | gable 3.6 | 4 | timber |
+| S-0143 | House of Walter the stonecarver | shop | 1821.6 | 2221.9 | 35.2 | 340° | 6.6 x 14.5 | 12.4 | hip 3.0 | 4 | timber |
+| S-0144 | House of Piers the apothecary | house | 1827.2 | 2217.2 | 35.2 | 340° | 6.3 x 9.2 | 9.3 | gable 3.5 | 3 | timber |
+| S-0145 | House of Alys the spicer | house | 1835.4 | 2216.6 | 35.0 | 337° | 7.6 x 14.5 | 12.4 | gable 4.2 | 4 | timber |
+| S-0146 | House of Matilda the weaver | shop | 1858.8 | 2214.3 | 34.8 | 20° | 5.9 x 12.5 | 6.2 | hip 2.6 | 2 | timber |
+| S-0147 | House of Emma the scribe | shop | 1827.9 | 2195.0 | 35.3 | 157° | 7.9 x 14.7 | 12.4 | gable 4.3 | 4 | timber |
+| S-0148 | House of Cecily the astrologer | shop | 1836.9 | 2194.4 | 35.3 | 163° | 6.7 x 10.4 | 9.3 | gable 3.7 | 3 | timber |
+| S-0149 | House of Ralph the scribe | shop | 1845.6 | 2191.9 | 35.2 | 176° | 6.2 x 12.8 | 9.3 | hip 2.8 | 3 | timber |
+| S-0150 | House of Geoffrey the cheesemonger | shop | 1851.0 | 2252.5 | 34.9 | 352° | 6.7 x 11.4 | 9.3 | gable 3.7 | 3 | timber |
+| S-0151 | House of Osbert the scribe | shop | 1858.4 | 2251.3 | 34.7 | 350° | 6.5 x 11.5 | 12.4 | gable 3.6 | 4 | timber |
+| S-0152 | House of Edith the salter | house | 1826.7 | 2234.7 | 35.2 | 178° | 6.5 x 10.6 | 6.2 | gable 3.6 | 2 | timber |
+| S-0153 | House of Alys the juggler | shop | 1834.8 | 2232.6 | 35.0 | 179° | 8.5 x 14.3 | 9.3 | gable 4.7 | 3 | timber |
+| S-0154 | House of Walter the potter | shop | 1856.6 | 2231.3 | 34.8 | 172° | 7.3 x 12.1 | 6.2 | hip 3.3 | 2 | timber |
+| S-0155 | House of Margery the butcher | house | 1911.8 | 2222.2 | 34.2 | 328° | 9.1 x 9.1 | 12.4 | gable 5.0 | 4 | timber |
+| S-0156 | House of Ida the jeweller | house | 1920.7 | 2218.5 | 34.1 | 322° | 7.0 x 12.7 | 12.4 | hip 3.1 | 4 | timber |
+| S-0157 | House of Alan the fishmonger | house | 1930.8 | 2210.3 | 34.1 | 328° | 7.8 x 10.8 | 6.2 | gable 4.3 | 2 | timber |
+| S-0158 | House of Robin the pie-seller | house | 1908.7 | 2309.5 | 33.7 | 246° | 7.8 x 12.9 | 9.3 | gable 4.3 | 3 | timber |
+| S-0159 | House of Felice the furrier | shop | 1890.2 | 2287.8 | 34.1 | 220° | 8.1 x 10.3 | 6.2 | hip 3.6 | 2 | timber |
+| S-0160 | House of Ralph the shipwright | shop | 1878.7 | 2277.4 | 34.3 | 225° | 6.8 x 10.3 | 9.3 | gable 3.7 | 3 | timber |
+| S-0161 | House of Sybil the butcher | shop | 1872.6 | 2270.7 | 34.5 | 211° | 5.6 x 12.1 | 9.3 | gable 3.1 | 3 | timber |
+| S-0162 | House of Amice the money-changer | shop | 1867.3 | 2266.3 | 34.6 | 209° | 6.5 x 14.6 | 6.2 | hip 2.9 | 2 | timber |
+| S-0163 | House of Godwin the bellfounder | shop | 1860.5 | 2265.1 | 34.7 | 209° | 5.8 x 10.3 | 9.3 | hip 2.6 | 3 | timber |
+| S-0164 | House of Amice the stonecarver | shop | 1889.1 | 2318.4 | 34.0 | 66° | 7.8 x 13.7 | 9.3 | gable 4.3 | 3 | timber |
+| S-0165 | House of Gilbert the carpenter | house | 1875.7 | 2302.1 | 34.3 | 40° | 9.3 x 14.0 | 6.2 | gable 5.1 | 2 | timber |
+| S-0166 | House of Ivetta the money-changer | shop | 1870.1 | 2294.1 | 34.4 | 42° | 7.8 x 9.3 | 9.3 | hip 3.5 | 3 | timber |
+| S-0167 | House of Geoffrey the parchmenter | shop | 1858.3 | 2287.3 | 34.6 | 29° | 7.8 x 14.6 | 12.4 | gable 4.3 | 4 | timber |
+| S-0168 | House of Adam the butcher | house | 1851.5 | 2282.5 | 34.7 | 29° | 7.9 x 12.7 | 12.4 | gable 4.3 | 4 | timber |
+| S-0169 | House of Maud the shipwright | house | 1843.8 | 2277.8 | 34.8 | 31° | 8.3 x 12.1 | 9.3 | gable 4.6 | 3 | timber |
+| S-0170 | House of Amice the cheesemonger | house | 1836.5 | 2272.8 | 34.9 | 35° | 7.5 x 11.4 | 6.2 | gable 4.1 | 2 | timber |
+| S-0171 | House of Wat the lute-maker | shop | 1996.2 | 2182.9 | 33.8 | 24° | 5.6 x 14.6 | 9.3 | gable 3.1 | 3 | timber |
+| S-0172 | House of Simon the tinker | shop | 2003.5 | 2185.0 | 33.7 | 22° | 8.2 x 12.8 | 12.4 | hip 3.7 | 4 | timber |
+| S-0173 | House of Matilda the clockmaker | shop | 2026.3 | 2192.6 | 33.5 | 13° | 7.0 x 10.6 | 9.3 | gable 3.8 | 3 | timber |
+| S-0174 | House of Matilda the net-mender | house | 2054.5 | 2192.6 | 33.1 | 339° | 6.1 x 12.6 | 9.3 | hip 2.8 | 3 | timber |
+| S-0175 | House of Mabel the shipwright | shop | 1988.8 | 2157.8 | 34.1 | 199° | 6.2 x 14.4 | 12.4 | gable 3.4 | 4 | timber |
+| S-0176 | House of Ralph the fletcher | shop | 2006.1 | 2163.6 | 33.9 | 204° | 8.0 x 14.4 | 9.3 | hip 3.6 | 3 | timber |
+| S-0177 | House of Henry the astrologer | shop | 2020.7 | 2171.1 | 33.8 | 207° | 8.9 x 12.3 | 9.3 | gable 4.9 | 3 | timber |
+| S-0178 | House of Felice the furrier | house | 2039.3 | 2176.1 | 33.5 | 187° | 6.3 x 11.4 | 12.4 | gable 3.5 | 4 | timber |
+| S-0179 | House of Avice the glazier | shop | 1959.4 | 2138.5 | 34.6 | 253° | 8.8 x 11.4 | 9.3 | gable 4.8 | 3 | timber |
+| S-0180 | House of Baldwin the hatter | house | 1970.1 | 2164.2 | 34.3 | 182° | 6.2 x 10.2 | 6.2 | gable 3.4 | 2 | timber |
+| S-0181 | House of Walter the pie-seller | house | 1752.6 | 2228.2 | 36.3 | 194° | 9.0 x 11.4 | 6.2 | hip 4.0 | 2 | timber |
+| S-0182 | House of Richard the bowyer | house | 1771.8 | 2254.0 | 35.9 | 14° | 8.0 x 14.4 | 12.4 | gable 4.4 | 4 | timber |
+| S-0183 | House of Hawise the cheesemonger | house | 1764.6 | 2249.8 | 36.0 | 19° | 5.6 x 10.4 | 9.3 | hip 2.5 | 3 | timber |
+| S-0184 | House of Stephen the carpenter | house | 1736.2 | 2244.6 | 36.5 | 16° | 7.7 x 14.7 | 12.4 | hip 3.5 | 4 | timber |
+| S-0185 | House of Ralph the glover | house | 1722.9 | 2241.9 | 36.8 | 4° | 8.8 x 14.0 | 12.4 | gable 4.9 | 4 | timber |
+| S-0186 | House of Matilda the net-mender | house | 2067.1 | 2138.3 | 33.4 | 112° | 8.4 x 9.4 | 12.4 | gable 4.6 | 4 | timber |
+| S-0187 | House of Adam the barber-surgeon | shop | 2084.2 | 2144.6 | 33.2 | 292° | 5.9 x 12.4 | 9.3 | gable 3.2 | 3 | timber |
+| S-0188 | House of Agnes the astrologer | shop | 2209.6 | 2086.5 | 32.1 | 258° | 6.3 x 10.3 | 12.4 | hip 2.8 | 4 | timber |
+| S-0189 | House of Joan the fisher | shop | 2207.5 | 2078.3 | 32.2 | 253° | 8.2 x 9.9 | 9.3 | gable 4.5 | 3 | timber |
+| S-0190 | House of Avice the scribe | house | 2198.0 | 2108.0 | 32.1 | 77° | 7.1 x 9.5 | 12.4 | gable 3.9 | 4 | timber |
+| S-0191 | House of Hawise the spicer | shop | 1847.6 | 2340.3 | 34.7 | 8° | 5.7 x 14.0 | 12.4 | gable 3.1 | 4 | timber |
+| S-0192 | House of Simon the glazier | house | 1885.7 | 2338.9 | 34.1 | 360° | 8.9 x 14.8 | 6.2 | gable 4.9 | 2 | timber |
+| S-0193 | House of Amice the fisher | house | 1897.9 | 2334.5 | 33.8 | 337° | 7.8 x 13.9 | 6.2 | hip 3.5 | 2 | timber |
+| S-0194 | House of Osbert the pie-seller | house | 1904.8 | 2328.4 | 33.8 | 329° | 6.8 x 9.9 | 9.3 | gable 3.7 | 3 | timber |
+| S-0195 | House of Hob the barber-surgeon | house | 1840.2 | 2318.2 | 34.8 | 181° | 9.0 x 13.8 | 12.4 | hip 4.0 | 4 | timber |
+| S-0196 | House of Osbert the fisher | house | 1850.5 | 2320.7 | 34.7 | 188° | 8.6 x 11.1 | 9.3 | gable 4.7 | 3 | timber |
+| S-0197 | House of Agnes the barber-surgeon | shop | 1867.6 | 2318.5 | 34.4 | 173° | 5.7 x 13.9 | 12.4 | hip 2.6 | 4 | timber |
+| S-0198 | House of Baldwin the glazier | shop | 1874.2 | 2319.8 | 34.3 | 173° | 6.2 x 9.8 | 9.3 | hip 2.8 | 3 | timber |
+| S-0199 | House of Gilbert the carpenter | house | 2007.6 | 2057.8 | 34.8 | 250° | 7.0 x 12.6 | 9.3 | gable 3.8 | 3 | timber |
+| S-0200 | House of Hawise the cheesemonger | house | 2107.6 | 2029.8 | 33.7 | 279° | 9.2 x 14.6 | 6.2 | gable 5.1 | 2 | timber |
+| S-0201 | House of Adam the barber-surgeon | shop | 2107.1 | 2019.5 | 33.7 | 269° | 7.0 x 13.1 | 12.4 | gable 3.8 | 4 | timber |
+| S-0202 | House of Henry the tinker | shop | 1744.6 | 2151.0 | 37.0 | 153° | 7.8 x 10.9 | 9.3 | gable 4.3 | 3 | timber |
+| S-0203 | House of Baldwin the pewterer | shop | 1736.4 | 2156.3 | 37.0 | 144° | 8.3 x 10.4 | 12.4 | hip 3.7 | 4 | timber |
+| S-0204 | House of Ida the butcher | shop | 1714.2 | 2165.7 | 37.1 | 150° | 9.1 x 11.8 | 9.3 | gable 5.0 | 3 | timber |
+| S-0205 | House of Agnes the money-changer | shop | 1706.4 | 2169.6 | 37.1 | 149° | 7.3 x 12.8 | 6.2 | gable 4.0 | 2 | timber |
+| S-0206 | House of Agnes the cheesemonger | house | 1686.5 | 2181.3 | 37.5 | 160° | 6.0 x 9.2 | 9.3 | gable 3.3 | 3 | timber |
+| S-0207 | House of Cecily the tailor | shop | 1748.9 | 2169.6 | 36.7 | 324° | 5.9 x 13.5 | 6.2 | hip 2.7 | 2 | timber |
+| S-0208 | House of Rose the tanner | shop | 1740.5 | 2175.1 | 36.8 | 339° | 8.3 x 13.2 | 9.3 | hip 3.7 | 3 | timber |
+| S-0209 | House of Nicholas the notary | shop | 1725.5 | 2181.6 | 36.9 | 339° | 8.2 x 14.5 | 9.3 | hip 3.7 | 3 | timber |
+| S-0210 | House of Amice the tinker | house | 1711.8 | 2189.0 | 37.0 | 329° | 9.2 x 13.7 | 6.2 | hip 4.2 | 2 | timber |
+| S-0211 | House of Agnes the shipwright | shop | 1693.5 | 2195.6 | 37.3 | 340° | 6.9 x 10.0 | 6.2 | gable 3.8 | 2 | timber |
+| S-0212 | House of Jordan the mason | house | 1677.4 | 2203.2 | 37.4 | 344° | 7.2 x 12.6 | 6.2 | gable 4.0 | 2 | timber |
+| S-0213 | House of Alan the jeweller | shop | 1844.5 | 2102.3 | 36.1 | 257° | 8.3 x 11.1 | 6.2 | gable 4.6 | 2 | timber |
+| S-0214 | House of Baldwin the net-mender | house | 1842.8 | 2093.7 | 36.2 | 254° | 7.5 x 11.6 | 9.3 | gable 4.2 | 3 | timber |
+| S-0215 | House of Isabel the bellfounder | house | 1695.6 | 2141.0 | 37.6 | 272° | 5.9 x 11.6 | 6.2 | gable 3.2 | 2 | timber |
+| S-0216 | House of Isabel the stonecarver | house | 1675.7 | 2151.9 | 37.8 | 118° | 7.9 x 11.8 | 9.3 | gable 4.3 | 3 | timber |
+| S-0217 | House of Maud the armourer | shop | 2201.8 | 2139.5 | 31.7 | 87° | 6.9 x 13.1 | 12.4 | gable 3.8 | 4 | timber |
+| S-0218 | House of Petronilla the clockmaker | shop | 2202.3 | 2147.9 | 31.6 | 80° | 6.8 x 13.7 | 9.3 | gable 3.7 | 3 | timber |
+| S-0219 | House of Christiana the scribe | shop | 2205.8 | 2161.6 | 31.5 | 87° | 6.5 x 9.6 | 6.2 | gable 3.6 | 2 | timber |
+| S-0220 | House of Laurence the shipwright | shop | 2206.0 | 2175.9 | 31.5 | 88° | 5.9 x 9.7 | 9.3 | hip 2.7 | 3 | timber |
+| S-0221 | House of Piers the astrologer | shop | 2221.1 | 2155.2 | 31.4 | 267° | 6.0 x 9.3 | 6.2 | gable 3.3 | 2 | timber |
+| S-0222 | House of Martin the bookbinder | shop | 2223.8 | 2162.5 | 31.3 | 269° | 7.2 x 14.0 | 9.3 | hip 3.2 | 3 | timber |
+| S-0223 | House of Beatrice the salter | house | 2222.5 | 2170.4 | 31.2 | 269° | 7.9 x 11.0 | 12.4 | gable 4.3 | 4 | timber |
+| S-0224 | House of Ivetta the hatter | house | 2221.8 | 2178.8 | 31.2 | 269° | 8.1 x 9.3 | 9.3 | gable 4.5 | 3 | timber |
+| S-0225 | House of Maud the wheelwright | shop | 1822.1 | 2151.1 | 35.8 | 104° | 5.9 x 9.3 | 6.2 | gable 3.3 | 2 | timber |
+| S-0226 | House of Jordan the apothecary | shop | 1820.5 | 2157.1 | 35.8 | 104° | 5.6 x 9.5 | 9.3 | gable 3.1 | 3 | timber |
+| S-0227 | House of Alys the minstrel | shop | 1815.3 | 2171.1 | 35.7 | 113° | 9.0 x 12.1 | 12.4 | hip 4.0 | 4 | timber |
+| S-0228 | House of Rose the glover | shop | 1809.0 | 2186.0 | 35.7 | 109° | 6.3 x 12.0 | 12.4 | gable 3.5 | 4 | timber |
+| S-0229 | House of Isabel the jeweller | shop | 1842.0 | 2140.7 | 35.7 | 285° | 9.5 x 10.1 | 12.4 | hip 4.3 | 4 | timber |
+| S-0230 | House of Stephen the jeweller | house | 1838.6 | 2150.0 | 35.6 | 289° | 8.5 x 9.2 | 6.2 | hip 3.8 | 2 | timber |
+| S-0231 | House of Margery the fisher | shop | 1836.9 | 2164.9 | 35.5 | 280° | 8.6 x 13.1 | 12.4 | hip 3.9 | 4 | timber |
+| S-0232 | House of Alan the fletcher | house | 1834.9 | 2175.0 | 35.5 | 293° | 6.5 x 14.6 | 12.4 | gable 3.6 | 4 | timber |
+| S-0233 | House of Rose the herbalist | shop | 2161.5 | 2135.8 | 32.2 | 92° | 6.4 x 9.3 | 12.4 | gable 3.5 | 4 | timber |
+| S-0234 | House of Odo the vintner | shop | 2157.1 | 2147.7 | 32.2 | 114° | 9.4 x 9.6 | 9.3 | gable 5.2 | 3 | timber |
+| S-0235 | House of Avice the saddler | shop | 2153.4 | 2156.6 | 32.2 | 110° | 8.0 x 9.5 | 12.4 | gable 4.4 | 4 | timber |
+| S-0236 | House of Avice the saddler | shop | 2171.6 | 2155.5 | 32.0 | 294° | 5.9 x 10.9 | 9.3 | hip 2.6 | 3 | timber |
+| S-0237 | House of Ivetta the fisher | house | 2166.6 | 2168.3 | 31.9 | 290° | 9.1 x 10.8 | 6.2 | gable 5.0 | 2 | timber |
+| S-0238 | House of Cecily the notary | shop | 2161.5 | 2176.7 | 32.0 | 296° | 7.6 x 9.0 | 9.3 | gable 4.2 | 3 | timber |
+| S-0239 | House of Petronilla the fisher | shop | 1970.5 | 2131.8 | 34.5 | 96° | 5.6 x 11.7 | 12.4 | hip 2.5 | 4 | timber |
+| S-0240 | House of Stephen the butcher | shop | 1970.7 | 2149.3 | 34.4 | 84° | 5.9 x 12.1 | 9.3 | gable 3.3 | 3 | timber |
+| S-0241 | House of Beatrice the fisher | house | 1966.5 | 2186.9 | 34.1 | 100° | 8.1 x 11.4 | 12.4 | gable 4.4 | 4 | timber |
+| S-0242 | House of Osbert the butcher | shop | 1967.1 | 2195.6 | 34.0 | 90° | 5.6 x 9.0 | 6.2 | hip 2.5 | 2 | timber |
+| S-0243 | House of Roger the cooper | house | 1966.8 | 2205.9 | 33.9 | 71° | 8.4 x 12.5 | 12.4 | gable 4.6 | 4 | timber |
+| S-0244 | House of Margery the money-changer | house | 1985.6 | 2178.4 | 34.0 | 277° | 5.8 x 11.3 | 9.3 | gable 3.2 | 3 | timber |
+| S-0245 | House of Matilda the saddler | shop | 1986.4 | 2202.8 | 33.8 | 251° | 5.6 x 14.1 | 12.4 | gable 3.1 | 4 | timber |
+| S-0246 | House of Martin the vintner | shop | 2042.3 | 2051.1 | 34.5 | 245° | 5.9 x 13.1 | 9.3 | gable 3.2 | 3 | timber |
+| S-0247 | House of Richard the fletcher | shop | 2037.2 | 2039.6 | 34.6 | 266° | 7.0 x 10.2 | 9.3 | gable 3.9 | 3 | timber |
+| S-0248 | House of Ralph the glazier | house | 2053.8 | 2088.9 | 33.9 | 271° | 8.6 x 12.5 | 9.3 | hip 3.9 | 3 | timber |
+| S-0249 | House of Odo the notary | shop | 2035.1 | 2095.9 | 34.1 | 95° | 8.5 x 11.9 | 12.4 | hip 3.8 | 4 | timber |
+| S-0250 | House of Sybil the vintner | shop | 2035.7 | 2078.4 | 34.2 | 100° | 9.1 x 13.3 | 9.3 | gable 5.0 | 3 | timber |
+| S-0251 | House of Hawise the bellfounder | house | 2033.3 | 2067.1 | 34.4 | 67° | 5.8 x 10.3 | 12.4 | gable 3.2 | 4 | timber |
+| S-0252 | House of Laurence the juggler | shop | 2129.8 | 2145.1 | 32.5 | 116° | 6.5 x 13.6 | 9.3 | gable 3.6 | 3 | timber |
+| S-0253 | House of Sybil the brewer | shop | 2127.2 | 2153.9 | 32.5 | 106° | 8.0 x 10.9 | 12.4 | gable 4.4 | 4 | timber |
+| S-0254 | House of Elena the minstrel | house | 2124.2 | 2160.6 | 32.5 | 106° | 5.9 x 12.7 | 9.3 | gable 3.2 | 3 | timber |
+| S-0255 | House of Joan the money-changer | shop | 1870.4 | 2099.6 | 35.8 | 85° | 6.7 x 13.9 | 9.3 | gable 3.7 | 3 | timber |
+| S-0256 | House of Christiana the cartographer | shop | 1866.5 | 2086.8 | 36.1 | 68° | 6.3 x 12.5 | 9.3 | gable 3.5 | 3 | timber |
+| S-0257 | House of Piers the tailor | shop | 1754.7 | 2187.2 | 36.5 | 139° | 9.4 x 13.0 | 12.4 | gable 5.2 | 4 | timber |
+| S-0258 | House of Hugh the vintner | shop | 1732.9 | 2207.4 | 36.7 | 140° | 5.6 x 14.5 | 6.2 | gable 3.1 | 2 | timber |
+| S-0259 | House of Avice the stonecarver | shop | 1729.2 | 2221.0 | 36.7 | 97° | 8.1 x 11.5 | 12.4 | hip 3.6 | 4 | timber |
+| S-0260 | House of Ivetta the limner | shop | 1758.5 | 2210.3 | 36.3 | 312° | 8.9 x 13.0 | 9.3 | gable 4.9 | 3 | timber |
+| S-0261 | House of Robin the lute-maker | shop | 1934.2 | 2237.9 | 33.9 | 15° | 6.2 x 9.7 | 9.3 | gable 3.4 | 3 | timber |
+| S-0262 | House of Walter the stonecarver | shop | 1941.1 | 2239.3 | 33.8 | 13° | 6.4 x 9.3 | 9.3 | gable 3.5 | 3 | timber |
+| S-0263 | House of Stephen the brewer | shop | 1950.2 | 2241.1 | 33.6 | 6° | 9.3 x 10.2 | 6.2 | hip 4.2 | 2 | timber |
+| S-0264 | House of Petronilla the locksmith | house | 1946.8 | 2222.4 | 33.9 | 193° | 7.5 x 13.9 | 6.2 | gable 4.1 | 2 | timber |
+| S-0265 | House of Gilbert the potter | shop | 1960.4 | 2223.8 | 33.7 | 176° | 6.4 x 11.8 | 6.2 | hip 2.9 | 2 | timber |
+| S-0266 | House of Cecily the brewer | shop | 2021.6 | 2204.3 | 33.4 | 120° | 8.7 x 9.7 | 9.3 | gable 4.8 | 3 | timber |
+| S-0267 | House of Baldwin the limner | shop | 2013.2 | 2214.8 | 33.4 | 136° | 7.9 x 10.2 | 9.3 | hip 3.6 | 3 | timber |
+| S-0268 | House of Avice the stonecarver | house | 2044.9 | 2196.0 | 33.2 | 300° | 9.1 x 10.7 | 6.2 | gable 5.0 | 2 | timber |
+| S-0269 | House of Avice the fishmonger | shop | 2037.1 | 2209.9 | 33.2 | 300° | 9.3 x 10.2 | 9.3 | hip 4.2 | 3 | timber |
+| S-0270 | House of Wat the notary | shop | 2025.9 | 2226.8 | 33.2 | 316° | 7.2 x 12.1 | 9.3 | hip 3.3 | 3 | timber |
+| S-0271 | House of Maud the bookbinder | house | 1954.0 | 2068.9 | 35.3 | 102° | 5.8 x 13.5 | 6.2 | gable 3.2 | 2 | timber |
+| S-0272 | House of Odo the goldsmith | house | 1954.1 | 2079.7 | 35.1 | 83° | 9.1 x 11.7 | 6.2 | gable 5.0 | 2 | timber |
+| S-0273 | House of Ivetta the notary | shop | 2023.9 | 2051.3 | 34.6 | 350° | 7.6 x 10.2 | 12.4 | gable 4.2 | 4 | timber |
+| S-0274 | House of Margery the vintner | shop | 1971.3 | 2075.0 | 35.0 | 265° | 8.3 x 11.0 | 9.3 | hip 3.7 | 3 | timber |
+| S-0275 | House of Avice the money-changer | shop | 2102.0 | 2050.8 | 33.8 | 38° | 6.2 x 10.1 | 12.4 | gable 3.4 | 4 | timber |
+| S-0276 | House of Beatrice the glover | shop | 2085.5 | 2038.0 | 34.0 | 44° | 5.7 x 11.1 | 12.4 | hip 2.5 | 4 | timber |
+| S-0277 | House of Maud the brewer | shop | 2081.5 | 2033.1 | 34.0 | 43° | 6.2 x 9.5 | 12.4 | hip 2.8 | 4 | timber |
+| S-0278 | House of Avice the dyer | house | 2075.7 | 2028.9 | 34.1 | 42° | 7.4 x 11.1 | 12.4 | gable 4.1 | 4 | timber |
+| S-0279 | House of Henry the astrologer | shop | 2179.3 | 2070.3 | 32.6 | 184° | 7.8 x 14.4 | 6.2 | gable 4.3 | 2 | timber |
+| S-0280 | House of Roger the apothecary | house | 2166.5 | 2069.3 | 32.8 | 191° | 7.8 x 13.0 | 6.2 | gable 4.3 | 2 | timber |
+| S-0281 | House of Felice the pie-seller | shop | 2186.8 | 2090.0 | 32.4 | 355° | 7.2 x 13.1 | 9.3 | hip 3.2 | 3 | timber |
+| S-0282 | House of Walter the limner | house | 2178.1 | 2090.1 | 32.5 | 4° | 6.6 x 12.7 | 9.3 | hip 3.0 | 3 | timber |
+| S-0283 | House of Gilbert the fishmonger | shop | 2169.6 | 2089.1 | 32.6 | 11° | 7.2 x 12.3 | 9.3 | hip 3.2 | 3 | timber |
+| S-0284 | House of Adam the chandler | house | 2161.8 | 2088.3 | 32.7 | 11° | 7.6 x 13.8 | 12.4 | gable 4.2 | 4 | timber |
+| S-0285 | House of Richard the furrier | house | 2154.2 | 2086.9 | 32.8 | 14° | 6.4 x 14.2 | 12.4 | gable 3.5 | 4 | timber |
+| S-0286 | House of Edith the bellfounder | shop | 2204.4 | 2031.0 | 32.4 | 176° | 5.9 x 9.4 | 12.4 | hip 2.6 | 4 | timber |
+| S-0287 | House of Martin the glazier | shop | 2210.3 | 2028.1 | 32.3 | 175° | 5.7 x 14.3 | 12.4 | hip 2.6 | 4 | timber |
+| S-0288 | House of Rose the cutler | shop | 2217.8 | 2027.5 | 32.1 | 182° | 6.3 x 14.4 | 12.4 | gable 3.5 | 4 | timber |
+| S-0289 | House of Stephen the minstrel | house | 2226.1 | 2029.0 | 32.0 | 182° | 9.2 x 12.0 | 6.2 | gable 5.1 | 2 | timber |
+| S-0290 | House of Adam the lute-maker | house | 2227.9 | 2046.8 | 32.0 | 280° | 8.8 x 12.3 | 9.3 | gable 4.8 | 3 | timber |
+| S-0291 | House of Avice the astrologer | house | 2227.6 | 2072.5 | 31.9 | 248° | 8.5 x 9.7 | 12.4 | hip 3.8 | 4 | timber |
+| S-0292 | House of Avice the chandler | shop | 2234.6 | 2090.3 | 31.8 | 264° | 7.3 x 13.7 | 9.3 | hip 3.3 | 3 | timber |
+| S-0293 | House of Simon the candlemaker | shop | 2233.7 | 2098.2 | 31.8 | 264° | 7.2 x 10.2 | 12.4 | hip 3.2 | 4 | timber |
+| S-0294 | House of Cecily the limner | shop | 2218.1 | 2109.1 | 31.8 | 359° | 7.7 x 12.9 | 9.3 | gable 4.2 | 3 | timber |
+| S-0295 | House of Mabel the sailmaker | house | 1982.9 | 2339.6 | 32.7 | 117° | 7.8 x 13.6 | 9.3 | gable 4.3 | 3 | timber |
+| S-0296 | House of Christiana the draper | house | 1978.7 | 2354.6 | 32.7 | 113° | 7.4 x 11.7 | 9.3 | gable 4.1 | 3 | timber |
+| S-0297 | House of Mabel the fishmonger | house | 1971.3 | 2370.9 | 32.8 | 112° | 9.4 x 12.3 | 12.4 | gable 5.2 | 4 | timber |
+| S-0298 | House of Alys the cheesemonger | shop | 1930.5 | 2403.3 | 33.3 | 166° | 5.7 x 12.9 | 6.2 | hip 2.6 | 2 | timber |
+| S-0299 | House of Christiana the tinker | shop | 1923.3 | 2406.0 | 33.4 | 167° | 8.9 x 10.9 | 12.4 | gable 4.9 | 4 | timber |
+| S-0300 | House of Juliana the notary | house | 1914.7 | 2408.3 | 33.6 | 160° | 6.3 x 11.0 | 12.4 | hip 2.8 | 4 | timber |
+| S-0301 | House of Edith the bowyer | house | 2003.2 | 2339.6 | 32.5 | 302° | 6.4 x 9.7 | 9.3 | hip 2.9 | 3 | timber |
+| S-0302 | House of Alys the juggler | shop | 1998.4 | 2353.0 | 32.5 | 286° | 6.8 x 12.2 | 9.3 | gable 3.7 | 3 | timber |
+| S-0303 | House of Emma the cobbler | shop | 1995.4 | 2361.1 | 32.5 | 293° | 7.6 x 11.9 | 9.3 | gable 4.2 | 3 | timber |
+| S-0304 | House of Nicholas the draper | shop | 1993.8 | 2368.4 | 32.5 | 294° | 5.9 x 14.7 | 9.3 | gable 3.2 | 3 | timber |
+| S-0305 | House of Margery the shipwright | shop | 1987.6 | 2383.3 | 32.4 | 292° | 7.8 x 14.8 | 6.2 | hip 3.5 | 2 | timber |
+| S-0306 | House of Gilbert the barber-surgeon | shop | 1980.5 | 2403.2 | 32.5 | 39° | 8.2 x 12.2 | 9.3 | hip 3.7 | 3 | timber |
+| S-0307 | House of Cecily the stonecarver | shop | 1987.3 | 2407.0 | 32.5 | 40° | 6.5 x 9.3 | 6.2 | gable 3.6 | 2 | timber |
+| S-0308 | House of Margery the glazier | shop | 2022.1 | 2433.7 | 32.0 | 8° | 8.4 x 10.8 | 6.2 | gable 4.6 | 2 | timber |
+| S-0309 | House of Jordan the armourer | shop | 2029.7 | 2435.1 | 31.9 | 8° | 6.2 x 11.3 | 6.2 | gable 3.4 | 2 | timber |
+| S-0310 | House of Rose the cobbler | house | 2037.8 | 2440.1 | 31.8 | 36° | 6.2 x 14.2 | 6.2 | gable 3.4 | 2 | timber |
+| S-0311 | House of Agnes the clockmaker | shop | 2049.3 | 2448.8 | 31.6 | 36° | 8.2 x 14.2 | 6.2 | gable 4.5 | 2 | timber |
+| S-0312 | House of Beatrice the barber-surgeon | house | 2056.4 | 2452.2 | 31.6 | 36° | 6.5 x 11.4 | 9.3 | gable 3.6 | 3 | timber |
+| S-0313 | House of Geoffrey the clockmaker | shop | 1997.3 | 2392.9 | 32.3 | 220° | 6.0 x 12.7 | 12.4 | hip 2.7 | 4 | timber |
+| S-0314 | House of Robin the glover | shop | 2003.5 | 2399.0 | 32.2 | 224° | 9.3 x 11.6 | 9.3 | gable 5.1 | 3 | timber |
+| S-0315 | House of Hawise the fishmonger | house | 2010.6 | 2404.4 | 32.1 | 227° | 6.5 x 14.0 | 9.3 | hip 2.9 | 3 | timber |
+| S-0316 | House of Adam the cheesemonger | shop | 2017.4 | 2413.9 | 32.0 | 197° | 9.0 x 12.2 | 9.3 | gable 4.9 | 3 | timber |
+| S-0317 | House of Christiana the scribe | shop | 2025.0 | 2416.2 | 31.9 | 197° | 6.1 x 12.4 | 12.4 | hip 2.7 | 4 | timber |
+| S-0318 | House of Roger the limner | shop | 2038.6 | 2420.3 | 31.7 | 198° | 7.0 x 10.0 | 12.4 | hip 3.2 | 4 | timber |
+| S-0319 | House of Maud the saddler | house | 2053.2 | 2428.1 | 31.6 | 218° | 5.9 x 10.9 | 12.4 | gable 3.2 | 4 | timber |
+| S-0320 | House of Joan the brewer | shop | 2059.8 | 2431.0 | 31.5 | 218° | 7.2 x 14.5 | 12.4 | gable 4.0 | 4 | timber |
+| S-0321 | House of Nicholas the juggler | house | 2071.7 | 2441.3 | 31.4 | 223° | 8.3 x 13.0 | 6.2 | hip 3.8 | 2 | timber |
+| S-0322 | House of Ivetta the cartographer | shop | 2190.4 | 2226.3 | 31.3 | 146° | 7.7 x 14.1 | 6.2 | gable 4.2 | 2 | timber |
+| S-0323 | House of Roger the sailmaker | house | 2217.4 | 2225.4 | 31.1 | 328° | 6.7 x 12.5 | 6.2 | hip 3.0 | 2 | timber |
+| S-0324 | House of Laurence the draper | shop | 2208.9 | 2232.8 | 31.1 | 308° | 5.7 x 10.8 | 6.2 | hip 2.5 | 2 | timber |
+| S-0325 | House of Cecily the fuller | house | 1928.8 | 2087.1 | 35.4 | 82° | 7.1 x 11.8 | 6.2 | gable 3.9 | 2 | timber |
+| S-0326 | House of Jordan the armourer | house | 1928.1 | 2078.9 | 35.5 | 86° | 7.5 x 11.9 | 6.2 | gable 4.1 | 2 | timber |
+| S-0327 | House of Agnes the dyer | house | 1972.6 | 2094.2 | 34.8 | 335° | 6.7 x 9.2 | 12.4 | hip 3.0 | 4 | timber |
+| S-0328 | House of Ralph the butcher | house | 2000.2 | 2082.6 | 34.7 | 338° | 8.0 x 12.0 | 12.4 | gable 4.4 | 4 | timber |
+| S-0329 | House of Stephen the sailmaker | house | 2062.3 | 2068.5 | 34.0 | 3° | 9.1 x 14.7 | 9.3 | gable 5.0 | 3 | timber |
+| S-0330 | House of Alys the chandler | shop | 2076.7 | 2069.6 | 33.9 | 26° | 6.7 x 11.4 | 9.3 | gable 3.7 | 3 | timber |
+| S-0331 | House of Simon the locksmith | shop | 2062.9 | 2048.8 | 34.3 | 183° | 7.9 x 14.2 | 9.3 | hip 3.5 | 3 | timber |
+| S-0332 | House of Simon the carpenter | shop | 2079.5 | 2051.9 | 34.0 | 206° | 6.1 x 12.6 | 9.3 | gable 3.3 | 3 | timber |
+| S-0333 | House of Isabel the potter | shop | 2085.8 | 2056.7 | 33.9 | 206° | 8.4 x 9.5 | 9.3 | hip 3.8 | 3 | timber |
+| S-0334 | House of Walter the ropemaker | shop | 2109.7 | 2068.5 | 33.5 | 208° | 5.9 x 12.1 | 6.2 | hip 2.7 | 2 | timber |
+| S-0335 | House of Isabel the saddler | shop | 2118.1 | 2056.6 | 33.5 | 293° | 6.8 x 12.8 | 6.2 | gable 3.8 | 2 | timber |
+| S-0336 | House of Matilda the juggler | shop | 2120.7 | 2049.9 | 33.5 | 292° | 6.7 x 12.5 | 9.3 | gable 3.7 | 3 | timber |
+| S-0337 | House of Rose the potter | house | 2130.2 | 2030.0 | 33.5 | 298° | 6.7 x 13.5 | 9.3 | hip 3.0 | 3 | timber |
+| S-0338 | House of Hawise the salter | shop | 2141.2 | 2009.2 | 33.2 | 296° | 9.0 x 11.0 | 6.2 | gable 4.9 | 2 | timber |
+| S-0339 | House of Thomas the lute-maker | shop | 2125.9 | 2004.4 | 33.4 | 127° | 5.8 x 10.5 | 6.2 | gable 3.2 | 2 | timber |
+| S-0340 | House of Rose the weaver | shop | 2202.5 | 1997.8 | 32.3 | 286° | 7.6 x 10.3 | 9.3 | gable 4.2 | 3 | timber |
+| S-0341 | House of Matilda the shipwright | shop | 2181.5 | 2013.4 | 32.7 | 90° | 7.8 x 12.4 | 12.4 | hip 3.5 | 4 | timber |
+| S-0342 | House of Elena the tinker | shop | 2183.9 | 2004.1 | 32.6 | 107° | 5.6 x 11.5 | 9.3 | gable 3.1 | 3 | timber |
+| S-0343 | House of Roger the glover | house | 2186.5 | 1998.3 | 32.6 | 106° | 6.6 x 9.7 | 6.2 | gable 3.6 | 2 | timber |
+| S-0344 | House of Beatrice the cobbler | shop | 1917.3 | 2243.5 | 34.0 | 83° | 9.4 x 10.2 | 12.4 | gable 5.2 | 4 | timber |
+| S-0345 | House of Amice the bellfounder | house | 1912.2 | 2262.7 | 33.9 | 116° | 9.3 x 12.2 | 12.4 | gable 5.1 | 4 | timber |
+| S-0346 | House of Cecily the cobbler | shop | 1932.6 | 2254.5 | 33.8 | 277° | 8.3 x 11.1 | 9.3 | gable 4.5 | 3 | timber |
+| S-0347 | House of Margery the mason | shop | 1931.3 | 2265.6 | 33.6 | 290° | 9.2 x 14.9 | 9.3 | hip 4.2 | 3 | timber |
+| S-0348 | House of Elena the fletcher | shop | 1925.5 | 2273.2 | 33.7 | 296° | 6.7 x 10.6 | 6.2 | gable 3.7 | 2 | timber |
+| S-0349 | House of Nicholas the tailor | shop | 1859.6 | 2345.6 | 34.4 | 81° | 7.0 x 12.2 | 12.4 | hip 3.2 | 4 | timber |
+| S-0350 | House of Mabel the fisher | shop | 1862.8 | 2360.9 | 34.4 | 85° | 9.5 x 11.2 | 9.3 | gable 5.2 | 3 | timber |
+| S-0351 | House of Rose the potter | shop | 1864.6 | 2369.1 | 34.4 | 83° | 5.8 x 9.5 | 9.3 | gable 3.2 | 3 | timber |
+| S-0352 | House of Edith the tailor | shop | 1862.7 | 2375.6 | 34.4 | 84° | 6.2 x 14.8 | 9.3 | gable 3.4 | 3 | timber |
+| S-0353 | House of Osbert the bowyer | shop | 1864.1 | 2382.4 | 34.5 | 84° | 6.8 x 13.2 | 6.2 | gable 3.7 | 2 | timber |
+| S-0354 | House of Rose the minstrel | shop | 1875.2 | 2340.9 | 34.3 | 261° | 5.8 x 9.7 | 12.4 | hip 2.6 | 4 | timber |
+| S-0355 | House of Stephen the bellfounder | shop | 1880.6 | 2354.8 | 34.1 | 264° | 5.6 x 14.8 | 12.4 | gable 3.1 | 4 | timber |
+| S-0356 | House of Isabel the parchmenter | house | 1881.0 | 2362.0 | 34.1 | 265° | 7.5 x 14.3 | 6.2 | gable 4.1 | 2 | timber |
+| S-0357 | House of Agnes the cutler | house | 1882.1 | 2378.0 | 34.1 | 264° | 7.6 x 13.0 | 12.4 | gable 4.2 | 4 | timber |
+| S-0358 | House of Sybil the bowyer | house | 2035.4 | 2135.6 | 33.8 | 88° | 9.3 x 10.1 | 6.2 | hip 4.2 | 2 | timber |
+| S-0359 | House of Martin the bookbinder | shop | 2035.0 | 2146.2 | 33.7 | 77° | 7.7 x 14.2 | 12.4 | gable 4.2 | 4 | timber |
+| S-0360 | House of Laurence the fisher | house | 2040.5 | 2161.1 | 33.6 | 74° | 7.1 x 9.7 | 12.4 | gable 3.9 | 4 | timber |
+| S-0361 | House of Maud the weaver | house | 2050.6 | 2171.7 | 33.4 | 3° | 6.6 x 9.6 | 9.3 | hip 3.0 | 3 | timber |
+| S-0362 | House of Margery the wheelwright | shop | 2058.5 | 2171.1 | 33.3 | 352° | 5.5 x 10.1 | 6.2 | hip 2.5 | 2 | timber |
+| S-0363 | House of Henry the cooper | shop | 2050.4 | 2134.5 | 33.6 | 268° | 5.8 x 9.6 | 6.2 | hip 2.6 | 2 | timber |
+| S-0364 | House of Henry the fishmonger | shop | 2054.6 | 2148.3 | 33.5 | 259° | 7.7 x 12.9 | 9.3 | hip 3.5 | 3 | timber |
+| S-0365 | House of Alan the carpenter | shop | 1927.7 | 2300.2 | 33.5 | 24° | 5.5 x 12.3 | 9.3 | gable 3.0 | 3 | timber |
+| S-0366 | House of Piers the tinker | shop | 1955.1 | 2314.8 | 33.1 | 23° | 6.8 x 14.6 | 9.3 | hip 3.1 | 3 | timber |
+| S-0367 | House of Henry the vintner | house | 1965.7 | 2320.1 | 33.1 | 34° | 6.3 x 13.9 | 12.4 | gable 3.5 | 4 | timber |
+| S-0368 | House of Elena the armourer | shop | 2012.7 | 2347.2 | 32.4 | 34° | 5.7 x 11.6 | 9.3 | gable 3.1 | 3 | timber |
+| S-0369 | House of Baldwin the barber-surgeon | house | 2020.4 | 2351.3 | 32.2 | 18° | 6.8 x 11.4 | 12.4 | gable 3.7 | 4 | timber |
+| S-0370 | House of Felice the scribe | shop | 2026.7 | 2354.6 | 32.1 | 18° | 6.4 x 13.6 | 6.2 | gable 3.5 | 2 | timber |
+| S-0371 | House of Matilda the stonecarver | shop | 1959.5 | 2297.0 | 33.1 | 203° | 7.5 x 11.2 | 9.3 | gable 4.1 | 3 | timber |
+| S-0372 | House of Avice the scribe | shop | 1974.8 | 2303.1 | 32.9 | 214° | 8.5 x 14.2 | 6.2 | gable 4.7 | 2 | timber |
+| S-0373 | House of Hawise the spicer | house | 1981.8 | 2308.6 | 32.9 | 219° | 7.0 x 13.0 | 6.2 | hip 3.1 | 2 | timber |
+| S-0374 | House of Cecily the barber-surgeon | house | 1987.4 | 2312.6 | 32.8 | 219° | 5.9 x 13.8 | 12.4 | gable 3.3 | 4 | timber |
+| S-0375 | House of Martin the pewterer | house | 1996.2 | 2319.8 | 32.7 | 208° | 7.0 x 9.9 | 9.3 | gable 3.8 | 3 | timber |
+| S-0376 | House of Walter the chandler | house | 2002.3 | 2322.9 | 32.6 | 208° | 6.0 x 10.1 | 12.4 | gable 3.3 | 4 | timber |
+| S-0377 | House of Ida the armourer | shop | 1941.9 | 2369.4 | 33.2 | 264° | 7.4 x 10.5 | 9.3 | hip 3.4 | 3 | timber |
+| S-0378 | House of Henry the glazier | shop | 1940.8 | 2359.6 | 33.3 | 245° | 6.0 x 13.0 | 6.2 | gable 3.3 | 2 | timber |
+| S-0379 | House of Godwin the minstrel | shop | 1934.6 | 2343.4 | 33.4 | 242° | 7.2 x 13.9 | 9.3 | hip 3.3 | 3 | timber |
+| S-0380 | House of Margery the pewterer | house | 1930.0 | 2337.0 | 33.4 | 243° | 7.6 x 11.6 | 9.3 | gable 4.2 | 3 | timber |
+| S-0381 | House of Maud the shipwright | shop | 1922.9 | 2323.0 | 33.5 | 244° | 6.9 x 10.8 | 12.4 | hip 3.1 | 4 | timber |
+| S-0382 | House of Sybil the fisher | shop | 1927.9 | 2381.3 | 33.5 | 86° | 6.5 x 9.1 | 9.3 | gable 3.6 | 3 | timber |
+| S-0383 | House of Mabel the cheesemonger | house | 1921.5 | 2359.4 | 33.5 | 70° | 8.6 x 11.7 | 12.4 | gable 4.8 | 4 | timber |
+
+## Scholars' Hill (146 buildings)
+
+102 house, 24 auditorium, 12 college, 6 church, 1 library, 1 tower
+
+| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
+|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
+| U-0001 | College of the Seven Stars (front range) | college | 1292.4 | 2082.6 | 43.3 | 5° | 80.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0002 | College of the Seven Stars (back range) | college | 1287.6 | 2137.4 | 43.0 | 185° | 80.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0003 | College of the Seven Stars (west range) | college | 1255.6 | 2107.0 | 44.0 | 275° | 44.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0004 | College of the Seven Stars (east range) | college | 1324.4 | 2113.0 | 43.0 | 95° | 44.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0005 | Henge College (front range) | college | 1393.1 | 2092.6 | 42.3 | 356° | 76.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0006 | Henge College (back range) | college | 1396.9 | 2147.4 | 41.6 | 176° | 76.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0007 | Henge College (west range) | college | 1362.6 | 2122.3 | 42.5 | 266° | 44.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0008 | Henge College (east range) | college | 1427.4 | 2117.7 | 41.7 | 86° | 44.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0009 | College of Physicians (front range) | college | 1300.9 | 2183.5 | 42.4 | 2° | 86.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0010 | College of Physicians (back range) | college | 1299.1 | 2236.5 | 42.1 | 182° | 86.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0011 | College of Physicians (west range) | college | 1262.5 | 2208.7 | 43.5 | 272° | 42.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0012 | College of Physicians (east range) | college | 1337.5 | 2211.3 | 42.2 | 92° | 42.0 x 11.0 | 12.0 | gable 6.0 | 3 | stone |
+| U-0013 | University Library | library | 1440.0 | 2210.0 | 40.6 | 180° | 52.0 x 16.0 | 14.0 | hip 7.2 | 3 | stone |
+| U-0014 | Hall of Disputations | auditorium | 1516.6 | 2268.8 | 39.6 | 283° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0015 | Hall of Disputations | auditorium | 1513.3 | 2275.6 | 39.7 | 309° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0016 | Hall of Disputations | auditorium | 1507.4 | 2280.3 | 39.8 | 334° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0017 | Hall of Disputations | auditorium | 1500.0 | 2282.0 | 39.8 | 0° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0018 | Hall of Disputations | auditorium | 1492.6 | 2280.3 | 39.9 | 26° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0019 | Hall of Disputations | auditorium | 1486.7 | 2275.6 | 40.0 | 51° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0020 | Hall of Disputations | auditorium | 1483.4 | 2268.8 | 40.1 | 77° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0021 | Hall of Disputations | auditorium | 1483.4 | 2261.2 | 40.2 | 103° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0022 | Hall of Disputations | auditorium | 1486.7 | 2254.4 | 40.2 | 129° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0023 | Hall of Disputations | auditorium | 1492.6 | 2249.7 | 40.1 | 154° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0024 | Hall of Disputations | auditorium | 1507.4 | 2249.7 | 39.9 | 206° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0025 | Hall of Disputations | auditorium | 1513.3 | 2254.4 | 39.8 | 231° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0026 | Hall of Disputations | auditorium | 1516.6 | 2261.2 | 39.6 | 257° | 8.2 x 10.0 | 10.0 | flat 0.0 | 1 | stone |
+| U-0027 | Hall of Disputations (lectern hall) | auditorium | 1500.0 | 2252.0 | 39.9 | 0° | 16.0 x 8.0 | 8.0 | gable 4.4 | 1 | stone |
+| U-0028 | Observatory Tower | tower | 1250.0 | 2275.0 | 43.5 | 0° | round, 14.0 across | 38.0 | cone 12.6 | 1 | stone |
+| U-0029 | Anatomy Theatre | auditorium | 1448.6 | 2277.8 | 40.5 | 288° | 6.2 x 6.0 | 9.0 | flat 0.0 | 1 | timber |
+| U-0030 | Anatomy Theatre | auditorium | 1445.3 | 2282.3 | 40.5 | 324° | 6.2 x 6.0 | 9.0 | flat 0.0 | 1 | timber |
+| U-0031 | Anatomy Theatre | auditorium | 1440.0 | 2284.0 | 40.6 | 0° | 6.2 x 6.0 | 9.0 | flat 0.0 | 1 | timber |
+| U-0032 | Anatomy Theatre | auditorium | 1434.7 | 2282.3 | 40.6 | 36° | 6.2 x 6.0 | 9.0 | flat 0.0 | 1 | timber |
+| U-0033 | Anatomy Theatre | auditorium | 1431.4 | 2277.8 | 40.7 | 72° | 6.2 x 6.0 | 9.0 | flat 0.0 | 1 | timber |
+| U-0034 | Anatomy Theatre | auditorium | 1431.4 | 2272.2 | 40.8 | 108° | 6.2 x 6.0 | 9.0 | flat 0.0 | 1 | timber |
+| U-0035 | Anatomy Theatre | auditorium | 1434.7 | 2267.7 | 40.7 | 144° | 6.2 x 6.0 | 9.0 | flat 0.0 | 1 | timber |
+| U-0036 | Anatomy Theatre | auditorium | 1440.0 | 2266.0 | 40.6 | 180° | 6.2 x 6.0 | 9.0 | flat 0.0 | 1 | timber |
+| U-0037 | Anatomy Theatre | auditorium | 1445.3 | 2267.7 | 40.5 | 216° | 6.2 x 6.0 | 9.0 | flat 0.0 | 1 | timber |
+| U-0038 | Anatomy Theatre | auditorium | 1448.6 | 2272.2 | 40.5 | 252° | 6.2 x 6.0 | 9.0 | flat 0.0 | 1 | timber |
+| U-0039 | Church of St. Hugh | church | 1550.0 | 2100.0 | 40.0 | 0° | 24.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| U-0040 | Church of St. Hugh (tower) | church | 1534.0 | 2100.0 | 40.3 | 0° | 8.0 x 8.0 | 22.0 | crenel 14.0 | 4 | stone |
+| U-0041 | Church of St. Kenelm | church | 1446.0 | 2473.1 | 40.4 | 90° | 36.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| U-0042 | Church of St. Kenelm (tower) | church | 1446.0 | 2451.1 | 40.4 | 90° | 8.0 x 8.0 | 30.0 | crenel 14.0 | 4 | stone |
+| U-0043 | Church of St. Rumbold | church | 1206.0 | 2200.0 | 44.4 | 0° | 24.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| U-0044 | Church of St. Rumbold (tower) | church | 1190.0 | 2200.0 | 44.8 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
+| U-0045 | House of Ralph the net-mender | house | 1290.7 | 2386.8 | 43.0 | 140° | 12.8 x 14.0 | 9.3 | hip 5.8 | 3 | stone |
+| U-0046 | House of Amice the baker | house | 1430.3 | 2062.4 | 42.4 | 256° | 8.9 x 12.8 | 9.3 | hip 4.0 | 3 | stone |
+| U-0047 | House of Odo the barber-surgeon | house | 1320.1 | 2396.2 | 42.4 | 314° | 11.2 x 10.0 | 6.2 | gable 5.5 | 2 | stone |
+| U-0048 | House of Robin the brewer | house | 1307.3 | 2412.8 | 42.8 | 322° | 11.6 x 14.5 | 6.2 | gable 6.4 | 2 | stone |
+| U-0049 | House of Agnes the weaver | house | 1337.1 | 2034.1 | 43.8 | 14° | 10.6 x 12.1 | 9.3 | gable 5.8 | 3 | stone |
+| U-0050 | House of Matilda the money-changer | house | 1545.8 | 2084.9 | 40.3 | 15° | 8.7 x 12.2 | 9.3 | gable 4.8 | 3 | stone |
+| U-0051 | House of Richard the glover | house | 1573.4 | 2092.7 | 39.7 | 15° | 10.4 x 10.7 | 6.2 | gable 5.7 | 2 | stone |
+| U-0052 | House of Matilda the sailmaker | house | 1325.0 | 2001.7 | 44.4 | 194° | 11.4 x 9.6 | 9.3 | hip 4.3 | 3 | stone |
+| U-0053 | House of Ida the ropemaker | house | 1344.2 | 2008.3 | 44.1 | 194° | 12.1 x 12.0 | 6.2 | hip 5.4 | 2 | stone |
+| U-0054 | House of Hawise the butcher | house | 1359.0 | 2011.4 | 43.9 | 194° | 10.6 x 14.1 | 6.2 | gable 5.8 | 2 | stone |
+| U-0055 | House of Godwin the limner | house | 1379.1 | 2015.3 | 43.6 | 194° | 10.5 x 12.3 | 9.3 | hip 4.7 | 3 | stone |
+| U-0056 | House of Thomas the tinker | house | 1464.2 | 2039.2 | 42.3 | 194° | 8.6 x 10.7 | 9.3 | hip 3.9 | 3 | stone |
+| U-0057 | House of Geoffrey the tailor | house | 1481.6 | 2040.2 | 42.0 | 194° | 8.1 x 12.6 | 6.2 | gable 4.4 | 2 | stone |
+| U-0058 | House of Walter the fletcher | house | 1541.8 | 2055.1 | 40.7 | 195° | 9.1 x 13.9 | 9.3 | hip 4.1 | 3 | stone |
+| U-0059 | House of Agnes the money-changer | house | 1573.1 | 2066.4 | 40.0 | 195° | 10.0 x 10.0 | 9.3 | hip 4.5 | 3 | stone |
+| U-0060 | House of Sybil the potter | house | 1621.0 | 2077.7 | 39.2 | 194° | 11.8 x 11.5 | 6.2 | gable 6.3 | 2 | stone |
+| U-0061 | House of Edith the fletcher | house | 1641.1 | 2082.4 | 38.8 | 194° | 11.2 x 14.1 | 6.2 | gable 6.1 | 2 | stone |
+| U-0062 | House of Edith the draper | house | 1657.9 | 2085.9 | 38.6 | 194° | 12.0 x 11.3 | 9.3 | gable 6.2 | 3 | stone |
+| U-0063 | House of Felice the money-changer | house | 1637.3 | 2206.2 | 38.1 | 62° | 11.0 x 9.6 | 6.2 | hip 4.3 | 2 | stone |
+| U-0064 | House of Wat the potter | house | 1609.9 | 2134.9 | 38.9 | 74° | 9.9 x 10.0 | 9.3 | gable 5.5 | 3 | stone |
+| U-0065 | House of Godwin the candlemaker | house | 1611.5 | 2118.8 | 39.0 | 95° | 8.6 x 11.4 | 6.2 | gable 4.7 | 2 | stone |
+| U-0066 | House of Beatrice the bowyer | house | 1383.6 | 2059.2 | 43.0 | 292° | 13.5 x 11.9 | 6.2 | hip 5.4 | 2 | stone |
+| U-0067 | House of Alys the salter | house | 1268.5 | 2032.7 | 44.4 | 168° | 13.0 x 13.8 | 6.2 | hip 5.9 | 2 | stone |
+| U-0068 | House of Ida the fisher | house | 1235.6 | 2047.2 | 44.6 | 158° | 8.9 x 13.0 | 6.2 | hip 4.0 | 2 | stone |
+| U-0069 | House of Alys the jeweller | house | 1222.4 | 2052.2 | 44.8 | 158° | 9.6 x 12.7 | 9.3 | gable 5.3 | 3 | stone |
+| U-0070 | House of Geoffrey the chandler | house | 1199.9 | 2055.3 | 45.1 | 202° | 10.4 x 13.0 | 9.3 | gable 5.7 | 3 | stone |
+| U-0071 | House of Petronilla the ropemaker | house | 1180.4 | 2037.9 | 45.5 | 242° | 9.4 x 11.8 | 9.3 | gable 5.2 | 3 | stone |
+| U-0072 | House of Hugh the goldsmith | house | 1176.6 | 2022.2 | 45.6 | 251° | 8.7 x 12.8 | 9.3 | gable 4.8 | 3 | stone |
+| U-0073 | House of Nicholas the draper | house | 1271.5 | 2058.8 | 44.2 | 348° | 10.8 x 14.0 | 6.2 | hip 4.9 | 2 | stone |
+| U-0074 | House of Ivetta the barber-surgeon | house | 1213.9 | 2081.4 | 44.8 | 355° | 13.7 x 13.3 | 6.2 | gable 7.3 | 2 | stone |
+| U-0075 | House of Alys the fletcher | house | 1411.5 | 2458.4 | 40.9 | 322° | 9.7 x 11.2 | 6.2 | gable 5.3 | 2 | stone |
+| U-0076 | House of Thomas the barber-surgeon | house | 1451.8 | 2430.2 | 40.3 | 337° | 13.2 x 9.2 | 6.2 | hip 4.2 | 2 | stone |
+| U-0077 | House of Joan the jeweller | house | 1490.8 | 2388.5 | 39.6 | 291° | 11.6 x 13.6 | 6.2 | gable 6.3 | 2 | stone |
+| U-0078 | House of Laurence the bookbinder | house | 1396.5 | 2439.5 | 41.1 | 142° | 8.8 x 9.1 | 6.2 | gable 4.8 | 2 | stone |
+| U-0079 | House of Elena the weaver | house | 1424.0 | 2421.7 | 40.7 | 142° | 10.6 x 11.3 | 9.3 | hip 4.8 | 3 | stone |
+| U-0080 | House of Nicholas the dyer | house | 1441.6 | 2411.4 | 40.3 | 157° | 9.8 x 11.0 | 9.3 | gable 5.4 | 3 | stone |
+| U-0081 | House of Felice the apothecary | house | 1452.6 | 2403.4 | 40.2 | 141° | 10.0 x 10.2 | 6.2 | gable 5.5 | 2 | stone |
+| U-0082 | House of Juliana the salter | house | 1468.1 | 2380.3 | 40.0 | 116° | 12.6 x 10.5 | 6.2 | gable 5.8 | 2 | stone |
+| U-0083 | House of Roger the fletcher | house | 1425.4 | 2467.0 | 40.7 | 32° | 13.6 x 11.5 | 9.3 | gable 6.3 | 3 | stone |
+| U-0084 | House of Agnes the limner | house | 1270.2 | 1993.7 | 44.9 | 77° | 8.3 x 13.0 | 9.3 | gable 4.5 | 3 | stone |
+| U-0085 | House of Roger the minstrel | house | 1620.3 | 2053.0 | 39.3 | 286° | 11.8 x 13.7 | 6.2 | gable 6.5 | 2 | stone |
+| U-0086 | House of Jordan the wheelwright | house | 1625.5 | 2038.1 | 39.3 | 303° | 12.2 x 11.7 | 9.3 | gable 6.4 | 3 | stone |
+| U-0087 | House of Hugh the locksmith | house | 1586.3 | 2072.3 | 39.7 | 113° | 11.0 x 11.6 | 9.3 | hip 4.9 | 3 | stone |
+| U-0088 | House of Juliana the herbalist | house | 1590.6 | 2058.3 | 39.8 | 111° | 13.4 x 13.1 | 6.2 | gable 7.2 | 2 | stone |
+| U-0089 | House of Agnes the saddler | house | 1598.3 | 2039.8 | 39.8 | 106° | 11.0 x 10.8 | 6.2 | gable 6.0 | 2 | stone |
+| U-0090 | House of Simon the bowyer | house | 1299.0 | 2059.6 | 43.9 | 89° | 13.6 x 11.3 | 9.3 | gable 6.2 | 3 | stone |
+| U-0091 | House of Hob the fletcher | house | 1321.8 | 2040.2 | 43.8 | 277° | 10.4 x 11.0 | 9.3 | gable 5.7 | 3 | stone |
+| U-0092 | House of Simon the herbalist | house | 1588.4 | 2110.8 | 39.4 | 304° | 10.2 x 10.8 | 9.3 | hip 4.6 | 3 | stone |
+| U-0093 | House of Richard the draper | house | 1578.8 | 2122.7 | 39.5 | 311° | 13.1 x 12.8 | 6.2 | gable 7.0 | 2 | stone |
+| U-0094 | House of Richard the mercer | house | 1567.0 | 2133.2 | 39.5 | 315° | 12.8 x 10.8 | 9.3 | gable 5.9 | 3 | stone |
+| U-0095 | House of Martin the wheelwright | house | 1544.3 | 2161.5 | 39.6 | 315° | 13.7 x 14.9 | 9.3 | hip 6.2 | 3 | stone |
+| U-0096 | House of Edith the stonecarver | house | 1620.4 | 2253.3 | 38.4 | 32° | 10.8 x 11.9 | 6.2 | gable 6.0 | 2 | stone |
+| U-0097 | House of Elena the wheelwright | house | 1642.9 | 2242.6 | 37.9 | 221° | 11.1 x 9.2 | 9.3 | hip 4.1 | 3 | stone |
+| U-0098 | House of Maud the locksmith | house | 1413.0 | 1976.3 | 43.7 | 346° | 10.9 x 10.8 | 6.2 | gable 6.0 | 2 | stone |
+| U-0099 | House of Christiana the vintner | house | 1429.2 | 1969.2 | 43.4 | 336° | 10.7 x 9.1 | 6.2 | hip 4.1 | 2 | stone |
+| U-0100 | House of Henry the shipwright | house | 1444.4 | 1967.7 | 43.1 | 342° | 8.1 x 11.4 | 9.3 | hip 3.6 | 3 | stone |
+| U-0101 | House of Isabel the saddler | house | 1458.8 | 1967.2 | 42.9 | 6° | 12.4 x 11.3 | 6.2 | gable 6.2 | 2 | stone |
+| U-0102 | House of Isabel the sailmaker | house | 1618.0 | 2222.4 | 38.3 | 143° | 11.4 x 13.4 | 6.2 | hip 5.1 | 2 | stone |
+| U-0103 | House of Mabel the parchmenter | house | 1605.9 | 2234.0 | 38.5 | 140° | 10.9 x 11.5 | 6.2 | hip 4.9 | 2 | stone |
+| U-0104 | House of Jordan the herbalist | house | 1593.0 | 2241.6 | 38.6 | 144° | 10.5 x 13.2 | 6.2 | gable 5.8 | 2 | stone |
+| U-0105 | House of Mabel the bookbinder | house | 1609.8 | 2260.3 | 38.5 | 335° | 8.3 x 10.3 | 6.2 | gable 4.5 | 2 | stone |
+| U-0106 | House of Juliana the clockmaker | house | 1593.4 | 2268.3 | 38.6 | 340° | 12.2 x 14.8 | 9.3 | gable 6.7 | 3 | stone |
+| U-0107 | House of Ivetta the brewer | house | 1691.9 | 2161.9 | 37.5 | 298° | 10.4 x 10.6 | 9.3 | hip 4.7 | 3 | stone |
+| U-0108 | House of Elena the draper | house | 1316.0 | 1991.3 | 44.6 | 253° | 9.2 x 9.0 | 6.2 | hip 4.0 | 2 | stone |
+| U-0109 | House of Elena the fuller | house | 1297.2 | 1995.7 | 44.7 | 73° | 10.4 x 12.8 | 9.3 | gable 5.7 | 3 | stone |
+| U-0110 | House of Alan the fletcher | house | 1492.7 | 2447.4 | 39.7 | 287° | 11.3 x 13.3 | 6.2 | hip 5.1 | 2 | stone |
+| U-0111 | House of Mabel the tanner | house | 1579.2 | 2273.5 | 38.9 | 268° | 12.5 x 11.7 | 6.2 | hip 5.3 | 2 | stone |
+| U-0112 | House of Maud the pewterer | house | 1577.3 | 2222.3 | 39.0 | 281° | 9.7 x 9.5 | 9.3 | gable 5.2 | 3 | stone |
+| U-0113 | House of Amice the lute-maker | house | 1559.2 | 2273.7 | 39.1 | 88° | 11.6 x 13.3 | 9.3 | hip 5.2 | 3 | stone |
+| U-0114 | House of Joan the barber-surgeon | house | 1555.9 | 2257.1 | 39.2 | 81° | 11.7 x 14.4 | 9.3 | hip 5.3 | 3 | stone |
+| U-0115 | House of Isabel the pie-seller | house | 1555.8 | 2241.3 | 39.1 | 81° | 12.8 x 14.5 | 9.3 | gable 7.0 | 3 | stone |
+| U-0116 | House of Hob the cooper | house | 1557.9 | 2222.2 | 39.2 | 101° | 9.7 x 11.9 | 9.3 | gable 5.3 | 3 | stone |
+| U-0117 | House of Stephen the lute-maker | house | 1203.4 | 2017.9 | 45.3 | 92° | 11.9 x 14.7 | 9.3 | gable 6.5 | 3 | stone |
+| U-0118 | House of Henry the butcher | house | 1253.1 | 2015.1 | 44.8 | 24° | 9.6 x 10.5 | 9.3 | gable 5.3 | 3 | stone |
+| U-0119 | House of Maud the fishmonger | house | 1242.3 | 2026.0 | 44.8 | 300° | 13.8 x 14.8 | 6.2 | gable 7.6 | 2 | stone |
+| U-0120 | House of Rose the net-mender | house | 1209.0 | 2038.4 | 45.1 | 76° | 9.4 x 11.3 | 6.2 | gable 5.2 | 2 | stone |
+| U-0121 | House of Agnes the furrier | house | 1443.5 | 2037.2 | 42.7 | 276° | 8.7 x 11.4 | 6.2 | gable 4.8 | 2 | stone |
+| U-0122 | House of Avice the goldsmith | house | 1446.4 | 2023.3 | 42.7 | 287° | 11.6 x 12.0 | 9.3 | gable 6.4 | 3 | stone |
+| U-0123 | House of Emma the glover | house | 1478.4 | 1958.2 | 42.4 | 282° | 12.1 x 9.1 | 9.3 | gable 5.0 | 3 | stone |
+| U-0124 | House of Jordan the draper | house | 1427.8 | 2008.0 | 43.3 | 117° | 13.8 x 10.1 | 6.2 | gable 5.6 | 2 | stone |
+| U-0125 | House of Godwin the dyer | house | 1440.4 | 1993.1 | 43.2 | 141° | 11.8 x 11.8 | 9.3 | gable 6.5 | 3 | stone |
+| U-0126 | House of Alan the carpenter | house | 1379.1 | 2442.8 | 41.4 | 56° | 13.2 x 10.5 | 9.3 | gable 5.8 | 3 | stone |
+| U-0127 | House of Elena the fishmonger | house | 1390.8 | 2462.3 | 41.4 | 52° | 12.5 x 10.1 | 6.2 | gable 5.5 | 2 | stone |
+| U-0128 | House of Henry the apothecary | house | 1412.7 | 2491.5 | 41.0 | 67° | 10.4 x 9.2 | 6.2 | hip 4.1 | 2 | stone |
+| U-0129 | House of Baldwin the net-mender | house | 1385.5 | 2420.8 | 41.2 | 232° | 10.1 x 13.0 | 6.2 | hip 4.6 | 2 | stone |
+| U-0130 | House of Richard the tailor | house | 1431.5 | 2490.4 | 40.8 | 242° | 10.8 x 9.6 | 9.3 | hip 4.3 | 3 | stone |
+| U-0131 | House of Alan the fuller | house | 1541.9 | 2305.4 | 39.3 | 155° | 10.7 x 10.7 | 9.3 | hip 4.8 | 3 | stone |
+| U-0132 | House of Isabel the locksmith | house | 1596.4 | 2297.2 | 38.7 | 338° | 8.8 x 9.4 | 6.2 | gable 4.8 | 2 | stone |
+| U-0133 | House of Osbert the glazier | house | 1584.2 | 2307.4 | 38.8 | 330° | 10.9 x 14.2 | 9.3 | gable 6.0 | 3 | stone |
+| U-0134 | House of Gilbert the net-mender | house | 1565.5 | 2311.7 | 38.8 | 333° | 9.2 x 9.6 | 9.3 | gable 5.0 | 3 | stone |
+| U-0135 | House of Jordan the cartographer | house | 1551.2 | 2322.3 | 38.8 | 335° | 12.3 x 13.8 | 6.2 | gable 6.8 | 2 | stone |
+| U-0136 | House of Walter the weaver | house | 1540.2 | 2038.2 | 40.8 | 301° | 8.4 x 11.4 | 6.2 | hip 3.8 | 2 | stone |
+| U-0137 | House of Beatrice the wheelwright | house | 1571.9 | 1986.2 | 40.5 | 292° | 9.1 x 13.8 | 6.2 | gable 5.0 | 2 | stone |
+| U-0138 | House of Amice the parchmenter | house | 1509.0 | 2050.1 | 41.3 | 114° | 13.5 x 13.9 | 6.2 | hip 6.1 | 2 | stone |
+| U-0139 | House of Ida the armourer | house | 1513.8 | 2035.9 | 41.4 | 108° | 13.0 x 12.4 | 9.3 | gable 6.8 | 3 | stone |
+| U-0140 | House of Nicholas the sailmaker | house | 1528.1 | 2013.9 | 41.3 | 138° | 8.9 x 14.2 | 6.2 | gable 4.9 | 2 | stone |
+| U-0141 | House of Mabel the bowyer | house | 1539.5 | 2007.0 | 41.0 | 128° | 9.9 x 13.8 | 9.3 | hip 4.5 | 3 | stone |
+| U-0142 | House of Cecily the minstrel | house | 1544.6 | 1994.4 | 41.1 | 110° | 8.6 x 11.9 | 6.2 | gable 4.8 | 2 | stone |
+| U-0143 | House of Osbert the mercer | house | 1555.8 | 1962.7 | 40.8 | 111° | 10.2 x 13.5 | 9.3 | gable 5.6 | 3 | stone |
+| U-0144 | House of Piers the salter | house | 1465.6 | 2421.9 | 40.1 | 33° | 10.4 x 11.6 | 9.3 | hip 4.7 | 3 | stone |
+| U-0145 | House of Agnes the locksmith | house | 1476.1 | 2430.9 | 39.9 | 31° | 8.8 x 14.4 | 6.2 | hip 4.0 | 2 | stone |
+| U-0146 | House of Elena the spicer | house | 1493.8 | 2412.2 | 39.4 | 211° | 11.2 x 12.8 | 6.2 | gable 6.2 | 2 | stone |
+
+## Westgate (121 buildings)
+
+102 house, 6 tower, 4 church, 4 institution, 2 barracks, 2 arsenal, 1 magazine
+
+| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
+|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
+| W-0001 | Citadel bastion tower | tower | 1300.0 | 1495.0 | 49.0 | 0° | round, 14.0 across | 16.0 | crenel 0.0 | 1 | stone |
+| W-0002 | Citadel bastion tower | tower | 1418.9 | 1581.4 | 48.8 | 0° | round, 14.0 across | 16.0 | crenel 0.0 | 1 | stone |
+| W-0003 | Citadel bastion tower | tower | 1373.5 | 1721.1 | 47.4 | 0° | round, 14.0 across | 16.0 | crenel 0.0 | 1 | stone |
+| W-0004 | Citadel bastion tower | tower | 1226.5 | 1721.1 | 48.0 | 0° | round, 14.0 across | 16.0 | crenel 0.0 | 1 | stone |
+| W-0005 | Citadel bastion tower | tower | 1181.1 | 1581.4 | 49.0 | 0° | round, 14.0 across | 16.0 | crenel 0.0 | 1 | stone |
+| W-0006 | Citadel barracks (north) | barracks | 1300.0 | 1580.0 | 48.9 | 180° | 70.0 x 13.0 | 10.0 | gable 7.2 | 2 | stone |
+| W-0007 | Citadel barracks (south) | barracks | 1300.0 | 1660.0 | 48.8 | 0° | 70.0 x 13.0 | 10.0 | gable 7.2 | 2 | stone |
+| W-0008 | Powder & arrow magazine | magazine | 1255.0 | 1620.0 | 48.9 | 90° | 16.0 x 26.0 | 8.0 | hip 7.2 | 1 | stone |
+| W-0009 | Governor's house | house | 1345.0 | 1620.0 | 48.8 | 270° | 18.0 x 24.0 | 11.0 | hip 8.1 | 3 | stone |
+| W-0010 | The Arsenal | arsenal | 1330.0 | 1430.0 | 53.0 | 350° | 70.0 x 22.0 | 13.0 | gable 12.1 | 2 | stone |
+| W-0011 | Armourers' Hall | arsenal | 1410.0 | 1470.0 | 53.9 | 350° | 50.0 x 22.0 | 13.0 | gable 12.1 | 2 | stone |
+| W-0012 | Church of St. Fiacre | church | 1434.6 | 1700.0 | 45.5 | 120° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| W-0013 | Church of St. Fiacre (tower) | church | 1444.1 | 1683.5 | 45.7 | 120° | 8.0 x 8.0 | 26.0 | crenel 14.0 | 4 | stone |
+| W-0014 | Church of St. Giles | church | 1250.0 | 1874.0 | 46.2 | 120° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| W-0015 | Church of St. Giles (tower) | church | 1259.5 | 1857.5 | 46.1 | 120° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
+| W-0016 | Greyfriars (front range) | institution | 1458.0 | 1906.5 | 42.3 | 0° | 46.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| W-0017 | Greyfriars (back range) | institution | 1458.0 | 1933.5 | 42.4 | 180° | 46.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| W-0018 | Greyfriars (west range) | institution | 1439.5 | 1920.0 | 43.1 | 270° | 18.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| W-0019 | Greyfriars (east range) | institution | 1476.5 | 1920.0 | 42.4 | 90° | 18.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| W-0020 | Alchemist's Tower | tower | 1180.0 | 1950.0 | 46.6 | 0° | round, 12.0 across | 30.0 | cone 10.8 | 1 | stone |
+| W-0021 | House of Joan the cobbler | house | 1363.4 | 1747.0 | 45.9 | 85° | 9.7 x 10.4 | 6.2 | gable 5.3 | 2 | timber |
+| W-0022 | House of Edith the jeweller | house | 1366.8 | 1780.8 | 44.7 | 87° | 13.7 x 11.5 | 9.3 | gable 6.3 | 3 | timber |
+| W-0023 | House of Gilbert the fletcher | house | 1371.6 | 1907.4 | 44.4 | 88° | 8.5 x 10.6 | 9.3 | gable 4.7 | 3 | timber |
+| W-0024 | House of Richard the ropemaker | house | 1372.0 | 1919.8 | 44.5 | 88° | 11.0 x 9.2 | 9.3 | hip 4.2 | 3 | timber |
+| W-0025 | House of Maud the cobbler | house | 1391.0 | 1737.8 | 45.7 | 264° | 9.4 x 12.6 | 9.3 | gable 5.2 | 3 | timber |
+| W-0026 | House of Agnes the tinker | house | 1392.4 | 1768.0 | 44.6 | 266° | 11.3 x 14.7 | 6.2 | hip 5.1 | 2 | timber |
+| W-0027 | House of Martin the furrier | house | 1394.0 | 1790.4 | 44.2 | 267° | 13.4 x 12.4 | 9.3 | gable 6.8 | 3 | stone |
+| W-0028 | House of Richard the lute-maker | house | 1399.3 | 1911.7 | 43.9 | 268° | 13.3 x 10.7 | 9.3 | gable 5.9 | 3 | timber |
+| W-0029 | House of Avice the glover | house | 1400.3 | 1953.2 | 44.0 | 265° | 8.6 x 10.7 | 9.3 | gable 4.7 | 3 | stone |
+| W-0030 | House of Laurence the candlemaker | house | 1472.3 | 1605.2 | 46.1 | 25° | 12.3 x 9.7 | 9.3 | gable 5.3 | 3 | timber |
+| W-0031 | House of Joan the baker | house | 1491.9 | 1611.3 | 45.7 | 22° | 11.4 x 10.2 | 6.2 | gable 5.6 | 2 | stone |
+| W-0032 | House of Martin the fishmonger | house | 1458.3 | 1567.2 | 48.1 | 206° | 9.9 x 14.6 | 9.3 | gable 5.4 | 3 | timber |
+| W-0033 | House of Hob the fisher | house | 1474.4 | 1579.7 | 47.4 | 206° | 12.2 x 11.3 | 6.2 | gable 6.2 | 2 | timber |
+| W-0034 | House of Isabel the candlemaker | house | 1304.8 | 1884.8 | 45.3 | 205° | 11.6 x 13.8 | 9.3 | hip 5.2 | 3 | timber |
+| W-0035 | House of Mabel the minstrel | house | 1288.7 | 1876.0 | 45.6 | 212° | 8.9 x 12.6 | 6.2 | hip 4.0 | 2 | timber |
+| W-0036 | House of Margery the wheelwright | house | 1275.6 | 1864.6 | 45.8 | 211° | 10.1 x 12.8 | 9.3 | gable 5.6 | 3 | timber |
+| W-0037 | House of Alys the ropemaker | house | 1275.9 | 1898.2 | 45.8 | 32° | 12.0 x 14.2 | 9.3 | hip 5.4 | 3 | stone |
+| W-0038 | House of Nicholas the glazier | house | 1263.2 | 1888.2 | 46.1 | 34° | 8.1 x 10.0 | 9.3 | gable 4.4 | 3 | timber |
+| W-0039 | House of Hob the armourer | house | 1518.0 | 1740.1 | 43.1 | 200° | 12.3 x 12.3 | 6.2 | gable 6.7 | 2 | timber |
+| W-0040 | House of Matilda the spicer | house | 1532.2 | 1772.3 | 42.3 | 13° | 8.2 x 10.7 | 6.2 | hip 3.7 | 2 | stone |
+| W-0041 | House of Juliana the chandler | house | 1515.4 | 1764.8 | 42.7 | 18° | 12.6 x 13.2 | 9.3 | gable 7.0 | 3 | stone |
+| W-0042 | House of Roger the armourer | house | 1582.1 | 1757.2 | 41.0 | 217° | 12.4 x 12.9 | 9.3 | gable 6.8 | 3 | stone |
+| W-0043 | House of Walter the jeweller | house | 1557.9 | 1767.3 | 41.9 | 348° | 10.2 x 10.7 | 6.2 | gable 5.6 | 2 | timber |
+| W-0044 | House of Stephen the herbalist | house | 1212.7 | 1942.4 | 46.2 | 173° | 9.8 x 13.0 | 6.2 | gable 5.4 | 2 | stone |
+| W-0045 | House of Emma the sailmaker | house | 1194.8 | 1947.5 | 46.4 | 180° | 13.7 x 10.2 | 9.3 | gable 5.6 | 3 | timber |
+| W-0046 | House of Petronilla the herbalist | house | 1143.1 | 1948.2 | 47.1 | 181° | 10.6 x 12.3 | 6.2 | gable 5.8 | 2 | timber |
+| W-0047 | House of Margery the potter | house | 1197.1 | 1969.3 | 46.0 | 2° | 13.1 x 12.4 | 9.3 | gable 6.8 | 3 | stone |
+| W-0048 | House of Ivetta the lute-maker | house | 1179.7 | 1969.0 | 46.3 | 355° | 11.7 x 11.4 | 9.3 | gable 6.3 | 3 | timber |
+| W-0049 | House of Petronilla the cutler | house | 1286.5 | 1964.4 | 45.1 | 261° | 11.7 x 9.8 | 9.3 | hip 4.4 | 3 | timber |
+| W-0050 | House of Baldwin the dyer | house | 1286.5 | 1948.0 | 45.2 | 256° | 12.2 x 14.4 | 9.3 | gable 6.7 | 3 | timber |
+| W-0051 | House of Piers the pie-seller | house | 1271.6 | 1926.9 | 45.7 | 230° | 9.6 x 11.3 | 9.3 | hip 4.3 | 3 | timber |
+| W-0052 | House of Odo the bowyer | house | 1268.1 | 1983.4 | 45.0 | 76° | 8.1 x 9.7 | 9.3 | gable 4.5 | 3 | timber |
+| W-0053 | House of Piers the tailor | house | 1259.0 | 1955.2 | 45.5 | 60° | 10.9 x 14.3 | 9.3 | gable 6.0 | 3 | stone |
+| W-0054 | House of Godwin the shipwright | house | 1252.8 | 1942.5 | 45.8 | 50° | 9.6 x 11.1 | 6.2 | hip 4.3 | 2 | timber |
+| W-0055 | House of Baldwin the spicer | house | 1243.7 | 1935.4 | 46.0 | 36° | 8.1 x 14.4 | 6.2 | gable 4.5 | 2 | stone |
+| W-0056 | House of Cecily the chandler | house | 1429.9 | 1739.4 | 44.6 | 27° | 11.6 x 12.7 | 6.2 | gable 6.4 | 2 | stone |
+| W-0057 | House of Joan the fishmonger | house | 1410.4 | 1734.5 | 45.1 | 33° | 13.8 x 13.4 | 9.3 | gable 7.4 | 3 | timber |
+| W-0058 | House of Richard the weaver | house | 1338.1 | 1876.9 | 44.9 | 170° | 9.0 x 12.1 | 9.3 | hip 4.0 | 3 | timber |
+| W-0059 | House of Godwin the potter | house | 1515.3 | 1674.2 | 43.6 | 74° | 10.1 x 11.9 | 9.3 | hip 4.5 | 3 | timber |
+| W-0060 | House of Stephen the tinker | house | 1408.8 | 1796.5 | 44.0 | 74° | 13.6 x 11.5 | 9.3 | hip 5.2 | 3 | timber |
+| W-0061 | House of Juliana the herbalist | house | 1420.1 | 1773.5 | 44.2 | 239° | 13.5 x 9.9 | 6.2 | hip 4.5 | 2 | stone |
+| W-0062 | House of Edith the draper | house | 1430.1 | 1791.5 | 43.7 | 240° | 9.2 x 13.9 | 9.3 | gable 5.1 | 3 | timber |
+| W-0063 | House of Henry the juggler | house | 1439.3 | 1802.7 | 43.5 | 240° | 12.8 x 14.6 | 6.2 | gable 7.0 | 2 | timber |
+| W-0064 | House of Cecily the ropemaker | house | 1516.4 | 1780.7 | 42.5 | 198° | 12.3 x 12.2 | 9.3 | hip 5.5 | 3 | timber |
+| W-0065 | House of Alan the glover | house | 1502.5 | 1776.5 | 42.8 | 202° | 8.6 x 9.9 | 9.3 | gable 4.7 | 3 | timber |
+| W-0066 | House of Simon the herbalist | house | 1531.4 | 1818.0 | 41.7 | 35° | 12.6 x 10.3 | 6.2 | hip 4.6 | 2 | timber |
+| W-0067 | House of Felice the money-changer | house | 1462.1 | 1778.4 | 43.5 | 44° | 13.0 x 10.9 | 9.3 | hip 4.9 | 3 | stone |
+| W-0068 | House of Hugh the fletcher | house | 1508.6 | 1727.4 | 43.4 | 261° | 8.5 x 9.0 | 9.3 | hip 3.8 | 3 | timber |
+| W-0069 | House of Agnes the cobbler | house | 1506.1 | 1715.5 | 43.6 | 276° | 13.2 x 9.5 | 6.2 | hip 4.3 | 2 | stone |
+| W-0070 | House of Hob the goldsmith | house | 1490.7 | 1699.2 | 43.9 | 119° | 9.9 x 9.7 | 6.2 | hip 4.4 | 2 | timber |
+| W-0071 | House of Geoffrey the bellfounder | house | 1572.7 | 1815.1 | 40.7 | 41° | 12.1 x 10.2 | 9.3 | gable 5.6 | 3 | stone |
+| W-0072 | House of Jordan the salter | house | 1424.1 | 1900.7 | 43.4 | 357° | 11.8 x 9.6 | 6.2 | gable 5.3 | 2 | stone |
+| W-0073 | House of Hob the saddler | house | 1326.5 | 1759.0 | 45.7 | 154° | 11.7 x 11.6 | 6.2 | hip 5.2 | 2 | timber |
+| W-0074 | House of Petronilla the glazier | house | 1433.5 | 1761.2 | 44.2 | 344° | 13.9 x 9.2 | 6.2 | gable 5.1 | 2 | timber |
+| W-0075 | House of Alys the tinker | house | 1373.3 | 1942.9 | 44.4 | 22° | 13.8 x 9.0 | 6.2 | gable 5.0 | 2 | timber |
+| W-0076 | House of Martin the parchmenter | house | 1345.6 | 1922.2 | 44.8 | 56° | 9.8 x 9.0 | 9.3 | hip 4.0 | 3 | stone |
+| W-0077 | House of Alan the jeweller | house | 1441.4 | 1649.9 | 46.8 | 78° | 13.1 x 12.2 | 6.2 | gable 6.7 | 2 | timber |
+| W-0078 | House of Petronilla the mercer | house | 1458.9 | 1689.5 | 44.7 | 50° | 10.1 x 14.7 | 9.3 | gable 5.6 | 3 | stone |
+| W-0079 | House of Cecily the glazier | house | 1450.3 | 1604.3 | 47.0 | 273° | 13.8 x 12.4 | 6.2 | gable 6.8 | 2 | stone |
+| W-0080 | House of Elena the fletcher | house | 1454.2 | 1625.7 | 46.1 | 246° | 11.0 x 11.3 | 6.2 | gable 6.1 | 2 | stone |
+| W-0081 | House of Roger the apothecary | house | 1462.3 | 1646.0 | 45.2 | 258° | 9.8 x 10.8 | 9.3 | gable 5.4 | 3 | timber |
+| W-0082 | House of Ivetta the mason | house | 1315.9 | 1966.2 | 44.9 | 268° | 10.0 x 13.1 | 9.3 | gable 5.5 | 3 | timber |
+| W-0083 | House of Geoffrey the wheelwright | house | 1454.1 | 1728.0 | 44.4 | 283° | 9.8 x 10.8 | 6.2 | gable 5.4 | 2 | stone |
+| W-0084 | House of Emma the net-mender | house | 1455.2 | 1715.7 | 44.5 | 278° | 8.4 x 11.2 | 9.3 | hip 3.8 | 3 | stone |
+| W-0085 | House of Maud the limner | house | 1509.5 | 1656.8 | 44.0 | 167° | 12.2 x 9.4 | 6.2 | gable 5.2 | 2 | stone |
+| W-0086 | House of Agnes the bookbinder | house | 1469.9 | 1674.3 | 44.6 | 135° | 9.4 x 11.0 | 6.2 | gable 5.2 | 2 | timber |
+| W-0087 | House of Mabel the furrier | house | 1542.2 | 1673.6 | 43.2 | 21° | 9.1 x 11.1 | 6.2 | hip 4.1 | 2 | timber |
+| W-0088 | House of Agnes the parchmenter | house | 1447.9 | 1670.7 | 45.5 | 322° | 10.7 x 10.6 | 6.2 | gable 5.8 | 2 | timber |
+| W-0089 | House of Osbert the cobbler | house | 1520.2 | 1721.2 | 43.2 | 85° | 9.0 x 10.0 | 9.3 | gable 4.9 | 3 | timber |
+| W-0090 | House of Alys the bellfounder | house | 1553.9 | 1787.3 | 41.6 | 266° | 12.0 x 9.7 | 6.2 | hip 4.4 | 2 | timber |
+| W-0091 | House of Sybil the potter | house | 1558.0 | 1820.7 | 40.9 | 264° | 11.6 x 14.0 | 9.3 | gable 6.4 | 3 | timber |
+| W-0092 | House of Geoffrey the baker | house | 1559.3 | 1835.5 | 40.8 | 262° | 10.3 x 9.6 | 6.2 | gable 5.3 | 2 | timber |
+| W-0093 | House of Hawise the pewterer | house | 1412.4 | 1942.6 | 43.7 | 329° | 10.1 x 10.4 | 6.2 | gable 5.6 | 2 | timber |
+| W-0094 | House of Gilbert the dyer | house | 1282.2 | 1933.7 | 45.5 | 26° | 8.3 x 13.7 | 6.2 | gable 4.6 | 2 | timber |
+| W-0095 | House of Margery the dyer | house | 1510.4 | 1820.6 | 42.0 | 344° | 12.2 x 12.7 | 9.3 | gable 6.7 | 3 | timber |
+| W-0096 | House of Elena the juggler | house | 1495.2 | 1823.5 | 41.8 | 343° | 11.9 x 9.2 | 9.3 | gable 5.1 | 3 | timber |
+| W-0097 | House of Ralph the armourer | house | 1228.0 | 1859.8 | 46.7 | 122° | 10.4 x 14.1 | 6.2 | hip 4.7 | 2 | timber |
+| W-0098 | House of Henry the fuller | house | 1219.0 | 1880.4 | 46.9 | 104° | 8.8 x 11.2 | 9.3 | gable 4.8 | 3 | timber |
+| W-0099 | House of Robin the wheelwright | house | 1212.5 | 1923.3 | 46.5 | 87° | 13.6 x 14.3 | 9.3 | gable 7.5 | 3 | timber |
+| W-0100 | House of Jordan the herbalist | house | 1211.0 | 1978.6 | 45.6 | 91° | 11.4 x 14.1 | 9.3 | hip 5.1 | 3 | stone |
+| W-0101 | House of Godwin the cutler | house | 1235.7 | 1904.6 | 46.3 | 272° | 9.8 x 9.8 | 6.2 | gable 5.4 | 2 | timber |
+| W-0102 | House of Amice the goldsmith | house | 1236.8 | 1915.5 | 46.2 | 265° | 8.3 x 13.6 | 6.2 | gable 4.6 | 2 | stone |
+| W-0103 | House of Emma the mercer | house | 1230.3 | 1977.4 | 45.5 | 271° | 10.5 x 9.6 | 9.3 | gable 5.3 | 3 | stone |
+| W-0104 | House of Jordan the stonecarver | house | 1214.8 | 1897.9 | 46.8 | 165° | 10.9 x 12.9 | 6.2 | gable 6.0 | 2 | stone |
+| W-0105 | House of Wat the brewer | house | 1203.0 | 1900.0 | 46.9 | 173° | 8.3 x 10.2 | 6.2 | gable 4.6 | 2 | timber |
+| W-0106 | House of Felice the bowyer | house | 1186.2 | 1901.4 | 47.2 | 186° | 10.4 x 9.5 | 9.3 | gable 5.2 | 3 | timber |
+| W-0107 | House of Maud the dyer | house | 1170.2 | 1898.6 | 47.5 | 177° | 12.3 x 12.9 | 9.3 | gable 6.8 | 3 | stone |
+| W-0108 | House of Osbert the barber-surgeon | house | 1150.0 | 1904.3 | 47.9 | 154° | 8.2 x 13.3 | 9.3 | hip 3.7 | 3 | timber |
+| W-0109 | House of Emma the lute-maker | house | 1140.6 | 1910.1 | 48.0 | 152° | 8.4 x 9.1 | 9.3 | hip 3.8 | 3 | stone |
+| W-0110 | House of Cecily the bookbinder | house | 1181.1 | 1918.4 | 47.0 | 6° | 11.9 x 11.0 | 9.3 | gable 6.0 | 3 | timber |
+| W-0111 | House of Hugh the fletcher | house | 1166.6 | 1919.8 | 47.3 | 357° | 11.5 x 9.7 | 6.2 | gable 5.3 | 2 | stone |
+| W-0112 | House of Ralph the fuller | house | 1137.5 | 1935.8 | 47.4 | 330° | 9.6 x 10.1 | 9.3 | hip 4.3 | 3 | stone |
+| W-0113 | House of Christiana the bellfounder | house | 1150.7 | 1981.6 | 46.4 | 95° | 10.5 x 13.5 | 9.3 | hip 4.7 | 3 | timber |
+| W-0114 | House of Elena the herbalist | house | 1175.3 | 1984.7 | 46.0 | 275° | 12.2 x 12.9 | 6.2 | hip 5.5 | 2 | timber |
+| W-0115 | House of Agnes the baker | house | 1556.4 | 1680.7 | 42.8 | 301° | 10.1 x 11.6 | 9.3 | gable 5.6 | 3 | stone |
+| W-0116 | House of Matilda the ropemaker | house | 1365.3 | 1957.0 | 44.5 | 173° | 8.1 x 11.6 | 6.2 | gable 4.5 | 2 | timber |
+| W-0117 | House of Hob the pewterer | house | 1332.5 | 1966.6 | 44.7 | 157° | 11.8 x 10.5 | 9.3 | gable 5.8 | 3 | stone |
+| W-0118 | House of Wat the vintner | house | 1358.7 | 1980.9 | 44.3 | 356° | 12.2 x 12.8 | 9.3 | gable 6.7 | 3 | timber |
+| W-0119 | House of Petronilla the weaver | house | 1198.8 | 1871.1 | 47.2 | 32° | 11.4 x 14.4 | 6.2 | gable 6.2 | 2 | timber |
+| W-0120 | House of Baldwin the stonecarver | house | 1574.3 | 1704.8 | 42.3 | 3° | 10.1 x 10.5 | 9.3 | hip 4.5 | 3 | timber |
+| W-0121 | House of Richard the tanner | house | 1558.5 | 1706.6 | 42.5 | 7° | 9.3 x 14.6 | 6.2 | hip 4.2 | 2 | timber |
+
+## South Ward (227 buildings)
+
+120 amphitheatre, 97 house, 4 church, 4 institution, 1 hall, 1 inn
+
+| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
+|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
+| D-0001 | The Great Auditorium (tier 1) | amphitheatre | 1637.8 | 2411.5 | 38.6 | 287° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0002 | The Great Auditorium (tier 1) | amphitheatre | 1634.8 | 2418.6 | 38.7 | 298° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0003 | The Great Auditorium (tier 1) | amphitheatre | 1630.5 | 2425.1 | 38.7 | 309° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0004 | The Great Auditorium (tier 1) | amphitheatre | 1625.1 | 2430.5 | 38.7 | 321° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0005 | The Great Auditorium (tier 1) | amphitheatre | 1618.6 | 2434.8 | 38.7 | 332° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0006 | The Great Auditorium (tier 1) | amphitheatre | 1611.5 | 2437.8 | 38.7 | 343° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0007 | The Great Auditorium (tier 1) | amphitheatre | 1603.9 | 2439.3 | 38.7 | 354° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0008 | The Great Auditorium (tier 1) | amphitheatre | 1596.1 | 2439.3 | 38.7 | 6° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0009 | The Great Auditorium (tier 1) | amphitheatre | 1588.5 | 2437.8 | 38.7 | 17° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0010 | The Great Auditorium (tier 1) | amphitheatre | 1581.4 | 2434.8 | 38.8 | 28° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0011 | The Great Auditorium (tier 1) | amphitheatre | 1574.9 | 2430.5 | 38.8 | 39° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0012 | The Great Auditorium (tier 1) | amphitheatre | 1569.5 | 2425.1 | 38.8 | 51° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0013 | The Great Auditorium (tier 1) | amphitheatre | 1565.2 | 2418.6 | 38.8 | 62° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0014 | The Great Auditorium (tier 1) | amphitheatre | 1562.2 | 2411.5 | 38.8 | 73° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0015 | The Great Auditorium (tier 1) | amphitheatre | 1560.7 | 2403.9 | 38.8 | 84° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0016 | The Great Auditorium (tier 1) | amphitheatre | 1560.7 | 2396.1 | 38.8 | 96° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0017 | The Great Auditorium (tier 1) | amphitheatre | 1562.2 | 2388.5 | 38.7 | 107° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0018 | The Great Auditorium (tier 1) | amphitheatre | 1565.2 | 2381.4 | 38.7 | 118° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0019 | The Great Auditorium (tier 1) | amphitheatre | 1569.5 | 2374.9 | 38.7 | 129° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0020 | The Great Auditorium (tier 1) | amphitheatre | 1574.9 | 2369.5 | 38.7 | 141° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0021 | The Great Auditorium (tier 1) | amphitheatre | 1581.4 | 2365.2 | 38.8 | 152° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0022 | The Great Auditorium (tier 1) | amphitheatre | 1588.5 | 2362.2 | 38.8 | 163° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0023 | The Great Auditorium (tier 1) | amphitheatre | 1596.1 | 2360.7 | 38.7 | 174° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0024 | The Great Auditorium (tier 1) | amphitheatre | 1603.9 | 2360.7 | 38.7 | 186° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0025 | The Great Auditorium (tier 1) | amphitheatre | 1611.5 | 2362.2 | 38.7 | 197° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0026 | The Great Auditorium (tier 1) | amphitheatre | 1618.6 | 2365.2 | 38.7 | 208° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0027 | The Great Auditorium (tier 1) | amphitheatre | 1625.1 | 2369.5 | 38.7 | 219° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0028 | The Great Auditorium (tier 1) | amphitheatre | 1630.5 | 2374.9 | 38.7 | 231° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0029 | The Great Auditorium (tier 1) | amphitheatre | 1634.8 | 2381.4 | 38.7 | 242° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0030 | The Great Auditorium (tier 1) | amphitheatre | 1637.8 | 2388.5 | 38.7 | 253° | 8.4 x 11.0 | 4.5 | flat 0.0 | 1 | stone |
+| D-0031 | The Great Auditorium (tier 2) | amphitheatre | 1648.3 | 2414.7 | 38.6 | 287° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0032 | The Great Auditorium (tier 2) | amphitheatre | 1644.5 | 2423.8 | 38.7 | 298° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0033 | The Great Auditorium (tier 2) | amphitheatre | 1639.0 | 2432.0 | 38.7 | 309° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0034 | The Great Auditorium (tier 2) | amphitheatre | 1632.0 | 2439.0 | 38.7 | 321° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0035 | The Great Auditorium (tier 2) | amphitheatre | 1623.8 | 2444.5 | 38.7 | 332° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0036 | The Great Auditorium (tier 2) | amphitheatre | 1614.7 | 2448.3 | 38.7 | 343° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0037 | The Great Auditorium (tier 2) | amphitheatre | 1605.0 | 2450.3 | 38.7 | 354° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0038 | The Great Auditorium (tier 2) | amphitheatre | 1595.0 | 2450.3 | 38.7 | 6° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0039 | The Great Auditorium (tier 2) | amphitheatre | 1585.3 | 2448.3 | 38.7 | 17° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0040 | The Great Auditorium (tier 2) | amphitheatre | 1576.2 | 2444.5 | 38.7 | 28° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0041 | The Great Auditorium (tier 2) | amphitheatre | 1568.0 | 2439.0 | 38.7 | 39° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0042 | The Great Auditorium (tier 2) | amphitheatre | 1561.0 | 2432.0 | 38.7 | 51° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0043 | The Great Auditorium (tier 2) | amphitheatre | 1555.5 | 2423.8 | 38.8 | 62° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0044 | The Great Auditorium (tier 2) | amphitheatre | 1551.7 | 2414.7 | 38.8 | 73° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0045 | The Great Auditorium (tier 2) | amphitheatre | 1549.7 | 2404.9 | 38.8 | 84° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0046 | The Great Auditorium (tier 2) | amphitheatre | 1549.7 | 2395.1 | 38.8 | 96° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0047 | The Great Auditorium (tier 2) | amphitheatre | 1551.7 | 2385.3 | 38.8 | 107° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0048 | The Great Auditorium (tier 2) | amphitheatre | 1555.5 | 2376.2 | 38.7 | 118° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0049 | The Great Auditorium (tier 2) | amphitheatre | 1561.0 | 2368.0 | 38.7 | 129° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0050 | The Great Auditorium (tier 2) | amphitheatre | 1568.0 | 2361.0 | 38.7 | 141° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0051 | The Great Auditorium (tier 2) | amphitheatre | 1576.2 | 2355.5 | 38.8 | 152° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0052 | The Great Auditorium (tier 2) | amphitheatre | 1585.3 | 2351.7 | 38.8 | 163° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0053 | The Great Auditorium (tier 2) | amphitheatre | 1595.0 | 2349.7 | 38.7 | 174° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0054 | The Great Auditorium (tier 2) | amphitheatre | 1605.0 | 2349.7 | 38.7 | 186° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0055 | The Great Auditorium (tier 2) | amphitheatre | 1614.7 | 2351.7 | 38.7 | 197° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0056 | The Great Auditorium (tier 2) | amphitheatre | 1623.8 | 2355.5 | 38.7 | 208° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0057 | The Great Auditorium (tier 2) | amphitheatre | 1632.0 | 2361.0 | 38.7 | 219° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0058 | The Great Auditorium (tier 2) | amphitheatre | 1639.0 | 2368.0 | 38.7 | 231° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0059 | The Great Auditorium (tier 2) | amphitheatre | 1644.5 | 2376.2 | 38.7 | 242° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0060 | The Great Auditorium (tier 2) | amphitheatre | 1648.3 | 2385.3 | 38.7 | 253° | 10.5 x 11.0 | 9.0 | flat 0.0 | 1 | stone |
+| D-0061 | The Great Auditorium (tier 3) | amphitheatre | 1658.8 | 2417.8 | 38.7 | 287° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0062 | The Great Auditorium (tier 3) | amphitheatre | 1654.2 | 2429.0 | 38.7 | 298° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0063 | The Great Auditorium (tier 3) | amphitheatre | 1647.5 | 2439.0 | 38.7 | 309° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0064 | The Great Auditorium (tier 3) | amphitheatre | 1639.0 | 2447.5 | 38.7 | 321° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0065 | The Great Auditorium (tier 3) | amphitheatre | 1629.0 | 2454.2 | 38.7 | 332° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0066 | The Great Auditorium (tier 3) | amphitheatre | 1617.8 | 2458.8 | 38.7 | 343° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0067 | The Great Auditorium (tier 3) | amphitheatre | 1606.0 | 2461.2 | 38.7 | 354° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0068 | The Great Auditorium (tier 3) | amphitheatre | 1594.0 | 2461.2 | 38.7 | 6° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0069 | The Great Auditorium (tier 3) | amphitheatre | 1582.2 | 2458.8 | 38.7 | 17° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0070 | The Great Auditorium (tier 3) | amphitheatre | 1571.0 | 2454.2 | 38.8 | 28° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0071 | The Great Auditorium (tier 3) | amphitheatre | 1561.0 | 2447.5 | 38.7 | 39° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0072 | The Great Auditorium (tier 3) | amphitheatre | 1552.5 | 2439.0 | 38.7 | 51° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0073 | The Great Auditorium (tier 3) | amphitheatre | 1545.8 | 2429.0 | 38.8 | 62° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0074 | The Great Auditorium (tier 3) | amphitheatre | 1541.2 | 2417.8 | 38.8 | 73° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0075 | The Great Auditorium (tier 3) | amphitheatre | 1538.8 | 2406.0 | 38.8 | 84° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0076 | The Great Auditorium (tier 3) | amphitheatre | 1538.8 | 2394.0 | 38.8 | 96° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0077 | The Great Auditorium (tier 3) | amphitheatre | 1541.2 | 2382.2 | 38.8 | 107° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0078 | The Great Auditorium (tier 3) | amphitheatre | 1545.8 | 2371.0 | 38.7 | 118° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0079 | The Great Auditorium (tier 3) | amphitheatre | 1552.5 | 2361.0 | 38.7 | 129° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0080 | The Great Auditorium (tier 3) | amphitheatre | 1561.0 | 2352.5 | 38.8 | 141° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0081 | The Great Auditorium (tier 3) | amphitheatre | 1571.0 | 2345.8 | 38.8 | 152° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0082 | The Great Auditorium (tier 3) | amphitheatre | 1582.2 | 2341.2 | 38.8 | 163° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0083 | The Great Auditorium (tier 3) | amphitheatre | 1594.0 | 2338.8 | 38.7 | 174° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0084 | The Great Auditorium (tier 3) | amphitheatre | 1606.0 | 2338.8 | 38.7 | 186° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0085 | The Great Auditorium (tier 3) | amphitheatre | 1617.8 | 2341.2 | 38.7 | 197° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0086 | The Great Auditorium (tier 3) | amphitheatre | 1629.0 | 2345.8 | 38.7 | 208° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0087 | The Great Auditorium (tier 3) | amphitheatre | 1639.0 | 2352.5 | 38.7 | 219° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0088 | The Great Auditorium (tier 3) | amphitheatre | 1647.5 | 2361.0 | 38.7 | 231° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0089 | The Great Auditorium (tier 3) | amphitheatre | 1654.2 | 2371.0 | 38.6 | 242° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0090 | The Great Auditorium (tier 3) | amphitheatre | 1658.8 | 2382.2 | 38.6 | 253° | 12.7 x 11.0 | 13.5 | flat 0.0 | 1 | stone |
+| D-0091 | The Great Auditorium (tier 4) | amphitheatre | 1669.4 | 2421.1 | 38.6 | 287° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0092 | The Great Auditorium (tier 4) | amphitheatre | 1663.9 | 2434.2 | 38.7 | 298° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0093 | The Great Auditorium (tier 4) | amphitheatre | 1656.0 | 2446.0 | 38.7 | 309° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0094 | The Great Auditorium (tier 4) | amphitheatre | 1646.0 | 2456.0 | 38.7 | 321° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0095 | The Great Auditorium (tier 4) | amphitheatre | 1634.2 | 2463.9 | 38.7 | 332° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0096 | The Great Auditorium (tier 4) | amphitheatre | 1621.0 | 2469.4 | 38.7 | 343° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0097 | The Great Auditorium (tier 4) | amphitheatre | 1607.1 | 2472.2 | 38.7 | 354° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0098 | The Great Auditorium (tier 4) | amphitheatre | 1592.9 | 2472.2 | 38.7 | 6° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0099 | The Great Auditorium (tier 4) | amphitheatre | 1579.0 | 2469.4 | 38.8 | 17° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0100 | The Great Auditorium (tier 4) | amphitheatre | 1565.8 | 2463.9 | 38.8 | 28° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0101 | The Great Auditorium (tier 4) | amphitheatre | 1554.0 | 2456.0 | 38.8 | 39° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0102 | The Great Auditorium (tier 4) | amphitheatre | 1544.0 | 2446.0 | 38.8 | 51° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0103 | The Great Auditorium (tier 4) | amphitheatre | 1536.1 | 2434.2 | 38.8 | 62° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0104 | The Great Auditorium (tier 4) | amphitheatre | 1530.6 | 2421.1 | 38.8 | 73° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0105 | The Great Auditorium (tier 4) | amphitheatre | 1527.8 | 2407.1 | 38.8 | 84° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0106 | The Great Auditorium (tier 4) | amphitheatre | 1527.8 | 2392.9 | 38.8 | 96° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0107 | The Great Auditorium (tier 4) | amphitheatre | 1530.6 | 2378.9 | 38.8 | 107° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0108 | The Great Auditorium (tier 4) | amphitheatre | 1536.1 | 2365.8 | 38.8 | 118° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0109 | The Great Auditorium (tier 4) | amphitheatre | 1544.0 | 2354.0 | 38.8 | 129° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0110 | The Great Auditorium (tier 4) | amphitheatre | 1554.0 | 2344.0 | 38.8 | 141° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0111 | The Great Auditorium (tier 4) | amphitheatre | 1565.8 | 2336.1 | 38.8 | 152° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0112 | The Great Auditorium (tier 4) | amphitheatre | 1579.0 | 2330.6 | 38.7 | 163° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0113 | The Great Auditorium (tier 4) | amphitheatre | 1592.9 | 2327.8 | 38.7 | 174° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0114 | The Great Auditorium (tier 4) | amphitheatre | 1607.1 | 2327.8 | 38.7 | 186° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0115 | The Great Auditorium (tier 4) | amphitheatre | 1621.0 | 2330.6 | 38.7 | 197° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0116 | The Great Auditorium (tier 4) | amphitheatre | 1634.2 | 2336.1 | 38.7 | 208° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0117 | The Great Auditorium (tier 4) | amphitheatre | 1646.0 | 2344.0 | 38.7 | 219° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0118 | The Great Auditorium (tier 4) | amphitheatre | 1656.0 | 2354.0 | 38.6 | 231° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0119 | The Great Auditorium (tier 4) | amphitheatre | 1663.9 | 2365.8 | 38.6 | 242° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0120 | The Great Auditorium (tier 4) | amphitheatre | 1669.4 | 2378.9 | 38.6 | 253° | 14.8 x 11.0 | 18.0 | flat 0.0 | 1 | stone |
+| D-0121 | Church of St. Ivo | church | 1700.0 | 2250.0 | 36.9 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| D-0122 | Church of St. Ivo (tower) | church | 1681.0 | 2250.0 | 37.4 | 0° | 8.0 x 8.0 | 30.0 | spire 14.0 | 4 | stone |
+| D-0123 | Church of St. Petroc | church | 1929.2 | 2548.0 | 33.3 | 0° | 24.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| D-0124 | Church of St. Petroc (tower) | church | 1913.2 | 2548.0 | 33.8 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
+| D-0125 | Almshouses of the Twelve (front range) | institution | 1966.5 | 2400.0 | 32.8 | 90° | 44.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| D-0126 | Almshouses of the Twelve (back range) | institution | 1949.5 | 2400.0 | 33.1 | 270° | 44.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| D-0127 | Almshouses of the Twelve (west range) | institution | 1958.0 | 2382.5 | 32.9 | 0° | 8.0 x 9.0 | 9.0 | gable 4.4 | 2 | stone |
+| D-0128 | Almshouses of the Twelve (east range) | institution | 1958.0 | 2417.5 | 32.9 | 180° | 8.0 x 9.0 | 9.0 | gable 4.4 | 2 | stone |
+| D-0129 | Hall of the Masons | hall | 1700.0 | 2500.0 | 37.8 | 90° | 24.0 x 15.0 | 11.0 | hip 6.8 | 2 | stone |
+| D-0130 | The Golden Goose | inn | 1550.0 | 2520.0 | 39.3 | 0° | 18.0 x 12.0 | 9.0 | hip 5.4 | 2 | timber |
+| D-0131 | House of Alan the barber-surgeon | house | 1803.4 | 2342.5 | 35.4 | 82° | 10.9 x 12.5 | 9.3 | gable 6.0 | 3 | timber |
+| D-0132 | House of Hawise the brewer | house | 1806.5 | 2374.4 | 35.4 | 83° | 8.2 x 14.3 | 6.2 | hip 3.7 | 2 | timber |
+| D-0133 | House of Simon the cartographer | house | 1812.5 | 2443.0 | 35.5 | 85° | 13.7 x 14.5 | 9.3 | hip 6.2 | 3 | timber |
+| D-0134 | House of Joan the glazier | house | 1814.8 | 2466.1 | 35.6 | 86° | 14.0 x 11.1 | 9.3 | gable 6.1 | 3 | timber |
+| D-0135 | House of Gilbert the lute-maker | house | 1817.3 | 2500.5 | 35.8 | 88° | 8.2 x 12.2 | 9.3 | hip 3.7 | 3 | timber |
+| D-0136 | House of Joan the bookbinder | house | 1817.9 | 2548.9 | 35.9 | 90° | 9.1 x 9.8 | 9.3 | hip 4.1 | 3 | timber |
+| D-0137 | House of Joan the limner | house | 1819.1 | 2605.8 | 36.0 | 90° | 9.5 x 9.4 | 6.2 | gable 5.2 | 2 | timber |
+| D-0138 | House of Godwin the fisher | house | 1818.8 | 2654.6 | 36.3 | 91° | 12.8 x 9.2 | 6.2 | gable 5.0 | 2 | timber |
+| D-0139 | House of Juliana the locksmith | house | 1813.7 | 2669.3 | 36.6 | 91° | 12.0 x 14.2 | 6.2 | gable 6.6 | 2 | timber |
+| D-0140 | House of Nicholas the pie-seller | house | 1838.6 | 2384.0 | 34.9 | 264° | 11.6 x 11.7 | 9.3 | gable 6.4 | 3 | timber |
+| D-0141 | House of Martin the bowyer | house | 1841.1 | 2419.9 | 35.0 | 265° | 12.6 x 10.8 | 9.3 | hip 4.9 | 3 | timber |
+| D-0142 | House of Emma the bookbinder | house | 1845.1 | 2671.4 | 36.2 | 271° | 9.9 x 14.3 | 9.3 | gable 5.5 | 3 | timber |
+| D-0143 | House of Hob the limner | house | 1717.4 | 2542.0 | 37.8 | 263° | 8.9 x 13.2 | 6.2 | gable 4.9 | 2 | timber |
+| D-0144 | House of Hawise the salter | house | 1717.5 | 2560.5 | 37.8 | 282° | 12.9 x 10.3 | 9.3 | gable 5.7 | 3 | timber |
+| D-0145 | House of Margery the glazier | house | 1857.0 | 2538.8 | 35.0 | 357° | 12.3 x 11.5 | 9.3 | gable 6.3 | 3 | timber |
+| D-0146 | House of Cecily the net-mender | house | 1898.9 | 2521.0 | 34.1 | 181° | 12.6 x 10.8 | 9.3 | hip 4.8 | 3 | timber |
+| D-0147 | House of Beatrice the glazier | house | 1937.0 | 2523.2 | 33.4 | 177° | 9.8 x 10.8 | 9.3 | gable 5.4 | 3 | timber |
+| D-0148 | House of Piers the glover | house | 1743.2 | 2551.2 | 37.4 | 354° | 13.3 x 10.4 | 9.3 | hip 4.7 | 3 | timber |
+| D-0149 | House of Hawise the glazier | house | 1848.4 | 2612.9 | 35.5 | 13° | 11.3 x 14.8 | 6.2 | hip 5.1 | 2 | timber |
+| D-0150 | House of Joan the notary | house | 1880.8 | 2619.2 | 34.8 | 11° | 9.2 x 14.4 | 9.3 | gable 5.1 | 3 | timber |
+| D-0151 | House of Ralph the chandler | house | 1873.7 | 2591.6 | 34.8 | 192° | 13.4 x 11.8 | 6.2 | hip 5.3 | 2 | timber |
+| D-0152 | House of Gilbert the vintner | house | 1871.1 | 2657.4 | 35.2 | 5° | 11.5 x 12.7 | 6.2 | hip 5.2 | 2 | timber |
+| D-0153 | House of Mabel the mercer | house | 1858.7 | 2631.0 | 35.3 | 185° | 8.2 x 9.3 | 9.3 | hip 3.7 | 3 | timber |
+| D-0154 | House of Laurence the salter | house | 1905.2 | 2631.0 | 34.2 | 163° | 9.5 x 14.3 | 6.2 | gable 5.2 | 2 | timber |
+| D-0155 | House of Stephen the salter | house | 1676.2 | 2235.9 | 37.4 | 17° | 12.3 x 11.5 | 6.2 | gable 6.3 | 2 | timber |
+| D-0156 | House of Margery the draper | house | 1652.7 | 2221.9 | 37.8 | 61° | 8.2 x 9.9 | 6.2 | gable 4.5 | 2 | timber |
+| D-0157 | House of Alan the candlemaker | house | 1635.0 | 2493.8 | 38.5 | 103° | 10.6 x 13.0 | 9.3 | gable 5.8 | 3 | timber |
+| D-0158 | House of Isabel the weaver | house | 1633.2 | 2508.6 | 38.5 | 108° | 9.2 x 13.5 | 9.3 | gable 5.1 | 3 | timber |
+| D-0159 | House of Emma the mercer | house | 1624.7 | 2522.8 | 38.7 | 118° | 11.3 x 13.3 | 9.3 | gable 6.2 | 3 | timber |
+| D-0160 | House of Mabel the fisher | house | 1621.1 | 2544.9 | 38.7 | 88° | 10.6 x 14.1 | 9.3 | gable 5.8 | 3 | timber |
+| D-0161 | House of Mabel the bellfounder | house | 1654.7 | 2515.7 | 38.3 | 288° | 13.8 x 13.0 | 9.3 | gable 7.2 | 3 | timber |
+| D-0162 | House of Beatrice the chandler | house | 1803.9 | 2653.0 | 36.5 | 252° | 8.4 x 9.5 | 9.3 | gable 4.6 | 3 | timber |
+| D-0163 | House of Laurence the bowyer | house | 1781.4 | 2664.0 | 37.2 | 80° | 12.3 x 11.7 | 6.2 | gable 6.5 | 2 | timber |
+| D-0164 | House of Matilda the cobbler | house | 1646.0 | 2272.4 | 37.9 | 38° | 12.5 x 12.9 | 9.3 | gable 6.9 | 3 | timber |
+| D-0165 | House of Stephen the fisher | house | 1656.5 | 2283.6 | 37.7 | 37° | 12.0 x 14.9 | 6.2 | hip 5.4 | 2 | timber |
+| D-0166 | House of Juliana the locksmith | house | 1663.0 | 2302.8 | 37.7 | 93° | 11.8 x 10.0 | 6.2 | gable 5.5 | 2 | timber |
+| D-0167 | House of Godwin the sailmaker | house | 1655.6 | 2252.0 | 37.8 | 218° | 11.5 x 9.5 | 9.3 | hip 4.3 | 3 | timber |
+| D-0168 | House of Rose the salter | house | 1671.8 | 2263.8 | 37.5 | 217° | 11.7 x 11.9 | 9.3 | gable 6.4 | 3 | timber |
+| D-0169 | House of Mabel the draper | house | 1689.2 | 2286.1 | 37.2 | 273° | 12.2 x 12.1 | 6.2 | gable 6.6 | 2 | timber |
+| D-0170 | House of Isabel the salter | house | 1740.0 | 2371.3 | 36.6 | 148° | 13.5 x 10.4 | 6.2 | hip 4.7 | 2 | timber |
+| D-0171 | House of Elena the apothecary | house | 1707.8 | 2388.4 | 37.2 | 159° | 13.3 x 14.0 | 9.3 | gable 7.3 | 3 | timber |
+| D-0172 | House of Martin the apothecary | house | 1763.1 | 2383.7 | 36.2 | 341° | 13.2 x 9.8 | 6.2 | gable 5.4 | 2 | timber |
+| D-0173 | House of Alys the cutler | house | 1744.8 | 2393.0 | 36.6 | 334° | 11.5 x 9.2 | 9.3 | hip 4.1 | 3 | timber |
+| D-0174 | House of Emma the sailmaker | house | 1731.7 | 2401.7 | 36.8 | 326° | 12.4 x 12.6 | 9.3 | gable 6.8 | 3 | timber |
+| D-0175 | House of Laurence the bellfounder | house | 1712.5 | 2407.4 | 37.3 | 339° | 11.0 x 10.4 | 9.3 | hip 4.7 | 3 | timber |
+| D-0176 | House of Agnes the locksmith | house | 1859.7 | 2424.0 | 34.6 | 21° | 8.1 x 13.4 | 9.3 | gable 4.5 | 3 | timber |
+| D-0177 | House of Matilda the spicer | house | 1851.1 | 2402.4 | 34.8 | 190° | 8.5 x 9.9 | 6.2 | gable 4.7 | 2 | timber |
+| D-0178 | House of Hawise the cooper | house | 1891.6 | 2417.8 | 34.1 | 208° | 10.9 x 10.3 | 6.2 | hip 4.6 | 2 | timber |
+| D-0179 | House of Beatrice the tinker | house | 1779.8 | 2318.8 | 35.7 | 193° | 8.8 x 13.1 | 9.3 | hip 3.9 | 3 | timber |
+| D-0180 | House of Margery the wheelwright | house | 1749.0 | 2311.9 | 36.3 | 194° | 9.7 x 10.9 | 6.2 | gable 5.3 | 2 | timber |
+| D-0181 | House of Ida the money-changer | house | 1731.5 | 2308.6 | 36.6 | 187° | 11.6 x 10.2 | 6.2 | gable 5.6 | 2 | timber |
+| D-0182 | House of Osbert the baker | house | 1769.0 | 2342.5 | 35.9 | 13° | 11.4 x 14.1 | 9.3 | hip 5.2 | 3 | timber |
+| D-0183 | House of Wat the astrologer | house | 1751.5 | 2337.4 | 36.2 | 22° | 13.0 x 14.4 | 9.3 | gable 7.1 | 3 | timber |
+| D-0184 | House of Godwin the pewterer | house | 1686.7 | 2320.4 | 37.3 | 10° | 13.5 x 11.7 | 9.3 | hip 5.3 | 3 | timber |
+| D-0185 | House of Emma the fletcher | house | 1756.0 | 2495.0 | 36.9 | 144° | 9.5 x 13.2 | 6.2 | gable 5.2 | 2 | timber |
+| D-0186 | House of Godwin the lute-maker | house | 1724.3 | 2516.1 | 37.5 | 152° | 13.0 x 13.4 | 6.2 | gable 7.1 | 2 | timber |
+| D-0187 | House of Godwin the tailor | house | 1711.8 | 2523.0 | 37.7 | 157° | 12.7 x 9.5 | 9.3 | hip 4.3 | 3 | timber |
+| D-0188 | House of Laurence the spicer | house | 1689.2 | 2524.1 | 38.0 | 180° | 11.6 x 12.2 | 9.3 | gable 6.4 | 3 | timber |
+| D-0189 | House of Ralph the minstrel | house | 1788.5 | 2516.2 | 36.4 | 179° | 12.3 x 14.8 | 9.3 | hip 5.5 | 3 | timber |
+| D-0190 | House of Osbert the glover | house | 1773.9 | 2522.9 | 36.6 | 179° | 12.8 x 9.7 | 6.2 | gable 5.3 | 2 | timber |
+| D-0191 | House of Hawise the cutler | house | 1816.2 | 2625.5 | 36.2 | 232° | 12.7 x 11.1 | 9.3 | hip 5.0 | 3 | timber |
+| D-0192 | House of Osbert the shipwright | house | 1795.7 | 2606.7 | 36.6 | 221° | 8.4 x 9.3 | 6.2 | gable 4.6 | 2 | timber |
+| D-0193 | House of Juliana the spicer | house | 1789.1 | 2630.0 | 36.7 | 47° | 8.3 x 10.4 | 6.2 | gable 4.5 | 2 | timber |
+| D-0194 | House of Emma the ropemaker | house | 1758.3 | 2457.2 | 36.6 | 220° | 13.8 x 13.0 | 6.2 | gable 7.2 | 2 | timber |
+| D-0195 | House of Avice the fisher | house | 1747.3 | 2446.7 | 36.9 | 228° | 8.2 x 13.9 | 9.3 | hip 3.7 | 3 | timber |
+| D-0196 | House of Walter the mercer | house | 1745.6 | 2477.4 | 36.9 | 40° | 8.0 x 12.8 | 6.2 | gable 4.4 | 2 | timber |
+| D-0197 | House of Christiana the bellfounder | house | 1738.1 | 2466.1 | 37.1 | 47° | 8.7 x 9.3 | 6.2 | gable 4.8 | 2 | timber |
+| D-0198 | House of Matilda the net-mender | house | 1726.9 | 2458.1 | 37.2 | 51° | 11.0 x 13.7 | 6.2 | gable 6.1 | 2 | timber |
+| D-0199 | House of Avice the bookbinder | house | 1700.8 | 2437.1 | 37.6 | 17° | 13.5 x 13.3 | 9.3 | gable 7.3 | 3 | timber |
+| D-0200 | House of Emma the pie-seller | house | 1679.6 | 2454.0 | 38.1 | 184° | 10.8 x 11.8 | 9.3 | hip 4.9 | 3 | timber |
+| D-0201 | House of Simon the fletcher | house | 1713.5 | 2472.2 | 37.5 | 334° | 10.9 x 14.3 | 9.3 | gable 6.0 | 3 | timber |
+| D-0202 | House of Christiana the glover | house | 1698.3 | 2475.9 | 37.7 | 346° | 8.7 x 13.8 | 9.3 | gable 4.8 | 3 | timber |
+| D-0203 | House of Agnes the salter | house | 1712.1 | 2346.2 | 37.0 | 62° | 8.0 x 10.3 | 9.3 | hip 3.6 | 3 | timber |
+| D-0204 | House of Elena the tanner | house | 1730.0 | 2337.0 | 36.8 | 242° | 9.1 x 9.5 | 9.3 | hip 4.1 | 3 | timber |
+| D-0205 | House of Baldwin the bellfounder | house | 1780.0 | 2562.6 | 36.6 | 129° | 10.4 x 11.0 | 9.3 | gable 5.7 | 3 | timber |
+| D-0206 | House of Ida the herbalist | house | 1809.5 | 2558.5 | 36.2 | 304° | 9.1 x 11.0 | 9.3 | gable 5.0 | 3 | timber |
+| D-0207 | House of Piers the butcher | house | 1800.8 | 2571.8 | 36.3 | 309° | 13.8 x 13.4 | 6.2 | hip 6.0 | 2 | timber |
+| D-0208 | House of Odo the pie-seller | house | 1454.5 | 2504.9 | 40.5 | 96° | 12.5 x 13.4 | 6.2 | gable 6.8 | 2 | timber |
+| D-0209 | House of Roger the cutler | house | 1476.7 | 2502.1 | 40.3 | 276° | 12.3 x 10.5 | 6.2 | gable 5.8 | 2 | timber |
+| D-0210 | House of Sybil the tailor | house | 1986.9 | 2544.2 | 32.4 | 312° | 9.8 x 10.3 | 9.3 | gable 5.4 | 3 | timber |
+| D-0211 | House of Thomas the bellfounder | house | 1955.0 | 2546.6 | 33.0 | 151° | 10.3 x 14.0 | 9.3 | gable 5.7 | 3 | timber |
+| D-0212 | House of Christiana the minstrel | house | 1965.6 | 2536.1 | 32.7 | 136° | 12.8 x 11.8 | 6.2 | gable 6.5 | 2 | timber |
+| D-0213 | House of Rose the locksmith | house | 1916.7 | 2429.5 | 33.6 | 306° | 12.8 x 11.9 | 6.2 | gable 6.5 | 2 | timber |
+| D-0214 | House of Gilbert the hatter | house | 1774.0 | 2622.4 | 37.0 | 206° | 12.7 x 13.2 | 9.3 | gable 7.0 | 3 | timber |
+| D-0215 | House of Osbert the notary | house | 1758.7 | 2616.6 | 37.3 | 196° | 8.5 x 12.3 | 6.2 | gable 4.7 | 2 | timber |
+| D-0216 | House of Jordan the saddler | house | 1775.8 | 2648.8 | 37.1 | 18° | 13.7 x 10.6 | 6.2 | gable 5.8 | 2 | timber |
+| D-0217 | House of Emma the fuller | house | 1758.9 | 2638.2 | 37.4 | 26° | 8.2 x 9.2 | 9.3 | gable 4.5 | 3 | timber |
+| D-0218 | House of Isabel the sailmaker | house | 1735.3 | 2489.7 | 37.2 | 214° | 13.1 x 12.2 | 6.2 | hip 5.5 | 2 | timber |
+| D-0219 | House of Nicholas the apothecary | house | 1676.0 | 2480.5 | 38.0 | 174° | 13.7 x 13.7 | 6.2 | gable 7.5 | 2 | timber |
+| D-0220 | House of Martin the fishmonger | house | 1670.3 | 2502.7 | 38.1 | 3° | 9.7 x 13.2 | 9.3 | gable 5.3 | 3 | timber |
+| D-0221 | House of Isabel the ropemaker | house | 1800.0 | 2409.3 | 35.7 | 140° | 8.4 x 13.1 | 6.2 | gable 4.6 | 2 | timber |
+| D-0222 | House of Robin the saddler | house | 1789.2 | 2417.0 | 35.9 | 134° | 11.5 x 14.2 | 6.2 | gable 6.3 | 2 | timber |
+| D-0223 | House of Juliana the cutler | house | 1778.3 | 2438.6 | 36.2 | 110° | 12.7 x 12.3 | 6.2 | hip 5.5 | 2 | timber |
+| D-0224 | House of Simon the fisher | house | 1665.5 | 2536.8 | 38.4 | 38° | 8.6 x 11.7 | 9.3 | gable 4.7 | 3 | timber |
+| D-0225 | House of Hawise the cutler | house | 1855.3 | 2691.7 | 37.3 | 7° | 8.7 x 10.0 | 6.2 | hip 3.9 | 2 | timber |
+| D-0226 | House of Gilbert the money-changer | house | 1886.6 | 2675.2 | 35.6 | 171° | 9.3 x 9.9 | 6.2 | gable 5.1 | 2 | timber |
+| D-0227 | House of Geoffrey the astrologer | house | 1866.5 | 2391.4 | 34.5 | 80° | 9.5 x 11.2 | 6.2 | gable 5.2 | 2 | timber |
+
+## Northgate (99 buildings)
+
+88 house, 4 hospice, 4 institution, 2 church, 1 chapel
+
+| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
+|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
+| N-0001 | Chapel of the Holy Well | chapel | 1160.0 | 835.0 | 51.0 | 0° | 16.0 x 8.0 | 8.0 | gable 4.4 | 1 | stone |
+| N-0002 | Pilgrims' Hospice (front range) | hospice | 1440.0 | 807.5 | 57.8 | 0° | 44.0 x 11.0 | 8.0 | gable 6.0 | 2 | stone |
+| N-0003 | Pilgrims' Hospice (back range) | hospice | 1440.0 | 832.5 | 60.7 | 180° | 44.0 x 11.0 | 8.0 | gable 6.0 | 2 | stone |
+| N-0004 | Pilgrims' Hospice (west range) | hospice | 1423.5 | 820.0 | 58.7 | 270° | 14.0 x 11.0 | 8.0 | gable 6.0 | 2 | stone |
+| N-0005 | Pilgrims' Hospice (east range) | hospice | 1456.5 | 820.0 | 63.2 | 90° | 14.0 x 11.0 | 8.0 | gable 6.0 | 2 | stone |
+| N-0006 | Church of St. Nicholas | church | 1350.0 | 1050.0 | 65.1 | 30° | 24.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| N-0007 | Church of St. Nicholas (tower) | church | 1336.1 | 1042.0 | 62.1 | 30° | 8.0 x 8.0 | 22.0 | spire 14.0 | 4 | stone |
+| N-0008 | Nunnery of St. Clare (front range) | institution | 1947.2 | 1664.8 | 37.9 | 30° | 40.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| N-0009 | Nunnery of St. Clare (back range) | institution | 1936.8 | 1683.0 | 37.5 | 210° | 40.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| N-0010 | Nunnery of St. Clare (west range) | institution | 1928.6 | 1666.1 | 38.1 | 300° | 12.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| N-0011 | Nunnery of St. Clare (east range) | institution | 1955.4 | 1681.6 | 37.7 | 120° | 12.0 x 9.0 | 9.0 | gable 5.0 | 2 | stone |
+| N-0012 | Cottage of Christiana the mason | house | 1330.7 | 647.1 | 66.3 | 84° | 10.2 x 9.3 | 6.5 | gable 5.1 | 2 | timber |
+| N-0013 | Cottage of Cecily the butcher | house | 1332.2 | 683.8 | 61.3 | 85° | 11.0 x 9.7 | 6.5 | gable 5.3 | 2 | wattle |
+| N-0014 | Cottage of Wat the mercer | house | 1336.1 | 750.5 | 54.8 | 87° | 13.7 x 9.5 | 6.5 | hip 4.3 | 2 | timber |
+| N-0015 | Cottage of Richard the lute-maker | house | 1339.9 | 768.9 | 53.9 | 87° | 12.1 x 9.2 | 6.5 | gable 5.0 | 2 | timber |
+| N-0016 | Cottage of Stephen the mercer | house | 1338.9 | 803.4 | 53.1 | 87° | 12.8 x 9.8 | 3.4 | gable 5.4 | 1 | timber |
+| N-0017 | Cottage of Piers the cartographer | house | 1342.7 | 821.6 | 53.2 | 87° | 8.4 x 9.6 | 6.5 | gable 4.6 | 2 | wattle |
+| N-0018 | Cottage of Martin the sailmaker | house | 1342.4 | 838.4 | 53.4 | 86° | 9.9 x 9.8 | 3.4 | gable 5.4 | 1 | wattle |
+| N-0019 | Cottage of Sybil the wheelwright | house | 1357.5 | 993.1 | 64.3 | 84° | 11.6 x 8.8 | 3.4 | gable 4.9 | 1 | timber |
+| N-0020 | Cottage of Joan the hatter | house | 1359.7 | 1010.3 | 66.8 | 83° | 11.8 x 8.5 | 6.5 | gable 4.7 | 2 | wattle |
+| N-0021 | Cottage of Ralph the weaver | house | 1361.5 | 1027.0 | 69.6 | 83° | 8.5 x 7.1 | 6.5 | gable 3.9 | 2 | timber |
+| N-0022 | Cottage of Simon the glazier | house | 1369.2 | 1077.7 | 77.8 | 83° | 13.2 x 7.3 | 6.5 | hip 3.3 | 2 | wattle |
+| N-0023 | Cottage of Robin the mason | house | 1375.7 | 1118.3 | 85.8 | 82° | 9.4 x 8.2 | 6.5 | gable 4.5 | 2 | wattle |
+| N-0024 | Cottage of Gilbert the sailmaker | house | 1375.8 | 1137.3 | 88.0 | 82° | 11.9 x 8.2 | 3.4 | gable 4.5 | 1 | wattle |
+| N-0025 | Cottage of Geoffrey the weaver | house | 1379.8 | 1168.8 | 93.1 | 82° | 9.1 x 8.1 | 3.4 | gable 4.5 | 1 | wattle |
+| N-0026 | Cottage of Jordan the tanner | house | 1382.2 | 1187.0 | 94.8 | 83° | 11.4 x 9.9 | 3.4 | gable 5.4 | 1 | timber |
+| N-0027 | Cottage of Ivetta the chandler | house | 1357.8 | 679.8 | 60.6 | 265° | 13.0 x 7.8 | 6.5 | hip 3.5 | 2 | wattle |
+| N-0028 | Cottage of Martin the stonecarver | house | 1361.7 | 744.7 | 55.4 | 267° | 8.1 x 8.2 | 3.4 | gable 4.5 | 1 | wattle |
+| N-0029 | Cottage of Godwin the bellfounder | house | 1363.7 | 761.5 | 54.6 | 267° | 11.2 x 8.9 | 3.4 | hip 4.0 | 1 | timber |
+| N-0030 | Cottage of Matilda the money-changer | house | 1364.2 | 809.7 | 54.2 | 267° | 8.3 x 9.1 | 6.5 | gable 4.6 | 2 | wattle |
+| N-0031 | Cottage of Simon the cobbler | house | 1368.0 | 840.7 | 55.4 | 266° | 10.1 x 9.0 | 3.4 | hip 4.0 | 1 | wattle |
+| N-0032 | Cottage of Laurence the goldsmith | house | 1386.1 | 1019.4 | 77.5 | 263° | 13.6 x 8.2 | 3.4 | hip 3.7 | 1 | timber |
+| N-0033 | Cottage of Edith the fisher | house | 1393.3 | 1067.5 | 86.1 | 263° | 8.1 x 9.6 | 3.4 | gable 4.4 | 1 | wattle |
+| N-0034 | Cottage of Walter the jeweller | house | 1399.6 | 1131.8 | 95.9 | 262° | 12.6 x 8.4 | 3.4 | hip 3.8 | 1 | timber |
+| N-0035 | Cottage of Geoffrey the armourer | house | 1406.9 | 1176.5 | 102.6 | 263° | 8.6 x 7.3 | 3.4 | gable 4.0 | 1 | timber |
+| N-0036 | Cottage of Matilda the notary | house | 1329.2 | 782.2 | 53.3 | 170° | 9.1 x 7.7 | 3.4 | gable 4.2 | 1 | wattle |
+| N-0037 | Cottage of Henry the fuller | house | 1310.2 | 788.0 | 52.5 | 157° | 9.1 x 7.3 | 3.4 | hip 3.3 | 1 | wattle |
+| N-0038 | Cottage of Joan the barber-surgeon | house | 1318.2 | 803.8 | 52.2 | 337° | 9.9 x 9.7 | 3.4 | gable 5.3 | 1 | wattle |
+| N-0039 | Cottage of Hugh the money-changer | house | 1337.2 | 1029.6 | 61.8 | 192° | 9.6 x 7.6 | 3.4 | gable 4.2 | 1 | wattle |
+| N-0040 | Cottage of Maud the saddler | house | 1374.3 | 731.1 | 56.0 | 16° | 9.7 x 8.3 | 3.4 | hip 3.8 | 1 | timber |
+| N-0041 | Cottage of Jordan the sailmaker | house | 1384.4 | 713.3 | 56.9 | 196° | 8.8 x 7.7 | 3.4 | hip 3.5 | 1 | wattle |
+| N-0042 | Cottage of Amice the juggler | house | 1336.9 | 872.8 | 53.5 | 343° | 12.6 x 7.8 | 6.5 | hip 3.5 | 2 | wattle |
+| N-0043 | Cottage of Margery the bookbinder | house | 1346.7 | 929.9 | 57.7 | 196° | 8.1 x 7.2 | 3.4 | gable 4.0 | 1 | wattle |
+| N-0044 | Cottage of Roger the notary | house | 1353.2 | 953.7 | 59.9 | 20° | 12.7 x 8.1 | 3.4 | gable 4.5 | 1 | wattle |
+| N-0045 | Cottage of Ida the pie-seller | house | 1322.1 | 949.0 | 52.4 | 353° | 12.0 x 9.4 | 6.5 | gable 5.2 | 2 | wattle |
+| N-0046 | Cottage of Matilda the jeweller | house | 1407.2 | 1107.9 | 95.9 | 348° | 9.3 x 8.9 | 3.4 | gable 4.9 | 1 | wattle |
+| N-0047 | Cottage of Jordan the armourer | house | 1424.3 | 1096.9 | 100.3 | 328° | 10.6 x 8.4 | 6.5 | hip 3.8 | 2 | timber |
+| N-0048 | Cottage of Edith the carpenter | house | 1399.0 | 1086.9 | 90.4 | 168° | 9.7 x 8.8 | 3.4 | hip 4.0 | 1 | timber |
+| N-0049 | Cottage of Ida the brewer | house | 1368.7 | 1094.1 | 79.1 | 153° | 13.5 x 8.9 | 3.4 | hip 4.0 | 1 | timber |
+| N-0050 | Cottage of Walter the minstrel | house | 1341.0 | 1112.3 | 71.5 | 131° | 12.3 x 9.9 | 6.5 | hip 4.5 | 2 | wattle |
+| N-0051 | Cottage of Alys the fishmonger | house | 1324.3 | 1141.6 | 67.3 | 134° | 10.4 x 8.4 | 6.5 | gable 4.6 | 2 | wattle |
+| N-0052 | Cottage of Ida the tailor | house | 1311.1 | 1157.0 | 56.6 | 129° | 11.0 x 7.2 | 6.5 | gable 3.9 | 2 | wattle |
+| N-0053 | Cottage of Martin the pie-seller | house | 1301.0 | 1171.7 | 52.4 | 131° | 8.0 x 7.2 | 6.5 | hip 3.2 | 2 | timber |
+| N-0054 | Cottage of Matilda the jeweller | house | 1344.6 | 1144.2 | 77.3 | 305° | 10.5 x 8.7 | 6.5 | gable 4.8 | 2 | timber |
+| N-0055 | Cottage of Godwin the bellfounder | house | 1321.8 | 1174.3 | 70.8 | 309° | 9.0 x 9.8 | 3.4 | hip 4.1 | 1 | timber |
+| N-0056 | Cottage of Robin the candlemaker | house | 1310.6 | 1188.2 | 64.7 | 311° | 8.9 x 9.2 | 6.5 | hip 4.0 | 2 | wattle |
+| N-0057 | Cottage of Petronilla the money-changer | house | 1299.1 | 1201.2 | 56.9 | 308° | 13.6 x 8.6 | 3.4 | gable 4.7 | 1 | wattle |
+| N-0058 | Cottage of Hawise the tanner | house | 1285.2 | 1230.0 | 53.6 | 300° | 12.7 x 9.9 | 3.4 | hip 4.5 | 1 | timber |
+| N-0059 | Cottage of Hawise the potter | house | 1385.2 | 865.1 | 58.6 | 342° | 11.1 x 8.1 | 3.4 | hip 3.6 | 1 | timber |
+| N-0060 | Cottage of Agnes the limner | house | 1398.0 | 862.2 | 60.6 | 347° | 8.9 x 8.6 | 3.4 | hip 3.9 | 1 | wattle |
+| N-0061 | Cottage of Piers the cobbler | house | 1412.5 | 857.6 | 63.0 | 351° | 9.5 x 8.1 | 6.5 | gable 4.4 | 2 | timber |
+| N-0062 | Cottage of Ivetta the herbalist | house | 1397.8 | 842.2 | 58.1 | 167° | 12.2 x 9.1 | 6.5 | gable 5.0 | 2 | wattle |
+| N-0063 | Cottage of Nicholas the fuller | house | 1328.2 | 1061.9 | 58.1 | 117° | 13.5 x 8.4 | 3.4 | hip 3.8 | 1 | timber |
+| N-0064 | Cottage of Laurence the sailmaker | house | 1321.5 | 1077.0 | 54.0 | 121° | 13.0 x 8.5 | 3.4 | hip 3.8 | 1 | timber |
+| N-0065 | Cottage of Baldwin the clockmaker | house | 1347.3 | 1067.6 | 69.2 | 297° | 10.2 x 7.1 | 3.4 | gable 3.9 | 1 | wattle |
+| N-0066 | Cottage of Jordan the potter | house | 1340.1 | 962.8 | 58.2 | 181° | 9.7 x 9.6 | 6.5 | gable 5.3 | 2 | timber |
+| N-0067 | Cottage of Piers the dyer | house | 1341.9 | 981.4 | 59.2 | 352° | 12.4 x 9.8 | 3.4 | hip 4.4 | 1 | timber |
+| N-0068 | Cottage of Alys the fuller | house | 1412.0 | 1162.1 | 102.8 | 359° | 9.8 x 8.1 | 3.4 | gable 4.5 | 1 | wattle |
+| N-0069 | Cottage of Piers the limner | house | 1355.2 | 1172.6 | 83.5 | 359° | 13.5 x 7.5 | 6.5 | gable 4.1 | 2 | wattle |
+| N-0070 | Cottage of Hob the lute-maker | house | 1335.8 | 1172.2 | 76.1 | 344° | 13.2 x 9.6 | 3.4 | gable 5.3 | 1 | wattle |
+| N-0071 | Cottage of Roger the jeweller | house | 1374.3 | 798.4 | 54.6 | 357° | 9.9 x 8.8 | 3.4 | hip 4.0 | 1 | timber |
+| N-0072 | Cottage of Thomas the dyer | house | 1387.0 | 799.3 | 55.4 | 7° | 8.4 x 7.7 | 3.4 | gable 4.2 | 1 | timber |
+| N-0073 | Cottage of Osbert the money-changer | house | 1380.6 | 782.9 | 54.9 | 187° | 9.3 x 7.2 | 3.4 | hip 3.2 | 1 | timber |
+| N-0074 | Cottage of Edith the cutler | house | 1393.3 | 783.9 | 55.4 | 193° | 8.8 x 7.9 | 6.5 | hip 3.5 | 2 | timber |
+| N-0075 | Cottage of Baldwin the weaver | house | 1410.2 | 789.2 | 56.2 | 193° | 10.5 x 9.6 | 3.4 | gable 5.3 | 1 | wattle |
+| N-0076 | Cottage of Adam the herbalist | house | 1421.6 | 791.5 | 56.9 | 183° | 10.4 x 8.7 | 6.5 | gable 4.8 | 2 | wattle |
+| N-0077 | Cottage of Nicholas the cobbler | house | 1382.3 | 695.6 | 58.2 | 308° | 11.6 x 7.2 | 6.5 | gable 4.0 | 2 | wattle |
+| N-0078 | Cottage of Alan the lute-maker | house | 1393.0 | 678.9 | 59.3 | 305° | 8.0 x 9.6 | 6.5 | gable 4.4 | 2 | timber |
+| N-0079 | Cottage of Odo the herbalist | house | 1370.1 | 676.1 | 60.4 | 120° | 13.6 x 9.0 | 3.4 | hip 4.1 | 1 | wattle |
+| N-0080 | Cottage of Hugh the weaver | house | 1392.7 | 935.7 | 69.3 | 256° | 13.1 x 10.0 | 6.5 | gable 5.5 | 2 | timber |
+| N-0081 | Cottage of Odo the ropemaker | house | 1383.9 | 915.0 | 64.0 | 240° | 12.1 x 8.3 | 6.5 | hip 3.7 | 2 | timber |
+| N-0082 | Cottage of Godwin the juggler | house | 1431.6 | 1047.9 | 97.5 | 348° | 12.4 x 7.2 | 6.5 | gable 4.0 | 2 | timber |
+| N-0083 | Cottage of Christiana the goldsmith | house | 1447.7 | 1047.7 | 102.7 | 354° | 12.9 x 7.4 | 6.5 | hip 3.3 | 2 | timber |
+| N-0084 | Cottage of Roger the mason | house | 1396.9 | 1033.3 | 83.2 | 171° | 11.7 x 7.4 | 3.4 | hip 3.3 | 1 | wattle |
+| N-0085 | Cottage of Juliana the chandler | house | 1414.6 | 1032.4 | 90.1 | 183° | 11.1 x 7.9 | 6.5 | hip 3.5 | 2 | wattle |
+| N-0086 | Cottage of Felice the bellfounder | house | 1429.5 | 1031.1 | 95.7 | 180° | 9.2 x 9.9 | 6.5 | gable 5.1 | 2 | wattle |
+| N-0087 | Cottage of Osbert the candlemaker | house | 1448.6 | 1029.2 | 101.4 | 173° | 12.1 x 9.1 | 6.5 | gable 5.0 | 2 | timber |
+| N-0088 | Cottage of Godwin the hatter | house | 1325.9 | 703.0 | 59.2 | 187° | 11.8 x 8.9 | 3.4 | hip 4.0 | 1 | wattle |
+| N-0089 | Cottage of Avice the fuller | house | 1309.3 | 700.4 | 59.9 | 194° | 12.4 x 9.5 | 6.5 | gable 5.2 | 2 | timber |
+| N-0090 | Cottage of Felice the scribe | house | 1338.3 | 723.0 | 56.9 | 16° | 9.8 x 8.4 | 3.4 | gable 4.6 | 1 | timber |
+| N-0091 | Cottage of Stephen the chandler | house | 1327.5 | 720.8 | 57.3 | 7° | 10.9 x 7.4 | 3.4 | hip 3.3 | 1 | timber |
+| N-0092 | Cottage of Avice the cheesemonger | house | 1392.2 | 972.1 | 74.0 | 2° | 12.9 x 8.2 | 6.5 | gable 4.5 | 2 | timber |
+| N-0093 | Cottage of Martin the bellfounder | house | 1414.3 | 972.2 | 82.7 | 343° | 10.2 x 8.1 | 6.5 | gable 4.5 | 2 | timber |
+| N-0094 | Cottage of Martin the candlemaker | house | 1432.2 | 967.5 | 88.0 | 341° | 13.2 x 9.3 | 3.4 | hip 4.2 | 1 | wattle |
+| N-0095 | Cottage of Hob the furrier | house | 1455.2 | 957.5 | 94.4 | 323° | 13.9 x 9.0 | 6.5 | gable 4.9 | 2 | wattle |
+| N-0096 | Cottage of Simon the fishmonger | house | 1472.7 | 940.9 | 97.6 | 306° | 8.7 x 9.8 | 6.5 | hip 3.9 | 2 | timber |
+| N-0097 | Cottage of Ida the scribe | house | 1406.9 | 957.4 | 77.4 | 172° | 12.2 x 9.4 | 6.5 | gable 5.2 | 2 | timber |
+| N-0098 | Cottage of Joan the spicer | house | 1418.9 | 952.8 | 81.4 | 166° | 10.2 x 9.3 | 6.5 | gable 5.1 | 2 | wattle |
+| N-0099 | Cottage of Thomas the apothecary | house | 1445.1 | 939.1 | 88.3 | 143° | 8.4 x 9.5 | 3.4 | hip 3.8 | 1 | wattle |
+
+## Eastfold (64 buildings)
+
+46 house, 15 hut, 2 church, 1 tower
+
+| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
+|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
+| E-0001 | Stilt hut of Avice the salter | hut | 3051.7 | 1165.0 | 22.7 | 256° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0002 | Stilt hut of Ida the net-mender | hut | 3070.0 | 1256.9 | 18.9 | 180° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0003 | Stilt hut of Emma the fisher | hut | 3103.9 | 1275.5 | 18.0 | 278° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0004 | Stilt hut of Hawise the net-mender | hut | 3106.4 | 1301.6 | 17.5 | 89° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0005 | Stilt hut of Richard the boatwright | hut | 3104.3 | 1265.0 | 22.0 | 96° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0006 | Stilt hut of Wat the fisher | hut | 3000.4 | 1216.5 | 19.4 | 107° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0007 | Stilt hut of Alan the fisher | hut | 3024.0 | 1199.9 | 17.9 | 159° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0008 | Stilt hut of Margery the boatwright | hut | 2984.3 | 1220.8 | 23.0 | 232° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0009 | Stilt hut of Nicholas the salter | hut | 3065.6 | 1161.8 | 20.8 | 150° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0010 | Stilt hut of Cecily the boatwright | hut | 3027.8 | 1188.2 | 18.8 | 195° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0011 | Stilt hut of Emma the net-mender | hut | 3054.3 | 1249.8 | 18.1 | 236° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0012 | Stilt hut of Maud the net-mender | hut | 3094.3 | 1285.7 | 22.6 | 72° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0013 | Stilt hut of Martin the boatwright | hut | 3033.7 | 1240.2 | 18.0 | 170° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0014 | Stilt hut of Agnes the salter | hut | 3037.0 | 1182.8 | 18.4 | 229° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0015 | Stilt hut of Thomas the net-mender | hut | 3096.9 | 1303.9 | 22.7 | 170° | 8.0 x 6.0 | 3.2 | gable 3.3 | 1 | wattle |
+| E-0016 | Raven Light | tower | 3760.0 | 725.0 | 35.9 | 0° | round, 14.0 across | 32.0 | crenel 0.0 | 1 | stone |
+| E-0017 | Lightkeeper's house | house | 3725.0 | 740.0 | 52.0 | 90° | 12.0 x 8.0 | 5.0 | gable 4.4 | 1 | stone |
+| E-0018 | Church of St. Olaf | church | 2900.0 | 1250.0 | 25.2 | 0° | 30.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| E-0019 | Church of St. Olaf (tower) | church | 2881.0 | 1250.0 | 25.6 | 0° | 8.0 x 8.0 | 26.0 | spire 14.0 | 4 | stone |
+| E-0020 | Cottage of Ivetta the net-mender | house | 2885.2 | 1204.6 | 25.8 | 341° | 11.7 x 7.3 | 3.4 | hip 3.3 | 1 | timber |
+| E-0021 | Cottage of Rose the tinker | house | 2925.2 | 1192.5 | 24.8 | 339° | 13.5 x 8.4 | 6.5 | hip 3.8 | 2 | wattle |
+| E-0022 | Cottage of Martin the parchmenter | house | 2938.2 | 1186.0 | 24.6 | 339° | 9.9 x 8.1 | 6.5 | gable 4.5 | 2 | wattle |
+| E-0023 | Cottage of Juliana the juggler | house | 2955.3 | 1178.8 | 24.2 | 339° | 8.9 x 7.1 | 6.5 | hip 3.2 | 2 | timber |
+| E-0024 | Cottage of Piers the saddler | house | 2967.1 | 1175.6 | 23.9 | 339° | 9.8 x 8.6 | 6.5 | hip 3.9 | 2 | timber |
+| E-0025 | Cottage of Jordan the minstrel | house | 3001.3 | 1160.3 | 23.3 | 336° | 13.8 x 7.1 | 6.5 | gable 3.9 | 2 | wattle |
+| E-0026 | Cottage of Elena the cobbler | house | 3032.3 | 1145.5 | 22.7 | 331° | 9.8 x 7.6 | 3.4 | gable 4.2 | 1 | wattle |
+| E-0027 | Cottage of Avice the vintner | house | 3056.5 | 1128.6 | 22.3 | 327° | 10.6 x 8.0 | 6.5 | gable 4.4 | 2 | wattle |
+| E-0028 | Cottage of Gilbert the mason | house | 3072.4 | 1122.8 | 22.1 | 325° | 9.3 x 9.5 | 6.5 | hip 4.2 | 2 | wattle |
+| E-0029 | Cottage of Edith the potter | house | 2923.5 | 1166.0 | 25.2 | 159° | 12.4 x 7.1 | 6.5 | gable 3.9 | 2 | timber |
+| E-0030 | Cottage of Isabel the notary | house | 2953.1 | 1156.0 | 24.4 | 159° | 12.6 x 7.9 | 6.5 | gable 4.3 | 2 | timber |
+| E-0031 | Cottage of Laurence the parchmenter | house | 2997.2 | 1137.9 | 23.7 | 155° | 13.4 x 9.8 | 6.5 | hip 4.4 | 2 | wattle |
+| E-0032 | Cottage of Piers the wheelwright | house | 3012.8 | 1125.9 | 23.4 | 152° | 8.6 x 10.0 | 6.5 | gable 4.7 | 2 | timber |
+| E-0033 | Cottage of Odo the cartographer | house | 3040.9 | 1113.1 | 22.9 | 148° | 10.3 x 9.8 | 6.5 | hip 4.4 | 2 | timber |
+| E-0034 | Cottage of Nicholas the furrier | house | 3066.0 | 1093.9 | 22.7 | 144° | 11.2 x 9.3 | 3.4 | hip 4.2 | 1 | timber |
+| E-0035 | Cottage of Godwin the shipwright | house | 2896.2 | 1224.1 | 25.5 | 101° | 9.4 x 9.7 | 3.4 | gable 5.2 | 1 | timber |
+| E-0036 | Cottage of Felice the minstrel | house | 2914.9 | 1205.8 | 25.1 | 273° | 9.7 x 7.5 | 6.5 | gable 4.1 | 2 | timber |
+| E-0037 | Cottage of Sybil the cobbler | house | 2916.8 | 1225.8 | 25.0 | 281° | 12.6 x 8.8 | 3.4 | gable 4.8 | 1 | timber |
+| E-0038 | Cottage of Jordan the pie-seller | house | 2893.5 | 1145.7 | 26.0 | 88° | 9.3 x 9.5 | 3.4 | hip 4.2 | 1 | timber |
+| E-0039 | Cottage of Ida the notary | house | 2897.2 | 1125.7 | 26.3 | 108° | 8.1 x 7.1 | 3.4 | gable 3.9 | 1 | wattle |
+| E-0040 | Cottage of Ralph the fletcher | house | 2909.4 | 1108.4 | 26.2 | 140° | 11.1 x 8.1 | 3.4 | hip 3.7 | 1 | timber |
+| E-0041 | Cottage of Robin the parchmenter | house | 2970.2 | 1221.0 | 23.5 | 102° | 8.3 x 9.6 | 3.4 | gable 4.6 | 1 | timber |
+| E-0042 | Cottage of Elena the fuller | house | 2951.7 | 1239.7 | 24.1 | 133° | 11.7 x 7.9 | 6.5 | gable 4.3 | 2 | timber |
+| E-0043 | Cottage of Piers the fuller | house | 2941.3 | 1252.8 | 24.4 | 139° | 13.6 x 9.1 | 3.4 | gable 5.0 | 1 | wattle |
+| E-0044 | Cottage of Roger the scribe | house | 2995.3 | 1194.3 | 23.3 | 273° | 9.9 x 9.9 | 6.5 | gable 5.5 | 2 | timber |
+| E-0045 | Cottage of Walter the butcher | house | 2957.9 | 1265.8 | 24.2 | 319° | 9.0 x 10.0 | 3.4 | hip 4.0 | 1 | wattle |
+| E-0046 | Cottage of Osbert the apothecary | house | 2880.0 | 1102.7 | 26.9 | 142° | 11.5 x 7.8 | 3.4 | gable 4.3 | 1 | timber |
+| E-0047 | Cottage of Adam the fletcher | house | 2869.8 | 1134.9 | 26.7 | 325° | 12.3 x 9.9 | 3.4 | gable 5.5 | 1 | timber |
+| E-0048 | Cottage of Felice the limner | house | 3072.1 | 1030.1 | 23.5 | 238° | 13.4 x 8.8 | 6.5 | gable 4.8 | 2 | wattle |
+| E-0049 | Cottage of Petronilla the tanner | house | 3057.8 | 1044.3 | 23.6 | 58° | 9.9 x 9.5 | 3.4 | gable 5.2 | 1 | wattle |
+| E-0050 | Cottage of Ralph the shipwright | house | 3037.3 | 1015.4 | 24.3 | 43° | 9.8 x 8.8 | 6.5 | gable 4.9 | 2 | wattle |
+| E-0051 | Cottage of Cecily the fletcher | house | 2980.9 | 1143.2 | 24.0 | 226° | 11.2 x 9.6 | 3.4 | gable 5.3 | 1 | timber |
+| E-0052 | Cottage of Cecily the bellfounder | house | 2924.4 | 1094.2 | 26.0 | 229° | 12.8 x 7.4 | 6.5 | gable 4.1 | 2 | wattle |
+| E-0053 | Cottage of Isabel the draper | house | 2912.7 | 1080.2 | 26.4 | 229° | 8.9 x 8.9 | 3.4 | gable 4.9 | 1 | timber |
+| E-0054 | Cottage of Martin the furrier | house | 2897.2 | 1070.2 | 27.0 | 222° | 9.5 x 7.5 | 3.4 | gable 4.1 | 1 | wattle |
+| E-0055 | Cottage of Walter the furrier | house | 2941.5 | 1133.2 | 25.1 | 50° | 10.5 x 8.0 | 3.4 | gable 4.4 | 1 | wattle |
+| E-0056 | Cottage of Adam the potter | house | 3019.0 | 1092.0 | 23.7 | 83° | 9.3 x 9.4 | 6.5 | gable 5.1 | 2 | timber |
+| E-0057 | Cottage of Hob the butcher | house | 3019.2 | 1059.5 | 24.3 | 99° | 10.9 x 8.0 | 6.5 | hip 3.6 | 2 | wattle |
+| E-0058 | Cottage of Robin the tailor | house | 3021.8 | 1042.3 | 24.4 | 101° | 13.6 x 7.7 | 6.5 | gable 4.3 | 2 | wattle |
+| E-0059 | Cottage of Wat the astrologer | house | 3048.3 | 1149.7 | 22.6 | 52° | 8.0 x 7.1 | 3.4 | gable 3.9 | 1 | timber |
+| E-0060 | Cottage of Ivetta the chandler | house | 3072.2 | 1146.7 | 22.3 | 229° | 12.1 x 9.6 | 3.4 | gable 5.3 | 1 | timber |
+| E-0061 | Cottage of Agnes the stonecarver | house | 2960.1 | 1129.7 | 24.8 | 129° | 8.2 x 7.1 | 3.4 | gable 3.9 | 1 | timber |
+| E-0062 | Cottage of Ralph the barber-surgeon | house | 2993.8 | 1106.4 | 24.1 | 168° | 10.0 x 10.0 | 3.4 | gable 5.5 | 1 | timber |
+| E-0063 | Cottage of Beatrice the cobbler | house | 3008.2 | 1180.8 | 23.1 | 351° | 8.4 x 8.0 | 6.5 | hip 3.6 | 2 | wattle |
+| E-0064 | Cottage of Hawise the wheelwright | house | 3019.1 | 1175.0 | 22.9 | 343° | 8.1 x 7.5 | 6.5 | gable 4.1 | 2 | timber |
+
+## Lantern Point (34 buildings)
+
+31 house, 2 church, 1 tower
+
+| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
+|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
+| L-0001 | Lantern Point Light | tower | 3490.0 | 3170.0 | 39.5 | 0° | round, 14.0 across | 28.0 | crenel 0.0 | 1 | stone |
+| L-0002 | Church of St. Swithin | church | 3200.0 | 3080.0 | 24.2 | 0° | 24.0 x 11.0 | 13.0 | gable 6.0 | 1 | stone |
+| L-0003 | Church of St. Swithin (tower) | church | 3184.0 | 3080.0 | 24.2 | 0° | 8.0 x 8.0 | 22.0 | crenel 14.0 | 4 | stone |
+| L-0004 | Cottage of Henry the ropemaker | house | 3160.7 | 2992.3 | 23.4 | 50° | 9.6 x 9.6 | 6.5 | hip 4.3 | 2 | timber |
+| L-0005 | Cottage of Stephen the vintner | house | 3174.1 | 3005.2 | 23.5 | 50° | 11.5 x 8.1 | 6.5 | hip 3.7 | 2 | wattle |
+| L-0006 | Cottage of Christiana the baker | house | 3272.0 | 3111.1 | 25.2 | 40° | 9.1 x 9.4 | 6.5 | gable 5.0 | 2 | timber |
+| L-0007 | Cottage of Henry the pie-seller | house | 3234.8 | 3041.9 | 23.9 | 228° | 10.7 x 9.9 | 3.4 | gable 5.4 | 1 | timber |
+| L-0008 | Cottage of Isabel the cheesemonger | house | 3280.8 | 3086.0 | 25.1 | 221° | 8.9 x 10.0 | 3.4 | hip 4.0 | 1 | wattle |
+| L-0009 | Cottage of Hugh the minstrel | house | 3291.9 | 3097.8 | 25.3 | 220° | 12.3 x 7.2 | 6.5 | gable 3.9 | 2 | wattle |
+| L-0010 | Cottage of Isabel the clockmaker | house | 3310.1 | 3141.8 | 25.5 | 172° | 10.2 x 9.9 | 6.5 | gable 5.4 | 2 | timber |
+| L-0011 | Cottage of Osbert the brewer | house | 3242.2 | 3166.3 | 24.6 | 138° | 13.6 x 9.3 | 3.4 | gable 5.1 | 1 | timber |
+| L-0012 | Cottage of Hawise the minstrel | house | 3227.1 | 3176.2 | 24.4 | 159° | 11.4 x 8.5 | 3.4 | gable 4.7 | 1 | wattle |
+| L-0013 | Cottage of Margery the money-changer | house | 3292.3 | 3166.3 | 24.6 | 356° | 9.1 x 7.8 | 6.5 | hip 3.5 | 2 | timber |
+| L-0014 | Cottage of Juliana the bookbinder | house | 3217.4 | 3115.6 | 24.5 | 116° | 12.8 x 8.0 | 6.5 | gable 4.4 | 2 | timber |
+| L-0015 | Cottage of Alan the weaver | house | 3245.8 | 3106.2 | 24.8 | 303° | 11.9 x 7.3 | 6.5 | gable 4.0 | 2 | timber |
+| L-0016 | Cottage of Margery the clockmaker | house | 3217.8 | 3165.2 | 24.4 | 302° | 11.5 x 8.9 | 6.5 | gable 4.9 | 2 | timber |
+| L-0017 | Cottage of Margery the juggler | house | 3322.2 | 3117.1 | 25.8 | 113° | 13.6 x 8.2 | 6.5 | gable 4.5 | 2 | wattle |
+| L-0018 | Cottage of Richard the herbalist | house | 3331.6 | 3101.1 | 25.8 | 137° | 10.1 x 8.7 | 3.4 | gable 4.8 | 1 | wattle |
+| L-0019 | Cottage of Walter the barber-surgeon | house | 3229.8 | 2987.8 | 23.3 | 336° | 9.9 x 8.5 | 6.5 | gable 4.7 | 2 | wattle |
+| L-0020 | Cottage of Edith the potter | house | 3208.1 | 2976.7 | 23.1 | 147° | 8.4 x 7.6 | 3.4 | gable 4.2 | 1 | timber |
+| L-0021 | Cottage of Laurence the sailmaker | house | 3225.0 | 2971.8 | 23.1 | 156° | 12.4 x 8.1 | 3.4 | gable 4.5 | 1 | wattle |
+| L-0022 | Cottage of Petronilla the astrologer | house | 3277.7 | 3067.0 | 24.6 | 310° | 11.1 x 7.3 | 3.4 | gable 4.0 | 1 | wattle |
+| L-0023 | Cottage of Laurence the goldsmith | house | 3307.4 | 3022.1 | 23.6 | 309° | 11.5 x 8.5 | 6.5 | gable 4.7 | 2 | timber |
+| L-0024 | Cottage of Maud the saddler | house | 3266.2 | 3048.4 | 24.2 | 124° | 13.9 x 8.8 | 3.4 | hip 4.0 | 1 | wattle |
+| L-0025 | Cottage of Henry the tailor | house | 3277.9 | 3031.2 | 23.9 | 119° | 13.8 x 7.4 | 3.4 | hip 3.3 | 1 | wattle |
+| L-0026 | Cottage of Godwin the furrier | house | 3295.5 | 3003.4 | 23.4 | 110° | 13.7 x 7.8 | 6.5 | gable 4.3 | 2 | wattle |
+| L-0027 | Cottage of Roger the candlemaker | house | 3310.7 | 3113.6 | 25.6 | 199° | 9.9 x 7.3 | 6.5 | gable 4.0 | 2 | timber |
+| L-0028 | Cottage of Agnes the baker | house | 3234.3 | 3012.5 | 23.6 | 308° | 10.3 x 7.1 | 6.5 | gable 3.9 | 2 | wattle |
+| L-0029 | Cottage of Roger the goldsmith | house | 3177.8 | 3040.1 | 23.9 | 127° | 13.9 x 7.3 | 6.5 | gable 4.0 | 2 | timber |
+| L-0030 | Cottage of Alan the bowyer | house | 3162.1 | 3075.2 | 23.9 | 116° | 11.7 x 7.9 | 6.5 | gable 4.3 | 2 | wattle |
+| L-0031 | Cottage of Jordan the astrologer | house | 3156.8 | 3094.9 | 23.9 | 110° | 13.1 x 8.0 | 3.4 | hip 3.6 | 1 | wattle |
+| L-0032 | Cottage of Odo the stonecarver | house | 3172.7 | 3097.3 | 24.2 | 298° | 9.5 x 7.8 | 6.5 | gable 4.3 | 2 | timber |
+| L-0033 | Cottage of Juliana the stonecarver | house | 3307.1 | 3164.7 | 24.8 | 116° | 8.6 x 9.5 | 6.5 | gable 4.8 | 2 | wattle |
+| L-0034 | Cottage of Alan the cheesemonger | house | 3332.8 | 3140.3 | 27.3 | 288° | 10.8 x 9.5 | 3.4 | gable 5.2 | 1 | wattle |
+
+## Bridges & mills (18 buildings)
+
+16 shop, 2 watermill
+
+| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
+|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
+| R-0001 | Bridge house of Richard the lute-maker | shop | 1711.5 | 1776.0 | 41.8 | 90° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0002 | Bridge house of Geoffrey the limner | shop | 1728.5 | 1776.0 | 41.8 | 270° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0003 | Bridge house of Martin the apothecary | shop | 1711.5 | 1784.2 | 41.8 | 90° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0004 | Bridge house of Piers the carpenter | shop | 1728.5 | 1784.2 | 41.8 | 270° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0005 | Bridge house of Rose the saddler | shop | 1711.5 | 1792.4 | 41.8 | 90° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0006 | Bridge house of Amice the potter | shop | 1728.5 | 1792.4 | 41.8 | 270° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0007 | Bridge house of Margery the minstrel | shop | 1711.5 | 1800.6 | 41.8 | 90° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0008 | Bridge house of Nicholas the notary | shop | 1728.5 | 1800.6 | 41.8 | 270° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0009 | Bridge house of Hawise the astrologer | shop | 1711.5 | 1808.8 | 41.8 | 90° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0010 | Bridge house of Ida the chandler | shop | 1728.5 | 1808.8 | 41.8 | 270° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0011 | Bridge house of Wat the bowyer | shop | 1711.5 | 1817.0 | 41.8 | 90° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0012 | Bridge house of Hob the barber-surgeon | shop | 1728.5 | 1817.0 | 41.8 | 270° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0013 | Bridge house of Laurence the pewterer | shop | 1711.5 | 1825.2 | 41.8 | 90° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0014 | Bridge house of Piers the brewer | shop | 1728.5 | 1825.2 | 41.8 | 270° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0015 | Bridge house of Christiana the hatter | shop | 1711.5 | 1833.4 | 41.8 | 90° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0016 | Bridge house of Richard the clockmaker | shop | 1728.5 | 1833.4 | 41.8 | 270° | 8.0 x 7.0 | 9.0 | gable 3.9 | 3 | timber |
+| R-0017 | West Bridge Mill 1 | watermill | 1407.0 | 1820.0 | 47.7 | 90° | 10.0 x 9.0 | 7.0 | gable 5.0 | 1 | timber |
+| R-0018 | West Bridge Mill 2 | watermill | 1407.0 | 1864.0 | 47.7 | 90° | 10.0 x 9.0 | 7.0 | gable 5.0 | 1 | timber |
+
+## Outside the walls (59 buildings)
+
+18 farmhouse, 8 cloister, 7 windmill, 5 stables, 4 hospital, 3 charcoal, 2 stage, 2 stand, 2 chapel, 2 church, 2 tower, 1 workshop, 1 saltworks, 1 lodge, 1 winery
+
+| ID | Name | Type | x | y | z | Facing | W x D (m) | Wall | Roof | Floors | Material |
+|---|---|---|---:|---:|---:|---:|---|---:|---|---:|---|
+| X-0001 | Horse lines | stables | 720.0 | 2350.0 | 58.9 | 0° | 40.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0002 | Horse lines | stables | 780.0 | 2350.0 | 57.3 | 0° | 40.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0003 | Horse lines | stables | 840.0 | 2350.0 | 56.1 | 0° | 40.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0004 | Horse lines | stables | 900.0 | 2350.0 | 55.3 | 0° | 40.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0005 | Horse lines | stables | 960.0 | 2350.0 | 54.3 | 0° | 40.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0006 | Siege engine workshop | workshop | 1000.0 | 2030.0 | 48.8 | 0° | 50.0 x 18.0 | 10.0 | gable 9.9 | 1 | timber |
+| X-0007 | Fair stage 1 | stage | 1860.0 | 2900.0 | 37.7 | 180° | 16.0 x 10.0 | 3.0 | flat 0.0 | 1 | timber |
+| X-0008 | Fair stage 2 | stage | 2000.0 | 2910.0 | 36.0 | 180° | 16.0 x 10.0 | 3.0 | flat 0.0 | 1 | timber |
+| X-0009 | Tiltyard stand | stand | 1950.0 | 2798.0 | 36.7 | 180° | 120.0 x 8.0 | 4.0 | flat 0.0 | 1 | timber |
+| X-0010 | Tiltyard stand | stand | 1950.0 | 2842.0 | 36.8 | 0° | 120.0 x 8.0 | 4.0 | flat 0.0 | 1 | timber |
+| X-0011 | Cemetery chapel | chapel | 1275.0 | 2615.0 | 45.8 | 0° | 18.0 x 9.0 | 9.0 | gable 5.0 | 1 | stone |
+| X-0012 | Whitecross Abbey cloister (front range) | cloister | 2300.0 | 2905.5 | 30.2 | 0° | 70.0 x 11.0 | 10.0 | gable 6.0 | 2 | stone |
+| X-0013 | Whitecross Abbey cloister (back range) | cloister | 2300.0 | 2954.5 | 30.2 | 180° | 70.0 x 11.0 | 10.0 | gable 6.0 | 2 | stone |
+| X-0014 | Whitecross Abbey cloister (west range) | cloister | 2270.5 | 2930.0 | 30.6 | 270° | 38.0 x 11.0 | 10.0 | gable 6.0 | 2 | stone |
+| X-0015 | Whitecross Abbey cloister (east range) | cloister | 2329.5 | 2930.0 | 30.1 | 90° | 38.0 x 11.0 | 10.0 | gable 6.0 | 2 | stone |
+| X-0016 | Whitecross Abbey church | church | 2300.0 | 2880.0 | 29.8 | 0° | 110.0 x 20.0 | 22.0 | gable 11.0 | 1 | stone |
+| X-0017 | Whitecross Abbey tower | tower | 2330.0 | 2880.0 | 29.9 | 0° | round, 18.0 across | 40.0 | cone 16.2 | 1 | stone |
+| X-0018 | Leper House of St. Lazarus (front range) | hospital | 2550.0 | 2838.0 | 27.1 | 0° | 40.0 x 8.0 | 6.0 | gable 4.4 | 1 | stone |
+| X-0019 | Leper House of St. Lazarus (back range) | hospital | 2550.0 | 2862.0 | 27.0 | 180° | 40.0 x 8.0 | 6.0 | gable 4.4 | 1 | stone |
+| X-0020 | Leper House of St. Lazarus (west range) | hospital | 2534.0 | 2850.0 | 27.8 | 270° | 16.0 x 8.0 | 6.0 | gable 4.4 | 1 | stone |
+| X-0021 | Leper House of St. Lazarus (east range) | hospital | 2566.0 | 2850.0 | 27.0 | 90° | 16.0 x 8.0 | 6.0 | gable 4.4 | 1 | stone |
+| X-0022 | Hermit's chapel | chapel | 700.0 | 2600.0 | 119.8 | 60° | 10.0 x 6.0 | 6.0 | gable 3.3 | 1 | stone |
+| X-0023 | Salt house | saltworks | 3030.0 | 2740.0 | 22.9 | 0° | 26.0 x 12.0 | 6.0 | gable 6.6 | 1 | timber |
+| X-0024 | Down windmill 1 | windmill | 1650.0 | 3480.0 | 69.1 | 180° | 7.0 x 7.0 | 10.0 | gable 3.9 | 1 | timber |
+| X-0025 | Down windmill 2 | windmill | 1800.0 | 3450.0 | 67.4 | 180° | 7.0 x 7.0 | 10.0 | gable 3.9 | 1 | timber |
+| X-0026 | Down windmill 3 | windmill | 1950.0 | 3520.0 | 59.1 | 180° | 7.0 x 7.0 | 10.0 | gable 3.9 | 1 | timber |
+| X-0027 | Down windmill 4 | windmill | 2100.0 | 3470.0 | 46.9 | 180° | 7.0 x 7.0 | 10.0 | gable 3.9 | 1 | timber |
+| X-0028 | Farm of Cecily | farmhouse | 1000.0 | 3350.0 | 58.0 | 0° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0029 | Farm of Jordan | farmhouse | 1040.0 | 3350.0 | 58.2 | 0° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0030 | Farm of Thomas | farmhouse | 1080.0 | 3350.0 | 57.7 | 90° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0031 | Farm of Godwin | farmhouse | 1000.0 | 3395.0 | 58.3 | 0° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0032 | Farm of Alan | farmhouse | 1040.0 | 3395.0 | 57.9 | 0° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0033 | Farm of Ida | farmhouse | 1080.0 | 3395.0 | 57.8 | 90° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0034 | Farm of Mabel | farmhouse | 2000.0 | 3900.0 | 37.2 | 0° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0035 | Farm of Robin | farmhouse | 2040.0 | 3900.0 | 36.7 | 90° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0036 | Farm of Walter | farmhouse | 2080.0 | 3900.0 | 35.6 | 0° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0037 | Farm of Alan | farmhouse | 2000.0 | 3945.0 | 37.2 | 0° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0038 | Farm of Mabel | farmhouse | 2040.0 | 3945.0 | 36.0 | 0° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0039 | Farm of Alan | farmhouse | 2080.0 | 3945.0 | 35.0 | 90° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0040 | Farm of Emma | farmhouse | 2700.0 | 3450.0 | 25.0 | 90° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0041 | Farm of Sybil | farmhouse | 2740.0 | 3450.0 | 24.8 | 90° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0042 | Farm of Henry | farmhouse | 2780.0 | 3450.0 | 24.2 | 90° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0043 | Farm of Adam | farmhouse | 2700.0 | 3495.0 | 25.5 | 90° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0044 | Farm of Juliana | farmhouse | 2740.0 | 3495.0 | 25.1 | 90° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0045 | Farm of Edith | farmhouse | 2780.0 | 3495.0 | 24.3 | 0° | 16.0 x 8.0 | 4.0 | gable 4.4 | 1 | timber |
+| X-0046 | Mere Abbey (front range) | cloister | 764.2 | 1075.9 | 60.2 | 10° | 70.0 x 11.0 | 10.0 | gable 6.0 | 2 | stone |
+| X-0047 | Mere Abbey (back range) | cloister | 755.8 | 1124.1 | 61.1 | 190° | 70.0 x 11.0 | 10.0 | gable 6.0 | 2 | stone |
+| X-0048 | Mere Abbey (west range) | cloister | 731.0 | 1094.9 | 64.4 | 280° | 38.0 x 11.0 | 10.0 | gable 6.0 | 2 | stone |
+| X-0049 | Mere Abbey (east range) | cloister | 789.0 | 1105.1 | 60.5 | 100° | 38.0 x 11.0 | 10.0 | gable 6.0 | 2 | stone |
+| X-0050 | Mere Abbey church | church | 760.0 | 1050.0 | 58.9 | 10° | 90.0 x 18.0 | 20.0 | gable 9.9 | 1 | stone |
+| X-0051 | Royal Hunting Lodge | lodge | 820.0 | 240.0 | 138.8 | 180° | 26.0 x 12.0 | 9.0 | hip 5.4 | 2 | timber |
+| X-0052 | Hill windmill 1 | windmill | 1000.0 | 470.0 | 136.3 | 180° | 7.0 x 7.0 | 10.0 | gable 3.9 | 1 | timber |
+| X-0053 | Hill windmill 2 | windmill | 1550.0 | 450.0 | 136.5 | 180° | 7.0 x 7.0 | 10.0 | gable 3.9 | 1 | timber |
+| X-0054 | Hill windmill 3 | windmill | 2050.0 | 520.0 | 104.8 | 180° | 7.0 x 7.0 | 10.0 | gable 3.9 | 1 | timber |
+| X-0055 | Charcoal burners' hut | charcoal | 400.0 | 600.0 | 155.5 | 0° | 5.0 x 4.0 | 2.5 | gable 2.2 | 1 | wattle |
+| X-0056 | Charcoal burners' hut | charcoal | 430.0 | 620.0 | 141.1 | 0° | 5.0 x 4.0 | 2.5 | gable 2.2 | 1 | wattle |
+| X-0057 | Charcoal burners' hut | charcoal | 460.0 | 640.0 | 127.4 | 0° | 5.0 x 4.0 | 2.5 | gable 2.2 | 1 | wattle |
+| X-0058 | Wine press house | winery | 2300.0 | 970.0 | 36.1 | 0° | 24.0 x 12.0 | 7.0 | gable 6.6 | 1 | stone |
+| X-0059 | Gull Rock Sea Fort | tower | 3720.0 | 2300.0 | 23.8 | 0° | round, 32.0 across | 22.0 | crenel 0.0 | 1 | stone |
