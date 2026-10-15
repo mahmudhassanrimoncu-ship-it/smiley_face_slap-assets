@@ -1,0 +1,3 @@
+viewer/*.glb
+viewer/*.png
+__pycache__/

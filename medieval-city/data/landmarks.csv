@@ -1,0 +1,38 @@
+n,name,x,y,desc
+1,Crownhold,1024.0,420.0,"A giant concentric castle on the crag: two rings of walls, 24 towers, 46 m keep."
+2,The Crown Tower,1024.0,392.0,"The 46 m great keep, seven storeys, seat of the Crown."
+3,Great Hall of the Kings,958.0,398.0,Where the court feasts and the king hears petitions.
+4,The Crowning Stone,1024.0,505.0,A prehistoric stone carried up from the henge: every monarch is crowned on it.
+5,King's Gate,1024.0,548.0,Great gatehouse with twin 30 m drum towers and a walled barbican.
+6,City wall & seven gates,194.0,1070.0,"46 towers, seven gatehouses and two water gates where the River Wend passes under chains."
+7,The Hallowstones,1024.0,905.0,"A 420 m henge, 4,000 years older than the city: ditch, bank and 150 standing stones."
+8,The Cove,1024.0,850.0,Three giant stones at the heart of the North Circle; oaths are sworn here.
+9,The Obelisk,1024.0,963.0,"The tallest stone of the South Circle, the city's midsummer sundial."
+10,The Serpent Avenue,1400,1040,Two rows of stones winding 600 m from the henge to the river.
+11,Wardenhouse - YOUR HOUSE,787.1974595619511,818.8109238819316,"Home of The Warden of the Stones, keeper of the ancient stones. Start here."
+12,The Giant's Barrow,470,770,"A 120 m chambered long barrow, the tomb of the 'giant' the city's tales remember."
+13,The Druids' Row,630,780,Thirteen stones in a dead-straight line pointing at the midwinter sunrise.
+14,The Three Kings' Table,620,985,A portal tomb on the Minster lawn; three kings' bones are said to lie beneath.
+15,The Field of Mounds,1200.0,1680.0,Seven Bronze Age burial mounds kept as a public meadow.
+16,The Grand Market,1024,1195,"A 260 x 120 m square with 150 stalls, fountains and the Needle at its heart."
+17,The Needle,1024,1195,A 9 m prehistoric menhir left standing in the market: deals are sealed by touching it.
+18,The Cloth Hall & Belfry,1188,1195,"Vast cloth market with an 84 m belfry, the tallest tower in the city."
+19,The Great Guildhall,860,1195,Seat of the city council and the twelve great guilds.
+20,The King's Column,1024,645,"A 32 m column topped by the first king, facing the stones he swore to protect."
+21,Haymarket,720,663,Carters and hay wains from the northern farms.
+22,Fish Market,1290,1283,Fresh catch straight off the boats at King's Quay.
+23,Corn Market,1024,1530,"Grain market on the south bank, by the Old Bridge."
+24,The Old Bridge,1024,1352,A 150 m stone bridge of 19 arches carrying 28 shops and houses and a chapel.
+25,Mill Bridge,801.2212862383988,1343.2913851878673,Seven arches with three corn mills hung off its side.
+26,King's Quay,1400,1290,"Warehouses, treadwheel cranes and sea-going cogs on the River Wend."
+27,Stonehallow Minster,705,1040,"Gothic cathedral 200 m long; its spire reaches 120 m, the tallest thing in the realm."
+28,The Queen's Maze,1300.0,525.0,A 60 m hedge maze; at its heart a sundial stone.
+29,The Queen's Gardens,1375,520,"Royal pleasure gardens: parterres, ponds, lime avenues and the summer palace."
+30,King's Park,520.0,790.0,"Ancient woodland kept wild inside the walls, with deer, a mere and the barrow."
+31,Collegium of the Seven Stars,490.0,1410.0,"Two colleges, a great library and the Physic Garden of healing herbs."
+32,Hospital of St. Brigid,1315.0,1607.5,"Infirmary, almshouse and herb garden run by the Brigidine sisters."
+33,Whitecross Abbey,790.0,1625.0,Benedictine abbey whose monks first wrote down the legends of the stones.
+34,Greyfriars,360.0,917.5,A friary of preaching brothers.
+35,Blackfriars,1680.0,1202.5,A friary of preaching brothers.
+36,Cattle Fair,1955,990,Livestock fair outside the gate every Thursday.
+37,Horse Fair,95,990,Livestock fair outside the gate every Thursday.

@@ -38,3 +38,14 @@ A complete 2 km × 2 km medieval valley in real metres: a moated hilltop castle 
 - `medieval-world/terrain/`: 16-bit heightmaps (1 px = 1 m) and 8 ground-cover masks
 - `medieval-world/data/`: every building, tree, road, wall, field and landmark (JSON, CSV, catalogue)
 - Rebuild after renaming places in `src/config.py`: `python3 medieval-world/build.py` (needs numpy and Pillow)
+
+---
+
+# Stonehallow – a crowded medieval city around preserved prehistoric stones
+
+![Stonehallow master site plan](medieval-city/blueprints/01_master_site_plan.png)
+
+A 2 km × 2 km walled medieval city of 4,437 buildings and 3,400 named residents, built around **the Hallowstones**, a 4,000-year-old henge with a ditch, a bank and about 150 standing stones that the city has preserved in its centre. It also has a giant concentric castle on a crag, a 120 m cathedral spire, a cloth hall and belfry, guildhalls, 13 parish churches, the Grand Market and four smaller markets, an inhabited bridge, quays with ships, royal gardens with a hedge maze, woodland inside the walls, and forests on the hills. A stone avenue, a long barrow, a dolmen, burial mounds and a menhir in the market complete the prehistoric heritage.
+
+**[Start here → `medieval-city/README.md`](medieval-city/README.md)**: blueprints, a 3D blockout (`.glb`), heightmaps, ground masks and full data, with steps for Blender, Unreal, Unity and Godot. Rebuild with `python3 medieval-city/build.py`.
+
