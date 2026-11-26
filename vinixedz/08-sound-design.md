@@ -4,7 +4,7 @@
 
 Every sound in the rendered video is **original**. It was synthesised from scratch by [`tools/audio.py`](tools/audio.py) using numpy oscillators, filtered noise and a convolution reverb built from generated impulses. No samples, loops or third-party audio were used, so there is nothing to license. Re-running the script reproduces the same audio.
 
-Deliverables (in `vinixedz/build/` after running `post.py`):
+Deliverables (in `vinixedz/build/` after running `post.py`; compressed copies `music_stem.m4a` and `sfx_stem.m4a` are committed):
 - `music.wav`: music stem
 - `sfx.wav`: sound-effects stem
 - `mix.wav`: the combined track muxed into the MP4

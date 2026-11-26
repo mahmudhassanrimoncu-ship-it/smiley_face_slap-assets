@@ -103,6 +103,22 @@ print('storyboard ok')
 # ---------------------------------------------------------------- footage list
 ft = (Path(__file__).parent / 'footage_template.md').read_text()
 slots = ROOT / 'vinixedz/build/footage_slots.md'
-ft = ft.replace('{{SLOTS}}', slots.read_text() if slots.exists() else '_Run post.py to generate the slot table._')
+# slots that are created hidden and revealed on a later sentence
+SLOT_LINE = {'H01': ('s04_history', 1), 'H02': ('s04_history', 3), 'H03': ('s04_history', 6),
+             'C01': ('s08_creators', 1), 'C02': ('s08_creators', 3), 'C03': ('s08_creators', 5),
+             'C04': ('s08_creators', 6), 'C05': ('s08_creators', 7), 'C06': ('s08_creators', 8)}
+table = slots.read_text() if slots.exists() else '_Run post.py to generate the slot table._'
+if timing and slots.exists():
+    rows = []
+    for row in table.splitlines():
+        cells = row.split('|')
+        if len(cells) > 3 and cells[1].strip() in SLOT_LINE:
+            sid, li = SLOT_LINE[cells[1].strip()]
+            at = next((x['start'] for x in timing[sid]['lines'] if x['i'] == li), cells[2].strip())
+            cells[2] = f' {at} '
+            row = '|'.join(cells)
+        rows.append(row)
+    table = '\n'.join(rows) + '\n'
+ft = ft.replace('{{SLOTS}}', table)
 (OUT / '07-footage-and-archival.md').write_text(ft)
 print('footage ok')

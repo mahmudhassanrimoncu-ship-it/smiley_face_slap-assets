@@ -5,7 +5,7 @@ They are written for natural reading, not for any particular speed. Record freel
 picture or the subtitles to your take. Labels in brackets are **not** read aloud; they show which
 evidence label appears on screen with that sentence.
 
-## Cold open — the swipe
+## Cold open — the swipe  ·  (00:00.00–00:49.90)
 
 1. On a phone screen, a new edit has a fraction of a second to justify itself.
 2. YouTube even measures it: for every Short, creators can see how many people viewed it, and how many swiped away. _[VERIFIED [1]]_
@@ -16,11 +16,11 @@ evidence label appears on screen with that sentence.
 7. This documentary tests that explanation instead of assuming it.
 8. Did editing evolve so far that the old standard of excellence stopped being enough?
 
-## Title
+## Title  ·  (00:49.90–01:01.30)
 
 9. Or did the stage itself change underneath everyone?
 
-## Chapter 01: The Question
+## Chapter 01: The Question  ·  (01:01.30–02:00.63)
 
 10. The world of fan edits is enormous, and almost all of it is made by individuals.
 11. Football highlights, film characters, anime, nostalgia: cut to music, packed with effects, built to be rewatched.
@@ -31,7 +31,7 @@ evidence label appears on screen with that sentence.
 16. Verified means we can point to a source. Observed means you can see it in the work, but nobody has measured it.
 17. Hypothesis means a reasoned explanation we have not proven. Speculation means exactly that.
 
-## Chapter 02: Before The Feed
+## Chapter 02: Before The Feed  ·  (02:00.63–03:06.30)
 
 18. Fan editing is older than YouTube.
 19. Anime music videos, or AMVs, were already circulating in fan communities in the 1990s, cut together on home computers. _[VERIFIED [2]]_
@@ -43,7 +43,7 @@ evidence label appears on screen with that sentence.
 25. And tutorials turned techniques that once took years to discover into lessons anyone could follow. _[OBSERVED]_
 26. This was the widescreen era: horizontal video, longer montages, and audiences who found edits through search and subscriptions. _[OBSERVED]_
 
-## Chapter 03: The Vertical Turn
+## Chapter 03: The Vertical Turn  ·  (03:06.30–04:08.30)
 
 27. Then the screen stood upright.
 28. Short vertical video exploded, and serious editing moved onto the phone.
@@ -56,7 +56,7 @@ evidence label appears on screen with that sentence.
 35. The editors who mastered that grammar did something important: they made it the shared language of the community. _[OBSERVED]_
 36. Everything that came next was built on top of it.
 
-## Chapter 04: The Old Grammar
+## Chapter 04: The Old Grammar  ·  (04:08.30–05:12.10)
 
 37. So let's look at how that grammar actually works.
 38. A velocity edit is a time remap: the clip's speed changes inside the shot, not between shots.
@@ -68,7 +68,7 @@ evidence label appears on screen with that sentence.
 44. But notice what it mostly transforms: time and motion, rather than the image itself. _[HYPOTHESIS]_
 45. That distinction matters for what happened next.
 
-## Chapter 05: Money And The Swipe
+## Chapter 05: Money And The Swipe  ·  (05:12.10–06:20.47)
 
 46. Before looking at the new editors, look at the platform they grew up on.
 47. On the 1st of February 2023, YouTube began sharing advertising revenue from Shorts with creators in its Partner Program. _[VERIFIED [12][13]]_
@@ -81,7 +81,7 @@ evidence label appears on screen with that sentence.
 54. But the direction is clear: an enormous, paid, swipe-driven stage for short edits.
 55. A stage like this may reward something specific: the first second, and a reason to watch again. _[HYPOTHESIS]_
 
-## Chapter 06: The New Generation
+## Chapter 06: The New Generation  ·  (06:20.47–07:49.20)
 
 56. Now, the six channels.
 57. BroxEditZ calls itself 'That One Football Editor', and says it edits with After Effects and Topaz's AI video enhancer. _[VERIFIED [19][20]]_
@@ -96,7 +96,7 @@ evidence label appears on screen with that sentence.
 66. And four of them name the same tool besides After Effects: Topaz, an AI video upscaler. _[VERIFIED [19][22][25][27]]_
 67. That suggests a shared workflow: source clips are cleaned and sharpened before anything is layered on top. _[HYPOTHESIS]_
 
-## Chapter 07: Anatomy Of A Modern Edit
+## Chapter 07: Anatomy Of A Modern Edit  ·  (07:49.20–09:14.07)
 
 68. What does a modern, high-density edit actually contain?
 69. Here is a generic example, built for this film. It is not taken from any creator. _[NOTE]_
@@ -111,7 +111,7 @@ evidence label appears on screen with that sentence.
 78. This is the real shift: the edit is no longer only cutting footage. It is building new images out of it. _[HYPOTHESIS]_
 79. That takes compositing, masking, 3D, typography and timing: skills from very different disciplines.
 
-## Chapter 08: Same Problem, Two Answers
+## Chapter 08: Same Problem, Two Answers  ·  (09:14.07–10:19.57)
 
 80. To make the difference concrete, give two approaches the same problem: get from shot A to shot B on a drop in the music.
 81. Approach one: a speed ramp into a zoom, a flash on the beat, and a shake on landing.
@@ -122,7 +122,7 @@ evidence label appears on screen with that sentence.
 86. Neither approach is wrong. But the second needs far more planning, and it is much harder to copy. _[HYPOTHESIS]_
 87. These are generic demonstrations. We are not claiming that any of the six channels uses these exact techniques. _[NOTE]_
 
-## Chapter 09: The Numbers And Their Limits
+## Chapter 09: The Numbers And Their Limits  ·  (10:19.57–11:45.97)
 
 88. So, do the numbers show the new generation winning?
 89. The honest answer is that the public numbers are messier than they look.
@@ -136,7 +136,7 @@ evidence label appears on screen with that sentence.
 97. To show that complex editing causes growth, you would need to compare many channels, upload by upload, controlling for subject, timing and frequency.
 98. No one has published that study. For now, it remains a hypothesis. _[HYPOTHESIS]_
 
-## Chapter 10: Why The Landscape Changed
+## Chapter 10: Why The Landscape Changed  ·  (11:45.97–13:26.10)
 
 99. If complexity alone cannot explain the shift, what can?
 100. Here are five explanations. Each one is a hypothesis with supporting evidence, not a proven fact. _[HYPOTHESIS]_
@@ -153,7 +153,7 @@ evidence label appears on screen with that sentence.
 111. The new generation did not only edit better. They edited for a different stage, about subjects with huge audiences, in styles that became recognisable brands. _[HYPOTHESIS]_
 112. Complexity is part of the story. It may not be the whole story.
 
-## Chapter 11: The Floor And The Ceiling
+## Chapter 11: The Floor And The Ceiling  ·  (13:26.10–14:31.33)
 
 113. This creates a strange paradox about the barrier to entry.
 114. The floor has never been lower. A phone app and a free preset can produce a convincing velocity edit. _[OBSERVED]_
@@ -165,7 +165,7 @@ evidence label appears on screen with that sentence.
 120. A drop in engagement can reflect format changes, recommendation shifts, upload pauses or audience fatigue, not only quality. _[HYPOTHESIS]_
 121. Without each channel's own analytics, no outsider can say which of those applies.
 
-## Chapter 12: What Comes Next
+## Chapter 12: What Comes Next  ·  (14:31.33–15:13.23)
 
 122. So where does editing go from here?
 123. In June 2025, YouTube said it would bring Google's Veo 3 video-generation model into Shorts. _[VERIFIED [18]]_
@@ -174,7 +174,7 @@ evidence label appears on screen with that sentence.
 126. The scarce resource could shift again, from effects to taste: the choice of moment, music and meaning. _[SPECULATION]_
 127. The next generation might be defined not by how many layers they stack, but by what they choose to leave out. _[SPECULATION]_
 
-## Conclusion
+## Conclusion  ·  (15:13.23–16:05.53)
 
 128. So, did editing evolve so far that the old standard stopped being enough?
 129. Partly, yes. The craft genuinely expanded, from manipulating time to constructing images.

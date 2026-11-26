@@ -13,7 +13,7 @@ A long-form, investigative motion-graphics documentary (about 16 minutes, 1920×
 | 3 | Final title, alternative titles, thumbnail direction | [`03-script-and-storyboard.md`](03-script-and-storyboard.md) (top) |
 | 4 | Full documentary script | [`03-script-and-storyboard.md`](03-script-and-storyboard.md) |
 | 5 | Complete narration text | [`04-narration.md`](04-narration.md) |
-| 6 | Bottom-subtitle text, sentence by sentence (plus timed SRT) | [`05-subtitles.md`](05-subtitles.md), [`05-subtitles.srt`](05-subtitles.srt) |
+| 6 | Bottom-subtitle text, sentence by sentence (plus timed SRT matching the render) | [`05-subtitles.md`](05-subtitles.md), [`05-subtitles.srt`](05-subtitles.srt) |
 | 7 | Scene-by-scene storyboard | [`03-script-and-storyboard.md`](03-script-and-storyboard.md) |
 | 8 | Motion-graphics instructions for every scene | [`03-script-and-storyboard.md`](03-script-and-storyboard.md) |
 | 9 | Animation and transition descriptions | [`03-script-and-storyboard.md`](03-script-and-storyboard.md) |
@@ -23,7 +23,7 @@ A long-form, investigative motion-graphics documentary (about 16 minutes, 1920×
 | 13 | Estimated duration of each scene | [`03-script-and-storyboard.md`](03-script-and-storyboard.md) (measured from the render), `build/timing.json` |
 | 14 | Editing and production workflow | [`09-production-workflow.md`](09-production-workflow.md) |
 | — | Rendered documentary (music, SFX, subtitle placeholders, footage slots) | [`../video/vinixedz-the-standard-moved.mp4`](../video/vinixedz-the-standard-moved.mp4) |
-| — | Audio stems (music / sfx / mix) | `build/music.wav`, `build/sfx.wav`, `build/mix.wav` (regenerate with `tools/post.py`) |
+| — | Audio stems (original music / sound effects) | [`build/music_stem.m4a`](build/music_stem.m4a), [`build/sfx_stem.m4a`](build/sfx_stem.m4a). Full-quality WAVs are regenerated locally by `tools/post.py` |
 
 ## The short version of what the research found
 
