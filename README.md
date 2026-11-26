@@ -1,3 +1,12 @@
+# Projects in this repository
+
+| Project | Editor URL (after `npm start`) | Output |
+|---|---|---|
+| **VINIXEDZ: "The Standard Moved"**, a documentary on the new generation of video editors | `http://localhost:9000/src/vinixedz` | [`video/vinixedz-the-standard-moved.mp4`](video/vinixedz-the-standard-moved.mp4), plus the full research and production package in [`vinixedz/`](vinixedz/README.md) |
+| How a Refrigerator Works (explainer) | `http://localhost:9000/src/project` | [`video/how-a-refrigerator-works.mp4`](video/how-a-refrigerator-works.mp4) |
+
+---
+
 # How a Refrigerator Works – animated explainer
 
 An ~11.5-minute animated lesson built with [Canvas Commons](https://canvascommons.io/) that explains the vapour-compression refrigeration cycle, with built-in "pause & think" quizzes and a final 6-question test.
